@@ -1,0 +1,25 @@
+# llm-wiki .gitignore
+
+# Vendor-derivative PDFs — must NEVER live in any git repo
+# Per workspace-hub spinout 2026-05-05, vendor PDFs archive lives at /mnt/ace
+wikis/**/raw/papers/*.pdf
+**/raw/papers/*.pdf
+
+# Pipeline checkpoint state (workspace-hub-internal — should not migrate)
+**/.checkpoint.jsonl
+
+# OS / editor scratch
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python (defensive — this repo has no code today, but the upstream gitignore did)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
