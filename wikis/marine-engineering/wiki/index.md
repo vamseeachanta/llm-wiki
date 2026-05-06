@@ -8,6 +8,9 @@ source_count: 19166
 
 # Knowledge Index: Marine Engineering
 
+> Faceted navigation: [Domain portal](portal.md) (generated 2026-05-06).
+
+
 *Auto-generated. Updated by LLM during ingest operations.*
 
 ## Entities
