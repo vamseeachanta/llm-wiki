@@ -2277,3 +2277,7 @@
 - Titles (sample): Elements ingest catalog — digitalmodel-s, Elements ingest catalog — digitalmodel-r
 - Pages created: wiki/sources/<slug>.md for each record
 - Index updated: wiki/index.md
+## [2026-05-06] ingest | Marine P1 standards/concept backfill (#17)
+- Pages created: wiki/standards/TEMPLATE.md, wiki/concepts/motions-rao.md, wiki/concepts/station-keeping.md, wiki/concepts/dynamic-positioning.md, wiki/concepts/spread-mooring.md.
+- Pages updated: wiki/index.md.
+- Notes: Public-synthesis/navigation backfill only. No raw PDFs, private paths, vendor standards text, clauses, tables, formulas, or source archive content copied.

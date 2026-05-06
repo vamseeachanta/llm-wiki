@@ -1,8 +1,8 @@
 ---
 domain: marine-engineering
 created: 2026-04-07 02:15 UTC
-last_updated: 2026-04-28
-page_count: 19197
+last_updated: 2026-05-06
+page_count: 19202
 source_count: 19166
 ---
 
@@ -33,20 +33,24 @@ source_count: 19166
 | [[Pipeline Integrity]](entities/pipeline-integrity.md) | Pipeline integrity — DNV RP-F101, API 579 fitness-for-service | 2026-04-09 |
 | [[Separator]](entities/separator.md) | Production separators — 2-phase and 3-phase vessel design | 2026-04-07 |
 
-## Concepts
+## Concepts (18 pages)
 
 | Page | Summary | Last Updated |
 |------|---------|-------------|
 | [[Cathodic Protection System]](concepts/cathodic-protection-system.md) | Galvanic and ICCP systems — design per DNV-RP-B401 | 2026-04-07 |
 | [[Coating Breakdown Factor]](concepts/coating-breakdown.md) | Degradation factor in CP design life — zone-specific tables | 2026-04-07 |
 | [[Corrosion Control]](concepts/corrosion-control.md) | CP, coatings, materials, inhibitors — multi-method strategy | 2026-04-07 |
+| [[Dynamic Positioning]](concepts/dynamic-positioning.md) | Active station-keeping using thrusters, controls, sensors, power, and operating limits | 2026-05-06 |
 | [[FSRU Marine Terminal Interface]](concepts/fsru-marine-terminal-interface.md) | Floating storage and regasification terminal interface — mooring, transfer, and shore integration as one marine system | 2026-04-23 |
 | [[LNG Berth Operability]](concepts/lng-berth-operability.md) | LNG berth uptime framing — metocean, motions, transfer limits, and cargo interruption criteria | 2026-04-23 |
 | [[LNG Marine Terminal Engineering]](concepts/lng-marine-terminal-engineering.md) | Berth, jetty, transfer, operability, and ship/shore interface engineering for LNG terminals | 2026-04-23 |
 | [[LNG Transfer System Envelope]](concepts/lng-transfer-system-envelope.md) | Ship/shore motion and geometry compatibility envelope for LNG loading arms or hoses | 2026-04-23 |
 | [[Long-Period Swell & Resonance]](concepts/long-period-swell-resonance.md) | 50mm swell can part mooring lines — infragravity wave physics | 2026-04-07 |
 | [[Mooring Line Failure]](concepts/mooring-line-failure.md) | HMPE failures, snap-back, 10+ terminal incidents | 2026-04-07 |
+| [[Motions and Response Amplitude Operators]](concepts/motions-rao.md) | RAO and vessel-motion navigation page for seakeeping, operability, station-keeping, and solver handoff checks | 2026-05-06 |
 | [[Process Safety]](concepts/process-safety.md) | HAZOP, SIS, SIS, flare, relief — protection layers | 2026-04-07 |
+| [[Spread Mooring]](concepts/spread-mooring.md) | Passive station-keeping by multi-line mooring geometry, pretension, restoring force, and anchor capacity | 2026-05-06 |
+| [[Station-Keeping]](concepts/station-keeping.md) | Floating-system position and heading control across moorings, thrusters, environmental loads, and operating limits | 2026-05-06 |
 | [[Sour Service]](concepts/sour-service.md) | H2S environments — SSC, HIC, SOHIC, NACE MR0175 | 2026-04-07 |
 | [[Subsea Cable and Umbilical Cross-Sections]](concepts/subsea-cable-umbilical-cross-sections.md) | Offshore wind cable, O&G umbilical, pipeline, and flexible-pipe cross-section taxonomy | 2026-04-26 |
 | [[Suction Pile Preliminary Sizing with API p-y/t-z Curves]](concepts/suction-pile-preliminary-sizing-api-py-tz.md) | Preliminary suction pile sizing pattern using API p-y/t-z curves, rigid-body rotation, and Newton iteration | 2026-04-28 |
@@ -71,6 +75,12 @@ source_count: 19166
 | Page | Summary | Last Updated |
 |------|---------|-------------|
 | [[Offshore Wind and Oil & Gas Cross-Section Assessment]](comparisons/offshore-wind-oil-gas-cross-section-assessment.md) | Prioritized comparison of offshore wind cable, O&G umbilical, rigid pipeline, and flexible-pipe cross-section modeling needs | 2026-04-26 |
+
+## Standards
+
+| Page | Summary | Last Updated |
+|------|---------|-------------|
+| [[Standards Page Template]](standards/TEMPLATE.md) | Metadata-only template for future marine-engineering standards resolver pages | 2026-05-06 |
 
 ## Topics Covered
 
@@ -21622,4 +21632,3 @@ source_count: 19166
 | [[SIGTTO Mooring at Single Point Moorings]](sources/sigtto-mooring-single-point-moorings.md) | SIGTTO guidance on mooring operations at single point moorings (SPMs) for gas carriers. Covers appro... | 2026-04-16 |
 | [[Elements ingest catalog — digitalmodel-suction-pile-sizing]](sources/elements-digitalmodel-suction-pile-sizing.md) | Suction pile sizing reference corpus from the Elements drive; small, high-value offshore foundation... | 2026-04-28 |
 | [[Elements ingest catalog — digitalmodel-riser-toolbox]](sources/elements-digitalmodel-riser-toolbox.md) | Riser Toolbox reference corpus from the Elements drive; small, high-value riser/offshore methodology... | 2026-04-28 |
-
