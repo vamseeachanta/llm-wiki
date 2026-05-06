@@ -19,9 +19,9 @@ Generated faceted entry point for the `marine-engineering` wiki. It complements,
 
 | Facet | Pages |
 |---|---|
-| Concepts | 14 |
-| Entities | 15 |
-| Standards | 0 |
+| Concepts | 19 |
+| Entities | 22 |
+| Standards | 1 |
 | Sources | 19,166 |
 | Comparisons | 1 |
 | Workflows | 0 |
@@ -38,17 +38,21 @@ Generated faceted entry point for the `marine-engineering` wiki. It complements,
 - [Cathodic Protection System](concepts/cathodic-protection-system.md)
 - [Coating Breakdown Factor](concepts/coating-breakdown.md)
 - [Corrosion Control](concepts/corrosion-control.md)
+- [Dynamic Positioning](concepts/dynamic-positioning.md)
 - [FSRU Marine Terminal Interface](concepts/fsru-marine-terminal-interface.md)
 - [LNG Berth Operability](concepts/lng-berth-operability.md)
 - [LNG Marine Terminal Engineering](concepts/lng-marine-terminal-engineering.md)
 - [LNG Transfer System Envelope](concepts/lng-transfer-system-envelope.md)
 - [Long-Period Swell & Resonance Amplification](concepts/long-period-swell-resonance.md)
 - [Mooring Line Failure](concepts/mooring-line-failure.md)
+- [Motions and Response Amplitude Operators](concepts/motions-rao.md)
 - [Process Safety](concepts/process-safety.md)
 - [Riser extreme statistics from OrcaFlex workbooks](concepts/riser-extreme-statistics-orcaflex-workbooks.md)
 - [Sour Service](concepts/sour-service.md)
+- [Spread Mooring](concepts/spread-mooring.md)
+- [Stability in Waves](concepts/stability-in-waves.md)
+- [Station-Keeping](concepts/station-keeping.md)
 - [Subsea Cable and Umbilical Cross-Sections](concepts/subsea-cable-umbilical-cross-sections.md)
-- [Suction pile preliminary sizing with API p-y/t-z curves](concepts/suction-pile-preliminary-sizing-api-py-tz.md)
 
 ## Entity hubs
 
@@ -60,13 +64,20 @@ Generated faceted entry point for the `marine-engineering` wiki. It complements,
 - [Energy Economics](entities/energy-economics.md)
 - [FEA Structural Analysis](entities/fea-structural-analysis.md)
 - [Flange (Piping)](entities/flange.md)
+- [FLNG](entities/flng.md)
 - [Float Collar](entities/float-collar.md)
 - [Float Shoe](entities/float-shoe.md)
+- [FPSO](entities/fpso.md)
 - [Gasket](entities/gasket.md)
+- [Jack-Up](entities/jack-up.md)
+- [Jacket Platform](entities/jacket.md)
 - [LNG Carrier Mooring System](entities/lng-carrier-mooring.md)
 - [OrcaFlex VIV Analysis](entities/orcaflex-viv-analysis.md)
 - [Pipeline Integrity Assessment](entities/pipeline-integrity.md)
-- [Separator (Production)](entities/separator.md)
+
+## Standards
+
+- [STANDARD TITLE — bounded public metadata summary](standards/TEMPLATE.md)
 
 ## Comparisons
 
