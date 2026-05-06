@@ -2,7 +2,7 @@
 domain: marine-engineering
 created: 2026-04-07 02:15 UTC
 last_updated: 2026-05-06
-page_count: 19202
+page_count: 19209
 source_count: 19166
 ---
 
@@ -13,7 +13,7 @@ source_count: 19166
 
 *Auto-generated. Updated by LLM during ingest operations.*
 
-## Entities
+## Entities (22 pages)
 
 | Page | Summary | Last Updated |
 |------|---------|-------------|
@@ -25,15 +25,22 @@ source_count: 19166
 | [[Energy Economics]](entities/energy-economics.md) | Field development economics — NPV, Arps decline, fiscal regimes | 2026-04-09 |
 | [[FEA Structural Analysis]](entities/fea-structural-analysis.md) | FEA — meshing, boundary conditions, convergence, fatigue | 2026-04-09 |
 | [[Flange]](entities/flange.md) | Piping connector — WN, SO, blind, SW, threaded types | 2026-04-07 |
+| [[FLNG]](entities/flng.md) | Floating LNG production, storage, and export unit coupling process systems, station-keeping, and transfer operability | 2026-05-06 |
 | [[Float Collar]](entities/float-collar.md) | Cementing tool — check valve, aluminum construction, PDC drill-out | 2026-04-07 |
 | [[Float Shoe]](entities/float-shoe.md) | Bottom casing tool — guide + valve, rounded/wedge nose | 2026-04-07 |
+| [[FPSO]](entities/fpso.md) | Floating production, storage, and offloading unit linking hull, station-keeping, risers, processing, storage, and export | 2026-05-06 |
 | [[Gasket]](entities/gasket.md) | Flange sealing element — RTJ, spiral wound, sheet types | 2026-04-07 |
+| [[Jacket Platform]](entities/jacket.md) | Fixed tubular offshore platform with piles, bracing, topsides, risers, and fatigue/corrosion interfaces | 2026-05-06 |
+| [[Jack-Up]](entities/jack-up.md) | Mobile offshore unit with extendable legs, elevated operating mode, and site-specific geotechnical/marine-operation checks | 2026-05-06 |
 | [[LNG Carrier Mooring]](entities/lng-carrier-mooring.md) | LNG terminal mooring — KGP, South Hook, Prelude FLNG | 2026-04-07 |
 | [[OrcaFlex VIV Analysis]](entities/orcaflex-viv-analysis.md) | OrcaFlex VIV — riser fatigue, wake interference, S-N curves | 2026-04-09 |
 | [[Pipeline Integrity]](entities/pipeline-integrity.md) | Pipeline integrity — DNV RP-F101, API 579 fitness-for-service | 2026-04-09 |
+| [[Semisubmersible]](entities/semisubmersible.md) | Column-and-pontoon floating offshore unit for drilling, production, construction, accommodation, and marine operations | 2026-05-06 |
 | [[Separator]](entities/separator.md) | Production separators — 2-phase and 3-phase vessel design | 2026-04-07 |
+| [[Spar]](entities/spar.md) | Deep-draft floating offshore platform for deepwater production, risers, and station-keeping-sensitive operations | 2026-05-06 |
+| [[Tension-Leg Platform]](entities/tlp.md) | Floating offshore platform restrained by vertical tendons, with coupled tendon, hull, foundation, and riser response | 2026-05-06 |
 
-## Concepts (18 pages)
+## Concepts (19 pages)
 
 | Page | Summary | Last Updated |
 |------|---------|-------------|
@@ -51,6 +58,7 @@ source_count: 19166
 | [[Process Safety]](concepts/process-safety.md) | HAZOP, SIS, SIS, flare, relief — protection layers | 2026-04-07 |
 | [[Spread Mooring]](concepts/spread-mooring.md) | Passive station-keeping by multi-line mooring geometry, pretension, restoring force, and anchor capacity | 2026-05-06 |
 | [[Station-Keeping]](concepts/station-keeping.md) | Floating-system position and heading control across moorings, thrusters, environmental loads, and operating limits | 2026-05-06 |
+| [[Stability in Waves]](concepts/stability-in-waves.md) | Wave-condition stability and operability navigation across hydrostatics, seakeeping, motions, and floating-system limits | 2026-05-06 |
 | [[Sour Service]](concepts/sour-service.md) | H2S environments — SSC, HIC, SOHIC, NACE MR0175 | 2026-04-07 |
 | [[Subsea Cable and Umbilical Cross-Sections]](concepts/subsea-cable-umbilical-cross-sections.md) | Offshore wind cable, O&G umbilical, pipeline, and flexible-pipe cross-section taxonomy | 2026-04-26 |
 | [[Suction Pile Preliminary Sizing with API p-y/t-z Curves]](concepts/suction-pile-preliminary-sizing-api-py-tz.md) | Preliminary suction pile sizing pattern using API p-y/t-z curves, rigid-body rotation, and Newton iteration | 2026-04-28 |
@@ -91,6 +99,7 @@ source_count: 19166
 - **FEA & Structural**: meshing, convergence, boundary conditions, fatigue hot-spot stress
 - **Mooring Engineering**: long-period swell resonance, HMPE failures, LNG terminal incidents
 - **LNG Marine Terminals**: berth/jetty engineering, ship/shore transfer interface, bunkering, STS, and terminal operability
+- **Floating Units and Platforms**: FPSO, FLNG, semisubmersible, spar, TLP, jack-up, and jacket platform entity coverage
 - **Pipeline Integrity**: DNV RP-F101, API 579, corrosion assessment, fitness-for-service
 - **Subsea Cross-Sections**: offshore wind array/export cables, O&G umbilicals, rigid pipelines, flexible-pipe layer taxonomy
 - **Piping**: flanges, gaskets, fittings, pressure ratings

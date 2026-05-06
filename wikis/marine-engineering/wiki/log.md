@@ -2281,3 +2281,7 @@
 - Pages created: wiki/standards/TEMPLATE.md, wiki/concepts/motions-rao.md, wiki/concepts/station-keeping.md, wiki/concepts/dynamic-positioning.md, wiki/concepts/spread-mooring.md.
 - Pages updated: wiki/index.md.
 - Notes: Public-synthesis/navigation backfill only. No raw PDFs, private paths, vendor standards text, clauses, tables, formulas, or source archive content copied.
+## [2026-05-06] ingest | Marine P2 platform entities and overview refresh (#18)
+- Pages created: wiki/concepts/stability-in-waves.md; wiki/entities/fpso.md, flng.md, semisubmersible.md, spar.md, jack-up.md, tlp.md, jacket.md.
+- Pages updated: wiki/index.md, wiki/overview.md.
+- Notes: Public-synthesis/navigation backfill based on committed repo content. Overview counts refreshed from committed markdown files. No raw PDFs, private paths, vendor standards text, project specifications, clauses, tables, formulas, or source archive content copied.
