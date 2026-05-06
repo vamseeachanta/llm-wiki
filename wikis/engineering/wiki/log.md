@@ -102,3 +102,7 @@
 - Pages created: 7 source pointers and 8 curated concept shells.
 - Standards resolver: `engineering-standards/wiki/standards/api-17e.md` public-metadata-only stub.
 - Source of record: `/mnt/ace/doris/training`; no raw training decks, figures, full text, OCR output, or standards excerpts copied.
+## [2026-05-06] ingest | Classification society entity backfill (#16)
+- Pages created: entities/dnv.md, entities/abs.md, entities/lr.md, entities/bv.md.
+- Pages updated: index.md.
+- Notes: Public-synthesis entity anchors only. No raw PDFs, private paths, vendor rule text, clauses, tables, formulas, or standards excerpts copied.

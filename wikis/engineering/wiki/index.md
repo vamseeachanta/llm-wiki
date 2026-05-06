@@ -1,8 +1,8 @@
 ---
 domain: engineering
 created: 2026-04-08 16:07 UTC
-last_updated: 2026-05-03
-page_count: 103
+last_updated: 2026-05-06
+page_count: 107
 source_count: 16
 ---
 
@@ -71,24 +71,28 @@ source_count: 16
 | [VIV Riser Fatigue](concepts/viv-riser-fatigue.md) | OrcaFlex VIV analysis, current discretisation, wake interference | 2026-04-08 |
 | [Wave Theory for Offshore Engineering](concepts/wave-theory-offshore.md) | JONSWAP spectra, wave statistics, long-period swell, extreme values | 2026-04-09 |
 
-## Entities (22 pages)
+## Entities (26 pages)
 
 | Page | Summary | Last Updated |
 |------|---------|-------------|
 | [AQWA Solver](entities/aqwa-solver.md) | ANSYS AQWA hydrodynamic diffraction solver — DAT/LIS format | 2026-04-08 |
+| [American Bureau of Shipping](entities/abs.md) | Classification society and standards publisher anchor for ABS offshore, vessel, FPSO, riser, fatigue, and CP references | 2026-05-06 |
 | [BEMRosetta Tool](entities/bemrosetta-tool.md) | CLI mesh conversion tool wrapping Nemoh | 2026-04-08 |
+| [Bureau Veritas](entities/bv.md) | Classification society anchor for BV ship/offshore rules metadata and future public standards routing | 2026-05-06 |
 | [CadQuery](entities/cadquery.md) | Python B-rep parametric CAD (OpenCASCADE, STEP) — candidate for digitalmodel / CAD-DEVELOPMENTS | 2026-04-17 |
 | [Claude Code](entities/claude-code.md) | Anthropic CLI — default orchestrator for all workspace-hub work | 2026-04-08 |
 | [Codex CLI](entities/codex-cli.md) | OpenAI CLI — default adversarial reviewer | 2026-04-08 |
 | [Compliance Dashboard](entities/compliance-dashboard.md) | Automated review compliance tracking from commit history | 2026-04-08 |
 | [Diffraction Analysis System](entities/diffraction-analysis-system.md) | Unified AQWA/OrcaWave/BEMRosetta diffraction workflow and schemas | 2026-04-09 |
 | [digitalmodel](entities/digitalmodel.md) | Core engineering Python repo — 30 packages, 1587 files, 2085 classes | 2026-04-08 |
+| [DNV](entities/dnv.md) | Classification society and assurance organization anchor for DNV offshore, pipeline, mooring, riser, and CP references | 2026-05-06 |
 | [Elba Island LNG Mooring Incident](entities/elba-island-mooring-incident.md) | 2006 passing-vessel wake breakaway — $35M remediation | 2026-04-09 |
 | [Gemini CLI](entities/gemini-cli.md) | Google CLI — optional third reviewer for complex work | 2026-04-08 |
 | [GSD Framework](entities/gsd-framework.md) | "Get Stuff Done" workflow framework — sole workflow since 2026-03-25 | 2026-04-08 |
 | [Hermes](entities/hermes.md) | Multi-agent orchestration framework (v0.4.0) | 2026-04-08 |
 | [HMPE Mooring Line Failures](entities/hmpe-mooring-failures.md) | 2007-2011 industry-wide HMPE failures — ACF, jacketed rope, snap-back | 2026-04-09 |
 | [LLM Wiki Tool](entities/llm-wiki-tool.md) | CLI for building persistent LLM knowledge bases (Karpathy pattern) | 2026-04-08 |
+| [Lloyd's Register](entities/lr.md) | Classification society anchor for LR ship/offshore assurance and future public standards routing | 2026-05-06 |
 | [Mooring Analysis System](entities/mooring-analysis-system.md) | Station-keeping design — catenary, CALM/SALM, tension, fatigue, anchors | 2026-04-09 |
 | [Naval Architecture Skill](entities/naval-architecture-skill.md) | Physics causal chain — hydrostatics, stability, seakeeping, roll damping | 2026-04-09 |
 | [NW Shelf LNG Mooring Investigation](entities/nws-lng-mooring-investigation.md) | Woodside multi-year investigation — 50mm swell parting mooring lines | 2026-04-09 |
