@@ -5,6 +5,13 @@
 
 ---
 
+## [2026-05-07] author | Stress tendency analysis (slip / dilation)
+- Pages created: `concepts/stress-tendency-analysis.md`
+- Pages updated: `index.md` (concepts count 20→21).
+- Sources: primary literature — Morris et al. 1996 (Geology), Ferrill & Morris 2003 (J. Struct. Geol.), Anderson 1951 (Oliver & Boyd), Sibson 1985 (J. Struct. Geol.). No vendor-derivative content.
+- Provenance: promoted from `/mnt/ace/llm-wiki/docs/external-intel.md` (GeoSlipPro LinkedIn intel, 2026-05-07). First end-to-end exercise of the off-repo intel → published concept page promotion workflow per `project_llm_wiki_strategic_role` memory.
+- Notes: Concept page covers slip tendency Tₛ=τ/σ_n, dilation tendency Tₐ=(σ₁-σ_n)/(σ₁-σ₃), Andersonian regime classification, and Sibson's frictional reactivation criterion. Citations are author+year+journal; no asserted page numbers (deferred to verified source-stub pages). Source-stub at `sources/deepwater-geomechanics-model.md` flagged as legacy seam.
+
 ## [2026-04-28] deep-extraction | Elements suction pile and riser toolbox corpora (#2536)
 - Pages created: `sources/elements-suction-pile-sizing-deep-extraction.md`, `concepts/suction-pile-preliminary-sizing-api-py-tz.md`, `sources/elements-riser-toolbox-deep-extraction.md`, `concepts/riser-extreme-statistics-orcaflex-workbooks.md`.
 - Extraction artifacts: `.planning/intel/elements-deep-extraction/extracted-text/`, `workbook-summary.json`, and `workbooks/*.json`.

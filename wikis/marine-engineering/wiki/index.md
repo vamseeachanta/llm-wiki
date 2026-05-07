@@ -40,7 +40,7 @@ source_count: 19167
 | [[Spar]](entities/spar.md) | Deep-draft floating offshore platform for deepwater production, risers, and station-keeping-sensitive operations | 2026-05-06 |
 | [[Tension-Leg Platform]](entities/tlp.md) | Floating offshore platform restrained by vertical tendons, with coupled tendon, hull, foundation, and riser response | 2026-05-06 |
 
-## Concepts (20 pages)
+## Concepts (21 pages)
 
 | Page | Summary | Last Updated |
 |------|---------|-------------|
@@ -59,6 +59,7 @@ source_count: 19167
 | [[Spread Mooring]](concepts/spread-mooring.md) | Passive station-keeping by multi-line mooring geometry, pretension, restoring force, and anchor capacity | 2026-05-06 |
 | [[Station-Keeping]](concepts/station-keeping.md) | Floating-system position and heading control across moorings, thrusters, environmental loads, and operating limits | 2026-05-06 |
 | [[Stability in Waves]](concepts/stability-in-waves.md) | Wave-condition stability and operability navigation across hydrostatics, seakeeping, motions, and floating-system limits | 2026-05-06 |
+| [[Stress Tendency Analysis]](concepts/stress-tendency-analysis.md) | Slip and dilation tendency for fault reactivation under in-situ stress — geomechanics methodology with Andersonian regime context | 2026-05-07 |
 | [[Sour Service]](concepts/sour-service.md) | H2S environments — SSC, HIC, SOHIC, NACE MR0175 | 2026-04-07 |
 | [[Subsea Cable and Umbilical Cross-Sections]](concepts/subsea-cable-umbilical-cross-sections.md) | Offshore wind cable, O&G umbilical, pipeline, and flexible-pipe cross-section taxonomy | 2026-04-26 |
 | [[Suction Pile Preliminary Sizing with API p-y/t-z Curves]](concepts/suction-pile-preliminary-sizing-api-py-tz.md) | Preliminary suction pile sizing pattern using API p-y/t-z curves, rigid-body rotation, and Newton iteration | 2026-04-28 |
