@@ -5,6 +5,13 @@
 
 ---
 
+## [2026-05-07] author | Geomechanics primary-literature source stubs (4 papers)
+- Pages created: `sources/morris-ferrill-henderson-1996-slip-tendency.md`, `sources/ferrill-morris-2003-dilational-normal-faults.md`, `sources/sibson-1985-fault-reactivation.md`, `sources/anderson-1951-dynamics-of-faulting.md`.
+- Pages updated: `concepts/stress-tendency-analysis.md` (Primary References hyperlinked with verified bibliographic detail and DOI links), `index.md` (Sources table +4 rows).
+- Sources: bibliographic detail verified via Crossref REST API on 2026-05-07 for the three journal papers (DOI, volume, issue, pages confirmed). Anderson 1951 is a pre-DOI book reference; edition and publisher from standard library catalog record.
+- Provenance: completes the citation chain opened by the prior `[2026-05-07] author | Stress tendency analysis` entry — concept page now resolves each `morris-1996` / `ferrill-morris-2003` / `sibson-1985` / `anderson-1951` slug to a properly-cited source-stub page with `## Provenance` audit metadata.
+- Notes: Source pages follow the DNV-RP-B401 page model adapted for journal articles (frontmatter adds `authors`, `journal`, `volume`, `issue`, `pages`, `doi`, `type: journal-article`). Each carries a `## Provenance` section recording the verification source and retrieval date so downstream consumers can audit the bibliographic claim independently.
+
 ## [2026-05-07] author | Stress tendency analysis (slip / dilation)
 - Pages created: `concepts/stress-tendency-analysis.md`
 - Pages updated: `index.md` (concepts count 20→21).

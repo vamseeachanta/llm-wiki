@@ -135,18 +135,23 @@ Typical applications:
 
 ## Primary References
 
-- Anderson, E.M. (1951). *The Dynamics of Faulting and Dyke Formation*, 2nd
-  ed. Oliver & Boyd, Edinburgh. — canonical stress-regime / fault-style
-  classification.
-- Morris, A.P., Ferrill, D.A., & Henderson, D.B. (1996). "Slip-tendency
-  analysis and fault reactivation." *Geology*, vol. 24. — original slip
-  tendency formulation and reactivation interpretation.
-- Sibson, R.H. (1985). "A note on fault reactivation." *Journal of
-  Structural Geology*, vol. 7. — frictional reactivation criterion for
-  cohesionless pre-existing surfaces.
-- Ferrill, D.A. & Morris, A.P. (2003). "Dilational normal faults." *Journal
-  of Structural Geology*. — dilation tendency in normal-faulting regimes
-  and slip/dilation complementarity.
+- Anderson, E.M. (1951). [*The Dynamics of Faulting and Dyke Formation*, 2nd
+  ed.](../sources/anderson-1951-dynamics-of-faulting.md) Oliver & Boyd,
+  Edinburgh. — canonical stress-regime / fault-style classification.
+- Morris, A.P., Ferrill, D.A., & Henderson, D.B. (1996). ["Slip-tendency
+  analysis and fault reactivation."](../sources/morris-ferrill-henderson-1996-slip-tendency.md)
+  *Geology*, 24(3), 275-278.
+  doi:[10.1130/0091-7613(1996)024<0275:STAAFR>2.3.CO;2](https://doi.org/10.1130/0091-7613(1996)024%3C0275:STAAFR%3E2.3.CO;2)
+  — original slip tendency formulation and reactivation interpretation.
+- Sibson, R.H. (1985). ["A note on fault reactivation."](../sources/sibson-1985-fault-reactivation.md)
+  *Journal of Structural Geology*, 7(6), 751-754.
+  doi:[10.1016/0191-8141(85)90150-6](https://doi.org/10.1016/0191-8141(85)90150-6)
+  — frictional reactivation criterion for cohesionless pre-existing surfaces.
+- Ferrill, D.A. & Morris, A.P. (2003). ["Dilational normal faults."](../sources/ferrill-morris-2003-dilational-normal-faults.md)
+  *Journal of Structural Geology*, 25(2), 183-196.
+  doi:[10.1016/S0191-8141(02)00029-9](https://doi.org/10.1016/S0191-8141(02)00029-9)
+  — dilation tendency in normal-faulting regimes and slip/dilation
+  complementarity.
 
 ## Cross-References
 

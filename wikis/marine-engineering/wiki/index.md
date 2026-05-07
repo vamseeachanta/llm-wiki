@@ -80,6 +80,10 @@ source_count: 19167
 | [[Elements Riser Toolbox Deep Extraction]](sources/elements-riser-toolbox-deep-extraction.md) | First-pass extraction of OrcaFlex riser statistics workbooks for stress/tension envelopes and extreme fitting | Elements deep extraction | Link-only | 2026-04-28 |
 | [[RB122]](sources/rb122-float-equipment.md) | Float Equipment (Halliburton) | Product Catalog | 691 KB | 2026-04-07 |
 | [[Rötzer (2026) — Wave Shoaling and 3 m Threshold Caveat]](sources/rotzer-2026-wave-shoaling-depth-dependent.md) | Practitioner essay on why a single Hs operational threshold doesn't transfer across water depths — shoaling, breaking, depth-dependent loading | LinkedIn article | Web | 2026-05-07 |
+| [[Morris, Ferrill, Henderson (1996) — Slip-Tendency Analysis]](sources/morris-ferrill-henderson-1996-slip-tendency.md) | Foundational paper introducing slip tendency Tₛ = τ/σ_n as a quantitative fault-reactivation indicator (Geology 24:3) | Journal article | Web (DOI) | 2026-05-07 |
+| [[Ferrill & Morris (2003) — Dilational Normal Faults]](sources/ferrill-morris-2003-dilational-normal-faults.md) | Defines dilation tendency Tₐ and slip/dilation complementarity for fluid-pathway prediction (J. Struct. Geol. 25:2) | Journal article | Web (DOI) | 2026-05-07 |
+| [[Sibson (1985) — A Note on Fault Reactivation]](sources/sibson-1985-fault-reactivation.md) | Frictional reactivation criterion for cohesionless pre-existing faults under perturbed stress (J. Struct. Geol. 7:6) | Journal article | Web (DOI) | 2026-05-07 |
+| [[Anderson (1951) — The Dynamics of Faulting and Dyke Formation]](sources/anderson-1951-dynamics-of-faulting.md) | Canonical Andersonian classification of stress regimes and fault styles (Oliver & Boyd, Edinburgh, 2nd ed.) | Book | Pre-DOI | 2026-05-07 |
 
 ## Comparisons
 
