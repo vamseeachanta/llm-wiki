@@ -26,6 +26,12 @@
 - Pages updated: index.md.
 - Notes: Created source map, concept boundaries, and standards crosswalk for #2567 without implementing formulas or claiming compliance.
 
+## [2026-05-07] ingest | Sherwood (2026) — naval architect role and stakeholder listening
+- Processed: LinkedIn post by David Sherwood enumerating naval-architect core disciplines (arrangements/capacities, hydrodynamics, propulsion, stability, structural design), adjacent expertise (electrical, mechanical, HVAC, fitout, vessel ops, regs/compliance), and the stakeholder-listening practitioner thesis.
+- Pages created: sources/sherwood-2026-naval-architect-listening.md.
+- Pages updated: concepts/ship-design.md (added "Disciplines and adjacent expertise" section + Sherwood citation in frontmatter sources), index.md (page_count 71 -> 72, source_count 43 -> 44, new Sources row).
+- Notes: Article-type source, not a standard. Scope-of-discipline lens complementing the existing process-oriented ship-design page. URL preserved on the source page. Scope-of-discipline section grounded with public textbook references (Lamb 2003 SNAME ISBN 0-939773-40-6/41-4; Watson 1998 Elsevier Ocean Engineering Series Vol. 1 ISBN 978-0-08-042999-1) plus cross-links to existing in-wiki PNA series and Tupper Introduction to Naval Architecture sources. No vendor-derivative content reproduced.
+
 ## [2026-05-02] expand | naval-arch W1-D — 10 core concept pages (#2589)
 - Pages created: concepts/hull-form-geometry.md, concepts/intact-stability-criteria.md, concepts/damage-stability.md, concepts/ship-resistance-components.md, concepts/marine-propulsors.md, concepts/propeller-theory.md, concepts/wave-theory-and-spectra.md, concepts/ship-structural-strength.md, concepts/ship-weights-and-loading.md, entities/classification-societies.md.
 - Pages updated: concepts/resistance-propulsion.md (reduced to index/router per W1-D MAJOR-1), concepts/stability.md (criteria detail moved to sibling pages per W1-D MAJOR-2), index.md (concepts table + first entity row + page_count 61 -> 71).

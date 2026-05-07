@@ -1,9 +1,9 @@
 ---
 domain: naval-architecture
 created: 2026-04-07 10:35 UTC
-last_updated: 2026-05-02
-page_count: 71
-source_count: 43
+last_updated: 2026-05-07
+page_count: 72
+source_count: 44
 ---
 
 # Knowledge Index: Naval Architecture
@@ -64,6 +64,7 @@ source_count: 43
 | [Principles of Naval Architecture, Volume I — Stability and Strength](sources/principles-of-naval-architecture-volume-i-—-stability-and-s.md) | textbook | 29 MB | 2026-04-07 |
 | [Principles of Naval Architecture, Volume II — Resistance, Propulsion and Vibration (Internet Archive scan)](sources/principles-of-naval-architecture-volume-ii---resistance-propulsion-and-vibration.md) | textbook | 84 MB | 2026-04-07 |
 | [Principles of Naval Architecture, Volume II — Resistance, Propulsion and Vibration (Internet Archive scan)](sources/principles-of-naval-architecture-volume-ii-—-resistance-pr.md) | textbook | 84 MB | 2026-04-07 |
+| [Sherwood (2026) — Naval Architect Role and Stakeholder Listening](sources/sherwood-2026-naval-architect-listening.md) | article | — | 2026-05-07 |
 | [Ship Construction](sources/ship-construction.md) | textbook | 17 MB | 2026-04-07 |
 | [Ship Hydromechanics — Introduction](sources/ship-hydromechanics-—-introduction.md) | hydrostatics | 3.5 MB | 2026-04-07 |
 | [Ship Hydrostatics and Stability (2nd Edition)](sources/ship-hydrostatics-and-stability-2nd-edition.md) | hydrostatics | 10 MB | 2026-04-07 |
