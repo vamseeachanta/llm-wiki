@@ -23,3 +23,6 @@ venv/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+
+# Agent-context local-only scoping (added 2026-05-07 on nest-into-workspace-hub)
+.claude/
