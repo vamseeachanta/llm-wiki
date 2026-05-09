@@ -1,9 +1,9 @@
 ---
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
-last_updated: 2026-05-02
-page_count: 80
-source_count: 5
+last_updated: 2026-05-09
+page_count: 94
+source_count: 19
 ---
 
 # Knowledge Index: engineering-standards
@@ -20,20 +20,31 @@ _No concept pages yet._
 
 ## Sources
 
-_No sources ingested yet._
-
-## Comparisons
-
-_No query outputs filed yet._
-
 | Page | Summary | Last Updated |
 |------|---------|-------------|
-| [[Elements ingest catalog — doris-codes-specs]](sources/elements-doris-codes-specs.md) | Doris Codes and Specs corpus from Elements; large standards/specifications set requiring metadata-fi... | 2026-04-28 |
-
+| [[Elements ingest catalog — doris-codes-specs]](sources/elements-doris-codes-specs.md) | Doris Codes and Specs corpus from Elements; metadata-first pointer. | 2026-04-28 |
 | [[DORIS Codes and Specs faceted metadata index]](sources/doris-codes-specs-faceted-index.md) | Faceted pointer for the Elements DORIS codes/specs corpus. | 2026-04-29 |
 | [[DORIS TechStreet Drop metadata pointer]](sources/doris-techstreet-drop.md) | Licensed-aggregator drop: metadata-only existence pointer. | 2026-04-29 |
 | [[DORIS Company Specs metadata pointer]](sources/doris-company-specs.md) | Confidential company/client specifications bucket: metadata-only existence pointer. | 2026-04-29 |
 | [[DORIS DeepStar metadata pointer]](sources/doris-deepstar.md) | DeepStar/JIP deliverables bucket: metadata-only existence pointer. | 2026-04-29 |
+| [[O&G Standards catalog — ABS]](sources/og-standards-abs.md) | ABS publisher slice: 6 docs; offshore/FPSO classing rules. | 2026-05-09 |
+| [[O&G Standards catalog — API]](sources/og-standards-api.md) | API publisher slice: 574 docs (~2.59 GB), 1977-2016; largest publisher. | 2026-05-09 |
+| [[O&G Standards catalog — ASCE]](sources/og-standards-asce.md) | ASCE publisher slice: 32 token-matched docs; wind/seismic/COPRI-MRE. | 2026-05-09 |
+| [[O&G Standards catalog — ASME]](sources/og-standards-asme.md) | ASME publisher slice: 88 docs; BPVC, B31 piping, fitness-for-service. | 2026-05-09 |
+| [[O&G Standards catalog — BSI]](sources/og-standards-bsi.md) | BSI publisher slice: 80 docs; fracture/fatigue, subsea, drilling. | 2026-05-09 |
+| [[O&G Standards catalog — DNV]](sources/og-standards-dnv.md) | DNV publisher slice: 100 docs; offshore, pipelines, risers, mooring. | 2026-05-09 |
+| [[O&G Standards catalog — ISO]](sources/og-standards-iso.md) | ISO publisher slice: ~112 legit of 308 raw; 19900/13628/15156/14224. | 2026-05-09 |
+| [[O&G Standards catalog — minor publishers]](sources/og-standards-minor-publishers.md) | AWS/NEMA/MIL/NACE/IEC/HSE/Norsok/SNAME roll-up: 41 docs aggregate. | 2026-05-09 |
+| [[O&G Papers catalog — OnePetro]](sources/og-standards-onepetro.md) | OnePetro paper aggregator: 94 docs; OTC/SPE conference papers. | 2026-05-09 |
+| [[O&G Standards catalog — ASTM A-Series]](sources/og-standards-astm-a-series.md) | ASTM A (Iron & Steel): 2,147 docs across ~655 A-numbers, 1960-2008. | 2026-05-09 |
+| [[O&G Standards catalog — ASTM D-Series]](sources/og-standards-astm-d-series.md) | ASTM D (Petroleum/Polymers/Soils): 10,361 docs; largest single bucket. | 2026-05-09 |
+| [[O&G Standards catalog — ASTM E-Series]](sources/og-standards-astm-e-series.md) | ASTM E (Test Methods/NDE/Fracture): 3,531 docs; fracture/fatigue/NDE. | 2026-05-09 |
+| [[O&G Standards catalog — ASTM G-Series]](sources/og-standards-astm-g-series.md) | ASTM G (Corrosion): 316 docs (307 in-scope); CP, sour-service, EC. | 2026-05-09 |
+| [[O&G Standards catalog — ASTM top-level loose]](sources/og-standards-astm-top-level.md) | ASTM B/C/F/other loose: 9,136 docs not filed under A/D/E/G series. | 2026-05-09 |
+
+## Comparisons
+
+_No query outputs filed yet._
 
 ## Standards
 

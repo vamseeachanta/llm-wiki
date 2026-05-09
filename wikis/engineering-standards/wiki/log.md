@@ -15,3 +15,13 @@
 - Pages created: `sources/doris-codes-specs-faceted-index.md`, `sources/doris-techstreet-drop.md`, `sources/doris-company-specs.md`, `sources/doris-deepstar.md`.
 - Source of record: `/mnt/ace/doris/codes`; no raw standards text copied or extracted.
 - Notes: BV publisher stub deferred pending public revision/source/date evidence; #2534 cleanup remains blocked.
+
+## [2026-05-09] ingest | O&G-Standards catalog — 9 publisher pages (iter 8, parallelized)
+- Processed: /mnt/ace/O&G-Standards/_catalog.json (DNV, ABS, ASCE, ASME, BSI, API, ISO, OnePetro, minor-publishers bundle)
+- Pages created: sources/og-standards-{dnv,abs,asce,asme,bsi,api,iso,onepetro,minor-publishers}.md
+- Notes: Metadata-first ingest per vendor-PDF firewall; 5-of-5 agents flagged catalog organization-field gaps (ABS/ASCE/ASME/AWS/NACE/IEC/HSE missing from enum); 196 ISO entries misclassified as personal/legal docs
+
+## [2026-05-09] ingest | O&G-Standards ASTM 5-series (iter 9, parallelized)
+- Processed: /mnt/ace/O&G-Standards/ASTM/{A-Series,D-Series,E-Series,G-Series,top-level}/
+- Pages created: sources/og-standards-astm-{a-series,d-series,e-series,g-series,top-level}.md
+- Notes: 25,537 ASTM docs (largest publisher); A=2143, D=10361, E=3531, G=308, top-level=9136; OCR coverage <1%; 1,000+ misfiled docs across series boundaries
