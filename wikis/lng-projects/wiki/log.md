@@ -4,6 +4,11 @@
 > Chronological record of all wiki operations.
 > Format: ## [YYYY-MM-DD] operation | Title
 
+## [2026-05-09] expand | iter 30 — LNG cargo containment systems + cooldown procedures (concept gap-fills)
+- Pages created: concepts/{lng-cargo-containment-systems,lng-cooldown-commissioning}.md (was 8 → 10)
+- Pages modified: index.md (page_count 23 → 25; +2 Concepts rows)
+- Notes: W144 (cargo containment): Moss/membrane/SPB ship-side concept pairing to terminal-side lng-storage-tanks. IGC Code Type A/B/C taxonomy + sloshing analysis + GTT royalty model. W145 (cooldown): operations-side; thermal-shock risk + 4-phase protocol + heel-cargo cost trade-off. Race resolution: W144 + W145 both modified index.md in parallel; Edit-tool's read-then-write contract preserved both edits. Per W134 audit recommendations + iter-30 W143 audit V2 confirms direction.
+
 ## [2026-05-09] expand | iter 28 — IBC Code (chemical-tanker construction sibling)
 - Pages created: standards/ibc-code.md (was 9 → 10)
 - Notes: IMO IBC Code (chemical-tanker construction; SOLAS Ch. VII Part B + MARPOL Annex II). Sibling-template substitution from existing igc-code.md. Cross-wiki bridge engineered intentionally to maritime-law/standards/hns-convention-2010.md (chemical cargo: IBC = ship-construction, HNS = carriage-liability). Three-ship-type characterization (Type 1/2/3 by hazard severity). Per W134 cross-wiki-audit dispatch — bridge-edges-first iter-29 priority recommendation.

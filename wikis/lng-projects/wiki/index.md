@@ -2,7 +2,7 @@
 domain: lng-projects
 created: 2026-04-28 19:23 UTC
 last_updated: 2026-05-09
-page_count: 23
+page_count: 25
 source_count: 5
 ---
 
@@ -19,6 +19,8 @@ _No entity pages yet. Ingest a source to begin._
 | Page | Summary | Last Updated |
 |------|---------|-------------|
 | [[LNG Boil-Off Gas Management]](concepts/lng-boil-off-gas-management.md) | Generation, routing, reliquefaction, and fuel-gas use of boil-off vapor across plants, storage, and carriers. | 2026-05-03 |
+| [[LNG Cargo Containment Systems]](concepts/lng-cargo-containment-systems.md) | Ship-side cargo-tank technologies for LNG carriers — Moss spherical, GTT membrane (NO96 / Mark III / Mark V), and IHI SPB prismatic. | 2026-05-09 |
+| [[LNG Cooldown + Commissioning Procedures]](concepts/lng-cooldown-commissioning.md) | Operations-side staged thermal conditioning of cargo tanks before first cargo, post-drydock re-cooldown, gas-up + gas-trial, and heel-cargo retention. | 2026-05-09 |
 | [[LNG Liquefaction Processes]](concepts/lng-liquefaction-processes.md) | Neutral overview of APCI C3-MR / AP-X, ConocoPhillips Cascade, Shell DMR, Linde MFC, SMR families and FLNG hull builders. | 2026-05-03 |
 | [[LNG Marine Transfer Systems]](concepts/lng-marine-transfer-systems.md) | Jetty, ship-to-ship, FSRU regas, FLNG offloading, and marine-side transfer interfaces. | 2026-05-03 |
 | [[LNG Process Safety]](concepts/lng-process-safety.md) | Vapor cloud dispersion, VCE, pool fire, RPT, rollover, and canonical hazard-evaluation techniques. | 2026-05-03 |

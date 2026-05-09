@@ -35,7 +35,7 @@ Port-state control (PSC) is the regime under which a sovereign port state inspec
 ## Cross-References
 
 - **Sibling doctrine**: [Flag-State Jurisdiction](./flag-state-jurisdiction.md).
-- **Regional MoU standards pages**: [Paris MoU](../standards/paris-mou.md), [Tokyo MoU](../standards/tokyo-mou.md).
+- **Regional MoU standards pages**: [Paris MoU](../standards/paris-mou.md), [Tokyo MoU](../standards/tokyo-mou.md), [Caribbean MoU](../standards/caribbean-mou.md).
 - **Standards**: [MARPOL 73/78](./marpol-73-78.md), [SOLAS 1974](./solas-1974.md), [MLC 2006](./mlc-2006.md).
 - **Cases**: [MV Erika](../entities/mv-erika-1999.md), [MV Wakashio](../entities/mv-wakashio-2020.md).
 

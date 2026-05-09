@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-05-09 16:55 UTC] expand | iter 30 — Caribbean MoU + Nairobi WRC standards (audit V2 + 2 maritime + 2 lng)
+- Pages created: standards/{caribbean-mou,nairobi-wrc-2007}.md
+- Pages modified: index.md (page_count 54 → 55; +Caribbean MoU + Nairobi WRC rows wait — actually +2 net), concepts/port-state-control.md (Caribbean MoU return-link)
+- Notes: 5-way fanout (1 audit V2 + 2 maritime-law standards + 2 lng-projects concepts). Caribbean MoU = third regional MoU template-substitution (Paris → Tokyo → Caribbean); Nairobi WRC 2007 = closes IMO compensation-stack gap (post-incident wreck-removal cost-allocation; Costa Concordia 2012 ratification driver). Audit V2 (W143) at `_audit/iter-30-W143-cross-wiki-audit-v2.md` recommends iter-31 priorities: (1) first engineering-standards outbound bridges, (2) 3 maritime-law concept pages (Hague-Visby + Paris MoU + Rotterdam Rules), (3) NO eng-standards promotion (top-15 stems already calc-citation-ready). Audit anti-rec: do NOT pivot to new wiki yet. instrument_type vocab spans 6 of 7 categories; case-law remains unexercised (case-law is naturally embedded in entity pages).
+
 ## [2026-05-09 16:25 UTC] reconcile | iter 29 — bridge edges + lng back-link sweep + bunker(s) slug fix + UNCLOS concept
 - Pages created: concepts/unclos-1982.md (W142 — doctrinal synthesis companion to standards/unclos-1982.md)
 - Pages renamed: concepts/bunker-convention-2001.md → concepts/bunkers-convention-2001.md (W141 — slug reconciliation; aligned to plural per IMO BUNKERS code + iter-27/iter-28 standards-page convention; 10 incoming-link sites updated across 8 files)
