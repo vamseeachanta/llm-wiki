@@ -30,3 +30,8 @@
 - Pages created: standards/{api-spec-6a,api-std-579,api-std-1104,bs-7910-flaw-assessment,astm-a370,astm-e1820,iso-15156,astm-g48}.md
 - Source pages drawn from: og-standards-{api,bsi,astm-a-series,astm-e-series,astm-g-series,iso}.md
 - Notes: First ASTM standards/ pages in spinout; FFS triangle (api-std-579 ↔ bs-7910 ↔ astm-e1820) closes a connectivity gap; iso-15156 cross-links to existing ampp-mr-0175-pt1/2/3 (same standard, different bodies)
+
+## [2026-05-09] standards-promotion | iter 14 — 8 next-tier high-cross-reference codes
+- Pages created: standards/{astm-e399,astm-e647,astm-e1921,bs-7608-fatigue-design,api-spec-6d,api-spec-17d,ampp-tm-0284,dnv-rp-f112}.md
+- Closing forward-wikilinks from iter-13 concept pages (fracture-toughness-measurement, fatigue-design, sour-service, cathodic-protection, welding-procedures)
+- Notes: Multiple ASTM E-Series misfiles into D-Series sub-folder noted for #2658 evidence; TM-0284 confirmed not-on-disk; 6D/17D close the API 6A → 6D/17D family triad

@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-09
-page_count: 102
+page_count: 110
 source_count: 19
 ---
 
@@ -130,3 +130,11 @@ _No query outputs filed yet._
 | [[ASTM E1820]](standards/astm-e1820.md) | Standard Test Method for Measurement of Fracture Toughness. | 2026-05-09 |
 | [[ISO 15156]](standards/iso-15156.md) | H2S sour-service materials; 2020 ed.; joint with NACE/AMPP MR0175. | 2026-05-09 |
 | [[ASTM G48]](standards/astm-g48.md) | Pitting and Crevice Corrosion Resistance Test in FeCl3 Solution. | 2026-05-09 |
+| [[ASTM E399]](standards/astm-e399.md) | Plane-Strain Fracture Toughness K_Ic of Metallic Materials. | 2026-05-09 |
+| [[ASTM E647]](standards/astm-e647.md) | Standard Test Method for Measurement of Fatigue Crack Growth Rates. | 2026-05-09 |
+| [[ASTM E1921]](standards/astm-e1921.md) | Master Curve Reference Temperature T0 for Ferritic Steels in the Transition Range. | 2026-05-09 |
+| [[BS 7608]](standards/bs-7608-fatigue-design.md) | Fatigue Design and Assessment of Steel Products. | 2026-05-09 |
+| [[API SPEC 6D]](standards/api-spec-6d.md) | Pipeline and Piping Valves Specification. | 2026-05-09 |
+| [[API SPEC 17D]](standards/api-spec-17d.md) | Subsea Wellhead and Tree Equipment. | 2026-05-09 |
+| [[AMPP/NACE TM 0284]](standards/ampp-tm-0284.md) | Evaluation of Pipeline and Pressure Vessel Steels for Resistance to Hydrogen-Induced Cracking (HIC). | 2026-05-09 |
+| [[DNV-RP-F112]](standards/dnv-rp-f112.md) | Duplex Stainless Steel under Cathodic Protection — Hydrogen-Induced Stress Cracking (HISC). | 2026-05-09 |
