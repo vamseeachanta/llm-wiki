@@ -35,3 +35,8 @@
 - Pages created: standards/{astm-e399,astm-e647,astm-e1921,bs-7608-fatigue-design,api-spec-6d,api-spec-17d,ampp-tm-0284,dnv-rp-f112}.md
 - Closing forward-wikilinks from iter-13 concept pages (fracture-toughness-measurement, fatigue-design, sour-service, cathodic-protection, welding-procedures)
 - Notes: Multiple ASTM E-Series misfiles into D-Series sub-folder noted for #2658 evidence; TM-0284 confirmed not-on-disk; 6D/17D close the API 6A → 6D/17D family triad
+
+## [2026-05-09] standards-promotion | iter 15 — petroleum-products + integrity-management
+- Pages created: standards/{astm-d86,astm-d445,astm-d975,astm-d1655}.md (D02 petroleum-products quartet)
+- Pages created: standards/{api-510,api-570,api-653}.md (in-service inspection trio — FFS-gates)
+- Notes: New petroleum sub-domain anchored by D86/D445/D975/D1655 cross-link cluster; integrity-management trio closes FFS-gate forward-links from concepts/fitness-for-service.md; multi-edition records strongest in D975 (10 catalog hits across 1998-2004) and D1655 (7 hits 2000-2003)

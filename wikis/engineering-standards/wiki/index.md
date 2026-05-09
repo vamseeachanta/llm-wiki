@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-09
-page_count: 110
+page_count: 117
 source_count: 19
 ---
 
@@ -138,3 +138,10 @@ _No query outputs filed yet._
 | [[API SPEC 17D]](standards/api-spec-17d.md) | Subsea Wellhead and Tree Equipment. | 2026-05-09 |
 | [[AMPP/NACE TM 0284]](standards/ampp-tm-0284.md) | Evaluation of Pipeline and Pressure Vessel Steels for Resistance to Hydrogen-Induced Cracking (HIC). | 2026-05-09 |
 | [[DNV-RP-F112]](standards/dnv-rp-f112.md) | Duplex Stainless Steel under Cathodic Protection — Hydrogen-Induced Stress Cracking (HISC). | 2026-05-09 |
+| [[ASTM D86]](standards/astm-d86.md) | Distillation of Petroleum Products at Atmospheric Pressure. | 2026-05-09 |
+| [[ASTM D445]](standards/astm-d445.md) | Kinematic Viscosity of Transparent and Opaque Liquids. | 2026-05-09 |
+| [[ASTM D975]](standards/astm-d975.md) | Diesel Fuel Oils — No.1-D / No.2-D / No.4-D specification. | 2026-05-09 |
+| [[ASTM D1655]](standards/astm-d1655.md) | Aviation Turbine Fuels — Jet A / Jet A-1 specification. | 2026-05-09 |
+| [[API 510]](standards/api-510.md) | Pressure Vessel Inspection Code — In-service Inspection, Rating, Repair, Alteration. | 2026-05-09 |
+| [[API 570]](standards/api-570.md) | Piping Inspection Code — In-service Inspection, Rating, Repair, Alteration. | 2026-05-09 |
+| [[API 653]](standards/api-653.md) | Tank Inspection, Repair, Alteration, and Reconstruction. | 2026-05-09 |
