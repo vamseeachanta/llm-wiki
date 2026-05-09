@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-09
-page_count: 136
+page_count: 143
 source_count: 19
 ---
 
@@ -33,6 +33,8 @@ _No entity pages yet. Ingest a source to begin._
 | [[Welding Procedures and Acceptance]](concepts/welding-procedures-and-acceptance.md) | WPS/PQR/WPQ qualification, ECA acceptance, sour-service overlays. | 2026-05-09 |
 | [[Corrosion-Rate Measurement and Estimation]](concepts/corrosion-rate-measurement.md) | LTCR/STCR; mass-loss / electrochemical / in-service-thickness modalities. | 2026-05-09 |
 | [[Leak-Before-Break (LBB)]](concepts/leak-before-break.md) | Stability + detectability margins; nuclear / H2 / pipeline integrity justification. | 2026-05-09 |
+| [[Damage-Mechanism Screening]](concepts/damage-mechanism-screening.md) | Per-asset identification of credible mechanisms; upstream of RBI POF + FFS Part selection. | 2026-05-09 |
+| [[Ductile Tearing and J-Controlled Crack Growth]](concepts/ductile-tearing.md) | J-R / CTOD-R + tearing-modulus instability; the negative-criterion sibling to brittle-fracture. | 2026-05-09 |
 
 ## Sources
 
@@ -165,3 +167,8 @@ _No query outputs filed yet._
 | [[API RP 581]](standards/api-rp-581.md) | Risk-Based Inspection Methodology — quantitative POF/COF + damage-factor catalogue. | 2026-05-09 |
 | [[ASTM D396]](standards/astm-d396.md) | Fuel Oils — six grades from light distillate to bunker C residual. | 2026-05-09 |
 | [[ASTM D4814]](standards/astm-d4814.md) | Automotive Spark-Ignition Engine Fuel — gasoline + ethanol blends. | 2026-05-09 |
+| [[API RP 571]](standards/api-rp-571.md) | Damage Mechanisms Affecting Fixed Equipment in the Refining Industry — RBI/FFS catalogue. | 2026-05-09 |
+| [[API RP 574]](standards/api-rp-574.md) | Inspection Practices for Piping System Components — companion to API 570. | 2026-05-09 |
+| [[ASTM G1]](standards/astm-g1.md) | Preparing, Cleaning, and Evaluating Corrosion Test Specimens — mass-loss foundation. | 2026-05-09 |
+| [[ASTM G3]](standards/astm-g3.md) | Conventions for Electrochemical Measurements in Corrosion Testing. | 2026-05-09 |
+| [[ASTM G31]](standards/astm-g31.md) | Laboratory Immersion Corrosion Testing of Metals — companion to G1. | 2026-05-09 |

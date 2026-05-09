@@ -45,3 +45,12 @@
 - Pages created: concepts/{brittle-fracture,hydrogen-embrittlement,weld-toughness,risk-based-inspection,engineering-critical-assessment,fuel-quality-and-specification}.md
 - Bridges: fracture↔FFS (brittle-fracture, weld-toughness, ECA); CP↔sour-service (hydrogen-embrittlement); integrity-mgmt↔FFS (RBI); petroleum anchor (fuel-quality)
 - Notes: Convention firming — agents independently adopted "key cross-link audit" classifying outbound wikilinks as lands-cleanly vs forward-reference, plus calc-citation-contract footers
+
+## [2026-05-09] index-backlog-fix | iter 13 concept-page registration recovery
+- Pages registered: concepts/{cathodic-protection,fatigue-design-and-assessment,fitness-for-service,fracture-toughness-measurement,pitting-and-crevice-corrosion,sour-service-materials,welding-procedures-and-acceptance}.md
+- Notes: iter-13 W19 sweep agent only added Standards rows, leaving the 7 concept pages orphaned in index. iter-17 W50 surfaced the gap; main session recovered.
+
+## [2026-05-09] standards-promotion | iter 17 — RBI methodology + petroleum siblings + cross-cutting concepts
+- Pages created: standards/{api-rp-580,api-rp-581,astm-d396,astm-d4814}.md (RBI pair + D02 petroleum siblings)
+- Pages created: concepts/{corrosion-rate-measurement,leak-before-break}.md (corrosion-rate input for RBI/FFS; LBB safety justification)
+- Notes: closes forward-references from concepts/risk-based-inspection (API 580/581) and concepts/fuel-quality-and-specification (D396/D4814); 9 future-promotion candidates flagged in corrosion-rate page (G1/G3/G31/G59/G102/G106 + RP 571/574 + NACE SP0775)
