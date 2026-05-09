@@ -263,6 +263,19 @@ governs the brittle-fracture assessment workflow:
   MDT derivation, and class-society mapping for arctic and
   cold-region infrastructure.
 
+## Cross-wiki bridges
+
+- [LNG Process Safety](../../../lng-projects/wiki/concepts/lng-process-safety.md)
+  (lng-projects) — **bidirectional bridge**: cryogenic-temperature
+  service is the dominant brittle-fracture driver for LNG containment
+  and process piping. The Charpy / `T₀` / MDT-anchored toughness
+  acceptance described here is what governs material selection for
+  9% Ni inner tanks, Invar membranes, and stainless / aluminium
+  cryogenic process piping under EN 1473 and NFPA 59A. The LNG
+  process-safety page enumerates the release scenarios (pool fire,
+  RPT, rollover) whose **upset-temperature transients** define the
+  MDT that the brittle-fracture screening must clear.
+
 ## Source materials
 
 - [`sources/og-standards-astm-e-series.md`](../sources/og-standards-astm-e-series.md)

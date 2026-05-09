@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-05-09 17:25 UTC] expand | iter 31 — first eng-standards bridges + 3 maritime-law concept companions
+- Pages created: concepts/{hague-visby-rules,paris-mou,rotterdam-rules}.md (W149+W150+W151 — doctrinal-synthesis companions to existing standards/* pages)
+- Pages modified: index.md (page_count 55 → 58 + 3 Concepts table rows), standards/solas-1974.md (W148 — BPVC bridge replaces "future-promotion candidate" placeholder)
+- Notes: 4-way fanout per W143 audit V2 priorities. W148 (eng-standards bridges) installs FIRST 3 outbound bidirectional pairs from engineering-standards (was 0 outbound bridges; now 3). Substantive bridges: brittle-fracture↔lng-process-safety (cryogenic MDT driver), cathodic-protection↔igc-code (HISC binds 9% Ni cargo-tanks), asme-bpvc-viii-1↔solas-1974 (delegation chain). Engineering-standards no longer a sink. W149/W150/W151 close 3 standards-without-concept companion gaps; maritime-law standards-to-concept parity now covers Hague-Visby + Paris MoU + Rotterdam (was: only standards/* pages, no doctrinal synthesis). Index race resolved cleanly via Edit-tool's read-then-write contract.
+
 ## [2026-05-09 16:55 UTC] expand | iter 30 — Caribbean MoU + Nairobi WRC standards (audit V2 + 2 maritime + 2 lng)
 - Pages created: standards/{caribbean-mou,nairobi-wrc-2007}.md
 - Pages modified: index.md (page_count 54 → 55; +Caribbean MoU + Nairobi WRC rows wait — actually +2 net), concepts/port-state-control.md (Caribbean MoU return-link)

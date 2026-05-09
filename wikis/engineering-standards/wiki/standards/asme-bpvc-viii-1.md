@@ -40,3 +40,19 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 - [[asme-bpvc-ii-d]] — material allowable stresses sourced upstream
 - [[asme-bpvc-ix]] — welding qualification basis
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+
+## Cross-wiki bridges
+
+- [SOLAS 1974](../../../maritime-law/wiki/standards/solas-1974.md)
+  (maritime-law) — **bidirectional bridge**: BPVC Section VIII Division 1
+  is the design-by-rule code that flag-state inspection regimes and
+  IACS class-society rules import by reference for shipboard unfired
+  pressure vessels under SOLAS Ch. II-1 (machinery installations) and
+  Ch. II-2 (fire-protection-related pressure systems). For gas
+  carriers under SOLAS Ch. VII Part C, the IGC Code Ch.5 process
+  pressure vessels and Ch.8 vent / PRV systems likewise lean on
+  Section VIII (Div. 1 and Div. 2) for cargo-tank, knock-out drum,
+  and reliquefaction-plant pressure-vessel construction. SOLAS
+  itself carries no numeric design rules for unfired pressure
+  vessels — Section VIII is the engineering-standards substrate the
+  treaty regime delegates to.

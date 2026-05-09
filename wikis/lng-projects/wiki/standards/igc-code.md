@@ -112,6 +112,10 @@ Membrane systems dominate the modern LNG-carrier fleet; Moss-type independent sp
 - [MARPOL 73/78](../../../maritime-law/wiki/standards/marpol-73-78.md) — **bidirectional bridge**: pollution-prevention companion. MARPOL Annex VI air-pollution provisions govern BOG-combustion emissions from IGC-certified carriers; Annex I governs slops/oily-water handling on IGC vessels with diesel-fuel systems.
 - [HNS Convention 2010](../../../maritime-law/wiki/standards/hns-convention-2010.md) — **bidirectional bridge**: IGC defines gas-carrier construction; HNS Convention 2010 (not yet in force) defines compensation regime for cargo releases. HNS Fund LNG/LPG sub-accounts apply to IGC-certified vessels.
 
+**Cross-wiki bridge (engineering-standards):**
+
+- [Cathodic Protection](../../../engineering-standards/wiki/concepts/cathodic-protection.md) — **bidirectional bridge**: IGC Ch.2/Ch.3 ship arrangements and ballast/void-space corrosion control rely on the offshore CP framework (DNV-RP-B401, ABS GN-239) for hull and tank protection. The over-protection / HISC caveats covered there bind especially hard on the **9% Ni cargo-tank attachments (Ch.6) and duplex-stainless cargo-handling components**, where cathodic hydrogen uptake is the dominant on-vessel CP failure mode; ICCP hull systems on LNG carriers are sized against the same offshore-CP framework.
+
 **International / regulatory parallels:**
 
 - **SOLAS** — parent IMO convention; IGC Code is mandatory under SOLAS Chapter VII Part C

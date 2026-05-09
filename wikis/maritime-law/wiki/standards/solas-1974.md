@@ -136,6 +136,7 @@ SOLAS evolves substantially through a casualty-then-amendment loop; the most-cit
 
 **Cross-wiki (engineering-standards)** *(where SOLAS Chapters carry numeric constants used by calcs)*
 
+- [[asme-bpvc-viii-1]](../../../engineering-standards/wiki/standards/asme-bpvc-viii-1.md) — **bidirectional bridge**: SOLAS itself carries no numeric design rules for unfired pressure vessels. Flag-state inspection regimes and IACS class-society rules import ASME BPVC Section VIII Division 1 by reference for shipboard pressure-vessel construction under Ch. II-1 (machinery installations) and Ch. II-2 (fire-protection-related pressure systems); for gas carriers, IGC Code Ch.5 (process pressure vessels) and Ch.8 (PRV / vent systems) further delegate to Section VIII for LNG cargo-tank, knock-out drum, and reliquefaction-plant pressure-vessel design.
 - SOLAS Ch. II-1 subdivision and damage-stability deterministic and probabilistic indices → engineering-standards page on ship damage-stability calculations (future-promotion candidate; calcs that consume these indices should resolve `code_id: solas-1974` against this page until a dedicated technical-Annex page lands).
 - SOLAS Ch. II-2 fire-load and structural fire-protection figures → engineering-standards page on fire-safety design (future-promotion candidate).
 

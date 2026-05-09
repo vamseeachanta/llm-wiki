@@ -87,6 +87,9 @@ source_count: 2
 | [[Flag-State Jurisdiction]](concepts/flag-state-jurisdiction.md) | UNCLOS Articles 91 and 94; genuine link, open registries, IMSAS | 2026-05-02 |
 | [[Charterparties]](concepts/charterparties.md) | Voyage / time / bareboat; NYPE, GENCON, BARECON; safe-port warranty | 2026-05-02 |
 | [[UNCLOS 1982 — Doctrinal Synthesis]](concepts/unclos-1982.md) | Umbrella treaty; maritime-zone taxonomy; customary-law / US position; ITLOS and Annex VII dispute venues | 2026-05-09 |
+| [[Paris MoU — Doctrinal Synthesis]](concepts/paris-mou.md) | First regional PSC arrangement (1982, post–Amoco Cadiz); NIR pioneer (HRS/SRS/LRS); flag-ranking commercial impact; CIC coordination with Tokyo + Caribbean MoUs | 2026-05-09 |
+| [[Rotterdam Rules — Doctrinal Synthesis]](concepts/rotterdam-rules.md) | UN UNCITRAL door-to-door carriage-of-goods regime; modernization of Hague-Visby; not in force (5 of 20 ratifications); failed-launch case study | 2026-05-09 |
+| [[Hague-Visby Rules — Doctrinal Synthesis]](concepts/hague-visby-rules.md) | Carriage-of-goods regime under bills of lading; Article III obligations and Article IV.2 defenses; SDR package limit; US COGSA carve-out; Rotterdam successor | 2026-05-09 |
 
 ## Sources
 

@@ -284,6 +284,21 @@ future ingest):
 - [[hydrogen-embrittlement]] — the failure mode the over-protection
   caveat exists to prevent.
 
+## Cross-wiki bridges
+
+- [IMO IGC Code](../../../lng-projects/wiki/standards/igc-code.md)
+  (lng-projects) — **bidirectional bridge**: CP design is binding for
+  steel hull and ballast-tank protection on IGC-certified gas carriers
+  (LNG, LPG, ethylene, ammonia). IGC Code Ch.2 and Ch.3 (ship
+  arrangements, ballast/void-space corrosion control) interact with
+  the offshore CP design rules summarised here; over-protection
+  caveats apply with extra force to the **9% Ni cargo-tank
+  attachments and the duplex-stainless cargo-handling components**
+  that IGC Ch.6 mandates, because hydrogen embrittlement and HISC are
+  the dominant CP failure modes on those alloy families. ICCP hull
+  systems on LNG carriers are sized against the same DNV-RP-B401 /
+  ABS GN-239 framework cited above.
+
 ## Source materials
 
 - [Source summary — DNV offshore CP standards](../sources/og-standards-dnv.md)
