@@ -25,3 +25,8 @@
 - Processed: /mnt/ace/O&G-Standards/ASTM/{A-Series,D-Series,E-Series,G-Series,top-level}/
 - Pages created: sources/og-standards-astm-{a-series,d-series,e-series,g-series,top-level}.md
 - Notes: 25,537 ASTM docs (largest publisher); A=2143, D=10361, E=3531, G=308, top-level=9136; OCR coverage <1%; 1,000+ misfiled docs across series boundaries
+
+## [2026-05-09] standards-promotion | iter 12 — 8 high-cross-reference codes
+- Pages created: standards/{api-spec-6a,api-std-579,api-std-1104,bs-7910-flaw-assessment,astm-a370,astm-e1820,iso-15156,astm-g48}.md
+- Source pages drawn from: og-standards-{api,bsi,astm-a-series,astm-e-series,astm-g-series,iso}.md
+- Notes: First ASTM standards/ pages in spinout; FFS triangle (api-std-579 ↔ bs-7910 ↔ astm-e1820) closes a connectivity gap; iso-15156 cross-links to existing ampp-mr-0175-pt1/2/3 (same standard, different bodies)

@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-09
-page_count: 94
+page_count: 102
 source_count: 19
 ---
 
@@ -122,3 +122,11 @@ _No query outputs filed yet._
 | [[ISO 19902]](standards/iso-19902.md) | Fixed steel offshore structures; 2019 published edition; cited 66x in workspace. | 2026-05-02 |
 | [[ISO 19903]](standards/iso-19903.md) | Fixed concrete offshore structures; 2019 published edition (no on-disk draft). | 2026-05-02 |
 | [[ISO 19904-1]](standards/iso-19904-1.md) | Floating offshore structures, ship-shaped/semi/spar; 2019 published edition (no on-disk draft). | 2026-05-02 |
+| [[API SPEC 6A]](standards/api-spec-6a.md) | Wellhead and Christmas tree equipment; 21st Ed (2018), joint with ISO 10423. | 2026-05-09 |
+| [[API STD 579]](standards/api-std-579.md) | Fitness-for-Service; 3rd Ed (2016/2021), joint with ASME FFS-1. | 2026-05-09 |
+| [[API STD 1104]](standards/api-std-1104.md) | Welding of Pipelines and Related Facilities; 22nd Ed (2021). | 2026-05-09 |
+| [[BS 7910]](standards/bs-7910-flaw-assessment.md) | Flaw Assessment in Metallic Structures; 2019+A1:2023 ed. | 2026-05-09 |
+| [[ASTM A370]](standards/astm-a370.md) | Standard Test Methods and Definitions for Mechanical Testing of Steel Products. | 2026-05-09 |
+| [[ASTM E1820]](standards/astm-e1820.md) | Standard Test Method for Measurement of Fracture Toughness. | 2026-05-09 |
+| [[ISO 15156]](standards/iso-15156.md) | H2S sour-service materials; 2020 ed.; joint with NACE/AMPP MR0175. | 2026-05-09 |
+| [[ASTM G48]](standards/astm-g48.md) | Pitting and Crevice Corrosion Resistance Test in FeCl3 Solution. | 2026-05-09 |
