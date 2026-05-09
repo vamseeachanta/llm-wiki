@@ -2,7 +2,7 @@
 title: "LNG Project Lifecycle"
 tags: [lng-projects, lifecycle, fel, feed, epc, commissioning]
 added: 2026-05-03
-last_updated: 2026-05-03
+last_updated: 2026-05-09
 sources: []
 see_also:
   - ../concepts/lng-project-shapes.md
@@ -27,6 +27,9 @@ This page summarizes the canonical phase taxonomy used by LNG project developers
 
 ## Standards / References
 
+- [FERC 18 CFR 153](../standards/ferc-18-cfr-153.md) — US LNG siting authority whose Resource Reports + NEPA review gate the FEED-to-FID phases for export terminals
+- [PHMSA 49 CFR 193](../standards/phmsa-49-cfr-193.md) — US LNG facility safety operations governing the commissioning-and-operations phases
+- [NFPA 59A](../standards/nfpa-59a.md) — design code that establishes the basis-of-design frozen at FEED and locked through EPC
 - US DOE Global LNG Fundamentals — public-domain primer on LNG project phasing: <https://www.energy.gov/fecm/global-lng-fundamentals>
 - IGC Code (IMO) — sea-transport interface that constrains the marine-side of EPC scope: <https://www.imo.org/en/OurWork/Safety/Pages/IGC-Code.aspx>
 

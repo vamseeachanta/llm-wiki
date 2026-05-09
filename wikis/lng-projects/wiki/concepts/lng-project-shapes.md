@@ -2,7 +2,7 @@
 title: "LNG Project Shapes"
 tags: [lng-projects, project-shapes, flng, fsru, mid-scale]
 added: 2026-05-03
-last_updated: 2026-05-03
+last_updated: 2026-05-09
 sources: []
 see_also:
   - ../concepts/lng-project-lifecycle.md
@@ -27,7 +27,11 @@ This page defines the canonical project-shape taxonomy and the terminology that 
 
 ## Standards / References
 
-- IMO IGC Code — gas-carrier rules that bound vessel-side capacity and containment selection: <https://www.imo.org/en/OurWork/Safety/Pages/IGC-Code.aspx>
+- [FERC 18 CFR 153](../standards/ferc-18-cfr-153.md) — US LNG siting authority differentiating onshore-greenfield from brownfield from offshore export shapes
+- [PHMSA 49 CFR 193](../standards/phmsa-49-cfr-193.md) — US LNG facility safety operations applicable to onshore and shore-based regasification shapes
+- [NFPA 59A](../standards/nfpa-59a.md) — onshore design code that distinguishes liquefaction-plant from receiving-terminal scope
+- [IGC Code](../standards/igc-code.md) — IMO international gas-carrier code governing FLNG, FSRU, and carrier-side project shapes
+- [SIGTTO Mooring Equipment Guidelines](../standards/sigtto-mooring-equipment.md) — terminal-mooring practice that varies by jetty, FSRU, and FLNG shape
 - Oxford Institute for Energy Studies, NG149 Floating LNG Update (canonical capacity-range reference): <https://www.oxfordenergy.org/>
 
 ## Cross-References

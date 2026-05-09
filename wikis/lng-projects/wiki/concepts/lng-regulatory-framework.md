@@ -2,7 +2,7 @@
 title: "LNG Regulatory Framework"
 tags: [lng-projects, regulation, standards-bodies, framework]
 added: 2026-05-03
-last_updated: 2026-05-03
+last_updated: 2026-05-09
 sources: []
 see_also:
   - ../concepts/lng-storage-tanks.md
@@ -29,6 +29,16 @@ This page is a one-paragraph-per-body synthesis of the standards organisations a
 - **ABS / DNV (classification societies)** — class rules and guidance notes that govern design approval of floating LNG and gas-carrier hulls
 
 ## Standards / References
+
+### Wiki standards pages (lng-projects)
+
+- [FERC 18 CFR 153](../standards/ferc-18-cfr-153.md) — US LNG siting authority (Resource Reports + NEPA)
+- [PHMSA 49 CFR 193](../standards/phmsa-49-cfr-193.md) — US LNG facility safety operations
+- [NFPA 59A](../standards/nfpa-59a.md) — LNG production, storage, and handling design code
+- [IGC Code](../standards/igc-code.md) — IMO international gas-carrier code
+- [SIGTTO Mooring Equipment Guidelines](../standards/sigtto-mooring-equipment.md) — LNG terminal/carrier mooring practice
+
+### Publisher portals
 
 - NFPA: <https://www.nfpa.org/codes-and-standards>
 - CEN / CENELEC (EN 1473): <https://www.cencenelec.eu/>

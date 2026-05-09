@@ -2,7 +2,7 @@
 title: "LNG Storage Tanks"
 tags: [lng-projects, storage, containment, cryogenic]
 added: 2026-05-03
-last_updated: 2026-05-03
+last_updated: 2026-05-09
 sources: []
 see_also:
   - ../concepts/lng-boil-off-gas-management.md
@@ -27,7 +27,8 @@ This page summarizes the canonical taxonomy of onshore and floating LNG storage 
 
 ## Standards / References
 
-- NFPA 59A (Standard for the Production, Storage, and Handling of LNG) — US-jurisdiction primary standard: <https://www.nfpa.org/codes-and-standards>
+- [NFPA 59A](../standards/nfpa-59a.md) — US-jurisdiction LNG production/storage/handling design code governing onshore tank containment categories
+- [IGC Code](../standards/igc-code.md) — IMO international gas-carrier code governing ship-side tank types (membrane, Moss-spherical, prismatic) on LNG carriers and FLNG hulls
 - EN 1473 (Installation and equipment for LNG — onshore design) — European primary standard: <https://www.cencenelec.eu/>
 - API 625 (Tank Systems for Refrigerated Liquefied Gas Storage) — US-jurisdiction tank-system standard: <https://www.api.org/>
 - EEMUA Publication 147 / 159 (LNG storage tank in-service inspection): <https://www.eemua.org/>

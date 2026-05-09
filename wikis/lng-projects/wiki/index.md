@@ -2,7 +2,7 @@
 domain: lng-projects
 created: 2026-04-28 19:23 UTC
 last_updated: 2026-05-09
-page_count: 19
+page_count: 22
 source_count: 5
 ---
 
@@ -53,3 +53,6 @@ _No query outputs filed yet._
 | [[IMO IGC Code]](standards/igc-code.md) | International Code for Bulk Liquefied-Gas Carrier Construction + Equipment (SOLAS Ch. VII Part C). | 2026-05-09 |
 | [[SIGTTO Mooring Equipment Guidelines]](standards/sigtto-mooring-equipment.md) | Industry-best-practice mooring guidance for LNG/LPG carriers + terminals; paywalled (Witherbys). | 2026-05-09 |
 | [[Standards page template]](standards/_template.md) | Fill-in-the-blanks template establishing the lng-projects standards/ convention. | 2026-05-09 |
+| [[CSA Z276]](standards/csa-z276.md) | Canadian LNG Production/Storage/Handling — counterpart to US NFPA 59A. | 2026-05-09 |
+| [[API Std 625]](standards/api-std-625.md) | Tank Systems for Refrigerated Liquefied Gas Storage — umbrella API tank-system code. | 2026-05-09 |
+| [[EN 1473]](standards/en-1473.md) | EU Onshore LNG Installations Design — CEN harmonized parallel to NFPA 59A + CSA Z276. | 2026-05-09 |

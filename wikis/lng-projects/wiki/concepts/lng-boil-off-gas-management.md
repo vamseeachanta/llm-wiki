@@ -2,7 +2,7 @@
 title: "LNG Boil-Off Gas Management"
 tags: [lng-projects, bog, reliquefaction, vapor-handling]
 added: 2026-05-03
-last_updated: 2026-05-03
+last_updated: 2026-05-09
 sources: []
 see_also:
   - ../concepts/lng-storage-tanks.md
@@ -27,6 +27,8 @@ This page summarizes how boil-off gas (BOG) is generated, routed, and either rel
 
 ## Standards / References
 
+- [NFPA 59A](../standards/nfpa-59a.md) — US-jurisdiction LNG production/storage/handling design code that governs BOG handling at onshore facilities
+- [IGC Code](../standards/igc-code.md) — IMO international gas-carrier code governing carrier-side BOG management and reliquefaction
 - SIGTTO — industry guidance on BOG management in carriers and terminals: <https://www.sigtto.org/publications>
 - IACS class rules for gas carriers — vapor-handling and reliquefaction requirements: <https://iacs.org.uk/>
 

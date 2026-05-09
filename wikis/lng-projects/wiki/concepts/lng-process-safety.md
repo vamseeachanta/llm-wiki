@@ -2,7 +2,7 @@
 title: "LNG Process Safety"
 tags: [lng-projects, safety, vce, pool-fire, rollover]
 added: 2026-05-03
-last_updated: 2026-05-03
+last_updated: 2026-05-09
 sources: []
 see_also:
   - ../concepts/lng-storage-tanks.md
@@ -27,7 +27,9 @@ This page summarizes canonical LNG release and consequence categories used in pr
 
 ## Standards / References
 
-- NFPA 59A — US-jurisdiction LNG process-safety primary standard: <https://www.nfpa.org/codes-and-standards>
+- [NFPA 59A](../standards/nfpa-59a.md) — US-jurisdiction LNG process-safety primary standard (exclusion zones, deterministic methodology)
+- [PHMSA 49 CFR 193](../standards/phmsa-49-cfr-193.md) — US LNG facility safety operations including incident reporting and operator-qualification rules
+- [FERC 18 CFR 153](../standards/ferc-18-cfr-153.md) — US siting framework whose Resource Reports include cryogenic-design and safety review for export terminals
 - EN 1473 — European LNG process-safety primary standard: <https://www.cencenelec.eu/>
 - SIGTTO — industry guidance on liquefied-gas terminal safety: <https://www.sigtto.org/publications>
 

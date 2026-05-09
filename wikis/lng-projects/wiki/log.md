@@ -4,6 +4,12 @@
 > Chronological record of all wiki operations.
 > Format: ## [YYYY-MM-DD] operation | Title
 
+## [2026-05-09] standards-bootstrap | iter 23 — first 5 standards pages + 2 sources + template
+- Pages created: standards/{ferc-18-cfr-153,phmsa-49-cfr-193,nfpa-59a,igc-code,sigtto-mooring-equipment,_template}.md
+- Pages created: sources/{igu-2025-lng-report,ferc-lng-portal}.md
+- Notes: First standards/ pages in lng-projects (was 0). Three-layer coverage: US-regulatory (FERC + PHMSA), international + safety-design (NFPA 59A + IMO IGC), industry-practice (SIGTTO). _template.md establishes convention. 2 source pages ground future citations (IGU 2025 trade-flow + FERC docket portal). Per W90 cross-wiki audit recommendation (engineering-standards saturating sub-5%-iteration-lift).
+- Cross-link gap: 8 existing concepts pages need return-links to the 5 new standards pages — addressed in iter-24 W107 cross-link sweep.
+
 ## [2026-05-03] expand | lng-projects W5-C — 8 concept pages
 - Issue: #2612
 - Plan: docs/plans/2026-05-03-issue-2612-llm-wiki-W5C-lng-projects-expansion.md

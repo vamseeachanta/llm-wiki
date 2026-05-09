@@ -2,7 +2,7 @@
 title: "LNG Marine Transfer Systems"
 tags: [lng-projects, marine, transfer, jetty, ship-to-ship]
 added: 2026-05-03
-last_updated: 2026-05-03
+last_updated: 2026-05-09
 sources: []
 see_also:
   - ../concepts/lng-project-shapes.md
@@ -27,6 +27,10 @@ This page surveys the marine-side transfer interfaces between LNG carriers, jett
 
 ## Standards / References
 
+- [SIGTTO Mooring Equipment Guidelines](../standards/sigtto-mooring-equipment.md) — LNG terminal/carrier mooring practice for transfer operations
+- [IGC Code](../standards/igc-code.md) — IMO international gas-carrier code governing manifold and cargo-transfer interfaces on the carrier side
+- [NFPA 59A](../standards/nfpa-59a.md) — Chapter 12 marine activities at LNG facilities (transfer-area design and operation)
+- [PHMSA 49 CFR 193](../standards/phmsa-49-cfr-193.md) — US LNG facility safety operations including marine transfer-area incident reporting
 - OCIMF MEG4 (Mooring Equipment Guidelines, 4th edition): <https://www.ocimf.org/>
 - SIGTTO guidance on LNG/LPG terminal operations and transfer: <https://www.sigtto.org/publications>
 
