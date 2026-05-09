@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-09
-page_count: 151
+page_count: 158
 source_count: 19
 ---
 
@@ -37,6 +37,10 @@ _No entity pages yet. Ingest a source to begin._
 | [[Ductile Tearing and J-Controlled Crack Growth]](concepts/ductile-tearing.md) | J-R / CTOD-R + tearing-modulus instability; the negative-criterion sibling to brittle-fracture. | 2026-05-09 |
 | [[High-Temperature Hydrogen Attack (HTHA) and Nelson Curves]](concepts/htha-nelson-curves.md) | T × pH2 envelopes for CS/Cr-Mo alloys; CSB Tesoro 2010 → C-0.5Mo disqualification. | 2026-05-09 |
 | [[Creep and Stress Rupture]](concepts/creep-and-stress-rupture.md) | Homologous-T deformation, three stages, Larson-Miller, Omega FFS method. | 2026-05-09 |
+| [[Sulfidation and Naphthenic-Acid Corrosion]](concepts/sulfidation-and-naphthenic-acid.md) | High-T refinery wall-loss; Couper-Gorman + TAN/velocity alloy ladders. | 2026-05-09 |
+| [[Microbiologically Influenced Corrosion (MIC)]](concepts/microbiologically-influenced-corrosion.md) | SRB/IOB/APB community taxonomy; oilfield + tank-bottom MIC patterns. | 2026-05-09 |
+| [[Corrosion Under Insulation (CUI)]](concepts/corrosion-under-insulation.md) | CS-CUI + CISCC-CUI mechanism families; T-window + inspection-method matrix. | 2026-05-09 |
+| [[Stress-Corrosion Cracking (SCC) — Variants]](concepts/stress-corrosion-cracking.md) | 10-variant SCC umbrella; 3 propagation-mechanism families; test-method catalogue. | 2026-05-09 |
 
 ## Sources
 
@@ -179,3 +183,5 @@ _No query outputs filed yet._
 | [[ASTM G106]](standards/astm-g106.md) | Electrochemical Impedance Measurements (EIS) Verification. | 2026-05-09 |
 | [[AMPP SP0775]](standards/ampp-sp0775.md) | Corrosion Coupons in Oilfield Operations — online monitoring foundation. | 2026-05-09 |
 | [[API RP 941]](standards/api-rp-941.md) | Steels for Hydrogen Service at Elevated T,P — Nelson curves for HTHA envelopes. | 2026-05-09 |
+| [[ASME B31.1]](standards/asme-b31-1.md) | Power Piping — boiler/turbine/steam systems (sibling to B31.3 process). | 2026-05-09 |
+| [[API RP 577]](standards/api-rp-577.md) | Welding Inspection and Metallurgy — NDE methods + PWHT companion to API 510/570/653. | 2026-05-09 |

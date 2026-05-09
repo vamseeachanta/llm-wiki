@@ -59,3 +59,8 @@
 - Pages created: standards/{api-rp-571,api-rp-574,astm-g1,astm-g3,astm-g31}.md
 - Pages created: concepts/{damage-mechanism-screening,ductile-tearing}.md
 - Notes: closes corrosion-rate-measurement concept's 3-of-6 ASTM-G promotion candidates (G1+G3+G31); RP 571 + RP 574 close API-side cross-references; damage-mechanism-screening anchors the upstream-of-RBI step previously implicit; ductile-tearing completes the fracture-mechanics-concept ring (ductile + brittle + master-curve + LBB)
+
+## [2026-05-09] standards-promotion | iter 19 — close G-electrochem trio + SP0775 + RP 941 + 2 concepts
+- Pages created: standards/{astm-g59,astm-g102,astm-g106,ampp-sp0775,api-rp-941}.md
+- Pages created: concepts/{htha-nelson-curves,creep-and-stress-rupture}.md
+- Notes: closes corrosion-rate-measurement concept's complete future-promotion list (9 of 9 candidates from iter-17 W55); HTHA cluster opens (RP 941 Nelson curves + concept page); CSB Tesoro Anacortes 2010 historical event captured cross-page; three-spelling rebrand convention established for ampp-sp0775 (legacy_code_id + prior_nace_doc_number frontmatter fields)
