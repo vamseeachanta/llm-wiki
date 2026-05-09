@@ -112,7 +112,9 @@ All three regimes anchor on the **IBC Code Chapter 17 cargo list** as the canoni
 
 **Cross-wiki bridge (maritime-law):**
 
-- `maritime-law/standards/hns-convention-2010.md` — **bidirectional bridge**: IBC Code defines what a chemical tanker must be built to; HNS Convention 2010 defines who pays when an IBC-certified ship spills its IBC-Chapter-17 cargo. The two regimes share the Chapter 17 cargo list as their common categorization key.
+- [HNS Convention 2010](../../../maritime-law/wiki/standards/hns-convention-2010.md) — **bidirectional bridge**: IBC Code defines what a chemical tanker must be built to; HNS Convention 2010 defines who pays when an IBC-certified ship spills its IBC-Chapter-17 cargo. The two regimes share the Chapter 17 cargo list as their common categorization key.
+- [MARPOL 73/78](../../../maritime-law/wiki/standards/marpol-73-78.md) — **bidirectional bridge**: MARPOL Annex II categorises IBC Chapter 17 cargoes into X/Y/Z/OS pollution categories and prescribes discharge / reception-facility / prewash requirements. IBC governs construction; MARPOL Annex II governs operations on the same chemical-tanker fleet.
+- [SOLAS 1974](../../../maritime-law/wiki/standards/solas-1974.md) — **bidirectional bridge**: SOLAS Chapter VII Part B is the parent convention text under which the IBC Code is mandatory for chemical tankers built on or after 1986-07-01.
 
 **International / regulatory parallels:**
 

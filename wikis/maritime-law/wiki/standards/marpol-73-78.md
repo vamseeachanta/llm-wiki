@@ -75,7 +75,7 @@ Annexes I and II are mandatory for all parties; Annexes III–VI are optional bu
 - [[flag-state-jurisdiction]](../concepts/flag-state-jurisdiction.md) — flag-state survey-and-certification responsibilities.
 - [[opa-90]](../concepts/opa-90.md) — US-domestic oil-pollution complement to MARPOL Annex I.
 - [[clc-1992]](../concepts/clc-1992.md) — Civil Liability Convention for oil-pollution damage; complementary liability layer.
-- [[bunker-convention-2001]](../concepts/bunker-convention-2001.md) — fuel-oil-pollution liability sibling.
+- [[bunkers-convention-2001]](../concepts/bunkers-convention-2001.md) — fuel-oil-pollution liability sibling.
 - [[hns-convention-2010]](../concepts/hns-convention-2010.md) — hazardous and noxious substances liability sibling.
 - [[ism-code]](../concepts/ism-code.md) — safety-management overlay implementing pollution-prevention shipboard procedures.
 
@@ -93,6 +93,11 @@ Annexes I and II are mandatory for all parties; Annexes III–VI are optional bu
 - **US:** 33 CFR (USCG) and 40 CFR (EPA) implementing Annex I–V; Annex VI via 40 CFR Part 1043.
 - **EU:** Directive 2005/35/EC on ship-source pollution and on the introduction of penalties for infringements; Directive 2016/802/EU on sulfur in marine fuels.
 - **UK:** Merchant Shipping (Prevention of Pollution) Regulations under the Merchant Shipping Act 1995, Part VI.
+
+**Cross-wiki (lng-projects)** *(operational construction codes for chemical and gas carriers governed by MARPOL Annexes II/III/VI)*
+
+- [[ibc-code]](../../../lng-projects/wiki/standards/ibc-code.md) — **bidirectional bridge**: MARPOL Annex II categorises IBC Chapter 17 cargoes into X/Y/Z/OS pollution categories. IBC governs construction of chemical tankers; MARPOL Annex II governs their operational discharge regime.
+- [[igc-code]](../../../lng-projects/wiki/standards/igc-code.md) — **bidirectional bridge**: MARPOL Annex VI air-pollution provisions govern BOG-combustion emissions from IGC-certified gas carriers; Annex I governs slops/oily-water on those vessels.
 
 **Cross-wiki (engineering-standards)** *(for Annex VI numeric constants consumed by emissions calcs)*
 

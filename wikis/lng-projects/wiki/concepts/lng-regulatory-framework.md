@@ -35,6 +35,9 @@ This page is a one-paragraph-per-body synthesis of the standards organisations a
 - [FERC 18 CFR 153](../standards/ferc-18-cfr-153.md) — US LNG siting authority (Resource Reports + NEPA)
 - [PHMSA 49 CFR 193](../standards/phmsa-49-cfr-193.md) — US LNG facility safety operations
 - [NFPA 59A](../standards/nfpa-59a.md) — LNG production, storage, and handling design code
+- [CSA Z276](../standards/csa-z276.md) — Canadian LNG production / storage / handling national standard (NFPA 59A's cross-border parallel)
+- [EN 1473](../standards/en-1473.md) — European harmonized standard for onshore LNG installation and equipment (CEN umbrella code)
+- [API Std 625](../standards/api-std-625.md) — Tank Systems for Refrigerated Liquefied Gas Storage; companion design code referenced by NFPA 59A and CSA Z276
 - [IGC Code](../standards/igc-code.md) — IMO international gas-carrier code
 - [SIGTTO Mooring Equipment Guidelines](../standards/sigtto-mooring-equipment.md) — LNG terminal/carrier mooring practice
 
@@ -52,3 +55,7 @@ This page is a one-paragraph-per-body synthesis of the standards organisations a
 - [LNG Storage Tanks](./lng-storage-tanks.md) — primary scope of NFPA 59A and EN 1473
 - [LNG Process Safety](./lng-process-safety.md) — primary scope of SIGTTO and jurisdictional safety standards
 - [LNG Marine Transfer Systems](./lng-marine-transfer-systems.md) — primary scope of OCIMF MEG4 and SIGTTO transfer guidance
+
+### Cross-wiki bridge (maritime-law)
+
+- [SOLAS 1974](../../../maritime-law/wiki/standards/solas-1974.md) — **bidirectional bridge**: IMO is the SOLAS publisher; the IGC Code referenced above is a SOLAS Chapter VII Part C subordinate code. SOLAS is the IMO-pillar parent of this framework.

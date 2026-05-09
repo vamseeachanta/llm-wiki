@@ -34,7 +34,7 @@ The legal framework for holding parties accountable for marine pollution inciden
 ## Cross-References
 
 - **Cases**: [[torrey-canyon-1967]], [[amoco-cadiz-1978]], [[mv-erika-1999]], [[mv-prestige-2002]], [[deepwater-horizon-2010]], [[mv-wakashio-2020]]
-- **Conventions**: [[clc-1992]], [[bunker-convention-2001]], [[hns-convention-2010]], [[opa-90]]
+- **Conventions**: [[clc-1992]], [[bunkers-convention-2001]], [[hns-convention-2010]], [[opa-90]]
 - **Standards-page companions (metadata resolvers)**:
   - [standards/marpol-73-78](../standards/marpol-73-78.md) — operational/discharge layer of the environmental-liability framework.
   - [standards/opa-90](../standards/opa-90.md) — US-domestic unlimited-liability regime where gross negligence breaks the cap.

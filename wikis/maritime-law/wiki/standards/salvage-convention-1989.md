@@ -70,7 +70,7 @@ The convention runs to 34 Articles. The most-cited operative provisions:
 
 **Sibling IMO instruments**
 - [[clc-1992]](../concepts/clc-1992.md) — Civil Liability Convention for Oil Tanker Spills; complementary oil-pollution-liability regime that interlocks with Salvage Convention Article 14 environmental compensation.
-- [[bunker-convention-2001]](../concepts/bunker-convention-2001.md) — bunker-spill liability sibling.
+- [[bunkers-convention-2001]](../concepts/bunkers-convention-2001.md) — bunker-spill liability sibling.
 - [[hns-convention-2010]](../concepts/hns-convention-2010.md) — hazardous-and-noxious-substances liability sibling.
 - [[llmc-1996]](../concepts/llmc-1996.md) — Convention on Limitation of Liability for Maritime Claims; **note** that limitation does not apply to a salvor's claim for **special compensation** under Article 14 (LLMC 1996, Art. 3(b)).
 - **UNCLOS 1982** Articles 221 and 225 — coastal-state intervention to prevent pollution; jurisdictional backdrop to Article 14 environmental-salvage operations. (Standards page pending — W114 in flight.)

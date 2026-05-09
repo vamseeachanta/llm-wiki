@@ -129,7 +129,9 @@ SOLAS evolves substantially through a casualty-then-amendment loop; the most-cit
 
 **Cross-wiki (lng-projects)** *(where SOLAS-driven codes govern LNG carriage and bunkering)*
 
-- [[igc-code]](../../../lng-projects/wiki/standards/igc-code.md) — gas-carrier construction and equipment under SOLAS Ch. VII; first-class standards page already authored.
+- [[igc-code]](../../../lng-projects/wiki/standards/igc-code.md) — **bidirectional bridge**: gas-carrier construction and equipment under SOLAS Ch. VII Part C; first-class standards page already authored.
+- [[ibc-code]](../../../lng-projects/wiki/standards/ibc-code.md) — **bidirectional bridge**: chemical-tanker construction and equipment under SOLAS Ch. VII Part B.
+- [[lng-regulatory-framework]](../../../lng-projects/wiki/concepts/lng-regulatory-framework.md) — **bidirectional bridge**: lng-projects synthesis of IMO/SIGTTO/OCIMF/IACS bodies; SOLAS is the IMO pillar of that framework.
 - IGF Code — LNG-fuelled vessel safety under SOLAS Ch. II-1 Part G (future-promotion candidate in lng-projects).
 
 **Cross-wiki (engineering-standards)** *(where SOLAS Chapters carry numeric constants used by calcs)*

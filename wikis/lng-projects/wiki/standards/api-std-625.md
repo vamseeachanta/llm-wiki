@@ -212,6 +212,12 @@ incorporates API 625 by reference.
   API 625 design loadings.
 - [[lng-project-lifecycle]](../concepts/lng-project-lifecycle.md) — phase
   at which API 625 selection (or EN 14620 equivalent) is locked in.
+- [[lng-project-shapes]](../concepts/lng-project-shapes.md) — onshore-
+  greenfield, brownfield, and FSRU/FLNG shapes whose tank-system scope
+  is governed by API 625 (or EN 14620 in EU jurisdictions).
+- [[lng-regulatory-framework]](../concepts/lng-regulatory-framework.md)
+  — bodies-and-codes synthesis; API 625 is the API-published tank-
+  system arm referenced by NFPA 59A and CSA Z276.
 
 ## Sources
 

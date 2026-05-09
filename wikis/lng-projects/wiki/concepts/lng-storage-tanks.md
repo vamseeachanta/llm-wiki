@@ -29,8 +29,9 @@ This page summarizes the canonical taxonomy of onshore and floating LNG storage 
 
 - [NFPA 59A](../standards/nfpa-59a.md) — US-jurisdiction LNG production/storage/handling design code governing onshore tank containment categories
 - [IGC Code](../standards/igc-code.md) — IMO international gas-carrier code governing ship-side tank types (membrane, Moss-spherical, prismatic) on LNG carriers and FLNG hulls
-- EN 1473 (Installation and equipment for LNG — onshore design) — European primary standard: <https://www.cencenelec.eu/>
-- API 625 (Tank Systems for Refrigerated Liquefied Gas Storage) — US-jurisdiction tank-system standard: <https://www.api.org/>
+- [API Std 625](../standards/api-std-625.md) — Tank Systems for Refrigerated Liquefied Gas Storage; the umbrella tank-system standard whose containment-category taxonomy (single / double / full / membrane) this concept page mirrors
+- [CSA Z276](../standards/csa-z276.md) — Canadian LNG production / storage / handling standard whose Clause 5 governs onshore tank containment design in Canadian jurisdictions
+- [EN 1473](../standards/en-1473.md) — European harmonized standard for onshore LNG installations; Clause 7 delegates cryogenic tank design to EN 14620 (the EU parallel to API 625)
 - EEMUA Publication 147 / 159 (LNG storage tank in-service inspection): <https://www.eemua.org/>
 
 ## Cross-References

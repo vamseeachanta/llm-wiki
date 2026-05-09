@@ -97,6 +97,11 @@ There is **no HNS-equivalent of the 2003 Supplementary Fund** at this stage. Sho
 
 **maritime-law cases** _(see concept page; future case-page digests for chemical-tanker + LNG/LPG-tanker incidents will mirror back here)_
 
+**Cross-wiki bridge (lng-projects)** _(operational construction codes for the cargo classes HNS would cover)_
+
+- [IBC Code](../../../lng-projects/wiki/standards/ibc-code.md) — **bidirectional bridge**: chemical-tanker construction code referenced by HNS Article 1 and Annexes I–IV. HNS defines who pays for spills; IBC defines what the spilling vessel had to be built to. Both regimes anchor on the IBC Chapter 17 cargo list.
+- [IGC Code](../../../lng-projects/wiki/standards/igc-code.md) — **bidirectional bridge**: gas-carrier construction code referenced by HNS Article 1 and Annexes I–IV for LNG/LPG/ethylene/ammonia carriage. HNS Fund LNG/LPG sub-accounts apply to IGC-certified vessels.
+
 ## Sources
 
 - Publisher catalog: IMO, *International Convention on Liability and Compensation for Damage in Connection with the Carriage of Hazardous and Noxious Substances by Sea (HNS)* — https://www.imo.org/en/About/Conventions/Pages/International-Convention-on-Liability-and-Compensation-for-Damage-in-Connection-with-the-Carriage-of-Hazardous-and-Noxious-Substances-by-Sea-(HNS).aspx

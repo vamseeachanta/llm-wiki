@@ -30,6 +30,8 @@ This page defines the canonical project-shape taxonomy and the terminology that 
 - [FERC 18 CFR 153](../standards/ferc-18-cfr-153.md) — US LNG siting authority differentiating onshore-greenfield from brownfield from offshore export shapes
 - [PHMSA 49 CFR 193](../standards/phmsa-49-cfr-193.md) — US LNG facility safety operations applicable to onshore and shore-based regasification shapes
 - [NFPA 59A](../standards/nfpa-59a.md) — onshore design code that distinguishes liquefaction-plant from receiving-terminal scope
+- [CSA Z276](../standards/csa-z276.md) — Canadian LNG standard covering peak-shaver / export / import / fuel-station onshore shapes
+- [EN 1473](../standards/en-1473.md) — European onshore LNG umbrella covering import / export / peak-shaving / fuel-station shapes; mandatory in EU and UK retained law
 - [IGC Code](../standards/igc-code.md) — IMO international gas-carrier code governing FLNG, FSRU, and carrier-side project shapes
 - [SIGTTO Mooring Equipment Guidelines](../standards/sigtto-mooring-equipment.md) — terminal-mooring practice that varies by jetty, FSRU, and FLNG shape
 - Oxford Institute for Energy Studies, NG149 Floating LNG Update (canonical capacity-range reference): <https://www.oxfordenergy.org/>

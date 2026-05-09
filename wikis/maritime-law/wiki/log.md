@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-05-09 16:25 UTC] reconcile | iter 29 — bridge edges + lng back-link sweep + bunker(s) slug fix + UNCLOS concept
+- Pages created: concepts/unclos-1982.md (W142 — doctrinal synthesis companion to standards/unclos-1982.md)
+- Pages renamed: concepts/bunker-convention-2001.md → concepts/bunkers-convention-2001.md (W141 — slug reconciliation; aligned to plural per IMO BUNKERS code + iter-27/iter-28 standards-page convention; 10 incoming-link sites updated across 8 files)
+- Pages modified: 7 cross-wiki bridge edges (W139 — chemicals stack: HNS↔IBC↔MARPOL II tripartite; gas stack: SOLAS↔IGC, MARPOL↔IGC, HNS↔IGC; framework: SOLAS↔lng-regulatory-framework). Files touched in maritime-law: standards/{hns-convention-2010,solas-1974,marpol-73-78}.md.
+- W134 audit follow-through: all 3 audit-flagged priorities now 100% addressed (cross-wiki bridges + lng back-link sweep + maritime-law parity reconciliation). lng-projects W107 sweep regression closed (W140: 14 new return-edges across 4 concept pages + 1 standard).
+- 4-way fanout (W139 W140 W141 W142). Reconciliation iteration — file-overlap partitioned by design (W139 cross-wiki edges; W140 within-lng-projects; W141 maritime-law concepts/bunker-rename; W142 brand-new file). Successful race-management on lng-regulatory-framework.md (touched by both W139 and W140 — both edit-sets landed cleanly).
+
 ## [2026-05-09 15:50 UTC] expand | iter 28 — Tokyo MoU standards + STCW/ISPS concepts (cross-wiki audit + 4 content)
 - Pages created: standards/tokyo-mou.md, concepts/{stcw-convention,isps-code}.md
 - Pages modified: index.md, concepts/port-state-control.md (return-link to Tokyo MoU)
@@ -16,7 +23,7 @@
 
 ## [2026-05-09 15:00 UTC] standards-promotion | iter 26 — 5 more standards + 14 concept-page cross-links
 - Pages created: standards/{hague-visby-rules,rotterdam-rules,llmc-1996,york-antwerp-rules,paris-mou}.md (was 7 → 12)
-- Pages modified: concepts/{marpol-73-78,solas-1974,ism-code,clc-1992,bunker-convention-2001,hns-convention-2010,llmc-1996,athens-convention-2002,environmental-liability,general-average,salvage,limitation-of-liability,flag-state-jurisdiction,charterparties}.md (14 return-link sweep — mirror of W107 lng-projects pattern)
+- Pages modified: concepts/{marpol-73-78,solas-1974,ism-code,clc-1992,bunkers-convention-2001,hns-convention-2010,llmc-1996,athens-convention-2002,environmental-liability,general-average,salvage,limitation-of-liability,flag-state-jurisdiction,charterparties}.md (14 return-link sweep — mirror of W107 lng-projects pattern; concept slug since reconciled to plural per W134)
 - Notes: instrument_type controlled vocab now spans 5 of 7 categories (treaty + regulation + private-codification + mou + remaining: code + protocol + case-law). 7 regional MoUs flagged for future-promotion. Multi-instrument-status framing successful: in-force (Hague-Visby/LLMC) vs not-yet (Rotterdam) vs private-binding (York-Antwerp) vs administrative (Paris MoU).
 
 ## [2026-05-09 14:30 UTC] standards-bootstrap | iter 25 — first 6 standards/ pages + treaty-flavored template

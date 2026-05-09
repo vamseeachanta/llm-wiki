@@ -2,7 +2,7 @@
 domain: maritime-law
 created: 2026-04-07 02:40 UTC
 last_updated: 2026-05-09
-page_count: 53
+page_count: 54
 source_count: 2
 ---
 
@@ -30,7 +30,7 @@ source_count: 2
 | Page | Year | Scope | Key Provision |
 |------|------|-------|--------------|
 | [[CLC 1992]](concepts/clc-1992.md) | 1992 | Oil tanker spills | Strict liability, compulsory insurance |
-| [[Bunker Convention 2001]](concepts/bunker-convention-2001.md) | 2001 | Bunker fuel spills | Non-tanker oil spill liability |
+| [[Bunkers Convention 2001]](concepts/bunkers-convention-2001.md) | 2001 | Bunker fuel spills | Non-tanker oil spill liability |
 | [[HNS Convention 2010]](concepts/hns-convention-2010.md) | 2010 | Hazardous substances | Noxious substance spill liability |
 | [[Athens Convention 2002]](concepts/athens-convention-2002.md) | 2002 | Passengers | Death and injury to passengers |
 | [[LLMC 1996]](concepts/llmc-1996.md) | 1996 | General claims | General limitation of maritime claims |
@@ -84,6 +84,7 @@ source_count: 2
 | [[Port-State Control]](concepts/port-state-control.md) | Paris MoU, Tokyo MoU, US Coast Guard Qualship 21; risk-based inspection | 2026-05-02 |
 | [[Flag-State Jurisdiction]](concepts/flag-state-jurisdiction.md) | UNCLOS Articles 91 and 94; genuine link, open registries, IMSAS | 2026-05-02 |
 | [[Charterparties]](concepts/charterparties.md) | Voyage / time / bareboat; NYPE, GENCON, BARECON; safe-port warranty | 2026-05-02 |
+| [[UNCLOS 1982 — Doctrinal Synthesis]](concepts/unclos-1982.md) | Umbrella treaty; maritime-zone taxonomy; customary-law / US position; ITLOS and Annex VII dispute venues | 2026-05-09 |
 
 ## Sources
 

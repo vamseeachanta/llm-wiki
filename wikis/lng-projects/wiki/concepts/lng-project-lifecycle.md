@@ -30,6 +30,9 @@ This page summarizes the canonical phase taxonomy used by LNG project developers
 - [FERC 18 CFR 153](../standards/ferc-18-cfr-153.md) — US LNG siting authority whose Resource Reports + NEPA review gate the FEED-to-FID phases for export terminals
 - [PHMSA 49 CFR 193](../standards/phmsa-49-cfr-193.md) — US LNG facility safety operations governing the commissioning-and-operations phases
 - [NFPA 59A](../standards/nfpa-59a.md) — design code that establishes the basis-of-design frozen at FEED and locked through EPC
+- [CSA Z276](../standards/csa-z276.md) — Canadian LNG production / storage / handling standard whose applicability is locked in at FEED for Canadian-jurisdiction projects
+- [EN 1473](../standards/en-1473.md) — European harmonized onshore LNG installation standard whose applicability is locked in at FEED for EU-jurisdiction projects
+- [API Std 625](../standards/api-std-625.md) — Tank Systems for Refrigerated Liquefied Gas Storage; tank-system selection (or EN 14620 equivalent) is locked in at the design phase
 - US DOE Global LNG Fundamentals — public-domain primer on LNG project phasing: <https://www.energy.gov/fecm/global-lng-fundamentals>
 - IGC Code (IMO) — sea-transport interface that constrains the marine-side of EPC scope: <https://www.imo.org/en/OurWork/Safety/Pages/IGC-Code.aspx>
 

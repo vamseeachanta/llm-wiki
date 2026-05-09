@@ -75,7 +75,7 @@ This page is a metadata-resolver companion to the existing concept page `concept
 **International parallel framework** _(US is not party to CLC; OPA-90 is the US-domestic equivalent)_
 - [[concepts/clc-1992]](../concepts/clc-1992.md) — Civil Liability Convention 1992 (international tanker-spill liability).
 - IOPC Funds 1992 + Supplementary Fund 2003 — international compensation backstops paralleling OSLTF.
-- [[concepts/bunker-convention-2001]](../concepts/bunker-convention-2001.md) — international fuel-oil pollution sibling regime; covers non-tanker bunker spills internationally where OPA-90 covers them domestically.
+- [[concepts/bunkers-convention-2001]](../concepts/bunkers-convention-2001.md) — international fuel-oil pollution sibling regime; covers non-tanker bunker spills internationally where OPA-90 covers them domestically.
 
 **Other sibling instruments**
 - UNCLOS 1982 — Article 221 confers coastal-state intervention authority for oil-pollution casualties beyond the territorial sea; OPA-90's federal-removal authority (Title IV) is the US implementing reach for that authority over US-flag and foreign-flag vessels in the US EEZ.

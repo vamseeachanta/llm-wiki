@@ -106,6 +106,12 @@ Membrane systems dominate the modern LNG-carrier fleet; Moss-type independent sp
 - `standards/nfpa-59a.md` — terminal-side US LNG facility safety code (forthcoming — gap); IGC governs the ship side, NFPA 59A governs the terminal side
 - `standards/phmsa-49-cfr-193.md` — US-flag PHMSA interface (forthcoming — gap); incorporates NFPA 59A by reference for terminal safety
 
+**Cross-wiki bridge (maritime-law):**
+
+- [SOLAS 1974](../../../maritime-law/wiki/standards/solas-1974.md) — **bidirectional bridge**: SOLAS Chapter VII Part C is the parent convention text under which the IGC Code is mandatory for gas carriers (LNG, LPG, ethylene, ammonia).
+- [MARPOL 73/78](../../../maritime-law/wiki/standards/marpol-73-78.md) — **bidirectional bridge**: pollution-prevention companion. MARPOL Annex VI air-pollution provisions govern BOG-combustion emissions from IGC-certified carriers; Annex I governs slops/oily-water handling on IGC vessels with diesel-fuel systems.
+- [HNS Convention 2010](../../../maritime-law/wiki/standards/hns-convention-2010.md) — **bidirectional bridge**: IGC defines gas-carrier construction; HNS Convention 2010 (not yet in force) defines compensation regime for cargo releases. HNS Fund LNG/LPG sub-accounts apply to IGC-certified vessels.
+
 **International / regulatory parallels:**
 
 - **SOLAS** — parent IMO convention; IGC Code is mandatory under SOLAS Chapter VII Part C

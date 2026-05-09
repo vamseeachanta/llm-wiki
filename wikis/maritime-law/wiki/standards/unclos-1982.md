@@ -101,7 +101,7 @@ Section *titles only* — full text lives at the publisher catalog (link below).
 - [[mlc-2006]](../concepts/mlc-2006.md) — maritime labour (ILO; flag-state implementation).
 - STCW 1978 (as amended) — training, certification, and watchkeeping (no concept page yet).
 - [[clc-1992]](../concepts/clc-1992.md) — civil liability for oil-pollution damage.
-- [[bunker-convention-2001]](../concepts/bunker-convention-2001.md) — bunker-oil-pollution liability.
+- [[bunkers-convention-2001]](../concepts/bunkers-convention-2001.md) — bunker-oil-pollution liability.
 - [[hns-convention-2010]](../concepts/hns-convention-2010.md) — hazardous and noxious substances.
 - [[llmc-1996]](../concepts/llmc-1996.md) — limitation of liability for maritime claims.
 - [[athens-convention-2002]](../concepts/athens-convention-2002.md) — passenger liability.
