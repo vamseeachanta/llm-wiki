@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-09
-page_count: 143
+page_count: 151
 source_count: 19
 ---
 
@@ -35,6 +35,8 @@ _No entity pages yet. Ingest a source to begin._
 | [[Leak-Before-Break (LBB)]](concepts/leak-before-break.md) | Stability + detectability margins; nuclear / H2 / pipeline integrity justification. | 2026-05-09 |
 | [[Damage-Mechanism Screening]](concepts/damage-mechanism-screening.md) | Per-asset identification of credible mechanisms; upstream of RBI POF + FFS Part selection. | 2026-05-09 |
 | [[Ductile Tearing and J-Controlled Crack Growth]](concepts/ductile-tearing.md) | J-R / CTOD-R + tearing-modulus instability; the negative-criterion sibling to brittle-fracture. | 2026-05-09 |
+| [[High-Temperature Hydrogen Attack (HTHA) and Nelson Curves]](concepts/htha-nelson-curves.md) | T × pH2 envelopes for CS/Cr-Mo alloys; CSB Tesoro 2010 → C-0.5Mo disqualification. | 2026-05-09 |
+| [[Creep and Stress Rupture]](concepts/creep-and-stress-rupture.md) | Homologous-T deformation, three stages, Larson-Miller, Omega FFS method. | 2026-05-09 |
 
 ## Sources
 
@@ -172,3 +174,8 @@ _No query outputs filed yet._
 | [[ASTM G1]](standards/astm-g1.md) | Preparing, Cleaning, and Evaluating Corrosion Test Specimens — mass-loss foundation. | 2026-05-09 |
 | [[ASTM G3]](standards/astm-g3.md) | Conventions for Electrochemical Measurements in Corrosion Testing. | 2026-05-09 |
 | [[ASTM G31]](standards/astm-g31.md) | Laboratory Immersion Corrosion Testing of Metals — companion to G1. | 2026-05-09 |
+| [[ASTM G59]](standards/astm-g59.md) | Potentiodynamic Polarization Resistance (LPR) Measurements — i_corr from R_p. | 2026-05-09 |
+| [[ASTM G102]](standards/astm-g102.md) | Calculation of Corrosion Rates from Electrochemical Measurements — Faraday + EW table. | 2026-05-09 |
+| [[ASTM G106]](standards/astm-g106.md) | Electrochemical Impedance Measurements (EIS) Verification. | 2026-05-09 |
+| [[AMPP SP0775]](standards/ampp-sp0775.md) | Corrosion Coupons in Oilfield Operations — online monitoring foundation. | 2026-05-09 |
+| [[API RP 941]](standards/api-rp-941.md) | Steels for Hydrogen Service at Elevated T,P — Nelson curves for HTHA envelopes. | 2026-05-09 |

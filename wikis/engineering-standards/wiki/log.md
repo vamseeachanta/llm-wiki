@@ -54,3 +54,8 @@
 - Pages created: standards/{api-rp-580,api-rp-581,astm-d396,astm-d4814}.md (RBI pair + D02 petroleum siblings)
 - Pages created: concepts/{corrosion-rate-measurement,leak-before-break}.md (corrosion-rate input for RBI/FFS; LBB safety justification)
 - Notes: closes forward-references from concepts/risk-based-inspection (API 580/581) and concepts/fuel-quality-and-specification (D396/D4814); 9 future-promotion candidates flagged in corrosion-rate page (G1/G3/G31/G59/G102/G106 + RP 571/574 + NACE SP0775)
+
+## [2026-05-09] standards-promotion | iter 18 — RBI catalogue + corrosion-rate G-trio + 2 concepts
+- Pages created: standards/{api-rp-571,api-rp-574,astm-g1,astm-g3,astm-g31}.md
+- Pages created: concepts/{damage-mechanism-screening,ductile-tearing}.md
+- Notes: closes corrosion-rate-measurement concept's 3-of-6 ASTM-G promotion candidates (G1+G3+G31); RP 571 + RP 574 close API-side cross-references; damage-mechanism-screening anchors the upstream-of-RBI step previously implicit; ductile-tearing completes the fracture-mechanics-concept ring (ductile + brittle + master-curve + LBB)
