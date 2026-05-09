@@ -4,6 +4,16 @@
 
 ---
 
+## [2026-05-09 15:30 UTC] standards-promotion | iter 27 — 6 concept-companion standards (close concept↔standards parity)
+- Pages created: standards/{clc-1992,bunkers-convention-2001,isps-code,stcw-convention,athens-convention-2002,hns-convention-2010}.md (was 12 → 18)
+- Pages modified: index.md (page_count 44 → 50; +6 standards rows)
+- Notes: All 6 are bidirectional companions to existing concepts/* pages — closes concept↔standards parity for the existing 6 IMO/ILO/treaty concept pages (CLC + Bunkers + Athens + LLMC + HNS were unpaired prior iter; ISPS + STCW had no concept page but are core SOLAS-stack/four-pillar instruments). instrument_type vocab now spans 6 of 7 categories: treaty (CLC/Bunkers/STCW/Athens/HNS) + code (ISPS) joining iter-25/26's regulation + private-codification + mou. Only `protocol` + `case-law` remain unexercised (both inherently embedded in parent_instrument and Case-law section fields rather than standalone pages). 7-way fanout (1 sweep + 6 standards) — W127 W128 W129 W130 W131 W132 W133.
+
+## [2026-05-09 15:00 UTC] standards-promotion | iter 26 — 5 more standards + 14 concept-page cross-links
+- Pages created: standards/{hague-visby-rules,rotterdam-rules,llmc-1996,york-antwerp-rules,paris-mou}.md (was 7 → 12)
+- Pages modified: concepts/{marpol-73-78,solas-1974,ism-code,clc-1992,bunker-convention-2001,hns-convention-2010,llmc-1996,athens-convention-2002,environmental-liability,general-average,salvage,limitation-of-liability,flag-state-jurisdiction,charterparties}.md (14 return-link sweep — mirror of W107 lng-projects pattern)
+- Notes: instrument_type controlled vocab now spans 5 of 7 categories (treaty + regulation + private-codification + mou + remaining: code + protocol + case-law). 7 regional MoUs flagged for future-promotion. Multi-instrument-status framing successful: in-force (Hague-Visby/LLMC) vs not-yet (Rotterdam) vs private-binding (York-Antwerp) vs administrative (Paris MoU).
+
 ## [2026-05-09 14:30 UTC] standards-bootstrap | iter 25 — first 6 standards/ pages + treaty-flavored template
 - Pages created: standards/{unclos-1982,salvage-convention-1989,opa-90,marpol-73-78,solas-1974,mlc-2006,_template}.md (was 0)
 - Pages modified: concepts/{opa-90,mlc-2006}.md (return-link edits closing bidirectional concept↔standards contract)
