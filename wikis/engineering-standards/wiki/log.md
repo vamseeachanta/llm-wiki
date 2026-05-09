@@ -74,3 +74,8 @@
 - Pages created: standards/{api-rp-583,astm-g36,nace-34103}.md (CUI-specific RP + Cl-SCC test method + refinery damage-mechanism field guide)
 - Pages created: concepts/{galvanic-corrosion,thermal-fatigue,erosion-and-fac,temper-embrittlement}.md
 - Notes: 4 of W80 top-5 missing concepts closed (atmospheric corrosion remains for iter-22); RP 571 mechanism-family coverage now ~64% concept-page reachable in 1 hop; 3 landmark utility-industry incidents anchor concept pages (Tesoro Anacortes 2010 / Davis-Besse 2002 / Mihama-3 2004); first audit-driven dispatch (W80 → iter-21 scope)
+
+## [2026-05-09] standards-promotion | iter 22 — atmospheric/mech-fatigue/coatings concepts + 3 standards
+- Pages created: standards/{api-rp-14e,astm-a335,asme-b31-12}.md (offshore-piping V_e + Cr-Mo high-T pipe + H2 piping code)
+- Pages created: concepts/{atmospheric-corrosion,mechanical-fatigue,coating-systems}.md
+- Notes: W80 top-5 missing concepts now 5-of-5 closed (atmospheric corrosion); ASME B31 family complete (5 codes B31.1/B31.3/B31.4/B31.8/B31.12); methodology_status field gains 2nd value catalog-absent-publisher-only (W96); W90 cross-wiki audit recommends iter-23 pivot to lng-projects (sub-5% iteration lift remaining in engineering-standards)
