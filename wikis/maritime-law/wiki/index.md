@@ -1,8 +1,8 @@
 ---
 domain: maritime-law
 created: 2026-04-07 02:40 UTC
-last_updated: 2026-05-02
-page_count: 32
+last_updated: 2026-05-09
+page_count: 39
 source_count: 2
 ---
 
@@ -46,6 +46,20 @@ source_count: 2
 | [[SOLAS 1974]](concepts/solas-1974.md) | IMO | 2020 (MSC amendments) | Safety of life at sea |
 | [[MLC 2006]](concepts/mlc-2006.md) | ILO | STC 2022 amendments (in force 2024) | Seafarers' labour rights |
 | [[ISM Code]](concepts/ism-code.md) | IMO | 2018 (rides on SOLAS Ch. IX) | Safety management system |
+
+## Standards (formal `wiki/standards/` pages)
+
+> Bootstrapped iter-25 (2026-05-09) per W111 cross-wiki audit. Treaty-flavored `_template.md` (W113) diverges ~40% from lng-projects' template (instrument_type vocab + amendment_status + case-law section, no revision field).
+
+| Page | Publisher | Instrument Type | Last Updated |
+|------|-----------|-----------------|-------------|
+| [[UNCLOS 1982]](standards/unclos-1982.md) | UN / DOALOS | treaty | 2026-05-09 |
+| [[Salvage Convention 1989]](standards/salvage-convention-1989.md) | IMO | treaty | 2026-05-09 |
+| [[OPA 90]](standards/opa-90.md) | US Congress | regulation | 2026-05-09 |
+| [[MARPOL 73/78]](standards/marpol-73-78.md) | IMO | treaty | 2026-05-09 |
+| [[SOLAS 1974]](standards/solas-1974.md) | IMO | treaty | 2026-05-09 |
+| [[MLC 2006]](standards/mlc-2006.md) | ILO | treaty | 2026-05-09 |
+| [[Standards page template]](standards/_template.md) | (template) | n/a | 2026-05-09 |
 
 ## Concepts (Cross-cutting)
 

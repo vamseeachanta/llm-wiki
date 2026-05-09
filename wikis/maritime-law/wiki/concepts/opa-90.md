@@ -28,6 +28,7 @@ Deepwater Horizon
 
 ## Cross-References
 
+- **Standards-page companion (metadata resolver)**: [[standards/opa-90]](../standards/opa-90.md) — bidirectional companion; statutory metadata, codified citation, amendment status, implementing CFR map.
 - **Source**: [Maritime Liability Conventions](../sources/maritime-liability-conventions.md)
 - **Related cases**: [Maritime Law Cases](../sources/maritime-law-cases.md)
 - **Cross-wiki (engineering)**: [Energy Field Economics](../../../engineering/wiki/concepts/energy-field-economics.md) — unlimited gross-negligence liability impacts deepwater project risk assessment and insurance costs

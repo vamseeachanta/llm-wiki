@@ -79,3 +79,10 @@
 - Pages created: standards/{api-rp-14e,astm-a335,asme-b31-12}.md (offshore-piping V_e + Cr-Mo high-T pipe + H2 piping code)
 - Pages created: concepts/{atmospheric-corrosion,mechanical-fatigue,coating-systems}.md
 - Notes: W80 top-5 missing concepts now 5-of-5 closed (atmospheric corrosion); ASME B31 family complete (5 codes B31.1/B31.3/B31.4/B31.8/B31.12); methodology_status field gains 2nd value catalog-absent-publisher-only (W96); W90 cross-wiki audit recommends iter-23 pivot to lng-projects (sub-5% iteration lift remaining in engineering-standards)
+
+## [2026-05-09] cross-wiki-pivot | engineering-standards paused; lng-projects + maritime-law pickup
+- Per W90 cross-wiki audit (iter-22): engineering-standards saturated at 118 standards / 30 concepts (sub-5%-iteration-lift). Per W111 maritime-law audit (iter-24): maritime-law gap was the next-highest leverage.
+- Iter-23 (commit 2ff1525f): lng-projects pivot — 5 standards + template + 2 sources (FERC + PHMSA + NFPA 59A + IGC + SIGTTO + IGU 2025 + FERC portal).
+- Iter-24 (commit e01c3937): lng-projects deepening — CSA Z276 + API Std 625 + EN 1473 + 24 concept↔standard return-links.
+- Iter-25 (current): maritime-law pivot — UNCLOS / Salvage 1989 + treaty-flavored _template + 4 standards-companion to existing MARPOL/SOLAS/OPA-90/MLC concepts.
+- Engineering-standards work to resume after maritime-law convergence (per W90 + W111 audit cadence).
