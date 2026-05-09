@@ -4,6 +4,12 @@
 
 ---
 
+## [2026-05-09 14:30 UTC] standards-bootstrap | iter 25 — first 6 standards/ pages + treaty-flavored template
+- Pages created: standards/{unclos-1982,salvage-convention-1989,opa-90,marpol-73-78,solas-1974,mlc-2006,_template}.md (was 0)
+- Pages modified: concepts/{opa-90,mlc-2006}.md (return-link edits closing bidirectional concept↔standards contract)
+- Notes: First standards/ pages in maritime-law (sanctioned by #15). UNCLOS + Salvage 1989 = net-new; OPA-90 + MARPOL + SOLAS + MLC = metadata-resolver companions to existing concept pages. _template.md (W113) diverges ~40% from lng-projects': drops `revision`, adds `instrument_type` controlled vocab + `consolidated_edition` + `amendment_status` + `effective_date` + Case-law section. Per W111 audit pivot from saturating engineering-standards/lng-projects.
+- Cross-wiki link: solas-1974.md forward-links to lng-projects/wiki/standards/igc-code.md (first multi-wiki standards-graph traversal).
+
 ## [2026-04-07 02:40 UTC] seed-migrate | maritime-law-cases.yaml
 - Source: knowledge/seeds/maritime-law-cases.yaml
 - 10 cases migrated from YAML seed format to entity pages

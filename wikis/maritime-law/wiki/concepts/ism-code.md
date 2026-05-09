@@ -6,7 +6,7 @@ consolidated_edition: "2018 (consolidated; rides on the SOLAS Ch. IX amendment c
 embedded_in: solas-1974
 tags: [maritime-law, standards-tier, imo, ism, safety-management]
 added: 2026-05-02
-last_updated: 2026-05-02
+last_updated: 2026-05-09
 sources:
   - maritime-liability-conventions
 see_also:
@@ -52,6 +52,7 @@ The International Safety Management (ISM) Code is the IMO standard for the safe 
 ## Cross-References
 
 - **Parent convention**: [SOLAS 1974](./solas-1974.md) — Chapter IX is the legal anchor.
+- **Standards-page metadata**: [standards/solas-1974](../standards/solas-1974.md) — parent convention metadata resolver; [standards/marpol-73-78](../standards/marpol-73-78.md) — sibling IMO instrument referenced by ISM Part A pollution-prevention objectives.
 - **Doctrine pages**: [Port-State Control](./port-state-control.md), [Flag-State Jurisdiction](./flag-state-jurisdiction.md).
 - **Cases**: see `../entities/mv-prestige-2002.md` and `../entities/mv-wakashio-2020.md` for ISM-implementation discussion.
 

@@ -2,7 +2,7 @@
 title: "General Average — York-Antwerp Rules"
 tags: [maritime-law, concept, doctrine, general-average, york-antwerp]
 added: 2026-05-02
-last_updated: 2026-05-02
+last_updated: 2026-05-09
 sources:
   - maritime-law-cases
   - maritime-liability-conventions
@@ -35,6 +35,9 @@ General average is the ancient maritime doctrine under which an extraordinary sa
 
 - **Sibling doctrine**: [Salvage](./salvage.md) — distinct from general average; salvage compensates a rescuer, GA reallocates loss among the saved.
 - **Convention layer**: [LLMC 1996](./llmc-1996.md) — limitation may cap the shipowner's GA contribution.
+- **Standards-page companions (metadata resolvers)**:
+  - [standards/york-antwerp-rules](../standards/york-antwerp-rules.md) — direct codification of the GA doctrine (YAR 1994 / 2004 / 2016); CMI publisher, incorporation-by-reference status.
+  - [standards/salvage-convention-1989](../standards/salvage-convention-1989.md) — sibling rescue/loss-sharing institution; salvors' Article 13/14 awards interact with GA contributions.
 - **Cases**: [MV Ever Given](../entities/mv-ever-given-2021.md), [MSC Flaminia](../entities/msc-flaminia-2012.md).
 
 ## Citation Source

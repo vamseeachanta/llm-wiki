@@ -5,7 +5,7 @@ sources:
   - maritime-law-cases
   - maritime-liabilities
 added: 2026-04-07
-last_updated: 2026-04-07
+last_updated: 2026-05-09
 ---
 
 # Environmental Liability in Maritime Law
@@ -35,5 +35,9 @@ The legal framework for holding parties accountable for marine pollution inciden
 
 - **Cases**: [[torrey-canyon-1967]], [[amoco-cadiz-1978]], [[mv-erika-1999]], [[mv-prestige-2002]], [[deepwater-horizon-2010]], [[mv-wakashio-2020]]
 - **Conventions**: [[clc-1992]], [[bunker-convention-2001]], [[hns-convention-2010]], [[opa-90]]
+- **Standards-page companions (metadata resolvers)**:
+  - [standards/marpol-73-78](../standards/marpol-73-78.md) — operational/discharge layer of the environmental-liability framework.
+  - [standards/opa-90](../standards/opa-90.md) — US-domestic unlimited-liability regime where gross negligence breaks the cap.
+  - [standards/salvage-convention-1989](../standards/salvage-convention-1989.md) — Article 14 special compensation rewards salvors for environmental-damage prevention even where no property is saved.
 - **Cross-wiki (engineering)**: [Pipeline Integrity Assessment](../../../engineering/wiki/concepts/pipeline-integrity-assessment.md) — pipeline failure leading to spills triggers environmental liability
 - **Cross-wiki (engineering)**: [Energy Field Economics](../../../engineering/wiki/concepts/energy-field-economics.md) — environmental liability exposure as material risk in field development economics

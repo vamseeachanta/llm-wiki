@@ -2,7 +2,7 @@
 title: "Salvage — LOF, SCOPIC, and the 1989 Salvage Convention"
 tags: [maritime-law, concept, doctrine, salvage, lof, scopic]
 added: 2026-05-02
-last_updated: 2026-05-02
+last_updated: 2026-05-09
 sources:
   - maritime-law-cases
   - maritime-liability-conventions
@@ -37,6 +37,7 @@ Salvage is the maritime law of voluntary, successful rescue of property at peril
 
 - **Sibling doctrine**: [General Average](./general-average.md).
 - **Convention layer**: [LLMC 1996](./llmc-1996.md) — limitation does not apply to salvors' claims for special compensation.
+- **Standards-page companion (metadata resolver)**: [standards/salvage-convention-1989](../standards/salvage-convention-1989.md) — bidirectional companion; entry-into-force, Article 13 reward criteria, Article 14 special-compensation gateway, LOF/SCOPIC contractual surface.
 - **Cases**: [MV Ever Given](../entities/mv-ever-given-2021.md), [Sea Empress](../entities/sea-empress-1996.md).
 
 ## Citation Source

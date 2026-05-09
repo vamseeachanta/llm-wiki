@@ -5,7 +5,7 @@ publisher: IMO
 consolidated_edition: "2022 (consolidated through MEPC amendments adopted by 2026-05-02)"
 tags: [maritime-law, standards-tier, imo, marpol, pollution]
 added: 2026-05-02
-last_updated: 2026-05-02
+last_updated: 2026-05-09
 sources:
   - maritime-liability-conventions
 see_also:
@@ -39,6 +39,7 @@ MARPOL is the principal IMO instrument addressing operational and accidental pol
 
 ## Cross-References
 
+- **Standards-page companion (metadata resolver)**: [standards/marpol-73-78](../standards/marpol-73-78.md) — bidirectional companion; consolidated edition, amendment chain, IOPP/IAPP certificate metadata.
 - **Doctrine pages**: [Environmental Liability](./environmental-liability.md), [Port-State Control](./port-state-control.md), [Flag-State Jurisdiction](./flag-state-jurisdiction.md).
 - **Cases**: [MV Wakashio](../entities/mv-wakashio-2020.md) — Mauritian prosecution under Annex I after 2020 grounding.
 

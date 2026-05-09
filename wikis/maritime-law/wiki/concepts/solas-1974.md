@@ -5,7 +5,7 @@ publisher: IMO
 consolidated_edition: "2020 (consolidated through MSC amendments adopted by 2026-05-02)"
 tags: [maritime-law, standards-tier, imo, solas, safety]
 added: 2026-05-02
-last_updated: 2026-05-02
+last_updated: 2026-05-09
 sources:
   - maritime-liability-conventions
 see_also:
@@ -49,6 +49,7 @@ SOLAS is the principal IMO instrument governing the safety of merchant ships. Th
 
 ## Cross-References
 
+- **Standards-page companion (metadata resolver)**: [standards/solas-1974](../standards/solas-1974.md) — bidirectional companion; consolidated edition, MSC amendment chain, statutory survey/certificate metadata.
 - **Embedded codes**: [ISM Code](./ism-code.md) (Ch. IX), ISPS Code (Ch. XI-2 — deferred page).
 - **Doctrine pages**: [Port-State Control](./port-state-control.md), [Flag-State Jurisdiction](./flag-state-jurisdiction.md).
 - **Cases**: see `../entities/mv-prestige-2002.md` for SOLAS-survey discussion.

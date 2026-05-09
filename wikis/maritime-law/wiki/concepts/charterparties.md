@@ -2,7 +2,7 @@
 title: "Charterparties — Voyage, Time, and Bareboat"
 tags: [maritime-law, concept, doctrine, charterparty, contract]
 added: 2026-05-02
-last_updated: 2026-05-02
+last_updated: 2026-05-09
 sources:
   - maritime-law-cases
   - maritime-liability-conventions
@@ -37,6 +37,9 @@ A charterparty is the contract by which a shipowner places vessel capacity at th
 ## Cross-References
 
 - **Sibling doctrine**: [Limitation of Liability](./limitation-of-liability.md).
+- **Standards-page companions (metadata resolvers)**:
+  - [standards/hague-visby-rules](../standards/hague-visby-rules.md) — bill-of-lading regime routinely incorporated by reference into voyage and time charters; carrier duties and Article IV r. 5 package limitation.
+  - [standards/rotterdam-rules](../standards/rotterdam-rules.md) — modernised carriage-of-goods regime (not yet widely in force) intended to replace Hague-Visby for door-to-door multimodal contracts.
 - **Cases**: [The Eurasian Dream](../entities/eurasian-dream-2002.md), [MSC Flaminia](../entities/msc-flaminia-2012.md).
 
 ## Citation Source

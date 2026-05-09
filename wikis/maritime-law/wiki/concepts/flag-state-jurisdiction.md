@@ -2,7 +2,7 @@
 title: "Flag-State Jurisdiction — UNCLOS Articles 91 and 94"
 tags: [maritime-law, concept, doctrine, flag-state, unclos]
 added: 2026-05-02
-last_updated: 2026-05-02
+last_updated: 2026-05-09
 sources:
   - maritime-law-cases
   - maritime-liability-conventions
@@ -36,6 +36,7 @@ Flag-state jurisdiction is the doctrine that every merchant ship has the nationa
 
 - **Sibling doctrine**: [Port-State Control](./port-state-control.md).
 - **Standards**: [SOLAS 1974](./solas-1974.md), [MARPOL 73/78](./marpol-73-78.md).
+- **Standards-page companion (metadata resolver)**: [standards/unclos-1982](../standards/unclos-1982.md) — UNCLOS Articles 91, 92, and 94 are the treaty anchor for flag-state nationality, exclusive high-seas jurisdiction, and flag-state duties.
 - **Cases**: [MV Prestige](../entities/mv-prestige-2002.md).
 
 ## Citation Source

@@ -2,7 +2,7 @@
 title: "Limitation of Liability — Doctrine and Statutory Regimes"
 tags: [maritime-law, concept, doctrine, limitation, liability]
 added: 2026-05-02
-last_updated: 2026-05-02
+last_updated: 2026-05-09
 sources:
   - maritime-law-cases
   - maritime-liability-conventions
@@ -36,6 +36,9 @@ Limitation of liability is the doctrine under which a shipowner (and certain rel
 ## Cross-References
 
 - **Convention surface**: [LLMC 1996](./llmc-1996.md), [CLC 1992](./clc-1992.md), [OPA 90](./opa-90.md), [Athens Convention 2002](./athens-convention-2002.md).
+- **Standards-page companions (metadata resolvers)**:
+  - [standards/llmc-1996](../standards/llmc-1996.md) — umbrella global limitation regime; SDR tonnage-based cap and Article 4 wilful-misconduct gateway.
+  - [standards/hague-visby-rules](../standards/hague-visby-rules.md) — package/kilogramme cargo-claim cap (Art. IV r. 5) — the cargo-side limitation regime that runs alongside the global LLMC cap.
 - **Cases**: [MV Prestige](../entities/mv-prestige-2002.md), [Deepwater Horizon](../entities/deepwater-horizon-2010.md).
 
 ## Citation Source
