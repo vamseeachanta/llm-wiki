@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-05-09 18:55 UTC] expand | iter 34 — audit V4 with depth-check + 4 concept companions (3 instrument + 1 comparative)
+- Pages created: concepts/{salvage-convention-1989,york-antwerp-rules,nairobi-wrc-2007,regional-mous-comparative}.md (was 18 → 22 cross-cutting concepts; 4 new doctrinal-synthesis pages)
+- Pages modified: index.md (page_count 63 → 67)
+- Notes: 5-way fanout (1 audit V4 + 4 content). W162 audit V4 introduced NEW depth-check dimension surfacing next-defect class: 10 entity stubs (Torrey Canyon → Ever Given at 29-30 lines / 3 sections cohort avg 33; Volcafe-2018 W156 only full-depth at 61/7), environmental-liability concept hard-stub (3 sections vs cohort 5.96), 7 doctrinal concepts authored 2026-05-02 partial-depth (45-49 lines / 5 sections vs reference opa-90/llmc-1996 115-118/8). W163 Salvage 1989: Article 14 + Nagasaki Spirit + SCOPIC trio doctrinal centerpiece. W164 York-Antwerp: 1994-vs-2016 version selection, 2004→2016 salvage reversion. W165 Nairobi WRC: closes IMO compensation-stack post-incident gap. W166 Regional MoUs comparative: comparison-table-driven hub for all 9 regional MoUs (single page rather than 6 individual concept pages duplicating Paris). iter-35 priorities locked: P1 environmental-liability expansion + P2 10 entity-stub expansions + P3 4 partial-depth concept expansions. Bridge-depth gap narrowed 73%/27% → 56%/44%; defect shifts from graph topology → bridge depth (iter-33 closed) → page depth (audit V4 surfaces).
+
 ## [2026-05-09 18:25 UTC] expand | iter 33 — eng-stds bridge thickening + 3 regional MoUs batch + 2 concept-stub expansions
 - Pages created: standards/{mediterranean-mou,black-sea-mou,riyadh-mou}.md (regional MoUs 6 → 9 — half of 9 global regional MoUs documented)
 - Pages modified: concepts/{opa-90,llmc-1996}.md (W160 + W161 — expanded from 35-line + 34-line seed-migrated stubs to ~110 + ~150 lines doctrinal synthesis matching sibling style; pre-existing pages so no new file count), concepts/port-state-control.md (W158 + W159 return-links — 3 new bullets), index.md (page_count 60 → 63 + Standards/Concepts table rows), W157 6-file eng-stds bridge thickening (3 new bidirectional pairs: B31.3↔IGC, ISO 15156↔lng-process-safety, RP 571↔MARPOL)
