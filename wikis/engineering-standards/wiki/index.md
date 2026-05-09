@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-09
-page_count: 165
+page_count: 172
 source_count: 19
 ---
 
@@ -45,6 +45,9 @@ _No entity pages yet. Ingest a source to begin._
 | [[Thermal Fatigue]](concepts/thermal-fatigue.md) | LCF from ΔT cycling/shock/striping; Davis-Besse 2002 case study. | 2026-05-09 |
 | [[Erosion, Erosion-Corrosion, and FAC]](concepts/erosion-and-fac.md) | 3 velocity-driven wall-loss mechanisms; Mihama-3 2004 + API RP 14E. | 2026-05-09 |
 | [[Temper Embrittlement (J-Factor + X-Factor)]](concepts/temper-embrittlement.md) | Cr-Mo reactor toughness loss; Watanabe + Bruscato impurity formulae. | 2026-05-09 |
+| [[Atmospheric Corrosion]](concepts/atmospheric-corrosion.md) | ISO 9223 C1-CX corrosivity categories; TOW + Cl⁻ + SO2 drivers. | 2026-05-09 |
+| [[Mechanical Fatigue (HCF + LCF)]](concepts/mechanical-fatigue.md) | HCF/LCF/VHCF regimes; VIV; 9 O&G mechanical-fatigue scenarios. | 2026-05-09 |
+| [[Protective Coating Systems]](concepts/coating-systems.md) | FBE/3LPE/3LPP/TSA + structural multi-coat; Sa 2½ surface prep gates. | 2026-05-09 |
 
 ## Sources
 
@@ -192,3 +195,6 @@ _No query outputs filed yet._
 | [[API RP 583]](standards/api-rp-583.md) | Corrosion Under Insulation and Fireproofing — companion to API 510/570/653. | 2026-05-09 |
 | [[ASTM G36]](standards/astm-g36.md) | Boiling Magnesium Chloride SCC Test — Cl-SCC screening for austenitic SS. | 2026-05-09 |
 | [[NACE 34103]](standards/nace-34103.md) | Refinery Crude Unit Practical Damage Mechanisms — field guide companion to RP 571. | 2026-05-09 |
+| [[API RP 14E]](standards/api-rp-14e.md) | Offshore Production Platform Piping — V_e erosional-velocity formula screening. | 2026-05-09 |
+| [[ASTM A335]](standards/astm-a335.md) | Seamless Ferritic Alloy-Steel Pipe for High-T Service (P1-P122 family). | 2026-05-09 |
+| [[ASME B31.12]](standards/asme-b31-12.md) | Hydrogen Piping and Pipelines — H2-specific qualification + M_f de-rating. | 2026-05-09 |

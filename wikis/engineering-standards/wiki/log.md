@@ -69,3 +69,8 @@
 - Pages created: standards/{asme-b31-1,api-rp-577}.md (B31 family complete; welding-inspection metallurgy companion to 510/570/653)
 - Pages created: concepts/{sulfidation-and-naphthenic-acid,microbiologically-influenced-corrosion,corrosion-under-insulation,stress-corrosion-cracking}.md
 - Notes: Closes top damage-mechanism concept gaps from RP 571 catalogue; SCC umbrella organizes 10 variants by 3 propagation mechanisms; W80 audit identifies iter-21 priorities (galvanic, thermal-fatigue, erosion-FAC, temper-embrittlement); methodology_status=stale-as-of-publisher-cycle frontmatter convention introduced (W74)
+
+## [2026-05-09] standards-promotion | iter 21 — close W80 audit top-5 concepts + 3 standards
+- Pages created: standards/{api-rp-583,astm-g36,nace-34103}.md (CUI-specific RP + Cl-SCC test method + refinery damage-mechanism field guide)
+- Pages created: concepts/{galvanic-corrosion,thermal-fatigue,erosion-and-fac,temper-embrittlement}.md
+- Notes: 4 of W80 top-5 missing concepts closed (atmospheric corrosion remains for iter-22); RP 571 mechanism-family coverage now ~64% concept-page reachable in 1 hop; 3 landmark utility-industry incidents anchor concept pages (Tesoro Anacortes 2010 / Davis-Besse 2002 / Mihama-3 2004); first audit-driven dispatch (W80 → iter-21 scope)
