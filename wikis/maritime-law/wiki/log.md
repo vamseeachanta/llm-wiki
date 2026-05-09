@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-05-09 15:50 UTC] expand | iter 28 — Tokyo MoU standards + STCW/ISPS concepts (cross-wiki audit + 4 content)
+- Pages created: standards/tokyo-mou.md, concepts/{stcw-convention,isps-code}.md
+- Pages modified: index.md, concepts/port-state-control.md (return-link to Tokyo MoU)
+- Notes: 5-way fanout (1 audit + 4 content). W134 audit (in `_audit/iter-28-W134-cross-wiki-audit.md`) recommends iter-29 priorities: cross-wiki bridge edges + lng-projects back-link backlog + bunker(s) slug fix + UNCLOS-1982 concept page. Audit anti-recommendation: do NOT pivot to naval-architecture wiki yet — bridge layer must connect existing 3 wikis first. STCW + ISPS concept pages close 2 of 3 audit-flagged concept gaps; only UNCLOS-1982 concept remains for iter-29. Tokyo MoU = sibling-template substitution from Paris MoU (regional Asia-Pacific port-state-control cooperation; 21 member authorities; 2017 NIR alignment).
+
 ## [2026-05-09 15:30 UTC] standards-promotion | iter 27 — 6 concept-companion standards (close concept↔standards parity)
 - Pages created: standards/{clc-1992,bunkers-convention-2001,isps-code,stcw-convention,athens-convention-2002,hns-convention-2010}.md (was 12 → 18)
 - Pages modified: index.md (page_count 44 → 50; +6 standards rows)

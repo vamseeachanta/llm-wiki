@@ -2,7 +2,7 @@
 domain: maritime-law
 created: 2026-04-07 02:40 UTC
 last_updated: 2026-05-09
-page_count: 50
+page_count: 53
 source_count: 2
 ---
 
@@ -71,6 +71,7 @@ source_count: 2
 | [[STCW Convention 1978/2010]](standards/stcw-convention.md) | IMO | treaty | 2026-05-09 |
 | [[Athens Convention 2002]](standards/athens-convention-2002.md) | IMO | treaty | 2026-05-09 |
 | [[HNS Convention 2010]](standards/hns-convention-2010.md) | IMO | treaty (not yet in force) | 2026-05-09 |
+| [[Tokyo MoU]](standards/tokyo-mou.md) | Tokyo MoU Secretariat | mou | 2026-05-09 |
 
 ## Concepts (Cross-cutting)
 

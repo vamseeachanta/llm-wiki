@@ -4,6 +4,10 @@
 > Chronological record of all wiki operations.
 > Format: ## [YYYY-MM-DD] operation | Title
 
+## [2026-05-09] expand | iter 28 — IBC Code (chemical-tanker construction sibling)
+- Pages created: standards/ibc-code.md (was 9 → 10)
+- Notes: IMO IBC Code (chemical-tanker construction; SOLAS Ch. VII Part B + MARPOL Annex II). Sibling-template substitution from existing igc-code.md. Cross-wiki bridge engineered intentionally to maritime-law/standards/hns-convention-2010.md (chemical cargo: IBC = ship-construction, HNS = carriage-liability). Three-ship-type characterization (Type 1/2/3 by hazard severity). Per W134 cross-wiki-audit dispatch — bridge-edges-first iter-29 priority recommendation.
+
 ## [2026-05-09] standards-bootstrap | iter 23 — first 5 standards pages + 2 sources + template
 - Pages created: standards/{ferc-18-cfr-153,phmsa-49-cfr-193,nfpa-59a,igc-code,sigtto-mooring-equipment,_template}.md
 - Pages created: sources/{igu-2025-lng-report,ferc-lng-portal}.md

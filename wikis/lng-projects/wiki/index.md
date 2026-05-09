@@ -2,7 +2,7 @@
 domain: lng-projects
 created: 2026-04-28 19:23 UTC
 last_updated: 2026-05-09
-page_count: 22
+page_count: 23
 source_count: 5
 ---
 
@@ -56,3 +56,4 @@ _No query outputs filed yet._
 | [[CSA Z276]](standards/csa-z276.md) | Canadian LNG Production/Storage/Handling — counterpart to US NFPA 59A. | 2026-05-09 |
 | [[API Std 625]](standards/api-std-625.md) | Tank Systems for Refrigerated Liquefied Gas Storage — umbrella API tank-system code. | 2026-05-09 |
 | [[EN 1473]](standards/en-1473.md) | EU Onshore LNG Installations Design — CEN harmonized parallel to NFPA 59A + CSA Z276. | 2026-05-09 |
+| [[IMO IBC Code]](standards/ibc-code.md) | International Code for Construction + Equipment of Ships Carrying Dangerous Chemicals in Bulk (SOLAS Ch. VII Part B). Sibling of IGC; cross-wiki bridge to maritime-law/HNS Convention. | 2026-05-09 |
