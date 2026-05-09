@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-05-09 17:55 UTC] expand | iter 32 — Indian Ocean MoU + Volcafe 2018 entity + audit V3 + 2 lng concepts
+- Pages created: standards/indian-ocean-mou.md (W153 — 4th regional-MoU template-substitution from Paris/Tokyo/Caribbean), entities/volcafe-2018.md (W156 — UK Supreme Court Hague-Visby case-law landmark; "most-significant Hague-Visby case in 50 years"; restored common-law bailment-presumption per Lord Sumption)
+- Pages modified: index.md (page_count 58 → 60; +2 rows), concepts/port-state-control.md (Indian Ocean MoU return-link)
+- Notes: 5-way fanout (1 audit V3 + 1 maritime-law standards + 2 lng-projects concepts + 1 maritime-law entity). Audit V3 (W152) at `_audit/iter-32-W152-cross-wiki-audit-v3.md` confirms 3-wiki graph fully connected first time post-iter-31; defect shifted from topology (closed) to bridge depth. iter-33 priorities: thicken eng-stds bridges (3 new pairs B31.3↔IGC + ISO 15156↔process-safety + RP 571↔MARPOL), batch-deploy Mediterranean + Black Sea + Riyadh MoUs, 2 maritime concept pages (OPA 90 + LLMC 1996). Anti-rec: NO Vina del Mar/Abuja MoUs (weaker source coverage), NO entity→standards promotion, NO new lng concepts post-iter-32 (skeleton complete).
+
 ## [2026-05-09 17:25 UTC] expand | iter 31 — first eng-standards bridges + 3 maritime-law concept companions
 - Pages created: concepts/{hague-visby-rules,paris-mou,rotterdam-rules}.md (W149+W150+W151 — doctrinal-synthesis companions to existing standards/* pages)
 - Pages modified: index.md (page_count 55 → 58 + 3 Concepts table rows), standards/solas-1974.md (W148 — BPVC bridge replaces "future-promotion candidate" placeholder)

@@ -4,6 +4,11 @@
 > Chronological record of all wiki operations.
 > Format: ## [YYYY-MM-DD] operation | Title
 
+## [2026-05-09] expand | iter 32 — LNG vapor handling + composition management (concept gap-fills closing skeleton)
+- Pages created: concepts/{lng-vapor-handling,lng-composition-management}.md (was 10 → 12)
+- Pages modified: index.md (page_count 25 → 27; +2 Concepts rows)
+- Notes: W154 (vapor handling): operational vapor-envelope; tank-pressure boundary, gas-up/gas-freeing, flare/vent architectures, EU MR 2024/1787 + EPA Subpart W methane-regulation pressure. W155 (composition management): Wobbe Index framework, lean/rich spectrum (Qatar/Trinidad/US Gulf Coast), upstream pre-treatment, SPA off-spec mechanics. Per W152 audit V3: post-iter-32 lng-projects topical skeleton is complete; iter-33+ should NOT add new lng concept pages.
+
 ## [2026-05-09] expand | iter 30 — LNG cargo containment systems + cooldown procedures (concept gap-fills)
 - Pages created: concepts/{lng-cargo-containment-systems,lng-cooldown-commissioning}.md (was 8 → 10)
 - Pages modified: index.md (page_count 23 → 25; +2 Concepts rows)

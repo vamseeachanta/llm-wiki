@@ -24,6 +24,7 @@ source_count: 2
 | [[Deepwater Horizon]](entities/deepwater-horizon-2010.md) | 2010 | US GOM | OPA 90 and gross negligence liability |
 | [[MV Wakashio]](entities/mv-wakashio-2020.md) | 2020 | Mauritius | MARPOL prosecution and MLC crew welfare |
 | [[MV Ever Given]](entities/mv-ever-given-2021.md) | 2021 | Egypt/Suez | Canal blockage liability and salvage |
+| [[Volcafe v CSAV]](entities/volcafe-2018.md) | 2018 | UK Supreme Court | Hague-Visby burden of proof; inherent vice (Art. IV.2(m)) |
 
 ## Conventions (Concepts)
 
@@ -73,6 +74,7 @@ source_count: 2
 | [[HNS Convention 2010]](standards/hns-convention-2010.md) | IMO | treaty (not yet in force) | 2026-05-09 |
 | [[Tokyo MoU]](standards/tokyo-mou.md) | Tokyo MoU Secretariat | mou | 2026-05-09 |
 | [[Caribbean MoU]](standards/caribbean-mou.md) | Caribbean MoU Secretariat | mou | 2026-05-09 |
+| [[Indian Ocean MoU]](standards/indian-ocean-mou.md) | Indian Ocean MoU Secretariat | mou | 2026-05-09 |
 | [[Nairobi WRC 2007]](standards/nairobi-wrc-2007.md) | IMO | treaty | 2026-05-09 |
 
 ## Concepts (Cross-cutting)
