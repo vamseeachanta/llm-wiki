@@ -75,6 +75,9 @@ source_count: 2
 | [[Tokyo MoU]](standards/tokyo-mou.md) | Tokyo MoU Secretariat | mou | 2026-05-09 |
 | [[Caribbean MoU]](standards/caribbean-mou.md) | Caribbean MoU Secretariat | mou | 2026-05-09 |
 | [[Indian Ocean MoU]](standards/indian-ocean-mou.md) | Indian Ocean MoU Secretariat | mou | 2026-05-09 |
+| [[Mediterranean MoU]](standards/mediterranean-mou.md) | Mediterranean MoU Secretariat | mou | 2026-05-09 |
+| [[Black Sea MoU]](standards/black-sea-mou.md) | Black Sea MoU Secretariat | mou | 2026-05-09 |
+| [[Riyadh MoU]](standards/riyadh-mou.md) | Riyadh MoU Secretariat | mou | 2026-05-09 |
 | [[Nairobi WRC 2007]](standards/nairobi-wrc-2007.md) | IMO | treaty | 2026-05-09 |
 
 ## Concepts (Cross-cutting)
@@ -92,6 +95,8 @@ source_count: 2
 | [[Paris MoU — Doctrinal Synthesis]](concepts/paris-mou.md) | First regional PSC arrangement (1982, post–Amoco Cadiz); NIR pioneer (HRS/SRS/LRS); flag-ranking commercial impact; CIC coordination with Tokyo + Caribbean MoUs | 2026-05-09 |
 | [[Rotterdam Rules — Doctrinal Synthesis]](concepts/rotterdam-rules.md) | UN UNCITRAL door-to-door carriage-of-goods regime; modernization of Hague-Visby; not in force (5 of 20 ratifications); failed-launch case study | 2026-05-09 |
 | [[Hague-Visby Rules — Doctrinal Synthesis]](concepts/hague-visby-rules.md) | Carriage-of-goods regime under bills of lading; Article III obligations and Article IV.2 defenses; SDR package limit; US COGSA carve-out; Rotterdam successor | 2026-05-09 |
+| [[OPA 90 — Doctrinal Synthesis]](concepts/opa-90.md) | US-domestic oil-spill liability framework (33 U.S.C. §§ 2701–2762); Exxon-Valdez-driven; §2704(c) cap-loss for gross negligence or regulatory violation; §2718 preserves state law; §4115 single-hull phase-out; Deepwater Horizon as modern reference case | 2026-05-09 |
+| [[LLMC 1996 — Doctrinal Synthesis]](concepts/llmc-1996.md) | Umbrella per-incident cap for general maritime claims; tonnage-banded SDR limits under Articles 6 and 7; Article 4 "intent or recklessness with knowledge" cap-break gateway; 2012 + 2018 tacit-acceptance amendments; interface with CLC / Bunkers / HNS / Athens / Nairobi WRC | 2026-05-09 |
 
 ## Sources
 

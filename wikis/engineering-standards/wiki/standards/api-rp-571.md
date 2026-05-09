@@ -180,6 +180,30 @@ each time.
   material for the morphology and susceptibility content on
   [[pitting-and-crevice-corrosion]].
 
+## Cross-wiki bridges
+
+- [MARPOL 73/78](../../../maritime-law/wiki/standards/marpol-73-78.md)
+  (maritime-law) — **bidirectional bridge**: API RP 571's damage-
+  mechanism catalogue (corrosion, cracking, erosion, mechanical and
+  high-temperature mechanisms) is the technical-content reference for
+  MARPOL incident-investigation root-cause analysis on tanker hull,
+  cargo-tank, and slop-tank failures. MARPOL **Annex I (oil)** and
+  **Annex II (noxious liquid substances in bulk)** inspection regimes
+  — particularly the IOPP/NLS certificate survey programme and the
+  double-hull tanker fitness-for-service evaluation under MEPC.95(46)
+  — overlap directly with RP 571 entries for sour-water corrosion,
+  CO2 corrosion, sulfide stress cracking, naphthenic-acid corrosion,
+  microbiologically-influenced corrosion (MIC), and erosion-corrosion
+  in cargo-handling and ballast-water circuits. Cargo-tank atmospheric
+  corrosion under Annex I crude-oil-washing residues, Annex II
+  category-X/Y prewash-cycle attack on tank linings, and slop-tank
+  bottom-side MIC are the highest-frequency RP 571 mechanism hits in
+  the casualty record (Erika 2000, Prestige 2002, Hebei Spirit 2007
+  all involved hull-integrity damage mechanisms catalogued in RP 571).
+  Use this pairing when authoring incident-investigation digests that
+  bridge regulatory non-conformance findings to mechanism-level
+  metallurgical evidence.
+
 ## Why this page exists
 
 Resolver target for digitalmodel `Citation` instances per

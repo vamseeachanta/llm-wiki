@@ -40,3 +40,22 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 - [[asme-bpvc-ix]] — welding qualification basis
 - [[asme-b16-5]] — flange-rating cross-link
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+
+## Cross-wiki bridges
+
+- [IGC Code](../../../lng-projects/wiki/standards/igc-code.md)
+  (lng-projects) — **bidirectional bridge**: ASME B31.3 is the
+  process-piping substrate-code that the IGC Code imports by reference
+  for hydrocarbon-process piping aboard gas carriers. IGC Chapter 5
+  (Process Pressure Vessels and Liquid, Vapour, and Pressure Piping
+  Systems) and Chapter 7 (Cargo Pressure / Temperature Control) flow
+  cargo-handling and reliquefaction-plant piping design pressures,
+  classifications, and stress-analysis requirements into B31.3 (and
+  B31.5 for refrigeration-circuit piping); IGC Ch.16 (Use of Cargo as
+  Fuel) extends the same delegation to LNG-fuelled main-engine fuel
+  gas piping. Cargo-tank cryogenic loading + vapor-return + spray-line
+  piping on LNG/LPG carriers consume B31.3 SIF, allowable-stress, and
+  flexibility-analysis rules through this delegation. Class-society
+  gas-carrier rules (ABS, DNV, LR, BV, ClassNK) implement IGC by
+  invoking B31.3 for the auxiliary and cargo-piping scope rather than
+  publishing parallel piping rules.

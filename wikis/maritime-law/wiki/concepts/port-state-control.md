@@ -35,7 +35,9 @@ Port-state control (PSC) is the regime under which a sovereign port state inspec
 ## Cross-References
 
 - **Sibling doctrine**: [Flag-State Jurisdiction](./flag-state-jurisdiction.md).
-- **Regional MoU standards pages**: [Paris MoU](../standards/paris-mou.md), [Tokyo MoU](../standards/tokyo-mou.md), [Caribbean MoU](../standards/caribbean-mou.md), [Indian Ocean MoU](../standards/indian-ocean-mou.md).
+- **Regional MoU standards pages**: [Paris MoU](../standards/paris-mou.md), [Tokyo MoU](../standards/tokyo-mou.md), [Caribbean MoU](../standards/caribbean-mou.md), [Indian Ocean MoU](../standards/indian-ocean-mou.md), [Mediterranean MoU](../standards/mediterranean-mou.md).
+- [Black Sea MoU](../standards/black-sea-mou.md) — Black Sea basin (6 members; Bosphorus/Dardanelles chokepoint; post-2022 Russia-Ukraine war disruption).
+- [Riyadh MoU](../standards/riyadh-mou.md) — Persian Gulf + Arabian Sea (6 GCC members; Strait of Hormuz chokepoint; ~30% of global crude tanker traffic).
 - **Standards**: [MARPOL 73/78](./marpol-73-78.md), [SOLAS 1974](./solas-1974.md), [MLC 2006](./mlc-2006.md).
 - **Cases**: [MV Erika](../entities/mv-erika-1999.md), [MV Wakashio](../entities/mv-wakashio-2020.md).
 

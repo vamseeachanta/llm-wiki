@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-05-09 18:25 UTC] expand | iter 33 — eng-stds bridge thickening + 3 regional MoUs batch + 2 concept-stub expansions
+- Pages created: standards/{mediterranean-mou,black-sea-mou,riyadh-mou}.md (regional MoUs 6 → 9 — half of 9 global regional MoUs documented)
+- Pages modified: concepts/{opa-90,llmc-1996}.md (W160 + W161 — expanded from 35-line + 34-line seed-migrated stubs to ~110 + ~150 lines doctrinal synthesis matching sibling style; pre-existing pages so no new file count), concepts/port-state-control.md (W158 + W159 return-links — 3 new bullets), index.md (page_count 60 → 63 + Standards/Concepts table rows), W157 6-file eng-stds bridge thickening (3 new bidirectional pairs: B31.3↔IGC, ISO 15156↔lng-process-safety, RP 571↔MARPOL)
+- Notes: 5-way fanout per W152 audit V3 priorities. W157 doubles engineering-standards outbound bridge count (3 → 6). W158/W159 close 3 of 6 remaining regional MoU gaps; per audit V3 anti-rec, NOT promoting Vina del Mar/Abuja yet (weaker source coverage). W160/W161 reveal a doctrinal gap audit-pattern hadn't surfaced: existence-based audit checks miss page-depth-stub pattern; concepts/{opa-90,llmc-1996}.md were both 30-line seed stubs labeled as concepts but lacking doctrinal synthesis. Future audit V4 should include a depth-check dimension. Maritime-law standards/concept-companion parity now 100% for major instruments. Per page_count race-fix: bumped index page_count BEFORE log.md edit this iter (vs after content commits in iter-31/iter-32).
+
 ## [2026-05-09 17:55 UTC] expand | iter 32 — Indian Ocean MoU + Volcafe 2018 entity + audit V3 + 2 lng concepts
 - Pages created: standards/indian-ocean-mou.md (W153 — 4th regional-MoU template-substitution from Paris/Tokyo/Caribbean), entities/volcafe-2018.md (W156 — UK Supreme Court Hague-Visby case-law landmark; "most-significant Hague-Visby case in 50 years"; restored common-law bailment-presumption per Lord Sumption)
 - Pages modified: index.md (page_count 58 → 60; +2 rows), concepts/port-state-control.md (Indian Ocean MoU return-link)
