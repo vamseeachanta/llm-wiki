@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-09
-page_count: 158
+page_count: 165
 source_count: 19
 ---
 
@@ -41,6 +41,10 @@ _No entity pages yet. Ingest a source to begin._
 | [[Microbiologically Influenced Corrosion (MIC)]](concepts/microbiologically-influenced-corrosion.md) | SRB/IOB/APB community taxonomy; oilfield + tank-bottom MIC patterns. | 2026-05-09 |
 | [[Corrosion Under Insulation (CUI)]](concepts/corrosion-under-insulation.md) | CS-CUI + CISCC-CUI mechanism families; T-window + inspection-method matrix. | 2026-05-09 |
 | [[Stress-Corrosion Cracking (SCC) — Variants]](concepts/stress-corrosion-cracking.md) | 10-variant SCC umbrella; 3 propagation-mechanism families; test-method catalogue. | 2026-05-09 |
+| [[Galvanic Corrosion]](concepts/galvanic-corrosion.md) | Dissimilar-metal-couple acceleration; seawater galvanic series + area-ratio rule. | 2026-05-09 |
+| [[Thermal Fatigue]](concepts/thermal-fatigue.md) | LCF from ΔT cycling/shock/striping; Davis-Besse 2002 case study. | 2026-05-09 |
+| [[Erosion, Erosion-Corrosion, and FAC]](concepts/erosion-and-fac.md) | 3 velocity-driven wall-loss mechanisms; Mihama-3 2004 + API RP 14E. | 2026-05-09 |
+| [[Temper Embrittlement (J-Factor + X-Factor)]](concepts/temper-embrittlement.md) | Cr-Mo reactor toughness loss; Watanabe + Bruscato impurity formulae. | 2026-05-09 |
 
 ## Sources
 
@@ -185,3 +189,6 @@ _No query outputs filed yet._
 | [[API RP 941]](standards/api-rp-941.md) | Steels for Hydrogen Service at Elevated T,P — Nelson curves for HTHA envelopes. | 2026-05-09 |
 | [[ASME B31.1]](standards/asme-b31-1.md) | Power Piping — boiler/turbine/steam systems (sibling to B31.3 process). | 2026-05-09 |
 | [[API RP 577]](standards/api-rp-577.md) | Welding Inspection and Metallurgy — NDE methods + PWHT companion to API 510/570/653. | 2026-05-09 |
+| [[API RP 583]](standards/api-rp-583.md) | Corrosion Under Insulation and Fireproofing — companion to API 510/570/653. | 2026-05-09 |
+| [[ASTM G36]](standards/astm-g36.md) | Boiling Magnesium Chloride SCC Test — Cl-SCC screening for austenitic SS. | 2026-05-09 |
+| [[NACE 34103]](standards/nace-34103.md) | Refinery Crude Unit Practical Damage Mechanisms — field guide companion to RP 571. | 2026-05-09 |

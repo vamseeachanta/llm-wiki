@@ -64,3 +64,8 @@
 - Pages created: standards/{astm-g59,astm-g102,astm-g106,ampp-sp0775,api-rp-941}.md
 - Pages created: concepts/{htha-nelson-curves,creep-and-stress-rupture}.md
 - Notes: closes corrosion-rate-measurement concept's complete future-promotion list (9 of 9 candidates from iter-17 W55); HTHA cluster opens (RP 941 Nelson curves + concept page); CSB Tesoro Anacortes 2010 historical event captured cross-page; three-spelling rebrand convention established for ampp-sp0775 (legacy_code_id + prior_nace_doc_number frontmatter fields)
+
+## [2026-05-09] standards-promotion | iter 20 — ASME B31.1 + RP 577 + 4 damage-mechanism concepts
+- Pages created: standards/{asme-b31-1,api-rp-577}.md (B31 family complete; welding-inspection metallurgy companion to 510/570/653)
+- Pages created: concepts/{sulfidation-and-naphthenic-acid,microbiologically-influenced-corrosion,corrosion-under-insulation,stress-corrosion-cracking}.md
+- Notes: Closes top damage-mechanism concept gaps from RP 571 catalogue; SCC umbrella organizes 10 variants by 3 propagation mechanisms; W80 audit identifies iter-21 priorities (galvanic, thermal-fatigue, erosion-FAC, temper-embrittlement); methodology_status=stale-as-of-publisher-cycle frontmatter convention introduced (W74)
