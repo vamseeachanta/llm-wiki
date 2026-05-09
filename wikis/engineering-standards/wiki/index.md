@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-09
-page_count: 117
+page_count: 136
 source_count: 19
 ---
 
@@ -16,7 +16,23 @@ _No entity pages yet. Ingest a source to begin._
 
 ## Concepts
 
-_No concept pages yet._
+| Page | Summary | Last Updated |
+|------|---------|-------------|
+| [[Brittle Fracture and the Brittle-Ductile Transition]](concepts/brittle-fracture.md) | Brittle-ductile transition, DBTT, Master Curve T0; bridges fracture mechanics ↔ FFS. | 2026-05-09 |
+| [[Hydrogen Embrittlement and HISC]](concepts/hydrogen-embrittlement.md) | HE/HISC/HSC/HIC/SOHIC mechanisms; bridges cathodic-protection ↔ sour-service. | 2026-05-09 |
+| [[Weld Toughness and HAZ Properties]](concepts/weld-toughness.md) | HAZ toughness, Charpy/CTOD weldment qualification; bridges welding ↔ fracture/FFS. | 2026-05-09 |
+| [[Risk-Based Inspection (RBI)]](concepts/risk-based-inspection.md) | API 580/581 risk-ranked inspection planning; bridges integrity-management ↔ FFS. | 2026-05-09 |
+| [[Engineering Critical Assessment (ECA)]](concepts/engineering-critical-assessment.md) | BS 7910 / API 579 alternative weld-acceptance via fracture mechanics; bridges welding ↔ FFS. | 2026-05-09 |
+| [[Fuel Quality and Specification]](concepts/fuel-quality-and-specification.md) | Gasoline / diesel / jet / heating-oil specs; petroleum-products anchor. | 2026-05-09 |
+| [[Cathodic Protection]](concepts/cathodic-protection.md) | Sacrificial + ICCP; HE caveat for high-strength steels and CRAs (DNV-RP-F112). | 2026-05-09 |
+| [[Fatigue Design and Assessment]](concepts/fatigue-design-and-assessment.md) | S-N + FCG paradigms, hot-spot stress, environmental tiers; offshore foundation. | 2026-05-09 |
+| [[Fitness-for-Service (FFS)]](concepts/fitness-for-service.md) | API 579 + BS 7910 quantitative integrity assessment; in-service flaw evaluation. | 2026-05-09 |
+| [[Fracture Toughness Measurement]](concepts/fracture-toughness-measurement.md) | K_Ic / J / CTOD / master-curve methods; FFS toughness inputs. | 2026-05-09 |
+| [[Pitting and Crevice Corrosion]](concepts/pitting-and-crevice-corrosion.md) | CPT/CCT envelopes, PREN, ASTM G48 method comparison; CRA selection. | 2026-05-09 |
+| [[Sour Service Materials]](concepts/sour-service-materials.md) | H2S / SSC / HIC / SOHIC; ISO 15156 zoning; CRA + carbon-steel qualification. | 2026-05-09 |
+| [[Welding Procedures and Acceptance]](concepts/welding-procedures-and-acceptance.md) | WPS/PQR/WPQ qualification, ECA acceptance, sour-service overlays. | 2026-05-09 |
+| [[Corrosion-Rate Measurement and Estimation]](concepts/corrosion-rate-measurement.md) | LTCR/STCR; mass-loss / electrochemical / in-service-thickness modalities. | 2026-05-09 |
+| [[Leak-Before-Break (LBB)]](concepts/leak-before-break.md) | Stability + detectability margins; nuclear / H2 / pipeline integrity justification. | 2026-05-09 |
 
 ## Sources
 
@@ -145,3 +161,7 @@ _No query outputs filed yet._
 | [[API 510]](standards/api-510.md) | Pressure Vessel Inspection Code — In-service Inspection, Rating, Repair, Alteration. | 2026-05-09 |
 | [[API 570]](standards/api-570.md) | Piping Inspection Code — In-service Inspection, Rating, Repair, Alteration. | 2026-05-09 |
 | [[API 653]](standards/api-653.md) | Tank Inspection, Repair, Alteration, and Reconstruction. | 2026-05-09 |
+| [[API RP 580]](standards/api-rp-580.md) | Risk-Based Inspection — qualitative methodology for process plants. | 2026-05-09 |
+| [[API RP 581]](standards/api-rp-581.md) | Risk-Based Inspection Methodology — quantitative POF/COF + damage-factor catalogue. | 2026-05-09 |
+| [[ASTM D396]](standards/astm-d396.md) | Fuel Oils — six grades from light distillate to bunker C residual. | 2026-05-09 |
+| [[ASTM D4814]](standards/astm-d4814.md) | Automotive Spark-Ignition Engine Fuel — gasoline + ethanol blends. | 2026-05-09 |

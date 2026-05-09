@@ -40,3 +40,8 @@
 - Pages created: standards/{astm-d86,astm-d445,astm-d975,astm-d1655}.md (D02 petroleum-products quartet)
 - Pages created: standards/{api-510,api-570,api-653}.md (in-service inspection trio — FFS-gates)
 - Notes: New petroleum sub-domain anchored by D86/D445/D975/D1655 cross-link cluster; integrity-management trio closes FFS-gate forward-links from concepts/fitness-for-service.md; multi-edition records strongest in D975 (10 catalog hits across 1998-2004) and D1655 (7 hits 2000-2003)
+
+## [2026-05-09] concepts | iter 16 — 6 cross-cluster bridge pages
+- Pages created: concepts/{brittle-fracture,hydrogen-embrittlement,weld-toughness,risk-based-inspection,engineering-critical-assessment,fuel-quality-and-specification}.md
+- Bridges: fracture↔FFS (brittle-fracture, weld-toughness, ECA); CP↔sour-service (hydrogen-embrittlement); integrity-mgmt↔FFS (RBI); petroleum anchor (fuel-quality)
+- Notes: Convention firming — agents independently adopted "key cross-link audit" classifying outbound wikilinks as lands-cleanly vs forward-reference, plus calc-citation-contract footers
