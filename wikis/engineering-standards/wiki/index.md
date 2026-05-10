@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-10
-page_count: 191
+page_count: 207
 source_count: 19
 ---
 
@@ -219,3 +219,19 @@ _No query outputs filed yet._
 | [[API Std 653]](standards/api-std-653.md) | Tank Inspection, Repair, Alteration, and Reconstruction; canonical-slug resolver pairing with legacy slug api-653 (W208 iter-45 inspection-domain substrate-gap fill). | 2026-05-10 |
 | [[API RP 572]](standards/api-rp-572.md) | Inspection Practices for Pressure Vessels — execution-grade companion to API 510 (W208 iter-45 inspection-domain substrate-gap fill). | 2026-05-10 |
 | [[API RP 576]](standards/api-rp-576.md) | Inspection of Pressure-Relieving Devices — PRV/rupture-disk inspection-and-shop-test practice (W208 iter-45 inspection-domain substrate-gap fill). | 2026-05-10 |
+| [[API RP 578]](standards/api-rp-578.md) | Material Verification Program for New and Existing Alloy Piping Systems — PMI / alloy-verification practice; W215 iter-46 inspection-domain substrate-gap fill. | 2026-05-10 |
+| [[API RP 2201]](standards/api-rp-2201.md) | Safe Hot Tapping Practices in the Petroleum and Petrochemical Industries — in-service hot-tap and line-stop practice; W215 iter-46 inspection-domain substrate-gap fill. | 2026-05-10 |
+| [[API RP 2SIM]](standards/api-rp-2sim.md) | Structural Integrity Management of Fixed Offshore Structures — companion to API RP 2A-WSD; W215 iter-46 offshore-integrity substrate-gap fill. | 2026-05-10 |
+| [[API 579-1 / ASME FFS-1]](standards/api-579-1-asme-ffs-1.md) | Fitness-For-Service — joint API/ASME consensus standard; canonical joint-numbering resolver pairing with API-only legacy slug api-std-579 (W215 iter-46 substrate-gap fill). | 2026-05-10 |
+| [[BS 7448]](standards/bs-7448.md) | Fracture Mechanics Toughness Tests (Parts 1-4) — UK national K_Ic / J / CTOD / R-curve test method family; ECA/fracture substrate-fill resolver (W215 iter-46 / W217 iter-47). | 2026-05-10 |
+| [[BS 7608]](standards/bs-7608.md) | Guide to Fatigue Design and Assessment of Steel Products — canonical short-slug resolver paired with legacy_slug=bs-7608-fatigue-design; ECA/fracture substrate-fill (W215 iter-46 / W217 iter-47). | 2026-05-10 |
+| [[DNV-RP-C210]](standards/dnv-rp-c210.md) | Probabilistic Methods for Planning of Inspection for Fatigue Cracks in Offshore Structures — RBI complement to DNV-RP-C203; ECA/fracture substrate-fill resolver (W215 iter-46 / W217 iter-47). | 2026-05-10 |
+| [[ASTM G38]](standards/astm-g38.md) | C-Ring Stress-Corrosion Test Specimen Preparation Practice; tubing/pipe/rod-bar SCC geometry; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
+| [[ASTM G44]](standards/astm-g44.md) | Alternate Immersion in Neutral 3.5% NaCl — laboratory atmospheric-marine SCC exposure environment; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
+| [[ASTM G47]](standards/astm-g47.md) | SCC Susceptibility of 2XXX/7XXX Aluminum Alloy Products — short-transverse aerospace SCC qualification; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
+| [[ASTM G50]](standards/astm-g50.md) | Atmospheric Corrosion Tests on Metals — outdoor-exposure practice underpinning ISO 9223 categorization; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
+| [[ASTM G64]](standards/astm-g64.md) | Classification of Resistance to SCC of Heat-Treatable Aluminum Alloys — A/B/C/D ratings consuming G47 results; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
+| [[ASTM G78]](standards/astm-g78.md) | Crevice Corrosion of Iron- and Nickel-Base Stainless Alloys in Seawater — service-relevant complement to G48 FeCl3 screening; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
+| [[ASTM G85]](standards/astm-g85.md) | Modified Salt Spray (Fog) Testing — A1/A2/A3/A4/A5 annex family for accelerated chloride-fog coating qualification; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
+| [[ASTM G123]](standards/astm-g123.md) | SCC of Stainless Alloys in Boiling Acidified NaCl — Ni-content-resistance ranking method; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
+| [[ASTM A923]](standards/astm-a923.md) | Detecting Detrimental Intermetallic Phase in Duplex Austenitic/Ferritic Stainless Steels — Method A NaOH etch + Method B Charpy + Method C FeCl3; substrate-fill resolver (W215 iter-46). | 2026-05-10 |

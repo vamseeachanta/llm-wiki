@@ -1,8 +1,8 @@
 ---
 domain: maritime-law
 created: 2026-04-07 02:40 UTC
-last_updated: 2026-05-09
-page_count: 78
+last_updated: 2026-05-10
+page_count: 80
 source_count: 2
 ---
 
@@ -33,6 +33,8 @@ source_count: 2
 | [[MV Wakashio]](entities/mv-wakashio-2020.md) | 2020 | Mauritius | First major Bunkers Convention 2001 + Nairobi WRC 2007 application post-2015-in-force; VLSFO post-2020-sulfur-cap reference |
 | [[MV Ever Given]](entities/mv-ever-given-2021.md) | 2021 | Egypt/Suez (UK arb / Egypt) | ULCV canal blockage; Salvage Convention 1989 + LLMC 1996 + York-Antwerp Rules 1994; ~$916M SCA claim |
 | [[Volcafe v CSAV]](entities/volcafe-2018.md) | 2018 | UK Supreme Court | Hague-Visby burden of proof; inherent vice (Art. IV.2(m)) |
+| [[Sanchi]](entities/sanchi-2018.md) | 2018 | East China Sea (Yangtze estuary) | Largest condensate-tanker spill in history (~113,000 t); Iranian-flag NITC operation; NIOC v Bright Shipping insurance dispute; sanctions-and-war-risk-exclusion interaction; condensate marginal-persistence under MARPOL Annex I + CLC 1992 |
+| [[Front Altair]](entities/front-altair-2019.md) | 2019 | Strait of Hormuz / Gulf of Oman | Coordinated limpet-mine attack (with *Kokuka Courageous*); US attribution to IRGC; JWC-listed-area pricing reset; war-risk-insurance engagement at scale; Salvage Convention Article 14 in attack-driven casualty |
 | [[X-Press Pearl]](entities/x-press-pearl-2021.md) | 2021 | Sri Lanka (Colombo coast) | Largest plastic-pellet pollution event in maritime history; Hague-Visby Article IV.6 misdeclared/off-spec nitric-acid container; Bunkers + Nairobi WRC + LLMC 1996 multi-track engagement |
 | [[FSO Safer]](entities/fso-safer-2023.md) | 2023 | Yemen (Red Sea, Ras Issa) | UN-led pre-emptive salvage of deteriorating FSO holding 1.14M barrels Marib crude; ~$148M multilateral funding; UNDP/UNEP/OCHA/IMO state-actor salvage-coordinator model |
 | [[MV Dali]](entities/mv-dali-2024.md) | 2024 | US (D. Md. limitation) | Francis Scott Key Bridge collision (6 deaths, ~$1.5B+ damages); first major modern test of US 1851 LOLA against post-OPA-90 + Bunkers framework; § 30530 privity-or-knowledge cap-break gateway |
