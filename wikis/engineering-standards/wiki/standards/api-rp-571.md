@@ -13,12 +13,12 @@ tags:
   - rbi-input
   - integrity-management
 added: 2026-05-09
-last_updated: 2026-05-09
+last_updated: 2026-05-10
 domain: engineering-standards
 sources:
   - /mnt/ace/O&G-Standards/API/Recommended-Practice/API_RP_571_1st_Ed_(2003)_Damage_Mechanisms_Affecting_Fixed_Equipment_in_the_Refining_Industry.pdf
   - ../sources/og-standards-api.md
-extraction_policy: metadata-only
+extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
 ---
 
@@ -59,6 +59,18 @@ RP 571 is also the substantive input that supports the [risk-based-inspection](.
 concept page (mechanism catalogue feeding screening) and
 [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) (typical rate ranges and morphology
 guidance per mechanism).
+
+### Industry adoption — refining, petrochemical, offshore
+
+Although titled to *refining*, the catalogue's mechanism set is
+metallurgically universal and adoption extends well beyond:
+
+| Sector | Highest-frequency RP 571 hits | Adoption surface |
+|---|---|---|
+| **Refining** (primary) | HTHA, sulfidation, NAC, Cl-SCC, PASCC, CUI on crude/vacuum, FCC, hydroprocessing, reformer, alkylation, sulfur-recovery, amine units | [api-510](api-510.md), [api-std-570](api-std-570.md), [api-std-653](api-std-653.md) cite directly |
+| **Petrochemical** | Olefins cracking-furnace creep, carburisation, metal dusting; aromatics Cl-SCC; polyolefin fouling-thinning; methanol / ammonia HTHA, nitriding, H-embrittlement | Operator-adopted (RP 571 not petrochem-targeted) |
+| **Offshore upstream** | CO₂ sweet corrosion; sour-service sulfide SCC / HIC / SOHIC ([ampp-mr-0175-pt1](ampp-mr-0175-pt1.md)); sand erosion-corrosion; marine-atmosphere CUI | Class societies (DNV, ABS, LR, BV) and IACS reference alongside own rules |
+| **LNG / cryogenic** | Warm-end amine, dehydration, mercury-removal, BOG compressors | See [LNG Process Safety](../../../lng-projects/wiki/concepts/lng-process-safety.md) bridge below for cold-end mapping |
 
 ## Edition history
 
@@ -134,6 +146,24 @@ candidate mechanisms (e.g., HTHA vs creep, or Cl-SCC vs PASCC) on the
 same axes, rather than re-deriving the comparison from primary literature
 each time.
 
+### Worked-example mini-case studies
+
+Doctrinal-synthesis illustrations of how a practitioner walks the
+RP 571 template into an integrity action — **not** reproductions of
+RP 571 case content. Each row maps template steps onto one scenario
+and names the downstream RBI / FFS artifact.
+
+| Scenario | Materials | Critical factors | Morphology | Inspection | Mitigation | Downstream artifact |
+|---|---|---|---|---|---|---|
+| **HTHA — hydroprocessing reactor inlet** (CS piping, ~315 °C / 600 psia H₂) | CS, C-½Mo (post-Tesoro-Anacortes reassessment) | T, pH₂, time-at-condition | Grain-boundary fissuring + bulk decarburisation | AUBT + in-situ replication | Upgrade to 1¼Cr-½Mo or 2¼Cr-1Mo per Nelson curve | HTHA-DF in [api-rp-581](api-rp-581.md); Part-10 FFS via [api-std-579](api-std-579.md) |
+| **Cl-SCC — hot austenitic overhead** (304 tubes, wet-Cl⁻, 60–150 °C) | 300-series susceptible; duplex / high-Ni resistant | Cl⁻, T, dissolved O₂, residual stress | Transgranular branched cracking on wetted surface | PT, ECT, PAUT for depth | Desalter optimisation, neutralising amine, duplex / 6 % Mo upgrade | Part-9 crack-like-flaw FFS per [api-std-579](api-std-579.md) |
+| **Thermal fatigue — coker drum skirt-shell weld** (24-h cycling, ΔT ≥ 400 °C) | CS-½Mo / 1¼Cr shell + austenitic cladding | Cycle frequency, ΔT, skirt-junction SCF, residual stress | Circumferential cracking at weld toe; ratcheting bulge | MT/PT every TAR; WFMT/PAUT for depth | Forged-skirt redesign, keyhole-slot relief, weld-toe grinding | Part-14 fatigue per [api-std-579](api-std-579.md); fatigue-DF in [api-rp-581](api-rp-581.md) |
+| **CUI — cold-service insulated piping** (6" CS, –10 to +120 °C, marine) | CS / low-alloy; co-located 300-series at external-Cl-SCC risk | Insulation/jacket integrity, T-band, ambient Cl⁻, cycling | Patchy thinning + localised pitting hidden under jacket | GW-UT screen; profile RT or PEC at suspect spots; jacket-pull sentinels | CUI-rated TSA / epoxy-phenolic; jacket redesign; insulation removal on cold-service | Thinning-DF in [api-rp-581](api-rp-581.md); Part-4 / Part-5 FFS per [api-std-579](api-std-579.md) |
+
+In practice the RBI team walks all candidate mechanisms per item and
+prunes against materials and operating-history evidence — that pruning
+discipline is the catalogue's primary contribution.
+
 ## Cross-references
 
 - **API RP 580 — Risk-Based Inspection (qualitative).** Names RP 571 as
@@ -179,6 +209,50 @@ each time.
   (Cl-SCC pit-initiation, MIC, under-deposit attack) are the source
   material for the morphology and susceptibility content on
   [pitting-and-crevice-corrosion](../concepts/pitting-and-crevice-corrosion.md).
+
+### Damage-mechanism concept-page links
+
+Intra-wiki concept pages carrying the per-mechanism narrative; slugs
+without extant targets are forward-adopted and resolve once the concept
+page lands.
+
+- [HTHA & Nelson curves](../concepts/htha-nelson-curves.md) — atomic-H attack on C / low-alloy steels above Nelson threshold; post-Tesoro-Anacortes reassessment.
+- [Hydrogen embrittlement](../concepts/hydrogen-embrittlement.md) — ambient-T H-induced ductility loss; co-mechanism with HIC / SOHIC / sulfide SCC.
+- [Sulfidation & naphthenic-acid corrosion](../concepts/sulfidation-naphthenic-acid.md) — high-T S attack and high-TAN NAC on hot hydrocarbon equipment.
+- [Stress-corrosion cracking](../concepts/stress-corrosion-cracking.md) — umbrella for Cl-SCC, caustic, amine, PASCC, carbonate, sulfide SCC.
+- [Brittle fracture](../concepts/brittle-fracture.md) — low-T cleavage; reference-T framing feeding Part-3 FFS.
+- [Fatigue crack growth](../concepts/fatigue-crack-growth.md) — mechanical + thermal fatigue, da/dN-vs-ΔK, Part-14 FFS feed.
+- [Corrosion under insulation](../concepts/corrosion-under-insulation.md) — wet-dry-band external corrosion under compromised jacketing.
+
+### RBI + FFS integration framework
+
+RP 571 sits at the *technical-content layer* of an integrated
+risk-and-integrity stack:
+
+1. **Mechanism identification (RP 571).** Walk the catalogue against
+   materials, process chemistry, operating-history data; produce the
+   per-item *active damage-mechanism list*.
+2. **Qualitative ranking ([api-rp-580](api-rp-580.md)).** Active list drives
+   POF × COF ranking; identifies items needing quantitative treatment.
+3. **Quantitative damage-factor calculation ([api-rp-581](api-rp-581.md)).**
+   Compute per-mechanism DFs (thinning, SCC, HTHA, brittle-fracture,
+   fatigue, external-damage); mechanism descriptions trace back to
+   RP 571.
+4. **Inspection-effectiveness grading.** RP 571 inspection-technique
+   entries feed the A–E credit table that adjusts DFs downward for
+   credible inspection.
+5. **Fitness-for-service ([api-std-579](api-std-579.md)).** Morphology drives
+   Part selection — Part 4 (general thinning), Part 5 (local thin-area),
+   Part 6 (pitting), Part 7 (HIC/blisters), Part 9 (crack-like flaws /
+   SCC), Part 10 (creep / HTHA), Part 14 (fatigue) — and the Level-1/2/3
+   hierarchy yields run / repair / replace.
+6. **Inspection-code execution ([api-510](api-510.md), [api-std-570](api-std-570.md),
+   [api-std-653](api-std-653.md)).** The accepted plan executes under in-service
+   codes, whose damage-mechanism-awareness requirements re-cite RP 571.
+
+The chain's defensibility depends on **every step grounding to
+RP 571**: integrity work that skips this grounding tends to fail audit
+on "how did you decide that mechanism wasn't credible here?"
 
 ## Cross-wiki bridges
 
