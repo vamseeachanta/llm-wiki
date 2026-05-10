@@ -2,7 +2,7 @@
 title: "LNG Vapor Handling"
 tags: [lng-projects, concept, vapor-handling, gas-up, gas-freeing, emergency-relief, flare, vent, tank-vapor-displacement, vapor-balance]
 added: 2026-05-09
-last_updated: 2026-05-09
+last_updated: 2026-05-10
 sources: [concept-synthesis]
 domain: lng-projects
 cross_links:
@@ -38,8 +38,30 @@ This page describes the operational disposition of warm and cold vapor streams i
 
 - **Vapor-return arm** — a dedicated marine loading arm coupled with the LNG liquid arm at jetty transfers and ship-to-ship operations. The vapor-return arm carries displaced warm vapor from the receiving tank back to the source.
 - **Vapor-return blower** — a shore-side or ship-side blower (or compressor) that maintains vapor-return-line flow against pressure drop and prevents sustained over- or under-pressure in either tank during the transfer.
-- **OCIMF and SIGTTO best practice** — ship-shore interface guidance covers vapor-return-line sizing, pressure-management setpoints, condensate-prevention (warm-vapor return into a cold tank can recondense and create pressure swings), and ESD interlock logic.
+- **OCIMF and SIGTTO best practice** — ship-shore interface guidance covers vapor-return-line sizing, pressure-management setpoints, condensate-prevention (warm-vapor return into a cold tank can recondense and create pressure swings), and ESD interlock logic. The OCIMF Mooring Equipment Guidelines 4th Edition (MEG4) is the reference work for the mooring-and-mechanical interface that frames vapor-return-arm geometry.
 - **ESD-2 integration** — emergency shut-down level 2 (cargo-flow stop with arm decoupling logic) is normally interlocked with vapor-return availability: loss of the vapor-return path is treated as an immediate transfer-stop condition.
+
+## Multi-criteria comparison of vapor-disposition options
+
+The five primary vapor-disposition pathways below sit on a continuum of preferred-to-disfavored under modern methane-emission policy. The comparison below names the trade-off the operator makes when each is the active disposition during a normal cargo transfer or a defined upset:
+
+| Disposition | When used | Capex | Methane / CO2 outcome | Regulatory standing | Operational risk profile |
+|---|---|---|---|---|---|
+| Vapor-balance / vapor-return | Normal loading/discharge, STS | Low (arm + blower) | Near-zero loss | Required | Loss-of-arm = immediate stop |
+| Emergency relief (PSV / PVRV) | Pressure excursion above setpoint | Low (passive valves) | Methane release if vented; CO2 if to flare | Permitted | Last-line; sized for credible upset |
+| Flare (cold or hot) | Sustained excess; controlled disposal | Medium-High (flare engineering) | Combustion CO2; near-zero methane in spec | Permitted; restricted under EU MR for routine | Flame-stability + tip lift-off |
+| Vent-mast (atmospheric) | Legacy upset, small upsets | Lowest | High methane (GWP ~80x CO2 / 20-yr) | Routine venting effectively prohibited under EU MR 2024/1787 + EPA Subpart W | Cloud-dispersion + ignition |
+| Reliquefaction recovery | Surplus BOG when capacity available | High | Lowest (cargo returned) | Strongly preferred | Compressor + MR availability |
+
+A ship or terminal does not pick one of these — it sequences through them: the design intent is to keep the disposition as far up the table as possible, with each lower row activated only by a specific pressure or capacity-shortfall trigger.
+
+## ESD-1 / ESD-2 / ERC integration
+
+- **ESD-1 (Emergency Shut-Down level 1)** — closes cargo-flow valves on both ship and shore, stops pumps, and isolates the cargo-handling system without breaking the marine-arm-to-manifold connection. Triggered by valve-position alarm, leak detection, fire alarm, or operator action. Vapor-handling implication: ESD-1 leaves the vapor-return path and tank-relief path intact; the tank pressure profile after ESD-1 is the closed-system response.
+- **ESD-2 (Emergency Shut-Down level 2)** — adds powered emergency release of the marine-arm couplings (Powered Emergency Release Coupler, PERC, integrated into the Emergency Release Coupling, ERC). ESD-2 is triggered by drift outside the operational envelope or by an ESD-1 condition that does not stabilize. After ESD-2 the ship can leave the berth under its own power without arm tear-off.
+- **ERC (Emergency Release Coupling)** — the mechanical break-point inside the marine arm; the powered version separates cleanly when ESD-2 fires. ERC sizing and dual-block-and-bleed valve arrangement minimize the LNG and vapor inventory between the closing valves at the moment of release.
+- **Pressure-control hand-off** — under ESD-2, the cargo and shore tanks transition from active vapor-balance to closed pressure-rise mode; the BOG-handling system (compressors, reliquefaction, GCU) becomes the active pressure controller. The interplay between ESD-2 actuation and BOG-handling capacity is a frequent topic in jetty-side risk reviews.
+- **SIGTTO and OCIMF MEG4 references** — the SIGTTO ESD Arrangements guidance and OCIMF MEG4 set the reference framework for ESD level definitions, response times, and integration with the vapor-return path.
 
 ## Flare and vent systems
 
@@ -50,10 +72,16 @@ This page describes the operational disposition of warm and cold vapor streams i
 
 ## Atmospheric-methane regulatory pressure
 
-- **EU Methane Regulation (Regulation (EU) 2024/1787)** — adopted 2024; mandates leak-detection-and-repair (LDAR) programs, restricts routine venting and flaring, and applies methane-intensity reporting to LNG imports into the EU.
-- **US regulation** — EPA Greenhouse Gas Reporting Program Subpart W (petroleum and natural-gas systems) requires methane-emissions reporting; PHMSA and state regulators address LNG-facility venting and flaring under siting and air-permit programs.
-- **IMO marine framework** — MARPOL Annex VI air-pollution provisions, with methane-related amendments developed under MEPC, address shipboard methane emissions including methane slip from gas-fueled engines.
-- **Industry response** — methane-slip-reduction tank insulation and reliquefaction designs from containment vendors; engine-side mitigation via dual-fuel two-stroke designs (low-pressure ME-GA, high-pressure ME-GI) and four-stroke retrofit programs.
+- **EU Methane Regulation (Regulation (EU) 2024/1787)** — adopted 2024; mandates leak-detection-and-repair (LDAR) programs, restricts routine venting and flaring, and applies methane-intensity reporting to LNG imports into the EU. LNG-import methane-intensity provisions phase in through 2027-2030, creating a first-order economic incentive for terminals and carriers to push routine venting toward zero before each cliff date.
+- **US regulation** — EPA Greenhouse Gas Reporting Program Subpart W (petroleum and natural-gas systems) requires methane-emissions reporting; the 2024 Subpart-W amendment tightened venting and flaring measurement requirements and added requirements for LNG export facilities. PHMSA and state regulators address LNG-facility venting and flaring under siting and air-permit programs.
+- **IMO marine framework** — MARPOL Annex VI air-pollution provisions, with methane-related amendments developed under MEPC (including MEPC.346(78) and successor instruments), address shipboard methane emissions including methane slip from gas-fueled engines under the Carbon-Intensity-Indicator (CII) framework.
+- **Industry response** — methane-slip-reduction tank insulation and reliquefaction designs from containment vendors; engine-side mitigation via dual-fuel two-stroke designs (low-pressure ME-GA, high-pressure ME-GI) and four-stroke retrofit programs. The combined effect across regulatory regimes is to push the operational vapor-disposition default away from atmospheric vent and toward flare, GCU, or reliquefaction even at small upset volumes.
+
+## Worked-cases (operational precedents)
+
+- **Stavanger 2007 jetty disconnection** — an LNG-bunker incident at Risavika (Stavanger area) involving a small-scale LNG transfer and an unplanned disconnection illustrates the vapor-handling failure mode where loss of the vapor-return path coincides with cargo-flow stop and uncontained vapor release; it became a teaching case for ESD-2 actuation and ERC design choices on small-scale LNG bunkering operations.
+- **ESD-2-actuated emergency-relief examples** — across multiple LNG export terminals (US Gulf Coast, Australia NW Shelf, Qatar Ras Laffan), routine ESD-2 drills demonstrate the time-to-stable-state envelope; the design target is for ship and shore tank pressure to remain inside the relief-valve setpoint window throughout an unplanned ESD-2 actuation, with the BOG-handling system maintaining pressure control from the moment of disconnection.
+- **Flare-vs-vent disposition during loading** — modern terminals (post-2020 specifications) increasingly default the upset-disposition path to the cold flare rather than the vent-mast, with the vent-mast retained only as an over-flare backup or for the small ESD-2-aftermath blowdowns where flare-tip stability cannot be guaranteed at the resulting low flow rate.
 
 ## SIGTTO and IMO IGC Code guidance
 

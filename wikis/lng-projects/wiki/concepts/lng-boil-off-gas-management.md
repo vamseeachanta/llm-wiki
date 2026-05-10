@@ -2,7 +2,7 @@
 title: "LNG Boil-Off Gas Management"
 tags: [lng-projects, concept, bog, reliquefaction, vapor-handling, me-gi, me-ga, fsru, gcu]
 added: 2026-05-03
-last_updated: 2026-05-09
+last_updated: 2026-05-10
 sources: [concept-synthesis]
 domain: lng-projects
 cross_links:
@@ -46,6 +46,20 @@ This page summarizes how boil-off gas (BOG) is generated across LNG plants, stor
 - **Flare** — terminal-side disposal route for surplus or upset BOG; cold-flare designs are tuned for cryogenic vapor combustion. See the flare-systems coverage in [LNG Vapor Handling](./lng-vapor-handling.md).
 - **Atmospheric vent** — last-resort disposal in legacy installations and emergency-relief actuation; routine venting is increasingly disfavored under methane-emission regulation.
 
+## Multi-criteria comparison of BOG handling options
+
+The trade-off space across the five BOG routing options is multidimensional; capital cost alone is rarely the deciding factor once methane-emission accountability and lifetime cargo-recovery are priced in. The qualitative comparison below is the structure operators use during front-end engineering and during retrofit decisions on existing tonnage:
+
+| Option | Capex | Opex | CO2 / methane impact | Cargo recovery | Regulatory acceptance |
+|---|---|---|---|---|---|
+| Reliquefaction | High | Medium (electrical draw) | Low (cargo returned to tank) | High (~70-90% delivered-LNG basis) | Strongly preferred under EU MR 2024/1787 and IMO MEPC frameworks |
+| Fuel-gas use (DF engines) | Medium (compressor + vaporizer) | Low (offsets bunker fuel) | Engine-family-dependent (slip 0.2-3% by family) | Zero direct recovery; offsets fuel cost | Accepted; methane-slip mitigation now expected |
+| GCU | Low-Medium | Low (only when active) | Combustion CO2; near-zero methane slip in spec | None | Accepted as backup; not as routine handler |
+| Flare | Medium (cold-flare engineering) | Low (only when active) | Combustion CO2; slip if unstable | None | Permitted-only; routine flaring restricted under EU MR |
+| Atmospheric vent | Lowest | Lowest | High methane (GWP ~80x CO2 over 20-year horizon) | None | Disfavored; routine venting effectively prohibited under EU MR 2024/1787 and EPA Subpart W |
+
+The compounding effect — high methane GWP combined with regulatory pressure combined with cargo-recovery economics — has reversed the historic default: reliquefaction is now the baseline on new carriers ≳174k m³, with fuel-gas use as a parallel demand sink rather than the primary BOG destination.
+
 ## Economic trade-off framework
 
 - **Capital cost** — reliquefaction is capital-intensive: a typical onboard reliquefaction plant for a 174k m³ carrier represents tens of millions of US dollars in capex. Fuel-gas use adds compressor and vaporizer cost but reuses the propulsion plant. GCU adds combustor cost but no recovery value.
@@ -59,8 +73,43 @@ This page summarizes how boil-off gas (BOG) is generated across LNG plants, stor
 - **ME-GA (low-pressure dual-fuel two-stroke, MAN ES)** — injects BOG at roughly 16 bar; requires only a low-pressure compressor. Otto-cycle combustion has higher methane slip than ME-GI but lower compressor capex and opex; pairs well with onboard reliquefaction since the compressor side is simpler.
 - **X-DF (Wärtsilä/WinGD low-pressure two-stroke)** — competing low-pressure dual-fuel architecture; similar BOG-handling envelope to ME-GA.
 - **Dual-fuel four-stroke (steam-replacement retrofits and small-scale)** — older steam-turbine carriers retrofitted with four-stroke dual-fuel engines have intermediate methane-slip and BOG-handling profiles.
+- **DFDE (dual-fuel diesel-electric)** — first-generation DF on the 2005-2015 carrier wave, four-stroke medium-speed gen-sets feeding electric propulsion; methane slip is materially higher than later two-stroke designs, and DFDE tonnage now sits in a retrofit-or-rebuild decision under tightening methane-intensity reporting.
 - **Steam-turbine legacy** — pre-2010 carriers used steam plants that consumed BOG directly in the boilers; lower thermal efficiency drove the migration to dual-fuel diesel propulsion.
+
+### ME-GI vs ME-GA vs DFDE vs ST comparison
+
+| Engine family | Cycle | Injection pressure | Compressor side | Methane slip | Thermal efficiency | Best-fit BOG architecture |
+|---|---|---|---|---|---|---|
+| ME-GI | Diesel | ~300 bar | HPC (high-pressure) | Low | Highest | Reliquefaction + HPC fuel-gas |
+| ME-GA / X-DF | Otto | ~6-16 bar | LP only | Moderate-Higher | Slightly lower than ME-GI | Reliquefaction + LP fuel-gas (simpler integration) |
+| DFDE 4-stroke | Otto | LP | LP only | Highest of the DF families | Lower than two-stroke DF | Fuel-gas + GCU; reliquefaction retrofit candidate |
+| Steam turbine | Rankine | Boiler burner | None | Effectively combusted, no slip | Lowest | Direct fuel-gas only |
+
 - See [LNG Vapor Handling](./lng-vapor-handling.md) on methane-slip mitigation across these engine families.
+
+## Worked-cases (operator precedent)
+
+- **CMA CGM JACQUES SAADE (2020)** and the nine-vessel CMA CGM 23,000-TEU container-ship series — among the first deep-sea container-ships to adopt LNG dual-fuel propulsion at large scale; the BOG-handling envelope on these vessels reflects fuel-tank-driven BOG (Type C pressure tanks) rather than membrane-cargo BOG, illustrating that dual-fuel adoption now extends well beyond the LNG-cargo trade.
+- **ME-GI fleet adoption** — the post-2015 Korean-yard newbuild wave (HHI, SHI, DSME) adopted ME-GI as the dominant high-efficiency choice for 174k-180k m³ carriers, with HPC + reliquefaction as a paired-default architecture.
+- **Reliquefaction retrofits** — projects such as the Bonny-trade modernization wave and Q-Max/Q-Flex partial-reliquefaction retrofits demonstrate the lifecycle case for adding reliquefaction capacity to mid-life tonnage; the payback case is dominated by methane-intensity reporting and cargo-recovery rather than capex offset alone.
+- **FSRU regas BOG profile differences** — FSRU service produces a distinct BOG profile relative to point-to-point carrier service: regas duty creates a steady cold-vapor stream that integrates naturally into the regas loop, while standby duty reverts to the static-storage envelope. This bimodal profile shapes reliquefaction sizing on FSRU specifications.
+
+## BOR baseline and recent improvement trends
+
+- **NO96 baseline (2000-vintage)** — typical natural BOR ~0.15 percent/day; first-generation insulation thickness and Invar primary barrier set the baseline.
+- **Mark III standard (2005-2015)** — ~0.12-0.13 percent/day; thicker insulation panel, polyurethane foam containment.
+- **Mark III Flex / Mark III Flex+ (post-2015)** — design BOR pushed below ~0.085-0.10 percent/day; foam thickness optimization and improved primary-barrier-side insulation.
+- **NO96 GW (post-2017)** — Glasswool variant of NO96 reduces BOR toward ~0.10 percent/day with reduced insulation-degradation risk relative to perlite-filled box predecessors.
+- **Mark V (recent)** — design BOR target near or below 0.07 percent/day; a doubling-of-fuel-savings claim relative to the 2000-vintage NO96 baseline over a 20+ year asset life.
+
+This BOR-improvement trend ties directly into the reliquefaction-vs-fuel-gas economic balance: as natural BOG generation drops, reliquefaction sizing decreases, and the marginal capex case for reliquefaction becomes easier to clear at lower BOR levels because cargo-recovery value scales with the absolute BOG stream that would otherwise vent or burn.
+
+## Methane-slip and methane-emission regulatory pressure
+
+- **EU Methane Regulation (Regulation (EU) 2024/1787)** — adopted 2024; mandates leak-detection-and-repair (LDAR) programs, restricts routine venting and flaring, and applies methane-intensity reporting to LNG imports into the EU. Effective date for LNG-import provisions is staged through 2027-2030.
+- **EPA Greenhouse Gas Reporting Program Subpart W** — petroleum and natural-gas systems methane-emissions reporting in the US; LNG export terminals report under the Subpart-W framework with a 2024 amendment that tightened venting and flaring measurement requirements.
+- **IMO MEPC.346(78)** and successor MEPC instruments — develop the marine-side methane-slip framework, including ship-energy-efficiency and carbon-intensity-indicator (CII) treatment for gas-fueled ships; the methane-slip-correction factor for dual-fuel engines is a live MEPC topic.
+- **Customer-and-financier pressure** — carbon-intensity (CI) tagging on a per-cargo basis is increasingly tied to LNG SPA pricing; methane intensity at the production, transport, and discharge points is now a first-order commercial variable.
 
 ## FSRU regas BOG profile
 
