@@ -155,7 +155,7 @@ multiplier.
 
 ### Onshore — ASCE 7 and Eurocode
 
-- [**ASCE 7**](../standards/asce-7.md) (placeholder — not yet wiki-resolved)
+- [**ASCE 7**](../standards/asce-7.md)
   *Minimum Design Loads and Associated Criteria for Buildings and Other
   Structures.* The dominant US wind-load code; chapters 26–31 are the
   wind provisions. Splits the design between Main Wind Force Resisting

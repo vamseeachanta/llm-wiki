@@ -92,7 +92,8 @@ Top 10 G-codes to promote to `wiki/standards/<code-id>.md` (priority-ordered for
 Concept-page cross-links to land or update:
 - [cathodic-protection](../concepts/cathodic-protection.md) — anchor G8, G42, G95 alongside DNV-RP-B401 and DNV-RP-F103.
 - [sour-service-materials](../concepts/sour-service-materials.md) — anchor G1, G31 mass-loss methods alongside NACE MR0175 / ISO 15156 and AMPP TM0177.
-- [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — anchor G3, G5, G59, G61, G102, G106 as the measurement-methodology cluster. <!-- substrate gap: dedicated `electrochemical-corrosion` concept page TBD; redirected to closest existing concept (corrosion-rate-measurement) which already covers polarization → corrosion-rate calc per G102. -->
+- [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — anchor G3, G5, G59, G61, G102, G106 as the measurement-methodology cluster.
+- [electrochemical-corrosion](../concepts/electrochemical-corrosion.md) — kinetics-substrate concept (Wagner-Traud / Butler-Volmer / Tafel / passivity) underlying the G3/G5/G59/G102/G106 measurement column; W207 iter-44 authored.
 - Optional: [pitting-and-crevice-corrosion](../concepts/pitting-and-crevice-corrosion.md) for G46/G48/G78 and [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) for G36/G38/G39/G44.
 
 Edition-history index: G15 (5 revisions), G48 (4 revisions), G85 (4 revisions), G1 (3 revisions), G38 (3 revisions), G78 (3 revisions), G105 (3 revisions) — multi-edition codes warrant a revision-history table on the per-code standards page.

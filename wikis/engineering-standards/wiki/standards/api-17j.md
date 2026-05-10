@@ -63,11 +63,11 @@ API Spec 17J is the global default for unbonded flexible pipe specification. Sis
 
 ## Cross-references
 
-- [[api-rp-17b]] — companion recommended practice for unbonded flexible-pipe selection and use
-- [[api-spec-17j]] — historical long-slug alias; retained for backward link compatibility
-- [[dnv-rp-f112]] — HISC of duplex tensile-armor wires under cathodic protection
-- [[api-17e]] — subsea umbilicals sister-specification
-- [[bs-13628-2-flexible-pipe-subsea]] — BSI/ISO technically-equivalent adoption
+- [api-rp-17b](api-rp-17b.md) — companion recommended practice for unbonded flexible-pipe selection and use
+- [api-spec-17j](api-spec-17j.md) — historical long-slug alias; retained for backward link compatibility
+- [dnv-rp-f112](dnv-rp-f112.md) — HISC of duplex tensile-armor wires under cathodic protection
+- [api-17e](api-17e.md) — subsea umbilicals sister-specification
+- [bs-13628-2-flexible-pipe-subsea](bs-13628-2-flexible-pipe-subsea.md) — BSI/ISO technically-equivalent adoption
 - Cathodic protection of flexible-pipe carcass, tensile-armor, and outer-sheath: see engineering-standards `concepts/cathodic-protection.md` (when authored)
 
 **Cross-wiki bridges:**

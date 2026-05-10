@@ -93,3 +93,20 @@
 - NACE→AMPP cross-link audit: grep across all 3 wikis surfaced 13 nace-tm-0177 hits; ALL are either canonical `[[ampp-tm-0177]]` wikilinks with "NACE TM-0177" historical-name prose, audit-record entries (W172/W175 findings), or correct frontmatter `legacy_code_id` bridge in ampp-tm-0177.md. Zero stale wikilinks or stale path-references found. No cleanup required — substrate is already clean post-2026-05-03 AMPP rename landing.
 - nace-tm-0177.md does NOT exist as a separate file; ampp-tm-0177.md carries `legacy_code_id: nace-tm-0177` for resolver bridging. No git mv or merge needed.
 - Notes: W175 audit premise that api-17j was "missing" was technically correct (api-17j.md absent) but adjacent file api-spec-17j.md existed at the same concept; the user-spec'd canonical short-slug `api-17j` matches sister-code convention (api-17e, api-17b) and the cross-wiki CLAUDE.md schema example. Both pages retained, short-slug canonical going forward.
+
+## [2026-05-09] substrate-gap-fill | iter-46 — close W204 V9 ASTM-G stubs + ASCE-7 + HTML-comment cleanup
+- Pages created: standards/{astm-g5,astm-g15,astm-g16,astm-g46,asce-7}.md (5 metadata-only resolver pages).
+  - astm-g5: rig-calibration potentiodynamic Tafel scan (Type 430 SS / 1 N H2SO4 / 30 °C); resolves 4 broken-link instances from g3, g102, g106, g1, electrochemical-corrosion concept.
+  - astm-g15: WITHDRAWN 2010 terminology umbrella; legacy-only resolver flagging `status: withdrawn` in frontmatter; redirects callers to per-method terminology sections.
+  - astm-g16: statistics for corrosion data; extreme-value (Gumbel) pit-depth tail extrapolation backbone for RBI / FFS workflows.
+  - astm-g46: pitting examination + rating-chart + maximum-pit-depth workflow; closes the explicit "future-ingest" flag in pitting-and-crevice-corrosion concept.
+  - asce-7: US onshore wind / seismic / load-combination anchor; closes "placeholder — not yet wiki-resolved" in wind-loads concept (W198 iter-42).
+- Pages updated:
+  - sources/og-standards-astm-g-series.md — removed `<!-- substrate gap: dedicated electrochemical-corrosion concept page TBD -->` HTML comment; replaced with proper concept link (page now exists per W207 iter-44).
+  - concepts/electrochemical-corrosion.md — converted `[astm-g5](../standards/) (when that page is added)` stale link to live `[astm-g5](../standards/astm-g5.md)`.
+  - concepts/wind-loads.md — removed "(placeholder — not yet wiki-resolved)" parenthetical on ASCE-7 reference.
+  - concepts/pitting-and-crevice-corrosion.md — promoted ASTM G46 from "future-ingest" line to live "Examination companion" entry.
+  - index.md — added 5 standards rows (page_count 180 → 185).
+- TASK 3 verification (api-spec-17a + api-spec-17h): NEITHER slug exists; cross-references in api-spec-17d.md (lines 60, 72, 142, 144) point to `./api-spec-17a.md` and `./api-spec-17h.md` (broken). Slug convention question: existing API 17-family pages use mixed short-slug (api-17e, api-17j) and long-slug (api-spec-17d, api-spec-17j) styles — canonical decision deferred to iter-46 follow-up. NOT auto-authored per task constraints.
+- TASK 4 verification: astm-g48.md has zero HTML comments (W205 cleanup or earlier already handled). Only HTML-comment-cleanup site was og-standards-astm-g-series.md line 95 (handled this iter).
+- W204 audit V9 broken-link instances: 5 → 0 for the 4 unique ASTM-G slugs covered + asce-7 placeholder closed; remaining substrate gap = api-spec-17a / api-spec-17h (flagged for iter-47).

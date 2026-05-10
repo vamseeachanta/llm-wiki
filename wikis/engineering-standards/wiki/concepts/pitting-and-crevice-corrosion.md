@@ -102,7 +102,8 @@ The interaction matters: combined Cl⁻ + H2S environments are **more aggressive
 - **Primary:** [ASTM G48](../standards/astm-g48.md) — six-method FeCl3 test family for pitting and crevice ranking, CPT, and CCT determination on stainless and Ni-base CRAs.
 - **Sour-service material qualification:** [ISO 15156 / NACE MR0175 Part 3](../standards/iso-15156.md) — cites G48 acceptance evidence in CRA selection for H2S service.
 - **Parallel cracking method (SSC, not pitting):** [AMPP TM0177](../standards/ampp-tm-0177.md) — tensile / bent-beam / DCB tests for sulfide stress cracking; companion to G48 in the MR0175 qualification dossier.
-- **Flagged for future ingest:** ASTM G46 (pit examination + rating practice), ASTM G78 (flowing-chloride crevice guide), ASTM G150 (electrochemical CPT). These appear as bare references in this page and in [astm-g48](../standards/astm-g48.md); promote to standards pages on next ingest pass.
+- **Examination companion:** [ASTM G46](../standards/astm-g46.md) — pit examination + rating practice; the cited examination workflow for every G48 result.
+- **Flagged for future ingest:** ASTM G78 (flowing-chloride crevice guide), ASTM G150 (electrochemical CPT). These appear as bare references in this page and in [astm-g48](../standards/astm-g48.md); promote to standards pages on next ingest pass.
 
 ## Related concepts
 

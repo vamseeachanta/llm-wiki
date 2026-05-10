@@ -86,9 +86,9 @@ This page is a citation resolver target for downstream calc modules per `.claude
 
 ## Cross-references
 
-- [[asme-b31-3]] — process piping welds qualified per Section IX
-- [[asme-bpvc-viii-1]] — pressure-vessel welds qualified per Section IX (Division 1)
-- [[asme-bpvc-viii-2]] — pressure-vessel welds qualified per Section IX (Division 2)
+- [asme-b31-3](asme-b31-3.md) — process piping welds qualified per Section IX
+- [asme-bpvc-viii-1](asme-bpvc-viii-1.md) — pressure-vessel welds qualified per Section IX (Division 1)
+- [asme-bpvc-viii-2](asme-bpvc-viii-2.md) — pressure-vessel welds qualified per Section IX (Division 2)
 - [[asme-bpvc-ii-c]] — welding rods, electrodes, and filler metals (F-Number groupings)
 
 **Cross-wiki bridge (lng-projects):**

@@ -80,8 +80,8 @@ This page is a citation resolver target for downstream calc modules per `.claude
 
 ## Cross-references
 
-- [[asme-bpvc-viii-1]] — Division 1 design-by-rule alternative; sister page
-- [[asme-bpvc-ii-d]] — material allowable stresses sourced upstream
-- [[asme-bpvc-ix]] — welding qualification basis for Division 2 vessels
-- [[asme-b31-3]] — process piping companion code in refinery and petrochem applications
+- [asme-bpvc-viii-1](asme-bpvc-viii-1.md) — Division 1 design-by-rule alternative; sister page
+- [asme-bpvc-ii-d](asme-bpvc-ii-d.md) — material allowable stresses sourced upstream
+- [asme-bpvc-ix](asme-bpvc-ix.md) — welding qualification basis for Division 2 vessels
+- [asme-b31-3](asme-b31-3.md) — process piping companion code in refinery and petrochem applications
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

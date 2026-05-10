@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-05-10 00:00 UTC] hybrid | iter 45 — V9 P1+P2+P3 closed (wikilink + substrate close-out + 2 entities + 2 DNV resolvers)
+- Pages modified (~35): W208 20 eng-stds pages wikilink-to-markdown (85 conversions; 40 substrate-gap-preserved); W211 2 DNV resolvers expanded (dnv-rp-c205 + dnv-os-f201, 44L→97-98L); W209 5 cleanup files (HTML-comment removals + stale-link fixes); maritime-law index.md page_count 76→78
+- Pages created: maritime-law entities/{m-v-saiga-cases-1997-1999,aegean-sea-1992}.md (W210 — UNCLOS prompt-release/genuine-link foundation + single-hull tanker series antecedent); eng-stds standards/{astm-g5,astm-g15,astm-g16,astm-g46,asce-7}.md (W209 — 4 ASTM-G stub fills + ASCE-7 substrate close-out)
+- Notes: 4-way fanout hybrid iter — substrate (W208+W209) + breadth (W210) + depth (W211) closed all V9 P1+P2+P3. **W208 surfaces audit V9 measurement-blindspot**: V9 estimated 52% wikilink reduction but actual was 20.8% because 4 of top-24 pages were entirely substrate-gap clusters (api-std-570/653/572/576 + dnv-rp-g101 + astm-g16/g46 — inspection-domain stubs). **Future audit V10 should track resolvable-vs-gap ratio**. W209 closed 5 of 5 audit-flagged broken-link instances (4 ASTM-G + ASCE-7 + electrochemical-corrosion HTML-comment); only api-spec-17a + api-spec-17h flagged for iter-47 (canonical-slug decision needed). W210 entities span 1992-1999: Aegean Sea fits single-hull tanker series (Torrey 1967 → Amoco 1978 → Exxon Valdez 1989 → Aegean 1992 → Sea Empress 1996 → Erika 1999 → Prestige 2002 — 35-year arc); M/V Saiga = first major ITLOS jurisprudence. W211 DNV substrate now 5-page cluster all at 90L sibling depth (e301 + c203 + b401 + c205 + f201). Maritime-law entities 22; eng-stds 188.
+
 ## [2026-05-09 23:30 UTC] hybrid | iter 44 — audit V9 + wikilink residual + 5 substrate-fill resolvers + electrochemical-corrosion concept
 - Pages modified (~38): W205 30 eng-stds pages wikilink-to-markdown (265 conversions; astm-g48 broken-link fixed; 312 residuals remain post-sweep, 70% repo-wide reduction since pre-iter-43)
 - Pages created: _audit/iter-44-W204-cross-wiki-audit-v9.md (279L), eng-stds standards/{asme-bpvc-viii-3,iso-15156-3,astm-g30,astm-g39,astm-g129}.md (W206 5 metadata-only resolvers), eng-stds concepts/electrochemical-corrosion.md (W207 ~190L doctrinal-synthesis)

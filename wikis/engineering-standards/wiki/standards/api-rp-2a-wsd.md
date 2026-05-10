@@ -83,9 +83,9 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 
 ## Cross-references
 
-- [[api-rp-2met]] — metocean criteria input
-- [[api-rp-2geo]] — geotechnical inputs (pile capacity)
+- [api-rp-2met](api-rp-2met.md) — metocean criteria input
+- [api-rp-2geo](api-rp-2geo.md) — geotechnical inputs (pile capacity)
 - [[api-rp-2sim]] — structural integrity management (in-service phase)
-- [[api-17e]] — sibling subsea umbilicals stub (same publisher)
-- [[iso-19902]] — ISO peer fixed-steel-structure standard (LRFD)
+- [api-17e](api-17e.md) — sibling subsea umbilicals stub (same publisher)
+- [iso-19902](iso-19902.md) — ISO peer fixed-steel-structure standard (LRFD)
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

@@ -33,8 +33,8 @@ This page is the citation resolver target for downstream calc and qualification 
 - Internal callers: no live `digitalmodel/src/` structured citations for `TM 0177` (the cited TM-series code is `TM 0497`, which is NOT on disk and is deferred to W4-B publisher-portal pointers).
 
 ## Cross-references
-- [[ampp-mr-0175-pt1]] — Part 1 sour-service materials selection (acceptance-criteria caller)
-- [[ampp-mr-0175-pt2]] — Part 2 carbon and low-alloy steels (acceptance-criteria caller)
-- [[ampp-mr-0175-pt3]] — Part 3 corrosion-resistant alloys (acceptance-criteria caller)
-- [[ampp-mr-0175-1995]] — historical 1995 single-document edition (superseded predecessor)
+- [ampp-mr-0175-pt1](ampp-mr-0175-pt1.md) — Part 1 sour-service materials selection (acceptance-criteria caller)
+- [ampp-mr-0175-pt2](ampp-mr-0175-pt2.md) — Part 2 carbon and low-alloy steels (acceptance-criteria caller)
+- [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) — Part 3 corrosion-resistant alloys (acceptance-criteria caller)
+- [ampp-mr-0175-1995](ampp-mr-0175-1995.md) — historical 1995 single-document edition (superseded predecessor)
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

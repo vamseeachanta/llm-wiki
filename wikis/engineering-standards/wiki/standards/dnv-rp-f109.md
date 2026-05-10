@@ -31,10 +31,10 @@ This page is a citation resolver for downstream calc modules under the calc-cita
 - Internal callers: `digitalmodel/src/digitalmodel/` (19 hits)
 
 ## Cross-references
-- [[dnv-st-f101]] — pipeline-systems design baseline
-- [[dnv-rp-c205]] — environmental loads (wave-current) driving stability checks
-- [[dnv-rp-f105]] — free spanning pipelines (sibling pipeline-integrity RP)
-- [[dnv-rp-f101]] — corroded pipelines (sibling)
+- [dnv-st-f101](dnv-st-f101.md) — pipeline-systems design baseline
+- [dnv-rp-c205](dnv-rp-c205.md) — environmental loads (wave-current) driving stability checks
+- [dnv-rp-f105](dnv-rp-f105.md) — free spanning pipelines (sibling pipeline-integrity RP)
+- [dnv-rp-f101](dnv-rp-f101.md) — corroded pipelines (sibling)
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Cross-References

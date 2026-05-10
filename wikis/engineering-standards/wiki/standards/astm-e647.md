@@ -51,7 +51,7 @@ this standard are the dominant FCG inputs to **BS 7910 Annex M**,
 **API 579 Part 14** (FFS fatigue), **DNV-RP-C203** (offshore S-N + FCG
 combined assessment), and **R6** (UK nuclear FCG assessment). E647
 quantifies *sub-critical* crack growth where the sibling standard
-[[astm-e1820]] quantifies *critical / initiation* fracture toughness;
+[astm-e1820](astm-e1820.md) quantifies *critical / initiation* fracture toughness;
 the two are routinely run on the same heat to populate the full FFS
 input set for a structural-integrity case.
 
@@ -168,7 +168,7 @@ are stable.
   `J–R`, CTOD). E647 quantifies *sub-critical* FCG; E1820 quantifies
   *critical / initiation* toughness. Region III of an E647 curve
   asymptotes toward the `K_c` / `K_Ic` measured per E1820 on the same
-  heat. See [[astm-e1820]].
+  heat. See [astm-e1820](astm-e1820.md).
 - **ASTM E1681** — *Determination of Threshold Stress Intensity Factor
   for Environment-Assisted Cracking of Metallic Materials*. The
   environmental-FCG companion: where E647 holds environment fixed and
@@ -202,7 +202,7 @@ are stable.
   protection).
 - **API 579-1 / ASME FFS-1, Part 14** — *Fitness-for-Service*, fatigue
   assessment. Part 14's Level-2/3 FCG-driven flaw-growth path consumes
-  E647 outputs directly. See [[api-std-579]].
+  E647 outputs directly. See [api-std-579](api-std-579.md).
 - **R6** (UK nuclear) — *Assessment of the Integrity of Structures
   Containing Defects*. Procedure R6 Section III.6 / equivalent FCG
   appendix uses E647 Paris parameters for sub-critical-growth
@@ -216,7 +216,7 @@ are stable.
 
 ## Sources
 
-- Source page: [[og-standards-astm-e-series]][esrc] — catalog row
+- Source page: [og-standards-astm-e-series](../sources/og-standards-astm-e-series.md)[esrc] — catalog row
   `E647 | Fatigue Crack Growth Rate (da/dN vs. ΔK) | 3 editions in catalog`.
 - Catalog provenance: `/mnt/ace/O&G-Standards/_catalog.json`
   (3 entries matching `E647`; three editions: 1999, 2000, 2005).

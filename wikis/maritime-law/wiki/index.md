@@ -2,7 +2,7 @@
 domain: maritime-law
 created: 2026-04-07 02:40 UTC
 last_updated: 2026-05-09
-page_count: 76
+page_count: 78
 source_count: 2
 ---
 
@@ -21,7 +21,9 @@ source_count: 2
 | [[The Heron II (Koufos v Czarnikow)]](entities/heron-ii-1969.md) | 1969 | UK House of Lords | Contract-damages foreseeability "not unlikely" / "serious possibility" standard; refined *Hadley v Baxendale* first limb; preserved contract-tort divergence on remoteness |
 | [[The Eurymedon]](entities/eurymedon-1974.md) | 1974 | UK Privy Council (NZ appeal) | Himalaya clause enforcement; carrier exemption-and-limitation extends to stevedores via collateral contract; bridge from *Adler v Dickson* (1955) |
 | [[The Amoco Cadiz]](entities/amoco-cadiz-1978.md) | 1978 | Brittany, France | Corporate veil-piercing in US-venue litigation; founding driver of Paris MoU 1982 and Salvage Convention 1989 Art. 14 |
+| [[The Aegean Sea]](entities/aegean-sea-1992.md) | 1992 | La Coruña, Spain | Greek-flag single-hull tanker breakup (~74,000 t Brent crude); pre-Erika coastal-state-prosecution precedent; CLC 1969/1971 cap-shortfall driver of CLC 1992 / Fund 1992 entry into force |
 | [[The Sea Empress]](entities/sea-empress-1996.md) | 1996 | Wales, UK | Port-authority strict liability under WRA 1991 s.85 (*R v MHPA* [2000]); CLC 1992 / IOPC Fund 1992 application |
+| [[M/V Saiga (No 1 and No 2)]](entities/m-v-saiga-cases-1997-1999.md) | 1997-1999 | ITLOS (Hamburg) — St Vincent v Guinea | Founding ITLOS jurisprudence; UNCLOS Article 292 prompt release (No 1, 1997) + Article 91 genuine link / Article 111 hot pursuit / EEZ enforcement limits (No 2, 1999) |
 | [[The Eurasian Dream]](entities/eurasian-dream-2002.md) | 2002 | UK LMAA / Comm Ct | Hague-Visby Article III seaworthiness extends to crew training on specialised tonnage; carrier identity in multi-tier charter chains |
 | [[MV Erika]](entities/mv-erika-1999.md) | 1999 | France (Cass. crim. 2012) | Charterer criminal liability for sub-standard vessel; recognition of *préjudice écologique*; driver of EU Erika III package and Paris MoU NIR |
 | [[MV Prestige]](entities/mv-prestige-2002.md) | 2002 | Spain (TS STS 865/2016) | Master criminal conviction; first major engagement of the Supplementary Fund 2003; place-of-refuge doctrine; UNCLOS Art. 91 genuine-link concerns |

@@ -71,7 +71,7 @@ The section numbering below tracks the 20th-edition structure (1999 19th edition
 
 External standards linked normatively or by common practice:
 
-- **API Spec 5L** — Specification for Line Pipe. Defines base-material chemistry, mechanical properties (PSL 1 / PSL 2), and supplementary requirements that constrain API 1104 procedure qualification (CE limits, toughness). See [[api-spec-5l]].
+- **API Spec 5L** — Specification for Line Pipe. Defines base-material chemistry, mechanical properties (PSL 1 / PSL 2), and supplementary requirements that constrain API 1104 procedure qualification (CE limits, toughness). See [api-spec-5l](api-spec-5l.md).
 - **API Spec 5LX / 5LD** — historical line-pipe specs (5LX folded into 5L); 5LD covers **CRA-clad and CRA-lined line pipe**, where API 1104 is supplemented by clad-specific welding qualification requirements.
 - **ASME BPVC Section IX** — Welding, Brazing and Fusing Qualifications. The companion code for pressure-vessel and process-piping welding; many shop welds on pipeline-adjacent facilities (compressor stations, pump stations) qualify to BPVC-IX while line-pipe girth welds qualify to API 1104. Operators commonly maintain dual-qualification matrices.
 - **ASTM A370** — Standard Test Methods and Definitions for Mechanical Testing of Steel Products. Governs tensile, bend, and notch-toughness specimen prep and testing referenced from API 1104 mechanical-test acceptance.
@@ -84,9 +84,9 @@ External standards linked normatively or by common practice:
 
 Internal cross-links in this wiki:
 
-- [[api-spec-5l]] — companion line-pipe material specification (planned/present per source-page).
-- [[api-rp-1111]] — limit-state design of offshore hydrocarbon pipelines (uses API 1104 weld qualification by reference).
-- [[api-rp-14e]] — production-piping sizing (planned); shares the 49-CFR-195 jurisdictional surface.
+- [api-spec-5l](api-spec-5l.md) — companion line-pipe material specification (planned/present per source-page).
+- [api-rp-1111](api-rp-1111.md) — limit-state design of offshore hydrocarbon pipelines (uses API 1104 weld qualification by reference).
+- [api-rp-14e](api-rp-14e.md) — production-piping sizing (planned); shares the 49-CFR-195 jurisdictional surface.
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — standards-derived constants from API 1104 (e.g., the 1/8 in / 3.2 mm bend-test crack limit) require a `Citation` instance pinning `code_id=api-std-1104` and the specific `revision`.
 
 ## Sources

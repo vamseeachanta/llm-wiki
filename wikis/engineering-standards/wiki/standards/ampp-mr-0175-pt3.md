@@ -34,8 +34,8 @@ This page is the citation resolver target for downstream calc modules selecting 
 - Internal callers: no live structured `Citation(...)` calls in `digitalmodel/src/` for Part 3 specifically. Calc-callers must verify against the publisher-current edition before relying on this page.
 
 ## Cross-references
-- [[ampp-mr-0175-pt1]] — companion Part 1 (general principles)
-- [[ampp-mr-0175-pt2]] — companion Part 2 (carbon and low-alloy steels)
-- [[ampp-mr-0175-1995]] — superseded historical 1995 single-document edition
-- [[ampp-tm-0177]] — sulfide stress cracking laboratory test method (acceptance-criteria companion)
+- [ampp-mr-0175-pt1](ampp-mr-0175-pt1.md) — companion Part 1 (general principles)
+- [ampp-mr-0175-pt2](ampp-mr-0175-pt2.md) — companion Part 2 (carbon and low-alloy steels)
+- [ampp-mr-0175-1995](ampp-mr-0175-1995.md) — superseded historical 1995 single-document edition
+- [ampp-tm-0177](ampp-tm-0177.md) — sulfide stress cracking laboratory test method (acceptance-criteria companion)
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

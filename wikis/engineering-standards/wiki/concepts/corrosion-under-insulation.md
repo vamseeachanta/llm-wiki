@@ -19,7 +19,7 @@ sources:
 
 # Corrosion Under Insulation (CUI)
 
-> Concept anchor for the external-corrosion damage family that occurs beneath thermal insulation, fireproofing, and weather-protection cladding. Bidirectional with [api-rp-571](../standards/api-rp-571.md) (mechanism catalogue, §4 loss-of-thickness), [api-rp-581](../standards/api-rp-581.md) (RBI damage factor), [api-510](../standards/api-510.md), [api-570](../standards/api-570.md), and [api-rp-574](../standards/api-rp-574.md). Routes upstream from [[damage-mechanism-screening]] and downstream into [[risk-based-inspection]] and [[corrosion-rate-measurement]].
+> Concept anchor for the external-corrosion damage family that occurs beneath thermal insulation, fireproofing, and weather-protection cladding. Bidirectional with [api-rp-571](../standards/api-rp-571.md) (mechanism catalogue, §4 loss-of-thickness), [api-rp-581](../standards/api-rp-581.md) (RBI damage factor), [api-510](../standards/api-510.md), [api-570](../standards/api-570.md), and [api-rp-574](../standards/api-rp-574.md). Routes upstream from [damage-mechanism-screening](damage-mechanism-screening.md) and downstream into [risk-based-inspection](risk-based-inspection.md) and [corrosion-rate-measurement](corrosion-rate-measurement.md).
 
 ## What is CUI?
 
@@ -85,10 +85,10 @@ Selection follows the [api-rp-574](../standards/api-rp-574.md) inspection-practi
 
 ## Related concepts
 
-- [[damage-mechanism-screening]] — CUI is one of the loss-of-thickness mechanisms enumerated upstream.
-- [[corrosion-rate-measurement]] — CUI rate ranges and CML strategy interpretation.
-- [[pitting-and-crevice-corrosion]] — overlaps with CISCC-CUI on the chloride-pitting / chloride-cracking continuum on austenitic stainless steel.
-- [[risk-based-inspection]] — consumer of the CUI damage factor and the CUI inspection-effectiveness table.
+- [damage-mechanism-screening](damage-mechanism-screening.md) — CUI is one of the loss-of-thickness mechanisms enumerated upstream.
+- [corrosion-rate-measurement](corrosion-rate-measurement.md) — CUI rate ranges and CML strategy interpretation.
+- [pitting-and-crevice-corrosion](pitting-and-crevice-corrosion.md) — overlaps with CISCC-CUI on the chloride-pitting / chloride-cracking continuum on austenitic stainless steel.
+- [risk-based-inspection](risk-based-inspection.md) — consumer of the CUI damage factor and the CUI inspection-effectiveness table.
 
 ## Source materials
 

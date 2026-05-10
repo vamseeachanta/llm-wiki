@@ -23,7 +23,7 @@ type: standard
 ## Scope
 Bounded resolver target for the DNV recommended practice on cathodic protection of submarine pipelines using galvanic (sacrificial) anodes. Covers anode mass and current-output sizing, current density requirements as a function of burial state and internal fluid temperature, coating breakdown factors over design life, longitudinal pipe-metal resistance, anode spacing along the line, and pipeline attenuation analysis for current distribution.
 
-This page is the publisher-and-application companion to [[dnv-rp-b401]]: F103 covers submarine pipelines specifically; B401 covers offshore structures, subsea components, and broader CP design. Calc modules selecting between the two routes do so by `calculation_type` (see source reference below).
+This page is the publisher-and-application companion to [dnv-rp-b401](dnv-rp-b401.md): F103 covers submarine pipelines specifically; B401 covers offshore structures, subsea components, and broader CP design. Calc modules selecting between the two routes do so by `calculation_type` (see source reference below).
 
 ## Why this page exists
 Citation resolver target for the calc-citation contract at `.claude/rules/calc-citation-contract.md`. The digitalmodel cathodic-protection module routes to `DNV_RP_F103_2010` for submarine-pipeline CP, and per the contract every standards-derived constant or formula it emits must resolve to a wiki page with [vamseeachanta/workspace-hub#2471](https://github.com/vamseeachanta/workspace-hub/issues/2471) frontmatter (`code_id`, `publisher`, `revision`). This page satisfies that requirement so the resolver can read the page directly (v1 file-read mode per [vamseeachanta/workspace-hub#2481](https://github.com/vamseeachanta/workspace-hub/issues/2481) D3) without raising `CitationResolutionError`. No clause text, current-density tables, or formula reproductions from the source are included — see `.claude/rules/calc-citation-contract.md` clause 7 (vendor-derivative deny-list).
@@ -39,7 +39,7 @@ Citation resolver target for the calc-citation contract at `.claude/rules/calc-c
 - Polarization resistance methodology
 
 ## Out of scope (use other standards)
-- Offshore structure CP (jackets, hulls, subsea components) — see [[dnv-rp-b401]]
+- Offshore structure CP (jackets, hulls, subsea components) — see [dnv-rp-b401](dnv-rp-b401.md)
 - Pipeline external corrosion control system specification — see DNV-ST-F101
 - Corroded-pipeline integrity assessment — see DNV-RP-F101
 - Impressed-current CP systems
@@ -77,8 +77,8 @@ Source-of-truth for these citations is the calc method itself; the wiki page is 
 A digitalmodel emit of a standards-derived constant (e.g., a Table 5-1 current density) instantiates a `Citation` per the schema at `digitalmodel/src/digitalmodel/citations/schema.py` with `code_id="dnv-rp-f103"`, `publisher="DNV"`, `revision="2010"`, and a clause anchor (e.g., `clause="Table 5-1"`). The v1 resolver reads this wiki page directly and validates the frontmatter trio matches the citation; mismatch raises `CitationResolutionError` with the `code_id` in the message ([vamseeachanta/workspace-hub#2481](https://github.com/vamseeachanta/workspace-hub/issues/2481) D2 fail-closed). The pilot pattern is in `digitalmodel/src/digitalmodel/orcaflex/mooring_design.py` (DNV-OS-E301 mooring safety factors).
 
 ## Cross-references
-- [[dnv-rp-b401]] — sister CP standard for offshore structures (publisher-aligned, application-disjoint)
-- [[dnv-os-e301]] — citation pilot for mooring safety factors per [vamseeachanta/workspace-hub#2481](https://github.com/vamseeachanta/workspace-hub/issues/2481)
+- [dnv-rp-b401](dnv-rp-b401.md) — sister CP standard for offshore structures (publisher-aligned, application-disjoint)
+- [dnv-os-e301](dnv-os-e301.md) — citation pilot for mooring safety factors per [vamseeachanta/workspace-hub#2481](https://github.com/vamseeachanta/workspace-hub/issues/2481)
 - Source caller: `digitalmodel/src/digitalmodel/infrastructure/base_solvers/hydrodynamics/cathodic_protection.py` (router L21, `DNV_RP_F103_2010` L67, helpers below)
 - Tests: `digitalmodel/tests/marine_ops/marine_engineering/test_cathodic_protection_dnv.py`
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

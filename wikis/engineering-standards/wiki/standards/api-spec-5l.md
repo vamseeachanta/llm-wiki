@@ -74,9 +74,9 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 
 ## Cross-references
 
-- [[api-rp-1111]] — offshore hydrocarbon pipelines, LSD companion design code
-- [[asme-b31-4]] — liquid-pipeline transportation design code consuming API 5L SMYS
-- [[asme-b31-8]] — gas-pipeline transportation design code consuming API 5L SMYS
-- [[ampp-mr-0175-pt1]] — sour-service material selection (cross-linked from API 5L Annex H)
+- [api-rp-1111](api-rp-1111.md) — offshore hydrocarbon pipelines, LSD companion design code
+- [asme-b31-4](asme-b31-4.md) — liquid-pipeline transportation design code consuming API 5L SMYS
+- [asme-b31-8](asme-b31-8.md) — gas-pipeline transportation design code consuming API 5L SMYS
+- [ampp-mr-0175-pt1](ampp-mr-0175-pt1.md) — sour-service material selection (cross-linked from API 5L Annex H)
 - [[api-1104]] — welding-qualification companion for API 5L line pipe
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

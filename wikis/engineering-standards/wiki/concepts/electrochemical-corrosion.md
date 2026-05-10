@@ -79,7 +79,7 @@ Three regimes appear on a real polarization curve:
 - **Concentration polarization (mass-transport limit)** — when oxidant supply to the surface (e.g. dissolved O2 reaching a buried-pipe steel surface) cannot keep pace with electron consumption, the cathodic branch flattens to a limiting-current plateau i_L. This is the dominant cathodic regime for atmospheric and natural-water service.
 - **Mixed (combined) control** — both activation and mass-transport contribute over a finite overpotential range; the curve transitions smoothly between Tafel slope and limiting current.
 
-A fourth regime — **passivity** — applies to the anodic branch for stainless steels, Ni-base alloys, Ti, and other passivating metals: above a critical passivation potential E_pp the anodic current collapses by 3–6 orders of magnitude as a protective oxide film forms, and remains low across a passive window before rising again at the transpassive potential. The passive-window width and the active-passive nose current are the principal alloy-screening outputs of a potentiodynamic scan per [astm-g5](../standards/) (when that page is added) or [astm-g59](../standards/astm-g59.md).
+A fourth regime — **passivity** — applies to the anodic branch for stainless steels, Ni-base alloys, Ti, and other passivating metals: above a critical passivation potential E_pp the anodic current collapses by 3–6 orders of magnitude as a protective oxide film forms, and remains low across a passive window before rising again at the transpassive potential. The passive-window width and the active-passive nose current are the principal alloy-screening outputs of a potentiodynamic scan per [astm-g5](../standards/astm-g5.md) or [astm-g59](../standards/astm-g59.md).
 
 ## Test methods and standards
 

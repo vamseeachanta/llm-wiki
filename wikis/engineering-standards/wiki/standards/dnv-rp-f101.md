@@ -31,10 +31,10 @@ This page is a citation resolver for downstream calc modules under the calc-cita
 - Internal callers: `digitalmodel/src/digitalmodel/` (pipeline-integrity modules)
 
 ## Cross-references
-- [[dnv-st-f101]] — pipeline-systems design baseline RP-F101 assesses against
-- [[dnv-rp-b401]] — cathodic protection design that mitigates external corrosion
-- [[dnv-rp-f105]] — free spanning pipelines (sibling pipeline-integrity RP)
-- [[dnv-rp-f109]] — on-bottom stability of pipelines (sibling)
+- [dnv-st-f101](dnv-st-f101.md) — pipeline-systems design baseline RP-F101 assesses against
+- [dnv-rp-b401](dnv-rp-b401.md) — cathodic protection design that mitigates external corrosion
+- [dnv-rp-f105](dnv-rp-f105.md) — free spanning pipelines (sibling pipeline-integrity RP)
+- [dnv-rp-f109](dnv-rp-f109.md) — on-bottom stability of pipelines (sibling)
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Cross-References

@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-09
-page_count: 180
+page_count: 185
 source_count: 19
 ---
 
@@ -208,3 +208,8 @@ _No query outputs filed yet._
 | [[ASTM G30]](standards/astm-g30.md) | U-Bend Stress-Corrosion Test Specimen Preparation Practice; sheet/plate; substrate-fill resolver (W201 iter-43). | 2026-05-09 |
 | [[ASTM G39]](standards/astm-g39.md) | Bent-Beam (4-point) Stress-Corrosion Test Specimen Preparation Practice; threshold-stress determination; substrate-fill resolver (W201 iter-43). | 2026-05-09 |
 | [[ASTM G129]](standards/astm-g129.md) | Slow Strain Rate Testing for Environmentally Assisted Cracking; SSRT/HISC/HE; substrate-fill resolver (W201 iter-43). | 2026-05-09 |
+| [[ASTM G5]](standards/astm-g5.md) | Reference Test Method for Potentiodynamic Anodic Polarization Measurements — rig-calibration scan; substrate-fill resolver (W204 V9 iter-46). | 2026-05-09 |
+| [[ASTM G15]](standards/astm-g15.md) | Terminology Relating to Corrosion and Corrosion Testing — WITHDRAWN 2010, no successor; legacy-resolver (W204 V9 iter-46). | 2026-05-09 |
+| [[ASTM G16]](standards/astm-g16.md) | Applying Statistics to Analysis of Corrosion Data — extreme-value pit-depth tail extrapolation; substrate-fill resolver (W204 V9 iter-46). | 2026-05-09 |
+| [[ASTM G46]](standards/astm-g46.md) | Examination and Evaluation of Pitting Corrosion — rating chart + pit-depth measurement workflow; substrate-fill resolver (W204 V9 iter-46). | 2026-05-09 |
+| [[ASCE 7]](standards/asce-7.md) | Minimum Design Loads and Associated Criteria for Buildings and Other Structures — US onshore wind / seismic / load-combination anchor; substrate-fill resolver (W204 V9 iter-46). | 2026-05-09 |

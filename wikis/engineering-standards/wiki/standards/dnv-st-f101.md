@@ -32,10 +32,10 @@ This page is a citation resolver for downstream calc modules under the calc-cita
 - Internal callers: `digitalmodel/src/digitalmodel/` (75 hits on `DNV-ST-F101`, 24 on `DNVSTF101`, 13 on legacy `DNV-OS-F101`)
 
 ## Cross-references
-- [[dnv-rp-c203]] — fatigue design referenced by pipeline integrity calcs
-- [[dnv-rp-f101]] — corroded pipelines (assessment companion)
-- [[dnv-rp-f105]] — free spanning pipelines
-- [[dnv-rp-f109]] — on-bottom stability
+- [dnv-rp-c203](dnv-rp-c203.md) — fatigue design referenced by pipeline integrity calcs
+- [dnv-rp-f101](dnv-rp-f101.md) — corroded pipelines (assessment companion)
+- [dnv-rp-f105](dnv-rp-f105.md) — free spanning pipelines
+- [dnv-rp-f109](dnv-rp-f109.md) — on-bottom stability
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Cross-References
