@@ -5,7 +5,9 @@ tags: [mediterranean-mou, port-state-control, mediterranean, regional-cooperatio
 added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
-# --- maritime-law standards-page extra fields (treaty-flavored) ---
+# 
+cross_links: []
+--- maritime-law standards-page extra fields (treaty-flavored) ---
 code_id: mediterranean-mou
 publisher: "Mediterranean MoU Secretariat"
 instrument_type: mou

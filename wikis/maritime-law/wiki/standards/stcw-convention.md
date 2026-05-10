@@ -5,7 +5,9 @@ tags: [stcw, imo, seafarer-training, certification, watchkeeping, manila-amendme
 added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
-# --- maritime-law standards-page extra fields (treaty-flavored; per maritime-law/CLAUDE.md schema) ---
+# 
+cross_links: []
+--- maritime-law standards-page extra fields (treaty-flavored; per maritime-law/CLAUDE.md schema) ---
 code_id: stcw-convention
 publisher: IMO
 consolidated_edition: "STCW 1978 + 1995 Amendments + 2010 Manila Amendments"

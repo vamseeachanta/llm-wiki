@@ -5,7 +5,9 @@ tags: [opa-90, oil-pollution, us-regulation, exxon-valdez, deepwater-horizon, ma
 added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
-# --- maritime-law standards-page extra fields (treaty-flavored, US-domestic regulation) ---
+# 
+cross_links: []
+--- maritime-law standards-page extra fields (treaty-flavored, US-domestic regulation) ---
 code_id: opa-90
 publisher: "US Congress (signed by President George H.W. Bush 1990-08-18)"
 instrument_type: regulation

@@ -5,7 +5,9 @@ tags: [hague-visby, hague-rules, bills-of-lading, carriage-of-goods, cargo-claim
 added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
-# --- standards-page extra fields (treaty-flavored; per maritime-law/CLAUDE.md schema) ---
+# 
+cross_links: []
+--- standards-page extra fields (treaty-flavored; per maritime-law/CLAUDE.md schema) ---
 code_id: hague-visby-rules
 publisher: "Brussels Comité Maritime International (CMI) original; subsequent ratification by IMO members"
 consolidated_edition: "Hague 1924 + Visby Protocol 1968 + SDR Protocol 1979"

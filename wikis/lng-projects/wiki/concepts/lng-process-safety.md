@@ -5,12 +5,11 @@ added: 2026-05-03
 last_updated: 2026-05-09
 sources: [concept-synthesis]
 domain: lng-projects
-see_also:
+cross_links:
   - ../concepts/lng-storage-tanks.md
   - ../concepts/lng-regulatory-framework.md
   - ../concepts/lng-cargo-containment-systems.md
   - ../concepts/lng-vapor-handling.md
-cross_links:
   - ../../standards/nfpa-59a.md
   - ../../standards/phmsa-49-cfr-193.md
   - ../../standards/ferc-18-cfr-153.md
@@ -105,3 +104,4 @@ This page summarizes the canonical release scenarios and consequence categories 
 - **Cross-wiki (marine-engineering)**: [Process Safety](../../../marine-engineering/wiki/concepts/process-safety.md) — broader marine process-safety scope; LNG-specific scenarios above are a subset.
 - **Cross-wiki (engineering-standards)**: [Brittle Fracture and the Brittle-Ductile Transition](../../../engineering-standards/wiki/concepts/brittle-fracture.md) — **bidirectional bridge**: cryogenic-failure-mode coverage on this page (cold-spill, RPT, rollover-driven thermal transients) defines the minimum design temperature (MDT) that the brittle-fracture / Charpy / `T₀` screening must clear for LNG inner tanks (9% Ni / ASTM A553), membrane systems (Invar), and process piping under EN 1473 and NFPA 59A.
 - **Cross-wiki (engineering-standards)**: [ISO 15156 / NACE MR0175 — H2S Sour Service Materials](../../../engineering-standards/wiki/standards/iso-15156.md) — **bidirectional bridge**: LNG cargoes carry trace H2S below pipeline-specification thresholds, but ISO 15156 still binds materials qualification for cargo-handling, reliquefaction, and BOG-treatment equipment because H2S partial pressure (not concentration) sets the SSC and HIC regime. Most consequential for 9% Ni inner-tank welds (ASTM A553), Invar membrane attachments, and 22Cr/25Cr duplex / super-duplex cargo-handling components.
+- **Cross-wiki (engineering-standards)**: [API RP 571 — Damage Mechanisms Affecting Fixed Equipment in the Refining Industry](../../../engineering-standards/wiki/standards/api-rp-571.md) — **bidirectional bridge**: the canonical LNG release scenarios on this page (RPT, rollover-driven relief overpressure, cryogenic-shock secondary-barrier brittle fracture, BOG-compressor rapid-cycling fatigue, vapour-cloud-dispersion ignition) require RP 571's damage-mechanism taxonomy for incident-investigation root-cause analysis on liquefaction-train fixed equipment. Highest-yield mechanism mappings: cryogenic-shock + warm-cold cycling on 9 % Ni inner tanks (brittle-fracture and thermal-fatigue entries — the consequence-side counterpart of the cryogenic-failure-mode coupling identified above); BOG compressor and reliquefaction skid mechanical and thermal fatigue; cryogenic-piping cold-spot CUI on warm-cold cycling sections; amine-unit caustic SCC and amine SCC on acid-gas-removal trains feeding the liquefaction cold box; flare-tip and waste-heat-recovery oxidation / sulfidation on regen-gas circuits. The RP 571 catalogue feeds RBI / RP 580 / RP 581 screening on the same liquefaction-train fixed equipment whose leak frequencies populate the QRA and exclusion-zone calculations. Use this pairing when authoring liquefaction-train RBI plans, FERC 18 CFR 153 / EN 1473 Resource Reports that need mechanism-level credibility for fixed-equipment leak-frequency inputs, or post-incident root-cause reports reconciling regulator findings with metallurgical evidence.

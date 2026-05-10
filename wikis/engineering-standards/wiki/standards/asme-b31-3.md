@@ -140,3 +140,24 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
   gas-carrier rules (ABS, DNV, LR, BV, ClassNK) implement IGC by
   invoking B31.3 for the auxiliary and cargo-piping scope rather than
   publishing parallel piping rules.
+- [IBC Code](../../../lng-projects/wiki/standards/ibc-code.md)
+  (lng-projects) — **bidirectional bridge**: ASME B31.3 is also the
+  process-piping substrate code for the IMO IBC Code (Construction and
+  Equipment of Ships Carrying Dangerous Chemicals in Bulk), the
+  chemical-tanker counterpart to the IGC Code. IBC Chapter 5 (Cargo
+  Transfer — piping, manifolds, cargo pumps, segregation between
+  incompatible cargoes) and Chapter 7 (Cargo Temperature Control) import
+  B31.3 by reference for chemical-tanker cargo-handling, heating, and
+  cooling piping in the same way that IGC Chapters 5 and 7 do for
+  liquefied-gas carriers. The IBC + IGC parallel — both invoking B31.3
+  as the substrate process-piping code — is the engineering reason
+  class-society chemical-tanker rules (ABS, DNV, LR, BV, ClassNK, KR,
+  RINA, CCS) do not publish parallel piping methodologies. Severe-toxic
+  Type-1 chemical-tanker cargoes (Chapter 17 categorisation) typically
+  trigger Category-M Fluid Service under B31.3, raising examination
+  percentage to 100 %, narrowing material-acceptance criteria, and
+  imposing stricter leak-testing — a delegation IBC Chapter 6 (Materials
+  of Construction) and Chapter 14 (Personnel Protection) consume rather
+  than re-derive. Use this pairing when authoring chemical-tanker
+  cargo-piping FFS, RBI, or new-construction reviews where IBC ship-type
+  drives the B31.3 fluid-service category.

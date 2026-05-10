@@ -5,11 +5,13 @@ added: 2026-05-03
 last_updated: 2026-05-03
 domain: engineering-standards
 code_id: bs-13626-drilling-well-servicing-structures
+legacy_code_id: bs-13626
 publisher: BSI
 publisher_full: "British Standards Institution"
 revision: "2004"
 revision_amendments_note: ""
 jurisdiction: UK
+canonical_relationship: "BS-published; BSI is the canonical publisher under UK jurisdiction. ISO 13626 is technically equivalent (cross-reference, not supersession). Cite the BS code_id when UK jurisdictional traceability is required; cite iso-13626 when international technical equivalence is the requirement."
 superseded_by: iso-13626
 superseded_by_note: "BSI-published form of ISO standard; not technically superseded — UK jurisdictional re-publication"
 publisher_catalog_url: https://www.iso.org/search.html?q=ISO+13626

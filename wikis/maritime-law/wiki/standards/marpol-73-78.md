@@ -5,7 +5,9 @@ tags: [marpol, imo, ship-pollution, oil-pollution, garbage, sewage, sulfur-cap, 
 added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
-# --- standards-page extra fields (treaty-flavored; per maritime-law/CLAUDE.md schema) ---
+# 
+cross_links: []
+--- standards-page extra fields (treaty-flavored; per maritime-law/CLAUDE.md schema) ---
 code_id: marpol-73-78
 publisher: IMO
 consolidated_edition: "MARPOL Consolidated 2022 (IMO publication)"

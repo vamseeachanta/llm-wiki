@@ -11,6 +11,8 @@ last_updated: 2026-05-09
 sources:
   - https://www.sigtto.org/publications/
 domain: lng-projects
+extraction_policy: metadata-only
+cross_links: []
 ---
 
 # SIGTTO Mooring Equipment Guidelines for Gas Carriers

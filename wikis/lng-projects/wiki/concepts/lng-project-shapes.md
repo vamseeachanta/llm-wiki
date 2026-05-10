@@ -5,13 +5,12 @@ added: 2026-05-03
 last_updated: 2026-05-09
 sources: [concept-synthesis]
 domain: lng-projects
-see_also:
+cross_links:
   - ../concepts/lng-project-lifecycle.md
   - ../concepts/lng-marine-transfer-systems.md
   - ../concepts/lng-regulatory-framework.md
   - ../concepts/lng-storage-tanks.md
   - ../concepts/lng-liquefaction-processes.md
-cross_links:
   - ../../standards/ferc-18-cfr-153.md
   - ../../standards/phmsa-49-cfr-193.md
   - ../../standards/nfpa-59a.md

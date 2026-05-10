@@ -5,7 +5,9 @@ tags: [solas, imo, ship-safety, life-saving-appliances, fire-protection, gmdss, 
 added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
-# --- standards-page extra fields (treaty-flavored; per maritime-law/CLAUDE.md schema) ---
+# 
+cross_links: []
+--- standards-page extra fields (treaty-flavored; per maritime-law/CLAUDE.md schema) ---
 code_id: solas-1974
 publisher: IMO
 consolidated_edition: "SOLAS Consolidated 2022 (IMO publication)"

@@ -203,6 +203,34 @@ each time.
   Use this pairing when authoring incident-investigation digests that
   bridge regulatory non-conformance findings to mechanism-level
   metallurgical evidence.
+- [LNG Process Safety](../../../lng-projects/wiki/concepts/lng-process-safety.md)
+  (lng-projects) — **bidirectional bridge**: API RP 571's damage-
+  mechanism catalogue is the technical-content reference for LNG
+  incident-investigation root-cause analysis whenever a hazard
+  scenario on the LNG-process-safety page (RPT, rollover-driven
+  relief-system overpressure, cryogenic-shock secondary-barrier
+  brittle fracture, vapour-cloud-dispersion ignition, BOG-compressor
+  rapid-cycling fatigue) is traced back to a fixed-equipment failure
+  mode. Highest-yield mechanism mappings: cryogenic-shock + warm-cold
+  cycling on 9 % Ni inner tanks (RP 571 brittle-fracture and thermal-
+  fatigue entries — feeding the FFS-Part-3/Part-14 selection); BOG
+  compressor and reliquefaction skid mechanical and thermal fatigue
+  (mechanical-fatigue + thermal-fatigue entries); cryogenic-piping
+  cold-spot CUI on warm-cold cycling sections (CUI entry); amine-unit
+  caustic SCC on acid-gas-removal trains feeding the liquefaction
+  cold box (caustic-SCC + amine-SCC entries); flare-tip and waste-heat-
+  recovery oxidation / sulfidation on regen-gas circuits (oxidation +
+  sulfidation entries). LNG operators applying API RP 580 / 581 RBI to
+  liquefaction-train fixed equipment consume the RP 571 catalogue
+  through the same screening logic refining operators use; the
+  process-safety hazard-scenario list on the lng-projects page is the
+  *consequence-side* counterpart that closes the loop between mechanism
+  catalogue, RBI screening, and QRA frequency aggregation. Use this
+  pairing when authoring liquefaction-train RBI plans, FERC / EN 1473
+  Resource Reports that need mechanism-level credibility for the
+  fixed-equipment leak-frequency inputs, or post-incident root-cause
+  reports that must reconcile regulator findings with metallurgical
+  evidence.
 
 ## Why this page exists
 

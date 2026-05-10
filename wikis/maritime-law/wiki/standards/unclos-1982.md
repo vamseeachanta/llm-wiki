@@ -5,7 +5,9 @@ tags: [unclos, law-of-the-sea, un-treaty, doalos, ocean-governance, exclusive-ec
 added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
-# --- standards-page extra fields (treaty-flavored; per maritime-law/CLAUDE.md schema) ---
+# 
+cross_links: []
+--- standards-page extra fields (treaty-flavored; per maritime-law/CLAUDE.md schema) ---
 code_id: unclos-1982
 publisher: "UN (United Nations) / DOALOS (Division for Ocean Affairs and Law of the Sea)"
 consolidated_edition: "Consolidated text including 1994 Implementation Agreement"

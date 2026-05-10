@@ -5,12 +5,11 @@ added: 2026-05-03
 last_updated: 2026-05-09
 sources: [concept-synthesis]
 domain: lng-projects
-see_also:
+cross_links:
   - ../concepts/lng-storage-tanks.md
   - ../concepts/lng-boil-off-gas-management.md
   - ../concepts/lng-process-safety.md
   - ../concepts/lng-composition-management.md
-cross_links:
   - ../../standards/nfpa-59a.md
   - ../../standards/ferc-18-cfr-153.md
   - ../../standards/phmsa-49-cfr-193.md

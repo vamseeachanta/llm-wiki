@@ -26,6 +26,7 @@ sources:
   - https://www.nfpa.org/codes-and-standards/all-codes-and-standards/list-of-codes-and-standards/detail?code=59A
 extraction_policy: metadata-only
 raw_copy_allowed: false
+cross_links: []
 ---
 
 # NFPA 59A — Standard for the Production, Storage, and Handling of Liquefied Natural Gas (LNG)

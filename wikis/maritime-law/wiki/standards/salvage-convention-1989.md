@@ -5,7 +5,9 @@ tags: [salvage, imo, environmental-salvage, special-compensation, scopic, lloyds
 added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
-# --- maritime-law standards-page extra fields (treaty-flavored) ---
+# 
+cross_links: []
+--- maritime-law standards-page extra fields (treaty-flavored) ---
 code_id: salvage-convention-1989
 publisher: IMO
 instrument_type: treaty

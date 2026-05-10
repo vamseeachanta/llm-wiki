@@ -5,7 +5,9 @@ tags: [caribbean-mou, port-state-control, caribbean, regional-cooperation, ship-
 added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
-# --- maritime-law standards-page extra fields (treaty-flavored) ---
+# 
+cross_links: []
+--- maritime-law standards-page extra fields (treaty-flavored) ---
 code_id: caribbean-mou
 publisher: "Caribbean MoU Secretariat"
 instrument_type: mou

@@ -5,7 +5,9 @@ tags: [york-antwerp-rules, general-average, cmi, private-codification, bills-of-
 added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
-# --- maritime-law standards-page extra fields (treaty-flavored) ---
+# 
+cross_links: []
+--- maritime-law standards-page extra fields (treaty-flavored) ---
 code_id: york-antwerp-rules
 publisher: "CMI (Comité Maritime International)"
 instrument_type: private-codification

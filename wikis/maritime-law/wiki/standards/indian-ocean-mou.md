@@ -5,7 +5,9 @@ tags: [indian-ocean-mou, port-state-control, indian-ocean, regional-cooperation,
 added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
-# --- maritime-law standards-page extra fields (treaty-flavored) ---
+# 
+cross_links: []
+--- maritime-law standards-page extra fields (treaty-flavored) ---
 code_id: indian-ocean-mou
 publisher: "Indian Ocean MoU Secretariat"
 instrument_type: mou

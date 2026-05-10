@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-09
-page_count: 172
+page_count: 173
 source_count: 19
 ---
 
@@ -190,6 +190,7 @@ _No query outputs filed yet._
 | [[ASTM G102]](standards/astm-g102.md) | Calculation of Corrosion Rates from Electrochemical Measurements — Faraday + EW table. | 2026-05-09 |
 | [[ASTM G106]](standards/astm-g106.md) | Electrochemical Impedance Measurements (EIS) Verification. | 2026-05-09 |
 | [[AMPP SP0775]](standards/ampp-sp0775.md) | Corrosion Coupons in Oilfield Operations — online monitoring foundation. | 2026-05-09 |
+| [[SSPC-SP 10 / NACE No. 2]](standards/sspc-sp-10.md) | Near-White Metal Blast Cleaning — Sa 2½ surface-prep anchor for coating-systems concept; SSPC→AMPP rebrand 2020/2021. | 2026-05-09 |
 | [[API RP 941]](standards/api-rp-941.md) | Steels for Hydrogen Service at Elevated T,P — Nelson curves for HTHA envelopes. | 2026-05-09 |
 | [[ASME B31.1]](standards/asme-b31-1.md) | Power Piping — boiler/turbine/steam systems (sibling to B31.3 process). | 2026-05-09 |
 | [[API RP 577]](standards/api-rp-577.md) | Welding Inspection and Metallurgy — NDE methods + PWHT companion to API 510/570/653. | 2026-05-09 |

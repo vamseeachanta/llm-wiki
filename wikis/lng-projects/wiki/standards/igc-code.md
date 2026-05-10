@@ -13,6 +13,7 @@ sources:
 domain: lng-projects
 extraction_policy: metadata-only
 raw_copy_allowed: false
+cross_links: []
 ---
 
 # IMO IGC Code — International Code for Construction and Equipment of Ships Carrying Liquefied Gases in Bulk

@@ -5,13 +5,12 @@ added: 2026-05-03
 last_updated: 2026-05-09
 sources: [concept-synthesis]
 domain: lng-projects
-see_also:
+cross_links:
   - ../concepts/lng-storage-tanks.md
   - ../concepts/lng-marine-transfer-systems.md
   - ../concepts/lng-vapor-handling.md
   - ../concepts/lng-cargo-containment-systems.md
   - ../concepts/lng-process-safety.md
-cross_links:
   - ../../standards/nfpa-59a.md
   - ../../standards/igc-code.md
   - ../../standards/en-1473.md

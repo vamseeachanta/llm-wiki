@@ -5,11 +5,13 @@ added: 2026-05-03
 last_updated: 2026-05-03
 domain: engineering-standards
 code_id: bs-13628-2-flexible-pipe-subsea
+legacy_code_id: bs-13628-2
 publisher: BSI
 publisher_full: "British Standards Institution"
 revision: "2001"
 revision_amendments_note: "Corrigendum 1 (2001)"
 jurisdiction: UK
+canonical_relationship: "BS-published; BSI is the canonical publisher under UK jurisdiction. ISO 13628-2 is technically equivalent (cross-reference, not supersession); per BSI Knowledge product page, BS EN ISO 13628-2 technical content is identical with the English version of API 17J. Cite the BS code_id when UK jurisdictional traceability is required; cite iso-13628-2 (or api-17j) when international technical equivalence is the requirement."
 superseded_by: iso-13628-2
 superseded_by_note: "BSI-published form of ISO standard; not technically superseded — UK jurisdictional re-publication"
 publisher_catalog_url: https://www.iso.org/search.html?q=ISO+13628-2

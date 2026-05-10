@@ -19,6 +19,8 @@ last_updated: 2026-05-09
 sources:
   - https://www.api.org/products-and-services/standards
 domain: lng-projects
+extraction_policy: metadata-only
+cross_links: []
 ---
 
 # API Std 625 — Tank Systems for Refrigerated Liquefied Gas Storage

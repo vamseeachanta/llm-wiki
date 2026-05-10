@@ -5,7 +5,9 @@ tags: [rotterdam-rules, uncitral, carriage-of-goods, multimodal, electronic-bill
 added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
-# --- standards-page extra fields (treaty-flavored; per maritime-law/CLAUDE.md schema) ---
+# 
+cross_links: []
+--- standards-page extra fields (treaty-flavored; per maritime-law/CLAUDE.md schema) ---
 code_id: rotterdam-rules
 publisher: "UN UNCITRAL"
 instrument_type: treaty

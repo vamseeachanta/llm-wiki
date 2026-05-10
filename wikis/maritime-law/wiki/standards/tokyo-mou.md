@@ -5,7 +5,9 @@ tags: [tokyo-mou, port-state-control, asia-pacific, nir-model, regional-cooperat
 added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
-# --- maritime-law standards-page extra fields (treaty-flavored) ---
+# 
+cross_links: []
+--- maritime-law standards-page extra fields (treaty-flavored) ---
 code_id: tokyo-mou
 publisher: "Tokyo MoU Secretariat"
 instrument_type: mou

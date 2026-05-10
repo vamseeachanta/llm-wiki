@@ -11,6 +11,8 @@ last_updated: 2026-05-09
 sources:
   - https://www.ecfr.gov/current/title-18/chapter-I/subchapter-E/part-153
 domain: lng-projects
+extraction_policy: metadata-only
+cross_links: []
 ---
 
 # FERC 18 CFR Part 153 — Authorization for LNG Import/Export Facilities

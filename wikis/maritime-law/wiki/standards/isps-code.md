@@ -5,7 +5,9 @@ tags: [isps, maritime-security, post-911, solas-xi-2, port-facility-security-off
 added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
-# --- standards-page extra fields (per maritime-law/CLAUDE.md schema) ---
+# 
+cross_links: []
+--- standards-page extra fields (per maritime-law/CLAUDE.md schema) ---
 code_id: isps-code
 publisher: IMO
 consolidated_edition: "As adopted 2002 with 2014 amendments (cybersecurity)"

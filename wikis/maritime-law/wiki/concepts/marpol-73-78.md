@@ -8,7 +8,7 @@ added: 2026-05-02
 last_updated: 2026-05-09
 sources:
   - maritime-liability-conventions
-see_also:
+cross_links:
   - ./environmental-liability.md
   - ./port-state-control.md
   - ../entities/mv-wakashio-2020.md

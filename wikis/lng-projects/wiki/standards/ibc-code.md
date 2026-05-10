@@ -14,6 +14,7 @@ sources:
 domain: lng-projects
 extraction_policy: metadata-only
 raw_copy_allowed: false
+cross_links: []
 ---
 
 # IMO IBC Code — Construction and Equipment of Ships Carrying Dangerous Chemicals in Bulk
@@ -115,6 +116,10 @@ All three regimes anchor on the **IBC Code Chapter 17 cargo list** as the canoni
 - [HNS Convention 2010](../../../maritime-law/wiki/standards/hns-convention-2010.md) — **bidirectional bridge**: IBC Code defines what a chemical tanker must be built to; HNS Convention 2010 defines who pays when an IBC-certified ship spills its IBC-Chapter-17 cargo. The two regimes share the Chapter 17 cargo list as their common categorization key.
 - [MARPOL 73/78](../../../maritime-law/wiki/standards/marpol-73-78.md) — **bidirectional bridge**: MARPOL Annex II categorises IBC Chapter 17 cargoes into X/Y/Z/OS pollution categories and prescribes discharge / reception-facility / prewash requirements. IBC governs construction; MARPOL Annex II governs operations on the same chemical-tanker fleet.
 - [SOLAS 1974](../../../maritime-law/wiki/standards/solas-1974.md) — **bidirectional bridge**: SOLAS Chapter VII Part B is the parent convention text under which the IBC Code is mandatory for chemical tankers built on or after 1986-07-01.
+
+**Cross-wiki bridge (engineering-standards):**
+
+- [ASME B31.3 — Process Piping](../../../engineering-standards/wiki/standards/asme-b31-3.md) — **bidirectional bridge**: IBC Chapter 5 (Cargo Transfer — piping, manifolds, cargo pumps, segregation between incompatible cargoes) and Chapter 7 (Cargo Temperature Control) import ASME B31.3 by reference for chemical-tanker cargo-handling, heating, and cooling piping — exactly as IGC Code Chapters 5 and 7 do for liquefied-gas carriers. The IBC + IGC parallel — both invoking B31.3 as the substrate process-piping code — is why class-society chemical-tanker rules (ABS, DNV, LR, BV, ClassNK, KR, RINA, CCS) do not publish parallel piping methodologies. Severe-toxic Type-1 cargoes (Chapter 17 categorisation) typically trigger Category-M Fluid Service under B31.3, raising examination percentage to 100 %, narrowing material-acceptance criteria, and imposing stricter leak-testing — a delegation IBC Chapter 6 (Materials of Construction) and Chapter 14 (Personnel Protection) consume rather than re-derive. Use this pairing when authoring chemical-tanker cargo-piping FFS, RBI, or new-construction reviews where IBC ship-type drives the B31.3 fluid-service category.
 
 **International / regulatory parallels:**
 

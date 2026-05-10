@@ -18,6 +18,7 @@ sources:
   - https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-193
 extraction_policy: metadata-only
 raw_copy_allowed: false
+cross_links: []
 ---
 
 # PHMSA 49 CFR Part 193 — LNG Facility Safety Standards
