@@ -72,7 +72,7 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 
 - [asme-pcc-1](asme-pcc-1.md) — assembly-side complement governing bolt-up methodology
 - [asme-b16-34](asme-b16-34.md) — valve flange-rating cross-link (valves rated to the same Class system)
-- [[asme-b16-47]] — large-diameter flanges above NPS 24 (Series A / Series B)
+- [asme-b16-47](asme-b16-47.md) — large-diameter flanges above NPS 24 (Series A / Series B)
 - [asme-b31-3](asme-b31-3.md) — process-piping consumer
 - [asme-b31-4](asme-b31-4.md) — liquid-pipeline consumer
 - [asme-bpvc-viii-1](asme-bpvc-viii-1.md) — pressure-vessel-nozzle flange interface

@@ -81,7 +81,7 @@ The 2021-09 edition's section structure is the working surface for most calc mod
 
 - Offshore-platform integrity-management engineers planning multi-year inspection campaigns on fixed jacket platforms (e.g., North Sea, Gulf of Mexico, Bohai, Brazilian Basin assets).
 - FPSO / FLNG / FSRU integrity-management teams planning hull and topside-structure inspection schedules under reliability-based optimisation.
-- Floating production system (semisubmersible, tendon, mooring) inspection-planning specialists pairing DNV-RP-C210 reliability output with [dnv-os-e301](dnv-os-e301.md) mooring-integrity provisions and [[api-rp-2mim]] mooring-integrity-management practice.
+- Floating production system (semisubmersible, tendon, mooring) inspection-planning specialists pairing DNV-RP-C210 reliability output with [dnv-os-e301](dnv-os-e301.md) mooring-integrity provisions and [api-rp-2mim](api-rp-2mim.md) mooring-integrity-management practice.
 - Class societies — DNV, ABS, BV, LR — accepting DNV-RP-C210-based reliability arguments in lieu of prescriptive periodic inspection where the asset-specific reliability case demonstrates equivalent or superior coverage.
 - Offshore EPCs preparing inspection-and-monitoring philosophy documents for greenfield-platform deliverables, where DNV-RP-C210 provides the design-stage RBI framework.
 

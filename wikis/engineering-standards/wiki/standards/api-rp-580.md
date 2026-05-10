@@ -270,7 +270,7 @@ distinguishes RBI from a one-time risk study.
   programme with the same conceptual elements (team, data, screening,
   POF, COF, risk, plan, reassess), with PCC-3 emphasising pressure-
   equipment scope and RP 580 the broader process-plant population.
-  See [[asme-pcc-3]].
+  See [asme-pcc-3](asme-pcc-3.md).
 - **DNV-RP-G101 — Risk-Based Inspection of Offshore Topsides Static
   Mechanical Equipment.** Offshore-topsides RBI recommended practice
   from DNV; conceptually parallel to RP 580 with adaptations for

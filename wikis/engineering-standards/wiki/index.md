@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-10
-page_count: 210
+page_count: 215
 source_count: 19
 ---
 
@@ -240,3 +240,8 @@ _No query outputs filed yet._
 | [[BS 7910]](standards/bs-7910.md) | Guide to Methods for Assessing the Acceptability of Flaws in Metallic Structures — canonical short-slug resolver paired with legacy_slug=bs-7910-flaw-assessment; 13-reference wikilink-residual fill (W221 iter-48). | 2026-05-10 |
 | [[API 1104]](standards/api-1104.md) | Welding of Pipelines and Related Facilities — canonical short-slug resolver paired with legacy_slug=api-std-1104; 3-reference wikilink-residual fill (W221 iter-48). | 2026-05-10 |
 | [[DNV-RP-G101]](standards/dnv-rp-g101.md) | Risk Based Inspection of Offshore Topsides Static Mechanical Equipment — sister to DNV-RP-C210 + API RP 580/581; 3-reference substrate-fill resolver (W221 iter-48). | 2026-05-10 |
+| [[API RP 2MIM]](standards/api-rp-2mim.md) | Mooring Integrity Management — operations-side companion to API RP 2SK; ASME-process/RBI substrate-fill resolver (W232 iter-51). | 2026-05-10 |
+| [[ASME PCC-3]](standards/asme-pcc-3.md) | Inspection Planning Using Risk-Based Methods — publisher-neutral RBI methodology framework, ASME-side counterpart to API RP 580/581; substrate-fill resolver (W232 iter-51). | 2026-05-10 |
+| [[ASME B31J]](standards/asme-b31j.md) | Stress Intensification Factors and Flexibility Factors — post-2018 mandatory replacement for legacy B31.3 Appendix-D SIF/FF charts; substrate-fill resolver (W232 iter-51). | 2026-05-10 |
+| [[ASME B16.47]](standards/asme-b16-47.md) | Large Diameter Steel Flanges (NPS 26 through NPS 60) — Series A (ex-MSS-SP-44) / Series B (ex-API-605) upstream-size companion to B16.5; substrate-fill resolver (W232 iter-51). | 2026-05-10 |
+| [[ASME BPVC Section II Part C]](standards/asme-bpvc-ii-c.md) | Specifications for Welding Rods, Electrodes, and Filler Metals — SFA-prefixed (AWS A5.x harmonised) consumables and F-Number groupings; substrate-fill resolver (W232 iter-51). | 2026-05-10 |
