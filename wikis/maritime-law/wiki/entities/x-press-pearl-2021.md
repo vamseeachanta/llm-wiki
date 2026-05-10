@@ -75,6 +75,6 @@ cross_links:
 - **Standard**: [Salvage Convention 1989](../standards/salvage-convention-1989.md) — instrument metadata.
 - **Standard**: [Nairobi WRC 2007](../standards/nairobi-wrc-2007.md) — wreck-removal-cost allocation framework engaged on the submerged hull.
 - **Concept**: [Bunkers Convention 2001](../concepts/bunkers-convention-2001.md) — strict liability for bunker spill from a non-tanker.
-- **Sibling case**: [[msc-flaminia-2012]] — canonical post-2010 Article IV.6 strict-shipper-liability authority.
+- **Sibling case**: [msc-flaminia-2012](msc-flaminia-2012.md) — canonical post-2010 Article IV.6 strict-shipper-liability authority.
 - **Antecedent precedent**: *Effort Shipping Co Ltd v Linden Management SA (The Giannis NK)* [1998] 1 Lloyd's Rep 337 (HL) — UK strict-shipper-liability authority.
-- **Comparator case**: [[mv-wakashio-2020]] — contemporaneous bunker / WRC engagement on a non-tanker grounding casualty.
+- **Comparator case**: [mv-wakashio-2020](mv-wakashio-2020.md) — contemporaneous bunker / WRC engagement on a non-tanker grounding casualty.

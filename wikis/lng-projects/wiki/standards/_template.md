@@ -95,19 +95,19 @@ _<author: bidirectional links. Any concepts/* page linked here MUST
 get a return link in its own Cross-references section.>_
 
 **Sibling lng-projects standards** _(populate as more standards/ pages land)_
-- _<e.g. [[csa-z276]] — bulk LNG production/storage/handling>_
-- _<e.g. [[nfpa-59a]] — US LNG facility safety>_
-- _<e.g. [[igc-code]] — international LNG carrier construction/equipment>_
+- _<e.g. [csa-z276](csa-z276.md) — bulk LNG production/storage/handling>_
+- _<e.g. [nfpa-59a](nfpa-59a.md) — US LNG facility safety>_
+- _<e.g. [igc-code](igc-code.md) — international LNG carrier construction/equipment>_
 
 **lng-projects concepts** _(8 pages exist as of 2026-05-09; link the relevant ones)_
-- [[lng-project-lifecycle]](../concepts/lng-project-lifecycle.md)
-- [[lng-project-shapes]](../concepts/lng-project-shapes.md)
-- [[lng-regulatory-framework]](../concepts/lng-regulatory-framework.md)
-- [[lng-process-safety]](../concepts/lng-process-safety.md)
-- [[lng-liquefaction-processes]](../concepts/lng-liquefaction-processes.md)
-- [[lng-storage-tanks]](../concepts/lng-storage-tanks.md)
-- [[lng-marine-transfer-systems]](../concepts/lng-marine-transfer-systems.md)
-- [[lng-boil-off-gas-management]](../concepts/lng-boil-off-gas-management.md)
+- [lng-project-lifecycle](../concepts/lng-project-lifecycle.md)
+- [lng-project-shapes](../concepts/lng-project-shapes.md)
+- [lng-regulatory-framework](../concepts/lng-regulatory-framework.md)
+- [lng-process-safety](../concepts/lng-process-safety.md)
+- [lng-liquefaction-processes](../concepts/lng-liquefaction-processes.md)
+- [lng-storage-tanks](../concepts/lng-storage-tanks.md)
+- [lng-marine-transfer-systems](../concepts/lng-marine-transfer-systems.md)
+- [lng-boil-off-gas-management](../concepts/lng-boil-off-gas-management.md)
 
 **Cross-wiki (engineering-standards)** _(only when materially relevant)_
 - _<e.g. ASME B31.4 / B31.8 — for LNG export/import pipelines (../../engineering-standards/wiki/standards/asme-b31-8.md)>_
@@ -126,6 +126,6 @@ the publisher catalog or the locally-cached revision. If no sources/
 page exists yet, file a future-promotion stub here and create the
 sources/ page when raw-corpus indexing reaches this code.>_
 
-- _<e.g. [[lng-projects-sources-csa-z276]](../sources/<slug>.md) — sources/* catalog summary>_
+- _<e.g. [lng-projects-sources-csa-z276](../sources/<slug>.md) — sources/* catalog summary>_
 - [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md)
 - Publisher catalog: <public_url>

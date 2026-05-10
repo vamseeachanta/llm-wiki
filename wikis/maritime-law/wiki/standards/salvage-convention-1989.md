@@ -62,8 +62,8 @@ The convention runs to 34 Articles. The most-cited operative provisions:
 - **The Nagasaki Spirit (1997) AC 455** (UK House of Lords) — leading interpretation of Article 14, holding that "expenses fairly attributable" did not include a profit element; widely seen as the immediate driver of the **SCOPIC 2000** reform. See `../entities/` for the case if a digest page lands.
 - **The Cape Bari (2016) UKPC 20** — Privy Council on application of Article 13 reward criteria in modern salvages and the interaction with limitation-of-liability clauses.
 - **The Castor (2002)** — Mediterranean / Spanish litigation on refusal of place-of-refuge and the consequent salvage-and-environmental interplay.
-- **The Erika (2000–2008)** — French post-spill litigation arising from the 1999 grounding; environmental-compensation interface between the Salvage Convention, CLC, and the IOPC Funds. See [[mv-erika-1999]](../entities/mv-erika-1999.md).
-- **The Sea Empress (1996)** — Milford Haven grounding; salvors' claims against port authority became the subject of subsequent UK litigation. See [[sea-empress-1996]](../entities/sea-empress-1996.md).
+- **The Erika (2000–2008)** — French post-spill litigation arising from the 1999 grounding; environmental-compensation interface between the Salvage Convention, CLC, and the IOPC Funds. See [mv-erika-1999](../entities/mv-erika-1999.md).
+- **The Sea Empress (1996)** — Milford Haven grounding; salvors' claims against port authority became the subject of subsequent UK litigation. See [sea-empress-1996](../entities/sea-empress-1996.md).
 
 ## Cross-references
 
@@ -71,30 +71,34 @@ The convention runs to 34 Articles. The most-cited operative provisions:
 - Supersedes the **Brussels Salvage Convention 1910** between states-parties (no in-wiki page; legacy instrument).
 
 **Sibling IMO instruments**
-- [[clc-1992]](../concepts/clc-1992.md) — Civil Liability Convention for Oil Tanker Spills; complementary oil-pollution-liability regime that interlocks with Salvage Convention Article 14 environmental compensation.
-- [[bunkers-convention-2001]](../concepts/bunkers-convention-2001.md) — bunker-spill liability sibling.
-- [[hns-convention-2010]](../concepts/hns-convention-2010.md) — hazardous-and-noxious-substances liability sibling.
-- [[llmc-1996]](../concepts/llmc-1996.md) — Convention on Limitation of Liability for Maritime Claims; **note** that limitation does not apply to a salvor's claim for **special compensation** under Article 14 (LLMC 1996, Art. 3(b)).
+- [clc-1992](../concepts/clc-1992.md) — Civil Liability Convention for Oil Tanker Spills; complementary oil-pollution-liability regime that interlocks with Salvage Convention Article 14 environmental compensation.
+- [bunkers-convention-2001](../concepts/bunkers-convention-2001.md) — bunker-spill liability sibling.
+- [hns-convention-2010](../concepts/hns-convention-2010.md) — hazardous-and-noxious-substances liability sibling.
+- [llmc-1996](../concepts/llmc-1996.md) — Convention on Limitation of Liability for Maritime Claims; **note** that limitation does not apply to a salvor's claim for **special compensation** under Article 14 (LLMC 1996, Art. 3(b)).
 - **UNCLOS 1982** Articles 221 and 225 — coastal-state intervention to prevent pollution; jurisdictional backdrop to Article 14 environmental-salvage operations. (Standards page pending — W114 in flight.)
 - **Wreck Removal Convention 2007** (Nairobi) — sibling instrument covering removal of hazardous wrecks; standards page pending.
 
 **maritime-law concepts** (read first; bidirectional return links required)
-- [[salvage]](../concepts/salvage.md) — salvor-claim doctrine, three classical elements, "no cure, no pay" maxim. **This standards page is the treaty-layer counterpart.**
-- [[general-average]](../concepts/general-average.md) — sibling doctrine for voluntary sacrifice/expenditure for common safety; distinct from salvage but often invoked together after a casualty.
-- [[environmental-liability]](../concepts/environmental-liability.md) — overarching pollution-liability regime that contextualises Article 14.
-- [[limitation-of-liability]](../concepts/limitation-of-liability.md) — interface with LLMC 1996 carve-outs for special compensation.
+- [salvage](../concepts/salvage.md) — salvor-claim doctrine, three classical elements, "no cure, no pay" maxim. **This standards page is the treaty-layer counterpart.**
+- [general-average](../concepts/general-average.md) — sibling doctrine for voluntary sacrifice/expenditure for common safety; distinct from salvage but often invoked together after a casualty.
+- [environmental-liability](../concepts/environmental-liability.md) — overarching pollution-liability regime that contextualises Article 14.
+- [limitation-of-liability](../concepts/limitation-of-liability.md) — interface with LLMC 1996 carve-outs for special compensation.
 
 **maritime-law cases**
-- [[mv-erika-1999]](../entities/mv-erika-1999.md) — environmental-compensation interface.
-- [[sea-empress-1996]](../entities/sea-empress-1996.md) — salvor-vs-port-authority litigation.
-- [[mv-ever-given-2021]](../entities/mv-ever-given-2021.md) — modern LOF salvage operation (Suez refloating).
+- [mv-erika-1999](../entities/mv-erika-1999.md) — environmental-compensation interface.
+- [sea-empress-1996](../entities/sea-empress-1996.md) — salvor-vs-port-authority litigation.
+- [mv-ever-given-2021](../entities/mv-ever-given-2021.md) — modern LOF salvage operation (Suez refloating).
 
 **Industry contracts (private codification)**
 - **Lloyd's Open Form (LOF 2020)** — the standard salvage contract globally; the surface on which SCOPIC operates. (No in-wiki page; private codification, citable as industry instrument.)
 - **SCOPIC 2014** (current revision) — the contractual replacement for Article 14 used in practice on most LOF salvages.
 
+**Cross-wiki (engineering-standards)** *(where mooring/stationkeeping design specifications condition salvage-trigger thresholds)*
+
+- [api-rp-2sk](../../../engineering-standards/wiki/standards/api-rp-2sk.md) — **bidirectional bridge**: API RP 2SK (Design and Analysis of Stationkeeping Systems for Floating Structures) governs FPSO/FLNG/FSRU/semi-submersible mooring-system design across catenary, taut-leg, spread-mooring, and thruster-assisted/DP-supplemented configurations. **Mooring-system failures** — chain-link wear (interlink fretting + corrosion-fatigue), polyester-rope creep + axial-compression fatigue, fairlead/stopper failure, anchor-drag, and turret-bearing seizure — trigger **salvage events** when moored floating units drift uncontrolled or threaten shoreline impact. **Article 14 special-compensation** is engaged when salvors intervene on mooring-failed units to prevent or minimise environmental damage; in practice, **SCOPIC 2014** under LOF supplies the tariff-based compensation mechanism. The **Banff FPSO 2011** (North Sea Hurricane Bawbag mooring-line breakages) and **Volve FPSO 2016** (Norwegian-sector anchor-leg failure with PSV emergency-tow response) incidents illustrate the interplay — RP 2SK envelope selection (intact + damaged + survival load cases) directly conditions whether a mooring casualty escalates to the Article 14 / SCOPIC threshold. Use the bridge for mooring-failure casualty digests linking stationkeeping-design non-conformance to salvage-compensation analysis.
+
 ## Sources
 
 - Publisher catalog: IMO, *International Convention on Salvage 1989* — https://www.imo.org/en/About/Conventions/Pages/International-Convention-on-Salvage.aspx
-- [[maritime-liability-conventions]](../sources/maritime-liability-conventions.md) — maritime-law sources catalog summary.
-- Concept-page primary citation: [[salvage]](../concepts/salvage.md) (LOF + SCOPIC + Salvage Convention triad).
+- [maritime-liability-conventions](../sources/maritime-liability-conventions.md) — maritime-law sources catalog summary.
+- Concept-page primary citation: [salvage](../concepts/salvage.md) (LOF + SCOPIC + Salvage Convention triad).

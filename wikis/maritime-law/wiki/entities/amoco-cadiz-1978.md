@@ -64,5 +64,5 @@ cross_links:
 - **Concept / Standard**: [CLC 1992](../concepts/clc-1992.md) — limit increases driven by *Amoco Cadiz* inadequacy.
 - **Standard**: [Salvage Convention 1989](../standards/salvage-convention-1989.md) — Article 14 special-compensation response.
 - **Concept**: [Limitation of Liability](../concepts/limitation-of-liability.md) — venue-driven limit defeat as a paradigm case.
-- **Sibling entities**: [[torrey-canyon-1967]] — antecedent casualty; [[mv-erika-1999]], [[mv-prestige-2002]], [[deepwater-horizon-2010]] — successor cases applying or extending the *Amoco Cadiz* logic.
+- **Sibling entities**: [torrey-canyon-1967](torrey-canyon-1967.md) — antecedent casualty; [mv-erika-1999](mv-erika-1999.md), [mv-prestige-2002](mv-prestige-2002.md), [deepwater-horizon-2010](deepwater-horizon-2010.md) — successor cases applying or extending the *Amoco Cadiz* logic.
 - **Source**: [Maritime Law Cases](../sources/maritime-law-cases.md) | [Maritime Liability Conventions](../sources/maritime-liability-conventions.md).

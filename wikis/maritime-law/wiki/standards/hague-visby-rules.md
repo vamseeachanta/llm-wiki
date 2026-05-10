@@ -96,14 +96,14 @@ The Rotterdam Rules 2008, signed by the US in 2009, was the international harmon
 
 **maritime-law concepts** *(linked pages must add a return link to this standards page)*
 
-- [[charterparties]](../concepts/charterparties.md) — voyage and time charters routinely incorporate Hague-Visby into bills of lading issued under the charter; this is the doctrinal upstream of Hague-Visby application.
-- [[limitation-of-liability]](../concepts/limitation-of-liability.md) — Hague-Visby Article IV(5) package-limit operates as a per-package cap that interfaces with the per-incident global cap under LLMC 1996; both can apply concurrently.
+- [charterparties](../concepts/charterparties.md) — voyage and time charters routinely incorporate Hague-Visby into bills of lading issued under the charter; this is the doctrinal upstream of Hague-Visby application.
+- [limitation-of-liability](../concepts/limitation-of-liability.md) — Hague-Visby Article IV(5) package-limit operates as a per-package cap that interfaces with the per-incident global cap under LLMC 1996; both can apply concurrently.
 
 **Sibling and umbrella standards**
 
-- [[unclos-1982]](./unclos-1982.md) — UNCLOS is the umbrella convention; Hague-Visby operates within the flag-state and zone architecture of UNCLOS Parts II, V, VII.
-- [[marpol-73-78]](./marpol-73-78.md) — sibling regime; both treat ship-source events but allocate risk on different axes (Hague-Visby = cargo-claim contractual; MARPOL = pollution regulatory).
-- [[salvage-convention-1989]](./salvage-convention-1989.md) — Article IV(2)(l) "saving or attempting to save life or property at sea" exception cross-references the Salvage Convention regime.
+- [unclos-1982](./unclos-1982.md) — UNCLOS is the umbrella convention; Hague-Visby operates within the flag-state and zone architecture of UNCLOS Parts II, V, VII.
+- [marpol-73-78](./marpol-73-78.md) — sibling regime; both treat ship-source events but allocate risk on different axes (Hague-Visby = cargo-claim contractual; MARPOL = pollution regulatory).
+- [salvage-convention-1989](./salvage-convention-1989.md) — Article IV(2)(l) "saving or attempting to save life or property at sea" exception cross-references the Salvage Convention regime.
 
 **Related instruments — modernization attempt and predecessors**
 
@@ -121,7 +121,7 @@ The Rotterdam Rules 2008, signed by the US in 2009, was the international harmon
 
 ## Sources
 
-- [[maritime-liability-conventions]](../sources/maritime-liability-conventions.md) — sibling sources/ catalog page covering the implementing-treaty layer.
+- [maritime-liability-conventions](../sources/maritime-liability-conventions.md) — sibling sources/ catalog page covering the implementing-treaty layer.
 - CMI portal: <https://www.cmi-international.org/> — drafting body, holds the historical Brussels diplomatic-conference records for Hague 1924, Visby 1968, and SDR 1979.
 - UK Carriage of Goods by Sea Act 1971: <https://www.legislation.gov.uk/ukpga/1971/19> — UK implementation; the schedule reproduces the Hague-Visby Rules as enacted.
 - US COGSA 1936 (re-codified at 46 U.S.C.): <https://uscode.house.gov/> — US Hague-only implementation reference.

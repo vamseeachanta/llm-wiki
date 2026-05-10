@@ -58,7 +58,7 @@ Part 193 incorporates **NFPA 59A — Standard for the Production, Storage, and H
 - For state-jurisdictional or international project work, the NFPA-current edition may apply through a different adoption path.
 - Any `Citation` instance under `calc-citation-contract.md` that resolves through Part 193 to NFPA 59A should record both the Part 193 revision and the NFPA 59A edition codified at § 193.2007 as of that date — this is what makes the citation reproducible if PHMSA updates its IBR later.
 
-See `[[nfpa-59a]]` (future page) for the NFPA-side metadata.
+See `[nfpa-59a](nfpa-59a.md)` (future page) for the NFPA-side metadata.
 
 ## Fire-protection-criteria distances
 
@@ -76,24 +76,24 @@ The federal LNG safety regime is heavily incident-driven. Key events that shaped
 - **Skikda, Algeria — 2004.** Liquefaction-train explosion at the Sonatrach Skikda terminal killed **27** and injured many more. Drove industry attention to **Inherently Safer Design (ISD)** principles — minimizing inventory, segregating ignition sources from refrigerant-leak paths, and improving boiler/process-area separation. Influenced subsequent revisions of NFPA 59A and PHMSA inspection focus.
 - **Plymouth, WA — Williams NW Pipeline, 2014.** A 12-inch pipeline-segment failure at the Plymouth peak-shaving facility caused a release and LNG fire. Reinforced PHMSA emphasis on weld integrity, in-service inspection, and the interaction between Part 193 plant-side requirements and Part 192 pipeline-side requirements at the fence-line.
 
-These incidents are anchors, not an exhaustive list — see `[[lng-process-safety]]` for the broader incident learning corpus.
+These incidents are anchors, not an exhaustive list — see `[lng-process-safety](../concepts/lng-process-safety.md)` for the broader incident learning corpus.
 
 ## Cross-references
 
 **Sibling lng-projects standards** _(populate as more standards/ pages land)_
-- [[ferc-18-cfr-153]] — FERC LNG import/export siting + authorization (companion US regime; PHMSA = ops safety, FERC = siting)
-- [[nfpa-59a]] — NFPA Standard for Production, Storage, and Handling of LNG (incorporated by reference into Part 193 § 193.2007)
-- [[igc-code]] — IMO international parallel for LNG-carrier construction (shipping side; complements PHMSA shore-side)
+- [ferc-18-cfr-153](ferc-18-cfr-153.md) — FERC LNG import/export siting + authorization (companion US regime; PHMSA = ops safety, FERC = siting)
+- [nfpa-59a](nfpa-59a.md) — NFPA Standard for Production, Storage, and Handling of LNG (incorporated by reference into Part 193 § 193.2007)
+- [igc-code](igc-code.md) — IMO international parallel for LNG-carrier construction (shipping side; complements PHMSA shore-side)
 
 **lng-projects concepts** _(8 pages exist as of 2026-05-09; bidirectional return-links to be added in those pages' Cross-references sections)_
-- [[lng-regulatory-framework]](../concepts/lng-regulatory-framework.md) — US/international regulatory landscape
-- [[lng-process-safety]](../concepts/lng-process-safety.md) — process-safety doctrine and incident learning
-- [[lng-project-lifecycle]](../concepts/lng-project-lifecycle.md) — siting → permitting → ops phases
-- [[lng-project-shapes]](../concepts/lng-project-shapes.md) — terminals vs. peak-shavers vs. small-scale
-- [[lng-storage-tanks]](../concepts/lng-storage-tanks.md) — containment and tank-design requirements feeding Part 193 Subpart E
-- [[lng-marine-transfer-systems]](../concepts/lng-marine-transfer-systems.md) — interface with USCG 33 CFR 127 at the dock
-- [[lng-liquefaction-processes]](../concepts/lng-liquefaction-processes.md) — process units governed under Subparts C/E/F
-- [[lng-boil-off-gas-management]](../concepts/lng-boil-off-gas-management.md) — BOG handling subject to operating-procedure requirements
+- [lng-regulatory-framework](../concepts/lng-regulatory-framework.md) — US/international regulatory landscape
+- [lng-process-safety](../concepts/lng-process-safety.md) — process-safety doctrine and incident learning
+- [lng-project-lifecycle](../concepts/lng-project-lifecycle.md) — siting → permitting → ops phases
+- [lng-project-shapes](../concepts/lng-project-shapes.md) — terminals vs. peak-shavers vs. small-scale
+- [lng-storage-tanks](../concepts/lng-storage-tanks.md) — containment and tank-design requirements feeding Part 193 Subpart E
+- [lng-marine-transfer-systems](../concepts/lng-marine-transfer-systems.md) — interface with USCG 33 CFR 127 at the dock
+- [lng-liquefaction-processes](../concepts/lng-liquefaction-processes.md) — process units governed under Subparts C/E/F
+- [lng-boil-off-gas-management](../concepts/lng-boil-off-gas-management.md) — BOG handling subject to operating-procedure requirements
 
 **Adjacent US federal regimes** _(out of Part 193 scope but routinely interacting at the same facility)_
 - **DHS C-FATS** — Chemical Facility Anti-Terrorism Standards; security overlay where LNG facilities meet the chemicals-of-interest threshold.

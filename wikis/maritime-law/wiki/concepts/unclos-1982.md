@@ -106,18 +106,18 @@ This is what "constitution of the oceans" means in practice: every operational m
 **maritime-law standards (metadata-resolver companions)**
 
 - [[unclos-1982 standards page]](../standards/unclos-1982.md) — bidirectional companion; consolidated edition, amendment chain, dispute-settlement metadata.
-- [[marpol-73-78]](../standards/marpol-73-78.md) — pollution-prevention authority under UNCLOS Articles 207–212.
-- [[solas-1974]](../standards/solas-1974.md) — flag-state safety duties under UNCLOS Article 94.
-- [[mlc-2006]](../standards/mlc-2006.md) — flag-state labour duties under UNCLOS Articles 91–94.
-- [[salvage-convention-1989]](../standards/salvage-convention-1989.md) — operationalizes UNCLOS Articles 98–99 duty to render assistance.
-- [[clc-1992]](../standards/clc-1992.md) — civil liability under UNCLOS Article 235.
-- [[bunkers-convention-2001]](../standards/bunkers-convention-2001.md) — bunker-oil liability under UNCLOS Article 235.
-- [[llmc-1996]](../standards/llmc-1996.md) — limitation regime layered above UNCLOS-anchored liability instruments.
+- [marpol-73-78](../standards/marpol-73-78.md) — pollution-prevention authority under UNCLOS Articles 207–212.
+- [solas-1974](../standards/solas-1974.md) — flag-state safety duties under UNCLOS Article 94.
+- [mlc-2006](../standards/mlc-2006.md) — flag-state labour duties under UNCLOS Articles 91–94.
+- [salvage-convention-1989](../standards/salvage-convention-1989.md) — operationalizes UNCLOS Articles 98–99 duty to render assistance.
+- [clc-1992](../standards/clc-1992.md) — civil liability under UNCLOS Article 235.
+- [bunkers-convention-2001](../standards/bunkers-convention-2001.md) — bunker-oil liability under UNCLOS Article 235.
+- [llmc-1996](../standards/llmc-1996.md) — limitation regime layered above UNCLOS-anchored liability instruments.
 
 **maritime-law concepts**
 
-- [[flag-state-jurisdiction]](./flag-state-jurisdiction.md) — UNCLOS Articles 91, 92, 94, 105.
-- [[port-state-control]](./port-state-control.md) — UNCLOS Article 218 enforcement architecture.
+- [flag-state-jurisdiction](./flag-state-jurisdiction.md) — UNCLOS Articles 91, 92, 94, 105.
+- [port-state-control](./port-state-control.md) — UNCLOS Article 218 enforcement architecture.
 
 ## Citation Source
 

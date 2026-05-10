@@ -30,7 +30,7 @@ This wiki covers international maritime law, landmark court cases, and liability
 ## Cross-Wiki Links
 
 - [[marine-engineering wiki]]: Offshore engineering domain with 20 pages covering mooring, CP, processing, well equipment
-- Engineering → Law link: [[mooring-line-failure]] → [[opa-90]] (Deepwater Horizon involved same engineering systems)
+- Engineering → Law link: [[mooring-line-failure]] → [opa-90](concepts/opa-90.md) (Deepwater Horizon involved same engineering systems)
 
 ## Potential Expansion
 

@@ -73,19 +73,19 @@ For non-treaty MoU instruments such as this, the equivalent of "adoption resolut
 ## Cross-references
 
 **Companion concept page (existing)**
-- [[port-state-control]](../concepts/port-state-control.md) — concept-level treatment of the PSC regime; this standards page is its instrument-level companion.
+- [port-state-control](../concepts/port-state-control.md) — concept-level treatment of the PSC regime; this standards page is its instrument-level companion.
 
 **Sibling regional MoUs**
-- [[paris-mou]](./paris-mou.md) — primary partner sibling, structurally parallel and significantly overlapping in membership through the EU member-state authorities; the original 1982 PSC MoU.
-- [[tokyo-mou]](./tokyo-mou.md) — Asia-Pacific sibling, structurally parallel; joint-CIC partner with Mediterranean MoU since approximately 2010.
-- [[caribbean-mou]](./caribbean-mou.md) — Caribbean basin sibling, structurally parallel; cruise-density-focused counterpart whose passenger-ship inspection emphasis closely resembles the Mediterranean MoU's seasonal focus.
-- [[indian-ocean-mou]](./indian-ocean-mou.md) — Indian Ocean basin sibling, structurally parallel; tanker-density-focused counterpart.
+- [paris-mou](./paris-mou.md) — primary partner sibling, structurally parallel and significantly overlapping in membership through the EU member-state authorities; the original 1982 PSC MoU.
+- [tokyo-mou](./tokyo-mou.md) — Asia-Pacific sibling, structurally parallel; joint-CIC partner with Mediterranean MoU since approximately 2010.
+- [caribbean-mou](./caribbean-mou.md) — Caribbean basin sibling, structurally parallel; cruise-density-focused counterpart whose passenger-ship inspection emphasis closely resembles the Mediterranean MoU's seasonal focus.
+- [indian-ocean-mou](./indian-ocean-mou.md) — Indian Ocean basin sibling, structurally parallel; tanker-density-focused counterpart.
 
 **Source-authority instruments**
-- [[unclos-1982]](./unclos-1982.md) — UNCLOS Part XII Articles 217–220 source authority for port-state jurisdiction over discharge violations and unseaworthy vessels.
-- [[solas-1974]](./solas-1974.md) — SOLAS Chapter XI source authority (special measures to enhance maritime safety, including PSC mandates).
-- [[marpol-73-78]](./marpol-73-78.md) — MARPOL Article 5(2) source authority for port-state certificate and ship inspection.
-- [[mlc-2006]](./mlc-2006.md) — MLC Title 5 source authority for port-state inspection of seafarer labour conditions.
+- [unclos-1982](./unclos-1982.md) — UNCLOS Part XII Articles 217–220 source authority for port-state jurisdiction over discharge violations and unseaworthy vessels.
+- [solas-1974](./solas-1974.md) — SOLAS Chapter XI source authority (special measures to enhance maritime safety, including PSC mandates).
+- [marpol-73-78](./marpol-73-78.md) — MARPOL Article 5(2) source authority for port-state certificate and ship inspection.
+- [mlc-2006](./mlc-2006.md) — MLC Title 5 source authority for port-state inspection of seafarer labour conditions.
 
 **Other regional MoUs** *(future-promotion candidates)*
 - **Black Sea MoU** *(concurrent iter-33 promotion candidate)*, **Riyadh MoU** *(Persian Gulf — concurrent iter-33 promotion candidate; partial geographic overlap with Indian Ocean MoU at the Strait of Hormuz)*, **Acuerdo de Viña del Mar** (Latin America), **Abuja MoU** (West and Central Africa).

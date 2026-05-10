@@ -65,7 +65,7 @@ WRC applies on a layered geographical and ship-classification basis:
 ## Wreck Removal Certificate (WRC certificate)
 
 - **Mandatory** for all ships **≥300 GT** registered in a WRC-state-party (the GT threshold is materially lower than CLC's 2,000-ton cargo trigger and lower than Bunkers' 1,000 GT, reflecting the broader applicability of the wreck-removal hazard).
-- **Coverage:** financial guarantee or insurance for the costs of **locating + marking + removing** the wreck up to the **LLMC limit** applicable in the forum state (most commonly the LLMC 1996 Protocol limits as raised by the 2012 Amendments — see [[llmc-1996]](./llmc-1996.md)).
+- **Coverage:** financial guarantee or insurance for the costs of **locating + marking + removing** the wreck up to the **LLMC limit** applicable in the forum state (most commonly the LLMC 1996 Protocol limits as raised by the 2012 Amendments — see [llmc-1996](./llmc-1996.md)).
 - **Issuance:** flag-state administration. For ships flagged in **non-parties** that nonetheless call at state-party ports, the port-state may require equivalent evidence of cover (Article 12(11)). This port-state enforcement is the practical mechanism by which the convention's reach extends well beyond its formal ratification footprint.
 - **Direct action against the insurer** is available (Article 12(10)), preserving the recovery route where the owner is insolvent or non-cooperative.
 
@@ -84,23 +84,23 @@ WRC applies on a layered geographical and ship-classification basis:
 
 **Sibling IMO compensation-stack instruments**
 
-- [[clc-1992]](./clc-1992.md) — sibling tanker oil-cargo civil-liability regime; **CLC + WRC dual-regime** applies to tankers that become wrecks while carrying persistent oil cargo (CLC for the pollution-damage portion, WRC for the wreck-removal portion).
-- [[bunkers-convention-2001]](./bunkers-convention-2001.md) — sibling non-tanker fuel-oil pollution regime; **Bunkers + WRC dual-regime** applies to non-tanker wrecks (Bunkers for the bunker-fuel pollution portion, WRC for the wreck-removal portion).
-- [[hns-convention-2010]](./hns-convention-2010.md) — sibling HNS-cargo regime (not yet in force); future HNS + WRC dual-regime for HNS-cargo wrecks.
-- [[llmc-1996]](./llmc-1996.md) — **Article 2(1)(d) excluded-claim opt-in interaction**: WRC closes the gap created by states' Article 18(1) reservations excluding wreck-removal from LLMC limitation; WRC Article 11 then routes the residual cap back through LLMC where applicable. This is the load-bearing interface between LLMC and WRC.
-- [[salvage-convention-1989]](./salvage-convention-1989.md) — **sibling but distinct scope**: salvage regulates **ongoing-rescue** of vessels still capable of transport service (no cure, no pay; Article 14 special compensation for environmental services). WRC regulates **post-incident cost-allocation for wrecks** — vessels that have already become incapable of transport service. The Ever Given 2021 sequence illustrated the contrast; the Costa Concordia 2012 sequence engaged the salvage layer first (Smit + Titan parbuckling) and then the wreck-removal layer (controlled refloat + tow).
-- [[unclos-1982]](./unclos-1982.md) — **Article 56** (EEZ jurisdiction over economic resources) is the source-of-authority foundation for WRC's geographical scope; **Article 221** (state's right to take measures beyond the territorial sea to protect coastline/related interests after a casualty) is the customary-law backdrop that WRC codifies into a treaty regime.
+- [clc-1992](./clc-1992.md) — sibling tanker oil-cargo civil-liability regime; **CLC + WRC dual-regime** applies to tankers that become wrecks while carrying persistent oil cargo (CLC for the pollution-damage portion, WRC for the wreck-removal portion).
+- [bunkers-convention-2001](./bunkers-convention-2001.md) — sibling non-tanker fuel-oil pollution regime; **Bunkers + WRC dual-regime** applies to non-tanker wrecks (Bunkers for the bunker-fuel pollution portion, WRC for the wreck-removal portion).
+- [hns-convention-2010](./hns-convention-2010.md) — sibling HNS-cargo regime (not yet in force); future HNS + WRC dual-regime for HNS-cargo wrecks.
+- [llmc-1996](./llmc-1996.md) — **Article 2(1)(d) excluded-claim opt-in interaction**: WRC closes the gap created by states' Article 18(1) reservations excluding wreck-removal from LLMC limitation; WRC Article 11 then routes the residual cap back through LLMC where applicable. This is the load-bearing interface between LLMC and WRC.
+- [salvage-convention-1989](./salvage-convention-1989.md) — **sibling but distinct scope**: salvage regulates **ongoing-rescue** of vessels still capable of transport service (no cure, no pay; Article 14 special compensation for environmental services). WRC regulates **post-incident cost-allocation for wrecks** — vessels that have already become incapable of transport service. The Ever Given 2021 sequence illustrated the contrast; the Costa Concordia 2012 sequence engaged the salvage layer first (Smit + Titan parbuckling) and then the wreck-removal layer (controlled refloat + tow).
+- [unclos-1982](./unclos-1982.md) — **Article 56** (EEZ jurisdiction over economic resources) is the source-of-authority foundation for WRC's geographical scope; **Article 221** (state's right to take measures beyond the territorial sea to protect coastline/related interests after a casualty) is the customary-law backdrop that WRC codifies into a treaty regime.
 
 **US-domestic parallel**
 
-- [[opa-90]](./opa-90.md) — US is **not** a party to WRC; the US-domestic equivalent for wreck-removal authority is the **Wreck Act of 1899** (33 USC §§ 401–415) and the implementing regulations at **33 CFR Part 64**, which empower the US Coast Guard to require removal of wrecks obstructing navigable waters and to recover cost from the owner. OPA-90 covers the oil-pollution portion of any tanker wreck under US jurisdiction; the Wreck Act covers the wreck-removal portion.
+- [opa-90](./opa-90.md) — US is **not** a party to WRC; the US-domestic equivalent for wreck-removal authority is the **Wreck Act of 1899** (33 USC §§ 401–415) and the implementing regulations at **33 CFR Part 64**, which empower the US Coast Guard to require removal of wrecks obstructing navigable waters and to recover cost from the owner. OPA-90 covers the oil-pollution portion of any tanker wreck under US jurisdiction; the Wreck Act covers the wreck-removal portion.
 
 **maritime-law concepts** *(bidirectional return links required as concept pages are updated)*
 
-- [[limitation-of-liability]](../concepts/limitation-of-liability.md) — umbrella concept covering LLMC, CLC, Athens, HNS, and the WRC interface; WRC Article 11 routes its cap through LLMC.
-- [[environmental-liability]](../concepts/environmental-liability.md) — overarching pollution-liability framework; WRC sits adjacent (cost-allocation rather than pollution-damage).
-- [[salvage]](../concepts/salvage.md) — Salvage Convention 1989 doctrine; sibling regime distinguished by ongoing-rescue vs post-incident-removal.
-- [[llmc-1996]](../concepts/llmc-1996.md) — LLMC concept-page; the Article 2(1)(d) reservation interface is the load-bearing connection.
+- [limitation-of-liability](../concepts/limitation-of-liability.md) — umbrella concept covering LLMC, CLC, Athens, HNS, and the WRC interface; WRC Article 11 routes its cap through LLMC.
+- [environmental-liability](../concepts/environmental-liability.md) — overarching pollution-liability framework; WRC sits adjacent (cost-allocation rather than pollution-damage).
+- [salvage](../concepts/salvage.md) — Salvage Convention 1989 doctrine; sibling regime distinguished by ongoing-rescue vs post-incident-removal.
+- [llmc-1996](../concepts/llmc-1996.md) — LLMC concept-page; the Article 2(1)(d) reservation interface is the load-bearing connection.
 
 **maritime-law cases** *(see "Notable enforcement" above; mirror those refs as case-page digests land)*
 
@@ -111,6 +111,6 @@ WRC applies on a layered geographical and ship-classification basis:
 
 - Publisher catalog: IMO, *Nairobi International Convention on the Removal of Wrecks* — https://www.imo.org/en/About/Conventions/Pages/Nairobi-International-Convention-on-the-Removal-of-Wrecks.aspx
 - Diplomatic Conference record: IMO **LEG/CONF.16/19** (publisher catalog reference; not reproduced here per `extraction_policy: metadata-and-doctrinal-synthesis`).
-- Sibling-instrument cap interface: [[llmc-1996]](./llmc-1996.md) — WRC Article 11 routes the wreck-removal cap through LLMC where applicable.
+- Sibling-instrument cap interface: [llmc-1996](./llmc-1996.md) — WRC Article 11 routes the wreck-removal cap through LLMC where applicable.
 - US-domestic comparator: **Wreck Act of 1899** (33 USC §§ 401–415) and **33 CFR Part 64** (publisher: US Congress / US Coast Guard).
 - [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md) — when a downstream calc cites the Nairobi WRC (e.g., a wreck-removal-exposure model for a coastal-state EEZ casualty), the `Citation` instance should resolve `code_id: nairobi-wrc-2007` against this page.

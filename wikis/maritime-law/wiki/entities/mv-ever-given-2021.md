@@ -75,5 +75,5 @@ cross_links:
 - **Concept**: [General Average](../concepts/general-average.md) — York-Antwerp Rules; *Ever Given* as the modern ULCV-scale GA application.
 - **Standard**: [York-Antwerp Rules](../standards/york-antwerp-rules.md) — version 1994 incorporated by paramount clause.
 - **Concept**: [Charterparties](../concepts/charterparties.md) — bareboat charter ownership / management structure relevant to liability allocation.
-- **Comparator**: [[mv-wakashio-2020]] — contemporaneous bulker grounding under different (pollution-led) legal stack.
-- **See also**: [[clc-1992]], [[opa-90]], [[environmental-liability]] — comparator pollution-led incident frameworks.
+- **Comparator**: [mv-wakashio-2020](mv-wakashio-2020.md) — contemporaneous bulker grounding under different (pollution-led) legal stack.
+- **See also**: [clc-1992](../concepts/clc-1992.md), [opa-90](../concepts/opa-90.md), [environmental-liability](../concepts/environmental-liability.md) — comparator pollution-led incident frameworks.

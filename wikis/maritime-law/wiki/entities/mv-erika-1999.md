@@ -60,5 +60,5 @@ cross_links:
 - **Concept**: [Environmental Liability](../concepts/environmental-liability.md) — places *préjudice écologique* in the six-era environmental-liability evolution.
 - **Concept**: [Paris MoU — Doctrinal Synthesis](../concepts/paris-mou.md) — NIR 2011 traces in part to the *Erika* response.
 - **Concept**: [MARPOL 73/78](../concepts/marpol-73-78.md) — single-hull phase-out via Annex I amendments.
-- **Sibling case**: [[mv-prestige-2002]] — parallel Atlantic casualty driving the same regulatory wave.
-- **Sibling case**: [[amoco-cadiz-1978]] — prior trans-boundary pollution precedent on the same Brittany coast.
+- **Sibling case**: [mv-prestige-2002](mv-prestige-2002.md) — parallel Atlantic casualty driving the same regulatory wave.
+- **Sibling case**: [amoco-cadiz-1978](amoco-cadiz-1978.md) — prior trans-boundary pollution precedent on the same Brittany coast.

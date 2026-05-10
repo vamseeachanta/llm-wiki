@@ -83,11 +83,11 @@ Section *titles only* — full text lives at the publisher catalog (link below).
 
 **maritime-law concepts** *(linked pages must add a return link to this standards page)*
 
-- [[flag-state-jurisdiction]](../concepts/flag-state-jurisdiction.md) — Articles 91, 92, 94, 105 (already cites UNCLOS by Article).
-- [[port-state-control]](../concepts/port-state-control.md) — Article 218 enforcement architecture.
-- [[environmental-liability]](../concepts/environmental-liability.md) — Part XII as the umbrella for the marine-pollution-liability regime.
-- [[salvage]](../concepts/salvage.md) — high-seas salvage operating against the Part VII freedoms backdrop.
-- [[charterparties]](../concepts/charterparties.md) — flag and zone references that surface in charterparty jurisdiction clauses.
+- [flag-state-jurisdiction](../concepts/flag-state-jurisdiction.md) — Articles 91, 92, 94, 105 (already cites UNCLOS by Article).
+- [port-state-control](../concepts/port-state-control.md) — Article 218 enforcement architecture.
+- [environmental-liability](../concepts/environmental-liability.md) — Part XII as the umbrella for the marine-pollution-liability regime.
+- [salvage](../concepts/salvage.md) — high-seas salvage operating against the Part VII freedoms backdrop.
+- [charterparties](../concepts/charterparties.md) — flag and zone references that surface in charterparty jurisdiction clauses.
 
 **maritime-law concepts not yet authored** *(future-promotion stubs — file when a concept page is created)*
 
@@ -98,23 +98,23 @@ Section *titles only* — full text lives at the publisher catalog (link below).
 
 **Parallel and implementing instruments** *(many already have concepts/ pages in this wiki)*
 
-- [[solas-1974]](../concepts/solas-1974.md) — safety of life at sea.
-- [[marpol-73-78]](../concepts/marpol-73-78.md) — pollution from ships (rests on Part XII).
-- [[mlc-2006]](../concepts/mlc-2006.md) — maritime labour (ILO; flag-state implementation).
+- [solas-1974](../concepts/solas-1974.md) — safety of life at sea.
+- [marpol-73-78](../concepts/marpol-73-78.md) — pollution from ships (rests on Part XII).
+- [mlc-2006](../concepts/mlc-2006.md) — maritime labour (ILO; flag-state implementation).
 - STCW 1978 (as amended) — training, certification, and watchkeeping (no concept page yet).
-- [[clc-1992]](../concepts/clc-1992.md) — civil liability for oil-pollution damage.
-- [[bunkers-convention-2001]](../concepts/bunkers-convention-2001.md) — bunker-oil-pollution liability.
-- [[hns-convention-2010]](../concepts/hns-convention-2010.md) — hazardous and noxious substances.
-- [[llmc-1996]](../concepts/llmc-1996.md) — limitation of liability for maritime claims.
-- [[athens-convention-2002]](../concepts/athens-convention-2002.md) — passenger liability.
-- [[salvage]](../concepts/salvage.md) — Salvage Convention 1989.
-- [[ism-code]](../concepts/ism-code.md) — safety management.
-- [[opa-90]](../concepts/opa-90.md) — US oil-pollution regime overlay.
+- [clc-1992](../concepts/clc-1992.md) — civil liability for oil-pollution damage.
+- [bunkers-convention-2001](../concepts/bunkers-convention-2001.md) — bunker-oil-pollution liability.
+- [hns-convention-2010](../concepts/hns-convention-2010.md) — hazardous and noxious substances.
+- [llmc-1996](../concepts/llmc-1996.md) — limitation of liability for maritime claims.
+- [athens-convention-2002](../concepts/athens-convention-2002.md) — passenger liability.
+- [salvage](../concepts/salvage.md) — Salvage Convention 1989.
+- [ism-code](../concepts/ism-code.md) — safety management.
+- [opa-90](../concepts/opa-90.md) — US oil-pollution regime overlay.
 - Hague-Visby Rules / Hamburg Rules / Rotterdam Rules — carriage of goods by sea (no concept page yet).
 
 ## Sources
 
 - UN DOALOS portal: <https://www.un.org/depts/los/>
 - Consolidated convention text (publisher PDF): <https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf>
-- [[maritime-liability-conventions]](../sources/maritime-liability-conventions.md) — sibling sources/ catalog page covering the implementing-treaty layer that rests on UNCLOS.
+- [maritime-liability-conventions](../sources/maritime-liability-conventions.md) — sibling sources/ catalog page covering the implementing-treaty layer that rests on UNCLOS.
 - [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md) — when a downstream calc cites a specific UNCLOS Article, the `Citation` instance should resolve `code_id: unclos-1982` against this page.

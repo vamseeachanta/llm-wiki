@@ -70,16 +70,16 @@ Hamburg Rules 1978 sit between these two columns: 2-year suit-or-bar, no listed-
 
 **Sibling carriage-of-goods regimes** *(the three-instrument carriage-of-goods family this convention is designed to consolidate)*
 
-- [[hague-visby-rules]](./hague-visby-rules.md) — the regime being modernized; most widely-adopted incumbent (W121 in flight in this wiki).
+- [hague-visby-rules](./hague-visby-rules.md) — the regime being modernized; most widely-adopted incumbent (W121 in flight in this wiki).
 - **Hamburg Rules 1978** (UN, in force 1992) — competing replacement regime ratified by ~30 states (mostly Latin American and African); no concept page yet, future-promotion stub `concepts/hamburg-rules-1978.md`.
 
 **Parent / umbrella instrument**
 
-- [[unclos-1982]](./unclos-1982.md) — UNCLOS Part VII (high seas) and the flag-state architecture provide the umbrella for the carriage-of-goods regimes; Rotterdam Rules sit under this umbrella.
+- [unclos-1982](./unclos-1982.md) — UNCLOS Part VII (high seas) and the flag-state architecture provide the umbrella for the carriage-of-goods regimes; Rotterdam Rules sit under this umbrella.
 
 **maritime-law concepts** *(linked pages must add a return link to this standards page)*
 
-- [[charterparties]](../concepts/charterparties.md) — likely consumer when the carriage contract incorporates Rotterdam Rules terms by paramount-clause reference; volume-contract derogation under Art. 80 interacts with charterparty allocation.
+- [charterparties](../concepts/charterparties.md) — likely consumer when the carriage contract incorporates Rotterdam Rules terms by paramount-clause reference; volume-contract derogation under Art. 80 interacts with charterparty allocation.
 - *future-promotion stubs:*
   - `concepts/bills-of-lading.md` — paper vs. electronic transport records; Rotterdam Articles 35–58.
   - `concepts/multimodal-transport.md` — door-to-door coverage; maritime-plus regime.

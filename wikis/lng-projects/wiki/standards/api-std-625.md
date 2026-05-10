@@ -205,20 +205,20 @@ incorporates API 625 by reference.
 
 **lng-projects concepts**
 
-- [[lng-storage-tanks]](../concepts/lng-storage-tanks.md) — tank-type
+- [lng-storage-tanks](../concepts/lng-storage-tanks.md) — tank-type
   taxonomy aligned with API 625's containment categories.
-- [[lng-boil-off-gas-management]](../concepts/lng-boil-off-gas-management.md)
+- [lng-boil-off-gas-management](../concepts/lng-boil-off-gas-management.md)
   — BOG handling, downstream of API 625 thermal-design choices and
   commissioned BOR.
-- [[lng-process-safety]](../concepts/lng-process-safety.md) — facility-level
+- [lng-process-safety](../concepts/lng-process-safety.md) — facility-level
   safety scenarios; tank-impact and insulation-failure modes are
   API 625 design loadings.
-- [[lng-project-lifecycle]](../concepts/lng-project-lifecycle.md) — phase
+- [lng-project-lifecycle](../concepts/lng-project-lifecycle.md) — phase
   at which API 625 selection (or EN 14620 equivalent) is locked in.
-- [[lng-project-shapes]](../concepts/lng-project-shapes.md) — onshore-
+- [lng-project-shapes](../concepts/lng-project-shapes.md) — onshore-
   greenfield, brownfield, and FSRU/FLNG shapes whose tank-system scope
   is governed by API 625 (or EN 14620 in EU jurisdictions).
-- [[lng-regulatory-framework]](../concepts/lng-regulatory-framework.md)
+- [lng-regulatory-framework](../concepts/lng-regulatory-framework.md)
   — bodies-and-codes synthesis; API 625 is the API-published tank-
   system arm referenced by NFPA 59A and CSA Z276.
 

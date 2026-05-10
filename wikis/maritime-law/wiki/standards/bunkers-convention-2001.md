@@ -28,7 +28,7 @@ raw_copy_allowed: false
 
 The **International Convention on Civil Liability for Bunker Oil Pollution Damage, 2001** (the "Bunkers Convention") is the IMO treaty providing a **strict-liability and compulsory-insurance framework for fuel-oil ("bunker oil") pollution from non-tanker vessels**. It closes the long-standing gap left by the CLC regime: the **CLC 1969 / 1992 Protocol** covers persistent oil cargo carried on tankers, but until the Bunkers Convention entered force in 2008, fuel-oil spills from container ships, general-cargo vessels, bulk carriers, ferries, and other non-tankers had **no international civil-liability regime**. The Bunkers Convention now applies to all commercial vessels of states-parties **above 1,000 GT**, requiring each to maintain a **Bunker Oil Pollution Insurance Certificate** (the analogue to the CLC certificate) and channeling strict liability to a **broader liability circle than CLC** — registered shipowner, bareboat charterer, manager, **and** operator.
 
-This page is the metadata-only resolver for `code_id: bunkers-convention-2001`. It is the citation target when concept pages, case digests, or sibling-repo content cite the Bunkers Convention. The companion concept page at [[bunkers-convention-2001]](../concepts/bunkers-convention-2001.md) carries the doctrinal narrative; this standards page closes the resolver loop with adoption, entry-into-force, and liability-architecture metadata.
+This page is the metadata-only resolver for `code_id: bunkers-convention-2001`. It is the citation target when concept pages, case digests, or sibling-repo content cite the Bunkers Convention. The companion concept page at [bunkers-convention-2001](../concepts/bunkers-convention-2001.md) carries the doctrinal narrative; this standards page closes the resolver loop with adoption, entry-into-force, and liability-architecture metadata.
 
 ## Adoption + entry-into-force
 
@@ -55,7 +55,7 @@ This page is the metadata-only resolver for `code_id: bunkers-convention-2001`. 
 ## Liability framework
 
 - **Strict liability** is channeled to a **broader circle than CLC**: the **registered shipowner OR bareboat charterer OR manager OR operator** (jointly and severally). CLC channels to the registered owner only; Bunkers' wider channeling reflects the more diffuse commercial structure of non-tanker operation.
-- **Liability cap** is **not standalone**. Bunkers liability is capped by reference to the **LLMC 1976 or 1996 Protocol** (whichever applies in the forum state — see [[llmc-1996]](./llmc-1996.md)). This means the cap rises with future LLMC amendments without requiring re-amendment of Bunkers itself.
+- **Liability cap** is **not standalone**. Bunkers liability is capped by reference to the **LLMC 1976 or 1996 Protocol** (whichever applies in the forum state — see [llmc-1996](./llmc-1996.md)). This means the cap rises with future LLMC amendments without requiring re-amendment of Bunkers itself.
 - **Compulsory insurance** for ships **>1,000 GT**, certified by a **Bunker Oil Pollution Insurance Certificate** issued by the flag state (or, for ships flagged in non-parties calling at party ports, by a party state). Direct action against the insurer is available (Article 7).
 - **No second-tier compensation fund.** Unlike the CLC + IOPC Funds two-tier architecture (where the IOPC 1992 Fund tops up beyond the shipowner's CLC cap), Bunkers has **no fund tier** — claimants beyond the LLMC cap have no Bunkers-Convention route. This is a recognized compensation gap; some delegations have proposed a Bunkers fund expansion at IMO Legal Committee, but no such instrument has been adopted.
 
@@ -70,20 +70,20 @@ This page is the metadata-only resolver for `code_id: bunkers-convention-2001`. 
 
 **maritime-law concepts** *(bidirectional — linked pages must add a return link to this standards page)*
 
-- [[bunkers-convention-2001]](../concepts/bunkers-convention-2001.md) — companion concept page (doctrinal narrative; this standards page is the metadata resolver).
-- [[clc-1992]](../concepts/clc-1992.md) — sibling tanker oil-cargo civil-liability regime; together with Bunkers, covers the full set of oil-pollution scenarios from commercial vessels.
-- [[opa-90]](../concepts/opa-90.md) — US-domestic equivalent covering both tanker and non-tanker oil pollution; the United States is not a Bunkers party.
-- [[llmc-1996]](../concepts/llmc-1996.md) — Bunkers liability is capped by reference to LLMC, not by a standalone Bunkers cap.
-- [[marpol-73-78]](../concepts/marpol-73-78.md) — Annex I operational/discharge-prevention sibling at the regulatory layer.
-- [[environmental-liability]](../concepts/environmental-liability.md) — pollution-liability synthesis page.
+- [bunkers-convention-2001](../concepts/bunkers-convention-2001.md) — companion concept page (doctrinal narrative; this standards page is the metadata resolver).
+- [clc-1992](../concepts/clc-1992.md) — sibling tanker oil-cargo civil-liability regime; together with Bunkers, covers the full set of oil-pollution scenarios from commercial vessels.
+- [opa-90](../concepts/opa-90.md) — US-domestic equivalent covering both tanker and non-tanker oil pollution; the United States is not a Bunkers party.
+- [llmc-1996](../concepts/llmc-1996.md) — Bunkers liability is capped by reference to LLMC, not by a standalone Bunkers cap.
+- [marpol-73-78](../concepts/marpol-73-78.md) — Annex I operational/discharge-prevention sibling at the regulatory layer.
+- [environmental-liability](../concepts/environmental-liability.md) — pollution-liability synthesis page.
 
 **Parent + sibling instruments**
 
 - **clc-1992** *(standards page in flight at vamseeachanta/llm-wiki#128)* — sibling oil-pollution civil-liability page; CLC covers tankers carrying persistent oil cargo, Bunkers covers non-tanker fuel-oil. Together they exhaust the international oil-pollution civil-liability regime.
-- [[opa-90]](./opa-90.md) — US-domestic Oil Pollution Act 1990; covers both tanker and non-tanker oil pollution within US jurisdiction. The US is not a party to either Bunkers or CLC.
-- [[llmc-1996]](./llmc-1996.md) — global liability-cap aggregation regime; **Bunkers Article 4** routes the Bunkers liability cap through LLMC rather than creating a standalone cap.
-- [[marpol-73-78]](./marpol-73-78.md) — operational/discharge-prevention sibling under UNCLOS Part XII; civil-liability layer (Bunkers) and operational layer (MARPOL Annex I) interoperate.
-- [[unclos-1982]](./unclos-1982.md) — **Article 235** umbrella authority for state responsibility for marine pollution and the obligation to ensure prompt and adequate compensation.
+- [opa-90](./opa-90.md) — US-domestic Oil Pollution Act 1990; covers both tanker and non-tanker oil pollution within US jurisdiction. The US is not a party to either Bunkers or CLC.
+- [llmc-1996](./llmc-1996.md) — global liability-cap aggregation regime; **Bunkers Article 4** routes the Bunkers liability cap through LLMC rather than creating a standalone cap.
+- [marpol-73-78](./marpol-73-78.md) — operational/discharge-prevention sibling under UNCLOS Part XII; civil-liability layer (Bunkers) and operational layer (MARPOL Annex I) interoperate.
+- [unclos-1982](./unclos-1982.md) — **Article 235** umbrella authority for state responsibility for marine pollution and the obligation to ensure prompt and adequate compensation.
 
 **Significant compensation-architecture gap**
 

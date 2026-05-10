@@ -65,5 +65,5 @@ cross_links:
 - **Concept**: [Flag-State Jurisdiction](../concepts/flag-state-jurisdiction.md) — UNCLOS Article 91 genuine-link concerns.
 - **Concept**: [Paris MoU — Doctrinal Synthesis](../concepts/paris-mou.md) — NIR risk tiering of flag registries.
 - **Concept**: [MARPOL 73/78](../concepts/marpol-73-78.md) — Annex I 2003 single-hull phase-out amendments.
-- **Sibling case**: [[mv-erika-1999]] — preceding Atlantic casualty driving the same regulatory wave.
-- **Sibling case**: [[amoco-cadiz-1978]] — original Brittany trans-boundary pollution precedent.
+- **Sibling case**: [mv-erika-1999](mv-erika-1999.md) — preceding Atlantic casualty driving the same regulatory wave.
+- **Sibling case**: [amoco-cadiz-1978](amoco-cadiz-1978.md) — original Brittany trans-boundary pollution precedent.

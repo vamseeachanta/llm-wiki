@@ -70,4 +70,4 @@ cross_links:
 - **Concept**: [Environmental Liability](../concepts/environmental-liability.md) — six-era evolution culminating in OPA 90's Macondo-era stress test.
 - **Antecedent**: [[exxon-valdez-1989]] — the legislative trigger; *Deepwater Horizon* is the first post-enactment cap-loss application at scale.
 - **Cross-wiki (marine-engineering)**: [Process Safety](../../../marine-engineering/wiki/concepts/process-safety.md) — Macondo as a landmark process-safety failure (cement-barrier inadequacy, negative-pressure-test misinterpretation, BOP shear-ram failure, defective-decision-chain).
-- **See also**: [[clc-1992]], [[bunkers-convention-2001]] — non-US comparator regimes.
+- **See also**: [clc-1992](../concepts/clc-1992.md), [bunkers-convention-2001](../concepts/bunkers-convention-2001.md) — non-US comparator regimes.

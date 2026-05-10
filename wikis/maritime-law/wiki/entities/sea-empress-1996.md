@@ -67,5 +67,5 @@ cross_links:
 - **Standard**: [MARPOL 73/78](../standards/marpol-73-78.md) — Annex I Regulation 13G single-hull phase-out driven in part by *Sea Empress*-era casualties.
 - **Standard**: [Salvage Convention 1989](../standards/salvage-convention-1989.md) — Article 14 / SCOPIC framework operative during the salvage phase.
 - **Concept**: [Port-State Control](../concepts/port-state-control.md) — Paris MoU inspection regime applicable to single-hull tonnage in *Sea Empress* era.
-- **Sibling entities**: [[torrey-canyon-1967]], [[amoco-cadiz-1978]] — antecedent casualties in the same regulatory lineage; [[mv-erika-1999]], [[mv-prestige-2002]] — contemporaneous European casualties that compounded the post-1996 reform pressure.
+- **Sibling entities**: [torrey-canyon-1967](torrey-canyon-1967.md), [amoco-cadiz-1978](amoco-cadiz-1978.md) — antecedent casualties in the same regulatory lineage; [mv-erika-1999](mv-erika-1999.md), [mv-prestige-2002](mv-prestige-2002.md) — contemporaneous European casualties that compounded the post-1996 reform pressure.
 - **Source**: [Maritime Law Cases](../sources/maritime-law-cases.md) | [Maritime Liability Conventions](../sources/maritime-liability-conventions.md).

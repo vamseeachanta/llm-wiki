@@ -74,19 +74,19 @@ For non-treaty MoU instruments such as this, the equivalent of "adoption resolut
 ## Cross-references
 
 **Companion concept page (existing)**
-- [[port-state-control]](../concepts/port-state-control.md) — concept-level treatment of the PSC regime; this standards page is its instrument-level companion.
+- [port-state-control](../concepts/port-state-control.md) — concept-level treatment of the PSC regime; this standards page is its instrument-level companion.
 
 **Sibling regional MoUs**
-- [[paris-mou]](./paris-mou.md) — European and North-Atlantic sibling and primary methodology partner; Black Sea MoU members Bulgaria, Romania, and Turkey are also Paris MoU full members.
-- [[tokyo-mou]](./tokyo-mou.md) — Asia-Pacific sibling, structurally parallel.
-- [[caribbean-mou]](./caribbean-mou.md) — Caribbean basin sibling, structurally parallel.
-- [[indian-ocean-mou]](./indian-ocean-mou.md) — Indian Ocean basin sibling, structurally parallel.
+- [paris-mou](./paris-mou.md) — European and North-Atlantic sibling and primary methodology partner; Black Sea MoU members Bulgaria, Romania, and Turkey are also Paris MoU full members.
+- [tokyo-mou](./tokyo-mou.md) — Asia-Pacific sibling, structurally parallel.
+- [caribbean-mou](./caribbean-mou.md) — Caribbean basin sibling, structurally parallel.
+- [indian-ocean-mou](./indian-ocean-mou.md) — Indian Ocean basin sibling, structurally parallel.
 
 **Source-authority instruments**
-- [[unclos-1982]](./unclos-1982.md) — UNCLOS Part XII Articles 217–220 source authority for port-state jurisdiction over discharge violations and unseaworthy vessels.
-- [[solas-1974]](./solas-1974.md) — SOLAS Chapter XI source authority (special measures to enhance maritime safety, including PSC mandates).
-- [[marpol-73-78]](./marpol-73-78.md) — MARPOL Article 5(2) source authority for port-state certificate and ship inspection.
-- [[mlc-2006]](./mlc-2006.md) — MLC Title 5 source authority for port-state inspection of seafarer labour conditions.
+- [unclos-1982](./unclos-1982.md) — UNCLOS Part XII Articles 217–220 source authority for port-state jurisdiction over discharge violations and unseaworthy vessels.
+- [solas-1974](./solas-1974.md) — SOLAS Chapter XI source authority (special measures to enhance maritime safety, including PSC mandates).
+- [marpol-73-78](./marpol-73-78.md) — MARPOL Article 5(2) source authority for port-state certificate and ship inspection.
+- [mlc-2006](./mlc-2006.md) — MLC Title 5 source authority for port-state inspection of seafarer labour conditions.
 
 **Other regional MoUs** *(future-promotion candidates)*
 - **Mediterranean MoU** (geographic adjacent on the southern side of the Turkish Straits), **Riyadh MoU** (Persian Gulf), **Acuerdo de Viña del Mar** (Latin America), **Abuja MoU** (West and Central Africa).

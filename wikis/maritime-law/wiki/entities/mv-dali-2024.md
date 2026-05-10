@@ -76,8 +76,8 @@ cross_links:
 - **Concept**: [OPA 90 — Doctrinal Synthesis](../concepts/opa-90.md) — § 2704(c) cap-loss for gross negligence; § 2718 state-law preservation; *Dali* as post-2020 framework test.
 - **Concept**: [Bunkers Convention 2001](../concepts/bunkers-convention-2001.md) — strict-liability backstop for bunker spill from non-tanker.
 - **Concept**: [Environmental Liability — Doctrinal Synthesis](../concepts/environmental-liability.md) — IMO compensation-stack synthesis with US OPA 90 carve-out; *Dali* as the modern cap-pressure case.
-- **Comparator case**: [[deepwater-horizon-2010]] — leading prior US OPA 90 § 2704(c) cap-loss application; doctrinal arc continuation.
-- **Comparator case**: [[mv-ever-given-2021]] — contemporaneous container-vessel confined-waterway casualty under different (LLMC + York-Antwerp) framework.
+- **Comparator case**: [deepwater-horizon-2010](deepwater-horizon-2010.md) — leading prior US OPA 90 § 2704(c) cap-loss application; doctrinal arc continuation.
+- **Comparator case**: [mv-ever-given-2021](mv-ever-given-2021.md) — contemporaneous container-vessel confined-waterway casualty under different (LLMC + York-Antwerp) framework.
 - **Antecedent precedent**: *Coryell v Phipps* (US 317 1940) — foundational LOLA "privity or knowledge" authority.
 - **Antecedent precedent**: *In re Otal Investments* (2nd Cir. 2010) — modern application of ISM-Code-based privity-or-knowledge analysis.
 - **Antecedent precedent**: *Athos I* (United States v M/V Athos I, 3rd Cir. 2008) — OPA 90 cap-loss doctrine antecedent.

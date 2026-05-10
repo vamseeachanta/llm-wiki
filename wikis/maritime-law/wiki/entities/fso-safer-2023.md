@@ -73,5 +73,5 @@ cross_links:
 - **Concept**: [Environmental Liability — Doctrinal Synthesis](../concepts/environmental-liability.md) — IMO compensation-stack synthesis; pre-emptive operations as framework outlier.
 - **Concept**: [Bunkers Convention 2001](../concepts/bunkers-convention-2001.md) — strict-liability framework contemplated as backstop.
 - **Standard**: [Bunkers Convention 2001](../standards/bunkers-convention-2001.md) — instrument metadata.
-- **Antecedent precedent**: [[amoco-cadiz-1978]] — Article 14 / SCOPIC policy origin, the failure case that shaped preventive-incentive doctrine.
+- **Antecedent precedent**: [amoco-cadiz-1978](amoco-cadiz-1978.md) — Article 14 / SCOPIC policy origin, the failure case that shaped preventive-incentive doctrine.
 - **Comparator concept**: place-of-refuge doctrine and IMO 2003 guidelines — analogous state-actor coordination on hazardous-vessel handling.

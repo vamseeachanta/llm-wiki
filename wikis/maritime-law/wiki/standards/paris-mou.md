@@ -86,13 +86,13 @@ These types attract more frequent inspection independent of flag-list tier and t
 ## Cross-references
 
 **Companion concept page (existing)**
-- [[port-state-control]](../concepts/port-state-control.md) — concept-level treatment of the PSC regime; this standards page is its instrument-level companion.
+- [port-state-control](../concepts/port-state-control.md) — concept-level treatment of the PSC regime; this standards page is its instrument-level companion.
 
 **Source-authority instruments**
-- [[unclos-1982]](./unclos-1982.md) — UNCLOS Part XII Articles 218–220 source authority for port-state jurisdiction over discharge violations and unseaworthy vessels.
-- [[solas-1974]](./solas-1974.md) — SOLAS Chapter XI source authority (special measures to enhance maritime safety, including PSC mandates).
-- [[marpol-73-78]](./marpol-73-78.md) — MARPOL Article 5(2) source authority for port-state certificate and ship inspection.
-- [[mlc-2006]](./mlc-2006.md) — MLC Title 5 source authority for port-state inspection of seafarer labour conditions.
+- [unclos-1982](./unclos-1982.md) — UNCLOS Part XII Articles 218–220 source authority for port-state jurisdiction over discharge violations and unseaworthy vessels.
+- [solas-1974](./solas-1974.md) — SOLAS Chapter XI source authority (special measures to enhance maritime safety, including PSC mandates).
+- [marpol-73-78](./marpol-73-78.md) — MARPOL Article 5(2) source authority for port-state certificate and ship inspection.
+- [mlc-2006](./mlc-2006.md) — MLC Title 5 source authority for port-state inspection of seafarer labour conditions.
 
 **Sibling regional MoUs** *(future-promotion candidates)*
 - **Tokyo MoU** — Asia-Pacific sibling, structurally parallel.

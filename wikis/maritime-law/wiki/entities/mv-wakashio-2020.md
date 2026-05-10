@@ -71,5 +71,5 @@ cross_links:
 - **Concept**: [MARPOL 73/78](../concepts/marpol-73-78.md) — Annex VI 0.50% sulfur cap and VLSFO chemistry implications.
 - **Concept**: [MLC 2006](../concepts/mlc-2006.md) — crew-welfare obligations during multi-month coastal-state detention.
 - **Concept**: [Environmental Liability](../concepts/environmental-liability.md) — six-era evolution; Wakashio as the modern non-tanker bunker-spill exemplar.
-- **Comparator**: [[mv-erika-1999]], [[mv-prestige-2002]] — tanker CLC comparators.
-- **See also**: [[clc-1992]], [[opa-90]], [[environmental-liability]].
+- **Comparator**: [mv-erika-1999](mv-erika-1999.md), [mv-prestige-2002](mv-prestige-2002.md) — tanker CLC comparators.
+- **See also**: [clc-1992](../concepts/clc-1992.md), [opa-90](../concepts/opa-90.md), [environmental-liability](../concepts/environmental-liability.md).

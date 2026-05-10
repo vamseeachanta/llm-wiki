@@ -155,10 +155,10 @@ _<author: bidirectional links. Any concepts/* or cases/* page linked
 here MUST get a return link in its own Cross-references section.>_
 
 **Parent instrument** _(if this page is a code or annex under a parent treaty)_
-- _<e.g. [[solas-1974]](./solas-1974.md) — IGC Code is mandatory under SOLAS Ch. VII>_
+- _<e.g. [solas-1974](./solas-1974.md) — IGC Code is mandatory under SOLAS Ch. VII>_
 
 **Sibling protocols + amendments** _(other instruments in the same family)_
-- _<e.g. [[marpol-73-78]](./marpol-73-78.md) and its six Annexes>_
+- _<e.g. [marpol-73-78](./marpol-73-78.md) and its six Annexes>_
 - _<e.g. CLC 1969 / CLC 1992 / Fund Convention 1992 / Supplementary Fund 2003>_
 
 **Implementing-regulation national codes**
@@ -167,9 +167,9 @@ here MUST get a return link in its own Cross-references section.>_
 - _<e.g. UK: Merchant Shipping Act 1995, Part VI>_
 
 **maritime-law concepts** _(populate as concepts/* pages land)_
-- _<e.g. [[liability-channeling]](../concepts/liability-channeling.md)>_
-- _<e.g. [[port-state-control]](../concepts/port-state-control.md)>_
-- _<e.g. [[flag-state-jurisdiction]](../concepts/flag-state-jurisdiction.md)>_
+- _<e.g. [liability-channeling](../concepts/liability-channeling.md)>_
+- _<e.g. [port-state-control](../concepts/port-state-control.md)>_
+- _<e.g. [flag-state-jurisdiction](../concepts/flag-state-jurisdiction.md)>_
 
 **maritime-law cases** _(see "Case law citing this instrument" above; mirror those links here for index hygiene)_
 
@@ -178,7 +178,7 @@ here MUST get a return link in its own Cross-references section.>_
 - _<e.g. SOLAS Ch. II-1 subdivision/damage-stability → engineering-standards page on ship stability>_
 
 **Cross-wiki (lng-projects)** _(when the instrument governs LNG carriage or terminals)_
-- _<e.g. [[igc-code]](../../../lng-projects/wiki/standards/igc-code.md) — gas-carrier construction under SOLAS Ch. VII>_
+- _<e.g. [igc-code](../../../lng-projects/wiki/standards/igc-code.md) — gas-carrier construction under SOLAS Ch. VII>_
 
 ## Sources
 
@@ -188,7 +188,7 @@ page exists yet, file a future-promotion stub here and create the
 sources/ page when the IMO/UN/ILO catalog ingest reaches this
 instrument.>_
 
-- _<e.g. [[maritime-law-sources-marpol]](../sources/<slug>.md) — sources/* catalog summary>_
+- _<e.g. [maritime-law-sources-marpol](../sources/<slug>.md) — sources/* catalog summary>_
 - Publisher catalog: _<public_url>_
 - Consolidated edition record: _<publisher catalog entry for `consolidated_edition`>_
 - Latest amendment resolution: _<IMO Documents portal entry for `amendment_status`>_

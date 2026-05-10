@@ -106,7 +106,7 @@ this page closes the bidirectional link.
 | Full-containment | Inner and outer walls both rated for LNG and vapor; outer is typically post-tensioned concrete | Most modern and safest configuration; widely used at recent export terminals |
 | Membrane | Cryogenic membrane (e.g., Invar / GTT-derived) bonded inside a concrete outer; load path is membrane-on-insulation-on-concrete | LNG-carrier-derived containment family adopted at several recent onshore terminals |
 
-See [[lng-storage-tanks]] for the broader containment taxonomy and how
+See [lng-storage-tanks](../concepts/lng-storage-tanks.md) for the broader containment taxonomy and how
 these categories apply across onshore and floating service.
 
 ## Notable design constraints
@@ -131,14 +131,14 @@ must `Citation`-resolve to this page at a pinned revision.
 
 **lng-projects concepts** _(8 pages exist; this page is named in each)_
 
-- [[lng-project-lifecycle]](../concepts/lng-project-lifecycle.md) — phases at which 59A applicability is locked in
-- [[lng-project-shapes]](../concepts/lng-project-shapes.md) — peak-shaver vs export vs import vs fuel-station shapes that 59A covers
-- [[lng-regulatory-framework]](../concepts/lng-regulatory-framework.md) — bodies-and-codes synthesis; this page is the NFPA arm
-- [[lng-process-safety]](../concepts/lng-process-safety.md) — release / consequence categories driven by 59A Chapter 5 / 9 methodology
-- [[lng-liquefaction-processes]](../concepts/lng-liquefaction-processes.md) — process-equipment side that 59A Chapter 6 governs
-- [[lng-storage-tanks]](../concepts/lng-storage-tanks.md) — tank-type taxonomy aligned with 59A Chapter 7
-- [[lng-marine-transfer-systems]](../concepts/lng-marine-transfer-systems.md) — terminal-side marine transfer; 59A Chapter 12 scope
-- [[lng-boil-off-gas-management]](../concepts/lng-boil-off-gas-management.md) — BOG handling, downstream of 59A Chapter 7 storage-design choices
+- [lng-project-lifecycle](../concepts/lng-project-lifecycle.md) — phases at which 59A applicability is locked in
+- [lng-project-shapes](../concepts/lng-project-shapes.md) — peak-shaver vs export vs import vs fuel-station shapes that 59A covers
+- [lng-regulatory-framework](../concepts/lng-regulatory-framework.md) — bodies-and-codes synthesis; this page is the NFPA arm
+- [lng-process-safety](../concepts/lng-process-safety.md) — release / consequence categories driven by 59A Chapter 5 / 9 methodology
+- [lng-liquefaction-processes](../concepts/lng-liquefaction-processes.md) — process-equipment side that 59A Chapter 6 governs
+- [lng-storage-tanks](../concepts/lng-storage-tanks.md) — tank-type taxonomy aligned with 59A Chapter 7
+- [lng-marine-transfer-systems](../concepts/lng-marine-transfer-systems.md) — terminal-side marine transfer; 59A Chapter 12 scope
+- [lng-boil-off-gas-management](../concepts/lng-boil-off-gas-management.md) — BOG handling, downstream of 59A Chapter 7 storage-design choices
 
 **International / regulatory parallels and companions**
 

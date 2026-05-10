@@ -35,7 +35,7 @@ This page is a metadata-and-doctrinal-synthesis resolver for `code_id: isps-code
 - **Adopted:** London, 2002-12-12, by the IMO Diplomatic Conference on Maritime Security (the "December 2002 SOLAS Conference"), via Resolution MSC.94(72) and the simultaneous adoption of new SOLAS Chapter XI-2.
 - **Entry-into-force:** 2004-07-01 — a deliberately compressed 19-month implementation window reflecting the post-9/11 political urgency.
 - **Coverage:** 160+ flag states and approximately 10,000+ port facilities certified under the regime as of 2024.
-- **Parent mandate:** SOLAS Chapter XI-2 ("Special Measures to Enhance Maritime Security") — see the parent standards page at [[solas-1974]](./solas-1974.md).
+- **Parent mandate:** SOLAS Chapter XI-2 ("Special Measures to Enhance Maritime Security") — see the parent standards page at [solas-1974](./solas-1974.md).
 
 ## Three security levels
 
@@ -77,10 +77,10 @@ The **NIST Cybersecurity Framework v1.1** has been widely adopted as the de-fact
 
 **Companion / sibling pages in maritime-law**
 
-- [[ism-code]](../concepts/ism-code.md) — sibling SOLAS Ch. IX child (safety-management); ISPS sits adjacent under Ch. XI-2 (security-management). The two regimes are deliberately complementary: same audit cadence, distinct scope.
-- [[solas-1974]](./solas-1974.md) — parent instrument; SOLAS Ch. XI-2 is the binding-mandate hook for ISPS.
-- [[unclos-1982]](./unclos-1982.md) — UNCLOS Article 211(2) and Part XII source authority for flag-state security regulation that ISPS operationalizes.
-- [[port-state-control]](../concepts/port-state-control.md) — the PSC regime verifies ISSC and security-related operational requirements under SOLAS XI-2 Reg. 9.
+- [ism-code](../concepts/ism-code.md) — sibling SOLAS Ch. IX child (safety-management); ISPS sits adjacent under Ch. XI-2 (security-management). The two regimes are deliberately complementary: same audit cadence, distinct scope.
+- [solas-1974](./solas-1974.md) — parent instrument; SOLAS Ch. XI-2 is the binding-mandate hook for ISPS.
+- [unclos-1982](./unclos-1982.md) — UNCLOS Article 211(2) and Part XII source authority for flag-state security regulation that ISPS operationalizes.
+- [port-state-control](../concepts/port-state-control.md) — the PSC regime verifies ISSC and security-related operational requirements under SOLAS XI-2 Reg. 9.
 
 **Implementing national regulations**
 
@@ -100,6 +100,6 @@ The **NIST Cybersecurity Framework v1.1** has been widely adopted as the de-fact
 - IMO Maritime Safety Committee Resolution MSC.94(72) (2002) — adoption of the ISPS Code.
 - IMO Resolution MSC.428(98) (2017) — *Maritime Cyber Risk Management in Safety Management Systems*.
 - IMO MSC-FAL.1/Circ.3/Rev.2 — *Guidelines on Maritime Cyber Risk Management*.
-- [[solas-1974]](./solas-1974.md) — parent standards page.
-- [[ism-code]](../concepts/ism-code.md) — sibling concept page (safety-management regime).
+- [solas-1974](./solas-1974.md) — parent standards page.
+- [ism-code](../concepts/ism-code.md) — sibling concept page (safety-management regime).
 - [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md) — downstream calcs citing a specific ISPS Part or Section should resolve `code_id: isps-code` against this page.

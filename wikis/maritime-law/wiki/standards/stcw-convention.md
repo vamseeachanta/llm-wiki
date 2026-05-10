@@ -81,13 +81,13 @@ The **IMO Whitelist** is the mechanism by which the IMO Maritime Safety Committe
 
 **Sibling pillars** *(the "four pillars" of international maritime regulation)*
 
-- [[solas-1974]](./solas-1974.md) — IMO sibling; STCW provides the human-element complement to SOLAS Ch. V (navigation rules), Ch. III (life-saving appliances), and Ch. IV (GMDSS radiocommunications). SOLAS sets what the ship and its equipment must be; STCW sets who is qualified to operate them.
-- [[marpol-73-78]](./marpol-73-78.md) — IMO sibling; STCW Chapter V special-training requirements for tanker crews implement the human-element side of MARPOL Annexes I–II pollution-prevention compliance.
-- [[mlc-2006]](./mlc-2006.md) — ILO sibling; STCW = training and certification, MLC = labor and working conditions. Together they cover the seafarer's full lifecycle from pre-service training through working conditions. The 2010 Manila hours-of-rest provisions were explicitly aligned with MLC 2006 Title 2 hours-of-rest standards.
+- [solas-1974](./solas-1974.md) — IMO sibling; STCW provides the human-element complement to SOLAS Ch. V (navigation rules), Ch. III (life-saving appliances), and Ch. IV (GMDSS radiocommunications). SOLAS sets what the ship and its equipment must be; STCW sets who is qualified to operate them.
+- [marpol-73-78](./marpol-73-78.md) — IMO sibling; STCW Chapter V special-training requirements for tanker crews implement the human-element side of MARPOL Annexes I–II pollution-prevention compliance.
+- [mlc-2006](./mlc-2006.md) — ILO sibling; STCW = training and certification, MLC = labor and working conditions. Together they cover the seafarer's full lifecycle from pre-service training through working conditions. The 2010 Manila hours-of-rest provisions were explicitly aligned with MLC 2006 Title 2 hours-of-rest standards.
 
 **Umbrella treaty**
 
-- [[unclos-1982]](./unclos-1982.md) — UNCLOS supplies the law-of-the-sea umbrella; flag-state jurisdiction (UNCLOS Articles 91, 92, 94) provides the constitutional basis for STCW flag-state implementation and certificate issuance.
+- [unclos-1982](./unclos-1982.md) — UNCLOS supplies the law-of-the-sea umbrella; flag-state jurisdiction (UNCLOS Articles 91, 92, 94) provides the constitutional basis for STCW flag-state implementation and certificate issuance.
 
 **Related sub-regimes and companion instruments**
 
@@ -100,8 +100,8 @@ The **IMO Whitelist** is the mechanism by which the IMO Maritime Safety Committe
 **maritime-law concepts** *(future-promotion stub — no concepts/* page on STCW yet)*
 
 - *Future stub:* `concepts/stcw-convention.md` — doctrinal companion covering the certificate-recognition regime, the Whitelist legal mechanism, and the interplay between flag-state issuance and port-state-control verification of seafarer certification.
-- [[port-state-control]](../concepts/port-state-control.md) — port-state-control inspection of STCW certificates and watchkeeping arrangements is part of the Paris/Tokyo MoU inspection regimes.
-- [[flag-state-jurisdiction]](../concepts/flag-state-jurisdiction.md) — flag-state issuance of STCW Certificates of Competency under UNCLOS Article 94.
+- [port-state-control](../concepts/port-state-control.md) — port-state-control inspection of STCW certificates and watchkeeping arrangements is part of the Paris/Tokyo MoU inspection regimes.
+- [flag-state-jurisdiction](../concepts/flag-state-jurisdiction.md) — flag-state issuance of STCW Certificates of Competency under UNCLOS Article 94.
 
 ## Sources
 

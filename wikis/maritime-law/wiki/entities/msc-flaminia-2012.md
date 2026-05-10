@@ -61,6 +61,6 @@ cross_links:
 - **Standard**: [Hague-Visby Rules](../standards/hague-visby-rules.md) — instrument metadata.
 - **Sibling private-law instrument**: [Charterparties](../concepts/charterparties.md) — booking and time-charter risk allocation.
 - **Concept**: [LLMC 1996](../concepts/llmc-1996.md) — limitation regime engaged in the German fund proceedings.
-- **Related case**: [[volcafe-2018]] — Hague-Visby Article III/IV burden-of-proof modern UK authority.
-- **Related case**: [[eurasian-dream-2002]] — Hague-Visby seaworthiness and crew-training obligations on specialised tonnage.
+- **Related case**: [volcafe-2018](volcafe-2018.md) — Hague-Visby Article III/IV burden-of-proof modern UK authority.
+- **Related case**: [eurasian-dream-2002](eurasian-dream-2002.md) — Hague-Visby seaworthiness and crew-training obligations on specialised tonnage.
 - **Antecedent precedent**: *Effort Shipping Co Ltd v Linden Management SA (The Giannis NK)* [1998] 1 Lloyd's Rep 337 (HL) — UK authority on strict shipper liability for dangerous goods.

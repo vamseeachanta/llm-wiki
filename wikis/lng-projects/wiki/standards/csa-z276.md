@@ -135,11 +135,11 @@ diverge.
 
 **Sibling lng-projects standards**
 
-- [[nfpa-59a]](nfpa-59a.md) — US LNG production-storage-handling standard; the most-aligned parallel to Z276 (cross-border crosswalk).
-- [[igc-code]](igc-code.md) — IMO International Gas Carrier Code; ship-side counterpart applicable to LNG-carrier visits at Canadian terminals.
-- [[ferc-18-cfr-153]](ferc-18-cfr-153.md) — FERC siting authorization for US-side LNG terminals (companion when a project is jointly permitted across the Canada-US border).
-- [[phmsa-49-cfr-193]](phmsa-49-cfr-193.md) — US federal pipeline-safety regulation that incorporates NFPA 59A by reference; the US-side regulatory parallel to provincial-Z276 adoption.
-- [[sigtto-mooring-equipment]](sigtto-mooring-equipment.md) — SIGTTO mooring-equipment guidance applicable to LNG-carrier mooring at Canadian terminals.
+- [nfpa-59a](nfpa-59a.md) — US LNG production-storage-handling standard; the most-aligned parallel to Z276 (cross-border crosswalk).
+- [igc-code](igc-code.md) — IMO International Gas Carrier Code; ship-side counterpart applicable to LNG-carrier visits at Canadian terminals.
+- [ferc-18-cfr-153](ferc-18-cfr-153.md) — FERC siting authorization for US-side LNG terminals (companion when a project is jointly permitted across the Canada-US border).
+- [phmsa-49-cfr-193](phmsa-49-cfr-193.md) — US federal pipeline-safety regulation that incorporates NFPA 59A by reference; the US-side regulatory parallel to provincial-Z276 adoption.
+- [sigtto-mooring-equipment](sigtto-mooring-equipment.md) — SIGTTO mooring-equipment guidance applicable to LNG-carrier mooring at Canadian terminals.
 
 **External standards that Z276 invokes or that operate alongside it**
 
@@ -149,14 +149,14 @@ diverge.
 
 **lng-projects concepts**
 
-- [[lng-project-lifecycle]](../concepts/lng-project-lifecycle.md) — phases at which Z276 applicability is locked in for a Canadian project.
-- [[lng-project-shapes]](../concepts/lng-project-shapes.md) — peak-shaver / export / import / fuel-station shapes that Z276 covers.
-- [[lng-regulatory-framework]](../concepts/lng-regulatory-framework.md) — bodies-and-codes synthesis; this page is the Canadian-jurisdiction arm.
-- [[lng-process-safety]](../concepts/lng-process-safety.md) — release / consequence categories driven by Z276 Clauses 4 and 10.
-- [[lng-liquefaction-processes]](../concepts/lng-liquefaction-processes.md) — process-equipment side governed by Z276 Clause 5.
-- [[lng-storage-tanks]](../concepts/lng-storage-tanks.md) — tank-type taxonomy aligned with Z276 (single / double / full / membrane).
-- [[lng-marine-transfer-systems]](../concepts/lng-marine-transfer-systems.md) — terminal-side marine transfer at Canadian export terminals.
-- [[lng-boil-off-gas-management]](../concepts/lng-boil-off-gas-management.md) — BOG handling, downstream of Z276 Clause 5 storage-design choices.
+- [lng-project-lifecycle](../concepts/lng-project-lifecycle.md) — phases at which Z276 applicability is locked in for a Canadian project.
+- [lng-project-shapes](../concepts/lng-project-shapes.md) — peak-shaver / export / import / fuel-station shapes that Z276 covers.
+- [lng-regulatory-framework](../concepts/lng-regulatory-framework.md) — bodies-and-codes synthesis; this page is the Canadian-jurisdiction arm.
+- [lng-process-safety](../concepts/lng-process-safety.md) — release / consequence categories driven by Z276 Clauses 4 and 10.
+- [lng-liquefaction-processes](../concepts/lng-liquefaction-processes.md) — process-equipment side governed by Z276 Clause 5.
+- [lng-storage-tanks](../concepts/lng-storage-tanks.md) — tank-type taxonomy aligned with Z276 (single / double / full / membrane).
+- [lng-marine-transfer-systems](../concepts/lng-marine-transfer-systems.md) — terminal-side marine transfer at Canadian export terminals.
+- [lng-boil-off-gas-management](../concepts/lng-boil-off-gas-management.md) — BOG handling, downstream of Z276 Clause 5 storage-design choices.
 
 **International / regulatory parallels**
 
@@ -165,8 +165,8 @@ diverge.
 
 ## Sources
 
-- [[woodfibre-corpus-pointer]](../sources/woodfibre-corpus-pointer.md) — Woodfibre LNG ACMA-31522 corpus pointer; Z276 is the binding design code for the Woodfibre project deliverables tracked there.
-- [[igu-2025-lng-report]](../sources/igu-2025-lng-report.md) — IGU 2025 World LNG Report; capacity context for the Canadian LNG project landscape governed by Z276.
-- [[ferc-lng-portal]](../sources/ferc-lng-portal.md) — FERC LNG portal; complementary US-side regulatory portal for jointly-permitted cross-border projects.
+- [woodfibre-corpus-pointer](../sources/woodfibre-corpus-pointer.md) — Woodfibre LNG ACMA-31522 corpus pointer; Z276 is the binding design code for the Woodfibre project deliverables tracked there.
+- [igu-2025-lng-report](../sources/igu-2025-lng-report.md) — IGU 2025 World LNG Report; capacity context for the Canadian LNG project landscape governed by Z276.
+- [ferc-lng-portal](../sources/ferc-lng-portal.md) — FERC LNG portal; complementary US-side regulatory portal for jointly-permitted cross-border projects.
 - [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md) — the schema this page resolves for downstream `Citation` instances.
 - Publisher catalog: <https://www.csagroup.org/store/product/CSA%20Z276:23/>

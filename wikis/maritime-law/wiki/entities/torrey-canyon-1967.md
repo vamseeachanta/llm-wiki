@@ -68,5 +68,5 @@ The case is also the proximate cause of the **flag-of-convenience policy debate*
 - **Concept / Standard**: [CLC 1992](../concepts/clc-1992.md) | [CLC 1992 standard](../standards/clc-1992.md) — direct legislative response (via CLC 1969 → 1992 Protocol).
 - **Concept / Standard**: [MARPOL 73/78](../concepts/marpol-73-78.md) | [MARPOL 73/78 standard](../standards/marpol-73-78.md) — pollution-prevention companion regime.
 - **Standard**: [Salvage Convention 1989](../standards/salvage-convention-1989.md) — Article 14 environmental-special-compensation traces to the *Torrey Canyon* salvage-incentive gap.
-- **Sibling entities**: [[amoco-cadiz-1978]] — successor casualty driving Paris MoU 1982; [[sea-empress-1996]], [[mv-erika-1999]], [[mv-prestige-2002]] — later casualties in the same doctrinal lineage.
+- **Sibling entities**: [amoco-cadiz-1978](amoco-cadiz-1978.md) — successor casualty driving Paris MoU 1982; [sea-empress-1996](sea-empress-1996.md), [mv-erika-1999](mv-erika-1999.md), [mv-prestige-2002](mv-prestige-2002.md) — later casualties in the same doctrinal lineage.
 - **Source**: [Maritime Law Cases](../sources/maritime-law-cases.md) | [Maritime Liability Conventions](../sources/maritime-liability-conventions.md).

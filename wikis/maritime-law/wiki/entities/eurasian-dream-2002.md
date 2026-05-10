@@ -56,5 +56,5 @@ cross_links:
 - **Concept**: [Hague-Visby Rules — Doctrinal Synthesis](../concepts/hague-visby-rules.md) — concept page references Article III rule 1 seaworthiness.
 - **Standard**: [Hague-Visby Rules](../standards/hague-visby-rules.md) — instrument metadata.
 - **Sibling private-law instrument**: [Charterparties](../concepts/charterparties.md) — charter-chain identity questions.
-- **Related case**: [[volcafe-2018]] — Hague-Visby Article III/IV burden-of-proof modern authority.
-- **Operational interface**: [[ism-code]] — SOLAS-IX safety-management obligations that converge with the seaworthiness duty.
+- **Related case**: [volcafe-2018](volcafe-2018.md) — Hague-Visby Article III/IV burden-of-proof modern authority.
+- **Operational interface**: [ism-code](../concepts/ism-code.md) — SOLAS-IX safety-management obligations that converge with the seaworthiness duty.

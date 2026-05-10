@@ -81,17 +81,17 @@ CMI revises by conference at irregular intervals; there is no protocol or resolu
 
 **Sibling institutions**
 - [[concepts/salvage]](../concepts/salvage.md) — sometimes overlapping on facts; salvage compensates a rescuer, GA reallocates loss among the saved
-- [[salvage-convention-1989]](./salvage-convention-1989.md) — sibling instrument on rescue-services regime
+- [salvage-convention-1989](./salvage-convention-1989.md) — sibling instrument on rescue-services regime
 
 **Contract surfaces**
 - [[concepts/charterparties]](../concepts/charterparties.md) — GA clauses are routinely incorporated into voyage and time charters
 
 **Liability interaction**
 - [[concepts/limitation-of-liability]](../concepts/limitation-of-liability.md) — LLMC 1996 generally does not limit GA contributions; the shipowner's GA share survives tonnage limitation
-- [[llmc-1996]](../concepts/llmc-1996.md) — limitation regime that may interact with the GA shipowner contribution
+- [llmc-1996](../concepts/llmc-1996.md) — limitation regime that may interact with the GA shipowner contribution
 
 **Carriage exception interaction**
-- [[hague-visby-rules]](../concepts/general-average.md) — the Hague-Visby exception "saving life or property at sea" overlaps the GA fact pattern; carrier's defence under Hague-Visby and contribution under YAR are distinct surfaces
+- [hague-visby-rules](../concepts/general-average.md) — the Hague-Visby exception "saving life or property at sea" overlaps the GA fact pattern; carrier's defence under Hague-Visby and contribution under YAR are distinct surfaces
 
 **Drafting + adjustment bodies** _(non-link cross-references)_
 - **CMI (Comité Maritime International)** — the drafting body; convenes the revising conferences

@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-09
-page_count: 173
+page_count: 175
 source_count: 19
 ---
 
@@ -48,6 +48,8 @@ _No entity pages yet. Ingest a source to begin._
 | [[Atmospheric Corrosion]](concepts/atmospheric-corrosion.md) | ISO 9223 C1-CX corrosivity categories; TOW + Cl⁻ + SO2 drivers. | 2026-05-09 |
 | [[Mechanical Fatigue (HCF + LCF)]](concepts/mechanical-fatigue.md) | HCF/LCF/VHCF regimes; VIV; 9 O&G mechanical-fatigue scenarios. | 2026-05-09 |
 | [[Protective Coating Systems]](concepts/coating-systems.md) | FBE/3LPE/3LPP/TSA + structural multi-coat; Sa 2½ surface prep gates. | 2026-05-09 |
+| [[Wind Loads on Offshore and Onshore Industrial Structures]](concepts/wind-loads.md) | ASCE 7 / Eurocode / API RP 2MET / DNV-RP-C205 / ISO 19901-1; offshore + LNG + onshore facility wind-load doctrine. | 2026-05-09 |
+| [[Mooring Integrity Management]](concepts/mooring-integrity-management.md) | API RP 2MIM RBI tier system + DNV-OS-E301 doctrine; FPSO/FLNG/FSRU station-keeping integrity; Banff/Volve case histories. | 2026-05-09 |
 
 ## Sources
 
