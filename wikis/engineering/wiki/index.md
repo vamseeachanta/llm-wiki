@@ -1,9 +1,9 @@
 ---
 domain: engineering
 created: 2026-04-08 16:07 UTC
-last_updated: 2026-05-06
-page_count: 107
-source_count: 16
+last_updated: 2026-05-09
+page_count: 108
+source_count: 24
 ---
 
 # Knowledge Index: Engineering
@@ -103,7 +103,7 @@ source_count: 16
 | [Skills System](entities/skills-system.md) | Primary knowledge carrier — 691+ git-tracked skill definitions | 2026-04-08 |
 | [Solver Queue](entities/solver-queue.md) | Git-based async job dispatch for OrcaFlex/OrcaWave on licensed machines | 2026-04-08 |
 
-## Sources (13 pages)
+## Sources (24 pages)
 
 | Page | Description | Type | Ingested |
 |------|-------------|------|----------|
@@ -121,6 +121,7 @@ source_count: 16
 | [Nightly Research Outputs](sources/research-outputs.md) | Standards tracking from nightly researcher system | research-outputs | 2026-04-09 |
 | [HN CadQuery Discussion](sources/2026-04-17-hn-cadquery.md) | 180-point HN thread — CadQuery Python parametric CAD, B-rep vs mesh, LLM codegen signals | hn-discussion | 2026-04-17 |
 | [Elements QGIS Flowline/DEM Deep Extraction](sources/elements-qgis-flowline-dem-deep-extraction.md) | First-pass extraction of Elements QGIS flowline alignment, UTM Zone 15N projection, DEM grid stats, and DXF entity counts | elements-deep-extraction | 2026-04-28 |
+| [Claude for Financial Services — managed-agent reference patterns](sources/2026-05-09-anthropics-financial-services.md) | Anthropic FSI reference repo — managed-agent cookbooks, callable_agents preview, handoff_request control plane, dual Cowork+API deployment surface | external-repo | 2026-05-09 |
 
 ## Standards (8 pages)
 

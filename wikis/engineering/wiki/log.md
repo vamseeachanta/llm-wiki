@@ -106,3 +106,10 @@
 - Pages created: entities/dnv.md, entities/abs.md, entities/lr.md, entities/bv.md.
 - Pages updated: index.md.
 - Notes: Public-synthesis entity anchors only. No raw PDFs, private paths, vendor rule text, clauses, tables, formulas, or standards excerpts copied.
+
+## [2026-05-09] ingest | Anthropic — Claude for Financial Services
+
+- Processed: https://github.com/anthropics/financial-services (Apache-2.0, observed pushed_at 2026-05-09T11:28:47Z)
+- Pages created: 1 — sources/2026-05-09-anthropics-financial-services.md
+- Pages updated: 2 — index.md (page_count 107→108, source_count 16→24 reconciled to ground-truth, last_updated 2026-05-06→2026-05-09, header pluralization 13→24, sources table row appended), log.md (this entry)
+- Notes: Source-only ingest. No raw PDFs, private paths, vendor standards text, project specifications, clauses, tables, formulas, or source archive content copied. Index counter drift (deflated phantoms at plan-draft time: frontmatter source_count 16, header "13 pages", actual 23 files) reconciled to write-time ground-truth as part of this edit. Concept page on managed-agent orchestration deferred per YAGNI.
