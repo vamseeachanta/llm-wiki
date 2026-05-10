@@ -86,3 +86,10 @@
 - Iter-24 (commit e01c3937): lng-projects deepening — CSA Z276 + API Std 625 + EN 1473 + 24 concept↔standard return-links.
 - Iter-25 (current): maritime-law pivot — UNCLOS / Salvage 1989 + treaty-flavored _template + 4 standards-companion to existing MARPOL/SOLAS/OPA-90/MLC concepts.
 - Engineering-standards work to resume after maritime-law convergence (per W90 + W111 audit cadence).
+
+## [2026-05-09] substrate-gap-fill | iter-37 — api-17j canonical short-slug page + nace-tm-0177 cross-link verification
+- Pages created: standards/api-17j.md (publisher-agnostic short-slug resolver; metadata-only; sister to existing api-spec-17j.md long-slug alias).
+- Pages updated: index.md (added api-17j entry below api-spec-17j; both retained — short-slug canonical for new calc-citation callers, long-slug retained for backward link compatibility).
+- NACE→AMPP cross-link audit: grep across all 3 wikis surfaced 13 nace-tm-0177 hits; ALL are either canonical `[[ampp-tm-0177]]` wikilinks with "NACE TM-0177" historical-name prose, audit-record entries (W172/W175 findings), or correct frontmatter `legacy_code_id` bridge in ampp-tm-0177.md. Zero stale wikilinks or stale path-references found. No cleanup required — substrate is already clean post-2026-05-03 AMPP rename landing.
+- nace-tm-0177.md does NOT exist as a separate file; ampp-tm-0177.md carries `legacy_code_id: nace-tm-0177` for resolver bridging. No git mv or merge needed.
+- Notes: W175 audit premise that api-17j was "missing" was technically correct (api-17j.md absent) but adjacent file api-spec-17j.md existed at the same concept; the user-spec'd canonical short-slug `api-17j` matches sister-code convention (api-17e, api-17b) and the cross-wiki CLAUDE.md schema example. Both pages retained, short-slug canonical going forward.

@@ -100,6 +100,7 @@ _No query outputs filed yet._
 | [[API RP 16Q]](standards/api-rp-16q.md) | Drilling riser systems; revision pending. | 2026-05-02 |
 | [[API RP 17B]](standards/api-rp-17b.md) | Flexible pipe; 5th Ed (2014). | 2026-05-02 |
 | [[API SPEC 17J]](standards/api-spec-17j.md) | Unbonded flexible pipe specification; 4th Ed (2014). | 2026-05-02 |
+| [[API Spec 17J]](standards/api-17j.md) | Unbonded flexible pipe — canonical short-slug resolver entry; 4th Ed (2014, addendum 2018). | 2026-05-09 |
 | [[API SPEC 5L]](standards/api-spec-5l.md) | Line pipe specification; 44th Ed (2007). | 2026-05-02 |
 | [[API RP 1111]](standards/api-rp-1111.md) | Offshore hydrocarbon pipelines, limit-state design; 4th Ed (2009). | 2026-05-02 |
 | [[ASME B31.3]](standards/asme-b31-3.md) | Process Piping (2012 on-disk; 2024/2026 cycle current; SIF method changed — methodology_status=stale-as-of-publisher-cycle). | 2026-05-02 |

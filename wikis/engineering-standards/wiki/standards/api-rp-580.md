@@ -280,6 +280,29 @@ distinguishes RBI from a one-time risk study.
   the concept page that names RP 580 as the qualitative methodology
   document and RP 581 as the quantitative implementation.
 
+## Cross-wiki bridges
+
+- [ISM Code — International Safety Management Code](../../../maritime-law/wiki/concepts/ism-code.md)
+  (maritime-law) — **bidirectional bridge**: API RP 580's qualitative
+  RBI methodology and risk-matrix framework (POF × COF banding,
+  inspection-effectiveness categories A–E, plan-execute-reassess loop)
+  feed the SOLAS-Ch.IX-mandated Safety Management System risk-assessment
+  obligation that ISM Code Part A imposes on operators. ISM Code §1.2.2.2
+  (objectives — "establish safeguards against all identified risks")
+  and §7 (development of plans for shipboard operations addressing key
+  shipboard operations concerning safety) are the SMS clauses where a
+  vessel-operator's pressure-equipment RBI programme — when the vessel
+  carries fixed equipment within RP 580's scope (e.g., FPSO process
+  trains, gas-carrier cargo-handling pressure vessels, MODU process
+  modules) — supplies the risk-assessment substrate. Offshore-platform
+  RBI programmes operating under flag-state classification (DNV, ABS,
+  LR, BV, ClassNK class rules + IACS UR Z17 ISM-implementation
+  guidance) routinely run RP 580 / RP 581 as the engineering-substrate
+  methodology while the SMS document records the management-system
+  envelope around it. The treaty regime carries no numeric POF / COF
+  rules; ISM delegates to engineering-standards substrates like RP 580
+  for the technical risk-assessment content.
+
 ## Why this page exists
 
 Resolver target for digitalmodel `Citation` instances per

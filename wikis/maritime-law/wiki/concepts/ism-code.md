@@ -56,6 +56,27 @@ The International Safety Management (ISM) Code is the IMO standard for the safe 
 - **Doctrine pages**: [Port-State Control](./port-state-control.md), [Flag-State Jurisdiction](./flag-state-jurisdiction.md).
 - **Cases**: see `../entities/mv-prestige-2002.md` and `../entities/mv-wakashio-2020.md` for ISM-implementation discussion.
 
+## Cross-wiki bridges
+
+- [API RP 580 — Risk-Based Inspection](../../../engineering-standards/wiki/standards/api-rp-580.md)
+  (engineering-standards) — **bidirectional bridge**: ISM Code Part A's
+  Safety Management System (SMS) imposes a risk-assessment obligation on
+  operators (§1.2.2.2 — "establish safeguards against all identified
+  risks"; §7 — shipboard-operations plans addressing safety-critical
+  activities) but specifies no numeric methodology. For vessels carrying
+  fixed pressure equipment within API RP 580's scope (FPSOs, gas
+  carriers, MODUs, process-module-equipped offshore units), the RBI
+  programme — qualitative POF × COF risk matrix per RP 580, optionally
+  refined to quantitative damage-factor scoring per [API RP 581
+  (engineering-standards)](../../../engineering-standards/wiki/standards/api-rp-581.md)
+  — is the engineering-substrate that supplies the technical content
+  the SMS records. Class-society implementation guidance (IACS UR Z17
+  on ISM auditing, plus DNV / ABS / LR / BV / ClassNK class rules)
+  treats the RP 580 / RP 581 stack as the conventional risk-assessment
+  methodology for SMS pressure-equipment scope. The treaty regime
+  delegates the engineering content; the SMS document records the
+  management-system envelope around it.
+
 ## Citation Source
 
 - IMO ISM Code portal: https://www.imo.org/en/OurWork/HumanElement/Pages/ISMCode.aspx

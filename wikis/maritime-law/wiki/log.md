@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-05-09 20:15 UTC] depth-completion | iter 37 — lng-projects depth saturation + ASME borderline + RBI bridge + substrate cleanup
+- Pages modified: lng-projects concepts/{lng-boil-off-gas-management,lng-storage-tanks,lng-marine-transfer-systems,lng-project-shapes,lng-project-lifecycle}.md (W176+W177 — 5 partial-depth concepts to full sibling-depth; lng-projects now 12/12 concepts at 79+ L/8+ sections), eng-stds standards/{asme-bpvc-viii-1,asme-b31-3,api-rp-580}.md (W178 — 2 borderline expansions + RBI bridge), maritime-law concepts/ism-code.md (W178 — return-link for RBI bridge)
+- Pages created: eng-stds standards/api-17j.md (W179 — canonical short-slug seed; metadata-only resolver paired with legacy api-spec-17j.md)
+- Notes: 4-way fanout depth-completion + tactical-cleanup iteration. Lng-projects depth-saturation closes — 12/12 concepts at 79+ L (matches maritime-law iter-35 milestone for entity pages). ASME-bpvc-viii-1 (58L→113L/10S) + asme-b31-3 (61L→142L/11S) — both well above 80L threshold; W148+W157 cross-wiki bridges preserved verbatim. API RP 580 ↔ ISM Code bridge: RBI methodology (POF×COF risk matrix + inspection-effectiveness A-E + plan-execute-reassess loop) feeds SOLAS Ch.IX SMS risk-assessment obligation per ISM §1.2.2.2 + §7. W179 NACE→AMPP rename verified clean: 13 mentions, 0 stale (legacy_code_id field handles publisher-rename). api-17j short-slug created paired with existing api-spec-17j.md via legacy reference.
+
 ## [2026-05-09 19:50 UTC] cross-wiki-depth | iter 36 — audit V5 + 3 wikis depth-check + 4 maritime-law cleanup
 - Pages modified: maritime-law concepts/{salvage,flag-state-jurisdiction}.md (W173 — closed audit V4 P3 residue; expanded 45L/5S → 88-103L/8S), maritime-law sources/{maritime-law-cases,maritime-liability-conventions}.md (W173 — added how-to-use/coverage-scope/citation-guidance/updates sections; expanded 35-40L → 76-79L), lng-projects concepts/{lng-process-safety,lng-regulatory-framework,lng-liquefaction-processes}.md (W174 — partial-depth → 107-113L/7-9S), engineering-standards standards/{api-rp-2a-wsd,dnv-os-e301,iso-19901-7}.md (W175 — stub-expansion 38-49L → 89-90L/8S; W148/W157 calc-citation-ready resolvers)
 - Pages created: _audit/iter-36-W172-cross-wiki-audit-v5.md (229L)
