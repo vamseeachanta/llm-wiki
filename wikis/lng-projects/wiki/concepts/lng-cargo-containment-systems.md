@@ -2,7 +2,7 @@
 title: "LNG Cargo Containment Systems"
 tags: [lng-projects, concept, cargo-containment, lng-carrier, moss, membrane, gtt, no96, mark-iii, spb, ihi, type-approval]
 added: 2026-05-09
-last_updated: 2026-05-09
+last_updated: 2026-05-10
 sources: [concept-synthesis]
 domain: lng-projects
 cross_links:
@@ -52,6 +52,21 @@ This page is the **ship-side** companion to [`lng-storage-tanks.md`](./lng-stora
 - **Pros**: structural independence of Moss combined with flat-deck profile of membrane; partial-load tolerance without sloshing restrictions; better stability and air-draft than Moss for equivalent capacity.
 - **Cons**: IHI-only license historically limited yard competition; small operational fleet means narrower pool of crews and operators with hands-on experience; construction cost premium relative to membrane on a per-cubic-metre basis has kept order book thin.
 
+## Multi-criteria comparison
+
+The narrative families above are most useful when set side-by-side on the criteria a project actually selects against. The comparison below is a concept-level synthesis; project-specific quotations from yards and licensors override it.
+
+| Criterion | Moss spherical | GTT NO96 | GTT Mark III | GTT Mark V | IHI SPB |
+|---|---|---|---|---|---|
+| Volumetric efficiency | Lowest (sphere geometry) | High (membrane prismatic) | High (membrane prismatic) | High; targeted gen-on-gen gain | Moderate (prismatic, walls + supports) |
+| Newbuild capex (per m³) | Higher (aluminum + skirt) | Moderate; mature supply chain | Moderate; widespread yard experience | Moderate; newer rollout premium | Higher (small-fleet learning-curve) |
+| Delivery time at major yards | Mature, predictable | Mature, slot-constrained | Mature, dominant in modern slots | Newer; fewer reference deliveries | Long; few qualified yards |
+| Sloshing-restriction footprint | None (independent, partial-load OK) | Partial-load operating bands | Partial-load operating bands | Improved bands per GTT product line | None (independent, partial-load OK) |
+| R&D / qualification maturity | Long-standing IP, slow gen-on-gen | Mature; incremental updates | Mature + Mark III Flex variants | Newest mainline GTT family | Mature within IHI; rare licensee diffusion |
+| Class-society / licensor model | MOSS Maritime IP, broad licensee base | GTT licensing royalty per m³ | GTT licensing royalty per m³ | GTT licensing royalty per m³ | IHI-only; licensee precedent narrow |
+
+Caveats: cost, delivery, and royalty figures are commercially negotiated and confidential. The intent of the table is qualitative discrimination — which family wins on which axis — rather than a public price sheet. Sloshing-restriction language is consistent with [GTT Sloshing](https://gtt.fr/) public guidance and class-society type-approval letters; project-specific operating envelopes apply.
+
 ## IGC Code type-approval framework
 
 - The IGC Code (see [`standards/igc-code.md`](../standards/igc-code.md)) classifies cargo-tank designs as **Type A**, **Type B**, or **Type C** with separate provisions for **integrated (membrane) tanks**.
@@ -67,6 +82,24 @@ This page is the **ship-side** companion to [`lng-storage-tanks.md`](./lng-stora
 - **Operating envelope** restrictions emerged: depending on tank geometry and route, intermediate fill levels (commonly cited bands roughly between 10 percent and 70 percent of tank height) are restricted under sustained sea conditions, with project-specific qualification work needed to extend the envelope.
 - Qualification programs are maintained jointly by GTT and the major class societies (DNV, ABS, BV, LR), combining model-tank testing, CFD, and full-scale instrumentation.
 
+### Worked-incident anchors
+
+- **Maran Gas Apollonia (2009)** — partial-load sloshing damage to GTT membrane during ballast voyage was widely reported in industry press at the time and became one of the publicly visible drivers for tightening partial-load operating envelopes on the membrane fleet. Treat as a class-of-event marker rather than a sole datapoint; multiple comparable events have been reported privately between operators, class societies, and GTT.
+- **2017 RPT and sloshing investigations** — class-society and SIGTTO follow-up work in the late 2010s consolidated test data, CFD, and instrumented full-scale measurements into expanded type-approval letters and into the GTT Mark III Flex product line; this period materially enlarged the partial-load envelopes that operators can declare.
+- **Suiso Frontier (2022)** — KHI delivered a Type B spherical liquefied-hydrogen carrier; not LNG cargo, but a direct technology transfer of Moss-style spherical-tank IP to a colder cryogenic service (around minus 253 degrees C). Establishes a publicly observable proof-point that the spherical-independent-tank pattern can extend below LNG temperatures, with substantial materials and insulation rework.
+
+### Mini-case-studies: retrofit and selection decisions
+
+- **Higgs LNG / membrane retrofit precedent (2021)** — older Moss-type vessels approaching mid-life have on occasion been studied for membrane-conversion or for re-engining and life-extension rather than family change. The economic reality is that containment-family change is rarely retrofittable; family choice is effectively a once-per-hull decision at newbuild order, and the publicly observable pattern is that retired Moss capacity is replaced by membrane newbuilds rather than retrofitted in place.
+- **Tortue Ahmeyim FLNG (2024)** — BP-operated Mauritania/Senegal FLNG; the cargo-containment family on FLNG hulls is selected against very different criteria from LNGC trading vessels (sea-state offloading, weathervaning geometry, host-nation content). Containment-family choice on FLNG often diverges from the trading-vessel mainstream and is set jointly with the offloading concept (side-by-side vs tandem), reinforcing why FLNG containment is treated as a separate engineering exercise rather than a copy of the trader fleet.
+
+## LNG-as-fuel containment expansion
+
+- **Type C bunker tanks** — the dominant containment for LNG-as-fuel installations on dual-fuel commercial ships; the pressure-vessel design eliminates the secondary-barrier requirement and tolerates the long stationary periods between bunkering events that characterize dual-fuel operation.
+- **CMA CGM JACQUES SAADE (2020)** — a 23,000-TEU dual-fuel container vessel with a roughly 18,600 m³ LNG-fuel Type C tank; widely cited as the first ULCV-scale LNG-fueled containership and as a public reference point for large LNG-as-fuel Type C tank deployment.
+- **Larger bunker tanks** — as LNG-as-fuel scales beyond container ships into bulkers, car carriers, and cruise ships, capacities grow and Type B independent-tank designs (prismatic) become more attractive vs Type C pressure vessels for footprint reasons.
+- **Bunker-tank containment is distinct from cargo containment** — even when geometry resembles a cargo tank, the design basis (long quiescent periods, single-fill-direction, bunker-side ESD logic) differs from cargo-trade service and is governed in large part by the IGC and IGF codes plus class-society LNG-as-fuel notations, not by the cargo-trade clauses.
+
 ## Containment systems and LNG composition
 
 - Standard LNGC containment is qualified for typical LNG compositions (predominantly methane, with limited heavier-hydrocarbon and nitrogen content within trade-specification limits). Heavy-LNG or rich-LNG cargoes require checks against the original design basis for density and heat-leak assumptions.
@@ -78,6 +111,9 @@ This page is the **ship-side** companion to [`lng-storage-tanks.md`](./lng-stora
 - **Hybrid arrangements** — small but growing for FLNG and small-scale LNG, where tank geometry must adapt to non-tanker hulls and to non-traditional cargo profiles.
 - **Cryogenic composites** — primary or secondary membranes in composite materials remain at research and qualification stage; no commercial deployments yet at LNGC scale.
 - **Hydrogen-carrier transition** — KHI's spherical Type B tank design for liquefied hydrogen on the Suiso Frontier (2022) demonstrated that Moss-type spherical IP transfers in principle to even colder cryogenic service (around minus 253 degrees C), with substantial materials and insulation rework.
+- **Ammonia-carrier crossover** — IGC Type C and Type B independent-tank lineage from the LPG fleet is being adapted for large-scale ammonia carrier service; the cargo is warmer than LNG (around minus 33 degrees C at atmospheric pressure) but the cargo-handling and toxicity profile differs sharply, so cross-over IP from LNG containment to ammonia service is selective rather than wholesale.
+- **Sloshing-envelope expansion** — joint operator + GTT + class-society qualification programs continue to extend the allowable partial-load operating bands for membrane systems, with the practical effect that route flexibility for membrane LNGCs has improved gen-on-gen since the late-2010s case-of-events drove tightening.
+- **Class-society digital-twin acceptance** — DNV, ABS, BV, and LR have progressively accepted digital-twin instrumentation evidence as part of in-service inspection, fatigue-life extension, and partial-load envelope qualification; this is more an operational than a containment-family change but reduces the survey burden on membrane fleets in particular.
 
 ## Cross-references
 

@@ -2,7 +2,7 @@
 title: "LNG Storage Tanks"
 tags: [lng-projects, concept, storage, containment, cryogenic, full-containment, double-containment, single-containment, in-ground, membrane, rollover, rpt]
 added: 2026-05-03
-last_updated: 2026-05-09
+last_updated: 2026-05-10
 sources: [concept-synthesis]
 domain: lng-projects
 cross_links:
@@ -60,6 +60,47 @@ This page summarizes the canonical taxonomy of **onshore and terminal-side** LNG
 
 - Thin metallic membrane primary container backed by load-bearing insulation, with an external concrete outer barrier. Engineering analogous to the GTT NO96 / Mark III shipboard membrane families covered in [LNG Cargo Containment Systems](./lng-cargo-containment-systems.md), adapted for static onshore service.
 - Limited but growing onshore population — installed at peakshaving and small-scale terminals where membrane construction speed advantages relative to 9% Ni inner-tank welding apply.
+
+## Multi-criteria comparison
+
+Tank-type selection is rarely a single-axis decision; the table below maps the five families above against the criteria that typically appear in concept-select studies. Capex/opex/BOR ranges are qualitative — project-specific quotations and site characterization override them.
+
+| Criterion | Single-containment | Double-containment | Full-containment | In-ground (sub-grade) | Membrane (terminal) |
+|---|---|---|---|---|---|
+| Relative capex | Lowest above-grade | Moderate | High (concrete outer) | Highest (excavation/dewatering) | Moderate; insulation-system cost vs 9% Ni weld effort |
+| Opex / inspection burden | EEMUA 147/159 + bund inspections | Moderate; outer-wall integrity | High concrete outer-tank inspection regime | High; foundation-heat + ground-water monitoring | Membrane integrity + annular-space gas-detection focus |
+| Boil-off rate | Higher (limited insulation budget) | Moderate | Low (engineered insulation depth) | Lowest (earth thermal mass) | Comparable to full-containment with engineered insulation |
+| Safety profile | Bund-dependent; primary-failure release to bund | Liquid retained by outer wall, vapor to atmosphere | Liquid + vapor retained; lowest exclusion-zone | Earth augments containment; seismic-mass advantage | Comparable to full-containment with membrane lifecycle questions |
+| Footprint at-grade | Largest (bund area) | Smaller than single | Smallest above-grade | Smallest at-grade | Comparable to full-containment |
+| Regulatory acceptance | Restricted; major-modification trigger risk | Permitted in select jurisdictions | Industry default for new construction | Permitted; favored seismically | Permitted; smaller deployed base |
+
+Mapping to standards: full-containment is the de facto baseline under [NFPA 59A](../standards/nfpa-59a.md), [API Std 625](../standards/api-std-625.md), [CSA Z276](../standards/csa-z276.md), and [EN 1473](../standards/en-1473.md) for new construction. Single-containment and bund-dependent designs face escalating permitting friction at major-modification trigger points.
+
+## Anchor-terminal examples
+
+Naming each tank-type at a concrete terminal helps grounding. Tank counts and capacities below are public-record summaries; exact-revision numbers shift with terminal expansions and should be cross-checked against the operator's published documentation.
+
+- **Sabine Pass (US Gulf, Cheniere)** — multi-train liquefaction export terminal; full-containment 9% Ni inner / concrete outer tanks (typical 160,000–180,000 m³ class) form the operating-storage backbone for cargo loadout. Reference for FERC/PHMSA exclusion-zone-based plot planning.
+- **Cove Point (Maryland, Dominion)** — historically import, more recently an export terminal; legacy in-ground / underground tank architecture with retrofitted modern operations and added marine handling.
+- **Sakhalin-2 (Russia, Gazprom + Shell consortium)** — first Russian LNG export plant; full-containment above-grade tanks selected against extreme cold-weather construction and seismic constraints.
+- **Yamal LNG (Russia, Novatek + partners)** — Arctic export terminal at Sabetta; full-containment tanks engineered for permafrost foundation conditions and a short construction season; reference case for cold-climate full-containment.
+- **Ras Laffan (Qatar, QatarEnergy / Qatargas / RasGas legacy)** — the world's largest LNG export complex; full-containment tank fleet sized for sustained 77+ Mtpa loadout; reference case for terminal-block storage scaled into the multiple-million-cubic-metre range.
+- **Bonny Island (Nigeria, NLNG)** — long-running multi-train export terminal; full-containment tank fleet; reference case for deepwater-harbour full-containment in tropical climate.
+
+## Failure-mode case studies
+
+These public-record incidents are foundational to modern storage-tank standards and continue to drive design rules and operating discipline. They are referenced here as design-lesson anchors; root-cause analyses in published incident reports remain the authoritative source.
+
+- **Cleveland (1944)** — failure of an early uninsulated low-alloy LNG tank; vapor cloud reached low-lying neighbourhoods and ignited, with substantial fatalities and property damage. The foundational design lesson — material brittleness at cryogenic temperature plus inadequate impoundment — drove the move to nickel-alloy primary tanks and to bund/exclusion-zone discipline that shapes all modern codes.
+- **Skikda (Algeria, 2004)** — vapor cloud in the boiler/utility area of a liquefaction train propagated into a control-room siting, with multiple fatalities. The design lesson on storage-tank-area control-room siting and on segregation between hazardous-area utilities and occupied buildings flows directly from this event.
+- **Bethioua (Algeria, 2008)** — public-record rollover-class storage incident; reinforced both the rollover-mitigation operational discipline noted below and the relief-system sizing-against-rollover-vapor-rate principle in EN 1473 / NFPA 59A.
+- **Petalas / Onslow (Australia, 2016)** — cryogenic-spillage detection event; reference for low-temperature spill-detection instrumentation and for cold-spot inspection practice on terminal piping connected to storage tanks.
+
+In-service issues and long-running operational discipline that connect to the above:
+
+- **Rollover-prevention** is operational discipline (covered below) backed by relief sizing.
+- **LNG aging in storage** — long dwell times in storage allow preferential evaporation of nitrogen and methane, with composition drift toward heavier-hydrocarbon content; relevant to send-out heating-value control and to rollover-risk surveillance.
+- **Foundation-settling** under prolonged cryogenic service requires bottom-heating discipline plus periodic levelling surveys; foundation distortion has been a contributor to in-service tank-decommissioning decisions on legacy stock.
 
 ## Capacity and design code mapping
 

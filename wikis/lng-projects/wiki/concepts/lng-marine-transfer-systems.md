@@ -2,7 +2,7 @@
 title: "LNG Marine Transfer Systems"
 tags: [lng-projects, concept, marine, transfer, jetty, ship-to-ship, fsru, flng, loading-arms, esd, mbc, qcdc, sigtto, ocimf]
 added: 2026-05-03
-last_updated: 2026-05-09
+last_updated: 2026-05-10
 sources: [concept-synthesis]
 domain: lng-projects
 cross_links:
@@ -57,6 +57,20 @@ This page surveys the marine-side **transfer interfaces** between LNG carriers, 
 
 - LNG bunkering and small-scale LNG distribution use truck or barge sources to fuel LNG-fueled ships at port; covered by ISO 20519 and related guidance.
 
+## Multi-criteria comparison of transfer modes
+
+The five transfer modes above sit on materially different operating envelopes; the table below maps them on the criteria that drive concept-select and permit work. Numbers are indicative only — project-specific compatibility studies and SIGTTO/OCIMF guidance govern.
+
+| Criterion | Conventional jetty | Ship-to-ship (STS) | STS via tug-attendant | FSRU regas (incoming STS or jetty) | LBVR / small-scale truck-to-ship |
+|---|---|---|---|---|---|
+| Typical transfer capacity | 145,000–270,000 m³ per call | 130,000–180,000 m³ per call | Same as STS | Cargo-equivalent of incoming carrier | Up to a few thousand m³ per bunker event |
+| Transfer duration (round-trip) | ~12 h unloading; comparable loading | 18–28 h depending on lighter pair | Marginally longer than STS | Like STS or jetty depending on architecture | Hours per bunkering event |
+| Weather tolerance | Highest (fixed jetty + arms) | Lowest among conventional modes | Moderate (tug stabilization) | Mid-range; depends on FSRU-mooring mode | Lowest (small fenders, alongside) |
+| Safety-distance / exclusion zone | Largest (NFPA 59A jetty radius) | Defined by SIGTTO STS guidance | Per SIGTTO STS + tug pattern | FSRU-specific; FERC + flag-state | Port-defined LNG-bunkering envelope (ISO 20519) |
+| Regulatory permit complexity | Highest (FERC/PHMSA + class society) | Moderate (SIGTTO + flag) | Moderate-to-high | High (FSRU classification + port-state control) | Moderate; ISO 20519 + port authority |
+
+Mapping to standards and references: jetty design and exclusion zones are governed by [NFPA 59A](../standards/nfpa-59a.md) Chapter 12 (US) and EN 1473 (Europe); STS practice flows from SIGTTO LNG STS guidance; LNG bunkering practice from ISO 20519 plus port-state safety cases; mooring-load envelopes for jetty and STS configurations from [SIGTTO Mooring Equipment Guidelines](../standards/sigtto-mooring-equipment.md) and OCIMF [MEG4](https://www.ocimf.org/).
+
 ## Loading-arm types
 
 - **Chiksan-style hard arms** — articulated swivel-jointed cryogenic loading arms; the dominant configuration for jetty-based carrier loading and unloading. Designed to accommodate vessel motion (tide, list, surge, sway) within an operating envelope; outside envelope triggers ESD logic.
@@ -71,6 +85,34 @@ This page surveys the marine-side **transfer interfaces** between LNG carriers, 
 - **Emergency Release Coupling (ERC)** — paired powered coupling on the loading arm; on activation each half closes and the arm separates with both ends sealed. Re-arming and re-coupling after activation is a controlled procedure, not a routine operation.
 - **Marine Breakaway Coupling (MBC)** — passive emergency-release device on cryogenic flexible hoses; activates on excessive tension or pull. Used in STS and offshore service where arm-style ERS is not applicable.
 - **Quick-Connect/Disconnect Coupler (QCDC)** — manifold-side coupling for STS and offshore service; allows fast connection and disconnection within an environmental-window-driven operating envelope.
+
+### Coupling-and-arm comparison
+
+The five interface devices above each occupy a distinct slot in the transfer envelope; the matrix below summarizes where each is used and what it replaces.
+
+| Device | Primary application | Disconnect mode | Replaces / pairs with |
+|---|---|---|---|
+| Loading-arm (Chiksan-style) | Fixed jetty cargo + vapor service | Powered, ESD-2 ladder via ERS/ERC | Primary path; pairs with vapor-return arm |
+| ERS / ERC | Integrated into loading arm | Powered emergency disconnect | Last line for arm decoupling outside operating envelope |
+| MBC | Cryogenic flexible hose service (STS, offshore) | Passive tension-triggered breakaway | Hose-equivalent of ERC where arm not applicable |
+| QCDC | Manifold-side STS and small-scale | Manual/powered quick-disconnect | Connection-time saver vs bolted flanges |
+| Cryogenic flexible hose | STS, FLNG tandem, small-scale bunker | Paired with MBC | Hard-arm alternative where motion budget exceeds arm envelope |
+
+## Worked-example incidents
+
+These public-record events frame the operational discipline that loading-arm + ESD logic enforces. Each is referenced as a class-of-event marker; published incident reports, class-society circulars, and the [SIGTTO](https://www.sigtto.org/publications) lessons-learned library are the authoritative sources.
+
+- **Stavanger jetty disconnection event (2007)** — public-record example of a marine-transfer disconnect outside the planned envelope; one of the precedent events that informed loading-arm operating-envelope discipline and the ESD-1/ESD-2 ladder communication between carrier and terminal.
+- **Chevron Gorgon LNG first cargo (2017)** — first-cargo loadout from a major Australian export terminal; highlighted the cooldown-management and arm-coupling-leak detection discipline that distinguishes commissioning-phase transfer from steady-state operation. First-cargo loadouts are characteristically the highest-scrutiny transfer events in a terminal lifecycle.
+- **Toscana FSRU (2013, Italy)** — early-life operating issues at one of the first European FSRUs; reference case for FSRU-specific transfer challenges (mooring exposure, STS approach, regas plume interaction).
+- **Ennore FSRU (2019, India)** — early-operations stress on an FSRU at a tropical-monsoon-exposed site; reference for FSRU operating-envelope discipline at sites with limited shelter.
+
+## Standards and reference framework — depth
+
+- **SIGTTO** publishes the LNG-industry transfer-practice baseline: STS guidance, ESD-system best practice, ship-shore-link agreement template, and incident lessons-learned. SIGTTO membership covers operators of approximately 95 percent of the world LNG and LPG fleet, which is why its non-mandatory guidance is treated as de facto industry minimum.
+- **OCIMF MEG4 (Mooring Equipment Guidelines, 4th edition)** is the reference for tanker-side mooring equipment, line-management plans, mooring-load monitoring, and mooring-line replacement criteria. MEG4 is normative across the OCIMF-member tanker fleet and is the dataset behind most ship-shore mooring compatibility studies.
+- **ICS Tanker Safety Guide (Liquefied Gas)** is the procedural baseline for crew-side cargo-handling on liquefied-gas tankers, complementing the SIGTTO/OCIMF-side terminal practice.
+- Together these three reference sets — SIGTTO + OCIMF MEG4 + ICS — form the operational envelope inside which class societies (DNV, ABS, BV, LR) issue type approvals and operating notations for jetty, STS, FSRU, and FLNG transfer systems.
 
 ## Manifolds, vapor-return, and connection protocols
 
