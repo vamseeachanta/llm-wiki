@@ -127,6 +127,7 @@ Bareboat charters with purchase options (BARECON Part IV) underpin a substantial
 
 **Cases**
 - [`entities/eurasian-dream-2002`](../entities/eurasian-dream-2002.md) — carrier identity under time-charter bills of lading.
+- [`entities/eurymedon-1974`](../entities/eurymedon-1974.md) — *The Eurymedon* [1975] AC 154 (Privy Council). Foundational authority on the Himalaya-clause extension of carrier-side exemptions and time-bars under bills issued in a charter-chain context; binds the stevedore (an independent contractor of the time-chartered carrier) into the contractual envelope established by the underlying bill of lading.
 - [`entities/msc-flaminia-2012`](../entities/msc-flaminia-2012.md) — dangerous-cargo shipper indemnity; charter and bill-of-lading regime intersection.
 
 ## Citation source

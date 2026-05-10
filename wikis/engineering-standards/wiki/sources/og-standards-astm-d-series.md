@@ -157,6 +157,10 @@ Standards pages already promoted from this D-Series slice (each should cite this
 - [`standards/astm-d1655`](../standards/astm-d1655.md) — Standard Specification for Aviation Turbine Fuels.
 - [`standards/astm-d4814`](../standards/astm-d4814.md) — Standard Specification for Automotive Spark-Ignition Engine Fuel.
 
+Sibling-slice catalog pages (other ASTM committees in the same `/mnt/ace/O&G-Standards/ASTM/` parent root):
+
+- [`sources/og-standards-astm-top-level`](./og-standards-astm-top-level.md) — top-level loose ASTM PDFs (B/C/F/other committees) staged at the root of `ASTM/`; the catalog companion to this D-Series page that should ultimately absorb the 121 `ASTM_E*`/`ASTM_F*`/`ASTM_G*` files documented above as misfiled into `D-Series/` (or relocate them to their correct per-letter sibling slices).
+
 Concept pages that should cite this source when invoking D-Series-published methods:
 
 - [`concepts/fuel-quality-and-specification`](../concepts/fuel-quality-and-specification.md) — D-Series D02 subcommittee (D86, D396, D445, D975, D1655, D2622, D2699, D2700, D4294, D4814, D6584) is the test-method substrate for fuel-quality acceptance.

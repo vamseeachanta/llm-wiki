@@ -103,7 +103,7 @@
   - asce-7: US onshore wind / seismic / load-combination anchor; closes "placeholder — not yet wiki-resolved" in wind-loads concept (W198 iter-42).
 - Pages updated:
   - sources/og-standards-astm-g-series.md — removed `<!-- substrate gap: dedicated electrochemical-corrosion concept page TBD -->` HTML comment; replaced with proper concept link (page now exists per W207 iter-44).
-  - concepts/electrochemical-corrosion.md — converted `[astm-g5](../standards/) (when that page is added)` stale link to live `[astm-g5](../standards/astm-g5.md)`.
+  - concepts/electrochemical-corrosion.md — converted `[astm-g5](../standards/) (when that page is added)` stale link to live `[astm-g5](standards/astm-g5.md)` (path shown relative to wiki root; from concepts/ the live link is `../standards/astm-g5.md`).
   - concepts/wind-loads.md — removed "(placeholder — not yet wiki-resolved)" parenthetical on ASCE-7 reference.
   - concepts/pitting-and-crevice-corrosion.md — promoted ASTM G46 from "future-ingest" line to live "Examination companion" entry.
   - index.md — added 5 standards rows (page_count 180 → 185).

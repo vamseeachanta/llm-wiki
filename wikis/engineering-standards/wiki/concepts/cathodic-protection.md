@@ -262,6 +262,10 @@ Primary references for offshore and subsea CP design:
   ABS-class equivalent to RP-B401 for fixed and floating offshore
   steel structures and subsea systems.
 
+Refinery-side mechanism reference:
+
+- [nace-34103](../standards/nace-34103.md) — *AMPP / NACE Publication 34103: Refinery Crude Unit Practical Damage Mechanisms.* Crude-unit damage-mechanism catalogue cited from this CP page because crude-unit overhead and side-stream piping are the canonical onshore-plant context where CP for buried tank-bottoms and underground-piping interacts with the same dissimilar-metal-couple scenarios discussed above; the publication also documents the CP-induced HE caveat in heater-coil and pressure-shell service.
+
 Adjacent international standards (not yet wiki-resolved; flagged for
 future ingest):
 

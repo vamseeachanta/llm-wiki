@@ -144,4 +144,4 @@ All three regimes anchor on the **IBC Code Chapter 17 cargo list** as the canoni
 
 > **Source-page gap.** Same consolidated `sources/imo-marine-codes-portals.md` gap noted on `standards/igc-code.md` applies here — a future-promotion stub covering IMO, USCG, EPA-VGP, CDI, and class-society catalogs is filed pending raw-corpus indexing.
 
-- [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md)
+- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

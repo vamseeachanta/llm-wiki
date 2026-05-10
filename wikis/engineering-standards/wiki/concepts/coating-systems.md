@@ -102,6 +102,10 @@ Primary references for this concept page:
 - [dnv-rp-f103](../standards/dnv-rp-f103.md) — *Cathodic Protection of Submarine Pipelines by Galvanic Anodes*. Coating breakdown factors `f_cm` / `f_cf` (Annex 1) and per-coating-type constants `a, b` in Tables A.1 (linepipe) / A.2 (field-joint) — the formal CP-side handle on coating quality.
 - [dnv-rp-b401](../standards/dnv-rp-b401.md) — *Cathodic Protection Design*. Offshore CP demand sized against coating-defect area; coating selection and CP design are jointly resolved.
 
+Surface-preparation companion (resolver page):
+
+- [sspc-sp-10](../standards/sspc-sp-10.md) — *SSPC-SP 10 / NACE No. 2 — Near-White Metal Blast Cleaning.* North-American counterpart to ISO 8501-1 grade Sa 2½; this is the surface-prep grade most offshore, splash-zone, and immersion coating systems specify before application, and it is the calc-citation target for any "Sa 2½ / SP 10 / NACE 2" specification anchor used downstream of this concept.
+
 Adjacent international standards (future-promotion candidates — no wiki page yet):
 
 - **NORSOK M-501** — *Surface preparation and protective coating*. The offshore-coating bible; specifies coating systems by service zone for North Sea topsides, jackets, and subsea structures.

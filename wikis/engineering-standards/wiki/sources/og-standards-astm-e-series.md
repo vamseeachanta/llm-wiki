@@ -212,3 +212,7 @@ Concept pages that should cite this source when invoking E-Series-published meth
 - [`concepts/engineering-critical-assessment`](../concepts/engineering-critical-assessment.md) — E1820 J-integral and E1921 Master Curve toughness inputs feed BS 7910 / API 579 ECA workflow.
 - [`concepts/brittle-fracture`](../concepts/brittle-fracture.md) — E1921 Master Curve T₀ is the reference-temperature method for ferritic-steel brittle-fracture transition.
 - [`concepts/welding-procedures-and-acceptance`](../concepts/welding-procedures-and-acceptance.md) — E94 (RT), E709 / E1444 (MT), E165 / E1417 (PT), and E45 / E112 (metallography) are NDE and metallurgical-acceptance methods cited by ASME BPVC V and API in-service codes.
+
+Sibling-slice catalog pages (other ASTM committees in the same `/mnt/ace/O&G-Standards/ASTM/` parent root):
+
+- [`sources/og-standards-astm-top-level`](./og-standards-astm-top-level.md) — top-level loose ASTM PDFs (B/C/F/other committees) staged at the root of `ASTM/` and not yet split into per-committee subdirectories; the catalog companion to this E-Series page for cross-letter resolution and the catalog-hygiene anchor for E-Series-misplaced PDFs.

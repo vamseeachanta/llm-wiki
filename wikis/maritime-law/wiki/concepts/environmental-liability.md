@@ -184,6 +184,7 @@ The structural divide is the practitioner's first analytical fork in any polluti
 - [[entities/mv-prestige-2002]](../entities/mv-prestige-2002.md) — drove MARPOL single-hull phase-out advance (MEPC.111(50)); Spanish criminal sanction
 - [[entities/deepwater-horizon-2010]](../entities/deepwater-horizon-2010.md) — modern OPA 90 reference; §2704(c) gross-negligence cap-loss against oil major
 - [[entities/mv-wakashio-2020]](../entities/mv-wakashio-2020.md) — first major Nairobi WRC + Bunkers + MLC tri-instrument application
+- [[entities/wagon-mound-1961]](../entities/wagon-mound-1961.md) — *Overseas Tankship (UK) Ltd v Morts Dock & Engineering Co* ('The Wagon Mound No 1') [1961] AC 388. Privy Council. Bunker-fuel spill in Sydney Harbour; established the **reasonable-foreseeability** test for tort remoteness, displacing the *Re Polemis* "direct consequence" test. The pre-CLC common-law substrate that the IMO compensation-stack later overlaid for tanker-and-bunker pollution; still the controlling authority on remoteness for non-CLC / non-OPA bunker-spill consequential-loss claims and a frequently-cited tort-doctrine anchor for environmental claims that fall outside the Tier-1 strict-liability conventions.
 
 **Cross-wiki**
 - [Pipeline Integrity Assessment](../../../engineering/wiki/concepts/pipeline-integrity-assessment.md) — pipeline failure leading to spill triggers environmental liability

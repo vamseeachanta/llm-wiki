@@ -7,7 +7,6 @@ last_updated: 2026-05-09
 domain: maritime-law
 # 
 cross_links: []
---- maritime-law standards-page extra fields (treaty-flavored; per maritime-law/CLAUDE.md schema) ---
 code_id: bunkers-convention-2001
 publisher: IMO
 instrument_type: treaty

@@ -119,6 +119,10 @@ This is what "constitution of the oceans" means in practice: every operational m
 - [flag-state-jurisdiction](./flag-state-jurisdiction.md) — UNCLOS Articles 91, 92, 94, 105.
 - [port-state-control](./port-state-control.md) — UNCLOS Article 218 enforcement architecture.
 
+**Cases (entities) — foundational ITLOS / UNCLOS jurisprudence**
+
+- [m-v-saiga-cases-1997-1999](../entities/m-v-saiga-cases-1997-1999.md) — *M/V Saiga (No. 1 and No. 2)*, ITLOS Cases No. 1 and No. 2 (Saint Vincent and the Grenadines v Guinea). The first major ITLOS proceedings; Saiga No. 1 established the Article 292 prompt-release procedure, and Saiga No. 2 narrowed the Article 111 hot-pursuit doctrine and held that the Article 91 genuine-link requirement does not entitle third states to refuse recognition of a flag. The doctrinal substrate for the EEZ-enforcement, hot-pursuit, prompt-release, and open-registry questions that surface in later UNCLOS jurisprudence.
+
 ## Citation Source
 
 - UN DOALOS portal: <https://www.un.org/depts/los/>

@@ -57,5 +57,5 @@ cross_links:
 - **Concept**: [Hague-Visby Rules — Doctrinal Synthesis](../concepts/hague-visby-rules.md) — concept page references this case as the modern authority on Article III/IV burden of proof.
 - **Standard**: [Hague-Visby Rules](../standards/hague-visby-rules.md) — standards page metadata for the underlying instrument.
 - **Sibling private-law instrument**: [Charterparties](../concepts/charterparties.md) — voyage and time charters interact with the Hague-Visby regime where bills of lading are issued under a charter.
-- **Antecedent precedent**: *The Glendarroch* [1894] P 226 — the 50-year-restored common-law authority on bailee burden of proof.
+- **Antecedent precedent**: [*The Glendarroch* [1894] P 226](./glendarroch-1894.md) — the late-Victorian common-law authority on bailee burden of proof under excepted-perils clauses; *Volcafe* is the modern UK Supreme Court restorer of the *Glendarroch* presumption against the carrier under Hague-Visby Article IV(2)(m), realigning the burden-of-proof structure with the original common-law allocation that intervening 20th-century authority had drifted away from.
 - **Subsequent application**: *The Eternal Bliss* [2020] UKSC 11 — application of the *Volcafe* framework in a related Supreme Court decision.

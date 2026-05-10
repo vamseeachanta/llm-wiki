@@ -124,6 +124,7 @@ The discipline that distinguishes a major non-conformity from a non-conformity i
   methodology for SMS pressure-equipment scope. The treaty regime
   delegates the engineering content; the SMS document records the
   management-system envelope around it.
+- [Risk-Based Inspection (concept)](../../../engineering-standards/wiki/concepts/risk-based-inspection.md) — **bidirectional bridge**: where the API RP 580/581 bridge above resolves the *standard-side* engineering substrate, the RBI **concept page** carries the methodology-side gloss: POF × COF risk-matrix construction, inspection-effectiveness Bayesian update, damage-mechanism catalogues, and the qualitative→semi-quantitative→quantitative escalation ladder. ISM Code Part A §1.2.2.2 and §7 audit findings on SMS pressure-equipment scope (FPSOs, gas carriers, MODUs, LNG-bunker vessels, FSRU/FLNG topsides) routinely reference the RBI concept-page taxonomy when surveyors require the operator to demonstrate that the SMS risk-assessment register is methodologically defensible. The 2021 IMO Resolution **MSC.428(98) cybersecurity amendment** to the ISM Code extends SMS scope to OT/ICS networks and opens a *cybersecurity-RBI* extension where consequence-of-cyber-failure becomes a COF axis alongside safety, environment, financial, and reputational axes — making this concept-level bridge load-bearing for FPSO, MODU, and LNG-carrier programmes where integrated-control-system compromise can drive a release scenario as severely as a mechanical failure.
 
 ## Citation Source
 

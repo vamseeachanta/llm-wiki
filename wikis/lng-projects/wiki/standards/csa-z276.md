@@ -158,6 +158,10 @@ diverge.
 - [lng-marine-transfer-systems](../concepts/lng-marine-transfer-systems.md) — terminal-side marine transfer at Canadian export terminals.
 - [lng-boil-off-gas-management](../concepts/lng-boil-off-gas-management.md) — BOG handling, downstream of Z276 Clause 5 storage-design choices.
 
+**Cross-wiki bridge (engineering-standards)**
+
+- [Risk-Based Inspection (concept)](../../../engineering-standards/wiki/concepts/risk-based-inspection.md) — **bidirectional bridge**: CSA Z276 Clause 8 (Operations and Maintenance) requires in-service inspection programmes for the LNG-facility equipment universe — refrigerated LNG storage tanks (single / double / full / membrane), cryogenic process piping, vaporizers, BOG-compressor trains, transfer-arm assemblies, and impoundment-system components. Z276 specifies neither a numeric POF×COF risk-matrix nor a quantitative damage-factor methodology; the engineering-substrate is supplied by the **Risk-Based Inspection** concept page (qualitative / semi-quantitative / quantitative escalation ladder; inspection-effectiveness Bayesian update; damage-mechanism catalogue). For Canadian LNG terminals (LNG Canada Kitimat, Woodfibre LNG, Bear Head LNG, Saint John) the dominant damage modes diverge from refinery / petrochem norms because the cryogenic-service envelope shifts the failure mechanisms — **brittle fracture** of 9% Ni or austenitic-stainless storage-tank shells, **thermal-fatigue** cycle accumulation per shipment on loading-arm bellows and spray-line spools, **fracture-toughness** re-qualification of replacement plate per ASTM E1921 master-curve methodology, and cryogenic vapour-cloud dispersion as the dominant COF axis. CSA Z276 Clause 8 inspection programmes consume the RBI methodology page when operators codify their in-service inspection plans for regulator submission to provincial authorities and (for cross-border projects) joint US-FERC review.
+
 **International / regulatory parallels**
 
 - **EN 1473** — European Union onshore LNG installation-and-equipment standard; the EU-side parallel.
@@ -168,5 +172,5 @@ diverge.
 - [woodfibre-corpus-pointer](../sources/woodfibre-corpus-pointer.md) — Woodfibre LNG ACMA-31522 corpus pointer; Z276 is the binding design code for the Woodfibre project deliverables tracked there.
 - [igu-2025-lng-report](../sources/igu-2025-lng-report.md) — IGU 2025 World LNG Report; capacity context for the Canadian LNG project landscape governed by Z276.
 - [ferc-lng-portal](../sources/ferc-lng-portal.md) — FERC LNG portal; complementary US-side regulatory portal for jointly-permitted cross-border projects.
-- [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md) — the schema this page resolves for downstream `Citation` instances.
+- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — the schema this page resolves for downstream `Citation` instances.
 - Publisher catalog: <https://www.csagroup.org/store/product/CSA%20Z276:23/>

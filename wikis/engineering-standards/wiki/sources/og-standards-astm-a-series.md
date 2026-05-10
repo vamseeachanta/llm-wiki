@@ -172,6 +172,10 @@ Standards pages already promoted from this A-Series slice (each should cite this
 - [`standards/astm-a335`](../standards/astm-a335.md) — Seamless ferritic alloy-steel pipe for high-temperature service.
 - [`standards/astm-a553`](../standards/astm-a553.md) — Pressure-vessel plates, alloy-steel, quenched and tempered, 8% / 9% nickel for low-temperature service.
 
+Sibling-slice catalog pages (other ASTM committees in the same `/mnt/ace/O&G-Standards/ASTM/` parent root):
+
+- [`sources/og-standards-astm-top-level`](./og-standards-astm-top-level.md) — top-level loose ASTM PDFs (B/C/F/other committees) staged at the root of `ASTM/` and not yet split into per-committee subdirectories; the catalog companion to this A-Series page for cross-letter resolution.
+
 Concept pages that should cite this source when invoking A-Series-published material specs:
 
 - [`concepts/sour-service-materials`](../concepts/sour-service-materials.md) — A-Series duplex (A790, A815, A923) and bolting (A193) specs are the procurement anchors for NACE MR0175 / ISO 15156 qualification.

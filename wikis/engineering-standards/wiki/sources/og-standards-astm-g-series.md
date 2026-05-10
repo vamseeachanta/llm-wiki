@@ -97,3 +97,7 @@ Concept-page cross-links to land or update:
 - Optional: [pitting-and-crevice-corrosion](../concepts/pitting-and-crevice-corrosion.md) for G46/G48/G78 and [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) for G36/G38/G39/G44.
 
 Edition-history index: G15 (5 revisions), G48 (4 revisions), G85 (4 revisions), G1 (3 revisions), G38 (3 revisions), G78 (3 revisions), G105 (3 revisions) — multi-edition codes warrant a revision-history table on the per-code standards page.
+
+Sibling-slice catalog pages (other ASTM committees in the same `/mnt/ace/O&G-Standards/ASTM/` parent root):
+
+- [`sources/og-standards-astm-top-level`](./og-standards-astm-top-level.md) — top-level loose ASTM PDFs (B/C/F/other committees) staged at the root of `ASTM/` and not yet split into per-committee subdirectories; the catalog companion to this G-Series page for cross-letter resolution.

@@ -115,11 +115,14 @@ The navigational-fault defense is the most commercially significant and the most
 
 **Successor regimes**
 
-- [`standards/rotterdam-rules.md`](../standards/rotterdam-rules.md) — successor regime; door-to-door scope, raised limits, navigational-fault abolition; signed but not in force.
+- [`concepts/rotterdam-rules.md`](./rotterdam-rules.md) — sibling concept-tier doctrinal synthesis of the UN UNCITRAL successor regime; details the door-to-door multimodal scope, the abolition of the navigational-fault defense, and the failed-launch ratification picture (5 ratifications vs. 20 required) that explains why Hague-Visby remains the live regime.
+- [`standards/rotterdam-rules.md`](../standards/rotterdam-rules.md) — successor regime metadata resolver; door-to-door scope, raised limits, navigational-fault abolition; signed but not in force.
 
 **Case-law application**
 
 - [`entities/eurasian-dream-2002.md`](../entities/eurasian-dream-2002.md) — application of Hague-Visby to charterer-issued bills and to carrier-identity contests under the demise clause.
+- [`entities/eurymedon-1974.md`](../entities/eurymedon-1974.md) — *The Eurymedon* [1975] AC 154 (Privy Council). Established the Himalaya-clause mechanism by which Hague-Visby Article IV(2) carrier exemptions and Article III(6) time-bar protection extend to stevedores and other independent contractors via a unilateral-contract / collateral-contract route; the leading authority on the cargo-claimant-vs-stevedore exposure that bill-of-lading drafters every day try to close out under the Hague-Visby regime.
+- [`entities/glendarroch-1894.md`](../entities/glendarroch-1894.md) — *The Glendarroch* [1894] P 226 (Court of Appeal). Pre-Hague-Rules common-law authority on the bailee burden of proof under "perils of the sea" and other excepted-perils clauses; the doctrinal substrate that *Volcafe* (2018) restored as the modern Hague-Visby Article IV(2) burden-of-proof allocation, giving Hague-Visby its present-day inherent-vice burden-of-proof structure.
 
 **Limitation interface**
 

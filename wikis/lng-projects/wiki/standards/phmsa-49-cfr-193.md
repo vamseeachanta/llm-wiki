@@ -110,5 +110,5 @@ These incidents are anchors, not an exhaustive list — see `[lng-process-safety
 
 - Live regulation text: <https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-193> — eCFR is the authoritative current source; PHMSA does not maintain a separate canonical PDF.
 - Future: `[[lng-regulatory-portals]]`(../sources/lng-regulatory-portals.md) — sources/* catalog summary aggregating eCFR, FERC, USCG, and PHMSA portals (stub — to be created when sources/ catalog reaches the US federal LNG cluster).
-- [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md) — schema for `Citation` instances resolving to this page.
+- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — schema for `Citation` instances resolving to this page.
 - Publisher catalog: PHMSA portal at <https://www.phmsa.dot.gov/> (LNG program pages); NFPA 59A catalog entry at <https://www.nfpa.org/> for the IBR'd edition.

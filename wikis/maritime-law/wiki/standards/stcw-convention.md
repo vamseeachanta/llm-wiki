@@ -7,7 +7,6 @@ last_updated: 2026-05-10
 domain: maritime-law
 # 
 cross_links: []
---- maritime-law standards-page extra fields (treaty-flavored; per maritime-law/CLAUDE.md schema) ---
 code_id: stcw-convention
 publisher: IMO
 consolidated_edition: "STCW 1978 + 1995 Amendments + 2010 Manila Amendments"

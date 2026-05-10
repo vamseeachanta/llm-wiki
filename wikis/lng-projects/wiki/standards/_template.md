@@ -127,5 +127,5 @@ page exists yet, file a future-promotion stub here and create the
 sources/ page when raw-corpus indexing reaches this code.>_
 
 - _<e.g. [lng-projects-sources-csa-z276](../sources/<slug>.md) — sources/* catalog summary>_
-- [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md)
+- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 - Publisher catalog: <public_url>

@@ -152,5 +152,5 @@ must `Citation`-resolve to this page at a pinned revision.
 ## Sources
 
 - `sources/lng-regulatory-portals.md` — link to the (future) lng-projects sources catalog page summarizing the NFPA, PHMSA, FERC, IMO, CSA, and CEN public catalogs
-- [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md) — the schema this page resolves for downstream `Citation` instances
+- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — the schema this page resolves for downstream `Citation` instances
 - Publisher catalog: <https://www.nfpa.org/codes-and-standards/all-codes-and-standards/list-of-codes-and-standards/detail?code=59A>

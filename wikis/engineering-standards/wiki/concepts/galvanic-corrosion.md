@@ -108,6 +108,8 @@ Selection is constrained by service temperature, mechanical loading, the availab
 - [api-rp-571](../standards/api-rp-571.md) — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* Mechanism catalogue; galvanic corrosion is covered as a discrete damage mechanism with affected materials, critical factors, and inspection guidance. Anchor reference for refinery and downstream-plant screening.
 - [dnv-rp-b401](../standards/dnv-rp-b401.md) — *Cathodic Protection Design.* The protective application of the same physics — anode-area sizing, alloy capacity, and zone current densities for offshore galvanic-anode systems. Cross-referenced from this page because every CP design is also an explicit galvanic-corrosion design (the engineer chooses which metal corrodes).
 
+- [nace-34103](../standards/nace-34103.md) — *AMPP / NACE Publication 34103: Refinery Crude Unit Practical Damage Mechanisms.* Refinery-side mechanism reference that catalogues galvanic-corrosion scenarios alongside naphthenic-acid and HCl/Cl-corrosion at crude-unit dissimilar-metal joints (CRA trim in CS pipework, Inconel weld overlays in CS shells); complements the offshore-CRA-couple framing in API-RP-571.
+
 Adjacent standards (flagged for future ingest as the corpus grows):
 
 - **ASTM G71** — *Standard Guide for Conducting and Evaluating Galvanic Corrosion Tests in Electrolytes.* Couple-test protocol for ranking candidate material pairs in a project-specific electrolyte.

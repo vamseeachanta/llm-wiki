@@ -233,6 +233,10 @@ the damage factor unchanged.
   RBI methodology generically and routes into RP 581 as the
   quantitative implementation.
 
+## Cross-wiki bridge (maritime-law)
+
+- **[ISM Code](../../../maritime-law/wiki/concepts/ism-code.md)** — **bidirectional bridge**: the IMO ISM Code (mandatory under SOLAS Ch. IX) imposes a Safety Management System (SMS) risk-assessment obligation on operators of SOLAS vessels, including FPSOs, MODUs, gas carriers, and process-module-equipped offshore units, but specifies no numeric POF / COF methodology. RP 581's quantitative damage-factor catalogue (Part II) and consequence-of-failure modelling (Part III) supply the engineering-substrate that the SMS records — particularly for shipboard pressure equipment, cargo-system piping, vapour-handling vessels, and topsides-mounted pressure vessels — and are referenced through class-society implementation guidance (IACS UR Z17 on ISM auditing; ABS / DNV / LR / BV / ClassNK class rules). The 2021 IMO Resolution **MSC.428(98) cybersecurity amendment** to the ISM Code extends SMS scope to OT/ICS networks, opening a *cybersecurity-RBI* extension where consequence-of-cyber-failure becomes a COF axis alongside RP 581's safety, environment, and financial axes — a load-bearing extension for FPSO, MODU, and LNG-carrier programmes where integrated-control-system compromise can drive a release scenario as severely as a mechanical failure. Use the bridge for shipboard pressure-equipment integrity programmes that must satisfy both an RP 580/581 RBI deliverable and an SMS Part A §1.2.2.2 / §7 risk-assessment audit deliverable.
+
 ## Why this page exists
 
 Resolver target for digitalmodel `Citation` instances per

@@ -7,7 +7,6 @@ last_updated: 2026-05-09
 domain: maritime-law
 # 
 cross_links: []
---- maritime-law standards-page extra fields (treaty-flavored) ---
 code_id: paris-mou
 publisher: "Paris MoU Secretariat (member maritime authorities)"
 instrument_type: mou

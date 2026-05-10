@@ -7,7 +7,6 @@ last_updated: 2026-05-10
 domain: maritime-law
 # 
 cross_links: []
---- maritime-law standards-page extra fields (treaty-flavored) ---
 code_id: salvage-convention-1989
 publisher: IMO
 instrument_type: treaty

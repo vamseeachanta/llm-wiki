@@ -55,6 +55,7 @@ cross_links:
 
 - **Concept**: [Hague-Visby Rules — Doctrinal Synthesis](../concepts/hague-visby-rules.md) — concept page references Article III rule 1 seaworthiness.
 - **Standard**: [Hague-Visby Rules](../standards/hague-visby-rules.md) — instrument metadata.
+- **Successor-regime concept**: [Rotterdam Rules — Doctrinal Synthesis](../concepts/rotterdam-rules.md) — UNCITRAL door-to-door multimodal carriage-of-goods regime intended to displace Hague-Visby; *Eurasian Dream*'s carrier-identity holding maps onto the Rotterdam-Rules "performing party" architecture (Articles 1, 18-19) that would govern the same fact pattern in any future-in-force scenario.
 - **Sibling private-law instrument**: [Charterparties](../concepts/charterparties.md) — charter-chain identity questions.
 - **Related case**: [volcafe-2018](volcafe-2018.md) — Hague-Visby Article III/IV burden-of-proof modern authority.
 - **Operational interface**: [ism-code](../concepts/ism-code.md) — SOLAS-IX safety-management obligations that converge with the seaworthiness duty.
