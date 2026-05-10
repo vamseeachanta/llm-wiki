@@ -2,8 +2,8 @@
 domain: lng-projects
 created: 2026-04-28 19:23 UTC
 last_updated: 2026-05-09
-page_count: 27
-source_count: 5
+page_count: 30
+source_count: 8
 ---
 
 # Knowledge Index: lng-projects
@@ -45,6 +45,9 @@ _No query outputs filed yet._
 | [[Elements ingest catalog — acma-projects-31522-woodfibre]](sources/elements-acma-projects-31522-woodfibre.md) | Woodfibre LNG project corpus for AceEngineer project 31522; very large corpus, metadata-first with c... | 2026-04-28 |
 | [[Woodfibre LNG corpus pointer (ACMA project 31522)]](sources/woodfibre-corpus-pointer.md) | Metadata-only pointer to the Woodfibre LNG corpus shape, deliverable families, and extraction boundary. | 2026-05-01 |
 | [[IGU 2025 World LNG Report]](sources/igu-2025-lng-report.md) | International Gas Union annual industry report (16th ed); free PDF; trade flows + capacity + projects. | 2026-05-09 |
+| [[IGU 2024 World LNG Report]](sources/igu-2024-lng-report.md) | IGU 15th edition (covers 2023 data); prior-year companion to 2025 edition for year-over-year trend framing. | 2026-05-09 |
+| [[GIIGNL Annual Report]](sources/giignl-annual-report.md) | International Group of LNG Importers annual; importer-side framing — receiving-terminal capacity + spot-market trends. | 2026-05-09 |
+| [[DOE / EIA LNG Outlook + Henry Hub]](sources/doe-eia-lng-outlook.md) | US DOE/EIA LNG export-import statistics + Henry Hub pricing + STEO/AEO outlooks; companion to FERC. | 2026-05-09 |
 | [[FERC LNG Portal + eLibrary]](sources/ferc-lng-portal.md) | US authoritative LNG project information + per-docket public documents (Sabine Pass, Plaquemines, etc). | 2026-05-09 |
 
 ## Standards

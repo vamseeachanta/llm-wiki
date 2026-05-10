@@ -69,7 +69,12 @@ API Spec 17J is the global default for unbonded flexible pipe specification. Sis
 - [[api-17e]] — subsea umbilicals sister-specification
 - [[bs-13628-2-flexible-pipe-subsea]] — BSI/ISO technically-equivalent adoption
 - Cathodic protection of flexible-pipe carcass, tensile-armor, and outer-sheath: see engineering-standards `concepts/cathodic-protection.md` (when authored)
-- Cross-wiki bridges: lng-projects/standards/igc-code.md (offshore-LNG-loading service), maritime-law/standards/marpol-73-78.md (Annex I oil-pollution implications of flexible-riser failure)
+
+**Cross-wiki bridges:**
+
+- [IGC Code](../../../lng-projects/wiki/standards/igc-code.md) — offshore-LNG-loading-service interface for offshore loading terminals + STS transfer hoses; flexible-pipe envelopes apply to cryogenic LNG transfer through the IGC Code Ch.5 cargo-handling provisions.
+- [MARPOL 73/78](../../../maritime-law/wiki/standards/marpol-73-78.md) — **bidirectional bridge**: API Spec 17J's design, materials, fabrication, and integrity-management requirements for unbonded flexible pipe directly affect oil-pollution-prevention performance of offshore subsea production systems regulated by MARPOL Annex I. The dominant flexible-pipe failure modes catalogued under API Spec 17J + API RP 17B service-life prediction methodology — **carcass collapse** (annulus flooding, hydrostatic crush), **tensile-armor wire fracture** (corrosion-fatigue, HISC of duplex wires under cathodic protection per DNV-RP-F112), **end-fitting leakage** (epoxy-resin debonding, vent-port blockage), **outer-sheath rupture** (seawater ingress to annulus, accelerated tensile-armor corrosion), and **pressure-sheath aging** (CO2/H2S permeation, polymer plasticization) — feed pollution-incident root-cause analysis and MARPOL Annex I non-conformance inquiries when subsea releases reach the marine environment from FPSO / FSO / subsea-tieback systems. Industry-loss databases (OGP, IADC, DNV) map flexible-riser-failure incidents onto Annex I oil-pollution reportable thresholds; the API 17J integrity-management envelope and the MEPC casualty-reporting regime share root-cause-analysis vocabulary through this bridge. The pairing also feeds Annex VI air-pollution accounting where flexible-riser failure triggers blowdown/flaring events on host floating production systems.
+
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Where to find the full text
