@@ -116,9 +116,9 @@ all of the above.
 ## Related concepts
 
 - [fitness-for-service](fitness-for-service.md) — downstream consumer of toughness data.
-- [[fatigue-crack-growth]] — sub-critical crack-growth complement to
+- [fatigue-crack-growth](fatigue-crack-growth.md) — sub-critical crack-growth complement to
   this page (ASTM E647 territory).
-- [[master-curve-and-transition-temperature]] — statistical brittle-
+- [master-curve-and-transition-temperature](master-curve-and-transition-temperature.md) — statistical brittle-
   ductile transition (E1921 `T₀`) built on E1820 / E399 data points.
 - [weld-toughness](weld-toughness.md) — weldment-specific sampling, HAZ targeting, and
   pipeline girth-weld ECA practice.

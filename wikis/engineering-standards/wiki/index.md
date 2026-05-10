@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-10
-page_count: 207
+page_count: 210
 source_count: 19
 ---
 
@@ -237,3 +237,6 @@ _No query outputs filed yet._
 | [[ASTM G85]](standards/astm-g85.md) | Modified Salt Spray (Fog) Testing — A1/A2/A3/A4/A5 annex family for accelerated chloride-fog coating qualification; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
 | [[ASTM G123]](standards/astm-g123.md) | SCC of Stainless Alloys in Boiling Acidified NaCl — Ni-content-resistance ranking method; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
 | [[ASTM A923]](standards/astm-a923.md) | Detecting Detrimental Intermetallic Phase in Duplex Austenitic/Ferritic Stainless Steels — Method A NaOH etch + Method B Charpy + Method C FeCl3; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
+| [[BS 7910]](standards/bs-7910.md) | Guide to Methods for Assessing the Acceptability of Flaws in Metallic Structures — canonical short-slug resolver paired with legacy_slug=bs-7910-flaw-assessment; 13-reference wikilink-residual fill (W221 iter-48). | 2026-05-10 |
+| [[API 1104]](standards/api-1104.md) | Welding of Pipelines and Related Facilities — canonical short-slug resolver paired with legacy_slug=api-std-1104; 3-reference wikilink-residual fill (W221 iter-48). | 2026-05-10 |
+| [[DNV-RP-G101]](standards/dnv-rp-g101.md) | Risk Based Inspection of Offshore Topsides Static Mechanical Equipment — sister to DNV-RP-C210 + API RP 580/581; 3-reference substrate-fill resolver (W221 iter-48). | 2026-05-10 |

@@ -45,6 +45,26 @@ Corrosion-rate evidence reaches the engineer through three operationally distinc
 
 **Mass-loss** is the calibration ground truth — it is what every rate model is ultimately validated against — but it is offline, slow, and aggregate (one number per coupon per exposure). **Electrochemical** methods are fast and continuous and deliver instantaneous rate values, but require a calibration of the polarisation resistance against mass-loss for the specific environment. **In-service thickness** is what the code inspection programme actually consumes; it is direct, traceable, and comparable across surveys, but it has a detection floor set by the technique's resolution and by surface-condition variability.
 
+### Multi-criteria comparison of measurement modalities
+
+| Criterion | Mass-loss coupon | Electrochemical (LPR / EIS) | In-service UT | In-service ILI |
+|---|---|---|---|---|
+| Output type | Aggregate exposure-window rate | Instantaneous rate | Discrete-point thickness | Pipeline-length thickness profile |
+| Time resolution | Weeks-to-months per data point | Seconds-to-minutes | Per inspection cycle (years) | Per ILI run (years) |
+| Spatial resolution | One coupon per station | One probe per cell | One CML at a time | Continuous along pipeline length |
+| Localised-attack sensitivity | Visible at coupon retrieval | Limited (averaged signal unless arrayed) | Localised wall-thinning visible if CML coincides | Localised-thinning detection is the design strength |
+| Calibration burden | Native unit (mass loss) | High — Tafel constants per environment | Low (well-established UT practice) | High — tool-specific calibration |
+| Field-reality coupling | Low (lab-only) or moderate (sidestream loop) | Moderate (real fluid, simplified flow) | High (actual asset, actual service) | High (actual pipeline, actual fluid) |
+| Cost per data point | Low (per coupon) / Medium (per programme) | Medium (per probe channel) | Low (per CML reading) / Medium (PAUT campaign) | High (per ILI run) |
+| Standards anchor | ASTM G1 + G31 + G102 | ASTM G3 + G5 + G59 + G102 + G106 | API RP 574 + ASME V | API STD 1163 + NACE SP0102 family |
+
+### Modality-selection worked examples
+
+- **Worked example — refinery sour-water stripper overhead.** The damage-mechanism candidates (NH4HS-induced erosion-corrosion; cyanide-aggravated SSC) span both rate-driven thinning and localised cracking. Coupon programmes alone cannot resolve flow-induced upper-bound rates; site practice combines a mass-loss coupon station upstream of the air-cooler header with PAUT thickness mapping at high-velocity elbows and near-the-tubesheet-end. The combined data feed an [API RP 571](../standards/api-rp-571.md) damage-mechanism interpretation that supports the [risk-based-inspection](risk-based-inspection.md) screening.
+- **Worked example — offshore topsides produced-water injection line.** A field operator deploying a corrosion-inhibitor injection programme uses an LPR probe immediately downstream of the inhibitor injection quill for *real-time inhibitor-effectiveness feedback* (fast control loop) plus an ER probe for cumulative-damage trending plus a mass-loss coupon for monthly calibration. The three data streams are reconciled at the well-pad telemetry layer; the LPR probe drives the inhibitor injection-rate controller, while the coupon is the auditable rate-of-record reported to the integrity-management system.
+- **Worked example — LNG cryogenic-piping cold-spot CUI.** Although LNG pipework runs cold, sections that warm to within the CUI window during defrost or upset can experience accelerated CUI under jacketing. UT thickness mapping is the primary in-service tool, but selection of CMLs is driven by a [CUI](corrosion-under-insulation.md) damage-mechanism heat-map of the line (see also the LNG cross-wiki bridge in [LNG Process Safety](../../../lng-projects/wiki/concepts/lng-process-safety.md) RP 571 mapping section). Electrochemical probes are not generally usable in the cryogenic service itself; they appear instead on accompanying utility lines (glycol, hot-oil) where wet conditions admit a probe cell.
+- **Worked example — atmospheric storage tank shell course (API 653 driver).** An ageing carbon-steel shell with a 25-year service history might be evaluated with a primary survey of vertical-and-horizontal UT grids on each shell course (driven by API 653 inspection-interval rules), supplemented at suspected high-rate zones with PAUT C-scans, and correlated against the historical [LTCR](#what-is-corrosion-rate) trend. A mass-loss coupon programme on the tank's internal floor / bottom plate (API 653 Annex C type) feeds the bottom-plate corrosion-rate input to the next out-of-service inspection planning cycle.
+
 ## In-service workflow
 
 The in-service path from instrument reading to inspection-interval is codified in the API inspection trilogy:
@@ -72,7 +92,42 @@ Indicative ranges for common damage mechanisms — these are illustrative, not n
 
 Because several of the most aggressive mechanisms (pitting, MIC, CUI under-deposit attack) produce localised damage rather than uniform thinning, a single rate-of-loss value can mis-represent the actual integrity threat. The corrosion engineer pairs the rate metric with the damage-mechanism catalogue (see [API RP 571](https://www.api.org/) — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry*) to interpret what the rate number actually means for a given equipment item.
 
-## Lab-versus-field reconciliation
+## In-service corrosion-monitoring instrumentation
+
+The in-service modality column above hides a distinction that field practice routinely makes: between *survey* methods (taken on a campaign basis at scheduled CMLs) and *continuous-monitoring* methods (live-data probes that the operator's distributed control system reads on a polling interval). Continuous-monitoring instruments are not a substitute for survey UT — code inspection programmes still require the periodic CML record — but they are now standard for service environments where the rate is expected to vary on a timescale shorter than the inspection interval.
+
+| Probe class | Measurement principle | Industry-application context | Primary standard / practice |
+|---|---|---|---|
+| Mass-loss coupons (CCD) | Recovered specimen weight loss after fixed exposure | Refining, petrochem, oilfield wet service, water-injection systems | NACE SP0775 — coupon installation, retrieval, interpretation |
+| Electrical-resistance (ER) probes | Resistance increase as probe element thins | Process piping, water injection, gas-treatment loops | API RP 571 (mechanism interpretation) + manufacturer practice |
+| Linear polarisation resistance (LPR) probes | Polarisation-resistance inverse proportional to corrosion current density | Cooling-water, water-injection, inhibitor-effectiveness loops; only in conductive electrolytes | ASTM G59 + ASTM G102 |
+| Galvanic-pair / ZRA probes | Coupling current between dissimilar electrodes | Bimetallic-couple risk monitoring; oxygen-ingress detection | ASTM G71 (galvanic test) + ASTM G3 conventions |
+| Hydrogen-flux (H probes) | Permeated H2 from corrosion reactions on the back face of process steel | Sour service, HF alkylation, amine units — leading indicator for HIC / SOHIC environments | API RP 939-C (ammonia / amine SCC reference) + manufacturer practice |
+| Ultrasonic permanently-installed monitors (UT-PIM) | Wireless or wired UT transducers at fixed locations | High-temperature piping, sulfidation circuits, hydrogen reformer transfer lines | Vendor-specific; some operator integrity-management standards reference |
+| Acoustic emission (AE) | Stress-wave detection during active cracking | Atmospheric tanks (API 653 internal-inspection deferral), pressure vessels — qualitative | ASTM E1316 + ASME BPVC Section V |
+| Field signature method (FSM) | Multi-electrode array measuring local resistance change | Subsea pipelines, riser-base monitoring, splash-zone | Vendor-specific; operator-validated |
+
+### Industry-application context table
+
+| Sector | Dominant rate-monitoring stack | Driver |
+|---|---|---|
+| Refining (atmospheric / vacuum / coker) | UT survey + UT-PIM on sulfidation circuits + H-flux probes on amine / sour-water units | Ageing-asset run-length under API 510 / 570 + RP 571 mechanism mix |
+| Petrochemical (olefins / aromatics) | UT survey + ER probes on caustic-treater loops + AE on critical reactor vessels | Chloride SCC + caustic SCC in stainless-steel circuits |
+| Offshore upstream (topsides) | LPR + ER + coupons on injection lines + UT survey on piping circuits | Combined CO2 / H2S / chloride service; multi-mechanism interpretation |
+| LNG (liquefaction / regasification) | UT survey on cold-box utilities + CUI inspection on warm-cold-cycling piping | Cryogenic envelope makes electrochemical probes inapplicable in cold service |
+| Pipelines (long-distance) | ILI run-comparison + above-ground UT spot-checks at exposed crossings | Inaccessibility makes ILI the primary modality; survey-rate, not continuous |
+| Storage tanks (API 653) | Floor-bottom robotic UT + shell-course UT grids + AE for in-service screening | Floor inspection drives the longest planning-and-cost element of API 653 cycles |
+
+## Lab-versus-field reconciliation — worked reconciliation example
+
+Consider a refinery operator running a new amine-treater overhead circuit. Pre-startup material qualification used ASTM G31 immersion coupons in synthetic lean-amine + 1 % H2S at 60 °C, returning a measured corrosion rate on carbon-steel coupons that supported the original metallurgical selection of carbon steel with a 3 mm corrosion allowance and a 10-year design life. Two years into service, on-line UT survey at the high-velocity elbow downstream of the reflux drum shows an STCR several times higher than the lab-derived prediction. The reconciliation gap admits four substantive interpretations, each with a different remediation:
+
+1. The lab cell did not reproduce the field flow regime — actual elbow shear is well above the rotating-cylinder lab condition; remediation is targeted PAUT C-scan + flow-induced-corrosion screening per [API RP 571](../standards/api-rp-571.md).
+2. The actual field chemistry has drifted from the design basis — heat-stable salt accumulation, oxygen ingress at the makeup point, or upstream process upset have all shifted the local corrosivity; remediation is process-condition root-cause analysis through Element 9-style operational reporting.
+3. The CMLs were poorly placed — the high-velocity elbow CML is now revealing what the survey programme would have shown if a flow-impingement-aware CML map had been used at startup; remediation is a CML-replan informed by the [risk-based-inspection](risk-based-inspection.md) feedback loop.
+4. The UT measurement itself is biased — surface scale, calibration drift, or operator variability are inflating the apparent thinning; remediation is repeat-with-different-technique (PAUT, IRIS) and inter-technician verification.
+
+The discipline that the lab-versus-field reconciliation requires is identifying *which* of these interpretations the data supports — not retreating to the most-conservative assumption automatically. This reconciliation work is a recurring topic in refinery and petrochemical [fitness-for-service](fitness-for-service.md) campaigns and is the substrate that the [risk-based-inspection](risk-based-inspection.md) re-evaluation cycle consumes.
 
 Laboratory corrosion-rate data (ASTM G31 immersion coupons, ASTM G59 LPR cells) feed **material-selection** decisions during design and qualification. In-service thickness data (UT surveys, ILI runs) feed **integrity-management** decisions during operation. The two data streams routinely diverge, for substantive reasons:
 
