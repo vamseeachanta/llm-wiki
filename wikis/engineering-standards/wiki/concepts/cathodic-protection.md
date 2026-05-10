@@ -277,11 +277,11 @@ future ingest):
 
 ## Related concepts
 
-- [[sour-service-materials]] — material selection under H2S where the
+- [sour-service-materials](sour-service-materials.md) — material selection under H2S where the
   CP-induced HE caveat is most acute.
 - [[submarine-pipeline-design]] — pipeline external corrosion control
   is one input to the wider design.
-- [[hydrogen-embrittlement]] — the failure mode the over-protection
+- [hydrogen-embrittlement](hydrogen-embrittlement.md) — the failure mode the over-protection
   caveat exists to prevent.
 
 ## Cross-wiki bridges

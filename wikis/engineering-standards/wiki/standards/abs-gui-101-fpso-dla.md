@@ -30,7 +30,7 @@ Resolver target for downstream `digitalmodel` `Citation` instances per `.claude/
 - Internal callers: no live structured `Citation(...)` call yet; highest-relevance ABS document for `digitalmodel/marine_ops/marine_engineering/` future calc wiring
 
 ## Cross-references
-- [[abs-gui-002-fpso]] — companion FPSO building-and-classing guide
-- [[abs-gui-115-fatigue-offshore]] — fatigue-assessment guide (often cross-cited from DLA workflows)
-- [[abs-rules-steel-vessels-part3]] — base steel-vessel hull rule book DLA augments
+- [abs-gui-002-fpso](abs-gui-002-fpso.md) — companion FPSO building-and-classing guide
+- [abs-gui-115-fatigue-offshore](abs-gui-115-fatigue-offshore.md) — fatigue-assessment guide (often cross-cited from DLA workflows)
+- [abs-rules-steel-vessels-part3](abs-rules-steel-vessels-part3.md) — base steel-vessel hull rule book DLA augments
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

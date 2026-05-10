@@ -34,7 +34,7 @@ Resolver target for downstream `digitalmodel` `Citation` instances per `.claude/
 - Internal callers: no live structured `Citation(...)` call yet
 
 ## Cross-references
-- [[abs-gui-101-fpso-dla]] — DLA workflow that cross-cites GUI-115 fatigue methodology
-- [[abs-gui-123-offshore-risers]] — riser-design guide with parallel S-N treatment
-- [[dnv-rp-c203]] — DNV fatigue-design counterpart
+- [abs-gui-101-fpso-dla](abs-gui-101-fpso-dla.md) — DLA workflow that cross-cites GUI-115 fatigue methodology
+- [abs-gui-123-offshore-risers](abs-gui-123-offshore-risers.md) — riser-design guide with parallel S-N treatment
+- [dnv-rp-c203](dnv-rp-c203.md) — DNV fatigue-design counterpart
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

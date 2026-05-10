@@ -196,7 +196,7 @@ screening) requires.
   method but preserves an E399-style K_Ic qualification path.
 - **API 579-1 / ASME FFS-1** — *Fitness-for-Service*. Consumes E399
   `K_Ic` (LEFM Option 1 / 2) and E1820 J-based toughness inputs in
-  Part 9 flaw-assessment procedures; see [[api-std-579]] when its
+  Part 9 flaw-assessment procedures; see [api-std-579](api-std-579.md) when its
   page lands.
 - **BS 7910** — *Guide to methods for assessing the acceptability of
   flaws in metallic structures* (BSI). UK FFS standard; cites E399
@@ -205,7 +205,7 @@ screening) requires.
 
 ## Sources
 
-- Concept-page consumer: [[fracture-toughness-measurement]](../concepts/fracture-toughness-measurement.md)
+- Concept-page consumer: [fracture-toughness-measurement](../concepts/fracture-toughness-measurement.md)
   — cross-references E399 in its `K_Ic` row and in its small-scale-
   yielding ancestry note; this standards page is the bidirectional
   target.

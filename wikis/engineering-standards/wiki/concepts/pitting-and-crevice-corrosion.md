@@ -107,9 +107,9 @@ The interaction matters: combined Cl⁻ + H2S environments are **more aggressive
 
 ## Related concepts
 
-- [[sour-service-materials]] — CRA selection envelope for H2S service; consumes G48 + MR0175 evidence.
-- [[cathodic-protection]] — galvanic interactions can shift the localized-corrosion susceptibility window (notably for duplex SS under CP, governed by DNV-RP-F112).
-- [[corrosion-rate-measurement]] — uniform-corrosion rate measurement; complementary but distinct from localized-attack ranking.
+- [sour-service-materials](sour-service-materials.md) — CRA selection envelope for H2S service; consumes G48 + MR0175 evidence.
+- [cathodic-protection](cathodic-protection.md) — galvanic interactions can shift the localized-corrosion susceptibility window (notably for duplex SS under CP, governed by DNV-RP-F112).
+- [corrosion-rate-measurement](corrosion-rate-measurement.md) — uniform-corrosion rate measurement; complementary but distinct from localized-attack ranking.
 
 ## Source materials
 

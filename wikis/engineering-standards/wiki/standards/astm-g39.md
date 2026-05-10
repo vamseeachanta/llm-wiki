@@ -30,7 +30,7 @@ publisher_catalog_url: https://www.astm.org/
 
 ASTM G39 is a **specimen-preparation practice** that defines fixturing, stressing, and conditioning conventions for **bent-beam stress-corrosion-cracking (SCC) test specimens**, with primary emphasis on the **four-point bent-beam (4PBB) geometry**. The 4PBB specimen is a flat strip or rectangular bar held in a fixture under inner-load-point and outer-support-point loading; the geometry produces a region of **uniform bending moment** between the inner load points where the outer-fiber tensile stress is approximately constant and analytically tractable. The fixture-imposed deflection sets the outer-fiber stress, and the deflected specimen is then exposed to the test environment.
 
-G39 is **explicitly a specimen-preparation practice, not a test method**: it provides the specimen recipe but does not specify the test environment, exposure duration, inspection schedule, or pass/fail criteria. The specifying test method ([[astm-g36]] for boiling MgCl2 Cl-SCC, [[astm-g44]] for 3.5% NaCl alternate immersion, [[ampp-tm-0177]] for sour-service SSC, ISO 7539-2 internationally) supplies those parameters. G39 is the dominant sheet/plate **bent-beam specimen-preparation reference** alongside [[astm-g30]] (U-bend) and [[astm-g38]] (C-ring) in the ASTM G-Series specimen-geometry triad.
+G39 is **explicitly a specimen-preparation practice, not a test method**: it provides the specimen recipe but does not specify the test environment, exposure duration, inspection schedule, or pass/fail criteria. The specifying test method ([astm-g36](astm-g36.md) for boiling MgCl2 Cl-SCC, [[astm-g44]] for 3.5% NaCl alternate immersion, [ampp-tm-0177](ampp-tm-0177.md) for sour-service SSC, ISO 7539-2 internationally) supplies those parameters. G39 is the dominant sheet/plate **bent-beam specimen-preparation reference** alongside [astm-g30](astm-g30.md) (U-bend) and [[astm-g38]] (C-ring) in the ASTM G-Series specimen-geometry triad.
 
 The 4PBB geometry is a **constant-deformation** specimen (the deflection is fixture-imposed and held), but unlike the U-bend's plastic-bend regime, the 4PBB outer-fiber stress is typically held in the elastic regime, often at a target outer-fiber stress at or above 0.9 σ_y but below the proof. This makes the 4PBB the **preferred geometry for SCC threshold-stress determination** — sequentially stressed specimens at varying load levels can bound the threshold stress σ_SCC for a given environment. G39 also covers two-point and three-point bent-beam variants for special applications.
 
@@ -56,9 +56,9 @@ The following are the specimen-preparation anchors that appear in the practice (
 ## Practitioner application
 
 - **SCC threshold-stress determination** — sequential 4PBB tests at varying outer-fiber stress to bracket σ_SCC for a given material-environment pair.
-- **Cl-SCC ranking of austenitic stainless steels** — 4PBB specimens in boiling MgCl2 ([[astm-g36]]) for elastic-regime ranking, complementary to plastic-regime U-bends.
-- **Sour-service-CRA SSC qualification** — Method-B-class bent-beam variants under [[ampp-tm-0177]] for [[ampp-mr-0175-pt3]] / [[iso-15156-3]] CRA acceptance.
-- **Welding-procedure SCC qualification** — sensitized-vs-solution-annealed weldment comparison; 4PBB specimens spanning weldment, HAZ, and parent-metal regions for [[welding-procedures-and-acceptance]].
+- **Cl-SCC ranking of austenitic stainless steels** — 4PBB specimens in boiling MgCl2 ([astm-g36](astm-g36.md)) for elastic-regime ranking, complementary to plastic-regime U-bends.
+- **Sour-service-CRA SSC qualification** — Method-B-class bent-beam variants under [ampp-tm-0177](ampp-tm-0177.md) for [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) / [iso-15156-3](iso-15156-3.md) CRA acceptance.
+- **Welding-procedure SCC qualification** — sensitized-vs-solution-annealed weldment comparison; 4PBB specimens spanning weldment, HAZ, and parent-metal regions for [welding-procedures-and-acceptance](../concepts/welding-procedures-and-acceptance.md).
 - **Heat-affected-zone (HAZ) SCC** — 4PBB specimens with a transverse weld in the uniform-moment region probe HAZ susceptibility to SCC.
 - **Aluminum-alloy SCC** — ASTM G47 and G64 reference G39 bent-beam geometries for 2XXX and 7XXX heat-treatable aluminum alloy SCC ranking.
 
@@ -68,7 +68,7 @@ G39 is the **default bent-beam specimen-preparation reference** for SCC testing 
 
 ## Why this page exists
 
-This page is the citation resolver target for `code_id = astm-g39` under `.claude/rules/calc-citation-contract.md`. W201 audit (iter-43) surfaced `astm-g39` as an unmatched slug from multiple cross-references in [[astm-g36]] and the [[stress-corrosion-cracking]] concept page (table of SCC test specimen geometries; row "Bent-beam (any SCC environment) | ASTM G39"). The page anchors that link target without reproducing any clause text, fixture-geometry tables, or stress formulas.
+This page is the citation resolver target for `code_id = astm-g39` under `.claude/rules/calc-citation-contract.md`. W201 audit (iter-43) surfaced `astm-g39` as an unmatched slug from multiple cross-references in [astm-g36](astm-g36.md) and the [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) concept page (table of SCC test specimen geometries; row "Bent-beam (any SCC environment) | ASTM G39"). The page anchors that link target without reproducing any clause text, fixture-geometry tables, or stress formulas.
 
 ## Where to find the full text
 
@@ -76,15 +76,15 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0039-9
 
 ## Cross-references
 
-- [[astm-g36]] — *Boiling Magnesium Chloride SCC Test* — primary consumer test method that invokes G39 bent-beam geometry for elastic-regime Cl-SCC ranking of austenitic stainless steels.
-- [[astm-g30]] — *U-Bend Stress-Corrosion Test Specimens* — sister specimen-preparation practice for the plastic-bend U-bend geometry; complementary to G39's elastic-regime bent-beam.
+- [astm-g36](astm-g36.md) — *Boiling Magnesium Chloride SCC Test* — primary consumer test method that invokes G39 bent-beam geometry for elastic-regime Cl-SCC ranking of austenitic stainless steels.
+- [astm-g30](astm-g30.md) — *U-Bend Stress-Corrosion Test Specimens* — sister specimen-preparation practice for the plastic-bend U-bend geometry; complementary to G39's elastic-regime bent-beam.
 - [[astm-g38]] — *C-Ring Stress-Corrosion Test Specimens* — sister specimen-preparation practice for tube/ring product forms.
-- [[astm-g129]] — *Slow Strain Rate Testing* — kinetic-counterpart test method; G39 specimens are static-deformation, G129 specimens are dynamic-strain-rate.
-- [[astm-g31]] — *Laboratory Immersion Corrosion Testing of Metals* — non-SCC immersion-testing companion practice.
-- [[astm-g1]] — *Preparing, Cleaning, and Evaluating Corrosion Test Specimens* — pre-and-post-exposure specimen-handling baseline; cited from G39.
-- [[ampp-tm-0177]] — *Laboratory Testing of Metals for Resistance to SSC and SCC in H2S Environments* — sour-service SCC test method that references bent-beam geometries for [[ampp-mr-0175-pt3]] / [[iso-15156-3]] CRA acceptance and [[ampp-mr-0175-pt2]] carbon/low-alloy steel acceptance.
-- [[ampp-mr-0175-pt2]] — Part 2 carbon/low-alloy steel sour-service qualification; consumer of bent-beam SSC test data.
-- [[stress-corrosion-cracking]] (concept) — primary consumer concept page; bent-beam geometry anchors the SCC test-method ladder.
-- [[sour-service-materials]] (concept) — secondary consumer; bent-beam specimens are routine in sour-service qualification.
-- [[welding-procedures-and-acceptance]] (concept) — HAZ SCC characterization uses 4PBB specimens spanning weldment regions.
+- [astm-g129](astm-g129.md) — *Slow Strain Rate Testing* — kinetic-counterpart test method; G39 specimens are static-deformation, G129 specimens are dynamic-strain-rate.
+- [astm-g31](astm-g31.md) — *Laboratory Immersion Corrosion Testing of Metals* — non-SCC immersion-testing companion practice.
+- [astm-g1](astm-g1.md) — *Preparing, Cleaning, and Evaluating Corrosion Test Specimens* — pre-and-post-exposure specimen-handling baseline; cited from G39.
+- [ampp-tm-0177](ampp-tm-0177.md) — *Laboratory Testing of Metals for Resistance to SSC and SCC in H2S Environments* — sour-service SCC test method that references bent-beam geometries for [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) / [iso-15156-3](iso-15156-3.md) CRA acceptance and [ampp-mr-0175-pt2](ampp-mr-0175-pt2.md) carbon/low-alloy steel acceptance.
+- [ampp-mr-0175-pt2](ampp-mr-0175-pt2.md) — Part 2 carbon/low-alloy steel sour-service qualification; consumer of bent-beam SSC test data.
+- [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) (concept) — primary consumer concept page; bent-beam geometry anchors the SCC test-method ladder.
+- [sour-service-materials](../concepts/sour-service-materials.md) (concept) — secondary consumer; bent-beam specimens are routine in sour-service qualification.
+- [welding-procedures-and-acceptance](../concepts/welding-procedures-and-acceptance.md) (concept) — HAZ SCC characterization uses 4PBB specimens spanning weldment regions.
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

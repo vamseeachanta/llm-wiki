@@ -66,7 +66,7 @@ Division 3 is the **only ASME route** for vessels above the Division 2 ceiling; 
 
 ## Why this page exists
 
-This page is the citation resolver target for downstream calc and qualification modules under the calc-citation contract at `.claude/rules/calc-citation-contract.md`. Division 3 is referenced from [[asme-bpvc-viii-1]] and [[asme-bpvc-viii-2]] as the upper-pressure boundary that delegates above the ~10,000 psi / 70 MPa threshold; W201 audit (iter-43) surfaced unmatched `asme-bpvc-viii-3` slug across multiple Division 1 / 2 cross-references. This page anchors that link target without reproducing any code text, formulas, fracture-mechanics tables, or fatigue-crack-growth curves.
+This page is the citation resolver target for downstream calc and qualification modules under the calc-citation contract at `.claude/rules/calc-citation-contract.md`. Division 3 is referenced from [asme-bpvc-viii-1](asme-bpvc-viii-1.md) and [asme-bpvc-viii-2](asme-bpvc-viii-2.md) as the upper-pressure boundary that delegates above the ~10,000 psi / 70 MPa threshold; W201 audit (iter-43) surfaced unmatched `asme-bpvc-viii-3` slug across multiple Division 1 / 2 cross-references. This page anchors that link target without reproducing any code text, formulas, fracture-mechanics tables, or fatigue-crack-growth curves.
 
 The on-disk corpus lacks Division 3 — calc-callers needing the document must procure it from the ASME catalog. The page is intentionally **metadata-only** until and unless a vendor-cleared edition lands on the `/mnt/ace/O&G-Standards/` mount.
 
@@ -76,13 +76,13 @@ ASME BPVC catalog (registration required): `https://www.asme.org/codes-standards
 
 ## Cross-references
 
-- [[asme-bpvc-viii-1]] — sister Section VIII Division 1 (design-by-rule pressure vessels); upstream pressure-range neighbor below the Division 3 floor.
-- [[asme-bpvc-viii-2]] — sister Section VIII Division 2 (design-by-analysis pressure vessels); upstream pressure-range neighbor below the Division 3 floor; Division 3 inherits Division 2 stress-categorization conventions where applicable.
-- [[asme-bpvc-ii-d]] — material allowable stresses; Division 3 sources its allowable values from the same Section II-D table set, with high-pressure-specific reductions and toughness floors.
-- [[asme-bpvc-ix]] — welding, brazing, and fusing qualifications; Division 3 fabrication invokes Section IX WPS/PQR/WPQ qualification.
-- [[asme-b31-12]] — Hydrogen Piping and Pipelines; high-pressure H2 piping that connects to Division-3 vessels uses B31.12 material-performance factors.
-- [[iso-15156]] / [[ampp-mr-0175-pt2]] / [[ampp-mr-0175-pt3]] — sour-service materials qualification overlay for HPHT-sour service.
-- [[api-spec-6a]] — wellhead and tree equipment; HPHT-rated 6A equipment intersects Division 3 pressure-vessel rules.
-- [[engineering-critical-assessment]] (concept) — fracture-mechanics-based acceptance route mandatory under Division 3.
-- [[fitness-for-service]] (concept) — in-service flaw evaluation; FFS Part 9 (crack-like flaws) is the in-service counterpart to Division 3 design-time fracture mechanics.
+- [asme-bpvc-viii-1](asme-bpvc-viii-1.md) — sister Section VIII Division 1 (design-by-rule pressure vessels); upstream pressure-range neighbor below the Division 3 floor.
+- [asme-bpvc-viii-2](asme-bpvc-viii-2.md) — sister Section VIII Division 2 (design-by-analysis pressure vessels); upstream pressure-range neighbor below the Division 3 floor; Division 3 inherits Division 2 stress-categorization conventions where applicable.
+- [asme-bpvc-ii-d](asme-bpvc-ii-d.md) — material allowable stresses; Division 3 sources its allowable values from the same Section II-D table set, with high-pressure-specific reductions and toughness floors.
+- [asme-bpvc-ix](asme-bpvc-ix.md) — welding, brazing, and fusing qualifications; Division 3 fabrication invokes Section IX WPS/PQR/WPQ qualification.
+- [asme-b31-12](asme-b31-12.md) — Hydrogen Piping and Pipelines; high-pressure H2 piping that connects to Division-3 vessels uses B31.12 material-performance factors.
+- [iso-15156](iso-15156.md) / [ampp-mr-0175-pt2](ampp-mr-0175-pt2.md) / [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) — sour-service materials qualification overlay for HPHT-sour service.
+- [api-spec-6a](api-spec-6a.md) — wellhead and tree equipment; HPHT-rated 6A equipment intersects Division 3 pressure-vessel rules.
+- [engineering-critical-assessment](../concepts/engineering-critical-assessment.md) (concept) — fracture-mechanics-based acceptance route mandatory under Division 3.
+- [fitness-for-service](../concepts/fitness-for-service.md) (concept) — in-service flaw evaluation; FFS Part 9 (crack-like flaws) is the in-service counterpart to Division 3 design-time fracture mechanics.
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

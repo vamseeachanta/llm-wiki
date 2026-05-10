@@ -36,7 +36,7 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 
 ## Cross-references
 
-- [[asme-b16-5]] — flange-rating cross-link
-- [[asme-pcc-1]] — assembly-side complement on flanged ends
-- [[asme-b31-3]] — process-piping consumer
+- [asme-b16-5](asme-b16-5.md) — flange-rating cross-link
+- [asme-pcc-1](asme-pcc-1.md) — assembly-side complement on flanged ends
+- [asme-b31-3](asme-b31-3.md) — process-piping consumer
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

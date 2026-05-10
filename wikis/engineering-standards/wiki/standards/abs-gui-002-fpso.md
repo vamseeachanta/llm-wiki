@@ -30,9 +30,9 @@ Resolver target for downstream `digitalmodel` `Citation` instances per `.claude/
 - Internal callers: no live structured `Citation(...)` call yet; this page satisfies future calc-citation routing for FPSO design-classification logic
 
 ## Cross-references
-- [[abs-gui-101-fpso-dla]] — companion FPSO Dynamic Loading Approach Guide
-- [[abs-rules-steel-vessels-part3]] — base steel-vessel hull rule book GUI-002 sits above
-- [[abs-rules-offshore-installations]] — offshore-installations rule book referenced for class scope
+- [abs-gui-101-fpso-dla](abs-gui-101-fpso-dla.md) — companion FPSO Dynamic Loading Approach Guide
+- [abs-rules-steel-vessels-part3](abs-rules-steel-vessels-part3.md) — base steel-vessel hull rule book GUI-002 sits above
+- [abs-rules-offshore-installations](abs-rules-offshore-installations.md) — offshore-installations rule book referenced for class scope
 
 **Cross-wiki bridge (maritime-law):**
 

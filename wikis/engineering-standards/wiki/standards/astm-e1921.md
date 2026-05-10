@@ -150,7 +150,7 @@ specimens that exceed the validity ceiling.
   method that **produces the `K_Jc` inputs** consumed by E1921. The
   load-CMOD records, J-integral conversion, and validity-ceiling
   formulae used inside E1921 are inherited from E1820. See
-  [[astm-e1820]].
+  [astm-e1820](astm-e1820.md).
 - **ASTM E399** — *Linear-Elastic Plane-Strain Fracture Toughness K_Ic
   of Metallic Materials*. Used for the **upper-toughness end of the
   transition** where small-scale yielding still holds and a valid
@@ -163,7 +163,7 @@ specimens that exceed the validity ceiling.
 - **API 579-1 / ASME FFS-1** — *Fitness-for-Service*. Part 9 brittle-
   fracture screening consumes `T₀` (or `RT_T0`) and the master-curve
   lower bounds via Charpy-correlation lookup tables (Annex 9F) and
-  through direct master-curve substitution; see [[api-std-579]].
+  through direct master-curve substitution; see [api-std-579](api-std-579.md).
 - **BS 7910** — *Guide to methods for assessing the acceptability of
   flaws in metallic structures* (BSI). Annex J brittle-fracture
   assessment consumes `T₀` data through Charpy-shift correlations and,

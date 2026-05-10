@@ -42,7 +42,7 @@ Conceptual resolver target for the A5-series taxonomy. Calc-callers and welding-
 No single revision applies to the series. Each member document carries its own on-disk-vs-publisher-current gap on its individual page. Calc-callers MUST resolve to the specific A5.x document and verify against the publisher-current edition for that document before any compliance use.
 
 ## Cross-references
-- [[aws-a5-5]] — low-alloy steel SMAW electrodes
-- [[aws-a5-10]] — bare aluminum and aluminum-alloy welding electrodes and rods
-- [[asme-bpvc-ix]] — references the A5 series for filler-metal classification in procedure qualification
+- [aws-a5-5](aws-a5-5.md) — low-alloy steel SMAW electrodes
+- [aws-a5-10](aws-a5-10.md) — bare aluminum and aluminum-alloy welding electrodes and rods
+- [asme-bpvc-ix](asme-bpvc-ix.md) — references the A5 series for filler-metal classification in procedure qualification
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

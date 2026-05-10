@@ -30,7 +30,7 @@ publisher_catalog_url: https://www.astm.org/
 
 ASTM G30 is a **specimen-preparation practice** that defines fixturing, stressing, and conditioning conventions for **U-bend stress-corrosion-cracking (SCC) test specimens**. The U-bend geometry — a flat strip plastically bent through ≈ 180° around a central radius into an inverted-U shape — is one of the **dominant stressed-specimen geometries** used in SCC testing. The plastic deformation imposes high residual tensile strain on the outer-fiber surface of the bend, which is then exposed to the test environment.
 
-G30 is **explicitly a specimen-preparation practice, not a test method**: it provides the specimen recipe but does not specify the test environment, exposure duration, inspection schedule, or pass/fail criteria. The specifying body (a project specification, materials standard, or environment-specific test method such as [[astm-g36]] for boiling MgCl2 Cl-SCC, [[astm-g44]] for alternate-immersion 3.5% NaCl, or [[ampp-tm-0177]] for sour-service SSC) supplies those parameters. G30 is the most-cited specimen-preparation reference in the SCC test literature for sheet and plate product forms.
+G30 is **explicitly a specimen-preparation practice, not a test method**: it provides the specimen recipe but does not specify the test environment, exposure duration, inspection schedule, or pass/fail criteria. The specifying body (a project specification, materials standard, or environment-specific test method such as [astm-g36](astm-g36.md) for boiling MgCl2 Cl-SCC, [[astm-g44]] for alternate-immersion 3.5% NaCl, or [ampp-tm-0177](ampp-tm-0177.md) for sour-service SSC) supplies those parameters. G30 is the most-cited specimen-preparation reference in the SCC test literature for sheet and plate product forms.
 
 The U-bend is a high-strain, **constant-deformation** specimen: the imposed strain (and resulting residual surface stress) is set by the bend radius, the strip thickness, and the elastic-plastic post-springback relaxation. The practice provides the elastic-plastic-bending derivations needed to estimate outer-fiber residual stress at and above the proof of the candidate material. Two common variants are the **single-stage U-bend** (full 180° plastic bend, springback released against a stop) and the **two-stage U-bend** (initial bend with subsequent additional flexure to add elastic strain over the plastic baseline). Both are anchored in G30.
 
@@ -55,8 +55,8 @@ The following are the specimen-preparation anchors that appear in the practice (
 
 ## Practitioner application
 
-- **Cl-SCC ranking of austenitic stainless steels** — U-bends in boiling MgCl2 ([[astm-g36]]) is the workhorse Cl-SCC screen; G30 is the specimen-preparation reference invoked by the test method.
-- **Sour-service-CRA SSC qualification** — Method-B-class bent-beam variants and U-bend variants under [[ampp-tm-0177]] for [[ampp-mr-0175-pt3]] / [[iso-15156-3]] CRA acceptance.
+- **Cl-SCC ranking of austenitic stainless steels** — U-bends in boiling MgCl2 ([astm-g36](astm-g36.md)) is the workhorse Cl-SCC screen; G30 is the specimen-preparation reference invoked by the test method.
+- **Sour-service-CRA SSC qualification** — Method-B-class bent-beam variants and U-bend variants under [ampp-tm-0177](ampp-tm-0177.md) for [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) / [iso-15156-3](iso-15156-3.md) CRA acceptance.
 - **Welding-procedure SCC qualification** — sensitized-vs-solution-annealed weldment comparison; G30 specimens spanning weldment, HAZ, and parent-metal regions.
 - **Surface-finish and cold-work studies** — U-bend's high-strain regime amplifies the residual-stress contribution of cold work; G30 specimens are used to probe fabrication-route effects on SCC initiation.
 - **Aluminum-alloy SCC ranking** — ASTM G47 and G64 cite U-bend geometries derived from G30 for 2XXX and 7XXX heat-treatable aluminum alloys.
@@ -67,7 +67,7 @@ G30 is the **default U-bend specimen-preparation reference** for SCC testing acr
 
 ## Why this page exists
 
-This page is the citation resolver target for `code_id = astm-g30` under `.claude/rules/calc-citation-contract.md`. W201 audit (iter-43) surfaced `astm-g30` as an unmatched slug from multiple cross-references in [[astm-g36]] and [[stress-corrosion-cracking]] concept page (table of SCC test specimen geometries). The page anchors that link target without reproducing any clause text, fixture-geometry tables, or stress formulas.
+This page is the citation resolver target for `code_id = astm-g30` under `.claude/rules/calc-citation-contract.md`. W201 audit (iter-43) surfaced `astm-g30` as an unmatched slug from multiple cross-references in [astm-g36](astm-g36.md) and [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) concept page (table of SCC test specimen geometries). The page anchors that link target without reproducing any clause text, fixture-geometry tables, or stress formulas.
 
 ## Where to find the full text
 
@@ -75,15 +75,15 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0030-9
 
 ## Cross-references
 
-- [[astm-g36]] — *Boiling Magnesium Chloride SCC Test* — primary consumer test method that invokes G30 U-bend geometry for Cl-SCC ranking of austenitic stainless steels.
+- [astm-g36](astm-g36.md) — *Boiling Magnesium Chloride SCC Test* — primary consumer test method that invokes G30 U-bend geometry for Cl-SCC ranking of austenitic stainless steels.
 - [[astm-g38]] — *C-Ring Stress-Corrosion Test Specimens* — sister specimen-preparation practice for tube/ring product forms (G30 covers sheet/plate; G38 covers tube/ring).
-- [[astm-g39]] — *Bent-Beam Stress-Corrosion Test Specimens* — sister specimen-preparation practice for 4-point bent-beam geometry; complementary to U-bend.
-- [[astm-g129]] — *Slow Strain Rate Testing* — kinetic-counterpart test method; G30 specimens are static-deformation, G129 specimens are dynamic-strain-rate.
-- [[astm-g48]] — *Pitting and Crevice Corrosion in FeCl3 Solution* — different damage mode (pitting/crevice, not SCC); CRA pre-screening that complements SCC testing.
-- [[astm-g31]] — *Laboratory Immersion Corrosion Testing of Metals* — non-SCC immersion-testing companion practice.
-- [[astm-g1]] — *Preparing, Cleaning, and Evaluating Corrosion Test Specimens* — pre-and-post-exposure specimen-handling baseline; cited from G30.
-- [[ampp-tm-0177]] — *Laboratory Testing of Metals for Resistance to SSC and SCC in H2S Environments* — sour-service SCC test method that references U-bend / bent-beam geometries for [[ampp-mr-0175-pt3]] / [[iso-15156-3]] CRA acceptance.
-- [[stress-corrosion-cracking]] (concept) — primary consumer concept page; U-bend geometry anchors the SCC test-method ladder.
-- [[sour-service-materials]] (concept) — secondary consumer; U-bend specimens are used in some sour-service-CRA qualification routes.
-- [[pitting-and-crevice-corrosion]] (concept) — adjacent damage mode; G30 does not address pitting/crevice but is companion to G48.
+- [astm-g39](astm-g39.md) — *Bent-Beam Stress-Corrosion Test Specimens* — sister specimen-preparation practice for 4-point bent-beam geometry; complementary to U-bend.
+- [astm-g129](astm-g129.md) — *Slow Strain Rate Testing* — kinetic-counterpart test method; G30 specimens are static-deformation, G129 specimens are dynamic-strain-rate.
+- [astm-g48](astm-g48.md) — *Pitting and Crevice Corrosion in FeCl3 Solution* — different damage mode (pitting/crevice, not SCC); CRA pre-screening that complements SCC testing.
+- [astm-g31](astm-g31.md) — *Laboratory Immersion Corrosion Testing of Metals* — non-SCC immersion-testing companion practice.
+- [astm-g1](astm-g1.md) — *Preparing, Cleaning, and Evaluating Corrosion Test Specimens* — pre-and-post-exposure specimen-handling baseline; cited from G30.
+- [ampp-tm-0177](ampp-tm-0177.md) — *Laboratory Testing of Metals for Resistance to SSC and SCC in H2S Environments* — sour-service SCC test method that references U-bend / bent-beam geometries for [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) / [iso-15156-3](iso-15156-3.md) CRA acceptance.
+- [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) (concept) — primary consumer concept page; U-bend geometry anchors the SCC test-method ladder.
+- [sour-service-materials](../concepts/sour-service-materials.md) (concept) — secondary consumer; U-bend specimens are used in some sour-service-CRA qualification routes.
+- [pitting-and-crevice-corrosion](../concepts/pitting-and-crevice-corrosion.md) (concept) — adjacent damage mode; G30 does not address pitting/crevice but is companion to G48.
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

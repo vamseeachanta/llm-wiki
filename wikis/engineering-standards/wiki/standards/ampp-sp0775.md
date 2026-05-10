@@ -33,7 +33,7 @@ Field-practice standard for the **preparation, installation, retrieval, analysis
 - **Exposure intervals** — typical 90-day default for general corrosion-rate determination; shorter 30-day intervals for pitting screening or for high-rate environments where 90 days would consume the coupon.
 - **Post-retrieval handling** — preservation in dry inert (N2) atmosphere or vapor-phase corrosion-inhibitor pouches, shipment to the analyzing laboratory within 24 hours when feasible to minimize post-exposure artefact corrosion.
 - **Cleaning and weight-loss extrapolation** — chemical and mechanical cleaning per the iterative procedure of [astm-g1](astm-g1.md), with the asymptotic weight-loss extrapolation that separates true corrosion-product loss from base-metal loss during cleaning.
-- **Reporting** — general corrosion rate (mass-loss → penetration rate per [astm-g102](astm-g102.md)), maximum and average pit depths per [[astm-g46]] examination, photographic log of the as-retrieved coupon and post-cleaning surface, and the deduced corrosion mechanism (uniform, pitting, MIC, erosion-corrosion, top-of-line, under-deposit).
+- **Reporting** — general corrosion rate (mass-loss → penetration rate per [astm-g102](astm-g102.md)), maximum and average pit depths per [astm-g46](astm-g46.md) examination, photographic log of the as-retrieved coupon and post-cleaning surface, and the deduced corrosion mechanism (uniform, pitting, MIC, erosion-corrosion, top-of-line, under-deposit).
 
 The standard is the field-practice anchor that turns mass-loss coupon data into defensible **corrosion-rate measurement** for integrity-management programs (see consumer concept page [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md)).
 
@@ -92,7 +92,7 @@ The procedural detail below is the field-practice outline at the level needed fo
 
 - **Cleaning per [astm-g1](astm-g1.md).** Iterative chemical and mechanical cleaning with the **asymptotic weight-loss extrapolation** that separates the true corrosion-product loss (rapid initial mass drop during the first cleaning cycles) from the base-metal loss during cleaning (slow linear loss in subsequent cycles). The intercept of the linear base-metal-loss line at cycle zero gives the corrected corrosion mass loss.
 - **Rate conversion per [astm-g102](astm-g102.md).** Mass loss is converted to a penetration rate (mils per year, or millimetres per year) using the alloy density and the exposed coupon area. SP0775 governs the field-data inputs; G102 governs the unit-conversion algebra.
-- **Pitting analysis per [[astm-g46]].** Maximum pit depth is measured by metallographic cross-section, optical depth-of-field profiling, or laser surface scanning; SP0775 specifies the per-coupon sampling rule (typically 10 deepest pits across the exposed face) and reporting format.
+- **Pitting analysis per [astm-g46](astm-g46.md).** Maximum pit depth is measured by metallographic cross-section, optical depth-of-field profiling, or laser surface scanning; SP0775 specifies the per-coupon sampling rule (typically 10 deepest pits across the exposed face) and reporting format.
 
 ### Reporting
 
@@ -119,7 +119,7 @@ The two streams are fused per the calibration relationship `i_corr_LPR = β / R_
 - [astm-g31](astm-g31.md) — Standard guide for laboratory immersion corrosion testing of metals. The laboratory-immersion sibling that SP0775 extends into the field environment.
 - [astm-g59](astm-g59.md) — Standard test method for conducting potentiodynamic polarization resistance measurements. Online-monitoring complement: LPR is the continuous-rate companion to SP0775's coupon anchor.
 - [astm-g102](astm-g102.md) — Standard practice for calculation of corrosion rates and related information from electrochemical measurements. The mass-loss-to-rate (and i_corr-to-rate) unit-conversion algebra.
-- [[astm-g46]] — Standard guide for examination and evaluation of pitting corrosion. Required for the pit-depth and pit-density columns of the SP0775 report.
+- [astm-g46](astm-g46.md) — Standard guide for examination and evaluation of pitting corrosion. Required for the pit-depth and pit-density columns of the SP0775 report.
 - [api-rp-571](api-rp-571.md) — Damage mechanisms affecting fixed equipment in the refining industry. Provides the damage-mechanism context (sweet CO2, sour H2S, MIC, erosion-corrosion, top-of-line) that SP0775 coupon-derived rates feed.
 - [api-rp-581](api-rp-581.md) — Risk-based inspection methodology. Coupon-derived corrosion rates are a primary probability-of-failure (POF) input to RBI calculations; SP0775 is the field-practice basis for the rate values fed into 581 sub-factors.
 - [api-rp-574](api-rp-574.md) — Inspection practices for piping system components. The in-service inspection complement; SP0775 coupon stations and 574-prescribed UT thickness surveys are the two field data streams that integrity-management programs reconcile.

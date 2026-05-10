@@ -45,9 +45,9 @@ This page is the citation resolver target for downstream coating-and-corrosion-a
 - Lifecycle: see frontmatter `revision`, `publisher_current_revision`, `lifecycle_status`, and `iso_relationship` for ISO-12944 partial-overlap context
 
 ## Cross-references
-- [[norsok-m-001]] — materials selection companion in the M-series
-- [[norsok-m-710]] — non-metallic sealing materials qualification companion
-- [[dnv-rp-b401]] — cathodic-protection design counterpart (immersed service)
+- [norsok-m-001](norsok-m-001.md) — materials selection companion in the M-series
+- [norsok-m-710](norsok-m-710.md) — non-metallic sealing materials qualification companion
+- [dnv-rp-b401](dnv-rp-b401.md) — cathodic-protection design counterpart (immersed service)
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Cross-References

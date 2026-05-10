@@ -57,7 +57,7 @@ surface-equipment scope does not address:
   addition to internal hydrostatic test.
 - **ROV / ROT interfaces** — torque-bucket, hot-stab, paddle-handle,
   and override interfaces aligned with ISO 13628-8 (now folded into
-  [API Spec 17H](./api-spec-17h.md)) so a class-of-vehicle ROV can
+  [API Spec 17H](./api-17h.md)) so a class-of-vehicle ROV can
   operate the tree without bespoke tooling.
 - **Marinisation** — corrosion-allowance, external coating systems,
   cathodic-protection (CP) anode sizing/attachment, and seawater-
@@ -69,7 +69,7 @@ surface-equipment scope does not address:
   test, and unlock sequences validated end-to-end with the tree
   in-place; remote pressure-test ports and lock-status indicators
   ROV-readable from outside the tree envelope.
-- **Integration with [API 17A](./api-spec-17a.md)** — the master
+- **Integration with [API 17A](./api-17a.md)** — the master
   subsea-production-systems framework that 17D plugs into; system-
   level pressure-control philosophy, valve-block topology, and
   isolation-barrier policies originate in 17A and are realised at
@@ -141,7 +141,7 @@ surface-equipment scope does not address:
   geometry, hot-stab port classes, paddle-handle reach envelopes,
   and override-tooling interfaces conform to ISO 13628-8 / API 17H
   so any class-of-vehicle ROV can operate any 17D-compliant tree.
-  The [API 17H standards page](./api-spec-17h.md) carries the
+  The [API 17H standards page](./api-17h.md) carries the
   detailed interface taxonomy.
 - **Vertical vs. horizontal tree (VXT / HXT) architecture** — the
   standard accommodates both topologies. In a **VXT** the master
@@ -175,15 +175,13 @@ surface-equipment scope does not address:
   — parent surface-equipment specification. 17D inherits material
   classes, PSL/PR grading, temperature classes, and pressure-rating
   architecture from 6A and adds subsea-specific provisions on top.
-- **API Spec 17A — Subsea Production Systems (master design)** —
+- [API Spec 17A — Subsea Production Systems (master design)](./api-17a.md) —
   the system-level framework that 17D plugs into; pressure-control
   philosophy, isolation-barrier policy, and field-architecture
   requirements originate here.
-  *(Standalone wiki/standards page not yet present.)*
-- **API Spec 17H — Subsea ROV Interfaces** — torque-bucket, hot-
+- [API Spec 17H — Subsea ROV Interfaces](./api-17h.md) — torque-bucket, hot-
   stab, paddle-handle, and override interface taxonomy that 17D
   references for ROV operability of trees and tree caps.
-  *(Standalone wiki/standards page not yet present.)*
 - **ISO 13628-4 — Petroleum and natural gas industries — Design
   and operation of subsea production systems — Part 4: Subsea
   wellhead and tree equipment** — the international parallel; the

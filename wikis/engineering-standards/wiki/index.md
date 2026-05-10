@@ -1,8 +1,8 @@
 ---
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
-last_updated: 2026-05-09
-page_count: 185
+last_updated: 2026-05-10
+page_count: 191
 source_count: 19
 ---
 
@@ -213,3 +213,9 @@ _No query outputs filed yet._
 | [[ASTM G16]](standards/astm-g16.md) | Applying Statistics to Analysis of Corrosion Data — extreme-value pit-depth tail extrapolation; substrate-fill resolver (W204 V9 iter-46). | 2026-05-09 |
 | [[ASTM G46]](standards/astm-g46.md) | Examination and Evaluation of Pitting Corrosion — rating chart + pit-depth measurement workflow; substrate-fill resolver (W204 V9 iter-46). | 2026-05-09 |
 | [[ASCE 7]](standards/asce-7.md) | Minimum Design Loads and Associated Criteria for Buildings and Other Structures — US onshore wind / seismic / load-combination anchor; substrate-fill resolver (W204 V9 iter-46). | 2026-05-09 |
+| [[API Spec 17A]](standards/api-17a.md) | Subsea Wellhead and Christmas Tree Equipment — foundational subsea-production-systems framework; canonical short-slug resolver paired with legacy_slug=api-spec-17a (W214 iter-46). | 2026-05-10 |
+| [[API Spec 17H]](standards/api-17h.md) | Remotely Operated Vehicles for Subsea Production — ROV intervention-interface taxonomy; canonical short-slug resolver paired with legacy_slug=api-spec-17h (W214 iter-46). | 2026-05-10 |
+| [[API Std 570]](standards/api-std-570.md) | Piping Inspection Code — In-service Inspection, Rating, Repair, Alteration; canonical-slug resolver pairing with legacy slug api-570 (W208 iter-45 inspection-domain substrate-gap fill). | 2026-05-10 |
+| [[API Std 653]](standards/api-std-653.md) | Tank Inspection, Repair, Alteration, and Reconstruction; canonical-slug resolver pairing with legacy slug api-653 (W208 iter-45 inspection-domain substrate-gap fill). | 2026-05-10 |
+| [[API RP 572]](standards/api-rp-572.md) | Inspection Practices for Pressure Vessels — execution-grade companion to API 510 (W208 iter-45 inspection-domain substrate-gap fill). | 2026-05-10 |
+| [[API RP 576]](standards/api-rp-576.md) | Inspection of Pressure-Relieving Devices — PRV/rupture-disk inspection-and-shop-test practice (W208 iter-45 inspection-domain substrate-gap fill). | 2026-05-10 |

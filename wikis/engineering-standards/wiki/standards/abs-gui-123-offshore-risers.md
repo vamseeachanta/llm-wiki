@@ -30,7 +30,7 @@ Resolver target for downstream `digitalmodel` `Citation` instances per `.claude/
 - Internal callers: no live structured `Citation(...)` call yet
 
 ## Cross-references
-- [[api-std-2rd]] — API counterpart for dynamic risers on floating production systems
-- [[dnv-os-f201]] — DNV counterpart for dynamic risers
-- [[abs-gui-115-fatigue-offshore]] — fatigue-assessment companion
+- [api-std-2rd](api-std-2rd.md) — API counterpart for dynamic risers on floating production systems
+- [dnv-os-f201](dnv-os-f201.md) — DNV counterpart for dynamic risers
+- [abs-gui-115-fatigue-offshore](abs-gui-115-fatigue-offshore.md) — fatigue-assessment companion
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

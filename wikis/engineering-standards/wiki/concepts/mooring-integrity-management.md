@@ -322,11 +322,11 @@ the over-protection threshold and the susceptible-alloy list.
 - [DNV-OS-E301](../standards/dnv-os-e301.md) — DNV class-side
   position-mooring offshore standard; pilot for the calc-citation
   resolver.
-- [[cathodic-protection]] — CP design for mooring components in the
+- [cathodic-protection](cathodic-protection.md) — CP design for mooring components in the
   immersion zone.
-- [[fatigue-design-and-assessment]] — S-N + cumulative-damage method
+- [fatigue-design-and-assessment](fatigue-design-and-assessment.md) — S-N + cumulative-damage method
   used in tension-history fatigue assessment.
-- [[risk-based-inspection]] — wider RBI methodology of which the
+- [risk-based-inspection](risk-based-inspection.md) — wider RBI methodology of which the
   mooring tier system is a specialisation.
 
 ## Source materials

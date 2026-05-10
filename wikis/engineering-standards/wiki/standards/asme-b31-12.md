@@ -62,7 +62,7 @@ No revision is present on disk in the workspace ASME catalog (`/mnt/ace/O&G-Stan
 
 Hydrogen exhibits **three distinct degradation mechanisms** in piping materials, each addressed by B31.12 design rules:
 
-1. **HE — Hydrogen Embrittlement**: low-temperature, low-strain-rate cracking driven by atomic-hydrogen ingress and trapping at defects, grain boundaries, and high-stress sites. See the concept page on [[hydrogen-embrittlement]] for the metallurgical mechanism, susceptibility-by-microstructure, and operating-window picture.
+1. **HE — Hydrogen Embrittlement**: low-temperature, low-strain-rate cracking driven by atomic-hydrogen ingress and trapping at defects, grain boundaries, and high-stress sites. See the concept page on [hydrogen-embrittlement](../concepts/hydrogen-embrittlement.md) for the metallurgical mechanism, susceptibility-by-microstructure, and operating-window picture.
 2. **HEAC — Hydrogen-Enhanced Aqueous Corrosion**: in moist hydrogen at low pH, accelerated steel corrosion that compounds with embrittlement to shorten service life faster than either mechanism alone.
 3. **HHA — High-Pressure Hydrogen Attack**: room-temperature, very-high-pressure analogue of high-temperature hydrogen attack (HTHA). Distinct from the refining-side HTHA covered by API RP 941 / API RP 571 — same physics class (hydrogen reacting with carbide phases) but driven by pressure rather than temperature, and relevant to high-pressure storage and 700-bar dispensing.
 
@@ -109,8 +109,8 @@ Adjacent hydrogen-damage references (different mechanism class):
 
 Concept-page consumers in this wiki:
 
-- [[hydrogen-embrittlement]] (`../concepts/hydrogen-embrittlement.md`) — primary consumer; B31.12 Article G qualification protocol and `M_f` de-rating are the design-side response to the HE mechanism described there.
-- [[leak-before-break]] (`../concepts/leak-before-break.md`) — LBB demonstration is increasingly applied to high-pressure-H₂ storage and pipeline service, where B31.12 fracture-toughness qualification supplies the material-property inputs to the LBB analysis.
+- [hydrogen-embrittlement](../concepts/hydrogen-embrittlement.md) (`../concepts/hydrogen-embrittlement.md`) — primary consumer; B31.12 Article G qualification protocol and `M_f` de-rating are the design-side response to the HE mechanism described there.
+- [leak-before-break](../concepts/leak-before-break.md) (`../concepts/leak-before-break.md`) — LBB demonstration is increasingly applied to high-pressure-H₂ storage and pipeline service, where B31.12 fracture-toughness qualification supplies the material-property inputs to the LBB analysis.
 
 ## Sources
 
