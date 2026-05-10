@@ -2,8 +2,8 @@
 title: "Marine Engineering Portal"
 type: portal
 domain: marine-engineering
-created: 2026-05-06
-last_updated: 2026-05-06
+created: 2026-05-10
+last_updated: 2026-05-10
 auto_generated: true
 generator: scripts/llm_wiki_strengthening_scorecard.py
 related_issue: 22
@@ -19,10 +19,10 @@ Generated faceted entry point for the `marine-engineering` wiki. It complements,
 
 | Facet | Pages |
 |---|---|
-| Concepts | 19 |
+| Concepts | 21 |
 | Entities | 22 |
 | Standards | 1 |
-| Sources | 19,166 |
+| Sources | 19,171 |
 | Comparisons | 1 |
 | Workflows | 0 |
 
@@ -52,7 +52,7 @@ Generated faceted entry point for the `marine-engineering` wiki. It complements,
 - [Spread Mooring](concepts/spread-mooring.md)
 - [Stability in Waves](concepts/stability-in-waves.md)
 - [Station-Keeping](concepts/station-keeping.md)
-- [Subsea Cable and Umbilical Cross-Sections](concepts/subsea-cable-umbilical-cross-sections.md)
+- [Stress Tendency Analysis](concepts/stress-tendency-analysis.md)
 
 ## Entity hubs
 
@@ -85,12 +85,14 @@ Generated faceted entry point for the `marine-engineering` wiki. It complements,
 
 ## Representative source summaries
 
+- [A note on fault reactivation (Sibson 1985)](sources/sibson-1985-fault-reactivation.md)
 - [API RP 2SK — Design and Analysis of Stationkeeping Systems (3rd Edition, 2005)](sources/api-rp-2sk-stationkeeping-systems.md)
 - [CSA Z276.1-20 — Marine Structures Associated with LNG Facilities](sources/csa-z276-1-20-lng-marine-structures.md)
 - [CSA Z276.18 — LNG Production, Storage, and Handling](sources/csa-z276-18-lng-production-storage.md)
 - [CSA Z276.2-19 — Near-Shoreline FLNG Facilities](sources/csa-z276-2-19-flng-facilities.md)
 - [Deep extraction — Elements riser toolbox OrcaFlex statistics workbooks](sources/elements-riser-toolbox-deep-extraction.md)
 - [Deep extraction — Elements suction pile sizing corpus](sources/elements-suction-pile-sizing-deep-extraction.md)
+- [Dilational normal faults (Ferrill & Morris 2003)](sources/ferrill-morris-2003-dilational-normal-faults.md)
 - [DNV-RP-B401: Cathodic Protection Design](sources/dnv-rp-b401-cathodic-protection.md)
 - [DNVGL-OS-E201: Oil and Gas Processing Systems](sources/dnvgl-os-e201-oil-gas-processing.md)
 - [Elements ingest catalog — digitalmodel-riser-toolbox](sources/elements-digitalmodel-riser-toolbox.md)
@@ -103,7 +105,5 @@ Generated faceted entry point for the `marine-engineering` wiki. It complements,
 - [OCIMF Tandem Mooring and Offloading Guidelines](sources/ocimf-tandem-mooring-offloading-guidelines.md)
 - [Piping Component E-books for Oil & Gas Engineer](sources/piping-components-ebook.md)
 - [RB122: Float Equipment (Halliburton Catalog)](sources/rb122-float-equipment.md)
+- [Rötzer (2026) — Why a 3 m Wave Doesn't Mean the Same Everywhere](sources/rotzer-2026-wave-shoaling-depth-dependent.md)
 - [SIGTTO Liquefied Gas Handling Principles on Ships and in Terminals](sources/sigtto-liquefied-gas-handling-principles.md)
-- [SIGTTO LNG Operations in Port Areas](sources/sigtto-lng-operations-port-areas.md)
-- [SIGTTO Mooring at Single Point Moorings](sources/sigtto-mooring-single-point-moorings.md)
-- [Subsea Cable, Umbilical, and Pipeline Cross-Section Reconnaissance](sources/offshore-cable-umbilical-cross-section-recon-2026-04-26.md)

@@ -1,7 +1,7 @@
 ---
 title: "LLM-Wiki Strengthening Scorecard"
-created: 2026-05-06
-last_updated: 2026-05-06
+created: 2026-05-10
+last_updated: 2026-05-10
 auto_generated: true
 generator: scripts/llm_wiki_strengthening_scorecard.py
 related_issue: 37
@@ -14,20 +14,20 @@ This deterministic scorecard ranks each public `wikis/<domain>/wiki/` corpus usi
 ## Repository Totals
 
 - Domains scored: **8**
-- Markdown content pages scored: **19,549**
-- Curated synthesis pages: **304**
-- Source-summary pages: **19,245**
+- Markdown content pages scored: **19,769**
+- Curated synthesis pages: **498**
+- Source-summary pages: **19,271**
 
 ## Domain Ranking
 
 | Domain | Score | Pages | Curated | Sources | Missing FM | Missing Index | Orphan Curated | Recommended next action |
 |---|---|---|---|---|---|---|---|---|
-| marine-engineering | 84.6 | 19209 | 43 | 19166 | 0 | 1 | 8 | Backfill index entries for 1 unindexed pages. |
-| engineering | 96.7 | 126 | 103 | 23 | 0 | 1 | 16 | Backfill index entries for 1 unindexed pages. |
-| naval-architecture | 96.9 | 69 | 26 | 43 | 0 | 0 | 4 | Maintain cadence: add targeted cross-links and provenance while executing approved promotion packs. |
-| lng-projects | 97.5 | 11 | 8 | 3 | 0 | 0 | 1 | Promote a small batch of source-backed concept/entity pages to create a navigable core. |
-| engineering-standards | 97.8 | 78 | 73 | 5 | 0 | 1 | 7 | Backfill index entries for 1 unindexed pages. |
-| maritime-law | 99.3 | 29 | 27 | 2 | 0 | 0 | 1 | Maintain cadence: add targeted cross-links and provenance while executing approved promotion packs. |
+| marine-engineering | 84.4 | 19216 | 45 | 19171 | 0 | 1 | 9 | Backfill index entries for 1 unindexed pages. |
+| engineering | 96.8 | 128 | 104 | 24 | 0 | 1 | 16 | Backfill index entries for 1 unindexed pages. |
+| naval-architecture | 97.7 | 70 | 26 | 44 | 0 | 0 | 3 | Maintain cadence: add targeted cross-links and provenance while executing approved promotion packs. |
+| lng-projects | 98.4 | 30 | 22 | 8 | 1 | 0 | 1 | Backfill frontmatter/provenance on 1 pages. |
+| maritime-law | 99.0 | 82 | 80 | 2 | 1 | 0 | 3 | Backfill frontmatter/provenance on 1 pages. |
+| engineering-standards | 99.8 | 216 | 197 | 19 | 0 | 2 | 0 | Backfill index entries for 2 unindexed pages. |
 | acma-projects | 100.0 | 4 | 2 | 2 | 0 | 0 | 0 | Promote a small batch of source-backed concept/entity pages to create a navigable core. |
 | asset-management | 100.0 | 23 | 22 | 1 | 0 | 0 | 0 | Maintain cadence: add targeted cross-links and provenance while executing approved promotion packs. |
 
@@ -47,11 +47,10 @@ This intentionally distinguishes structural weakness from scale differences. A s
 
 1. **#22 / marine-engineering portal** — keep improving generated portal facets because this domain carries almost all source volume but has a very low curated/source ratio.
 2. **engineering graph pass** — add backlinks/cross-links for 16 orphan curated pages.
-3. **naval-architecture graph pass** — add backlinks/cross-links for 4 orphan curated pages.
-4. **lng-projects graph pass** — add backlinks/cross-links for 1 orphan curated pages.
-5. **engineering-standards graph pass** — add backlinks/cross-links for 7 orphan curated pages.
-6. **maritime-law graph pass** — add backlinks/cross-links for 1 orphan curated pages.
-7. **acma-projects seed promotion** — promote source-backed concept/entity pages to create a minimum navigable core.
+3. **naval-architecture graph pass** — add backlinks/cross-links for 3 orphan curated pages.
+4. **lng-projects provenance pass** — backfill 1 frontmatter gaps before further expansion.
+5. **maritime-law provenance pass** — backfill 1 frontmatter gaps before further expansion.
+6. **acma-projects seed promotion** — promote source-backed concept/entity pages to create a minimum navigable core.
 
 ## Approval Boundary Notes
 
