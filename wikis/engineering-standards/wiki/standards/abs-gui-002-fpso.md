@@ -2,7 +2,7 @@
 title: "ABS GUI-002 Guide for Building and Classing FPSO — bounded summary"
 tags: ["abs", "standards", "fpso", "guide", "metadata-only"]
 added: 2026-05-02
-last_updated: 2026-05-02
+last_updated: 2026-05-09
 domain: engineering-standards
 code_id: abs-gui-002-fpso
 publisher: ABS
@@ -33,4 +33,9 @@ Resolver target for downstream `digitalmodel` `Citation` instances per `.claude/
 - [[abs-gui-101-fpso-dla]] — companion FPSO Dynamic Loading Approach Guide
 - [[abs-rules-steel-vessels-part3]] — base steel-vessel hull rule book GUI-002 sits above
 - [[abs-rules-offshore-installations]] — offshore-installations rule book referenced for class scope
+
+**Cross-wiki bridge (maritime-law):**
+
+- [SOLAS 1974](../../../maritime-law/wiki/standards/solas-1974.md) — **bidirectional bridge**: ABS GUI-002 (Guide for Building and Classing FPSO) governs FPSO hull structure, mooring-system classification, offloading-system interfaces, and topside-to-hull integration for Floating Production, Storage, and Offloading installations including their FLNG and FSRU variants. SOLAS Chapter II-1 (Construction — Subdivision and Stability, Machinery and Electrical Installations) governs damage-stability indices, watertight subdivision, machinery redundancy, and intact-stability margins for SOLAS-registered ships. The two regimes converge on **ship-shape FPSOs operating under flag-state jurisdiction** — particularly disconnectable-turret FPSOs (NW Australia cyclone corridor, Gulf of Mexico hurricane corridor) and trading FSRUs that move between terminal and lay-up berths — where the asset is simultaneously a moored offshore installation (ABS GUI-002 hull and mooring rules) and a SOLAS-flagged ship (Ch. II-1 stability + watertight integrity). The IMO MODU Code (Resolution A.1023(26)) provides the harmonization precedent for self-propelled or detachable units; class-society FPSO rules implement GUI-002 hull scantlings while preserving SOLAS Ch. II-1 intact and damage-stability margins for the disconnect-and-transit case. Ship-shape FPSO survival-loadcase analysis (extreme storm + post-disconnect transit) sits exactly at this intersection.
+
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

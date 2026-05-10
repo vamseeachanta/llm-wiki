@@ -2,7 +2,7 @@
 title: "API RP 17B — Flexible pipe (bounded summary)"
 tags: ["api", "standards", "flexible-pipe", "subsea", "metadata-only"]
 added: 2026-05-02
-last_updated: 2026-05-02
+last_updated: 2026-05-09
 domain: engineering-standards
 code_id: api-rp-17b
 publisher: API
@@ -45,6 +45,11 @@ analysis paths resolve citations against this page's frontmatter
 
 - [[api-spec-17j]] — companion specification for unbonded flexible pipe
 - [[api-17e]] — subsea umbilicals stub
+
+**Cross-wiki bridge (maritime-law):**
+
+- [MARPOL 73/78](../../../maritime-law/wiki/standards/marpol-73-78.md) — **bidirectional bridge**: API RP 17B (Recommended Practice for Flexible Pipe Systems) addresses **operational integrity management** of bonded and unbonded flexible-pipe systems used in offshore subsea production — flexible risers, flowlines, jumpers, and dynamic FPSO/FSO connections. The dominant in-service failure modes catalogued by RP 17B — **carcass collapse** (annulus flooding, hydrostatic crush of stainless-steel interlocked carcass), **end-fitting leakage** (epoxy-resin debonding, vent-port blockage, anchoring-wedge slip), **outer-sheath rupture** (impact damage, hot-spot polymer aging, seawater ingress accelerating tensile-armor corrosion), and **pressure-sheath aging** (CO2/H2S permeation, polymer plasticization, blistering on rapid depressurization) — feed **MARPOL Annex I (oil)** incident root-cause analysis when subsea hydrocarbon releases reach the marine environment. The pairing also feeds **Annex VI (air pollution)** accounting where flexible-riser failure forces blowdown/flaring on host floating production systems. RP 17B is the **operations + integrity** sister to API Spec 17J (**design + qualification**); together they bracket the flexible-pipe lifecycle — 17J governs as-built fitness-for-purpose, 17B governs in-service fitness-for-service. Industry-loss databases (OGP, IADC, DNV) map flexible-riser failures onto Annex I reportable thresholds. Use the pairing for casualty digests that bridge subsea integrity-management non-conformance to MARPOL Annex I and Annex VI consequences.
+
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Cross-References

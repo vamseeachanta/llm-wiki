@@ -2,7 +2,7 @@
 domain: maritime-law
 created: 2026-04-07 02:40 UTC
 last_updated: 2026-05-09
-page_count: 70
+page_count: 73
 source_count: 2
 ---
 
@@ -14,7 +14,9 @@ source_count: 2
 
 | Page | Year | Location | Key Legal Issue |
 |------|------|----------|-----------------|
+| [[The Glendarroch]](entities/glendarroch-1894.md) | 1894 | English Court of Appeal | Bailee's burden of proof when invoking excepted-perils defence; foundational common-law presumption restored by *Volcafe* (2018) |
 | [[The Torrey Canyon]](entities/torrey-canyon-1967.md) | 1967 | Cornwall, UK | Founding casualty of CLC 1969 / IOPC Fund 1971 / MARPOL 73/78 / INTERVENTION 1969 |
+| [[The Eurymedon]](entities/eurymedon-1974.md) | 1974 | UK Privy Council (NZ appeal) | Himalaya clause enforcement; carrier exemption-and-limitation extends to stevedores via collateral contract; bridge from *Adler v Dickson* (1955) |
 | [[The Amoco Cadiz]](entities/amoco-cadiz-1978.md) | 1978 | Brittany, France | Corporate veil-piercing in US-venue litigation; founding driver of Paris MoU 1982 and Salvage Convention 1989 Art. 14 |
 | [[The Sea Empress]](entities/sea-empress-1996.md) | 1996 | Wales, UK | Port-authority strict liability under WRA 1991 s.85 (*R v MHPA* [2000]); CLC 1992 / IOPC Fund 1992 application |
 | [[The Eurasian Dream]](entities/eurasian-dream-2002.md) | 2002 | UK LMAA / Comm Ct | Hague-Visby Article III seaworthiness extends to crew training on specialised tonnage; carrier identity in multi-tier charter chains |
@@ -22,6 +24,7 @@ source_count: 2
 | [[MV Prestige]](entities/mv-prestige-2002.md) | 2002 | Spain (TS STS 865/2016) | Master criminal conviction; first major engagement of the Supplementary Fund 2003; place-of-refuge doctrine; UNCLOS Art. 91 genuine-link concerns |
 | [[MSC Flaminia]](entities/msc-flaminia-2012.md) | 2012 | US SDNY / 2nd Cir. | Hague-Visby Article IV.6 strict shipper liability for misdeclared DVB; canonical post-2010 US authority paired with *Giannis NK* |
 | [[Deepwater Horizon]](entities/deepwater-horizon-2010.md) | 2010 | US GOM (E.D. La. MDL 2179) | OPA 90 §2704(c) cap-loss for gross negligence; first major post-*Exxon Valdez* application; ~$65B aggregate cost |
+| [[The Achilleas]](entities/achilleas-2008.md) | 2008 | UK House of Lords | Late-redelivery time-charter; *Hadley v Baxendale* second-limb consequential damages narrowed via assumption-of-responsibility filter (Lord Hoffmann) |
 | [[MV Wakashio]](entities/mv-wakashio-2020.md) | 2020 | Mauritius | First major Bunkers Convention 2001 + Nairobi WRC 2007 application post-2015-in-force; VLSFO post-2020-sulfur-cap reference |
 | [[MV Ever Given]](entities/mv-ever-given-2021.md) | 2021 | Egypt/Suez (UK arb / Egypt) | ULCV canal blockage; Salvage Convention 1989 + LLMC 1996 + York-Antwerp Rules 1994; ~$916M SCA claim |
 | [[Volcafe v CSAV]](entities/volcafe-2018.md) | 2018 | UK Supreme Court | Hague-Visby burden of proof; inherent vice (Art. IV.2(m)) |
