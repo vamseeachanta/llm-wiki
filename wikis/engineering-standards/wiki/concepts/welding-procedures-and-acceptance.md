@@ -147,5 +147,5 @@ Wikilinks below point to concept pages that may not yet exist — leave as wikil
 ## Notes
 
 - This is a concept page, not a standards page. No clause text, mechanical-acceptance numbers (other than the API 1104 1/8 in / 3.2 mm and the ISO 15156 250 HV figures already public on the standards pages), formulas, or FAD curves are reproduced here. For normative use, cite the publisher edition of the relevant standard directly.
-- The 1/8 in (3.2 mm) bend-test crack limit and the 250 HV HAZ hardness cap are standards-derived constants. Per the [calc citation contract](../../../../../.claude/rules/calc-citation-contract.md), any calc module that consumes these values must emit a `Citation` instance pinning `code_id=api-std-1104` or `code_id=iso-15156` with the specific revision.
+- The 1/8 in (3.2 mm) bend-test crack limit and the 250 HV HAZ hardness cap are standards-derived constants. Per the calc citation contract (`.claude/rules/calc-citation-contract.md`), any calc module that consumes these values must emit a `Citation` instance pinning `code_id=api-std-1104` or `code_id=iso-15156` with the specific revision.
 - WPS / PQR records are operator deliverables. This wiki does not host project-specific WPS / PQR templates; those live with the fabricator's quality system.

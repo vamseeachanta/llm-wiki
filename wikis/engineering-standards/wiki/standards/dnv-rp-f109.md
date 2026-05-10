@@ -35,7 +35,7 @@ This page is a citation resolver for downstream calc modules under the calc-cita
 - [dnv-rp-c205](dnv-rp-c205.md) — environmental loads (wave-current) driving stability checks
 - [dnv-rp-f105](dnv-rp-f105.md) — free spanning pipelines (sibling pipeline-integrity RP)
 - [dnv-rp-f101](dnv-rp-f101.md) — corroded pipelines (sibling)
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Cross-References
 

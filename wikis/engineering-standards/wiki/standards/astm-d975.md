@@ -128,7 +128,7 @@ D975 sits at the convergence of the ASTM **D02 committee** (petroleum products a
 
 - [O&G Standards catalog — ASTM D-Series](../sources/og-standards-astm-d-series.md) — multi-edition coverage manifest and bucket-purity audit; D975 is identified there as the **#4 promotion candidate** by O&G-engineering frequency-of-citation (after D86, D396, D445).
 - [ASTM A370](astm-a370.md) — sibling first-class standards page in this wiki; demonstrates the same `wiki/standards/<code-id>.md` schema and frontmatter contract that this page satisfies.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution at calc time.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution at calc time.
 
 ## Sources
 

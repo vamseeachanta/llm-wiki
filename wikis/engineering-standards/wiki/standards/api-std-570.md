@@ -91,4 +91,4 @@ Publisher catalog: <https://www.api.org/products-and-services/standards>. API 57
 - [risk-based-inspection](../concepts/risk-based-inspection.md) — concept anchor for RBI alternative interval-setting.
 - [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — concept anchor for LTCR/STCR rate calculation.
 - [og-standards-api](../sources/og-standards-api.md) — parent source page.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes an API 570 inspection-interval, CML-spacing, or remaining-life value.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes an API 570 inspection-interval, CML-spacing, or remaining-life value.

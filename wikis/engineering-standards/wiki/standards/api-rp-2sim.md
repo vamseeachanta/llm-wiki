@@ -93,7 +93,7 @@ Publisher catalog: <https://www.api.org/products-and-services/standards>. RP 2SI
 - [risk-based-inspection](../concepts/risk-based-inspection.md) — concept anchor; SIM is structurally analogous to RBI but for fixed-platform structures.
 - [fatigue-design-and-assessment](../concepts/fatigue-design-and-assessment.md) — concept anchor; tubular-joint fatigue-cracking is a primary SIM damage mechanism.
 - [og-standards-api](../sources/og-standards-api.md) — parent source page.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes an RP 2SIM exposure-category threshold or reserve-strength-ratio (RSR) acceptance value.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes an RP 2SIM exposure-category threshold or reserve-strength-ratio (RSR) acceptance value.
 
 **Cross-wiki (maritime-law)** *(where SIM methodology converges with ship-shape mobile-unit safety regimes)*
 

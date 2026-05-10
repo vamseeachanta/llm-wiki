@@ -103,7 +103,7 @@ A553 sits at the convergence of LNG facility codes, marine cargo-containment cod
 
 **Wiki cross-links**
 
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution.
 
 ## Sources
 

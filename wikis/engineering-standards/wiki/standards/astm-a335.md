@@ -121,7 +121,7 @@ A335 sits at the convergence of the ASTM A-committee material-supply chain and s
 
 **Wiki cross-links**
 - [O&G Standards catalog — ASTM A-Series](../sources/og-standards-astm-a-series.md) — multi-edition coverage manifest for the A-Series slice.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution.
 
 ## Sources
 

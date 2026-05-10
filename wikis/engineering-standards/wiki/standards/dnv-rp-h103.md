@@ -33,7 +33,7 @@ This page is a citation resolver for downstream calc modules under the calc-cita
 - [dnv-rp-c205](dnv-rp-c205.md) — environmental conditions input to marine-operation analysis
 - [dnv-os-e301](dnv-os-e301.md) — position-mooring of the carrying or lifting unit
 - [dnv-os-f201](dnv-os-f201.md) — dynamic risers (installation modelling overlap)
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Cross-References
 

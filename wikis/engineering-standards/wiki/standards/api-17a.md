@@ -75,7 +75,7 @@ API Spec 17A is the global default for subsea-production-system specification. I
 **Cross-wiki bridges:**
 
 - Subsea-system design interfaces with the broader offshore-production envelope; see also marine-engineering and naval-architecture wikis for adjacent scopes.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Where to find the full text
 

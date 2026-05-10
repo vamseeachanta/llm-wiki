@@ -85,7 +85,7 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0044-9
 - [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) — concept anchor; G44 is the laboratory chloride-SCC exposure for atmospheric-marine simulation.
 - [hydrogen-embrittlement](../concepts/hydrogen-embrittlement.md) — concept anchor; G44 exposure drives chloride-environment HE in high-strength steels.
 - [atmospheric-corrosion](../concepts/atmospheric-corrosion.md) — concept anchor; G44 is the laboratory-accelerated marine-atmospheric simulation.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G44 environment parameter or accelerated-exposure factor.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G44 environment parameter or accelerated-exposure factor.
 
 ## Sources
 

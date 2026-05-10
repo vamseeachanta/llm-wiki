@@ -131,7 +131,7 @@ Stern-Geary `i_corr = B / R_p` is **valid only when corrosion is activation-cont
 - [API RP 571](https://www.api.org/) — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* Damage-mechanism rate context (CO2/H2S/sulfidation/acid corrosion regimes) into which G102 numerical outputs are placed for fitness-for-service work.
 - [NACE SP0775](https://www.ampp.org/) (now AMPP SP0775) — *Preparation, Installation, Analysis, and Interpretation of Corrosion Coupons in Oilfield Operations.* Online corrosion-monitoring corrosion-rate reporting that consumes G102-formatted output from in-line probes.
 - Concept anchor: [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — landing page that cites G102 as the `i_corr` → engineering-rate calc bridge underneath the G5 / G59 / G106 measurement column.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G102 Faraday constant (K1, K2, K3), an alloy-specific EW from Annex 1, or a Stern-Geary `B` value derived per the equations above.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G102 Faraday constant (K1, K2, K3), an alloy-specific EW from Annex 1, or a Stern-Geary `B` value derived per the equations above.
 
 ## Sources
 

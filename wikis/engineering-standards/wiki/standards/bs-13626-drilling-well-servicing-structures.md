@@ -40,4 +40,4 @@ This page is a citation resolver target for downstream calc modules per `.claude
 ## Cross-references
 - [bs-13533-drill-through-equipment](bs-13533-drill-through-equipment.md) — companion drilling-systems standard
 - [bs-13625-marine-drilling-riser-couplings](bs-13625-marine-drilling-riser-couplings.md) — companion drilling-systems standard
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

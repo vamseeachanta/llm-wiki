@@ -28,7 +28,7 @@ Resolver target for downstream `digitalmodel` `Citation` instances per `.claude/
 ## Cross-references
 - [abs-rules-offshore-installations](abs-rules-offshore-installations.md) — companion offshore-side rule book
 - [abs-rules-coc-part1-offshore](abs-rules-coc-part1-offshore.md) — paired Conditions-of-Classification rule book
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Where to find the full text
 - Raw PDF (2016 edition, Part 3 hull): `/mnt/ace/O&G-Standards/ABS/Rules/ABS-Rules-Steel-Vessels-Part3-2016.pdf` (read-only, vendor-derivative; do not copy into git per #2482)

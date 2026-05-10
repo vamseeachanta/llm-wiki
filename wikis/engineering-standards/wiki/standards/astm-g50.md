@@ -81,7 +81,7 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0050-2
 - [atmospheric-corrosion](../concepts/atmospheric-corrosion.md) — concept anchor; G50 is the foundational outdoor-exposure practice for atmospheric corrosion data.
 - [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — concept anchor; G50 produces the LTCR substrate for atmospheric-service rate models.
 - [coating-systems](../concepts/coating-systems.md) — concept anchor; G50 outdoor exposure validates accelerated-coating-test durability claims.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G50 environment classification, exposure-duration convention, or LTCR-from-mass-loss conversion.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G50 environment classification, exposure-duration convention, or LTCR-from-mass-loss conversion.
 
 ## Sources
 

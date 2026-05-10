@@ -77,4 +77,4 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 - [asme-b31-4](asme-b31-4.md) — liquid-pipeline consumer
 - [asme-bpvc-viii-1](asme-bpvc-viii-1.md) — pressure-vessel-nozzle flange interface
 - [asme-bpvc-ii-d](asme-bpvc-ii-d.md) — material allowable stresses sourced upstream of the rating curves
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

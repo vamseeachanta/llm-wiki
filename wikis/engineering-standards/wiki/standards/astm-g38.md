@@ -83,7 +83,7 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0038-0
 - [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) — concept anchor; C-ring is the canonical tubing/pipe SCC specimen geometry.
 - [sour-service-materials](../concepts/sour-service-materials.md) — concept anchor; OCTG and line-pipe sour-service qualification uses C-ring per G38.
 - [hydrogen-embrittlement](../concepts/hydrogen-embrittlement.md) — concept anchor; C-rings are used in HE/HISC qualification of high-strength steels and CRAs.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G38 stress-equation parameter or specimen-geometry constraint.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G38 stress-equation parameter or specimen-geometry constraint.
 
 ## Sources
 

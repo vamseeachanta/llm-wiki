@@ -50,4 +50,4 @@ On-disk newest edition is 2010. Publisher-current edition is 2025 — a 15-year 
 ## Cross-references
 - [asme-bpvc-ix](asme-bpvc-ix.md) — qualifies welders and welding procedures referenced by D1.1 contract documents
 - [api-1104](api-1104.md) — companion pipeline-welding code (forward-pointing dangling link; W1-A or future W1-B scope)
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

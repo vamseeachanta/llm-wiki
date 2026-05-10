@@ -106,7 +106,7 @@ The frequency-of-citation across the downstream-fuels spec lattice is why the so
 
 **Wiki cross-links**
 - [O&G Standards catalog — ASTM D-Series](../sources/og-standards-astm-d-series.md) — multi-edition coverage manifest; identifies D86 as **#1 promotion candidate** in the D-Series slice with 9 catalog files across 5 distinct editions (2000–2004).
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution.
 
 ## Sources
 

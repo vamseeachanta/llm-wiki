@@ -88,4 +88,4 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 - [api-rp-2sim](api-rp-2sim.md) — structural integrity management (in-service phase)
 - [api-17e](api-17e.md) — sibling subsea umbilicals stub (same publisher)
 - [iso-19902](iso-19902.md) — ISO peer fixed-steel-structure standard (LRFD)
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

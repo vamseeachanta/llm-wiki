@@ -155,7 +155,7 @@ D4814 sits at the convergence of the ASTM **D02 committee** (petroleum products 
 - [ASTM D975 — Diesel Fuel Oils](astm-d975.md) — sibling first-class standards page on the compression-ignition side; demonstrates the same `wiki/standards/<code-id>.md` schema and frontmatter contract.
 - [ASTM D86 — Distillation at atmospheric pressure](astm-d86.md) — primary upstream test method for D4814's distillation-curve requirements.
 - [Fuel quality and specification](../concepts/fuel-quality-and-specification.md) — concept page in this wiki that forward-references D4814 in the U.S. spec family alongside D975, D1655, D396, and the biodiesel/ethanol blendstock chain.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution at calc time.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution at calc time.
 
 ## Sources
 

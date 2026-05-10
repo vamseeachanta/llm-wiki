@@ -136,7 +136,7 @@ D396 sits at the convergence of the ASTM **D02 committee** (petroleum products a
 - [Fuel quality and specification](../concepts/fuel-quality-and-specification.md) — concept page that places D396 inside the ASTM fuels-spec family alongside D975, D1655, D3699, D6751, D7467.
 - [O&G Standards catalog — ASTM D-Series](../sources/og-standards-astm-d-series.md) — multi-edition coverage manifest and bucket-purity audit; D396 is identified there as the **#2 promotion candidate** by O&G-engineering frequency-of-citation (after D86 and ahead of D445, D975).
 - [ASTM D975 — Diesel Fuel Oils](astm-d975.md) — sibling D02 specification page; demonstrates the same `wiki/standards/<code-id>.md` schema and frontmatter contract that this page satisfies.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution at calc time.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution at calc time.
 
 ## Sources
 

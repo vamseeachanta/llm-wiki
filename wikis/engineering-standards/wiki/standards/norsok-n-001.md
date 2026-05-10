@@ -47,7 +47,7 @@ This page is the citation resolver target for downstream calc modules under the 
 ## Cross-references
 - [norsok-n-004](norsok-n-004.md) — design of steel structures companion code (jacket and topside detail design)
 - [norsok-m-001](norsok-m-001.md) — materials selection companion (load-bearing material classes feed back into N-001)
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Cross-References
 

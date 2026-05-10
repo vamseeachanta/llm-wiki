@@ -98,7 +98,7 @@ These thresholds are illustrative and must be verified against the project speci
 - DNV-OS-F101 — Submarine pipeline systems; sour-service supplementary requirements reference TM-0284 (no standards page yet in this wiki).
 - API 5LD — CRA-clad / CRA-lined pipe specification; references TM-0284 for the carbon-steel backing where sour service applies (no standards page yet in this wiki).
 - [Concept: sour-service-materials](../concepts/sour-service-materials.md) — HIC chapter that consumes this page as a normative test-method reference.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Sources
 

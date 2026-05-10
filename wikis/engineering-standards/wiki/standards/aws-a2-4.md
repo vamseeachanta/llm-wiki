@@ -42,4 +42,4 @@ On-disk edition is 2007. Publisher-current edition is 2020 (subject to verificat
 ## Cross-references
 - [aws-d1-1](aws-d1-1.md) — references A2.4 symbology on structural-steel contract drawings
 - [aws-d1-2](aws-d1-2.md) — references A2.4 symbology on aluminum-structure contract drawings
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

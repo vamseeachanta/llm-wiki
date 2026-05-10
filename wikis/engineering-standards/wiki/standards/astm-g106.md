@@ -100,7 +100,7 @@ The practical consequence: LPR is the **online-monitoring** tool (NACE SP0775 pr
 - NACE SP0775 — *Preparation, Installation, Analysis, and Interpretation of Corrosion Coupons in Oilfield Operations.* Online-monitoring practice in which EIS-based probes are increasingly deployed alongside coupons and LPR probes; G106 is the equipment-verification anchor for those EIS probes.
 - [api-rp-571](api-rp-571.md) — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* Damage-mechanism context for the corrosion modes (CUI, MIC, sour cracking, naphthenic-acid attack) that EIS is deployed to characterize in the field.
 - Concept anchor: [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — landing page that cites G106 as the EIS primary, alongside G5/G59/G102 in the electrochemical-measurement column.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes an EIS-derived `R_p`, `C_dl`, or coating `R_pore` value with G106 provenance.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes an EIS-derived `R_p`, `C_dl`, or coating `R_pore` value with G106 provenance.
 
 ## Sources
 

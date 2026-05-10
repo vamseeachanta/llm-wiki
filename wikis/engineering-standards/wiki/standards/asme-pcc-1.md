@@ -38,4 +38,4 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 
 - [asme-b16-5](asme-b16-5.md) — flange-rating side
 - [asme-b16-34](asme-b16-34.md) — valve flange rating cross-link
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

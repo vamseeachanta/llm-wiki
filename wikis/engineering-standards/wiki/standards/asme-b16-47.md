@@ -90,7 +90,7 @@ ASME publications subscription required; ANSI catalog also lists the document. V
 - [asme-b31-1](asme-b31-1.md) — Power Piping; consumes B16.47 dimensional and rating data.
 - [asme-b31-3](asme-b31-3.md) — Process Piping; consumes B16.47 dimensional and rating data.
 - [asme-b31j](asme-b31j.md) — SIF and flexibility factors; sister-data input alongside B16.47 dimensions in pipe-stress-analysis component libraries.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Notes
 

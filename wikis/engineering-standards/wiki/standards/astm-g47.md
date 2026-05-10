@@ -83,7 +83,7 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0047-2
 - [astm-g46](astm-g46.md) — *Examination and Evaluation of Pitting Corrosion.* Examination companion when pitting accompanies G47 SCC observations.
 - [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) — concept anchor; G47 is the canonical aluminum-alloy SCC test method.
 - [hydrogen-embrittlement](../concepts/hydrogen-embrittlement.md) — concept anchor; aluminum SCC mechanisms include chloride-driven hydrogen embrittlement contributions.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G47 applied-stress level or pass/fail criterion for aluminum-alloy SCC qualification.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G47 applied-stress level or pass/fail criterion for aluminum-alloy SCC qualification.
 
 ## Sources
 

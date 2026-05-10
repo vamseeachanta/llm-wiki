@@ -90,7 +90,7 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 - [api-spec-5l](api-spec-5l.md) — line-pipe material specification consumed by B31.4 (SMYS in the hoop-stress equation)
 - [api-rp-1111](api-rp-1111.md) — offshore hydrocarbon pipelines, limit-state-design alternative companion
 - [ampp-mr-0175-pt1](ampp-mr-0175-pt1.md) — sour-service material selection (cross-linked for sour-hydrocarbon-pipeline material qualification)
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Cross-References
 

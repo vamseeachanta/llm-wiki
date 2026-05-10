@@ -82,7 +82,7 @@ The following are the procedural anchors that recur across the methods (consult 
 - [astm-a923](astm-a923.md) — *Standard Test Methods for Detecting Detrimental Intermetallic Phase in Duplex Austenitic/Ferritic Stainless Steels.* Method C of A923 is itself a ferric-chloride corrosion test; G48 is the broader CRA-screening parent and A923 Method C is the duplex-intermetallic-detection specialization. The two are routinely reported together for duplex weld procedure qualification.
 - [api-spec-6a](api-spec-6a.md) — *Wellhead and Christmas Tree Equipment.* Subsea wellhead CRA components (cladding, weld overlays, solid CRA forgings) are commonly qualified with G48 Method A or Method B at a project-specified temperature; the G48 acceptance value flows in through the supplemental requirements (PSL/PR uplift) clauses or through a cited NORSOK MDS.
 - Concept anchor: [pitting-and-crevice-corrosion](../concepts/pitting-and-crevice-corrosion.md) — landing page for the G46/G48/G78 cluster.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G48-derived CPT, CCT, or pass/fail temperature.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G48-derived CPT, CCT, or pass/fail temperature.
 
 ## Sources
 

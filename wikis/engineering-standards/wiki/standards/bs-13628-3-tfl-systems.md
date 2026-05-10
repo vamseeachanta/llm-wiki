@@ -39,4 +39,4 @@ This page is a citation resolver target for downstream calc modules per `.claude
 
 ## Cross-references
 - [bs-13628-2-flexible-pipe-subsea](bs-13628-2-flexible-pipe-subsea.md) — sibling Pt 2 of the subsea production systems family
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

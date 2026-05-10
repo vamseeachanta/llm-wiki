@@ -73,7 +73,7 @@ API Spec 17H is the global default for subsea-intervention interface standardiza
 **Cross-wiki bridges:**
 
 - ROV-intervention envelope interfaces with marine-operations and offshore-installation scopes; see also marine-engineering wiki for vessel-launched-ROV operability.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Where to find the full text
 

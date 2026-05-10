@@ -45,7 +45,7 @@ intentionally a stub when revision is not yet pinnable.
 ## Cross-references
 
 - [api-std-2rd](api-std-2rd.md) — production-riser companion standard
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Cross-References
 

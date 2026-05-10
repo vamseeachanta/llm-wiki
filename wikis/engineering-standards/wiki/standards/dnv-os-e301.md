@@ -86,6 +86,6 @@ This page is the citation resolver target for the calc-citation pilot in `digita
 - [dnv-os-f201](dnv-os-f201.md) — dynamic risers companion offshore standard (TLP / FPSO riser systems)
 - [api-rp-2sk](api-rp-2sk.md) — API peer mooring standard, frequently co-cited
 - [iso-19901-7](iso-19901-7.md) — ISO peer stationkeeping standard, frequently co-cited
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 **Cross-wiki (engineering)**: [DNV-OS-E301 — Position Mooring](../../../engineering/wiki/standards/dnv-os-e301.md) — similar slugs (100%); similar titles (74%); shared tags: dnv, mooring; shared entities: DNV, DNV-OS-E301

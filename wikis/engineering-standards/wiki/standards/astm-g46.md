@@ -97,7 +97,7 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0046-9
 - [pitting-and-crevice-corrosion](../concepts/pitting-and-crevice-corrosion.md) — concept anchor; G46 closes the explicit "future-ingest" flag.
 - [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — concept anchor; G46 is the localized-attack examination companion to the rate-measurement methods.
 - [risk-based-inspection](../concepts/risk-based-inspection.md) — concept anchor for RBI workflows that consume G46-vocabulary inspection populations.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G46 rating-chart category, pit-density bin threshold, or pit-shape taxonomy term.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G46 rating-chart category, pit-density bin threshold, or pit-shape taxonomy term.
 
 ## Sources
 

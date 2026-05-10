@@ -125,7 +125,7 @@ D445 sits at the convergence of the ASTM **D02 committee** (Petroleum Products a
 **Wiki cross-links**
 - [O&G Standards catalog — ASTM D-Series](../sources/og-standards-astm-d-series.md) — multi-edition coverage manifest and bucket-purity audit; D445 listed there as **#3 promotion candidate** in the D02-petroleum block (4-edition catalog presence; pairs with D2161).
 - [ASTM A370](astm-a370.md) — sibling ASTM standard on the steel-mechanical-testing side (A370 + D445 are both A/D-series test-method anchors that sit upstream of dozens of product specs).
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution.
 
 ## Sources
 

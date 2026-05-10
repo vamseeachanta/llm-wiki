@@ -33,4 +33,4 @@ Resolver target for downstream `digitalmodel` `Citation` instances per `.claude/
 - [abs-gui-002-fpso](abs-gui-002-fpso.md) — companion FPSO building-and-classing guide
 - [abs-gui-115-fatigue-offshore](abs-gui-115-fatigue-offshore.md) — fatigue-assessment guide (often cross-cited from DLA workflows)
 - [abs-rules-steel-vessels-part3](abs-rules-steel-vessels-part3.md) — base steel-vessel hull rule book DLA augments
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

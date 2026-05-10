@@ -93,7 +93,7 @@ Publisher catalog: <https://www.api.org/products-and-services/standards>. RP 578
 - [risk-based-inspection](../concepts/risk-based-inspection.md) — concept anchor for RBI consuming PMI findings.
 - [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — concept anchor; alloy substitution can confound corrosion-rate calculations.
 - [og-standards-api](../sources/og-standards-api.md) — parent source page.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes an RP 578 sampling-extent rule or alloy-criticality threshold.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes an RP 578 sampling-extent rule or alloy-criticality threshold.
 
 **Cross-wiki (maritime-law)** *(where PMI/material-traceability gates chemical-tanker pollution-prevention compliance)*
 

@@ -81,7 +81,7 @@ A digitalmodel emit of a standards-derived constant (e.g., a Table 5-1 current d
 - [dnv-os-e301](dnv-os-e301.md) — citation pilot for mooring safety factors per [vamseeachanta/workspace-hub#2481](https://github.com/vamseeachanta/workspace-hub/issues/2481)
 - Source caller: `digitalmodel/src/digitalmodel/infrastructure/base_solvers/hydrodynamics/cathodic_protection.py` (router L21, `DNV_RP_F103_2010` L67, helpers below)
 - Tests: `digitalmodel/tests/marine_ops/marine_engineering/test_cathodic_protection_dnv.py`
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 - Issue: [vamseeachanta/workspace-hub#2627](https://github.com/vamseeachanta/workspace-hub/issues/2627) (creation), [vamseeachanta/workspace-hub#2609](https://github.com/vamseeachanta/workspace-hub/issues/2609) R3 cluster (downstream consumer)
 
 ## Cross-References

@@ -35,7 +35,7 @@ This page is a citation resolver for downstream calc modules under the calc-cita
 - [dnv-rp-b401](dnv-rp-b401.md) — cathodic protection design that mitigates external corrosion
 - [dnv-rp-f105](dnv-rp-f105.md) — free spanning pipelines (sibling pipeline-integrity RP)
 - [dnv-rp-f109](dnv-rp-f109.md) — on-bottom stability of pipelines (sibling)
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Cross-References
 

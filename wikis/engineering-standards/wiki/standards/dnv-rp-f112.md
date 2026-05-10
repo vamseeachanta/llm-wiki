@@ -70,7 +70,7 @@ Multiple high-profile FPSO and subsea-pipeline duplex-component HISC failures in
 - ASTM G48 — pitting/crevice corrosion screen for DSS material qualification (CP-exposure complement)
 - ISO 15156-3 / NACE MR0175 Part 3 — sour-service CRA (corrosion-resistant alloy) qualification, often co-applied with RP-F112 on subsea hardware
 - API Spec 6A / API Spec 17D — wellhead and subsea-tree DSS components subject to RP-F112 controls
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Sources
 

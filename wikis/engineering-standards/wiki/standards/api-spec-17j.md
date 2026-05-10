@@ -42,4 +42,4 @@ page's frontmatter (`code_id`, `publisher`, `revision`).
 ## Cross-references
 
 - [api-rp-17b](api-rp-17b.md) — companion recommended practice
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

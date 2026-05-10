@@ -97,7 +97,7 @@ The 2021-09 edition's section structure is the working surface for most calc mod
 - [Fatigue Design and Assessment](../concepts/fatigue-design-and-assessment.md) — concept page on deterministic-fatigue substrate underlying DNV-RP-C210.
 - [Risk-Based Inspection (RBI)](../concepts/risk-based-inspection.md) — concept page on RBI methodology; DNV-RP-C210 is the offshore-fatigue specialisation.
 - [Fitness-for-Service (FFS)](../concepts/fitness-for-service.md) — concept page on FFS; DNV-RP-C210 inspection findings feed FFS evaluation per [bs-7910](bs-7910.md) / [api-579-1-asme-ffs-1](api-579-1-asme-ffs-1.md).
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Where to find the full text
 

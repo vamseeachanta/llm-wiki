@@ -38,4 +38,4 @@ This page is the citation resolver target for downstream calc modules selecting 
 - [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) — companion Part 3 (corrosion-resistant alloys)
 - [ampp-mr-0175-1995](ampp-mr-0175-1995.md) — superseded historical 1995 single-document edition
 - [ampp-tm-0177](ampp-tm-0177.md) — sulfide stress cracking laboratory test method (acceptance-criteria companion)
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

@@ -84,4 +84,4 @@ This page is a citation resolver target for downstream calc modules per `.claude
 - [asme-bpvc-ii-d](asme-bpvc-ii-d.md) — material allowable stresses sourced upstream
 - [asme-bpvc-ix](asme-bpvc-ix.md) — welding qualification basis for Division 2 vessels
 - [asme-b31-3](asme-b31-3.md) — process piping companion code in refinery and petrochem applications
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

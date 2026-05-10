@@ -115,7 +115,7 @@ A calc-module emitting an online-monitoring rate without a documented G59 → G1
 - [api-rp-571](api-rp-571.md) — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* Damage-mechanism context for the integrity engineer reading the LPR rate channel; identifies which mechanisms (uniform CO2 corrosion, sour-service H2S attack, naphthenic-acid attack, MIC, etc.) the LPR signal is and is not sensitive to.
 - [ampp-tm-0177](ampp-tm-0177.md) — *Laboratory Testing of Metals for Resistance to Sulfide Stress Cracking and Stress Corrosion Cracking in H2S Environments.* SSC tensile-style testing in sour environments; the H2S sour-service cousin to G59-conformant electrochemical work, often run on the same heat of material.
 - Concept anchor: [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — landing page that names **G59 as the primary LPR method** in the electrochemical measurement column underneath G3 (conventions) and feeding G102 (rate calculation).
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G59-derived `R_p`, a Stern-Geary `B` constant, an LPR-probe sweep protocol, or an IR-correction default.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G59-derived `R_p`, a Stern-Geary `B` constant, an LPR-probe sweep protocol, or an IR-correction default.
 
 ## Sources
 

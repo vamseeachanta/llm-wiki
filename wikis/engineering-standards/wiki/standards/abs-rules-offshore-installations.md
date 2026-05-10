@@ -34,4 +34,4 @@ Resolver target for downstream `digitalmodel` `Citation` instances per `.claude/
 ## Cross-references
 - [abs-rules-coc-part1-offshore](abs-rules-coc-part1-offshore.md) — companion Conditions-of-Classification rule book (Part 1, Offshore)
 - [abs-gui-101-fpso-dla](abs-gui-101-fpso-dla.md) — FPSO Dynamic Loading Approach Guide; references this rule book for class scope
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

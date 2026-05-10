@@ -45,4 +45,4 @@ this page's frontmatter triple (`code_id`, `publisher`, `revision`).
 
 - [api-rp-2a-wsd](api-rp-2a-wsd.md) — companion fixed-platform recommended practice
 - [api-rp-2met](api-rp-2met.md) — metocean design conditions
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

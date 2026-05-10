@@ -90,7 +90,7 @@ AMPP store subscription required (`https://store.ampp.org/`); ANSI catalog also 
 - [ampp-mr-0175-pt1](ampp-mr-0175-pt1.md) — sister AMPP/NACE standard; sour-service materials selection.
 - [atmospheric-corrosion](../concepts/atmospheric-corrosion.md) — concept-level consumer; surface-prep grade selection by ISO 12944 corrosivity category.
 - [corrosion-under-insulation](../concepts/corrosion-under-insulation.md) — concept-level consumer; near-white blast required for TSA and high-temperature CUI-resistant systems.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 **Adjacent surface-preparation standards (future-promotion candidates — no wiki page yet):**
 

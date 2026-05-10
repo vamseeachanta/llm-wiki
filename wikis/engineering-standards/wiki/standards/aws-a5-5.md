@@ -42,4 +42,4 @@ On-disk edition is 1996. Publisher-current edition is approximately A5.5/A5.5M:2
 ## Cross-references
 - [aws-d1-1](aws-d1-1.md) — references A5-series filler-metal classifications for matching-electrode requirements
 - [asme-bpvc-ix](asme-bpvc-ix.md) — procedure qualification cites filler-metal classifications from the A5 series
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

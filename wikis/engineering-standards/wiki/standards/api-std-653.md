@@ -94,4 +94,4 @@ Publisher catalog: <https://www.api.org/products-and-services/standards>. Legacy
 - [coating-systems](../concepts/coating-systems.md) — concept anchor for tank-coating condition driving corrosion-rate inputs.
 - [brittle-fracture](../concepts/brittle-fracture.md) — concept anchor for low-temperature screening of pre-1987 tanks.
 - [og-standards-api](../sources/og-standards-api.md) — parent source page.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes an API 653 minimum-thickness, settlement-tolerance, or inspection-interval value.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes an API 653 minimum-thickness, settlement-tolerance, or inspection-interval value.

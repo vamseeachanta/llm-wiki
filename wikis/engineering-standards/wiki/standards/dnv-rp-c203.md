@@ -36,7 +36,7 @@ This page is a citation resolver for downstream calc modules under the calc-cita
 - [dnv-st-f101](dnv-st-f101.md) — pipeline systems reference fatigue per RP-C203
 - [dnv-os-e301](dnv-os-e301.md) — position mooring fatigue uses T-N curves with parallel methodology
 - [dnv-os-f201](dnv-os-f201.md) — dynamic risers fatigue per RP-C203
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Cross-References
 

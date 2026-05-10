@@ -86,7 +86,7 @@ API Publications subscription required; ANSI catalog also lists the document. Ve
 - [api-rp-580](api-rp-580.md) — RBI methodology base; adapted to mooring-specific threats inside API RP 2MIM.
 - [api-rp-581](api-rp-581.md) — Quantitative RBI; methodology reference for mooring likelihood/consequence categorization.
 - [Risk-Based Inspection (RBI)](../concepts/risk-based-inspection.md) — concept page on RBI paradigm.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Notes
 

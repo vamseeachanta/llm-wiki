@@ -33,4 +33,4 @@ Resolver target for downstream `digitalmodel` `Citation` instances per `.claude/
 - [api-std-2rd](api-std-2rd.md) — API counterpart for dynamic risers on floating production systems
 - [dnv-os-f201](dnv-os-f201.md) — DNV counterpart for dynamic risers
 - [abs-gui-115-fatigue-offshore](abs-gui-115-fatigue-offshore.md) — fatigue-assessment companion
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

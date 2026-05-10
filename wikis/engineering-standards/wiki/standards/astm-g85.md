@@ -83,7 +83,7 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0085-1
 - [atmospheric-corrosion](../concepts/atmospheric-corrosion.md) — concept anchor; G85 is the laboratory accelerated chloride/SO2-fog family for atmospheric simulation.
 - [coating-systems](../concepts/coating-systems.md) — concept anchor; G85 is invoked by coating-qualification protocols for rust-resistance and scribe-creep metrics.
 - [galvanic-corrosion](../concepts/galvanic-corrosion.md) — concept anchor; coated-panel scribe-creep behavior in G85 reflects underfilm galvanic mechanisms.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G85 annex selection, exposure duration, or coating-creep acceptance threshold.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G85 annex selection, exposure duration, or coating-creep acceptance threshold.
 
 ## Sources
 

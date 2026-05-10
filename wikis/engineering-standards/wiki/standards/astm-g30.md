@@ -86,4 +86,4 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0030-9
 - [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) (concept) — primary consumer concept page; U-bend geometry anchors the SCC test-method ladder.
 - [sour-service-materials](../concepts/sour-service-materials.md) (concept) — secondary consumer; U-bend specimens are used in some sour-service-CRA qualification routes.
 - [pitting-and-crevice-corrosion](../concepts/pitting-and-crevice-corrosion.md) (concept) — adjacent damage mode; G30 does not address pitting/crevice but is companion to G48.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

@@ -97,7 +97,7 @@ ASCE catalog (registration / purchase): `https://www.asce.org/publications-and-n
 - [iso-19901-1](iso-19901-1.md) — ISO offshore metocean code; international companion.
 - [api-rp-14e](api-rp-14e.md) — offshore production-platform piping; uses offshore wind / wave / current rather than ASCE 7.
 - [og-standards-asce](../sources/og-standards-asce.md) — parent source page recording ASCE 7 as the only ASCE code with standards content present in the local catalog (best-catalogued edition: 7-05).
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes an ASCE 7-derived basic wind speed, pressure coefficient, exposure factor, design-spectral-acceleration coefficient, or load-combination factor.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes an ASCE 7-derived basic wind speed, pressure coefficient, exposure factor, design-spectral-acceleration coefficient, or load-combination factor.
 
 ## Sources
 

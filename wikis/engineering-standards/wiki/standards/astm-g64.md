@@ -80,7 +80,7 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0064-9
 - [astm-g129](astm-g129.md) — *Slow Strain Rate Testing.* Active-strain-rate alternative SCC characterization method.
 - [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) — concept anchor; G64 is the canonical aluminum-alloy SCC-resistance classification.
 - [hydrogen-embrittlement](../concepts/hydrogen-embrittlement.md) — concept anchor; aluminum SCC mechanisms include chloride-driven HE contributions.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G64 alloy/temper/orientation rating threshold or selection-guide rule.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G64 alloy/temper/orientation rating threshold or selection-guide rule.
 
 ## Sources
 

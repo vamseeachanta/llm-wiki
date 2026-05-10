@@ -46,4 +46,4 @@ reproduced here.
 ## Cross-references
 
 - [api-rp-2a-wsd](api-rp-2a-wsd.md) — sibling fixed-platform recommended practice
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

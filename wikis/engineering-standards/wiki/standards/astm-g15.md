@@ -100,7 +100,7 @@ ASTM withdrawal-status catalog page: `https://www.astm.org/g0015.htm` (publisher
 - [astm-g102](astm-g102.md) — *Calculation of Corrosion Rates from Electrochemical Measurements.* Faraday and equivalent-weight terminology.
 - [electrochemical-corrosion](../concepts/electrochemical-corrosion.md) — concept anchor for the kinetics-framework terminology that G15 historically codified.
 - [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — concept anchor that places G15 in the historical-substrate role for corrosion-measurement vocabulary.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — calls resolving against `code_id = astm-g15` should record the withdrawal status alongside the citation; modern emitters should prefer the relevant in-method terminology source.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — calls resolving against `code_id = astm-g15` should record the withdrawal status alongside the citation; modern emitters should prefer the relevant in-method terminology source.
 
 ## Sources
 

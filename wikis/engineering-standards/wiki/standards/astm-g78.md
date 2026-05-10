@@ -81,7 +81,7 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0078-2
 - ASTM D1141 — *Substitute Ocean Water Standard.* Synthetic-seawater formulation that G78 may invoke when natural seawater is unavailable.
 - [pitting-and-crevice-corrosion](../concepts/pitting-and-crevice-corrosion.md) — concept anchor; G78 is the service-relevant crevice-corrosion test guide for chloride environments.
 - [galvanic-corrosion](../concepts/galvanic-corrosion.md) — concept anchor; crevice-corrosion phenomenology overlaps galvanic deaeration cells in occluded geometries.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G78 environment parameter, exposure duration, or crevice-initiation criterion.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G78 environment parameter, exposure duration, or crevice-initiation criterion.
 
 ## Sources
 

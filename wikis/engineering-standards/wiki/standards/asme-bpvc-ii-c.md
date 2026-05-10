@@ -98,7 +98,7 @@ ASME publications subscription required; ANSI catalog also lists the document; A
 - [asme-b31-3](asme-b31-3.md) — Process Piping; consumes Section II Part C consumables.
 - [api-1104](api-1104.md) — Welding of pipelines; pipeline-side companion code with parallel filler-metal specification scheme (typically AWS A5.x direct citation).
 - [Welding Procedures and Acceptance](../concepts/welding-procedures-and-acceptance.md) — concept page on WPS/PQR/WPQ qualification.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Notes
 

@@ -92,6 +92,6 @@ This page is a citation resolver for downstream calc modules under the calc-cita
 - DNV-OS-F101 — submarine pipeline systems companion offshore standard (resolver-page TBD)
 - API RP 2RD — API peer riser standard, frequently co-cited (resolver-page TBD)
 - [api-17j](api-17j.md) — flexible (unbonded) riser companion (W179 / W183 bridge)
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 **Cross-wiki (engineering)**: [DNV-OS-E301 — Position Mooring](../../../engineering/wiki/standards/dnv-os-e301.md) — similar slugs (82%); shared tags: dnv; shared entities: DNV, DNV-OS-F201

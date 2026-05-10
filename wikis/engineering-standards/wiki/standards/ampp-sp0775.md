@@ -126,7 +126,7 @@ The two streams are fused per the calibration relationship `i_corr_LPR = β / R_
 - [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — Concept-level synthesis of the four canonical corrosion-rate methods (mass-loss, electrochemical, in-service thickness, hydrogen-flux) that consumes SP0775 as the online-monitoring / field-coupon primary reference.
 - [ampp-tm-0177](ampp-tm-0177.md) — Sulfide stress cracking laboratory test methods (sour-service materials qualification, not field corrosion-rate monitoring).
 - [ampp-tm-0284](ampp-tm-0284.md) — Hydrogen-induced cracking laboratory test method (sour-service materials qualification, not field corrosion-rate monitoring).
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Sources
 

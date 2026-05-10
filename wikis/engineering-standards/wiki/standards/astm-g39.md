@@ -87,4 +87,4 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0039-9
 - [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) (concept) — primary consumer concept page; bent-beam geometry anchors the SCC test-method ladder.
 - [sour-service-materials](../concepts/sour-service-materials.md) (concept) — secondary consumer; bent-beam specimens are routine in sour-service qualification.
 - [welding-procedures-and-acceptance](../concepts/welding-procedures-and-acceptance.md) (concept) — HAZ SCC characterization uses 4PBB specimens spanning weldment regions.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

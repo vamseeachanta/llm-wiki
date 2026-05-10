@@ -98,7 +98,7 @@ The reported rate is treated as **a screening number with order-of-magnitude rel
 - [ampp-mr-0175-pt2](ampp-mr-0175-pt2.md) / [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) — Sour-service materials selection. G31 mass-loss data populates the qualification dossier for carbon-steel and CRA selections under MR0175 / ISO 15156.
 - Concept anchor: [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — landing page that names G31 as the **primary mass-loss-in-liquids method** alongside G1 (prep) and G102 (electrochemical conversion).
 - Concept anchor: [sour-service-materials](../concepts/sour-service-materials.md) — names G1 / G31 as the mass-loss substrate referenced from NACE MR0175 / ISO 15156 / AMPP TM0177 sour-service qualifications.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G31-derived screening rate, exposure protocol, or material-selection threshold.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G31-derived screening rate, exposure protocol, or material-selection threshold.
 
 ## Sources
 

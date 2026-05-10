@@ -85,4 +85,4 @@ ASME BPVC catalog (registration required): `https://www.asme.org/codes-standards
 - [api-spec-6a](api-spec-6a.md) — wellhead and tree equipment; HPHT-rated 6A equipment intersects Division 3 pressure-vessel rules.
 - [engineering-critical-assessment](../concepts/engineering-critical-assessment.md) (concept) — fracture-mechanics-based acceptance route mandatory under Division 3.
 - [fitness-for-service](../concepts/fitness-for-service.md) (concept) — in-service flaw evaluation; FFS Part 9 (crack-like flaws) is the in-service counterpart to Division 3 design-time fracture mechanics.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

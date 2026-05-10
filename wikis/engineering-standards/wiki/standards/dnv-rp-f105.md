@@ -36,7 +36,7 @@ This page is a citation resolver for downstream calc modules under the calc-cita
 - [dnv-rp-c203](dnv-rp-c203.md) — fatigue methodology referenced by F105 acceptance
 - [dnv-rp-f109](dnv-rp-f109.md) — on-bottom stability companion
 - [dnv-rp-f101](dnv-rp-f101.md) — corroded-pipeline assessment companion
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Cross-References
 

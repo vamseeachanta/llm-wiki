@@ -95,4 +95,4 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0129-2
 - [sour-service-materials](../concepts/sour-service-materials.md) (concept) — secondary consumer; SSRT is foundational to fitness-assessment-route evidence.
 - [hydrogen-embrittlement](../concepts/hydrogen-embrittlement.md) (concept) — HE/HISC mechanism family; SSRT is the dominant HE-screening test.
 - [cathodic-protection](../concepts/cathodic-protection.md) (concept) — HISC overlap; SSRT-under-CP characterizes susceptibility envelope.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

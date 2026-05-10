@@ -50,4 +50,4 @@ This page is the historical-traceability resolver target for legacy citations to
 ## Cross-references
 - [api-rp-16q](api-rp-16q.md) — drilling riser systems international counterpart (already on-disk in this wiki)
 - [norsok-n-001](norsok-n-001.md) — structural-design code for the Norwegian shelf envelope
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

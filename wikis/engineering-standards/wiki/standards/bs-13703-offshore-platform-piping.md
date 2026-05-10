@@ -37,4 +37,4 @@ This page is a citation resolver target for downstream calc modules per `.claude
 
 ## Cross-references
 - [asme-b31-3](asme-b31-3.md) — process piping companion standard (ASME methodology)
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

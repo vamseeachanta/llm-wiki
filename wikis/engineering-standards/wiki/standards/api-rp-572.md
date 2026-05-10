@@ -88,4 +88,4 @@ Publisher catalog: <https://www.api.org/products-and-services/standards>. RP 572
 - [fitness-for-service](../concepts/fitness-for-service.md) — concept anchor for FFS workflow.
 - [risk-based-inspection](../concepts/risk-based-inspection.md) — concept anchor for RBI alternative interval-setting.
 - [og-standards-api](../sources/og-standards-api.md) — parent source page.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes an RP 572 inspection-effectiveness factor or NDE detection threshold.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes an RP 572 inspection-effectiveness factor or NDE detection threshold.

@@ -42,4 +42,4 @@ On-disk edition is 1999. Publisher-current edition is subject to verification at
 ## Cross-references
 - [aws-d1-2](aws-d1-2.md) — references A5.10 for matching aluminum-alloy filler-metal on aluminum structural welds
 - [asme-bpvc-ix](asme-bpvc-ix.md) — procedure qualification cites filler-metal classifications from the A5 series
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

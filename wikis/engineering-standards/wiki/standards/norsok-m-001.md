@@ -45,7 +45,7 @@ This page is the citation resolver target for materials-selection-aware calc mod
 ## Cross-references
 - [norsok-m-501](norsok-m-501.md) — surface preparation and protective coating companion in the materials series
 - [norsok-m-710](norsok-m-710.md) — non-metallic sealing materials qualification companion
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Cross-References
 

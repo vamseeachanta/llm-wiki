@@ -95,4 +95,4 @@ Publisher catalog: <https://www.api.org/products-and-services/standards>. RP 220
 - [welding-procedures-and-acceptance](../concepts/welding-procedures-and-acceptance.md) — concept anchor for welding-procedure qualification, including in-service welding.
 - [fitness-for-service](../concepts/fitness-for-service.md) — concept anchor for FFS screening of hot-tap candidates.
 - [og-standards-api](../sources/og-standards-api.md) — parent source page.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes an RP 2201 burnthrough-risk threshold or minimum-wall criterion.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes an RP 2201 burnthrough-risk threshold or minimum-wall criterion.

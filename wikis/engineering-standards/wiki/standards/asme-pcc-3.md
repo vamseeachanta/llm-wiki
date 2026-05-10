@@ -91,7 +91,7 @@ ASME publications subscription required; ANSI catalog also lists the document. V
 - [api-653](api-653.md) — Tank inspection code; jurisdictional code consuming RBI inspection-plan output.
 - [dnv-rp-g101](dnv-rp-g101.md) — DNV offshore-topsides RBI; international peer to PCC-3 + API RP 580/581 for offshore facilities.
 - [Risk-Based Inspection (RBI)](../concepts/risk-based-inspection.md) — concept page on RBI paradigm.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Notes
 

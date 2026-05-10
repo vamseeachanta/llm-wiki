@@ -49,4 +49,4 @@ This page is the citation resolver target for downstream `digitalmodel/fatigue/`
 - [norsok-n-001](norsok-n-001.md) — overarching structural-design framework code
 - [norsok-m-001](norsok-m-001.md) — materials selection feeds steel-class inputs
 - [dnv-rp-c203](dnv-rp-c203.md) — companion fatigue methodology (parallel S-N curve framework)
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

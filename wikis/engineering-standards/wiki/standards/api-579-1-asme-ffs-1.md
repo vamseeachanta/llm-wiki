@@ -116,7 +116,7 @@ W215 (iter-46) flagged the joint-numbering canonical slug `api-579-1-asme-ffs-1`
 - [risk-based-inspection](../concepts/risk-based-inspection.md) — concept anchor; RBI consumes FFS outputs.
 - [brittle-fracture](../concepts/brittle-fracture.md) — concept anchor; Part 3 governs in-service brittle-fracture screening.
 - [og-standards-api](../sources/og-standards-api.md) — parent source page.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes an FFS-1 Part-specific acceptance value, RSF threshold, MAT screening curve, or FAD assessment-point coordinate.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes an FFS-1 Part-specific acceptance value, RSF threshold, MAT screening curve, or FAD assessment-point coordinate.
 
 **Cross-wiki (maritime-law)** *(where FFS methodology informs post-incident wreck-removal-decision frameworks)*
 

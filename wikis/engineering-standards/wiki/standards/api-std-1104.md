@@ -87,7 +87,7 @@ Internal cross-links in this wiki:
 - [api-spec-5l](api-spec-5l.md) — companion line-pipe material specification (planned/present per source-page).
 - [api-rp-1111](api-rp-1111.md) — limit-state design of offshore hydrocarbon pipelines (uses API 1104 weld qualification by reference).
 - [api-rp-14e](api-rp-14e.md) — production-piping sizing (planned); shares the 49-CFR-195 jurisdictional surface.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — standards-derived constants from API 1104 (e.g., the 1/8 in / 3.2 mm bend-test crack limit) require a `Citation` instance pinning `code_id=api-std-1104` and the specific `revision`.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — standards-derived constants from API 1104 (e.g., the 1/8 in / 3.2 mm bend-test crack limit) require a `Citation` instance pinning `code_id=api-std-1104` and the specific `revision`.
 
 ## Sources
 

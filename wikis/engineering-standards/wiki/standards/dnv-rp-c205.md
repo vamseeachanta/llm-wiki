@@ -92,7 +92,7 @@ This page is a citation resolver for downstream calc modules under the calc-cita
 - [dnv-rp-f109](dnv-rp-f109.md) — on-bottom pipeline stability uses RP-C205 wave-current loads
 - [dnv-os-f201](dnv-os-f201.md) — dynamic-riser environmental load input
 - [iso-19901-1](iso-19901-1.md) — ISO peer metocean standard, frequently co-cited
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 **Cross-wiki (engineering)**: [DNV-RP-C205: Environmental Conditions and Loads](../../../engineering/wiki/standards/dnv-rp-c205.md) — similar slugs (100%); similar titles (74%); shared tags: dnv; shared entities: DNV, DNV-RP-C205
 **Cross-wiki (engineering)**: [DNV-RP-C203: Fatigue Design](../../../engineering/wiki/standards/dnv-rp-c203.md) — similar slugs (91%); shared tags: dnv; shared entities: DNV, DNV-RP-C205

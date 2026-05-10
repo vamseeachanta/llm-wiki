@@ -33,7 +33,7 @@ Resolver target for downstream `digitalmodel` `Citation` instances per `.claude/
 ## Cross-references
 - [dnv-rp-b401](dnv-rp-b401.md) — DNV cathodic-protection-design counterpart
 - [abs-rules-offshore-installations](abs-rules-offshore-installations.md) — offshore rule book referenced for CP scope
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Cross-References
 

@@ -34,4 +34,4 @@ Resolver target for downstream `digitalmodel` `Citation` instances per `.claude/
 ## Cross-references
 - [abs-rules-offshore-installations](abs-rules-offshore-installations.md) — paired offshore-installations Rules (Part 1)
 - [abs-rules-steel-vessels-part3](abs-rules-steel-vessels-part3.md) — companion vessel-side rule book; Steel Vessels Part 3 hull
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

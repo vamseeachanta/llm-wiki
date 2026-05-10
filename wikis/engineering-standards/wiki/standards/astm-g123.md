@@ -83,7 +83,7 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0123-0
 - [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) — concept anchor; G123 is a chloride-SCC ranking method for stainless alloys with Ni-content-resistance correlation.
 - [sour-service-materials](../concepts/sour-service-materials.md) — concept anchor; G123 supplements MR0175/MR0103 SCC qualification for chloride-bearing sour environments.
 - [pitting-and-crevice-corrosion](../concepts/pitting-and-crevice-corrosion.md) — concept anchor; chloride-SCC and chloride-localized-attack share environmental drivers.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G123 environment parameter, time-to-failure threshold, or Ni-content-resistance correlation.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G123 environment parameter, time-to-failure threshold, or Ni-content-resistance correlation.
 
 ## Sources
 

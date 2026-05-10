@@ -95,7 +95,7 @@ The boiling-MgCl2 environment is intentionally severe: nearly all standard 18Cr-
 - [dnv-rp-f112](dnv-rp-f112.md) — *Design of Duplex Stainless Steel Subsea Equipment Exposed to Cathodic Protection.* HISC-under-CP design envelope; G36 does not address this failure mode.
 - Concept anchor: [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) — landing page for the SCC test-method cluster (G36, G38, G39, G44, G47, G64, G123, G129); G36 is the **primary Cl-SCC screening test** referenced from this concept page.
 - Concept anchor: [sour-service-materials](../concepts/sour-service-materials.md) — explicit non-applicability boundary for G36; sour-service CRA selection cites MR0175-3, not G36.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G36-derived ranking, reference time-to-cracking, or pass/fail acceptance temperature.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G36-derived ranking, reference time-to-cracking, or pass/fail acceptance temperature.
 
 ## Sources
 

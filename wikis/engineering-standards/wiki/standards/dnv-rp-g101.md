@@ -96,7 +96,7 @@ DNV catalog: https://www.dnv.com/energy/standards-guidelines/dnv-rp-g101-risk-ba
 - [Risk-Based Inspection (RBI)](../concepts/risk-based-inspection.md) — concept page on RBI methodology; DNV-RP-G101 is the offshore-topsides specialisation.
 - [Fitness-for-Service (FFS)](../concepts/fitness-for-service.md) — concept page on FFS; DNV-RP-G101 inspection findings feed FFS evaluation.
 - [Damage-Mechanism Screening](../concepts/damage-mechanism-screening.md) — concept page upstream of RBI POF estimation.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Notes
 

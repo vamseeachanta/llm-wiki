@@ -92,4 +92,4 @@ Publisher catalog: <https://www.api.org/products-and-services/standards>. RP 576
 - [risk-based-inspection](../concepts/risk-based-inspection.md) — concept anchor for RBI alternative interval-setting.
 - Concept anchor for relief-system design (sizing and system-design context) — future concept-page candidate that this RP will route into.
 - [og-standards-api](../sources/og-standards-api.md) — parent source page.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes an RP 576 test-frequency interval, set-pressure tolerance, or PRD inspection-effectiveness factor.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes an RP 576 test-frequency interval, set-pressure tolerance, or PRD inspection-effectiveness factor.

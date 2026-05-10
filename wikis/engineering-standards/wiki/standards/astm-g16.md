@@ -92,7 +92,7 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0016-1
 - [risk-based-inspection](../concepts/risk-based-inspection.md) — concept anchor for RBI workflows that consume G16-summarized inspection populations.
 - [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — concept anchor for the measurement-methodology cluster; G16 is the statistical-treatment companion to the measurement standards.
 - [pitting-and-crevice-corrosion](../concepts/pitting-and-crevice-corrosion.md) — concept anchor for pitting analysis; G16 extreme-value tail extrapolation is the statistical backbone.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G16-derived distribution assumption, plotting-position formula, or extreme-value-extrapolation parameter.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G16-derived distribution assumption, plotting-position formula, or extreme-value-extrapolation parameter.
 
 ## Sources
 

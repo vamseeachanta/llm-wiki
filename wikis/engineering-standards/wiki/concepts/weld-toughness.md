@@ -112,5 +112,5 @@ Bidirectional links — each standards page below cross-references this concept 
 ## Notes
 
 - Concept page only — no clause text, acceptance numbers, or method-specific equations are reproduced here. For normative use, cite the publisher edition of the relevant standard directly.
-- Specific HAZ hardness limits (250 HV<sub>10</sub> / 275 HV<sub>10</sub>) and CVN / CTOD acceptance floors are standards-derived constants. Per the [calc citation contract](../../../../../.claude/rules/calc-citation-contract.md), any calc module that consumes these values must emit a `Citation` instance pinning `code_id=api-std-1104`, `code_id=iso-15156`, or the relevant DNV / ABS code with the applicable revision.
+- Specific HAZ hardness limits (250 HV<sub>10</sub> / 275 HV<sub>10</sub>) and CVN / CTOD acceptance floors are standards-derived constants. Per the calc citation contract (`.claude/rules/calc-citation-contract.md`), any calc module that consumes these values must emit a `Citation` instance pinning `code_id=api-std-1104`, `code_id=iso-15156`, or the relevant DNV / ABS code with the applicable revision.
 - LBZ random-spot sampling protocols are operator and project-specific; this wiki does not host project-specific weldment-qualification matrices.

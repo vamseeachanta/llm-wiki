@@ -40,4 +40,4 @@ This page is a citation resolver target for downstream calc modules per `.claude
 ## Cross-references
 - [api-rp-16q](api-rp-16q.md) — API drilling riser systems recommended practice
 - [bs-13533-drill-through-equipment](bs-13533-drill-through-equipment.md) — companion drilling-systems standard
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

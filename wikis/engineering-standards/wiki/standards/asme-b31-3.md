@@ -121,7 +121,7 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 - [asme-b31j](asme-b31j.md) — SIF and flexibility-factor data set (post-2018 mandatory replacement for legacy Appendix-D charts)
 - [asme-bpvc-viii-1](asme-bpvc-viii-1.md) — pressure-vessel design-by-rule companion at the inlet / outlet vessel-nozzle boundary
 - [api-std-570](api-std-570.md) — process-piping in-service inspection code that uses B31.3 as the new-construction basis and authorises RBI per RP 580 / RP 581 for alternative inspection intervals
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Cross-wiki bridges
 

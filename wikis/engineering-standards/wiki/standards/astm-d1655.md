@@ -141,7 +141,7 @@ D1655's normative network spans the D02 fuels-and-lubricants test-method catalog
 **Wiki cross-links**
 
 - [O&G Standards catalog — ASTM D-Series](../sources/og-standards-astm-d-series.md) — multi-edition coverage manifest and recommended-promotion list (D1655 is **promotion #5** of 15).
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution from downstream calc modules.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution from downstream calc modules.
 
 ## Sources
 

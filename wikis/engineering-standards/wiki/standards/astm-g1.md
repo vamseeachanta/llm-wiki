@@ -97,7 +97,7 @@ The G1 annex also gives **electrolytic cleaning recipes** for several of the abo
 - [api-rp-571](api-rp-571.md) — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* Provides the damage-mechanism and metal-class context (which alloys see which corrosion mechanisms in which service environments) that informs the choice of G1 cleaning annex when post-test cleaning a field-retrieved coupon or component.
 - Concept anchor: [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — landing page that forward-references G1 as the **mass-loss method primary** and G102 as the electrochemical-measurement counterpart.
 - Concept anchor: [sour-service-materials](../concepts/sour-service-materials.md) — anchors G1 + G31 mass-loss methods inside the NACE MR0175 / ISO 15156 / AMPP TM0177 sour-service qualification stack.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G1-derived cleaning recipe, K-constant, or extrapolation coefficient, recording both the edition (e.g., G1-03) and the clause/annex (e.g., Annex A1 §A1.1 for steel chemical cleaning).
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G1-derived cleaning recipe, K-constant, or extrapolation coefficient, recording both the edition (e.g., G1-03) and the clause/annex (e.g., Annex A1 §A1.1 for steel chemical cleaning).
 
 ## Sources
 

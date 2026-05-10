@@ -45,4 +45,4 @@ This page is the citation resolver target for downstream sealing-material-aware 
 ## Cross-references
 - [norsok-m-001](norsok-m-001.md) — materials selection umbrella code
 - [norsok-m-501](norsok-m-501.md) — surface preparation and protective coating companion
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

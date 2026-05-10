@@ -45,4 +45,4 @@ No single revision applies to the series. Each member document carries its own o
 - [aws-a5-5](aws-a5-5.md) — low-alloy steel SMAW electrodes
 - [aws-a5-10](aws-a5-10.md) — bare aluminum and aluminum-alloy welding electrodes and rods
 - [asme-bpvc-ix](asme-bpvc-ix.md) — references the A5 series for filler-metal classification in procedure qualification
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

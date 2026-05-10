@@ -95,7 +95,7 @@ For calc-module authors: a numeric corrosion rate emitted without a G3-conforman
 - [ampp-tm-0177](ampp-tm-0177.md) — *Laboratory Testing of Metals for Resistance to Sulfide Stress Cracking and Stress Corrosion Cracking in H2S Environments.* SSC tensile-style testing in sour environments; the H2S sour-service cousin of G3-conformant electrochemical work.
 - [ampp-tm-0284](ampp-tm-0284.md) — *Evaluation of Pipeline and Pressure Vessel Steels for Resistance to Hydrogen-Induced Cracking.* HIC test in NACE Solution A; the hydrogen-charging cousin to electrochemical methods that share G3's sign conventions for cathodic charging.
 - Concept anchor: [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — landing page that cites G3 as the electrochemical-conventions foundation underneath the G5 / G59 / G102 / G106 measurement column.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G3-derived sign convention, reference-electrode offset, or Stern-Geary-style `B` constant.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G3-derived sign convention, reference-electrode offset, or Stern-Geary-style `B` constant.
 
 ## Sources
 

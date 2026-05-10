@@ -45,4 +45,4 @@ page's frontmatter (`code_id`, `publisher`, `revision`).
 
 - [api-rp-2a-wsd](api-rp-2a-wsd.md) — fixed-platform design baseline
 - [api-rp-2geo](api-rp-2geo.md) — geotechnical companion
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

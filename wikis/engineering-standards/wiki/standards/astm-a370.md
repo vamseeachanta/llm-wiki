@@ -96,7 +96,7 @@ A370 sits at the convergence of the ASTM **E-committee** (general test methods) 
 **Wiki cross-links**
 - [O&G Standards catalog — ASTM A-Series](../sources/og-standards-astm-a-series.md) — multi-edition coverage manifest and bucket-purity audit; sanctioned A-series promotion list (A370 is **#1 promotion candidate** by cross-reference fan-in).
 - [API RP 2A-WSD](api-rp-2a-wsd.md) — fixed offshore platform planning; depends on A572 / A992 structural steels whose mechanical properties are A370-qualified.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — frontmatter contract (`code_id`, `publisher`, `revision`) this page satisfies for fail-closed citation resolution.
 
 ## Sources
 

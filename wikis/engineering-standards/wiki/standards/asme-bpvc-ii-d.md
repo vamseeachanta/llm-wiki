@@ -41,4 +41,4 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 - [asme-b31-8](asme-b31-8.md) — gas-pipeline consumer
 - [asme-bpvc-viii-1](asme-bpvc-viii-1.md) — pressure-vessel consumer
 - [asme-bpvc-viii-2](asme-bpvc-viii-2.md) — pressure-vessel consumer (alternative rules)
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

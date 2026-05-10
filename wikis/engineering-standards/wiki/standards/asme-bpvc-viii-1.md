@@ -95,7 +95,7 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 - [asme-bpvc-ix](asme-bpvc-ix.md) — welding qualification basis
 - [api-510](api-510.md) — pressure-vessel in-service inspection code that uses Division 1 design rules as the new-construction basis and authorises RBI per RP 580 / RP 581 for alternative inspection intervals
 - [api-std-579](api-std-579.md) — fitness-for-service evaluation invoked when in-service findings exceed Division 1 acceptance limits
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
 
 ## Cross-wiki bridges
 

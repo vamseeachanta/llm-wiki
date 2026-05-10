@@ -42,4 +42,4 @@ On-disk edition is 2003. Publisher-current edition is 2014 (subject to verificat
 ## Cross-references
 - [asme-bpvc-ix](asme-bpvc-ix.md) — qualification basis applicable to aluminum welds when within pressure scope
 - [aws-d1-1](aws-d1-1.md) — companion structural-welding code for steel
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

@@ -38,4 +38,4 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 
 - [asme-b31-4](asme-b31-4.md) — sister liquid-pipeline code
 - [asme-bpvc-ii-d](asme-bpvc-ii-d.md) — material allowable stresses
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`

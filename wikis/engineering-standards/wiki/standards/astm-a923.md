@@ -86,7 +86,7 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/a0923-1
 - [welding-procedures-and-acceptance](../concepts/welding-procedures-and-acceptance.md) — concept anchor; A923 Method A is the de facto duplex-weld microstructure-screening reference for WPS qualification.
 - [pitting-and-crevice-corrosion](../concepts/pitting-and-crevice-corrosion.md) — concept anchor; A923 Method C confirms duplex-alloy CPT-relevant condition.
 - [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) — concept anchor; A923 microstructure confirmation precedes duplex-alloy SCC qualification.
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes an A923 method-selection rule, Charpy-toughness threshold, or pass/fail criterion for duplex-stainless qualification.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes an A923 method-selection rule, Charpy-toughness threshold, or pass/fail criterion for duplex-stainless qualification.
 
 ## Sources
 

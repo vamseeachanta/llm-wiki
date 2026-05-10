@@ -81,7 +81,7 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0005-1
 - [astm-g48](astm-g48.md) — *Pitting and Crevice Corrosion in FeCl3.* Localized-corrosion follow-on screening for alloys flagged by G5 active-passive characterization.
 - [electrochemical-corrosion](../concepts/electrochemical-corrosion.md) — concept anchor for the kinetics framework G5 measures (Butler-Volmer, mixed-potential, passivity).
 - [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — concept anchor that places G5 in the measurement-methodology cluster (electrochemical column).
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G5-derived reference Tafel slope, calibration scan-rate, or reference-curve tolerance value.
+- Calc citation contract: `.claude/rules/calc-citation-contract.md` — emit a `Citation(...)` whenever a calc module hard-codes a G5-derived reference Tafel slope, calibration scan-rate, or reference-curve tolerance value.
 
 ## Sources
 

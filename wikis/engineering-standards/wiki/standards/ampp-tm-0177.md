@@ -37,4 +37,4 @@ This page is the citation resolver target for downstream calc and qualification 
 - [ampp-mr-0175-pt2](ampp-mr-0175-pt2.md) — Part 2 carbon and low-alloy steels (acceptance-criteria caller)
 - [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) — Part 3 corrosion-resistant alloys (acceptance-criteria caller)
 - [ampp-mr-0175-1995](ampp-mr-0175-1995.md) — historical 1995 single-document edition (superseded predecessor)
-- [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
+- Calc citation contract: `.claude/rules/calc-citation-contract.md`
