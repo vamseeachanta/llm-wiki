@@ -32,6 +32,6 @@ Resolver target for downstream `digitalmodel` `Citation` instances per `.claude/
 - Internal callers: no live structured `Citation(...)` call yet; this page satisfies future calc-citation routing
 
 ## Cross-references
-- [[abs-rules-offshore-installations]] — paired offshore-installations Rules (Part 1)
-- [[abs-rules-steel-vessels-part3]] — companion vessel-side rule book; Steel Vessels Part 3 hull
+- [abs-rules-offshore-installations](abs-rules-offshore-installations.md) — paired offshore-installations Rules (Part 1)
+- [abs-rules-steel-vessels-part3](abs-rules-steel-vessels-part3.md) — companion vessel-side rule book; Steel Vessels Part 3 hull
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

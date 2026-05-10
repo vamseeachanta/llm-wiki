@@ -77,7 +77,7 @@ The procedural anchors that define a G31-compliant immersion test (consult the o
 A G31-compliant test produces:
 
 1. **Mass loss → uniform corrosion rate** per [astm-g1](astm-g1.md) §9 / §10 — converted to penetration rate (mils/yr or mm/yr) using the alloy density and exposed surface area. G1's mass-loss-to-rate equation is the canonical conversion; G31 supplies the mass-loss data, G1 supplies the arithmetic and the cleaning-procedure tables that the mass-loss number depends on.
-2. **Visual + microscopic examination** per [[astm-g46]] — pitting depth distribution, pit count, crevice-attack rating, edge-attack vs. face-attack discrimination. A G31 test that reports only the average uniform rate without the G46 pit/crevice rating is incomplete: localized attack invalidates the uniform-rate interpretation.
+2. **Visual + microscopic examination** per [astm-g46](astm-g46.md) — pitting depth distribution, pit count, crevice-attack rating, edge-attack vs. face-attack discrimination. A G31 test that reports only the average uniform rate without the G46 pit/crevice rating is incomplete: localized attack invalidates the uniform-rate interpretation.
 3. **Supplementary electrochemical measurements on parallel specimens** — it is common practice to run [astm-g3](astm-g3.md) / G5 / G59 polarization or LPR measurements on a parallel coupon set in the same vessel to cross-check the mass-loss-derived rate against a Tafel- or polarization-resistance-derived rate. Disagreement between the two streams (sometimes by an order of magnitude) is a known signal of localized attack, scale formation, or non-Faradaic mass loss (mechanical erosion, dissolution of an alloying element).
 4. **Reported metadata** — alloy heat ID, surface preparation, solution composition (as-mixed plus pre- and post-exposure analyses where applicable), temperature, aeration regime, agitation regime, exposure duration, replicate spread, and any cleaning-procedure mass-loss correction (per G1's reference cleaning-blank protocol).
 
@@ -86,7 +86,7 @@ The reported rate is treated as **a screening number with order-of-magnitude rel
 ## Cross-references
 
 - [astm-g1](astm-g1.md) — *Standard Practice for Preparing, Cleaning, and Evaluating Corrosion Test Specimens.* **Required companion**: G1 owns specimen prep, cleaning blanks, and mass-loss → rate conversion. A G31 result is uninterpretable without the G1 framework around it.
-- [[astm-g46]] — *Standard Guide for Examination and Evaluation of Pitting Corrosion.* Required for the post-exposure visual and pit-rating workflow; without it, localized attack is silently rolled into the uniform rate.
+- [astm-g46](astm-g46.md) — *Standard Guide for Examination and Evaluation of Pitting Corrosion.* Required for the post-exposure visual and pit-rating workflow; without it, localized attack is silently rolled into the uniform rate.
 - [astm-g3](astm-g3.md) — *Standard Practice for Conventions Applicable to Electrochemical Measurements in Corrosion Testing.* Sign and reporting conventions for the parallel-electrochemistry coupon set commonly run alongside G31.
 - **ASTM G5** — *Standard Reference Test Method for Making Potentiodynamic Anodic Polarization Measurements.* The canonical Tafel-scan reference test, often co-run with G31 to cross-check the mass-loss-derived rate.
 - **ASTM G59** — *Standard Test Method for Conducting Potentiodynamic Polarization Resistance Measurements.* LPR-cell rate measurement; routinely paired with G31 mass-loss for time-resolved rate-vs-exposure data.

@@ -40,6 +40,6 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 On-disk edition is 1999. Publisher-current edition is subject to verification at the publisher portal; multiple revisions have been issued since 1999. Calc-callers MUST verify against the publisher-current edition before any compliance use; this wiki page reflects the on-disk corpus only.
 
 ## Cross-references
-- [[aws-d1-2]] — references A5.10 for matching aluminum-alloy filler-metal on aluminum structural welds
-- [[asme-bpvc-ix]] — procedure qualification cites filler-metal classifications from the A5 series
+- [aws-d1-2](aws-d1-2.md) — references A5.10 for matching aluminum-alloy filler-metal on aluminum structural welds
+- [asme-bpvc-ix](asme-bpvc-ix.md) — procedure qualification cites filler-metal classifications from the A5 series
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

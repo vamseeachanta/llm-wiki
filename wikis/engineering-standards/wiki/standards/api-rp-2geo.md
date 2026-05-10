@@ -43,6 +43,6 @@ this page's frontmatter triple (`code_id`, `publisher`, `revision`).
 
 ## Cross-references
 
-- [[api-rp-2a-wsd]] — companion fixed-platform recommended practice
-- [[api-rp-2met]] — metocean design conditions
+- [api-rp-2a-wsd](api-rp-2a-wsd.md) — companion fixed-platform recommended practice
+- [api-rp-2met](api-rp-2met.md) — metocean design conditions
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

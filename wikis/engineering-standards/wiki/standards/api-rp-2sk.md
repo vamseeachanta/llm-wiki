@@ -48,8 +48,8 @@ for `mooring_design.py`-class modules wired post-W1-A. Frontmatter triple
 
 ## Cross-references
 
-- [[api-rp-2a-wsd]] — fixed-platform recommended practice
-- [[api-std-2rd]] — dynamic risers
+- [api-rp-2a-wsd](api-rp-2a-wsd.md) — fixed-platform recommended practice
+- [api-std-2rd](api-std-2rd.md) — dynamic risers
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Cross-References

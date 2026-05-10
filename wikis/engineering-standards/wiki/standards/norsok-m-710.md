@@ -43,6 +43,6 @@ This page is the citation resolver target for downstream sealing-material-aware 
 - Lifecycle: see frontmatter `revision`, `publisher_current_revision`, `lifecycle_status`, and `iso_relationship` for ISO-23936-2 partial-overlap context (note: on-disk edition is older than publisher-current)
 
 ## Cross-references
-- [[norsok-m-001]] — materials selection umbrella code
-- [[norsok-m-501]] — surface preparation and protective coating companion
+- [norsok-m-001](norsok-m-001.md) — materials selection umbrella code
+- [norsok-m-501](norsok-m-501.md) — surface preparation and protective coating companion
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

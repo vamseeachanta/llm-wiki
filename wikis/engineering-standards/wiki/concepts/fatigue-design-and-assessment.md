@@ -99,8 +99,8 @@ Bidirectional links to the governing publisher pages in this wiki:
 - [dnv-rp-c203](../standards/dnv-rp-c203.md) — *Fatigue Design of Offshore Steel Structures* (DNV recommended practice). Primary multi-edition standard for offshore S-N catalogues, hot-spot extrapolation, environmental modifiers, and design fatigue factors. The single most-cited code in `digitalmodel` calc paths.
 - [api-rp-2a-wsd](../standards/api-rp-2a-wsd.md) — *Planning, Designing, and Constructing Fixed Offshore Platforms — Working Stress Design* (API RP). Tubular-joint fatigue for fixed offshore platforms; X / X' S-N curves and parametric SCF formulae.
 - [abs-gui-115-fatigue-offshore](../standards/abs-gui-115-fatigue-offshore.md) — *Fatigue Assessment of Offshore Structures* (ABS guide). FPSO-oriented fatigue methodology; DNV-aligned curves with ABS-specific environmental and load-combination conventions.
-- [[api-579-1-asme-ffs-1]] — *Fitness-for-Service*. Part 14 covers fatigue assessment of pressurised equipment; Part 9 covers crack-like flaw FCG. Joint API/ASME standard for in-service damage assessment.
-- [bs-7910-flaw-assessment](../standards/bs-7910-flaw-assessment.md) — *Guide to Methods for Assessing the Acceptability of Flaws in Metallic Structures* (BSI). Annex M covers FCG-based fatigue (Paris-law constants for ferritic/austenitic steels and aluminium, threshold ΔK<sub>th</sub>, environmental modifiers, R-ratio handling). Cross-cited with [[bs-7608]] for the S-N companion.
+- [api-579-1-asme-ffs-1](../standards/api-579-1-asme-ffs-1.md) — *Fitness-for-Service*. Part 14 covers fatigue assessment of pressurised equipment; Part 9 covers crack-like flaw FCG. Joint API/ASME standard for in-service damage assessment.
+- [bs-7910-flaw-assessment](../standards/bs-7910-flaw-assessment.md) — *Guide to Methods for Assessing the Acceptability of Flaws in Metallic Structures* (BSI). Annex M covers FCG-based fatigue (Paris-law constants for ferritic/austenitic steels and aluminium, threshold ΔK<sub>th</sub>, environmental modifiers, R-ratio handling). Cross-cited with [bs-7608](../standards/bs-7608.md) for the S-N companion.
 
 ## Related concepts
 

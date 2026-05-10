@@ -40,6 +40,6 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 On-disk edition is 1996. Publisher-current edition is approximately A5.5/A5.5M:2014 (subject to verification at the publisher portal — no confirmed 2025 reissue surfaced as of the verification date). Calc-callers MUST verify against the publisher-current edition before any compliance use; this wiki page reflects the on-disk corpus only.
 
 ## Cross-references
-- [[aws-d1-1]] — references A5-series filler-metal classifications for matching-electrode requirements
-- [[asme-bpvc-ix]] — procedure qualification cites filler-metal classifications from the A5 series
+- [aws-d1-1](aws-d1-1.md) — references A5-series filler-metal classifications for matching-electrode requirements
+- [asme-bpvc-ix](asme-bpvc-ix.md) — procedure qualification cites filler-metal classifications from the A5 series
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

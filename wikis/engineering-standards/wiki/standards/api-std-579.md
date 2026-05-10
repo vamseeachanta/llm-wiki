@@ -148,14 +148,14 @@ curves, or FAD diagrams reproduced here.
   Gates FFS-1 application for atmospheric / low-pressure storage tanks.
 - **ASME BPVC VIII Div 2** — Design-by-analysis source for the stress
   classification and linearisation conventions reused by FFS-1 Annexes.
-  See [[asme-bpvc-viii-2]].
+  See [asme-bpvc-viii-2](asme-bpvc-viii-2.md).
 - **API RP 581** — Risk-Based Inspection Technology. Consumes FFS-1
   remaining-life outputs as the consequence/probability inputs to
   RBI interval setting.
 
 ## Sources
 
-- Source page: [[og-standards-api]](../sources/og-standards-api.md) —
+- Source page: [og-standards-api](../sources/og-standards-api.md)(../sources/og-standards-api.md) —
   catalog row `Std 579 / 579-1 (joint with ASME FFS-1) | Fitness-for-Service | 2007, 2016`.
 - Catalog provenance: `/mnt/ace/O&G-Standards/_catalog.json`
   (entries matching `579`).

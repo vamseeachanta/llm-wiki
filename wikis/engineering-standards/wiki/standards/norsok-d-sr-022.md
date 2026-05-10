@@ -48,6 +48,6 @@ This page is the historical-traceability resolver target for legacy citations to
 - Lifecycle: see frontmatter `revision`, `publisher_current_revision`, `lifecycle_status: designation-withdrawn`, and `iso_relationship` for the multi-target migration map
 
 ## Cross-references
-- [[api-rp-16q]] — drilling riser systems international counterpart (already on-disk in this wiki)
-- [[norsok-n-001]] — structural-design code for the Norwegian shelf envelope
+- [api-rp-16q](api-rp-16q.md) — drilling riser systems international counterpart (already on-disk in this wiki)
+- [norsok-n-001](norsok-n-001.md) — structural-design code for the Norwegian shelf envelope
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

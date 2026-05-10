@@ -31,8 +31,8 @@ Resolver target for downstream `digitalmodel` `Citation` instances per `.claude/
 - Internal callers: prose-comment references in `digitalmodel/src/` (six hits, configuration keys); no live structured `Citation(...)` call yet
 
 ## Cross-references
-- [[dnv-rp-b401]] — DNV cathodic-protection-design counterpart
-- [[abs-rules-offshore-installations]] — offshore rule book referenced for CP scope
+- [dnv-rp-b401](dnv-rp-b401.md) — DNV cathodic-protection-design counterpart
+- [abs-rules-offshore-installations](abs-rules-offshore-installations.md) — offshore rule book referenced for CP scope
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Cross-References

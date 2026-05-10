@@ -92,7 +92,7 @@ The practical consequence: LPR is the **online-monitoring** tool (NACE SP0775 pr
 
 - [astm-g3](astm-g3.md) — *Conventions for Electrochemical Measurements in Corrosion Testing.* G106 cites G3 for impedance-plot conventions (Nyquist sign convention `−Z''` upward; Bode log-frequency axis) and OCP reporting.
 - [astm-g59](astm-g59.md) — *Linear Polarization Resistance (LPR) Measurements.* DC sibling to G106; both deliver `R_p` for Stern-Geary `i_corr`. EIS supersedes LPR when `R_s`, diffusion, or coating layers are non-negligible.
-- [[astm-g5]] — *Potentiodynamic Anodic Polarization Measurements.* Tafel scan on a Type 430 reference electrode; G106 is the AC complement to G5's DC measurement.
+- [astm-g5](astm-g5.md) — *Potentiodynamic Anodic Polarization Measurements.* Tafel scan on a Type 430 reference electrode; G106 is the AC complement to G5's DC measurement.
 - [astm-g102](astm-g102.md) — *Calculation of Corrosion Rates from Electrochemical Measurements.* Converts G106-derived `i_corr` into engineering penetration rate (mm/yr or mpy) via Faraday's law with an equivalent-weight argument.
 - [astm-g1](astm-g1.md) — *Preparing, Cleaning, and Evaluating Corrosion Test Specimens.* Mass-loss baseline that every G106-derived `i_corr` should be calibrated against before being trusted as an in-situ rate sensor.
 - [astm-g31](astm-g31.md) — *Laboratory Immersion Corrosion Testing of Metals.* Long-exposure mass-loss substrate that calibrates electrochemical-derived rates including EIS.

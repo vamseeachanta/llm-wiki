@@ -42,7 +42,7 @@ This page is a citation resolver for downstream calc and material-qualification 
 ## Key recommendations (topic-only, no clause text)
 
 - **Material control** — PREN ≥40 (super-duplex preferred) for HISC-resilient grades; ferrite-content limits in parent metal and weld metal; absence of sigma-phase and other intermetallics demonstrated per ASTM A923 or ISO 17781 screen tests.
-- **CP protection-potential limits** — bound the protection potential less negative than approximately -1050 mV vs. Ag/AgCl/seawater to limit hydrogen evolution; coordinate with anode design under [[dnv-rp-b401]].
+- **CP protection-potential limits** — bound the protection potential less negative than approximately -1050 mV vs. Ag/AgCl/seawater to limit hydrogen evolution; coordinate with anode design under [dnv-rp-b401](dnv-rp-b401.md).
 - **Design-stress limits** — lower allowable stresses (vs. parent-material yield) in zones exposed to CP, with separate allowables for base metal, weld metal, and HAZ; geometry-dependent reductions where stress-concentration plus residual-tensile-stress combine.
 - **Bolted connection design** — paint coatings, dielectric isolation, or shielding to reduce direct CP exposure on high-strength duplex bolting; controls on preload-induced tensile residual stress.
 - **Residual-stress control** — avoid as-welded high-restraint joints; PWHT or solution-annealing where applicable; tight tolerances on weld profile to reduce stress-raisers.
@@ -62,7 +62,7 @@ Multiple high-profile FPSO and subsea-pipeline duplex-component HISC failures in
 
 ## Cross-references
 
-- [[dnv-rp-b401]] — offshore CP design; sets protection potentials that RP-F112 then bounds for DSS exposure
+- [dnv-rp-b401](dnv-rp-b401.md) — offshore CP design; sets protection potentials that RP-F112 then bounds for DSS exposure
 - [[concepts/cathodic-protection]] — concept-level treatment of galvanic and ICCP systems
 - [[concepts/sour-service-materials]] — DSS qualification overlap with sour-service requirements
 - ASTM A923 — DSS intermetallic-phase detection (sigma, chi); referenced for ferrite-phase QC

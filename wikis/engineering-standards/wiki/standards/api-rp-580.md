@@ -43,7 +43,7 @@ framework for owner-users who choose a quantitative route.
 API RP 580 is the **methodology gate** that authorises in-service inspection
 codes to substitute risk-derived intervals for table-based intervals: it is
 explicitly named as the alternative-interval route in [api-510](api-510.md) (pressure
-vessels), [[api-std-570]] (piping), and [[api-std-653]] (storage tanks).
+vessels), [api-std-570](api-std-570.md) (piping), and [api-std-653](api-std-653.md) (storage tanks).
 A risk-based interval that does not flow from an RP 580-conformant programme
 is not a sanctioned interval under those codes. RP 580 does not itself
 authorise inspection — the host code (510 / 570 / 653) does — but it is the
@@ -249,11 +249,11 @@ distinguishes RBI from a one-time risk study.
   pressure vessels. See [api-510](api-510.md).
 - **API 570 — Piping Inspection Code.** Authorises RBI per RP 580 /
   RP 581 as the alternative to table-based intervals for process piping.
-  See [[api-std-570]].
+  See [api-std-570](api-std-570.md).
 - **API 653 — Tank Inspection, Repair, Alteration, and Reconstruction.**
   Authorises RBI per RP 580 / RP 581 as the alternative to table-based
   intervals for atmospheric / low-pressure storage tanks. See
-  [[api-std-653]].
+  [api-std-653](api-std-653.md).
 - **API 579-1 / ASME FFS-1 — Fitness-for-Service.** Invoked when an RBI
   inspection plan surfaces an out-of-tolerance flaw (metal loss below
   `t_min`, crack-like flaw, distortion). RBI sets the *when and how* of
@@ -310,7 +310,7 @@ Resolver target for digitalmodel `Citation` instances per
 facts (`code_id`, `publisher`, `revision`) so fail-closed citation
 resolution can ground RBI-derived inspection-interval and risk-ranking
 outputs against this practice. It also serves as the upstream-methodology
-anchor for [api-510](api-510.md), [[api-std-570]], and [[api-std-653]] when those
+anchor for [api-510](api-510.md), [api-std-570](api-std-570.md), and [api-std-653](api-std-653.md) when those
 codes invoke their RBI alternative-interval route, and as the link
 target from the [risk-based-inspection](../concepts/risk-based-inspection.md) concept page.
 **Metadata-only** per spinout 2026-05-05 governance: no clause text,

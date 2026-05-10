@@ -31,8 +31,8 @@ raw_copy_allowed: false
 API RP 581 is the **quantitative** Risk-Based Inspection (RBI) methodology
 for refining and petrochemical pressurised assets — vessels, piping
 circuits, tankage, exchangers, and pressure-relieving devices — operated
-under the in-service inspection codes [api-510](api-510.md), [[api-std-570]], and
-[[api-std-653]]. It is the engineered sibling of [api-rp-580](api-rp-580.md): where
+under the in-service inspection codes [api-510](api-510.md), [api-std-570](api-std-570.md), and
+[api-std-653](api-std-653.md). It is the engineered sibling of [api-rp-580](api-rp-580.md): where
 RP 580 sets the **programme requirements** (governance, team competence,
 documentation, re-evaluation triggers) that any RBI study must satisfy,
 RP 581 supplies the **calibrated equations, look-up tables, damage-factor
@@ -80,8 +80,8 @@ RP 581's structure is stable across editions, organised in three parts.
   identification), POF computation per Part II, COF computation per
   Part III, risk ranking, and inspection-plan optimisation against the
   operator's risk-acceptance threshold. This part defines the
-  interfaces with [api-510](api-510.md) (vessels), [[api-std-570]] (piping), and
-  [[api-std-653]] (tanks) — RP 581 does not replace those codes, it
+  interfaces with [api-510](api-510.md) (vessels), [api-std-570](api-std-570.md) (piping), and
+  [api-std-653](api-std-653.md) (tanks) — RP 581 does not replace those codes, it
   feeds the alternative interval-setting route they each permit.
 - **Part II — Determination of Damage Factors.** Per-mechanism POF
   modifiers. Each damage mechanism has its own sub-part with: (a) a
@@ -199,7 +199,7 @@ the damage factor unchanged.
   engine; RP 580 supplies the programme. An RP 581 calculation
   without an RP 580-conformant programme around it is not a
   sanctioned RBI deliverable.
-- **[api-510](api-510.md) / [[api-std-570]] / [[api-std-653]]** — In-service
+- **[api-510](api-510.md) / [api-std-570](api-std-570.md) / [api-std-653](api-std-653.md)** — In-service
   inspection codes that **permit** RBI as the alternative
   interval-setting route to their table-based / half-life intervals.
   RP 581 is the methodology those codes invoke when an owner-user
@@ -241,8 +241,8 @@ facts (`code_id`, `publisher`, `revision`) so fail-closed citation
 resolution can ground RBI quantitative outputs (POF, COF, damage
 factors, inspection-effectiveness multipliers) against this code. It
 is also the forward-reference target from [risk-based-inspection](../concepts/risk-based-inspection.md)
-for the quantitative methodology and from [api-510](api-510.md) / [[api-std-570]]
-/ [[api-std-653]] for the alternative interval-setting route. **Metadata-
+for the quantitative methodology and from [api-510](api-510.md) / [api-std-570](api-std-570.md)
+/ [api-std-653](api-std-653.md) for the alternative interval-setting route. **Metadata-
 only** per spinout 2026-05-05 governance: no clause text, damage-factor
 formulas, COF coefficients, hole-size frequency tables, fluid-property
 look-ups, or inspection-effectiveness multipliers are reproduced here.

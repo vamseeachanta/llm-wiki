@@ -318,10 +318,10 @@ basin is markedly more demanding than the pre-2005 envelope.
   and loads (DNV class worldwide).
 - [ISO 19901-1](../standards/iso-19901-1.md) — international metocean
   harmonisation.
-- [[fatigue-design-and-assessment]] — wind-induced vortex-shedding
+- [fatigue-design-and-assessment](fatigue-design-and-assessment.md) — wind-induced vortex-shedding
   fatigue is one of the inputs to mechanical-fatigue assessment of
   slender stacks and risers.
-- [[mechanical-fatigue]] — VIV / vortex-induced fatigue is a sibling
+- [mechanical-fatigue](mechanical-fatigue.md) — VIV / vortex-induced fatigue is a sibling
   topic for slender structures under wind or current.
 
 ## Source materials

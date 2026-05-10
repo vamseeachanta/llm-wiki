@@ -55,7 +55,7 @@ documents reference:
   POF input for RBI on hot-hydrogen circuits); RP 941's Nelson curves
   supply the safe-vs-attack boundary that the damage-factor algorithm
   evaluates at the equipment item's actual T and pH₂.
-- [api-510](api-510.md) (pressure vessels) and [[api-std-570]] (piping) cite
+- [api-510](api-510.md) (pressure vessels) and [api-std-570](api-std-570.md) (piping) cite
   RP 941 as the technical reference behind in-service inspection of
   HTHA-exposed equipment, particularly for legacy 0.5Mo items.
 - [api-std-579](api-std-579.md) / ASME FFS-1 Part 4 / Part 5 / Part 10 LMTD assessments
@@ -182,7 +182,7 @@ RP 581 HTHA damage factor).
   for process piping; cites RP 941 as the technical reference for
   HTHA-aware piping inspection in hydroprocessing circuits
   (reactor effluent piping, hydrogen-recycle piping, hot-feed lines).
-  See [[api-std-570]].
+  See [api-std-570](api-std-570.md).
 - **API 579-1 / ASME FFS-1 — Fitness-for-Service.** When HTHA is the
   suspected mechanism for an in-service flaw, the FFS-Part-selection
   workflow invokes RP 941 alongside RP 571: Part 4 (general metal
@@ -219,7 +219,7 @@ resolution can ground hot-hydrogen-service materials-selection,
 HTHA-screening, and Nelson-curve-derived calc outputs against this
 practice. It also serves as the named link target from
 [api-rp-571](api-rp-571.md) (damage-mechanism catalogue), [api-rp-581](api-rp-581.md) (RBI HTHA
-damage factor), [api-510](api-510.md) / [[api-std-570]] (in-service inspection
+damage factor), [api-510](api-510.md) / [api-std-570](api-std-570.md) (in-service inspection
 codes), [api-std-579](api-std-579.md) (FFS HTHA assessments), and the
 [damage-mechanism-screening](../concepts/damage-mechanism-screening.md) / [risk-based-inspection](../concepts/risk-based-inspection.md) concept
 pages. **Metadata-only** per spinout 2026-05-05 governance: no Nelson

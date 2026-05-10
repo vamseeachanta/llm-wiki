@@ -178,7 +178,7 @@ specimens that exceed the validity ceiling.
 
 ## Sources
 
-- Source page: [[og-standards-astm-e-series]][esrc] — catalog row
+- Source page: [og-standards-astm-e-series](../sources/og-standards-astm-e-series.md)[esrc] — catalog row
   `E1921 | Reference Temperature T₀ for Ferritic Steels (Master Curve) | 4 editions in catalog`.
 - Catalog provenance: `/mnt/ace/O&G-Standards/_catalog.json`
   (5 entries matching `E1921`; four editions: 1997, 2002, 2003, 2005;

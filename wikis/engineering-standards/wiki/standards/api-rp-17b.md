@@ -43,8 +43,8 @@ analysis paths resolve citations against this page's frontmatter
 
 ## Cross-references
 
-- [[api-spec-17j]] — companion specification for unbonded flexible pipe
-- [[api-17e]] — subsea umbilicals stub
+- [api-spec-17j](api-spec-17j.md) — companion specification for unbonded flexible pipe
+- [api-17e](api-17e.md) — subsea umbilicals stub
 
 **Cross-wiki bridge (maritime-law):**
 

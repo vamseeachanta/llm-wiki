@@ -112,7 +112,7 @@ metadata-only governance.
     joints).
 
 - **Pre-weld inspection.** Verification of materials (mill certs and
-  PMI for alloy materials per [[api-rp-578]] practice), joint geometry
+  PMI for alloy materials per [api-rp-578](api-rp-578.md) practice), joint geometry
   and fit-up (groove angle, root face, root opening, alignment,
   hi-low), cleanliness, preheat measurement and uniformity across
   the soak band, and consumable handling (electrode storage, flux

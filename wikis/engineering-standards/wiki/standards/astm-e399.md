@@ -209,7 +209,7 @@ screening) requires.
   — cross-references E399 in its `K_Ic` row and in its small-scale-
   yielding ancestry note; this standards page is the bidirectional
   target.
-- Source page: [[og-standards-astm-e-series]][esrc] — catalog row
+- Source page: [og-standards-astm-e-series](../sources/og-standards-astm-e-series.md)[esrc] — catalog row
   `E399 | Plane-strain Fracture Toughness K_IC of Metallic Materials |
   1 edition (headline) / 2 editions (catalog rows)`.
 - Catalog provenance: `/mnt/ace/O&G-Standards/_catalog.json` (2 entries

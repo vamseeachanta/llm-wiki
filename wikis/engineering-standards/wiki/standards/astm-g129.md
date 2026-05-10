@@ -84,7 +84,7 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0129-2
 - [astm-g36](astm-g36.md) — *Boiling Magnesium Chloride SCC Test* — sister Cl-SCC screening practice; G36 yields static-deformation ranking, G129 yields kinetic-and-ductility metrics.
 - [astm-g30](astm-g30.md) — *U-Bend Stress-Corrosion Test Specimens* — static-deformation specimen practice; G129 is the dynamic-strain-rate complement.
 - [astm-g39](astm-g39.md) — *Bent-Beam Stress-Corrosion Test Specimens* — static-deformation 4PBB practice; G129 is the dynamic-strain-rate complement.
-- [[astm-g38]] — *C-Ring Stress-Corrosion Test Specimens* — static-deformation tube/ring practice; G129 is the dynamic-strain-rate complement.
+- [astm-g38](astm-g38.md) — *C-Ring Stress-Corrosion Test Specimens* — static-deformation tube/ring practice; G129 is the dynamic-strain-rate complement.
 - [astm-g31](astm-g31.md) — *Laboratory Immersion Corrosion Testing of Metals* — non-SCC immersion-testing companion practice.
 - [astm-g1](astm-g1.md) — *Preparing, Cleaning, and Evaluating Corrosion Test Specimens* — pre-and-post-exposure specimen-handling baseline.
 - [ampp-tm-0177](ampp-tm-0177.md) — *Laboratory Testing of Metals for Resistance to SSC and SCC in H2S Environments* — sour-service test method; G129 SSRT data feeds the [iso-15156-3](iso-15156-3.md) / [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) fitness-assessment route.

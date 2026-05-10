@@ -86,7 +86,7 @@ For calc-module authors: a numeric corrosion rate emitted without a G3-conforman
 
 ## Cross-references
 
-- [[astm-g5]] — *Standard Reference Test Method for Making Potentiodynamic Anodic Polarization Measurements.* The canonical Tafel-scan procedure on Type 430 stainless reference material; cites G3 for axis and sign conventions.
+- [astm-g5](astm-g5.md) — *Standard Reference Test Method for Making Potentiodynamic Anodic Polarization Measurements.* The canonical Tafel-scan procedure on Type 430 stainless reference material; cites G3 for axis and sign conventions.
 - [astm-g59](astm-g59.md) — *Standard Test Method for Conducting Potentiodynamic Polarization Resistance Measurements.* The LPR procedure that delivers `R_p` for Stern-Geary `i_corr` extraction; G3 anchors the small-overpotential sweep convention.
 - [astm-g102](astm-g102.md) — *Standard Practice for Calculation of Corrosion Rates and Related Information from Electrochemical Measurements.* Converts G3-conformant `i_corr` into engineering penetration rate (mm/yr or mpy) via Faraday's law with an equivalent-weight argument; the bridge from G3/G5/G59 measurements to mass-loss-equivalent rate.
 - [astm-g106](astm-g106.md) — *Standard Practice for Verification of Algorithm and Equipment for Electrochemical Impedance Measurements.* EIS practice; cites G3 for impedance-plot conventions (Nyquist and Bode formats) and OCP reporting.

@@ -48,6 +48,6 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 On-disk newest edition is 2010. Publisher-current edition is 2025 — a 15-year gap, the widest in the engineering-standards W-series. Calc-callers MUST verify against the publisher-current edition before any compliance use; this wiki page reflects the on-disk corpus only and does not certify currency.
 
 ## Cross-references
-- [[asme-bpvc-ix]] — qualifies welders and welding procedures referenced by D1.1 contract documents
+- [asme-bpvc-ix](asme-bpvc-ix.md) — qualifies welders and welding procedures referenced by D1.1 contract documents
 - [[api-1104]] — companion pipeline-welding code (forward-pointing dangling link; W1-A or future W1-B scope)
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

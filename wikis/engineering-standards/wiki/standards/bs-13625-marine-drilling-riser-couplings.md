@@ -38,6 +38,6 @@ This page is a citation resolver target for downstream calc modules per `.claude
 - Internal callers: no live `Citation(...)` in `digitalmodel/src/` today; future-needed
 
 ## Cross-references
-- [[api-rp-16q]] — API drilling riser systems recommended practice
-- [[bs-13533-drill-through-equipment]] — companion drilling-systems standard
+- [api-rp-16q](api-rp-16q.md) — API drilling riser systems recommended practice
+- [bs-13533-drill-through-equipment](bs-13533-drill-through-equipment.md) — companion drilling-systems standard
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

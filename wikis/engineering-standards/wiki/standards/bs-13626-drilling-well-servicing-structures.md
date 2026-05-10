@@ -38,6 +38,6 @@ This page is a citation resolver target for downstream calc modules per `.claude
 - Internal callers: no live `Citation(...)` in `digitalmodel/src/` today; future-needed
 
 ## Cross-references
-- [[bs-13533-drill-through-equipment]] — companion drilling-systems standard
-- [[bs-13625-marine-drilling-riser-couplings]] — companion drilling-systems standard
+- [bs-13533-drill-through-equipment](bs-13533-drill-through-equipment.md) — companion drilling-systems standard
+- [bs-13625-marine-drilling-riser-couplings](bs-13625-marine-drilling-riser-couplings.md) — companion drilling-systems standard
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

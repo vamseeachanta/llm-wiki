@@ -40,6 +40,6 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 On-disk edition is 2003. Publisher-current edition is 2014 (subject to verification at the publisher portal). Calc-callers MUST verify against the publisher-current edition before any compliance use; this wiki page reflects the on-disk corpus only and does not certify currency.
 
 ## Cross-references
-- [[asme-bpvc-ix]] — qualification basis applicable to aluminum welds when within pressure scope
-- [[aws-d1-1]] — companion structural-welding code for steel
+- [asme-bpvc-ix](asme-bpvc-ix.md) — qualification basis applicable to aluminum welds when within pressure scope
+- [aws-d1-1](aws-d1-1.md) — companion structural-welding code for steel
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

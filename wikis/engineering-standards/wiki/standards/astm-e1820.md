@@ -154,7 +154,7 @@ are stable.
   bounds.
 - **API 579-1 / ASME FFS-1** — *Fitness-for-Service*. Consumes E1820
   outputs (J-based) as Part 9 toughness Option 2 / 3 input; see
-  [[api-std-579]].
+  [api-std-579](api-std-579.md).
 - **BS 7910** — *Guide to methods for assessing the acceptability of
   flaws in metallic structures* (BSI). UK FFS standard; Annex K
   toughness clause cites E1820 alongside BS 7448 / ISO 12135.
@@ -165,7 +165,7 @@ are stable.
 
 ## Sources
 
-- Source page: [[og-standards-astm-e-series]][esrc] — catalog row
+- Source page: [og-standards-astm-e-series](../sources/og-standards-astm-e-series.md)[esrc] — catalog row
   `E1820 | J-Integral / Unified Fracture Toughness (J-R curve) | 3 editions in catalog`.
 - Catalog provenance: `/mnt/ace/O&G-Standards/_catalog.json`
   (4 entries matching `E1820`; three editions: 1999, 2001, 2006).

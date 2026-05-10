@@ -43,5 +43,5 @@ from the existing `API-RP-1111-3RD-ED` row).
 
 ## Cross-references
 
-- [[api-spec-5l]] — line-pipe specification companion
+- [api-spec-5l](api-spec-5l.md) — line-pipe specification companion
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

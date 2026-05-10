@@ -38,6 +38,6 @@ This page is a citation resolver target for downstream calc modules per `.claude
 - Internal callers: no live `Citation(...)` in `digitalmodel/src/` today; future-needed
 
 ## Cross-references
-- [[api-spec-17j]] — API technical equivalent for unbonded flexible pipe (subsea production systems)
-- [[api-rp-17b]] — flexible pipe recommended practice
+- [api-spec-17j](api-spec-17j.md) — API technical equivalent for unbonded flexible pipe (subsea production systems)
+- [api-rp-17b](api-rp-17b.md) — flexible pipe recommended practice
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

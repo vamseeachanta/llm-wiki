@@ -42,14 +42,14 @@ The guide covers:
 - **Failure Assessment Diagram (FAD) methodology** at three levels of analytical conservatism — **Level 1** (simplified, conservative; for screening and limited input data), **Level 2** (general-purpose, the workhorse for most assessments; further subdivided into 2A default and 2B material-specific options), and **Level 3** (advanced, ductile-tearing aware; uses J-integral / R-curve / constraint-modified inputs).
 - **Planar (crack-like) flaws** — surface, embedded, and through-thickness cracks in plates, pipes, pressure vessels, and welded joints; recharacterisation rules; interaction and re-categorisation criteria.
 - **Non-planar flaws** — volumetric defects (porosity, slag, lack of fusion treated as planar where appropriate) and shape-imperfection assessments (misalignment, weld profile).
-- **Fatigue crack growth** — Paris-law integration of stress-intensity-factor ranges with sequence and threshold effects; coupling to S-N approaches in [[bs-7608]].
+- **Fatigue crack growth** — Paris-law integration of stress-intensity-factor ranges with sequence and threshold effects; coupling to S-N approaches in [bs-7608](bs-7608.md).
 - **Leak-before-break (LBB)** — demonstration that a through-wall flaw will be detected by leakage before catastrophic rupture; pressure-vessel and pipework applications.
 - **Residual stress treatment** — tabulated as-welded and post-weld-heat-treated residual-stress profiles for a wide range of weld geometries; combined with primary stress in the FAD ordinate.
 - **Creep and creep-fatigue** — high-temperature crack initiation and growth assessment for plant operating in the creep regime.
 
 ### Comparison with API 579-1 / ASME FFS-1
 
-BS 7910 and [[api-579-1-asme-ffs-1]] are the two dominant fitness-for-service codes in global engineering practice. They are **broadly aligned in technical philosophy** (FAD-based two-criteria fracture assessment, residual-stress superposition, fatigue-crack-growth integration) but **diverge in scope, structure, and method options**:
+BS 7910 and [api-579-1-asme-ffs-1](api-579-1-asme-ffs-1.md) are the two dominant fitness-for-service codes in global engineering practice. They are **broadly aligned in technical philosophy** (FAD-based two-criteria fracture assessment, residual-stress superposition, fatigue-crack-growth integration) but **diverge in scope, structure, and method options**:
 
 | Dimension | BS 7910 (2013) | API 579-1/ASME FFS-1 (2021) |
 |---|---|---|
@@ -96,13 +96,13 @@ The 2013 edition's normative annex set is the working surface for most calc modu
 
 ## Cross-references
 
-- [[api-579-1-asme-ffs-1]] — parallel US FFS standard; broadly aligned but with code-specific FAD calibration, residual-stress profiles, and reference-stress libraries. Do not mix annexes across codes.
+- [api-579-1-asme-ffs-1](api-579-1-asme-ffs-1.md) — parallel US FFS standard; broadly aligned but with code-specific FAD calibration, residual-stress profiles, and reference-stress libraries. Do not mix annexes across codes.
 - [astm-e399](astm-e399.md) — plane-strain fracture toughness K<sub>Ic</sub> (linear-elastic input to BS 7910 Level 1/2 FAD).
 - [astm-e1820](astm-e1820.md) — J-integral and CTOD δ measurement (elastic-plastic toughness input to BS 7910 Level 2/3 and Annex A Option 3).
 - [astm-e1921](astm-e1921.md) — Master Curve methodology for ferritic steel reference temperature T<sub>0</sub> (toughness-vs-temperature input for ductile-to-brittle transition assessments).
-- [[bs-7448]] — UK companion fracture-mechanics toughness test methods (K<sub>Ic</sub>, CTOD, J, R-curves) feeding BS 7910 input data.
-- [[bs-7608]] — UK fatigue design and assessment of steel structures; BS 7910 Annex M references BS 7608 for S-N approaches and is cross-cited for fatigue endurance.
-- [[dnv-rp-c210]] — DNV recommended practice for probabilistic fatigue, complements BS 7910 Annex N for offshore structural reliability.
+- [bs-7448](bs-7448.md) — UK companion fracture-mechanics toughness test methods (K<sub>Ic</sub>, CTOD, J, R-curves) feeding BS 7910 input data.
+- [bs-7608](bs-7608.md) — UK fatigue design and assessment of steel structures; BS 7910 Annex M references BS 7608 for S-N approaches and is cross-cited for fatigue endurance.
+- [dnv-rp-c210](dnv-rp-c210.md) — DNV recommended practice for probabilistic fatigue, complements BS 7910 Annex N for offshore structural reliability.
 - [[api-1104]] — pipeline girth-weld code; **Annex A** (Alternative Acceptance Standards for Girth Welds) is the ECA route for pipeline construction welds and is methodologically aligned with BS 7910 Level 2.
 - **R6** — the UK nuclear-industry sibling code (EDF Energy / formerly British Energy / CEGB). BS 7910 and R6 share the FAD framework; R6 retains additional nuclear-specific provisions (constraint-modified FAD, secondary-stress treatment for thermal transients) and is typically cited in parallel for nuclear safety cases.
 

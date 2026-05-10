@@ -51,7 +51,7 @@ reference:
   descriptions when characterising the flaw type that drives a
   fitness-for-service assessment.
 - The in-service inspection codes [api-510](api-510.md) (pressure vessels),
-  [[api-std-570]] (piping), and [[api-std-653]] (storage tanks) cite
+  [api-std-570](api-std-570.md) (piping), and [api-std-653](api-std-653.md) (storage tanks) cite
   RP 571 as the technical reference behind their damage-mechanism
   awareness requirements.
 
@@ -150,11 +150,11 @@ each time.
   [api-510](api-510.md).
 - **API 570 — Piping Inspection Code.** In-service inspection code for
   process piping; cites RP 571 as the technical reference for damage-
-  mechanism identification. See [[api-std-570]].
+  mechanism identification. See [api-std-570](api-std-570.md).
 - **API 653 — Tank Inspection, Repair, Alteration, and Reconstruction.**
   In-service inspection code for atmospheric / low-pressure storage
   tanks; cites RP 571 (with the bottom-side / soil-side and CUI
-  mechanisms most relevant for tanks). See [[api-std-653]].
+  mechanisms most relevant for tanks). See [api-std-653](api-std-653.md).
 - **API 579-1 / ASME FFS-1 — Fitness-for-Service.** RP 571's per-mechanism
   morphology and critical-factor descriptions feed the FFS Part selection:
   Part 3 (brittle fracture), Part 4 (general metal loss), Part 5 (local

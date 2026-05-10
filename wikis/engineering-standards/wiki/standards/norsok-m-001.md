@@ -43,8 +43,8 @@ This page is the citation resolver target for materials-selection-aware calc mod
 - Lifecycle: see frontmatter `revision`, `publisher_current_revision`, `lifecycle_status`, and `iso_relationship` for ISO-21457 parallel-mirror context
 
 ## Cross-references
-- [[norsok-m-501]] — surface preparation and protective coating companion in the materials series
-- [[norsok-m-710]] — non-metallic sealing materials qualification companion
+- [norsok-m-501](norsok-m-501.md) — surface preparation and protective coating companion in the materials series
+- [norsok-m-710](norsok-m-710.md) — non-metallic sealing materials qualification companion
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Cross-References

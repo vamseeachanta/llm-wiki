@@ -45,8 +45,8 @@ This page is the citation resolver target for downstream calc modules under the 
 - Lifecycle: see frontmatter `revision`, `publisher_current_revision`, `lifecycle_status`, and `iso_relationship` for ISO-19900 parallel-mirror context
 
 ## Cross-references
-- [[norsok-n-004]] — design of steel structures companion code (jacket and topside detail design)
-- [[norsok-m-001]] — materials selection companion (load-bearing material classes feed back into N-001)
+- [norsok-n-004](norsok-n-004.md) — design of steel structures companion code (jacket and topside detail design)
+- [norsok-m-001](norsok-m-001.md) — materials selection companion (load-bearing material classes feed back into N-001)
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Cross-References

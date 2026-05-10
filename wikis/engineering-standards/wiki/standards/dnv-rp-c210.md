@@ -36,13 +36,13 @@ domain: engineering-standards
 
 ## Scope
 
-DNV-RP-C210 is the DNV recommended practice covering **probabilistic methods for planning fatigue-crack inspection campaigns on offshore structures**. It provides the reliability-based inspection (RBI) methodology that translates a deterministic fatigue analysis (typically per [[dnv-rp-c203]]) into an inspection schedule optimised against probability-of-failure (POF) targets, probability-of-detection (POD) curves of available NDT methods, and consequence-of-failure (COF) cost models.
+DNV-RP-C210 is the DNV recommended practice covering **probabilistic methods for planning fatigue-crack inspection campaigns on offshore structures**. It provides the reliability-based inspection (RBI) methodology that translates a deterministic fatigue analysis (typically per [dnv-rp-c203](dnv-rp-c203.md)) into an inspection schedule optimised against probability-of-failure (POF) targets, probability-of-detection (POD) curves of available NDT methods, and consequence-of-failure (COF) cost models.
 
 The recommended practice covers reliability formulation of the fatigue-crack limit state combining S-N curve uncertainty, Miner's rule scatter, environmental-loading uncertainty, and stress-concentration-factor model error; probability-of-detection (POD) curve catalogues for the principal offshore NDT methods (MPI, eddy current, ACFM, ultrasonic, flooded-member detection); Bayesian updating of POF following inspection campaigns with no-find or find-and-repair outcomes; cost-benefit optimisation of inspection-schedule sequences against target reliability and operational-availability constraints; and structure-specific application to fixed jacket platforms, jack-ups, semisubmersible MODUs, FPSOs, and floating production-system tendon systems.
 
 ## Comparison with API RP 580/581 and BS 7910 Annex N
 
-DNV-RP-C210 is the offshore-fatigue specialisation in a wider RBI ecosystem alongside the API process-equipment RBI codes [[api-rp-580]] / [[api-rp-581]] and the [[bs-7910]] Annex N probabilistic FAD route:
+DNV-RP-C210 is the offshore-fatigue specialisation in a wider RBI ecosystem alongside the API process-equipment RBI codes [api-rp-580](api-rp-580.md) / [api-rp-581](api-rp-581.md) and the [[bs-7910]] Annex N probabilistic FAD route:
 
 | Dimension | DNV-RP-C210 | API RP 580/581 | BS 7910 Annex N |
 |---|---|---|---|
@@ -53,7 +53,7 @@ DNV-RP-C210 is the offshore-fatigue specialisation in a wider RBI ecosystem alon
 | NDT calibration | Subsea-environment-aware (water-clarity, vessel access) | Onshore + topside refinery context | Generic |
 | Output | Risk-ranked inspection schedule per detail | Risk-ranked inspection schedule per equipment item | POF estimate per flaw |
 
-DNV-RP-C210 is purpose-built for fatigue-crack inspection planning on welded offshore steel structural details, which is a different scope from the multi-mechanism process-equipment RBI of API 580/581 and the generic flaw-assessment scope of BS 7910 Annex N. Practitioners running an integrated offshore platform integrity-management programme typically use DNV-RP-C210 for jacket/topside-structural-fatigue inspection planning, [[api-rp-580]] / [[api-rp-581]] for topside process-equipment inspection planning, and [[bs-7910]] for any specific FFS findings flagged during inspection.
+DNV-RP-C210 is purpose-built for fatigue-crack inspection planning on welded offshore steel structural details, which is a different scope from the multi-mechanism process-equipment RBI of API 580/581 and the generic flaw-assessment scope of BS 7910 Annex N. Practitioners running an integrated offshore platform integrity-management programme typically use DNV-RP-C210 for jacket/topside-structural-fatigue inspection planning, [api-rp-580](api-rp-580.md) / [api-rp-581](api-rp-581.md) for topside process-equipment inspection planning, and [[bs-7910]] for any specific FFS findings flagged during inspection.
 
 ## Edition history
 
@@ -81,22 +81,22 @@ The 2021-09 edition's section structure is the working surface for most calc mod
 
 - Offshore-platform integrity-management engineers planning multi-year inspection campaigns on fixed jacket platforms (e.g., North Sea, Gulf of Mexico, Bohai, Brazilian Basin assets).
 - FPSO / FLNG / FSRU integrity-management teams planning hull and topside-structure inspection schedules under reliability-based optimisation.
-- Floating production system (semisubmersible, tendon, mooring) inspection-planning specialists pairing DNV-RP-C210 reliability output with [[dnv-os-e301]] mooring-integrity provisions and [[api-rp-2mim]] mooring-integrity-management practice.
+- Floating production system (semisubmersible, tendon, mooring) inspection-planning specialists pairing DNV-RP-C210 reliability output with [dnv-os-e301](dnv-os-e301.md) mooring-integrity provisions and [[api-rp-2mim]] mooring-integrity-management practice.
 - Class societies — DNV, ABS, BV, LR — accepting DNV-RP-C210-based reliability arguments in lieu of prescriptive periodic inspection where the asset-specific reliability case demonstrates equivalent or superior coverage.
 - Offshore EPCs preparing inspection-and-monitoring philosophy documents for greenfield-platform deliverables, where DNV-RP-C210 provides the design-stage RBI framework.
 
 ## Cross-references
 
-- [[dnv-rp-c203]] — DNV deterministic fatigue-design RP; supplies the S-N curves, hot-spot stress methodology, and SCF catalogue that DNV-RP-C210 wraps in a reliability framework.
+- [dnv-rp-c203](dnv-rp-c203.md) — DNV deterministic fatigue-design RP; supplies the S-N curves, hot-spot stress methodology, and SCF catalogue that DNV-RP-C210 wraps in a reliability framework.
 - [dnv-os-c401](dnv-os-c401.md) — DNV offshore-structures fabrication-and-testing standard; the inspection-method specification and acceptance criteria DNV-RP-C210 plans against during construction.
 - [api-rp-2a-wsd](api-rp-2a-wsd.md) — API fixed-platform planning/design code; DNV-RP-C210 is the RBI complement on API-RP-2A-designed platforms.
-- [[api-rp-580]] / [[api-rp-581]] — API process-equipment RBI codes; complementary scope (process equipment vs. structural-fatigue).
+- [api-rp-580](api-rp-580.md) / [api-rp-581](api-rp-581.md) — API process-equipment RBI codes; complementary scope (process equipment vs. structural-fatigue).
 - [[bs-7910]] — UK fitness-for-service code; Annex N is the parallel UK reliability-based FAD route.
-- [[bs-7608]] — UK fatigue-design code; complementary deterministic-fatigue substrate when offshore-onshore mixed projects span both jurisdictions.
-- [[dnv-os-e301]] — DNV position-mooring code; mooring-line fatigue inspection planning per DNV-RP-C210 reliability framework.
+- [bs-7608](bs-7608.md) — UK fatigue-design code; complementary deterministic-fatigue substrate when offshore-onshore mixed projects span both jurisdictions.
+- [dnv-os-e301](dnv-os-e301.md) — DNV position-mooring code; mooring-line fatigue inspection planning per DNV-RP-C210 reliability framework.
 - [Fatigue Design and Assessment](../concepts/fatigue-design-and-assessment.md) — concept page on deterministic-fatigue substrate underlying DNV-RP-C210.
 - [Risk-Based Inspection (RBI)](../concepts/risk-based-inspection.md) — concept page on RBI methodology; DNV-RP-C210 is the offshore-fatigue specialisation.
-- [Fitness-for-Service (FFS)](../concepts/fitness-for-service.md) — concept page on FFS; DNV-RP-C210 inspection findings feed FFS evaluation per [[bs-7910]] / [[api-579-1-asme-ffs-1]].
+- [Fitness-for-Service (FFS)](../concepts/fitness-for-service.md) — concept page on FFS; DNV-RP-C210 inspection findings feed FFS evaluation per [[bs-7910]] / [api-579-1-asme-ffs-1](api-579-1-asme-ffs-1.md).
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Where to find the full text

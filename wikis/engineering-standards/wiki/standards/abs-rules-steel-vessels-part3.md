@@ -26,8 +26,8 @@ Hull construction and equipment rule book for steel vessels classed by ABS. Part
 Resolver target for downstream `digitalmodel` `Citation` instances per `.claude/rules/calc-citation-contract.md`. Internal `digitalmodel/src/` carries six prose-comment references to this code (configuration-key strings such as `"ABS Steel Vessel"`); none today is a structured `Citation(...)` call. Calc callers must cite the unamended base year `2016` verbatim; later annual notices are enumerated under `sources`.
 
 ## Cross-references
-- [[abs-rules-offshore-installations]] — companion offshore-side rule book
-- [[abs-rules-coc-part1-offshore]] — paired Conditions-of-Classification rule book
+- [abs-rules-offshore-installations](abs-rules-offshore-installations.md) — companion offshore-side rule book
+- [abs-rules-coc-part1-offshore](abs-rules-coc-part1-offshore.md) — paired Conditions-of-Classification rule book
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Where to find the full text

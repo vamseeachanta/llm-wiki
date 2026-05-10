@@ -33,8 +33,8 @@ inspection-programme design needed to manage external degradation of
 insulated piping, pressure vessels, and structural fireproofed members.
 
 It is the **CUI/CUF-specific companion** to the in-service inspection
-codes [api-510](api-510.md) (pressure vessels), [[api-std-570]] (piping), and
-[[api-std-653]] (atmospheric storage tanks). Where those codes define
+codes [api-510](api-510.md) (pressure vessels), [api-std-570](api-std-570.md) (piping), and
+[api-std-653](api-std-653.md) (atmospheric storage tanks). Where those codes define
 **what to inspect and on what interval** (item classification, table-
 based intervals, half-remaining-life rule, RBI alternative), RP 583 fills
 the **CUI-specific methods and risk factors** gap that the parent
@@ -199,7 +199,7 @@ metadata-only governance.
   inspection code; defines vessel inspection intervals and item
   classification. RP 583 supplies the CUI-specific methods and risk
   factors that API 510's external-inspection clauses reference.
-- **[[api-std-570]]** — *Piping Inspection Code*. Parent in-service
+- **[api-std-570](api-std-570.md)** — *Piping Inspection Code*. Parent in-service
   inspection code for process piping. Same relationship as API 510:
   RP 583 supplies the CUI-specific methods that API 570 invokes.
 - **[api-rp-574](api-rp-574.md)** — *Inspection Practices for Piping System Components*.
