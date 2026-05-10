@@ -19,7 +19,7 @@ sources:
 
 # Creep and Stress Rupture
 
-> Concept anchor for the **time-dependent high-temperature damage family** that drives furnace-tube life, hydroprocessing-reactor remaining-life calculations, and the boiler / steam-cycle integrity envelope. Sits between the [[damage-mechanism-screening]] catalogue (which flags creep as credible above the homologous-temperature threshold) and the [[fitness-for-service]] FFS Part 10 assessment that quantifies remaining life from a measured damage state. Routes into [[api-rp-571]] (mechanism description and morphology) and [[api-std-579]] Part 10 (Omega method, time-fraction summation, replication-driven recalibration).
+> Concept anchor for the **time-dependent high-temperature damage family** that drives furnace-tube life, hydroprocessing-reactor remaining-life calculations, and the boiler / steam-cycle integrity envelope. Sits between the [damage-mechanism-screening](damage-mechanism-screening.md) catalogue (which flags creep as credible above the homologous-temperature threshold) and the [fitness-for-service](fitness-for-service.md) FFS Part 10 assessment that quantifies remaining life from a measured damage state. Routes into [api-rp-571](../standards/api-rp-571.md) (mechanism description and morphology) and [api-std-579](../standards/api-std-579.md) Part 10 (Omega method, time-fraction summation, replication-driven recalibration).
 
 ## What is creep?
 
@@ -88,16 +88,16 @@ Inputs the FFS practitioner must produce upstream:
 - Stress history — pressure × geometry for primary stress, plus bending from supports / spring-hanger settings, plus secondary stresses where they cycle into the calculation (start-up / shutdown).
 - Material parameters — Ω from API 579 Annex F, EPRI databases, or proprietary licensor data; **never** extrapolated outside the calibration envelope without explicit justification.
 
-Output: remaining-life estimate (years) plus the next replication / inspection interval. The verdict feeds the run / repair / replace decision under the gating in-service inspection code (API 510 / 570 / 653) and integrates with the [[risk-based-inspection]] POF input via the **API RP 581 creep damage-factor family**.
+Output: remaining-life estimate (years) plus the next replication / inspection interval. The verdict feeds the run / repair / replace decision under the gating in-service inspection code (API 510 / 570 / 653) and integrates with the [risk-based-inspection](risk-based-inspection.md) POF input via the **API RP 581 creep damage-factor family**.
 
 ## Standards
 
 Bidirectional cross-references — each standards page below should cross-link back to this concept page once the convention propagates.
 
-- [[api-rp-571]] — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* Catalogue entry for creep / stress rupture under the mechanical-metallurgical class. Covers description, susceptible materials, critical operating factors, morphology, prevention, and inspection — the technical-content anchor referenced by every downstream programme document.
-- [[api-std-579]] — *Fitness-for-Service.* Part 10 *Assessment of Components Operating in the Creep Range* is the FFS methodology consumer; Omega method, time-fraction summation, and replication-driven recalibration live here.
-- [[asme-bpvc-viii-1]] — *Pressure-Vessel Construction (Design-by-Rule).* New-build allowable-stress envelope for components in the creep range; ASME II-D allowable-stress tables embed the Larson-Miller-derived design margins.
-- [[asme-bpvc-viii-2]] — *Pressure-Vessel Construction (Design-by-Analysis Alternative Rules).* Stress-classification and linearisation conventions used by FFS Part 10 are inherited from VIII-2; design-by-analysis margins for creep-range vessels.
+- [api-rp-571](../standards/api-rp-571.md) — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* Catalogue entry for creep / stress rupture under the mechanical-metallurgical class. Covers description, susceptible materials, critical operating factors, morphology, prevention, and inspection — the technical-content anchor referenced by every downstream programme document.
+- [api-std-579](../standards/api-std-579.md) — *Fitness-for-Service.* Part 10 *Assessment of Components Operating in the Creep Range* is the FFS methodology consumer; Omega method, time-fraction summation, and replication-driven recalibration live here.
+- [asme-bpvc-viii-1](../standards/asme-bpvc-viii-1.md) — *Pressure-Vessel Construction (Design-by-Rule).* New-build allowable-stress envelope for components in the creep range; ASME II-D allowable-stress tables embed the Larson-Miller-derived design margins.
+- [asme-bpvc-viii-2](../standards/asme-bpvc-viii-2.md) — *Pressure-Vessel Construction (Design-by-Analysis Alternative Rules).* Stress-classification and linearisation conventions used by FFS Part 10 are inherited from VIII-2; design-by-analysis margins for creep-range vessels.
 - **API 530** — *Calculation of Heater-Tube Thickness in Petroleum Refineries.* Heater-tube design code; the Larson-Miller stress-vs-LMP curves used in furnace-tube design and remaining-life calculation are tabulated here. Future first-class standards page candidate.
 - **API 573** — *Inspection of Fired Boilers and Heaters.* Heater-inspection code; defines the dimensional-creep, replication, and metallurgical-survey practices for radiant-section tubes.
 - **API 934-A / 934-C / 934-E** — *Materials and Fabrication of 2.25Cr-1Mo, 2.25Cr-1Mo-V, and Cr-Mo-V Steels for Hydroprocessing Reactors.* Hydroprocessing-reactor metallurgy and fabrication code; creep-rupture envelope and step-cooling temper-embrittlement requirements live here. Future first-class standards page candidate.
@@ -106,11 +106,11 @@ Bidirectional cross-references — each standards page below should cross-link b
 
 Wikilinks below point to concept pages — leave as wikilinks where the page does not yet exist, per the spinout's link-and-fill convention.
 
-- [[damage-mechanism-screening]] — upstream concept; flags creep as credible once homologous-temperature threshold is crossed and routes into the API RP 571 catalogue and API RP 581 creep damage-factor family.
-- [[fitness-for-service]] — downstream consumer; FFS Part 10 governs creep-damage assessment, with the Omega method as the dominant Level-2 methodology.
-- [[htha-nelson-curves]] — parallel high-temperature mechanism in hydrogen service; HTHA and creep can be co-credible on hydroprocessing-reactor shells and reformer-furnace tubes operating in H<sub>2</sub>-rich service. Distinct mechanisms (HTHA = hydrogen attack on carbides, creep = thermally-activated dislocation glide / climb) but overlapping equipment populations and coupled damage-factor families.
-- [[risk-based-inspection]] — downstream consumer; creep damage-factor family in API RP 581 is populated from the screening and FFS outputs.
-- [[fracture-toughness-measurement]] — paired metric for the creep-fatigue-fracture interaction at high-temperature service; J-integral and CTOD measurements at elevated temperature feed FFS Level 3 advanced creep-crack-growth assessments.
+- [damage-mechanism-screening](damage-mechanism-screening.md) — upstream concept; flags creep as credible once homologous-temperature threshold is crossed and routes into the API RP 571 catalogue and API RP 581 creep damage-factor family.
+- [fitness-for-service](fitness-for-service.md) — downstream consumer; FFS Part 10 governs creep-damage assessment, with the Omega method as the dominant Level-2 methodology.
+- [htha-nelson-curves](htha-nelson-curves.md) — parallel high-temperature mechanism in hydrogen service; HTHA and creep can be co-credible on hydroprocessing-reactor shells and reformer-furnace tubes operating in H<sub>2</sub>-rich service. Distinct mechanisms (HTHA = hydrogen attack on carbides, creep = thermally-activated dislocation glide / climb) but overlapping equipment populations and coupled damage-factor families.
+- [risk-based-inspection](risk-based-inspection.md) — downstream consumer; creep damage-factor family in API RP 581 is populated from the screening and FFS outputs.
+- [fracture-toughness-measurement](fracture-toughness-measurement.md) — paired metric for the creep-fatigue-fracture interaction at high-temperature service; J-integral and CTOD measurements at elevated temperature feed FFS Level 3 advanced creep-crack-growth assessments.
 
 ## Source materials
 

@@ -115,11 +115,11 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 
 ## Cross-references
 
-- [[asme-bpvc-ii-d]] — allowable stresses sourced upstream
-- [[asme-bpvc-ix]] — welding qualification basis
-- [[asme-b16-5]] — flange-rating cross-link
+- [asme-bpvc-ii-d](asme-bpvc-ii-d.md) — allowable stresses sourced upstream
+- [asme-bpvc-ix](asme-bpvc-ix.md) — welding qualification basis
+- [asme-b16-5](asme-b16-5.md) — flange-rating cross-link
 - [[asme-b31j]] — SIF and flexibility-factor data set (post-2018 mandatory replacement for legacy Appendix-D charts)
-- [[asme-bpvc-viii-1]] — pressure-vessel design-by-rule companion at the inlet / outlet vessel-nozzle boundary
+- [asme-bpvc-viii-1](asme-bpvc-viii-1.md) — pressure-vessel design-by-rule companion at the inlet / outlet vessel-nozzle boundary
 - [[api-std-570]] — process-piping in-service inspection code that uses B31.3 as the new-construction basis and authorises RBI per RP 580 / RP 581 for alternative inspection intervals
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 

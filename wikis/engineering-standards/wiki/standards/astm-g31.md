@@ -29,7 +29,7 @@ raw_copy_allowed: false
 
 ASTM G31 prescribes the recommended **apparatus, specimen-handling protocol, exposure procedure, and result-evaluation framework** for laboratory immersion corrosion tests of metallic specimens in liquid environments — aqueous solutions, organic liquids, low-temperature melts, and mixed-phase systems. The test is the simplest and most widely used corrosion screen in the industry: prepare a coupon, weigh it, expose it to a controlled liquid for a controlled time at a controlled temperature, retrieve it, clean it, reweigh it, and convert the mass loss to a uniform-corrosion penetration rate.
 
-G31 is a **companion standard to [[astm-g1]]**, not a replacement for it. The two standards split the workflow:
+G31 is a **companion standard to [astm-g1](astm-g1.md)**, not a replacement for it. The two standards split the workflow:
 
 - **G1** owns specimen *preparation* before exposure and specimen *cleaning + mass-loss-to-rate conversion* after exposure (the chemistry and metallurgy of getting clean, well-characterized coupons in and out).
 - **G31** owns the *exposure phase itself* — vessel design, solution makeup, support hardware, agitation, aeration, temperature control, exposure duration, and replicate count.
@@ -53,7 +53,7 @@ The local O&G-Standards catalog at `/mnt/ace/O&G-Standards/ASTM/G-Series/` holds
 | G31-72 (R04) | `G_31_-_72_R04_RZMX.pdf` | 1 file | 2004 reapproval of the 1972 practice |
 | G31 (current) | not on disk | — | The publisher-current edition was reissued as a **Standard Guide** (post-R04 cycle); calc-callers needing the current edition must obtain it from the ASTM catalog |
 
-The publisher-catalog year-token sweep done for the [[og-standards-astm-g-series]] source page recorded G31 with **2 editions** in the catalog; that count matches the two file rows above. The G31 base practice has been remarkably stable — the 1972 procedural substrate has carried forward through multiple reapprovals with editorial-only changes — but the post-R04 reissuance promoted G31 from a *practice* to a *guide* (a status change ASTM uses to flag broadly applicable methodology rather than a tightly prescribed procedure).
+The publisher-catalog year-token sweep done for the [og-standards-astm-g-series](../sources/og-standards-astm-g-series.md) source page recorded G31 with **2 editions** in the catalog; that count matches the two file rows above. The G31 base practice has been remarkably stable — the 1972 procedural substrate has carried forward through multiple reapprovals with editorial-only changes — but the post-R04 reissuance promoted G31 from a *practice* to a *guide* (a status change ASTM uses to flag broadly applicable methodology rather than a tightly prescribed procedure).
 
 ## Key sections
 
@@ -76,33 +76,33 @@ The procedural anchors that define a G31-compliant immersion test (consult the o
 
 A G31-compliant test produces:
 
-1. **Mass loss → uniform corrosion rate** per [[astm-g1]] §9 / §10 — converted to penetration rate (mils/yr or mm/yr) using the alloy density and exposed surface area. G1's mass-loss-to-rate equation is the canonical conversion; G31 supplies the mass-loss data, G1 supplies the arithmetic and the cleaning-procedure tables that the mass-loss number depends on.
+1. **Mass loss → uniform corrosion rate** per [astm-g1](astm-g1.md) §9 / §10 — converted to penetration rate (mils/yr or mm/yr) using the alloy density and exposed surface area. G1's mass-loss-to-rate equation is the canonical conversion; G31 supplies the mass-loss data, G1 supplies the arithmetic and the cleaning-procedure tables that the mass-loss number depends on.
 2. **Visual + microscopic examination** per [[astm-g46]] — pitting depth distribution, pit count, crevice-attack rating, edge-attack vs. face-attack discrimination. A G31 test that reports only the average uniform rate without the G46 pit/crevice rating is incomplete: localized attack invalidates the uniform-rate interpretation.
-3. **Supplementary electrochemical measurements on parallel specimens** — it is common practice to run [[astm-g3]] / G5 / G59 polarization or LPR measurements on a parallel coupon set in the same vessel to cross-check the mass-loss-derived rate against a Tafel- or polarization-resistance-derived rate. Disagreement between the two streams (sometimes by an order of magnitude) is a known signal of localized attack, scale formation, or non-Faradaic mass loss (mechanical erosion, dissolution of an alloying element).
+3. **Supplementary electrochemical measurements on parallel specimens** — it is common practice to run [astm-g3](astm-g3.md) / G5 / G59 polarization or LPR measurements on a parallel coupon set in the same vessel to cross-check the mass-loss-derived rate against a Tafel- or polarization-resistance-derived rate. Disagreement between the two streams (sometimes by an order of magnitude) is a known signal of localized attack, scale formation, or non-Faradaic mass loss (mechanical erosion, dissolution of an alloying element).
 4. **Reported metadata** — alloy heat ID, surface preparation, solution composition (as-mixed plus pre- and post-exposure analyses where applicable), temperature, aeration regime, agitation regime, exposure duration, replicate spread, and any cleaning-procedure mass-loss correction (per G1's reference cleaning-blank protocol).
 
 The reported rate is treated as **a screening number with order-of-magnitude reliability for material ranking**, not as a design corrosion rate for thickness-allowance calculations. Design rates use field-loop data, pilot-plant data, or in-service inspection trends, and the laboratory G31 number provides the cross-check.
 
 ## Cross-references
 
-- [[astm-g1]] — *Standard Practice for Preparing, Cleaning, and Evaluating Corrosion Test Specimens.* **Required companion**: G1 owns specimen prep, cleaning blanks, and mass-loss → rate conversion. A G31 result is uninterpretable without the G1 framework around it.
+- [astm-g1](astm-g1.md) — *Standard Practice for Preparing, Cleaning, and Evaluating Corrosion Test Specimens.* **Required companion**: G1 owns specimen prep, cleaning blanks, and mass-loss → rate conversion. A G31 result is uninterpretable without the G1 framework around it.
 - [[astm-g46]] — *Standard Guide for Examination and Evaluation of Pitting Corrosion.* Required for the post-exposure visual and pit-rating workflow; without it, localized attack is silently rolled into the uniform rate.
-- [[astm-g3]] — *Standard Practice for Conventions Applicable to Electrochemical Measurements in Corrosion Testing.* Sign and reporting conventions for the parallel-electrochemistry coupon set commonly run alongside G31.
+- [astm-g3](astm-g3.md) — *Standard Practice for Conventions Applicable to Electrochemical Measurements in Corrosion Testing.* Sign and reporting conventions for the parallel-electrochemistry coupon set commonly run alongside G31.
 - **ASTM G5** — *Standard Reference Test Method for Making Potentiodynamic Anodic Polarization Measurements.* The canonical Tafel-scan reference test, often co-run with G31 to cross-check the mass-loss-derived rate.
 - **ASTM G59** — *Standard Test Method for Conducting Potentiodynamic Polarization Resistance Measurements.* LPR-cell rate measurement; routinely paired with G31 mass-loss for time-resolved rate-vs-exposure data.
 - **ASTM G102** — *Standard Practice for Calculation of Corrosion Rates and Related Information from Electrochemical Measurements.* Converts G5 / G59 current density into a corrosion rate that is directly comparable to the G31 / G1 mass-loss rate.
-- [[astm-g48]] — *Standard Test Methods for Pitting and Crevice Corrosion Resistance of Stainless Steels and Related Alloys by Use of Ferric Chloride Solution.* G48 is a **specialized variant of immersion testing** for CRA pitting/crevice screening with a fixed FeCl3 chemistry; G31 is the broader umbrella for any liquid environment.
+- [astm-g48](astm-g48.md) — *Standard Test Methods for Pitting and Crevice Corrosion Resistance of Stainless Steels and Related Alloys by Use of Ferric Chloride Solution.* G48 is a **specialized variant of immersion testing** for CRA pitting/crevice screening with a fixed FeCl3 chemistry; G31 is the broader umbrella for any liquid environment.
 - **ASTM G16** — *Standard Guide for Applying Statistics to Analysis of Corrosion Data.* The statistical framework that turns three-replicate G31 results into reportable confidence intervals.
 - **NACE TM-0169 / ASTM G31 parallel scope** — NACE TM-0169 *Laboratory Corrosion Testing of Metals* covers parallel ground for the NACE / AMPP audience; many oil-company specs cite the two together or interchangeably for laboratory mass-loss qualification.
 - **AMPP (NACE) TM0177** — Sulfide-stress-cracking laboratory test; G31 mass-loss is routinely run on companion specimens from the same heat as TM0177 SSC bars to bound the uniform-corrosion contribution to the SSC failure window.
-- [[ampp-mr-0175-pt2]] / [[ampp-mr-0175-pt3]] — Sour-service materials selection. G31 mass-loss data populates the qualification dossier for carbon-steel and CRA selections under MR0175 / ISO 15156.
+- [ampp-mr-0175-pt2](ampp-mr-0175-pt2.md) / [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) — Sour-service materials selection. G31 mass-loss data populates the qualification dossier for carbon-steel and CRA selections under MR0175 / ISO 15156.
 - Concept anchor: [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — landing page that names G31 as the **primary mass-loss-in-liquids method** alongside G1 (prep) and G102 (electrochemical conversion).
 - Concept anchor: [sour-service-materials](../concepts/sour-service-materials.md) — names G1 / G31 as the mass-loss substrate referenced from NACE MR0175 / ISO 15156 / AMPP TM0177 sour-service qualifications.
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G31-derived screening rate, exposure protocol, or material-selection threshold.
 
 ## Sources
 
-- [[og-standards-astm-g-series]] — parent source page for the ASTM G-Series slice of the local catalog; records the two-edition presence, the catalog file paths, and the metadata-only extraction policy that scopes this standards page.
+- [og-standards-astm-g-series](../sources/og-standards-astm-g-series.md) — parent source page for the ASTM G-Series slice of the local catalog; records the two-edition presence, the catalog file paths, and the metadata-only extraction policy that scopes this standards page.
 - Publisher catalog (current edition for purchase, registration required): https://www.astm.org/g0031.html (or the latest reapproval / guide-status listing on `astm.org`).
 - On-disk raw PDFs (vendor-derivative, do not copy into git per spinout 2026-05-05 governance):
   - `/mnt/ace/O&G-Standards/ASTM/G-Series/G_31_-_72_R99_RZMXLTCYUJK5.pdf`

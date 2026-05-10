@@ -19,7 +19,7 @@ sources:
 
 # Erosion, Erosion-Corrosion, and Flow-Accelerated Corrosion (FAC)
 
-> Concept anchor for the family of velocity-driven and impact-driven wall-loss mechanisms — pure mechanical erosion (solid-particle impact), erosion-corrosion (combined mechanical + chemical attack with synergistic rate), and flow-accelerated corrosion (FAC, the carbon-steel-in-flowing-water mechanism that drove the Mihama-3 rupture). Sits alongside [[sulfidation-and-naphthenic-acid]] in the high-velocity-zone screening branch of [[damage-mechanism-screening]] and feeds [[corrosion-rate-measurement]] for STCR/LTCR interpretation downstream of injection points and on the carbon-steel water-and-steam balance-of-plant.
+> Concept anchor for the family of velocity-driven and impact-driven wall-loss mechanisms — pure mechanical erosion (solid-particle impact), erosion-corrosion (combined mechanical + chemical attack with synergistic rate), and flow-accelerated corrosion (FAC, the carbon-steel-in-flowing-water mechanism that drove the Mihama-3 rupture). Sits alongside [sulfidation-and-naphthenic-acid](sulfidation-and-naphthenic-acid.md) in the high-velocity-zone screening branch of [damage-mechanism-screening](damage-mechanism-screening.md) and feeds [corrosion-rate-measurement](corrosion-rate-measurement.md) for STCR/LTCR interpretation downstream of injection points and on the carbon-steel water-and-steam balance-of-plant.
 
 ## Three related-but-distinct mechanisms
 
@@ -39,7 +39,7 @@ sources:
 | Pump impellers | Cavitation erosion | API 610 |
 | Heat-exchanger tube inlets (water side) | Inlet-end erosion-corrosion | TEMA / API 660 |
 
-The locations span both refining hot circuits (where erosion-corrosion couples to sulfidation and NAC, and where the velocity-amplified mechanism story already discussed in [[sulfidation-and-naphthenic-acid]] applies in parallel) and the steam-and-water balance-of-plant (where FAC is the dominant single-mechanism rate driver on pre-1980 carbon-steel piping that has not yet been replaced with FAC-resistant alloy).
+The locations span both refining hot circuits (where erosion-corrosion couples to sulfidation and NAC, and where the velocity-amplified mechanism story already discussed in [sulfidation-and-naphthenic-acid](sulfidation-and-naphthenic-acid.md) applies in parallel) and the steam-and-water balance-of-plant (where FAC is the dominant single-mechanism rate driver on pre-1980 carbon-steel piping that has not yet been replaced with FAC-resistant alloy).
 
 ## Mihama-3 incident (2004)
 
@@ -66,7 +66,7 @@ Current API guidance and industry practice treat the 14E formula as a **starting
 - **Design** — sweeping bends instead of short-radius elbows; larger pipe ID (lower bulk velocity); upstream separation of solids (sand cyclones, hydrocyclones, catalyst-fines knockout) before velocity-sensitive equipment; flow-distribution devices at heat-exchanger tube inlets to suppress inlet-end erosion-corrosion.
 - **Material upgrade** — corrosion-resistant alloys (CRAs — duplex, super-duplex, 6Mo, Alloy 625) for severe erosion-corrosion; chromium-bearing low-alloy steels (1.25Cr–0.5Mo, 2.25Cr–1Mo) for FAC service (the chromium content shifts the magnetite-dissolution equilibrium and the FAC rate drops by an order of magnitude); hardfacing (Stellite, tungsten-carbide overlay) for cavitation-erosion duty on pump impellers and valve trim.
 - **Velocity control** — flow restrictors, parallel piping runs, geometry choices that avoid local high-shear zones; for sand-producing wells, **erosional-velocity-managed choke and gathering-system design** with field-monitored sand-rate budgets.
-- **Monitoring** — UT thickness time-trend at high-velocity zones (CMLs biased per [[corrosion-rate-measurement]]); intrusive and non-intrusive sand-monitor probes for production service; ER (electrical-resistance) probes for erosion-corrosion service; FAC-management inspection programmes for nuclear and fossil-power balance-of-plant piping.
+- **Monitoring** — UT thickness time-trend at high-velocity zones (CMLs biased per [corrosion-rate-measurement](corrosion-rate-measurement.md)); intrusive and non-intrusive sand-monitor probes for production service; ER (electrical-resistance) probes for erosion-corrosion service; FAC-management inspection programmes for nuclear and fossil-power balance-of-plant piping.
 - **Separation** — sand cyclones at the wellhead or first-stage separator, hydrocyclones at produced-water-treatment stages, knockout drums and electrostatic separators at refinery hot-circuit branches feeding velocity-sensitive equipment.
 
 ## FAC modelling
@@ -83,9 +83,9 @@ The three families agree in functional form (FAC rate is mass-transfer-limited, 
 
 Bidirectional cross-references — each standards page below should cross-link back to this concept page once the convention propagates.
 
-- [[api-rp-571]] — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* §4 mechanism catalogue; erosion, erosion-corrosion, and (by extension to balance-of-plant) FAC are entries in the loss-of-thickness family. Primary technical-content anchor for refining service.
-- [[api-rp-574]] — *Inspection Practices for Piping System Components.* CML selection downstream of injection points and at high-velocity zones (elbows, tees, downstream of orifices and control valves) follows the velocity-and-shear-rate bias driven by erosion + erosion-corrosion susceptibility.
-- [[api-rp-581]] — *Risk-Based Inspection Methodology.* Quantitative RBI; embeds erosion and FAC contributions in the **thinning damage factor** computation as part of the per-asset thinning-rate model, with rate-band selection driven by the screening output.
+- [api-rp-571](../standards/api-rp-571.md) — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* §4 mechanism catalogue; erosion, erosion-corrosion, and (by extension to balance-of-plant) FAC are entries in the loss-of-thickness family. Primary technical-content anchor for refining service.
+- [api-rp-574](../standards/api-rp-574.md) — *Inspection Practices for Piping System Components.* CML selection downstream of injection points and at high-velocity zones (elbows, tees, downstream of orifices and control valves) follows the velocity-and-shear-rate bias driven by erosion + erosion-corrosion susceptibility.
+- [api-rp-581](../standards/api-rp-581.md) — *Risk-Based Inspection Methodology.* Quantitative RBI; embeds erosion and FAC contributions in the **thinning damage factor** computation as part of the per-asset thinning-rate model, with rate-band selection driven by the screening output.
 - **API RP 14E** — *Recommended Practice for Design and Installation of Offshore Production Platform Piping Systems.* Holds the `V_e = C / sqrt(ρ)` erosional-velocity screen referenced industry-wide for offshore production-piping concept-select. Future first-class standards page candidate (promotion when the API 14-series source slice lands in the catalog).
 - **NRC NUREG-1801** — *Generic Aging Lessons Learned (GALL) Report.* Holds the FAC-management ageing-management programme requirements for US nuclear license-renewal applicants; the post-Mihama-3 codification reference for FAC inspection-frequency and scope expectations.
 - **EPRI CHECWORKS** — *Chexal-Horowitz FAC Rate-Prediction Code.* Industry-standard FAC-modelling tool (not a published consensus standard, but referenced by NRC and ASME OM and used as the working FAC-management calculation engine across US/Canada nuclear and fossil-power fleets).
@@ -94,10 +94,10 @@ Bidirectional cross-references — each standards page below should cross-link b
 
 Wikilinks below point to concept pages that may not yet exist — leave as wikilinks for future creation per the spinout's link-and-fill convention.
 
-- [[sulfidation-and-naphthenic-acid]] — adjacent mechanism; NAC is a **velocity-amplified** mechanism (rate scales with shear at the metal surface) and routinely co-locates with erosion-corrosion at vacuum-line elbows, FCC slurry tees, and downstream of injection points. Combined-mechanism CML placement is the principal screening output where both apply.
-- [[damage-mechanism-screening]] — upstream concept; screens erosion / erosion-corrosion / FAC as credible mechanisms on the per-asset shortlist when the service is high-velocity, particle-laden, or carbon-steel-in-flowing-water-and-steam.
-- [[corrosion-rate-measurement]] — paired metric; UT-thickness CML programmes track the wall-loss rate at high-velocity zones, and STCR/LTCR step-changes signal feedstock or operating-envelope shifts that have moved the asset across an erosion-corrosion or FAC threshold.
-- [[risk-based-inspection]] — POF input; the API RP 581 thinning damage factor is one of the primary POF terms for high-velocity-zone assets, and the erosion / erosion-corrosion / FAC rate-band choice is a principal RBI re-evaluation trigger when geometry or feedstock changes.
+- [sulfidation-and-naphthenic-acid](sulfidation-and-naphthenic-acid.md) — adjacent mechanism; NAC is a **velocity-amplified** mechanism (rate scales with shear at the metal surface) and routinely co-locates with erosion-corrosion at vacuum-line elbows, FCC slurry tees, and downstream of injection points. Combined-mechanism CML placement is the principal screening output where both apply.
+- [damage-mechanism-screening](damage-mechanism-screening.md) — upstream concept; screens erosion / erosion-corrosion / FAC as credible mechanisms on the per-asset shortlist when the service is high-velocity, particle-laden, or carbon-steel-in-flowing-water-and-steam.
+- [corrosion-rate-measurement](corrosion-rate-measurement.md) — paired metric; UT-thickness CML programmes track the wall-loss rate at high-velocity zones, and STCR/LTCR step-changes signal feedstock or operating-envelope shifts that have moved the asset across an erosion-corrosion or FAC threshold.
+- [risk-based-inspection](risk-based-inspection.md) — POF input; the API RP 581 thinning damage factor is one of the primary POF terms for high-velocity-zone assets, and the erosion / erosion-corrosion / FAC rate-band choice is a principal RBI re-evaluation trigger when geometry or feedstock changes.
 
 ## Source materials
 
@@ -105,6 +105,6 @@ Wikilinks below point to concept pages that may not yet exist — leave as wikil
 
 ## Notes
 
-- This is a concept page, not a standards page. No clause text, Chexal-Horowitz / Sanchez-Caldera / KWU-Kastner correlation coefficients, Salama / Shirazi sand-erosion model parameters, RP 14E `C` constants beyond the headline 100/125 values, or RP 581 thinning damage-factor coefficients are reproduced here. For normative use, cite the publisher edition of [[api-rp-571]] / [[api-rp-574]] / [[api-rp-581]] / API RP 14E / NRC NUREG-1801 directly.
+- This is a concept page, not a standards page. No clause text, Chexal-Horowitz / Sanchez-Caldera / KWU-Kastner correlation coefficients, Salama / Shirazi sand-erosion model parameters, RP 14E `C` constants beyond the headline 100/125 values, or RP 581 thinning damage-factor coefficients are reproduced here. For normative use, cite the publisher edition of [api-rp-571](../standards/api-rp-571.md) / [api-rp-574](../standards/api-rp-574.md) / [api-rp-581](../standards/api-rp-581.md) / API RP 14E / NRC NUREG-1801 directly.
 - The Mihama-3 wall-thickness numbers (~10 mm → <1 mm) and casualty count (5 fatalities) are the figures consistently cited in the public-record investigation literature; the exact pre-rupture thickness is documented in the Japanese regulatory-investigation report and varies modestly across cited summaries.
 - The boundary between **pure mechanical erosion** and **erosion-corrosion** is set by whether the fluid chemistry would corrode the substrate at low velocity. Sand-laden inert-gas flow is pure erosion; sand-laden produced fluid with CO2 / H2S is erosion-corrosion. The boundary between **erosion-corrosion** and **FAC** is set by phase: erosion-corrosion can occur in any flowing corrosive fluid (oil, multiphase, amine), while FAC is reserved in the standards literature for the carbon-steel-in-flowing-water-and-steam mechanism with magnetite-layer dissolution as the rate-controlling step.

@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-09
-page_count: 175
+page_count: 180
 source_count: 19
 ---
 
@@ -50,6 +50,7 @@ _No entity pages yet. Ingest a source to begin._
 | [[Protective Coating Systems]](concepts/coating-systems.md) | FBE/3LPE/3LPP/TSA + structural multi-coat; Sa 2½ surface prep gates. | 2026-05-09 |
 | [[Wind Loads on Offshore and Onshore Industrial Structures]](concepts/wind-loads.md) | ASCE 7 / Eurocode / API RP 2MET / DNV-RP-C205 / ISO 19901-1; offshore + LNG + onshore facility wind-load doctrine. | 2026-05-09 |
 | [[Mooring Integrity Management]](concepts/mooring-integrity-management.md) | API RP 2MIM RBI tier system + DNV-OS-E301 doctrine; FPSO/FLNG/FSRU station-keeping integrity; Banff/Volve case histories. | 2026-05-09 |
+| [[Electrochemical Corrosion — Mixed-Potential Theory and Polarization Kinetics]](concepts/electrochemical-corrosion.md) | Wagner-Traud mixed-potential, Butler-Volmer/Tafel kinetics, EIS/LPR; substrate for ASTM G3/G59/G102/G106. | 2026-05-09 |
 
 ## Sources
 
@@ -202,3 +203,8 @@ _No query outputs filed yet._
 | [[API RP 14E]](standards/api-rp-14e.md) | Offshore Production Platform Piping — V_e erosional-velocity formula screening. | 2026-05-09 |
 | [[ASTM A335]](standards/astm-a335.md) | Seamless Ferritic Alloy-Steel Pipe for High-T Service (P1-P122 family). | 2026-05-09 |
 | [[ASME B31.12]](standards/asme-b31-12.md) | Hydrogen Piping and Pipelines — H2-specific qualification + M_f de-rating. | 2026-05-09 |
+| [[ASME BPVC Section VIII Division 3]](standards/asme-bpvc-viii-3.md) | Alternative Rules for High Pressure Vessels (>~10 ksi / 70 MPa); fracture-mechanics mandatory; substrate-fill resolver (W201 iter-43). | 2026-05-09 |
+| [[ISO 15156-3 / NACE MR0175-3]](standards/iso-15156-3.md) | Sour-service CRA qualification; ISO-route resolver (companion to [[ampp-mr-0175-pt3]]); substrate-fill resolver (W201 iter-43). | 2026-05-09 |
+| [[ASTM G30]](standards/astm-g30.md) | U-Bend Stress-Corrosion Test Specimen Preparation Practice; sheet/plate; substrate-fill resolver (W201 iter-43). | 2026-05-09 |
+| [[ASTM G39]](standards/astm-g39.md) | Bent-Beam (4-point) Stress-Corrosion Test Specimen Preparation Practice; threshold-stress determination; substrate-fill resolver (W201 iter-43). | 2026-05-09 |
+| [[ASTM G129]](standards/astm-g129.md) | Slow Strain Rate Testing for Environmentally Assisted Cracking; SSRT/HISC/HE; substrate-fill resolver (W201 iter-43). | 2026-05-09 |

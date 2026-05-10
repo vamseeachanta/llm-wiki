@@ -70,11 +70,11 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 
 ## Cross-references
 
-- [[asme-pcc-1]] — assembly-side complement governing bolt-up methodology
-- [[asme-b16-34]] — valve flange-rating cross-link (valves rated to the same Class system)
+- [asme-pcc-1](asme-pcc-1.md) — assembly-side complement governing bolt-up methodology
+- [asme-b16-34](asme-b16-34.md) — valve flange-rating cross-link (valves rated to the same Class system)
 - [[asme-b16-47]] — large-diameter flanges above NPS 24 (Series A / Series B)
-- [[asme-b31-3]] — process-piping consumer
-- [[asme-b31-4]] — liquid-pipeline consumer
-- [[asme-bpvc-viii-1]] — pressure-vessel-nozzle flange interface
-- [[asme-bpvc-ii-d]] — material allowable stresses sourced upstream of the rating curves
+- [asme-b31-3](asme-b31-3.md) — process-piping consumer
+- [asme-b31-4](asme-b31-4.md) — liquid-pipeline consumer
+- [asme-bpvc-viii-1](asme-bpvc-viii-1.md) — pressure-vessel-nozzle flange interface
+- [asme-bpvc-ii-d](asme-bpvc-ii-d.md) — material allowable stresses sourced upstream of the rating curves
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

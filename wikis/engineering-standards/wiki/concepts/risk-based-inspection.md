@@ -19,7 +19,7 @@ sources:
 
 # Risk-Based Inspection (RBI)
 
-> Concept page. RBI is methodology, not a single standard; load-bearing normative content lives on the standards pages this concept routes into ([[api-510]], [[api-570]], [[api-653]], [[api-std-579]]) and on API RP 580 / RP 581 (future first-class pages).
+> Concept page. RBI is methodology, not a single standard; load-bearing normative content lives on the standards pages this concept routes into ([api-510](../standards/api-510.md), [api-570](../standards/api-570.md), [api-653](../standards/api-653.md), [api-std-579](../standards/api-std-579.md)) and on API RP 580 / RP 581 (future first-class pages).
 
 ## What is RBI?
 
@@ -27,7 +27,7 @@ sources:
 
 ## Why RBI replaces table-based intervals
 
-Code-defined fixed-interval inspection — half-life or 10-year tank externals, 5-year piping circuits — applies one schedule across an asset population whose individual risk varies by orders of magnitude. The result is over-inspection of low-risk equipment (low-pressure utility piping, clean-service tanks) and under-inspection of high-risk equipment (sour-service vessels, hot hydrogen circuits, cyclic-service piping). RBI lets the inspection programme allocate inspection-hours where they reduce the most risk per dollar, rather than where the table happens to fall. RBI is **explicitly permitted** by [[api-510]] (§6, vessels), [[api-570]] (§6, piping), and [[api-653]] (§6, tanks) as an alternative to the half-life and table-based intervals, provided the programme conforms to API RP 580. RBI is **required by reference** for some tier-1 facilities under US OSHA Process Safety Management (29 CFR 1910.119) mechanical-integrity programmes, and for offshore topsides under several flag-state regimes that adopt DNV-RP-G101.
+Code-defined fixed-interval inspection — half-life or 10-year tank externals, 5-year piping circuits — applies one schedule across an asset population whose individual risk varies by orders of magnitude. The result is over-inspection of low-risk equipment (low-pressure utility piping, clean-service tanks) and under-inspection of high-risk equipment (sour-service vessels, hot hydrogen circuits, cyclic-service piping). RBI lets the inspection programme allocate inspection-hours where they reduce the most risk per dollar, rather than where the table happens to fall. RBI is **explicitly permitted** by [api-510](../standards/api-510.md) (§6, vessels), [api-570](../standards/api-570.md) (§6, piping), and [api-653](../standards/api-653.md) (§6, tanks) as an alternative to the half-life and table-based intervals, provided the programme conforms to API RP 580. RBI is **required by reference** for some tier-1 facilities under US OSHA Process Safety Management (29 CFR 1910.119) mechanical-integrity programmes, and for offshore topsides under several flag-state regimes that adopt DNV-RP-G101.
 
 ## POF inputs
 
@@ -74,21 +74,21 @@ API RP 580 sets the *programme requirements* (governance, team competence, docum
 
 ## RBI + FFS interplay
 
-RBI and Fitness-for-Service ([[fitness-for-service]]) are coupled, not parallel. When inspection finds a flaw exceeding the inspection-code acceptance threshold, two things happen:
+RBI and Fitness-for-Service ([fitness-for-service](fitness-for-service.md)) are coupled, not parallel. When inspection finds a flaw exceeding the inspection-code acceptance threshold, two things happen:
 
 1. **POF input shifts.** The asset's damage state is no longer probabilistic — a specific flaw has been characterised. The next RBI cycle's POF must incorporate the now-known damage, including any growth model (corrosion rate, fatigue-cycle accumulation, SCC growth law) calibrated against the inspection finding.
-2. **FFS is invoked.** The flaw is assessed under [[api-std-579]] (or, for crack-like flaws, [[bs-7910-flaw-assessment]]) to produce a run / repair / replace / re-rate / re-inspect verdict. The FFS outcome — remaining-strength factor, remaining life, monitoring requirement — feeds back into the next RBI cycle's POF and into the inspection-plan re-optimisation.
+2. **FFS is invoked.** The flaw is assessed under [api-std-579](../standards/api-std-579.md) (or, for crack-like flaws, [bs-7910-flaw-assessment](../standards/bs-7910-flaw-assessment.md)) to produce a run / repair / replace / re-rate / re-inspect verdict. The FFS outcome — remaining-strength factor, remaining life, monitoring requirement — feeds back into the next RBI cycle's POF and into the inspection-plan re-optimisation.
 
-This loop — inspection → finding → FFS → updated POF → revised inspection plan → next inspection — is the integrity-management cycle that ties [[api-510]] / [[api-570]] / [[api-653]] together with [[api-std-579]] and RBI under one programme.
+This loop — inspection → finding → FFS → updated POF → revised inspection plan → next inspection — is the integrity-management cycle that ties [api-510](../standards/api-510.md) / [api-570](../standards/api-570.md) / [api-653](../standards/api-653.md) together with [api-std-579](../standards/api-std-579.md) and RBI under one programme.
 
 ## Standards
 
 Bidirectional cross-references — each standards page below should cross-link back to this concept page once the convention propagates.
 
-- [[api-510]] — Pressure Vessel Inspection Code; RBI is an explicit option for setting inspection intervals (§6 / §6.5), in lieu of half-life table-based intervals.
-- [[api-570]] — Piping Inspection Code; RBI is an explicit option for piping-circuit inspection-interval setting.
-- [[api-653]] — Atmospheric Storage Tank Inspection Code; RBI is an explicit option for tank external-, internal-, and bottom-inspection-interval setting.
-- [[api-std-579]] — Fitness-for-Service; called when RBI surfaces a flaw exceeding code acceptance thresholds, and feeds back into the next RBI cycle's POF.
+- [api-510](../standards/api-510.md) — Pressure Vessel Inspection Code; RBI is an explicit option for setting inspection intervals (§6 / §6.5), in lieu of half-life table-based intervals.
+- [api-570](../standards/api-570.md) — Piping Inspection Code; RBI is an explicit option for piping-circuit inspection-interval setting.
+- [api-653](../standards/api-653.md) — Atmospheric Storage Tank Inspection Code; RBI is an explicit option for tank external-, internal-, and bottom-inspection-interval setting.
+- [api-std-579](../standards/api-std-579.md) — Fitness-for-Service; called when RBI surfaces a flaw exceeding code acceptance thresholds, and feeds back into the next RBI cycle's POF.
 - **API RP 580** — *Risk-Based Inspection* — the programme-requirements recommended practice. Future first-class standards page candidate.
 - **API RP 581** — *Risk-Based Inspection Methodology* — the quantitative POF + COF model. Future first-class standards page candidate.
 - **ASME PCC-3** — *Inspection Planning Using Risk-Based Methods* — ASME's parallel RBI guide. Future first-class standards page candidate.
@@ -122,7 +122,7 @@ Bidirectional cross-references — each standards page below should cross-link b
 
 ## Source materials
 
-- [[og-standards-api]](../sources/og-standards-api.md) — catalog reference for API RP 580 and API RP 581 alongside the inspection-trilogy (API 510, API 570, API 653) and FFS-1 (API 579).
+- [og-standards-api](../sources/og-standards-api.md) — catalog reference for API RP 580 and API RP 581 alongside the inspection-trilogy (API 510, API 570, API 653) and FFS-1 (API 579).
 
 ## Notes
 

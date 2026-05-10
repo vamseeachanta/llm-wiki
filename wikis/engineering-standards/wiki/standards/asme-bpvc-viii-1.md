@@ -89,12 +89,12 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 
 ## Cross-references
 
-- [[asme-bpvc-viii-2]] — alternative design-by-analysis route for moderate-to-high pressure vessels where formula-based design is uneconomic or geometrically inapplicable
+- [asme-bpvc-viii-2](asme-bpvc-viii-2.md) — alternative design-by-analysis route for moderate-to-high pressure vessels where formula-based design is uneconomic or geometrically inapplicable
 - [[asme-bpvc-viii-3]] — high-pressure division (above ~10,000 psi / ~70 MPa) with its own fatigue + fracture-mechanics rules
-- [[asme-bpvc-ii-d]] — material allowable stresses sourced upstream
-- [[asme-bpvc-ix]] — welding qualification basis
-- [[api-510]] — pressure-vessel in-service inspection code that uses Division 1 design rules as the new-construction basis and authorises RBI per RP 580 / RP 581 for alternative inspection intervals
-- [[api-std-579]] — fitness-for-service evaluation invoked when in-service findings exceed Division 1 acceptance limits
+- [asme-bpvc-ii-d](asme-bpvc-ii-d.md) — material allowable stresses sourced upstream
+- [asme-bpvc-ix](asme-bpvc-ix.md) — welding qualification basis
+- [api-510](api-510.md) — pressure-vessel in-service inspection code that uses Division 1 design rules as the new-construction basis and authorises RBI per RP 580 / RP 581 for alternative inspection intervals
+- [api-std-579](api-std-579.md) — fitness-for-service evaluation invoked when in-service findings exceed Division 1 acceptance limits
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Cross-wiki bridges

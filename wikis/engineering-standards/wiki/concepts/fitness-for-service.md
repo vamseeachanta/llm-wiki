@@ -29,14 +29,14 @@ FFS differs in posture from new-build design. New-build design starts from a cle
 ## When FFS applies
 
 - **Post-inspection findings.** When in-service inspection (visual, UT thickness, MFL, ILI, EMAT, RT, PAUT, ACFM, dye-pen, MPI) detects corrosion, pitting, blisters, dents, cracks, weld defects, or distortion exceeding the inspection-code acceptance threshold, FFS is the route to disposition the finding without immediate repair.
-- **Code-gated invocation.** The in-service inspection codes — **API 510** (pressure vessels), **API 570** (process piping), **API 653** (atmospheric storage tanks) — explicitly delegate to [[api-std-579]] / [[bs-7910-flaw-assessment]] when an out-of-code condition is found. FFS is not a free-standing decision; it is invoked under the authority of an inspection code.
+- **Code-gated invocation.** The in-service inspection codes — **API 510** (pressure vessels), **API 570** (process piping), **API 653** (atmospheric storage tanks) — explicitly delegate to [api-std-579](../standards/api-std-579.md) / [bs-7910-flaw-assessment](../standards/bs-7910-flaw-assessment.md) when an out-of-code condition is found. FFS is not a free-standing decision; it is invoked under the authority of an inspection code.
 - **Life-extension assessment.** When operators seek to extend service life of ageing assets (refineries, offshore platforms, pipelines) past original design life, FFS quantifies remaining life from the current damage state plus a projected damage-progression model (corrosion rate, fatigue-cycle accumulation, creep-strain accumulation).
 - **Run-or-repair decisions.** During planned shutdowns, FFS supports go/no-go calls on whether a flaw warrants immediate repair, can be deferred to the next turnaround under a monitoring regime, or can be left in service indefinitely.
 - **Re-rating.** When operating envelope changes (pressure, temperature, fluid composition), FFS evaluates whether existing damaged components are acceptable under the revised loads.
 
 ## Damage mechanisms covered
 
-The FFS standards organise their methods by damage-mechanism family. The table below maps damage mechanisms onto the part / annex structure of the two dominant codes, [[api-std-579]] and [[bs-7910-flaw-assessment]].
+The FFS standards organise their methods by damage-mechanism family. The table below maps damage mechanisms onto the part / annex structure of the two dominant codes, [api-std-579](../standards/api-std-579.md) and [bs-7910-flaw-assessment](../standards/bs-7910-flaw-assessment.md).
 
 | Damage mechanism | API 579-1 / ASME FFS-1 part | BS 7910 (2013) annex / clause |
 |---|---|---|
@@ -61,7 +61,7 @@ FFS standards share a tiered-assessment philosophy, sized to the rigour of input
 - **Level 2 — Detailed engineering analysis.** Closed-form or simplified numerical methods (reference-stress, beam-on-elastic-foundation, plate-with-flaw stress intensity factor catalogues). Most field assessments stop here. Requires engineering judgement and validated input data.
 - **Level 3 — Advanced analysis.** Detailed FEA, elastic-plastic fracture mechanics (J-integral, R-curve, ductile-tearing), constraint correction, probabilistic / Monte Carlo treatment. Reserved for high-consequence components, marginal Level 2 results, or novel geometries outside the catalogues.
 
-The shared analytical core for crack-like flaws is the **Failure Assessment Diagram (FAD)** — a two-criterion plot with K<sub>r</sub> (toughness ratio, ordinate) versus L<sub>r</sub> (load ratio, abscissa). Points inside the FAD curve are acceptable; points outside indicate unstable fracture (high K<sub>r</sub>) or plastic collapse (high L<sub>r</sub>) or interaction. Both [[api-std-579]] Part 9 and [[bs-7910-flaw-assessment]] Annex A use the FAD, with code-specific calibration of the curve and option-numbering of the toughness inputs.
+The shared analytical core for crack-like flaws is the **Failure Assessment Diagram (FAD)** — a two-criterion plot with K<sub>r</sub> (toughness ratio, ordinate) versus L<sub>r</sub> (load ratio, abscissa). Points inside the FAD curve are acceptable; points outside indicate unstable fracture (high K<sub>r</sub>) or plastic collapse (high L<sub>r</sub>) or interaction. Both [api-std-579](../standards/api-std-579.md) Part 9 and [bs-7910-flaw-assessment](../standards/bs-7910-flaw-assessment.md) Annex A use the FAD, with code-specific calibration of the curve and option-numbering of the toughness inputs.
 
 **Residual stress** treatment is a load-bearing input. Welded components carry as-welded residual stresses up to the parent-material yield; post-weld heat treatment (PWHT) reduces but does not eliminate them. Both codes provide tabulated residual-stress profiles (membrane plus bending) for common weld geometries; these are summed with primary stress in the FAD ordinate. Mixing residual-stress profiles between codes is **not permitted** — each code's profiles are internally calibrated against its own FAD.
 
@@ -69,10 +69,10 @@ The shared analytical core for crack-like flaws is the **Failure Assessment Diag
 
 ## Standards
 
-- [[api-std-579]] — **API 579-1 / ASME FFS-1**, the joint API + ASME consensus standard. Full FFS suite covering brittle fracture (Pt 3), general / local thinning (Pt 4–5), pitting (Pt 6), blisters (Pt 7), distortion (Pt 8), crack-like flaws (Pt 9), creep (Pt 10), fire (Pt 11), dents/gouges (Pt 12). US-led, refining/petrochem industry default.
-- [[bs-7910-flaw-assessment]] — **BS 7910:2013+A1:2015**, BSI's parallel UK guide. Concentrates on crack-like flaws, fatigue crack growth, leak-before-break, creep crack growth. Offshore O&G and EU/UK fabrication default. Methodologically aligned with API 579-1 but with BS-specific FAD calibration and residual-stress profiles.
-- [[asme-bpvc-viii-1]] — **ASME BPVC Section VIII Division 1**, design-by-rule pressure-vessel construction code. Reference for new-build design margins; FFS critical-flaw-size assessments benchmark against the original design's allowable-stress envelope.
-- [[asme-bpvc-viii-2]] — **ASME BPVC Section VIII Division 2**, design-by-analysis alternative-rules construction code. The stress-classification and linearisation conventions used in FFS Annexes (membrane / bending / peak decomposition; primary / secondary / peak categorisation) are inherited from VIII-2.
+- [api-std-579](../standards/api-std-579.md) — **API 579-1 / ASME FFS-1**, the joint API + ASME consensus standard. Full FFS suite covering brittle fracture (Pt 3), general / local thinning (Pt 4–5), pitting (Pt 6), blisters (Pt 7), distortion (Pt 8), crack-like flaws (Pt 9), creep (Pt 10), fire (Pt 11), dents/gouges (Pt 12). US-led, refining/petrochem industry default.
+- [bs-7910-flaw-assessment](../standards/bs-7910-flaw-assessment.md) — **BS 7910:2013+A1:2015**, BSI's parallel UK guide. Concentrates on crack-like flaws, fatigue crack growth, leak-before-break, creep crack growth. Offshore O&G and EU/UK fabrication default. Methodologically aligned with API 579-1 but with BS-specific FAD calibration and residual-stress profiles.
+- [asme-bpvc-viii-1](../standards/asme-bpvc-viii-1.md) — **ASME BPVC Section VIII Division 1**, design-by-rule pressure-vessel construction code. Reference for new-build design margins; FFS critical-flaw-size assessments benchmark against the original design's allowable-stress envelope.
+- [asme-bpvc-viii-2](../standards/asme-bpvc-viii-2.md) — **ASME BPVC Section VIII Division 2**, design-by-analysis alternative-rules construction code. The stress-classification and linearisation conventions used in FFS Annexes (membrane / bending / peak decomposition; primary / secondary / peak categorisation) are inherited from VIII-2.
 
 Bidirectional: each of those standards pages should cross-link back to this concept page once the convention propagates.
 
@@ -106,10 +106,10 @@ Bidirectional: each of those standards pages should cross-link back to this conc
 
 ## Source materials
 
-- [[og-standards-api]](../sources/og-standards-api.md) — catalog reference for the API 579 family, including the joint API/ASME FFS-1 numbering and edition history.
+- [og-standards-api](../sources/og-standards-api.md) — catalog reference for the API 579 family, including the joint API/ASME FFS-1 numbering and edition history.
 
 ## Notes
 
 - This is a concept page, not a standards page. No clause text, formulas, FAD curves, or tabulated data are reproduced here. For normative use, cite the publisher edition of the relevant standard directly.
 - The FFS workflow is gated upstream by the in-service inspection codes (API 510 / 570 / 653); a standalone FFS calculation without a documented inspection finding is not a sanctioned engineering deliverable.
-- Pipeline FFS for corrosion-only damage typically routes through [[dnv-rp-f101]] (Corroded Pipelines) rather than the general API 579-1 Part 5; pipeline ECA for crack-like flaws routes through [[api-std-1104]] Annex A or BS 7910 Annex A.
+- Pipeline FFS for corrosion-only damage typically routes through [dnv-rp-f101](../standards/dnv-rp-f101.md) (Corroded Pipelines) rather than the general API 579-1 Part 5; pipeline ECA for crack-like flaws routes through [api-std-1104](../standards/api-std-1104.md) Annex A or BS 7910 Annex A.

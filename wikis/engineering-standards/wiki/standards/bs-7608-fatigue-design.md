@@ -89,25 +89,25 @@ BS 7608 sits at the centre of a family of S-N-based fatigue codes for steel:
 
 | Code | Scope emphasis | Differentiator vs. BS 7608 |
 |---|---|---|
-| **[[dnv-rp-c203]]** — Fatigue design of offshore steel structures | Offshore platforms, jackets, risers, semi-submersibles | More granular weld-class set; **explicit seawater-with-CP and free-corrosion S-N curves** as separate published curves rather than environment factors; integrated hot-spot-stress / SCF library; default reference for North Sea offshore practice |
-| **[[aws-d1-1]]** — Structural Welding Code (Steel) | US structural steel fabrication (buildings, bridges) | **Less classification depth** — fewer joint categories; fatigue provisions in Chapter 2 reference **AASHTO/AISC fatigue categories A–E′** rather than BS letter classes; in-air only (no marine environment treatment) |
-| **[[api-rp-2a-wsd]]** — Fixed offshore platforms (WSD) | Offshore fixed-platform jackets | Fatigue annex uses **API X / X′ S-N curves** for tubular joints; thickness correction with API-specific exponent; closely aligned with BS 7608 conceptually but with platform-tubular focus |
+| **[dnv-rp-c203](dnv-rp-c203.md)** — Fatigue design of offshore steel structures | Offshore platforms, jackets, risers, semi-submersibles | More granular weld-class set; **explicit seawater-with-CP and free-corrosion S-N curves** as separate published curves rather than environment factors; integrated hot-spot-stress / SCF library; default reference for North Sea offshore practice |
+| **[aws-d1-1](aws-d1-1.md)** — Structural Welding Code (Steel) | US structural steel fabrication (buildings, bridges) | **Less classification depth** — fewer joint categories; fatigue provisions in Chapter 2 reference **AASHTO/AISC fatigue categories A–E′** rather than BS letter classes; in-air only (no marine environment treatment) |
+| **[api-rp-2a-wsd](api-rp-2a-wsd.md)** — Fixed offshore platforms (WSD) | Offshore fixed-platform jackets | Fatigue annex uses **API X / X′ S-N curves** for tubular joints; thickness correction with API-specific exponent; closely aligned with BS 7608 conceptually but with platform-tubular focus |
 | **EN 1993-1-9 (Eurocode 3, Fatigue)** | EU/CEN structural steel — buildings, bridges, towers | CEN-aligned counterpart to BS 7608; uses **detail-category numbers (e.g. 160, 140, 125, 112, 100, 90, 80, 71, 63, 56, 50, 45, 40, 36)** instead of BS letter classes — the number is the Δσ at 2×10<sup>6</sup> cycles in MPa. Fatigue test database and methodology are largely shared with BS 7608 (common ECCS heritage). |
 
 The dominant practitioner choice is jurisdiction-driven: **DNV-RP-C203** for North Sea offshore, **API RP 2A-WSD** for Gulf-of-Mexico fixed platforms, **BS 7608** for UK / EU general steel fabrication and non-pressure components, **EN 1993-1-9** for CEN-mandated structural projects, and **AWS D1.1** for US structural construction.
 
 ## Cross-references
 
-- [[dnv-rp-c203]] — DNV recommended practice for fatigue design of offshore steel structures; **parallel to BS 7608** with explicit seawater curves and a more granular tubular-joint classification. Practitioners often cross-validate BS 7608 results against DNV-RP-C203 for offshore applications.
-- [[api-rp-2a-wsd]] — API RP 2A WSD fatigue annex for offshore platform tubular joints; uses API X / X′ S-N curves (BS 7608's structural counterpart for fixed-platform jacket fatigue).
-- [[api-std-1104]] — API 1104 pipeline construction code; **Annex A** (Alternative Acceptance Standards for Girth Welds) provides ECA-route fatigue assessment for pipeline girth welds — methodologically overlapping with BS 7608 for the linepipe segment.
-- [[bs-7910-flaw-assessment]] — BS 7910's **Annex M** (fatigue crack growth) provides the fracture-mechanics counterpart to BS 7608's S-N approach; the two are **complementary** — BS 7608 is preferred for design assessment of typical details, BS 7910 Annex M is preferred where a known flaw size or crack-growth history exists.
-- [[aws-d1-1]] — US structural welded-steel code with an in-air-only fatigue annex; less classification depth than BS 7608 but governs US-jurisdiction fabrications.
+- [dnv-rp-c203](dnv-rp-c203.md) — DNV recommended practice for fatigue design of offshore steel structures; **parallel to BS 7608** with explicit seawater curves and a more granular tubular-joint classification. Practitioners often cross-validate BS 7608 results against DNV-RP-C203 for offshore applications.
+- [api-rp-2a-wsd](api-rp-2a-wsd.md) — API RP 2A WSD fatigue annex for offshore platform tubular joints; uses API X / X′ S-N curves (BS 7608's structural counterpart for fixed-platform jacket fatigue).
+- [api-std-1104](api-std-1104.md) — API 1104 pipeline construction code; **Annex A** (Alternative Acceptance Standards for Girth Welds) provides ECA-route fatigue assessment for pipeline girth welds — methodologically overlapping with BS 7608 for the linepipe segment.
+- [bs-7910-flaw-assessment](bs-7910-flaw-assessment.md) — BS 7910's **Annex M** (fatigue crack growth) provides the fracture-mechanics counterpart to BS 7608's S-N approach; the two are **complementary** — BS 7608 is preferred for design assessment of typical details, BS 7910 Annex M is preferred where a known flaw size or crack-growth history exists.
+- [aws-d1-1](aws-d1-1.md) — US structural welded-steel code with an in-air-only fatigue annex; less classification depth than BS 7608 but governs US-jurisdiction fabrications.
 - **EN 1993-1-9** — Eurocode 3 Part 1-9 (Fatigue), the CEN-aligned counterpart to BS 7608. Detail-category numbers (160, 140, …, 36) are numerically the Δσ at 2×10<sup>6</sup> cycles; the underlying fatigue database is largely shared via the ECCS heritage. Cited in parallel for projects with both UK and CEN deliverables.
 
 ## Sources
 
-- [[og-standards-bsi]] — BSI publisher catalog page summarising the BSI slice of `/mnt/ace/O&G-Standards/`, including all on-disk BS 7608 edition variants.
+- [og-standards-bsi](../sources/og-standards-bsi.md) — BSI publisher catalog page summarising the BSI slice of `/mnt/ace/O&G-Standards/`, including all on-disk BS 7608 edition variants.
 - Catalog source: `/mnt/ace/O&G-Standards/_catalog.json` (catalog version 1.0.0).
 - Publisher: BSI Knowledge — https://knowledge.bsigroup.com/ (search `BS 7608`).
 - Calc-citation contract: `.claude/rules/calc-citation-contract.md` (workspace-hub) — governs how downstream digitalmodel calc modules emit `Citation` instances against this page.

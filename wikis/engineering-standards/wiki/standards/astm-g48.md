@@ -51,7 +51,7 @@ The local O&G-Standards catalog at `/mnt/ace/O&G-Standards/ASTM/G-Series/` holds
 | G48-03 | `G_48_-_03_RZQ4.pdf` | 1 file | 2003 revision |
 | G48 (current) | not on disk | — | The publisher-current ASTM G48 edition is later than 2003 (multiple reapprovals have been issued in the post-2003 cycle); calc-callers needing the current edition must obtain it from the ASTM catalog |
 
-The publisher catalog year-token sweep done for the [[og-standards-astm-g-series]] source page recorded G48 with **4 editions** in the catalog; that count matches the four file rows above. The wider G-series source page also notes G48 as a multi-edition code warranting a per-revision history table.
+The publisher catalog year-token sweep done for the [og-standards-astm-g-series](../sources/og-standards-astm-g-series.md) source page recorded G48 with **4 editions** in the catalog; that count matches the four file rows above. The wider G-series source page also notes G48 as a multi-edition code warranting a per-revision history table.
 
 ## Key parameters
 
@@ -76,17 +76,17 @@ The following are the procedural anchors that recur across the methods (consult 
 
 - [[astm-g46]] — *Standard Guide for Examination and Evaluation of Pitting Corrosion.* Method B explicitly invokes G46 for pit and crevice attack rating. Mandatory companion for any G48 result-reporting workflow.
 - [[astm-g78]] — *Standard Guide for Crevice Corrosion Testing of Iron-Base and Nickel-Base Stainless Alloys in Seawater and Other Chloride-Containing Aqueous Environments.* Closer to in-service flowing-seawater conditions; complementary to G48's static-immersion FeCl3 ranking.
-- [[asme-b16-34]] / piping-class workflows — not a direct G48 caller but downstream consumer of CRA qualification evidence.
-- [[ampp-mr-0175-pt3]] (and its alias [[iso-15156-3]] / NACE MR0175-3) — sour-service materials selection for CRAs. Project specs implementing MR0175-3 routinely cite G48 Method B/CCT thresholds as the qualification evidence for 22Cr and 25Cr duplex grades and for nickel-base alloys (UNS N06625 / N08825 / N06022 / N06059 / N06200) destined for sour service.
-- [[dnv-rp-f112]] — *Design of Duplex Stainless Steel Subsea Equipment Exposed to Cathodic Protection.* RP-F112 cites G48 Method A and CCT-by-Method-F results as part of the duplex qualification evidence package for SS subsea components subject to CP.
+- [asme-b16-34](asme-b16-34.md) / piping-class workflows — not a direct G48 caller but downstream consumer of CRA qualification evidence.
+- [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) (and its alias [[iso-15156-3]] / NACE MR0175-3) — sour-service materials selection for CRAs. Project specs implementing MR0175-3 routinely cite G48 Method B/CCT thresholds as the qualification evidence for 22Cr and 25Cr duplex grades and for nickel-base alloys (UNS N06625 / N08825 / N06022 / N06059 / N06200) destined for sour service.
+- [dnv-rp-f112](dnv-rp-f112.md) — *Design of Duplex Stainless Steel Subsea Equipment Exposed to Cathodic Protection.* RP-F112 cites G48 Method A and CCT-by-Method-F results as part of the duplex qualification evidence package for SS subsea components subject to CP.
 - [[astm-a923]] — *Standard Test Methods for Detecting Detrimental Intermetallic Phase in Duplex Austenitic/Ferritic Stainless Steels.* Method C of A923 is itself a ferric-chloride corrosion test; G48 is the broader CRA-screening parent and A923 Method C is the duplex-intermetallic-detection specialization. The two are routinely reported together for duplex weld procedure qualification.
-- [[api-spec-6a]] — *Wellhead and Christmas Tree Equipment.* Subsea wellhead CRA components (cladding, weld overlays, solid CRA forgings) are commonly qualified with G48 Method A or Method B at a project-specified temperature; the G48 acceptance value flows in through the supplemental requirements (PSL/PR uplift) clauses or through a cited NORSOK MDS.
-- Concept anchor: [pitting-crevice-corrosion](../concepts/pitting-crevice-corrosion.md) — landing page for the G46/G48/G78 cluster.
+- [api-spec-6a](api-spec-6a.md) — *Wellhead and Christmas Tree Equipment.* Subsea wellhead CRA components (cladding, weld overlays, solid CRA forgings) are commonly qualified with G48 Method A or Method B at a project-specified temperature; the G48 acceptance value flows in through the supplemental requirements (PSL/PR uplift) clauses or through a cited NORSOK MDS.
+- Concept anchor: [pitting-and-crevice-corrosion](../concepts/pitting-and-crevice-corrosion.md) — landing page for the G46/G48/G78 cluster.
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G48-derived CPT, CCT, or pass/fail temperature.
 
 ## Sources
 
-- [[og-standards-astm-g-series]] — parent source page for the ASTM G-Series slice of the local catalog; records the four-edition presence, the catalog file paths, and the metadata-only extraction policy that scopes this standards page.
+- [og-standards-astm-g-series](../sources/og-standards-astm-g-series.md) — parent source page for the ASTM G-Series slice of the local catalog; records the four-edition presence, the catalog file paths, and the metadata-only extraction policy that scopes this standards page.
 - Publisher catalog (current edition for purchase, registration required): https://www.astm.org/g0048-11r15.html (or the latest reapproval listing on `astm.org`).
 - On-disk raw PDFs (vendor-derivative, do not copy into git per #2482):
   - `/mnt/ace/O&G-Standards/ASTM/G-Series/G_48_-_99_RZQ4LTK5QQ_.pdf`

@@ -74,9 +74,9 @@ SSPC-SP 10 / NACE No. 2 is the global default near-white surface-prep grade for 
 
 ## Why this page exists
 
-This page is the citation resolver target for downstream calc and qualification modules under the calc-citation contract at `.claude/rules/calc-citation-contract.md`. SSPC-SP 10 is the standards anchor under the **Sa 2½ near-white blast** surface-prep requirement called out in the [[coating-systems]] concept page (FBE, 3LPE, 3LPP, multi-coat offshore epoxy/PUR systems all specify SP 10 minimum). Without this page the concept's surface-prep references resolve to zero-citation forward links per the W180 audit finding.
+This page is the citation resolver target for downstream calc and qualification modules under the calc-citation contract at `.claude/rules/calc-citation-contract.md`. SSPC-SP 10 is the standards anchor under the **Sa 2½ near-white blast** surface-prep requirement called out in the [coating-systems](../concepts/coating-systems.md) concept page (FBE, 3LPE, 3LPP, multi-coat offshore epoxy/PUR systems all specify SP 10 minimum). Without this page the concept's surface-prep references resolve to zero-citation forward links per the W180 audit finding.
 
-The `legacy_code_id` field bridges the 2020-2021 SSPC-and-NACE-to-AMPP rebrand so calc sites still using legacy `sspc-sp-10` or `nace-no-2` spellings resolve to the canonical current identifier. AMPP retained the SSPC document numbers post-merger; only the publishing organization renamed (parallel pattern to the NACE→AMPP precedent established at [[ampp-tm-0177]] and [[ampp-sp0775]]).
+The `legacy_code_id` field bridges the 2020-2021 SSPC-and-NACE-to-AMPP rebrand so calc sites still using legacy `sspc-sp-10` or `nace-no-2` spellings resolve to the canonical current identifier. AMPP retained the SSPC document numbers post-merger; only the publishing organization renamed (parallel pattern to the NACE→AMPP precedent established at [ampp-tm-0177](ampp-tm-0177.md) and [ampp-sp0775](ampp-sp0775.md)).
 
 ## Where to find the full text
 
@@ -84,12 +84,12 @@ AMPP store subscription required (`https://store.ampp.org/`); ANSI catalog also 
 
 ## Cross-references
 
-- [[coating-systems]] — primary consumer concept page; surface-prep requirements (Sa 2½ near-white blast) anchor on this standard.
-- [[ampp-tm-0177]] — sister AMPP/NACE standard (legacy NACE rebrand precedent); sour-service materials test methods.
-- [[ampp-sp0775]] — sister AMPP/NACE standard (legacy NACE rebrand precedent); corrosion coupons in oilfield operations.
-- [[ampp-mr-0175-pt1]] — sister AMPP/NACE standard; sour-service materials selection.
-- [[atmospheric-corrosion]] — concept-level consumer; surface-prep grade selection by ISO 12944 corrosivity category.
-- [[corrosion-under-insulation]] — concept-level consumer; near-white blast required for TSA and high-temperature CUI-resistant systems.
+- [coating-systems](../concepts/coating-systems.md) — primary consumer concept page; surface-prep requirements (Sa 2½ near-white blast) anchor on this standard.
+- [ampp-tm-0177](ampp-tm-0177.md) — sister AMPP/NACE standard (legacy NACE rebrand precedent); sour-service materials test methods.
+- [ampp-sp0775](ampp-sp0775.md) — sister AMPP/NACE standard (legacy NACE rebrand precedent); corrosion coupons in oilfield operations.
+- [ampp-mr-0175-pt1](ampp-mr-0175-pt1.md) — sister AMPP/NACE standard; sour-service materials selection.
+- [atmospheric-corrosion](../concepts/atmospheric-corrosion.md) — concept-level consumer; surface-prep grade selection by ISO 12944 corrosivity category.
+- [corrosion-under-insulation](../concepts/corrosion-under-insulation.md) — concept-level consumer; near-white blast required for TSA and high-temperature CUI-resistant systems.
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 **Adjacent surface-preparation standards (future-promotion candidates — no wiki page yet):**

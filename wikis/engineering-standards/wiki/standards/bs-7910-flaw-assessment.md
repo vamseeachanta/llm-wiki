@@ -97,9 +97,9 @@ The 2013 edition's normative annex set is the working surface for most calc modu
 ## Cross-references
 
 - [[api-579-1-asme-ffs-1]] — parallel US FFS standard; broadly aligned but with code-specific FAD calibration, residual-stress profiles, and reference-stress libraries. Do not mix annexes across codes.
-- [[astm-e399]] — plane-strain fracture toughness K<sub>Ic</sub> (linear-elastic input to BS 7910 Level 1/2 FAD).
-- [[astm-e1820]] — J-integral and CTOD δ measurement (elastic-plastic toughness input to BS 7910 Level 2/3 and Annex A Option 3).
-- [[astm-e1921]] — Master Curve methodology for ferritic steel reference temperature T<sub>0</sub> (toughness-vs-temperature input for ductile-to-brittle transition assessments).
+- [astm-e399](astm-e399.md) — plane-strain fracture toughness K<sub>Ic</sub> (linear-elastic input to BS 7910 Level 1/2 FAD).
+- [astm-e1820](astm-e1820.md) — J-integral and CTOD δ measurement (elastic-plastic toughness input to BS 7910 Level 2/3 and Annex A Option 3).
+- [astm-e1921](astm-e1921.md) — Master Curve methodology for ferritic steel reference temperature T<sub>0</sub> (toughness-vs-temperature input for ductile-to-brittle transition assessments).
 - [[bs-7448]] — UK companion fracture-mechanics toughness test methods (K<sub>Ic</sub>, CTOD, J, R-curves) feeding BS 7910 input data.
 - [[bs-7608]] — UK fatigue design and assessment of steel structures; BS 7910 Annex M references BS 7608 for S-N approaches and is cross-cited for fatigue endurance.
 - [[dnv-rp-c210]] — DNV recommended practice for probabilistic fatigue, complements BS 7910 Annex N for offshore structural reliability.
@@ -108,7 +108,7 @@ The 2013 edition's normative annex set is the working surface for most calc modu
 
 ## Sources
 
-- [[og-standards-bsi]] — BSI publisher catalog page summarising the 80-document BSI slice of `/mnt/ace/O&G-Standards/`, including all five on-disk BS 7910 edition variants.
+- [og-standards-bsi](../sources/og-standards-bsi.md) — BSI publisher catalog page summarising the 80-document BSI slice of `/mnt/ace/O&G-Standards/`, including all five on-disk BS 7910 edition variants.
 - Catalog source: `/mnt/ace/O&G-Standards/_catalog.json` (catalog version 1.0.0, generated 2025-12-25).
 - Publisher: BSI Knowledge — https://knowledge.bsigroup.com/ (search `BS 7910`).
 - Calc-citation contract: `.claude/rules/calc-citation-contract.md` (workspace-hub) — governs how downstream digitalmodel calc modules emit `Citation` instances against this page.

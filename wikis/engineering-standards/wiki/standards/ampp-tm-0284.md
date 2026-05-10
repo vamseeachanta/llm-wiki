@@ -32,7 +32,7 @@ Laboratory test method for evaluating carbon and low-alloy steel plates, pipe, f
 
 These three ratios are computed per inspected section, averaged per specimen, and averaged per heat. TM-0284 prescribes the procedure but does **not** set acceptance limits; acceptance criteria are imposed by the application standard or the purchaser-supplier contract (see [Acceptance criteria](#acceptance-criteria)).
 
-The method is the test-procedure companion to [[ampp-tm-0177]] (sulfide stress cracking) within the AMPP/NACE sour-service qualification family, and is the qualification basis cited by [[ampp-mr-0175-pt2]] / [[iso-15156]]-2 for HIC-resistant carbon and low-alloy steels.
+The method is the test-procedure companion to [ampp-tm-0177](ampp-tm-0177.md) (sulfide stress cracking) within the AMPP/NACE sour-service qualification family, and is the qualification basis cited by [ampp-mr-0175-pt2](ampp-mr-0175-pt2.md) / [iso-15156](iso-15156.md)-2 for HIC-resistant carbon and low-alloy steels.
 
 ## Edition history
 
@@ -82,19 +82,19 @@ The exact recipes, pH targets, gas-saturation procedure, and test-vessel sizing 
 These thresholds are illustrative and must be verified against the project specification — some severe-sour applications tighten CLR to ≤ 10% or CSR to ≤ 1%, and some less-severe applications relax them. The point of contractual specification is normative; this page is not.
 
 **Application-standard pointers.**
-- [[iso-15156]] / NACE MR0175-2 (carbon and low-alloy steels) cites TM-0284 as the qualification test method for HIC-resistance demonstration. Acceptance thresholds in MR0175-2 are read directly from the source.
-- [[api-spec-5l]] (line pipe) Annex H prescribes sour-service line-pipe testing including HIC qualification per TM-0284, with acceptance values defined in Annex H tables.
+- [iso-15156](iso-15156.md) / NACE MR0175-2 (carbon and low-alloy steels) cites TM-0284 as the qualification test method for HIC-resistance demonstration. Acceptance thresholds in MR0175-2 are read directly from the source.
+- [api-spec-5l](api-spec-5l.md) (line pipe) Annex H prescribes sour-service line-pipe testing including HIC qualification per TM-0284, with acceptance values defined in Annex H tables.
 - DNV-OS-F101 (submarine pipeline systems, sour-service supplementary requirements) references TM-0284 as the HIC-resistance qualification test.
 - API 5LD (CRA-clad and CRA-lined pipe) references TM-0284 for the carbon-steel backing layer where applicable.
 
 ## Cross-references
 
-- [[ampp-tm-0177]] — Sulfide stress cracking (SSC) test method (uniaxial tension, bent-beam, C-ring, DCB). The complementary stressed-specimen test in the same sour-service qualification family.
-- [[ampp-mr-0175-pt1]] — General principles for selection of cracking-resistant materials in H2S-containing environments (Part 1 fitness-assessment caller).
-- [[ampp-mr-0175-pt2]] — Cracking-resistant carbon and low-alloy steels and the use of cast irons (the primary application standard consuming TM-0284 outputs for C-steel sour-service qualification).
-- [[ampp-mr-0175-pt3]] — Cracking-resistant CRAs and other alloys (less-frequent TM-0284 caller; CRA HIC concerns are typically handled by other tests).
-- [[iso-15156]] — ISO-published harmonized version of MR 0175; TM-0284 is referenced identically.
-- [[api-spec-5l]] — Line pipe specification; sour-service Annex H sets HIC acceptance limits referencing TM-0284.
+- [ampp-tm-0177](ampp-tm-0177.md) — Sulfide stress cracking (SSC) test method (uniaxial tension, bent-beam, C-ring, DCB). The complementary stressed-specimen test in the same sour-service qualification family.
+- [ampp-mr-0175-pt1](ampp-mr-0175-pt1.md) — General principles for selection of cracking-resistant materials in H2S-containing environments (Part 1 fitness-assessment caller).
+- [ampp-mr-0175-pt2](ampp-mr-0175-pt2.md) — Cracking-resistant carbon and low-alloy steels and the use of cast irons (the primary application standard consuming TM-0284 outputs for C-steel sour-service qualification).
+- [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) — Cracking-resistant CRAs and other alloys (less-frequent TM-0284 caller; CRA HIC concerns are typically handled by other tests).
+- [iso-15156](iso-15156.md) — ISO-published harmonized version of MR 0175; TM-0284 is referenced identically.
+- [api-spec-5l](api-spec-5l.md) — Line pipe specification; sour-service Annex H sets HIC acceptance limits referencing TM-0284.
 - DNV-OS-F101 — Submarine pipeline systems; sour-service supplementary requirements reference TM-0284 (no standards page yet in this wiki).
 - API 5LD — CRA-clad / CRA-lined pipe specification; references TM-0284 for the carbon-steel backing where sour service applies (no standards page yet in this wiki).
 - [Concept: sour-service-materials](../concepts/sour-service-materials.md) — HIC chapter that consumes this page as a normative test-method reference.

@@ -103,24 +103,24 @@ all of the above.
 
 ## Standards
 
-- [[astm-e1820]] — primary unified test method; the modern backbone of
+- [astm-e1820](../standards/astm-e1820.md) — primary unified test method; the modern backbone of
   J / CTOD / J–R / δ–R measurement. See
   [`standards/astm-e1820.md`](../standards/astm-e1820.md).
-- [[api-std-579]] — Fitness-for-Service consumes E1820 outputs as
+- [api-std-579](../standards/api-std-579.md) — Fitness-for-Service consumes E1820 outputs as
   Part 9 toughness input. See
   [`standards/api-std-579.md`](../standards/api-std-579.md).
-- [[bs-7910-flaw-assessment]] — UK FFS standard; Annex K cites E1820
+- [bs-7910-flaw-assessment](../standards/bs-7910-flaw-assessment.md) — UK FFS standard; Annex K cites E1820
   alongside BS 7448 / ISO 12135. See
   [`standards/bs-7910-flaw-assessment.md`](../standards/bs-7910-flaw-assessment.md).
 
 ## Related concepts
 
-- [[fitness-for-service]] — downstream consumer of toughness data.
+- [fitness-for-service](fitness-for-service.md) — downstream consumer of toughness data.
 - [[fatigue-crack-growth]] — sub-critical crack-growth complement to
   this page (ASTM E647 territory).
 - [[master-curve-and-transition-temperature]] — statistical brittle-
   ductile transition (E1921 `T₀`) built on E1820 / E399 data points.
-- [[weld-toughness]] — weldment-specific sampling, HAZ targeting, and
+- [weld-toughness](weld-toughness.md) — weldment-specific sampling, HAZ targeting, and
   pipeline girth-weld ECA practice.
 
 ## Source materials

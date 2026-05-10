@@ -84,7 +84,7 @@ vessels, hydrogen exposure).
 The three-stage Charpy curve is therefore not a property of the steel
 in isolation, but of the steel-rate-constraint-environment combination.
 This is the core reason that **fracture-mechanics-based** transition
-descriptors ([[fracture-toughness-measurement]] via [[astm-e1921]])
+descriptors ([fracture-toughness-measurement](fracture-toughness-measurement.md) via [astm-e1921](../standards/astm-e1921.md))
 have largely displaced bare Charpy correlations for safety-critical
 service.
 
@@ -121,7 +121,7 @@ standards:
 
 **Master-curve-based reference temperature.**
 
-- **`T₀`** per [[astm-e1921]] — the temperature at which the
+- **`T₀`** per [astm-e1921](../standards/astm-e1921.md) — the temperature at which the
   **median 1T-equivalent cleavage toughness `K_Jc(med)` equals
   `100 MPa·m^0.5`**, fitted by maximum likelihood from a small set
   of valid `K_Jc` data points using a fixed-shape Weibull
@@ -218,27 +218,27 @@ clears the toughness floor before fabrication begins.
 Bidirectional links to standards pages whose normative content
 governs the brittle-fracture assessment workflow:
 
-- [[astm-e1921]] — *Master Curve and Reference Temperature `T₀`*.
+- [astm-e1921](../standards/astm-e1921.md) — *Master Curve and Reference Temperature `T₀`*.
   Primary fracture-mechanics reference-temperature method for
   ferritic steels in the transition region. See
   [`standards/astm-e1921.md`](../standards/astm-e1921.md).
-- [[astm-e399]] — *Plane-Strain Fracture Toughness `K_Ic`*. The LEFM
+- [astm-e399](../standards/astm-e399.md) — *Plane-Strain Fracture Toughness `K_Ic`*. The LEFM
   toughness regime that applies on the **lower shelf** of the
   transition curve, where small-scale yielding holds and `K_Ic`
   is the defensible toughness measure. See
   [`standards/astm-e399.md`](../standards/astm-e399.md).
-- [[astm-e1820]] — *Measurement of Fracture Toughness*. The unified
+- [astm-e1820](../standards/astm-e1820.md) — *Measurement of Fracture Toughness*. The unified
   J / CTOD / J–R / δ–R method that applies on the **upper shelf**
   and into the upper transition where ductile tearing dominates;
   also produces the `K_Jc` data points consumed by E1921. See
   [`standards/astm-e1820.md`](../standards/astm-e1820.md).
-- [[api-std-579]] — *Fitness-for-Service*. **Part 3** (Brittle
+- [api-std-579](../standards/api-std-579.md) — *Fitness-for-Service*. **Part 3** (Brittle
   Fracture) consumes Charpy and master-curve toughness inputs to
   derive the **Minimum Allowable Temperature (MAT)** screening
   curves and the operating pressure-temperature envelope; **Part 9**
   (Crack-Like Flaws) consumes E1820 / E1921 toughness for the FAD
   evaluation. See [`standards/api-std-579.md`](../standards/api-std-579.md).
-- [[bs-7910-flaw-assessment]] — *Guide to methods for assessing the
+- [bs-7910-flaw-assessment](../standards/bs-7910-flaw-assessment.md) — *Guide to methods for assessing the
   acceptability of flaws in metallic structures*. **Annex J** brittle-
   fracture procedure with FAD assessment at low temperature; accepts
   master-curve lower-bound toughness or Charpy-correlation inputs.
@@ -246,17 +246,17 @@ governs the brittle-fracture assessment workflow:
 
 ## Related concepts
 
-- [[fracture-toughness-measurement]] — companion concept page
+- [fracture-toughness-measurement](fracture-toughness-measurement.md) — companion concept page
   covering the laboratory-measurement side (`K_Ic`, `J_Ic`, `J–R`,
   CTOD, master-curve `T₀`) that produces the toughness inputs
   consumed by the brittle-fracture screening described here.
-- [[fitness-for-service]] — downstream operational consumer; FFS
+- [fitness-for-service](fitness-for-service.md) — downstream operational consumer; FFS
   Level 1 / 2 / 3 brittle-fracture assessment uses the reference
   temperatures and lower-bound toughness curves defined here.
-- [[weld-toughness]] — weldment-specific sampling, HAZ targeting,
+- [weld-toughness](weld-toughness.md) — weldment-specific sampling, HAZ targeting,
   and pipeline girth-weld ECA practice for brittle-fracture
   acceptance at low temperature.
-- [[hydrogen-embrittlement]] — low-temperature hydrogen
+- [hydrogen-embrittlement](hydrogen-embrittlement.md) — low-temperature hydrogen
   embrittlement and HISC overlap with brittle-fracture mechanics
   through their shared cleavage-initiation mechanism in BCC steels.
 - [[arctic-design]] — system-level design-temperature philosophy,

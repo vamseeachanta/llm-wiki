@@ -31,11 +31,11 @@ This page is a citation resolver for downstream calc modules under the calc-cita
 - Internal callers: `digitalmodel/src/digitalmodel/` (19 hits)
 
 ## Cross-references
-- [[dnv-st-f101]] — pipeline-systems design baseline
-- [[dnv-rp-c205]] — environmental loads driving span response
-- [[dnv-rp-c203]] — fatigue methodology referenced by F105 acceptance
-- [[dnv-rp-f109]] — on-bottom stability companion
-- [[dnv-rp-f101]] — corroded-pipeline assessment companion
+- [dnv-st-f101](dnv-st-f101.md) — pipeline-systems design baseline
+- [dnv-rp-c205](dnv-rp-c205.md) — environmental loads driving span response
+- [dnv-rp-c203](dnv-rp-c203.md) — fatigue methodology referenced by F105 acceptance
+- [dnv-rp-f109](dnv-rp-f109.md) — on-bottom stability companion
+- [dnv-rp-f101](dnv-rp-f101.md) — corroded-pipeline assessment companion
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Cross-References

@@ -84,12 +84,12 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 
 ## Cross-references
 
-- [[asme-b31-3]] — process-piping sister code; B31.3 starts at the plant-fence inlet flange where B31.4 ends
-- [[asme-b31-8]] — gas-pipeline sister code; B31.4 + B31.8 partition the U.S. onshore-pipeline-transportation universe by fluid phase
-- [[asme-bpvc-ii-d]] — material allowable stresses sourced upstream
-- [[api-spec-5l]] — line-pipe material specification consumed by B31.4 (SMYS in the hoop-stress equation)
-- [[api-rp-1111]] — offshore hydrocarbon pipelines, limit-state-design alternative companion
-- [[ampp-mr-0175-pt1]] — sour-service material selection (cross-linked for sour-hydrocarbon-pipeline material qualification)
+- [asme-b31-3](asme-b31-3.md) — process-piping sister code; B31.3 starts at the plant-fence inlet flange where B31.4 ends
+- [asme-b31-8](asme-b31-8.md) — gas-pipeline sister code; B31.4 + B31.8 partition the U.S. onshore-pipeline-transportation universe by fluid phase
+- [asme-bpvc-ii-d](asme-bpvc-ii-d.md) — material allowable stresses sourced upstream
+- [api-spec-5l](api-spec-5l.md) — line-pipe material specification consumed by B31.4 (SMYS in the hoop-stress equation)
+- [api-rp-1111](api-rp-1111.md) — offshore hydrocarbon pipelines, limit-state-design alternative companion
+- [ampp-mr-0175-pt1](ampp-mr-0175-pt1.md) — sour-service material selection (cross-linked for sour-hydrocarbon-pipeline material qualification)
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Cross-References

@@ -96,24 +96,24 @@ Other environmental cracking mechanisms (sulphide stress cracking per NACE MR017
 
 Bidirectional links to the governing publisher pages in this wiki:
 
-- [[dnv-rp-c203]] — *Fatigue Design of Offshore Steel Structures* (DNV recommended practice). Primary multi-edition standard for offshore S-N catalogues, hot-spot extrapolation, environmental modifiers, and design fatigue factors. The single most-cited code in `digitalmodel` calc paths.
-- [[api-rp-2a-wsd]] — *Planning, Designing, and Constructing Fixed Offshore Platforms — Working Stress Design* (API RP). Tubular-joint fatigue for fixed offshore platforms; X / X' S-N curves and parametric SCF formulae.
-- [[abs-gui-115-fatigue-offshore]] — *Fatigue Assessment of Offshore Structures* (ABS guide). FPSO-oriented fatigue methodology; DNV-aligned curves with ABS-specific environmental and load-combination conventions.
+- [dnv-rp-c203](../standards/dnv-rp-c203.md) — *Fatigue Design of Offshore Steel Structures* (DNV recommended practice). Primary multi-edition standard for offshore S-N catalogues, hot-spot extrapolation, environmental modifiers, and design fatigue factors. The single most-cited code in `digitalmodel` calc paths.
+- [api-rp-2a-wsd](../standards/api-rp-2a-wsd.md) — *Planning, Designing, and Constructing Fixed Offshore Platforms — Working Stress Design* (API RP). Tubular-joint fatigue for fixed offshore platforms; X / X' S-N curves and parametric SCF formulae.
+- [abs-gui-115-fatigue-offshore](../standards/abs-gui-115-fatigue-offshore.md) — *Fatigue Assessment of Offshore Structures* (ABS guide). FPSO-oriented fatigue methodology; DNV-aligned curves with ABS-specific environmental and load-combination conventions.
 - [[api-579-1-asme-ffs-1]] — *Fitness-for-Service*. Part 14 covers fatigue assessment of pressurised equipment; Part 9 covers crack-like flaw FCG. Joint API/ASME standard for in-service damage assessment.
-- [[bs-7910-flaw-assessment]] — *Guide to Methods for Assessing the Acceptability of Flaws in Metallic Structures* (BSI). Annex M covers FCG-based fatigue (Paris-law constants for ferritic/austenitic steels and aluminium, threshold ΔK<sub>th</sub>, environmental modifiers, R-ratio handling). Cross-cited with [[bs-7608]] for the S-N companion.
+- [bs-7910-flaw-assessment](../standards/bs-7910-flaw-assessment.md) — *Guide to Methods for Assessing the Acceptability of Flaws in Metallic Structures* (BSI). Annex M covers FCG-based fatigue (Paris-law constants for ferritic/austenitic steels and aluminium, threshold ΔK<sub>th</sub>, environmental modifiers, R-ratio handling). Cross-cited with [[bs-7608]] for the S-N companion.
 
 ## Related concepts
 
-- [[fitness-for-service]] — quantitative damage-tolerance assessment of in-service equipment; consumes FCG outputs from this concept.
-- [[fracture-toughness-measurement]] — K<sub>Ic</sub>, J-integral, CTOD test methods (ASTM E399 / E1820 / E1921 / BS 7448) supplying the toughness inputs that bound the FCG integration at `a_crit`.
-- [[weld-toughness]] — Charpy and CTOD acceptance for weld procedure qualification; sets the floor on fracture toughness for fatigue-cracked welds.
-- [[riser-fatigue]] — domain-specific application: VIV-driven and wave-frequency fatigue of dynamic risers per [[dnv-os-f201]].
+- [fitness-for-service](fitness-for-service.md) — quantitative damage-tolerance assessment of in-service equipment; consumes FCG outputs from this concept.
+- [fracture-toughness-measurement](fracture-toughness-measurement.md) — K<sub>Ic</sub>, J-integral, CTOD test methods (ASTM E399 / E1820 / E1921 / BS 7448) supplying the toughness inputs that bound the FCG integration at `a_crit`.
+- [weld-toughness](weld-toughness.md) — Charpy and CTOD acceptance for weld procedure qualification; sets the floor on fracture toughness for fatigue-cracked welds.
+- [[riser-fatigue]] — domain-specific application: VIV-driven and wave-frequency fatigue of dynamic risers per [dnv-os-f201](../standards/dnv-os-f201.md).
 
 ## Source materials
 
-- [[og-standards-api]](../sources/og-standards-api.md) — API publisher catalog row (RP 2A-WSD, Std 579, RP 2SK).
-- [[og-standards-bsi]](../sources/og-standards-bsi.md) — BSI publisher catalog (BS 7910, BS 7608, BS 7448).
-- [[og-standards-dnv]](../sources/og-standards-dnv.md) — DNV publisher catalog (RP-C203, OS-E301, OS-F201, RP-C210).
+- [og-standards-api](../sources/og-standards-api.md) — API publisher catalog row (RP 2A-WSD, Std 579, RP 2SK).
+- [og-standards-bsi](../sources/og-standards-bsi.md) — BSI publisher catalog (BS 7910, BS 7608, BS 7448).
+- [og-standards-dnv](../sources/og-standards-dnv.md) — DNV publisher catalog (RP-C203, OS-E301, OS-F201, RP-C210).
 
 ## Notes
 

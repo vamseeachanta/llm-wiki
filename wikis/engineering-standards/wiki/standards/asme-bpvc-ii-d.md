@@ -36,9 +36,9 @@ Resolver target for digitalmodel `Citation` instances per `.claude/rules/calc-ci
 
 ## Cross-references
 
-- [[asme-b31-3]] — process piping consumer
-- [[asme-b31-4]] — liquid-pipeline consumer
-- [[asme-b31-8]] — gas-pipeline consumer
-- [[asme-bpvc-viii-1]] — pressure-vessel consumer
-- [[asme-bpvc-viii-2]] — pressure-vessel consumer (alternative rules)
+- [asme-b31-3](asme-b31-3.md) — process piping consumer
+- [asme-b31-4](asme-b31-4.md) — liquid-pipeline consumer
+- [asme-b31-8](asme-b31-8.md) — gas-pipeline consumer
+- [asme-bpvc-viii-1](asme-bpvc-viii-1.md) — pressure-vessel consumer
+- [asme-bpvc-viii-2](asme-bpvc-viii-2.md) — pressure-vessel consumer (alternative rules)
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)

@@ -47,7 +47,7 @@ The local O&G-Standards catalog at `/mnt/ace/O&G-Standards/ASTM/G-Series/` holds
 | G3-89(R99) | `G_3_-_89_R99_RZM_.pdf` | 1 file | 1989 revision, reapproved 1999 |
 | G3 (current) | not on disk | — | The publisher-current ASTM G3 edition is later than the 1999 reapproval (multiple reapprovals have been issued in the post-2000 cycle); calc-callers needing the current edition must obtain it from the ASTM catalog |
 
-The publisher catalog year-token sweep done for the [[og-standards-astm-g-series]] source page recorded G3 with **1 edition** in the local catalog, matching the file row above.
+The publisher catalog year-token sweep done for the [og-standards-astm-g-series](../sources/og-standards-astm-g-series.md) source page recorded G3 with **1 edition** in the local catalog, matching the file row above.
 
 ## Key conventions
 
@@ -87,19 +87,19 @@ For calc-module authors: a numeric corrosion rate emitted without a G3-conforman
 ## Cross-references
 
 - [[astm-g5]] — *Standard Reference Test Method for Making Potentiodynamic Anodic Polarization Measurements.* The canonical Tafel-scan procedure on Type 430 stainless reference material; cites G3 for axis and sign conventions.
-- [[astm-g59]] — *Standard Test Method for Conducting Potentiodynamic Polarization Resistance Measurements.* The LPR procedure that delivers `R_p` for Stern-Geary `i_corr` extraction; G3 anchors the small-overpotential sweep convention.
-- [[astm-g102]] — *Standard Practice for Calculation of Corrosion Rates and Related Information from Electrochemical Measurements.* Converts G3-conformant `i_corr` into engineering penetration rate (mm/yr or mpy) via Faraday's law with an equivalent-weight argument; the bridge from G3/G5/G59 measurements to mass-loss-equivalent rate.
-- [[astm-g106]] — *Standard Practice for Verification of Algorithm and Equipment for Electrochemical Impedance Measurements.* EIS practice; cites G3 for impedance-plot conventions (Nyquist and Bode formats) and OCP reporting.
-- [[astm-g1]] — *Standard Practice for Preparing, Cleaning, and Evaluating Corrosion Test Specimens.* Mass-loss baseline that every G3-derived `i_corr` should be calibrated against before being trusted as an in-situ rate sensor.
-- [[astm-g31]] — *Standard Guide for Laboratory Immersion Corrosion Testing of Metals.* Long-exposure mass-loss substrate that calibrates electrochemical-derived rates.
-- [[ampp-tm-0177]] — *Laboratory Testing of Metals for Resistance to Sulfide Stress Cracking and Stress Corrosion Cracking in H2S Environments.* SSC tensile-style testing in sour environments; the H2S sour-service cousin of G3-conformant electrochemical work.
-- [[ampp-tm-0284]] — *Evaluation of Pipeline and Pressure Vessel Steels for Resistance to Hydrogen-Induced Cracking.* HIC test in NACE Solution A; the hydrogen-charging cousin to electrochemical methods that share G3's sign conventions for cathodic charging.
+- [astm-g59](astm-g59.md) — *Standard Test Method for Conducting Potentiodynamic Polarization Resistance Measurements.* The LPR procedure that delivers `R_p` for Stern-Geary `i_corr` extraction; G3 anchors the small-overpotential sweep convention.
+- [astm-g102](astm-g102.md) — *Standard Practice for Calculation of Corrosion Rates and Related Information from Electrochemical Measurements.* Converts G3-conformant `i_corr` into engineering penetration rate (mm/yr or mpy) via Faraday's law with an equivalent-weight argument; the bridge from G3/G5/G59 measurements to mass-loss-equivalent rate.
+- [astm-g106](astm-g106.md) — *Standard Practice for Verification of Algorithm and Equipment for Electrochemical Impedance Measurements.* EIS practice; cites G3 for impedance-plot conventions (Nyquist and Bode formats) and OCP reporting.
+- [astm-g1](astm-g1.md) — *Standard Practice for Preparing, Cleaning, and Evaluating Corrosion Test Specimens.* Mass-loss baseline that every G3-derived `i_corr` should be calibrated against before being trusted as an in-situ rate sensor.
+- [astm-g31](astm-g31.md) — *Standard Guide for Laboratory Immersion Corrosion Testing of Metals.* Long-exposure mass-loss substrate that calibrates electrochemical-derived rates.
+- [ampp-tm-0177](ampp-tm-0177.md) — *Laboratory Testing of Metals for Resistance to Sulfide Stress Cracking and Stress Corrosion Cracking in H2S Environments.* SSC tensile-style testing in sour environments; the H2S sour-service cousin of G3-conformant electrochemical work.
+- [ampp-tm-0284](ampp-tm-0284.md) — *Evaluation of Pipeline and Pressure Vessel Steels for Resistance to Hydrogen-Induced Cracking.* HIC test in NACE Solution A; the hydrogen-charging cousin to electrochemical methods that share G3's sign conventions for cathodic charging.
 - Concept anchor: [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — landing page that cites G3 as the electrochemical-conventions foundation underneath the G5 / G59 / G102 / G106 measurement column.
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G3-derived sign convention, reference-electrode offset, or Stern-Geary-style `B` constant.
 
 ## Sources
 
-- [[og-standards-astm-g-series]] — parent source page for the ASTM G-Series slice of the local catalog; records the single-edition G3 presence, the catalog file path, and the metadata-only extraction policy that scopes this standards page.
+- [og-standards-astm-g-series](../sources/og-standards-astm-g-series.md) — parent source page for the ASTM G-Series slice of the local catalog; records the single-edition G3 presence, the catalog file path, and the metadata-only extraction policy that scopes this standards page.
 - Publisher catalog (current edition for purchase, registration required): https://www.astm.org/g0003-14r19.html (or the latest reapproval listing on `astm.org`).
 - On-disk raw PDFs (vendor-derivative, do not copy into git per spinout 2026-05-05 governance):
   - `/mnt/ace/O&G-Standards/ASTM/G-Series/G_3_-_89_R99_RZM_.pdf`

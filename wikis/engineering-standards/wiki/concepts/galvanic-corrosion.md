@@ -18,7 +18,7 @@ sources:
 
 # Galvanic Corrosion
 
-> Concept anchor for the dissimilar-metal-couple damage mechanism. Bidirectional with [api-rp-571](../standards/api-rp-571.md) (mechanism catalogue) and [dnv-rp-b401](../standards/dnv-rp-b401.md) (the protective application of the same physics — sacrificial-anode CP). Cross-references [[cathodic-protection]], [[sour-service-materials]], [[damage-mechanism-screening]], [[corrosion-rate-measurement]], and [[pitting-and-crevice-corrosion]].
+> Concept anchor for the dissimilar-metal-couple damage mechanism. Bidirectional with [api-rp-571](../standards/api-rp-571.md) (mechanism catalogue) and [dnv-rp-b401](../standards/dnv-rp-b401.md) (the protective application of the same physics — sacrificial-anode CP). Cross-references [cathodic-protection](cathodic-protection.md), [sour-service-materials](sour-service-materials.md), [damage-mechanism-screening](damage-mechanism-screening.md), [corrosion-rate-measurement](corrosion-rate-measurement.md), and [pitting-and-crevice-corrosion](pitting-and-crevice-corrosion.md).
 
 ## What is galvanic corrosion?
 
@@ -58,7 +58,7 @@ The galvanic series ranks alloys by their measured open-circuit potential agains
 
 Two practical caveats:
 
-- **Active vs. passive stainless** — 304/316 sit on the cathodic side **when the passive film is intact**. In a deaerated crevice, stagnant chloride pocket, or sour brine the same alloy can shift active and become an anode in its own couple — the same mechanism that drives [[pitting-and-crevice-corrosion]] feeds back into the galvanic ranking.
+- **Active vs. passive stainless** — 304/316 sit on the cathodic side **when the passive film is intact**. In a deaerated crevice, stagnant chloride pocket, or sour brine the same alloy can shift active and become an anode in its own couple — the same mechanism that drives [pitting-and-crevice-corrosion](pitting-and-crevice-corrosion.md) feeds back into the galvanic ranking.
 - **Aluminum** is amphoteric and shifts position substantially with pH and chloride activity; the Al-Zn-In sacrificial-anode alloys exploit this by holding aluminum reliably active in seawater.
 
 ## Area-ratio rule
@@ -97,7 +97,7 @@ The mitigation hierarchy follows the three-driver model — break any leg of the
 - **Dielectric isolation** — isolating gaskets, dielectric flange kits, insulating sleeves and washers, non-conductive bushings, and isolating spool pieces. Breaks **electrical continuity** while leaving the joint mechanically intact. Verified by isolation-resistance testing on commissioning and periodically thereafter.
 - **Area-ratio reversal** — design with a **small cathode, large anode**. Use CRA only where indispensable (e.g. trim of a carbon-steel valve), keep CRA surface area minimized, and oversize the carbon-steel side so the local anodic current density stays low.
 - **Coating discipline** — **coat the cathode, never the anode**. If both sides must be coated, coat both fully; never asymmetrically.
-- **Cathodic protection** — couple the most-anodic structural metal to a still-more-anodic sacrificial anode (Al-Zn-In, Zn, Mg) so the structure is driven cathodic relative to its galvanic neighbours and the cell current is supplied by the deliberately-sized anode. This is the protective inversion of the same physics — see [[cathodic-protection]] and [dnv-rp-b401](../standards/dnv-rp-b401.md).
+- **Cathodic protection** — couple the most-anodic structural metal to a still-more-anodic sacrificial anode (Al-Zn-In, Zn, Mg) so the structure is driven cathodic relative to its galvanic neighbours and the cell current is supplied by the deliberately-sized anode. This is the protective inversion of the same physics — see [cathodic-protection](cathodic-protection.md) and [dnv-rp-b401](../standards/dnv-rp-b401.md).
 - **Material substitution** — use the **same alloy throughout** where economically feasible (e.g. all-316 trim in a small instrument-tubing run; all-CRA bolting on a CRA flange). Eliminates the potential difference entirely.
 - **Lining and barrier liners** — internal weld-overlay or clad layer on the carbon-steel side of an unavoidable couple removes electrolyte contact at the anode surface.
 
@@ -116,11 +116,11 @@ Adjacent standards (flagged for future ingest as the corpus grows):
 
 ## Related concepts
 
-- [[cathodic-protection]] — sacrificial-anode CP is the protective application of the same galvanic-cell physics; a galvanic-corrosion design and a CP design are mirror images of each other.
-- [[sour-service-materials]] — galvanic interactions in H2S-containing service are complicated by the active-vs-passive shift of stainless and Ni-base alloys; the seawater galvanic series is not a safe proxy for sour brine.
-- [[damage-mechanism-screening]] — galvanic corrosion is one of the screened mechanisms in API-RP-571 walk-throughs; presence of dissimilar-metal joints in wetted service is the trigger.
-- [[corrosion-rate-measurement]] — anode-loss rate is the operational metric that confirms a galvanic-corrosion design is performing as expected; departure from the design budget is the early-warning signal.
-- [[pitting-and-crevice-corrosion]] — galvanic effects amplify pitting on the anodic side of a couple, because the anodic surface carries the entire cell's cathodic current density and any local passive-film breakdown sees a much higher driving voltage than it would in isolation.
+- [cathodic-protection](cathodic-protection.md) — sacrificial-anode CP is the protective application of the same galvanic-cell physics; a galvanic-corrosion design and a CP design are mirror images of each other.
+- [sour-service-materials](sour-service-materials.md) — galvanic interactions in H2S-containing service are complicated by the active-vs-passive shift of stainless and Ni-base alloys; the seawater galvanic series is not a safe proxy for sour brine.
+- [damage-mechanism-screening](damage-mechanism-screening.md) — galvanic corrosion is one of the screened mechanisms in API-RP-571 walk-throughs; presence of dissimilar-metal joints in wetted service is the trigger.
+- [corrosion-rate-measurement](corrosion-rate-measurement.md) — anode-loss rate is the operational metric that confirms a galvanic-corrosion design is performing as expected; departure from the design budget is the early-warning signal.
+- [pitting-and-crevice-corrosion](pitting-and-crevice-corrosion.md) — galvanic effects amplify pitting on the anodic side of a couple, because the anodic surface carries the entire cell's cathodic current density and any local passive-film breakdown sees a much higher driving voltage than it would in isolation.
 
 ## Source materials
 

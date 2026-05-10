@@ -23,7 +23,7 @@ sources:
 
 # Protective Coating Systems for O&G Equipment
 
-> Concept anchor for the barrier-coating discipline that, paired with cathodic protection, carries the bulk of the external-corrosion budget for O&G pipelines, offshore structures, and refinery equipment. Bidirectional with [api-rp-571](../standards/api-rp-571.md) (damage-mechanism context — what the coatings have to defeat), [dnv-rp-f103](../standards/dnv-rp-f103.md) (galvanic-anode CP — coating + CP synergy via the breakdown-factor mechanism), and [dnv-rp-b401](../standards/dnv-rp-b401.md) (offshore CP — coating-defect area drives CP demand). Cross-references [[cathodic-protection]], [[corrosion-under-insulation]], [[atmospheric-corrosion]], [[galvanic-corrosion]], and [[damage-mechanism-screening]].
+> Concept anchor for the barrier-coating discipline that, paired with cathodic protection, carries the bulk of the external-corrosion budget for O&G pipelines, offshore structures, and refinery equipment. Bidirectional with [api-rp-571](../standards/api-rp-571.md) (damage-mechanism context — what the coatings have to defeat), [dnv-rp-f103](../standards/dnv-rp-f103.md) (galvanic-anode CP — coating + CP synergy via the breakdown-factor mechanism), and [dnv-rp-b401](../standards/dnv-rp-b401.md) (offshore CP — coating-defect area drives CP demand). Cross-references [cathodic-protection](cathodic-protection.md), [corrosion-under-insulation](corrosion-under-insulation.md), [atmospheric-corrosion](atmospheric-corrosion.md), [galvanic-corrosion](galvanic-corrosion.md), and [damage-mechanism-screening](damage-mechanism-screening.md).
 
 ## Why coatings dominate corrosion mitigation
 
@@ -78,7 +78,7 @@ When coatings fail, the failure mode usually traces back to one of:
 - **Cathodic disbondment** under CP — hydroxide generation at coating defects propagates radially under the film; screened by **ASTM G8 / G80** and (for hot subsea lines) **ASTM G42**.
 - **Thermal-cycle-induced cracking** — coefficient-of-thermal-expansion mismatch between coating and steel under repeated thermal cycling on hot piping and process-side equipment.
 - **UV degradation** — chalking and embrittlement of polymeric topcoats (PE, PP, PUR) on atmospheric-exposed assets; mitigated with UV-stable topcoats and by jacketing for above-ground pipeline runs.
-- **Undercutting from holidays** combined with [[atmospheric-corrosion]] — a pinhole or mechanical-damage holiday becomes the initiation site for under-film corrosion that propagates beneath the surrounding coating.
+- **Undercutting from holidays** combined with [atmospheric-corrosion](atmospheric-corrosion.md) — a pinhole or mechanical-damage holiday becomes the initiation site for under-film corrosion that propagates beneath the surrounding coating.
 - **Blistering from osmotic pressure** — water-soluble salts trapped at the steel/coating interface drive osmotic water uptake; the failure mechanism that ties Bresle salt-test acceptance directly to in-service life.
 - **Mechanical-impact damage** — handling, transport, lay-barge tensioner damage on pipeline coatings; the reason 3LPE/3LPP topcoats specify minimum impact resistance.
 - **Application defects** — pinholes, runs, sags, dry-spray, holidays at edges and welds; mostly avoidable with applicator qualification and post-application inspection.
@@ -113,11 +113,11 @@ Adjacent international standards (future-promotion candidates — no wiki page y
 
 ## Related concepts
 
-- [[cathodic-protection]] — coating + CP synergy: coatings absorb the bulk of corrosion demand, CP sizes for the coating-defect area; coating breakdown factors are the explicit CP-side input.
-- [[corrosion-under-insulation]] — coating selection for insulated piping is a CUI-specific subset; TSA dominates the high-temperature CUI envelope.
-- [[atmospheric-corrosion]] — system selection by ISO 12944 corrosivity category (C1–CX); in flight on this wiki as W91.
-- [[galvanic-corrosion]] — paint discipline: never paint the anode-only side of a dissimilar-metal couple, which turns a tolerable area-ratio into the worst-case (large cathode / tiny anode) configuration.
-- [[damage-mechanism-screening]] — coatings are the primary mitigation knob for the external-loss-of-thickness mechanism family; coating-quality assumptions feed directly into RBI screening.
+- [cathodic-protection](cathodic-protection.md) — coating + CP synergy: coatings absorb the bulk of corrosion demand, CP sizes for the coating-defect area; coating breakdown factors are the explicit CP-side input.
+- [corrosion-under-insulation](corrosion-under-insulation.md) — coating selection for insulated piping is a CUI-specific subset; TSA dominates the high-temperature CUI envelope.
+- [atmospheric-corrosion](atmospheric-corrosion.md) — system selection by ISO 12944 corrosivity category (C1–CX); in flight on this wiki as W91.
+- [galvanic-corrosion](galvanic-corrosion.md) — paint discipline: never paint the anode-only side of a dissimilar-metal couple, which turns a tolerable area-ratio into the worst-case (large cathode / tiny anode) configuration.
+- [damage-mechanism-screening](damage-mechanism-screening.md) — coatings are the primary mitigation knob for the external-loss-of-thickness mechanism family; coating-quality assumptions feed directly into RBI screening.
 
 ## Source materials
 
