@@ -25,9 +25,9 @@ sources:
 
 > Concept anchor for the **environmental-cracking family** that spans
 > refinery, upstream, midstream, and offshore service. Bidirectional with
-> [[hydrogen-embrittlement]] (the hydrogen-driven branch),
-> [[sour-service-materials]] (the SSC + HIC subset), and
-> [[damage-mechanism-screening]] (the API RP 571 catalogue route).
+> [hydrogen-embrittlement](hydrogen-embrittlement.md) (the hydrogen-driven branch),
+> [sour-service-materials](sour-service-materials.md) (the SSC + HIC subset), and
+> [damage-mechanism-screening](damage-mechanism-screening.md) (the API RP 571 catalogue route).
 
 ## What is SCC?
 
@@ -57,7 +57,7 @@ Three conditions must hold simultaneously for SCC to occur:
 Crack propagation proceeds via **dissolution-and-repassivation cycles**
 at the strained crack tip (anodic-dissolution-driven variants) or via
 **hydrogen ingress and lattice embrittlement** at the crack-tip plastic
-zone (hydrogen-driven variants — see [[hydrogen-embrittlement]]). Both
+zone (hydrogen-driven variants — see [hydrogen-embrittlement](hydrogen-embrittlement.md)). Both
 families produce branched, transgranular or intergranular crack
 morphologies that distinguish SCC from mechanical fatigue or single-cycle
 overload.
@@ -66,22 +66,22 @@ overload.
 
 The umbrella catalogue below lists the SCC variants that recur across
 upstream, midstream, refining, and offshore service. Reference standards
-are the umbrella catalogue ([[api-rp-571]]), the sour-service materials
-code ([[iso-15156]] / AMPP MR0175), the SSC test method
-([[ampp-tm-0177]]), and the duplex-SS HISC governance ([[dnv-rp-f112]]).
+are the umbrella catalogue ([api-rp-571](../standards/api-rp-571.md)), the sour-service materials
+code ([iso-15156](../standards/iso-15156.md) / AMPP MR0175), the SSC test method
+([ampp-tm-0177](../standards/ampp-tm-0177.md)), and the duplex-SS HISC governance ([dnv-rp-f112](../standards/dnv-rp-f112.md)).
 
 | Variant | Susceptible material | Environment | Reference standard |
 |---------|----------------------|-------------|--------------------|
-| **Cl-SCC of austenitic SS** | 304L / 316L; sensitized HAZs especially | Chlorides + tensile stress + ~60–205 °C | [[api-rp-571]] §4.5; ASME PCC-3; chloride-content + temperature envelope per project MDS |
-| **Caustic SCC** ("caustic embrittlement") | Carbon and low-alloy steel | NaOH / KOH > ~2 wt%, ~50–90 °C window (per API 571 caustic chart) | [[api-rp-571]] §4.5 family; NACE SP0403 (operator practice — flagged for ingest) |
-| **Amine SCC** | Carbon steel, especially welded | Lean / rich amine (MEA, DEA, MDEA), ~50–100 °C, residual-stress-driven | [[api-rp-571]] §4.5 family; PWHT mitigation per [[asme-bpvc-viii-1]] / [[asme-bpvc-viii-2]] |
-| **Sulfide stress cracking (SSC)** | Carbon + low-alloy steels (hardness-controlled); CRAs (composition-and-cold-work-controlled) | Wet H2S + tensile stress (sour service) | [[iso-15156]] / [[ampp-mr-0175-pt2]] / [[ampp-mr-0175-pt3]]; test method [[ampp-tm-0177]] |
-| **HIC / SOHIC** | Carbon-steel plate (HIC stress-independent; SOHIC stress-dependent) | Wet H2S | [[iso-15156]] / [[ampp-mr-0175-pt2]]; test method [[ampp-tm-0284]] |
-| **Polythionic acid SCC (PTASCC)** | Sensitized austenitic SS (304/321/347 in FCC, HDS, HCK service) | H2S + air + condensate at shutdown — forms `H2S_xO_6` polythionic species | [[api-rp-571]] §4.5; NACE SP0170 mitigation practice (flagged for ingest) |
-| **Carbonate SCC** | Carbon steel | CO3²⁻ / HCO3⁻ alkaline waters + tensile stress (FCC overhead, alkaline-sour environments) | [[api-rp-571]] §4.5 |
-| **Ammonia SCC** | Brass / aluminum brass (heat-exchanger tubing) | NH3 + tensile + moisture + trace O2 | [[api-rp-571]] §4.5 |
-| **Nitrate SCC** | Carbon steel | NO3⁻ + tensile stress + elevated temperature (boiler / heater service) | [[api-rp-571]] §4.5 |
-| **Hydrogen SCC of high-strength steel** | UTS / SMYS above ~950 MPa (riser-tensioner rods, mooring shackles, subsea bolting) | Aqueous + cathodic charge from CP or wet H2S | [[api-rp-571]] §4.5; [[dnv-rp-f112]] (CRA HISC, the related CP-driven mode); see [[hydrogen-embrittlement]] |
+| **Cl-SCC of austenitic SS** | 304L / 316L; sensitized HAZs especially | Chlorides + tensile stress + ~60–205 °C | [api-rp-571](../standards/api-rp-571.md) §4.5; ASME PCC-3; chloride-content + temperature envelope per project MDS |
+| **Caustic SCC** ("caustic embrittlement") | Carbon and low-alloy steel | NaOH / KOH > ~2 wt%, ~50–90 °C window (per API 571 caustic chart) | [api-rp-571](../standards/api-rp-571.md) §4.5 family; NACE SP0403 (operator practice — flagged for ingest) |
+| **Amine SCC** | Carbon steel, especially welded | Lean / rich amine (MEA, DEA, MDEA), ~50–100 °C, residual-stress-driven | [api-rp-571](../standards/api-rp-571.md) §4.5 family; PWHT mitigation per [asme-bpvc-viii-1](../standards/asme-bpvc-viii-1.md) / [asme-bpvc-viii-2](../standards/asme-bpvc-viii-2.md) |
+| **Sulfide stress cracking (SSC)** | Carbon + low-alloy steels (hardness-controlled); CRAs (composition-and-cold-work-controlled) | Wet H2S + tensile stress (sour service) | [iso-15156](../standards/iso-15156.md) / [ampp-mr-0175-pt2](../standards/ampp-mr-0175-pt2.md) / [ampp-mr-0175-pt3](../standards/ampp-mr-0175-pt3.md); test method [ampp-tm-0177](../standards/ampp-tm-0177.md) |
+| **HIC / SOHIC** | Carbon-steel plate (HIC stress-independent; SOHIC stress-dependent) | Wet H2S | [iso-15156](../standards/iso-15156.md) / [ampp-mr-0175-pt2](../standards/ampp-mr-0175-pt2.md); test method [ampp-tm-0284](../standards/ampp-tm-0284.md) |
+| **Polythionic acid SCC (PTASCC)** | Sensitized austenitic SS (304/321/347 in FCC, HDS, HCK service) | H2S + air + condensate at shutdown — forms `H2S_xO_6` polythionic species | [api-rp-571](../standards/api-rp-571.md) §4.5; NACE SP0170 mitigation practice (flagged for ingest) |
+| **Carbonate SCC** | Carbon steel | CO3²⁻ / HCO3⁻ alkaline waters + tensile stress (FCC overhead, alkaline-sour environments) | [api-rp-571](../standards/api-rp-571.md) §4.5 |
+| **Ammonia SCC** | Brass / aluminum brass (heat-exchanger tubing) | NH3 + tensile + moisture + trace O2 | [api-rp-571](../standards/api-rp-571.md) §4.5 |
+| **Nitrate SCC** | Carbon steel | NO3⁻ + tensile stress + elevated temperature (boiler / heater service) | [api-rp-571](../standards/api-rp-571.md) §4.5 |
+| **Hydrogen SCC of high-strength steel** | UTS / SMYS above ~950 MPa (riser-tensioner rods, mooring shackles, subsea bolting) | Aqueous + cathodic charge from CP or wet H2S | [api-rp-571](../standards/api-rp-571.md) §4.5; [dnv-rp-f112](../standards/dnv-rp-f112.md) (CRA HISC, the related CP-driven mode); see [hydrogen-embrittlement](hydrogen-embrittlement.md) |
 
 API RP 571 §4.5 family is the umbrella catalogue cross-referenced
 throughout — verify per-variant section numbers against the publisher
@@ -107,7 +107,7 @@ same alloy can crack by different mechanisms depending on the corrodent.
   the crack-tip plastic zone, and embrittles the local ductility /
   toughness. Examples: SSC of carbon steel and CRAs, HISC of duplex SS
   under cathodic protection, HE of high-strength steel in marine + CP
-  service. See [[hydrogen-embrittlement]] for the full hydrogen-source
+  service. See [hydrogen-embrittlement](hydrogen-embrittlement.md) for the full hydrogen-source
   taxonomy and the HISC / HIC / SOHIC subdivision.
 - **Surface-film-rupture-driven SCC.** A protective surface film
   (magnetite in caustic service, FeCO3 in carbonate service, an amine-
@@ -137,47 +137,47 @@ stress.
 | Tension specimens (general) | ASTM G47 | Aluminum-alloy SCC test in alternate-immersion 3.5 % NaCl |
 | U-bend (any SCC environment) | ASTM G64 | Severe plastic-strain U-bend specimen; pass/fail screening |
 | Slow-strain-rate (SSRT) | ASTM G129 | Constant low strain-rate (~10⁻⁶ s⁻¹) tensile test in environment; ductility-loss ratio quantifies SCC susceptibility |
-| Sulfide stress cracking | [[ampp-tm-0177]] | Methods A (uniaxial), B (bent beam), C (C-ring), D (DCB / `K_ISSC`) in deaerated H2S-saturated NACE solutions |
-| HIC plate test | [[ampp-tm-0284]] | 96-h H2S-saturated immersion; CLR / CTR / CSR metallographic acceptance |
-| DSS HISC under CP | [[dnv-rp-f112]] | Project-test envelope: CP potential, residual-stress, design-stress, surface-finish controls |
+| Sulfide stress cracking | [ampp-tm-0177](../standards/ampp-tm-0177.md) | Methods A (uniaxial), B (bent beam), C (C-ring), D (DCB / `K_ISSC`) in deaerated H2S-saturated NACE solutions |
+| HIC plate test | [ampp-tm-0284](../standards/ampp-tm-0284.md) | 96-h H2S-saturated immersion; CLR / CTR / CSR metallographic acceptance |
+| DSS HISC under CP | [dnv-rp-f112](../standards/dnv-rp-f112.md) | Project-test envelope: CP potential, residual-stress, design-stress, surface-finish controls |
 | Caustic SCC test | NACE TM-0103 | Caustic-cracking susceptibility test (flagged for ingest) |
 
 ASTM G36 / G38 / G39 / G44 / G47 / G64 / G129 do not yet have dedicated
 standards pages in this wiki — flagged for ingest as the ASTM G-series
-catalogue expands beyond the existing [[astm-g48]] anchor.
+catalogue expands beyond the existing [astm-g48](../standards/astm-g48.md) anchor.
 
 ## Standards
 
 Bidirectional links to the standards-page resolvers (each carries
 `code_id`, `publisher`, `revision` frontmatter per the wiki schema):
 
-- [[api-rp-571]] — *Damage Mechanisms Affecting Fixed Equipment in the
+- [api-rp-571](../standards/api-rp-571.md) — *Damage Mechanisms Affecting Fixed Equipment in the
   Refining Industry.* Umbrella catalogue for the SCC variant family
   (Cl-SCC, caustic, amine, polythionic, carbonate, ammonia, nitrate,
   hydrogen SCC of high-strength steel). Each variant carries
   susceptibility envelope, morphology description, inspection guidance,
   and mitigation cross-references.
-- [[iso-15156]] — *Materials for Use in H2S-Containing Environments in
+- [iso-15156](../standards/iso-15156.md) — *Materials for Use in H2S-Containing Environments in
   Oil and Gas Production.* Three-part joint publication
   (ISO 15156-1/-2/-3 = NACE MR0175 = AMPP MR0175); covers the SSC, HIC,
   and SOHIC sub-family of SCC for sour service.
-- [[ampp-mr-0175-pt2]] — *Carbon and Low-Alloy Steels and the Use of
+- [ampp-mr-0175-pt2](../standards/ampp-mr-0175-pt2.md) — *Carbon and Low-Alloy Steels and the Use of
   Cast Iron.* Hardness, heat-treatment, and welding controls for
   carbon-steel SSC, HIC, and SOHIC qualification.
-- [[ampp-mr-0175-pt3]] — *Cracking-Resistant CRAs and Other Alloys.*
+- [ampp-mr-0175-pt3](../standards/ampp-mr-0175-pt3.md) — *Cracking-Resistant CRAs and Other Alloys.*
   Per-alloy temperature/chloride/pH2S envelopes for SSC variants on
   13Cr martensitic, duplex, super-duplex, austenitic, and Ni-base
   alloys.
-- [[ampp-tm-0177]] — *NACE TM-0177 SSC Laboratory Test Methods.*
+- [ampp-tm-0177](../standards/ampp-tm-0177.md) — *NACE TM-0177 SSC Laboratory Test Methods.*
   Methods A (uniaxial), B (bent beam), C (C-ring), D (DCB / `K_ISSC`)
   for SSC qualification.
-- [[ampp-tm-0284]] — *NACE TM-0284 HIC Test Method.* 96-h H2S-saturated
+- [ampp-tm-0284](../standards/ampp-tm-0284.md) — *NACE TM-0284 HIC Test Method.* 96-h H2S-saturated
   plate-coupon immersion; CLR / CTR / CSR acceptance.
-- [[api-rp-581]] — *Risk-Based Inspection Methodology.* Damage-factor
+- [api-rp-581](../standards/api-rp-581.md) — *Risk-Based Inspection Methodology.* Damage-factor
   modules for multiple SCC families (Cl-SCC, caustic, amine, sulfide,
   polythionic, carbonate, HF, HIC/SOHIC) consume the API RP 571
   susceptibility-envelope catalogue.
-- [[dnv-rp-f112]] — *Design of Duplex SS Subsea Equipment Exposed to
+- [dnv-rp-f112](../standards/dnv-rp-f112.md) — *Design of Duplex SS Subsea Equipment Exposed to
   Cathodic Protection.* Governs the HISC sub-family of hydrogen-driven
   SCC on duplex / super-duplex CRAs in CP-protected subsea service.
 

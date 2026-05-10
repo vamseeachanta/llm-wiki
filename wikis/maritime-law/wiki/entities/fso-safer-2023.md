@@ -7,12 +7,12 @@ added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
 cross_links:
-  - ../../concepts/salvage.md
-  - ../../concepts/salvage-convention-1989.md
-  - ../../standards/salvage-convention-1989.md
-  - ../../concepts/environmental-liability.md
-  - ../../concepts/bunkers-convention-2001.md
-  - ../../standards/bunkers-convention-2001.md
+  - ../concepts/salvage.md
+  - ../concepts/salvage-convention-1989.md
+  - ../standards/salvage-convention-1989.md
+  - ../concepts/environmental-liability.md
+  - ../concepts/bunkers-convention-2001.md
+  - ../standards/bunkers-convention-2001.md
 ---
 
 # FSO Safer (2023)

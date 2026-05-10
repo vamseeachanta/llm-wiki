@@ -19,7 +19,7 @@ sources:
 
 # Microbiologically Influenced Corrosion (MIC)
 
-> Concept anchor for the bioactivity-driven corrosion family flagged in [[api-rp-571]] §4 (loss-of-thickness mechanisms) and monitored under [[ampp-sp0775]] coupon practice. Bidirectional with [[damage-mechanism-screening]] (credible-mechanism shortlist input), [[corrosion-rate-measurement]] (rate-versus-localised-attack interpretation), and [[pitting-and-crevice-corrosion]] (morphology distinction).
+> Concept anchor for the bioactivity-driven corrosion family flagged in [api-rp-571](../standards/api-rp-571.md) §4 (loss-of-thickness mechanisms) and monitored under [ampp-sp0775](../standards/ampp-sp0775.md) coupon practice. Bidirectional with [damage-mechanism-screening](damage-mechanism-screening.md) (credible-mechanism shortlist input), [corrosion-rate-measurement](corrosion-rate-measurement.md) (rate-versus-localised-attack interpretation), and [pitting-and-crevice-corrosion](pitting-and-crevice-corrosion.md) (morphology distinction).
 
 ## What is MIC?
 
@@ -51,7 +51,7 @@ Real-world MIC settings host **community consortia**, not single populations —
 
 MIC reliably appears in services that combine water, low or intermittent flow, and a nutrient source (sulfate, organics, or atmospheric oxygen):
 
-- **Atmospheric storage tanks** — water-bottom corrosion at the floor plate, governed by [[api-653]] §6 in-service inspection and bottom-plate magnetic-flux-leakage (MFL) screening.
+- **Atmospheric storage tanks** — water-bottom corrosion at the floor plate, governed by [api-653](../standards/api-653.md) §6 in-service inspection and bottom-plate magnetic-flux-leakage (MFL) screening.
 - **Produced-water injection systems** — re-injected water carries indigenous SRB/APB communities; injection-well tubulars and water-handling piping are recurrent MIC sites.
 - **Fire-water and utility-water systems** — stagnant or intermittent service, often in low-alloy carbon steel, with no continuous chemical treatment.
 - **Dead legs** — branch lines, instrument tappings, vent and drain stubs, and pump-spare suction headers where flow is absent or intermittent and fluid chemistry diverges from the bulk.
@@ -68,7 +68,7 @@ MIC detection is multi-modal because no single technique simultaneously confirms
 - **MMM probes / online bioactivity sensors** — continuous monitoring of bioactivity at fixed points in a system.
 - **Sessile-versus-planktonic sampling distinction** — planktonic (bulk-fluid) microbial counts can be orders of magnitude lower than sessile (biofilm-associated) counts; a defensible MIC programme samples both.
 - **FeS deposit characterisation** — XRD and SEM-EDS confirm iron-sulfide phases (mackinawite, pyrrhotite, pyrite) at suspect attack sites, supporting an SRB attribution.
-- **Hemispherical-pit morphology** — visual / replica / borescope evidence of cup-and-cone or tunnelled hemispherical pitting under an EPS-bearing deposit, distinct from chloride-driven CRA pitting (see [[pitting-and-crevice-corrosion]]).
+- **Hemispherical-pit morphology** — visual / replica / borescope evidence of cup-and-cone or tunnelled hemispherical pitting under an EPS-bearing deposit, distinct from chloride-driven CRA pitting (see [pitting-and-crevice-corrosion](pitting-and-crevice-corrosion.md)).
 
 A defensible MIC attribution combines a positive community-detection result (qPCR or sessile culture) with a metal-loss observation (UT, MFL, or coupon mass-loss) at the same location.
 
@@ -88,34 +88,34 @@ MIC mitigation follows a tiered hierarchy, applied in combination rather than si
 
 In-service MIC monitoring layers three evidence streams at known MIC-risk Condition Monitoring Locations (CMLs):
 
-- **Coupons per [[ampp-sp0775]]** — *Preparation, Installation, Analysis, and Interpretation of Corrosion Coupons in Oilfield Operations.* Coupon mass-loss and pit-depth are the field calibration ground truth and drive the *short-term* corrosion-rate input that pairs with UT-survey LTCR per [[corrosion-rate-measurement]].
+- **Coupons per [ampp-sp0775](../standards/ampp-sp0775.md)** — *Preparation, Installation, Analysis, and Interpretation of Corrosion Coupons in Oilfield Operations.* Coupon mass-loss and pit-depth are the field calibration ground truth and drive the *short-term* corrosion-rate input that pairs with UT-survey LTCR per [corrosion-rate-measurement](corrosion-rate-measurement.md).
 - **Biocide-bleed monitoring** — residual biocide concentration trending against bioactivity (ATP / qPCR) confirms the treatment programme is reaching the susceptible CMLs.
 - **qPCR community profiling** — periodic sessile-and-planktonic sampling at MIC-risk CMLs (dead legs, water-bottoms, low-flow branches) to detect community shifts that precede measurable metal loss.
 
-The monitoring loop closes through [[damage-mechanism-screening]]: a positive qPCR or coupon excursion re-classifies the CML's MIC credibility from *possible* to *probable* or *definite*, which propagates back into the asset's RBI POF score and its inspection-interval setting.
+The monitoring loop closes through [damage-mechanism-screening](damage-mechanism-screening.md): a positive qPCR or coupon excursion re-classifies the CML's MIC credibility from *possible* to *probable* or *definite*, which propagates back into the asset's RBI POF score and its inspection-interval setting.
 
 ## Standards
 
 Bidirectional cross-references — each standards page below should cross-link back to this concept page once the convention propagates.
 
-- [[api-rp-571]] — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* MIC is catalogued in §4 as a loss-of-thickness mechanism; the trigger criteria (water + low-flow + sulfate or organic-acid source) are the screening reference for MIC credibility.
-- [[api-510]] — *Pressure Vessel Inspection Code.* In-service inspection consumer; vessels with stagnant water-bottoms or low-flow internals carry MIC-driven CML programmes.
-- [[api-570]] — *Piping Inspection Code.* In-service inspection consumer; piping-circuit screening flags dead legs, drains, and intermittent-service stubs as MIC-credible CMLs.
-- [[api-653]] — *Atmospheric Storage Tank Inspection Code.* In-service inspection consumer; §6 internal inspection drives the bottom-MFL + coupon programme that detects soil-side and water-bottom MIC on tank floors.
-- [[api-rp-574]] — *Inspection Practices for Piping System Components.* CML-practice reference for piping; identifies dead-leg geometries and the UT-thickness conventions that capture MIC under-deposit attack.
-- [[ampp-sp0775]] — *Preparation, Installation, Analysis, and Interpretation of Corrosion Coupons in Oilfield Operations.* Coupon-station practice underpinning MIC-prone-service monitoring; pairs with biocide-bleed and qPCR streams in the integrated monitoring programme.
+- [api-rp-571](../standards/api-rp-571.md) — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* MIC is catalogued in §4 as a loss-of-thickness mechanism; the trigger criteria (water + low-flow + sulfate or organic-acid source) are the screening reference for MIC credibility.
+- [api-510](../standards/api-510.md) — *Pressure Vessel Inspection Code.* In-service inspection consumer; vessels with stagnant water-bottoms or low-flow internals carry MIC-driven CML programmes.
+- [api-570](../standards/api-570.md) — *Piping Inspection Code.* In-service inspection consumer; piping-circuit screening flags dead legs, drains, and intermittent-service stubs as MIC-credible CMLs.
+- [api-653](../standards/api-653.md) — *Atmospheric Storage Tank Inspection Code.* In-service inspection consumer; §6 internal inspection drives the bottom-MFL + coupon programme that detects soil-side and water-bottom MIC on tank floors.
+- [api-rp-574](../standards/api-rp-574.md) — *Inspection Practices for Piping System Components.* CML-practice reference for piping; identifies dead-leg geometries and the UT-thickness conventions that capture MIC under-deposit attack.
+- [ampp-sp0775](../standards/ampp-sp0775.md) — *Preparation, Installation, Analysis, and Interpretation of Corrosion Coupons in Oilfield Operations.* Coupon-station practice underpinning MIC-prone-service monitoring; pairs with biocide-bleed and qPCR streams in the integrated monitoring programme.
 - **NACE TM-0212** — *Detection, Testing, and Evaluation of Microbiologically Influenced Corrosion on Internal Surfaces of Pipelines.* Microbial surveillance and sampling-practice reference; future first-class standards page candidate.
 - **NACE TM-0194** — *Field Monitoring of Bacterial Growth in Oil and Gas Systems.* Sibling field-monitoring practice; future first-class standards page candidate.
 
 ## Related concepts
 
-- [[damage-mechanism-screening]] — upstream credible-mechanism gate; MIC enters the per-asset shortlist when service conditions match the §4 trigger criteria (water + low-flow + nutrient source).
-- [[corrosion-rate-measurement]] — paired metric; MIC is "highly variable; often manifests as locally accelerated pitting under biofilm rather than as a uniform rate" (cross-ref: rate table in that page), which means a single rate-of-loss number under-represents the MIC threat.
-- [[pitting-and-crevice-corrosion]] — morphology overlap; MIC pits superficially resemble chloride pitting on stainless and carbon steel but carry a biofilm signature, an iron-sulfide deposit (for SRB-driven cases), and a hemispherical-with-tunnelling sub-pit structure that distinguishes them on cross-section.
+- [damage-mechanism-screening](damage-mechanism-screening.md) — upstream credible-mechanism gate; MIC enters the per-asset shortlist when service conditions match the §4 trigger criteria (water + low-flow + nutrient source).
+- [corrosion-rate-measurement](corrosion-rate-measurement.md) — paired metric; MIC is "highly variable; often manifests as locally accelerated pitting under biofilm rather than as a uniform rate" (cross-ref: rate table in that page), which means a single rate-of-loss number under-represents the MIC threat.
+- [pitting-and-crevice-corrosion](pitting-and-crevice-corrosion.md) — morphology overlap; MIC pits superficially resemble chloride pitting on stainless and carbon steel but carry a biofilm signature, an iron-sulfide deposit (for SRB-driven cases), and a hemispherical-with-tunnelling sub-pit structure that distinguishes them on cross-section.
 
 ## Source materials
 
-- [og-standards-api](../sources/og-standards-api.md) — parent source page for the [[api-rp-571]] / [[api-510]] / [[api-570]] / [[api-rp-574]] / [[api-653]] catalogue references underpinning the screening, inspection, and CML-practice framework above.
+- [og-standards-api](../sources/og-standards-api.md) — parent source page for the [api-rp-571](../standards/api-rp-571.md) / [api-510](../standards/api-510.md) / [api-570](../standards/api-570.md) / [api-rp-574](../standards/api-rp-574.md) / [api-653](../standards/api-653.md) catalogue references underpinning the screening, inspection, and CML-practice framework above.
 
 ## Notes
 

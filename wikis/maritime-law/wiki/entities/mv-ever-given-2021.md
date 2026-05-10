@@ -8,13 +8,13 @@ added: 2026-04-07
 last_updated: 2026-05-09
 domain: maritime-law
 cross_links:
-  - ../../standards/salvage-convention-1989.md
-  - ../../concepts/salvage-convention-1989.md
-  - ../../standards/llmc-1996.md
-  - ../../concepts/llmc-1996.md
-  - ../../concepts/general-average.md
-  - ../../standards/york-antwerp-rules.md
-  - ../../concepts/charterparties.md
+  - ../standards/salvage-convention-1989.md
+  - ../concepts/salvage-convention-1989.md
+  - ../standards/llmc-1996.md
+  - ../concepts/llmc-1996.md
+  - ../concepts/general-average.md
+  - ../standards/york-antwerp-rules.md
+  - ../concepts/charterparties.md
 ---
 
 # MV EVER GIVEN (2021)

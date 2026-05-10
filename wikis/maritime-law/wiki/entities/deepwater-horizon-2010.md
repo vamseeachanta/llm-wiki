@@ -8,10 +8,10 @@ added: 2026-04-07
 last_updated: 2026-05-09
 domain: maritime-law
 cross_links:
-  - ../../concepts/opa-90.md
-  - ../../standards/opa-90.md
-  - ../../concepts/limitation-of-liability.md
-  - ../../concepts/environmental-liability.md
+  - ../concepts/opa-90.md
+  - ../standards/opa-90.md
+  - ../concepts/limitation-of-liability.md
+  - ../concepts/environmental-liability.md
   - ../../../marine-engineering/wiki/concepts/process-safety.md
 ---
 

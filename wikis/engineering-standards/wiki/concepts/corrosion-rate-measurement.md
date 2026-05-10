@@ -18,20 +18,20 @@ sources:
 
 # Corrosion-Rate Measurement and Estimation
 
-> Concept anchor for the rate-of-metal-loss metric that drives remaining-life calculations and inspection-interval setting under [[api-510]], [[api-570]], and [[api-653]]. Bidirectional with [[risk-based-inspection]] (POF input) and [[fitness-for-service]] (remaining-life input). Distinct from [[pitting-and-crevice-corrosion]], which is depth-driven, not rate-driven.
+> Concept anchor for the rate-of-metal-loss metric that drives remaining-life calculations and inspection-interval setting under [api-510](../standards/api-510.md), [api-570](../standards/api-570.md), and [api-653](../standards/api-653.md). Bidirectional with [risk-based-inspection](risk-based-inspection.md) (POF input) and [fitness-for-service](fitness-for-service.md) (remaining-life input). Distinct from [pitting-and-crevice-corrosion](pitting-and-crevice-corrosion.md), which is depth-driven, not rate-driven.
 
 ## What is corrosion rate?
 
 **Corrosion rate** is the loss of metal per unit time, expressed as a thickness-loss rate (mils-per-year, *mpy*; mm/yr; μm/yr) or as a mass-loss rate per unit area (g/m²·day, mg/dm²·day). It is the headline metric that drives three downstream engineering decisions:
 
 - **Remaining-life calculation** — how long the component can stay in service before its measured wall thickness reaches the code-minimum retiring thickness.
-- **Inspection-interval setting** — how soon the next [[api-510]] / [[api-570]] / [[api-653]] inspection must occur, given the rate of consumption of remaining wall.
+- **Inspection-interval setting** — how soon the next [api-510](../standards/api-510.md) / [api-570](../standards/api-570.md) / [api-653](../standards/api-653.md) inspection must occur, given the rate of consumption of remaining wall.
 - **Material-replacement decisions** — when to upgrade metallurgy, add corrosion allowance, install a coating, energise cathodic protection, or inject inhibitor.
 
 In-service inspection codes operationalise corrosion rate in two forms:
 
 - **LTCR — long-term corrosion rate** = (T_initial − T_actual) / (years in service from the oldest credible thickness reference). Smooths through transient excursions; reflects the bulk damage history.
-- **STCR — short-term corrosion rate** = (T_previous − T_actual) / (years between the two most recent thickness measurements). Catches recent damage acceleration that LTCR may dilute. Per [[api-510]] / [[api-570]] / [[api-653]] practice, the **larger** of LTCR and STCR governs the next inspection interval — a conservative selection rule that prevents an averaging-out of recent process upset.
+- **STCR — short-term corrosion rate** = (T_previous − T_actual) / (years between the two most recent thickness measurements). Catches recent damage acceleration that LTCR may dilute. Per [api-510](../standards/api-510.md) / [api-570](../standards/api-570.md) / [api-653](../standards/api-653.md) practice, the **larger** of LTCR and STCR governs the next inspection interval — a conservative selection rule that prevents an averaging-out of recent process upset.
 
 ## Three measurement modalities
 
@@ -49,12 +49,12 @@ Corrosion-rate evidence reaches the engineer through three operationally distinc
 
 The in-service path from instrument reading to inspection-interval is codified in the API inspection trilogy:
 
-1. **CML selection.** The owner-user designates **Condition Monitoring Locations (CMLs)** per [[api-510]] / [[api-570]] / [[api-653]] — discrete repeatable points on the equipment where wall thickness will be tracked over time. CML density and placement reflect the credible damage mechanisms (high-velocity elbows, dead legs, weld heat-affected zones, vapour-space-to-liquid interfaces, soil-air interfaces on tank shells).
+1. **CML selection.** The owner-user designates **Condition Monitoring Locations (CMLs)** per [api-510](../standards/api-510.md) / [api-570](../standards/api-570.md) / [api-653](../standards/api-653.md) — discrete repeatable points on the equipment where wall thickness will be tracked over time. CML density and placement reflect the credible damage mechanisms (high-velocity elbows, dead legs, weld heat-affected zones, vapour-space-to-liquid interfaces, soil-air interfaces on tank shells).
 2. **Periodic UT thickness survey.** Each CML is measured on the inspection schedule (typically with manual UT or AUT). Results are entered into the equipment thickness history database with date and technician traceability.
 3. **Rate computation per CML.** For every CML on every survey, compute LTCR and STCR. Flag CMLs where STCR > LTCR (recent acceleration) for engineering review.
-4. **Remaining-life per CML.** Remaining life = (T_actual − T_min) / max(LTCR, STCR), where T_min is the code-minimum thickness from the [[api-std-579]] FFS Level-1 screening or from the original-construction-code retiring thickness, whichever the operator's integrity programme designates.
+4. **Remaining-life per CML.** Remaining life = (T_actual − T_min) / max(LTCR, STCR), where T_min is the code-minimum thickness from the [api-std-579](../standards/api-std-579.md) FFS Level-1 screening or from the original-construction-code retiring thickness, whichever the operator's integrity programme designates.
 5. **Inspection-interval setting.** The next inspection date for the equipment item is set by the most-aggressive CML's remaining life, capped by the code's maximum-interval rule (half-life or absolute cap, whichever is shorter).
-6. **RBI feedback.** [[risk-based-inspection|RBI]] consumes the corrosion-rate trends as a primary POF input — both the rate magnitude and the rate trend (accelerating, stable, decelerating) modify the asset's failure-probability score for the next RBI re-evaluation cycle.
+6. **RBI feedback.** [RBI](risk-based-inspection.md) consumes the corrosion-rate trends as a primary POF input — both the rate magnitude and the rate trend (accelerating, stable, decelerating) modify the asset's failure-probability score for the next RBI re-evaluation cycle.
 
 ## Damage-mechanism corrosion rates
 
@@ -64,7 +64,7 @@ Indicative ranges for common damage mechanisms — these are illustrative, not n
 |---|---|
 | General atmospheric corrosion (carbon steel, temperate climate) | 25 – 150 μm/yr |
 | Sour-service carbon-steel corrosion (H2S + Cl⁻ + water) | 100 – 1000 μm/yr |
-| CRA pitting (after CPT exceeded) | localised — depth-driven, not rate-driven; see [[pitting-and-crevice-corrosion]] |
+| CRA pitting (after CPT exceeded) | localised — depth-driven, not rate-driven; see [pitting-and-crevice-corrosion](pitting-and-crevice-corrosion.md) |
 | Sulfidation (refinery hot piping) | per the **Couper–Gorman** or **McConomy** curves (sulfur content, temperature, alloy class) |
 | CO2 corrosion (sweet O&G production) | per the **de Waard–Milliams** model with chloride, H2S, and flow-regime modifiers |
 | Microbiologically Influenced Corrosion (MIC) | highly variable; often manifests as locally accelerated pitting under biofilm rather than as a uniform rate |
@@ -87,10 +87,10 @@ Bridging the two — choosing which lab data are predictive for which field serv
 
 Bidirectional cross-references — each standards page below should cross-link back to this concept page once the convention propagates.
 
-- [[astm-g48]] — Pitting and Crevice Corrosion Tests in FeCl3; **depth-and-attack-rating output, not a rate-of-loss test** — included here because the G48 mass-loss output is sometimes mis-reported as a "rate" when it is in fact an exposure-window-bounded mass loss. See [[pitting-and-crevice-corrosion]] for the localised-attack metric framework.
-- [[api-510]] — Pressure Vessel Inspection Code; consumes LTCR/STCR for vessel inspection-interval setting.
-- [[api-570]] — Piping Inspection Code; consumes LTCR/STCR for piping-circuit inspection-interval setting and CML-level remaining-life calculation.
-- [[api-653]] — Atmospheric Storage Tank Inspection Code; consumes LTCR/STCR for tank shell, bottom, and roof inspection-interval setting.
+- [astm-g48](../standards/astm-g48.md) — Pitting and Crevice Corrosion Tests in FeCl3; **depth-and-attack-rating output, not a rate-of-loss test** — included here because the G48 mass-loss output is sometimes mis-reported as a "rate" when it is in fact an exposure-window-bounded mass loss. See [pitting-and-crevice-corrosion](pitting-and-crevice-corrosion.md) for the localised-attack metric framework.
+- [api-510](../standards/api-510.md) — Pressure Vessel Inspection Code; consumes LTCR/STCR for vessel inspection-interval setting.
+- [api-570](../standards/api-570.md) — Piping Inspection Code; consumes LTCR/STCR for piping-circuit inspection-interval setting and CML-level remaining-life calculation.
+- [api-653](../standards/api-653.md) — Atmospheric Storage Tank Inspection Code; consumes LTCR/STCR for tank shell, bottom, and roof inspection-interval setting.
 - **ASTM G1** — *Preparing, Cleaning, and Evaluating Corrosion Test Specimens.* Future first-class standards page candidate.
 - **ASTM G3** — *Conventions Applicable to Electrochemical Measurements in Corrosion Testing.* Future first-class standards page candidate.
 - **ASTM G31** — *Laboratory Immersion Corrosion Testing of Metals.* Future first-class standards page candidate.
@@ -98,20 +98,20 @@ Bidirectional cross-references — each standards page below should cross-link b
 - **ASTM G102** — *Calculation of Corrosion Rates and Related Information from Electrochemical Measurements.* Future first-class standards page candidate.
 - **ASTM G106** — *Verification of Algorithm and Equipment for Electrochemical Impedance Measurements.* Future first-class standards page candidate.
 - **API RP 571** — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* Catalogue used to interpret which mechanism a measured rate represents. Future first-class standards page candidate.
-- **API RP 574** — *Inspection Practices for Piping System Components.* CML practice and UT thickness conventions consumed by [[api-570]]. Future first-class standards page candidate.
+- **API RP 574** — *Inspection Practices for Piping System Components.* CML practice and UT thickness conventions consumed by [api-570](../standards/api-570.md). Future first-class standards page candidate.
 - **NACE SP0775** — *Preparation, Installation, Analysis, and Interpretation of Corrosion Coupons in Oilfield Operations.* On-line corrosion monitoring / coupon-station practice. Future first-class standards page candidate.
 
 ## Related concepts
 
-- [[risk-based-inspection]] — POF input; corrosion-rate magnitude and trend feed the asset's failure-probability score in every RBI re-evaluation cycle.
-- [[fitness-for-service]] — remaining-life input; FFS Level-1/2/3 thinning assessments consume the LTCR/STCR pair to compute the run/repair/replace verdict for thinned components.
-- [[pitting-and-crevice-corrosion]] — different metric: localised attack is depth-driven (and CPT/CCT-screened), not rate-of-loss-driven. A general rate of loss does not characterise pitting damage.
-- [[cathodic-protection]] — rate-suppression mechanism for buried, immersed, and CP-protected structures; a properly-energised CP system drives the structure-to-electrolyte potential into the immune region and collapses the corrosion rate to near-zero. Surveys of CP-on-potential, off-potential, and current density are themselves an indirect corrosion-rate measurement.
+- [risk-based-inspection](risk-based-inspection.md) — POF input; corrosion-rate magnitude and trend feed the asset's failure-probability score in every RBI re-evaluation cycle.
+- [fitness-for-service](fitness-for-service.md) — remaining-life input; FFS Level-1/2/3 thinning assessments consume the LTCR/STCR pair to compute the run/repair/replace verdict for thinned components.
+- [pitting-and-crevice-corrosion](pitting-and-crevice-corrosion.md) — different metric: localised attack is depth-driven (and CPT/CCT-screened), not rate-of-loss-driven. A general rate of loss does not characterise pitting damage.
+- [cathodic-protection](cathodic-protection.md) — rate-suppression mechanism for buried, immersed, and CP-protected structures; a properly-energised CP system drives the structure-to-electrolyte potential into the immune region and collapses the corrosion rate to near-zero. Surveys of CP-on-potential, off-potential, and current density are themselves an indirect corrosion-rate measurement.
 
 ## Source materials
 
 - [og-standards-astm-g-series](../sources/og-standards-astm-g-series.md) — parent source page for the ASTM G-series slice of the local catalog; records the G1 / G3 / G31 / G59 / G102 / G106 references underpinning the laboratory-modality column above.
-- [og-standards-api](../sources/og-standards-api.md) — parent source page for the API inspection-trilogy ([[api-510]] / [[api-570]] / [[api-653]]) plus API RP 571 / RP 574 that frame the in-service workflow.
+- [og-standards-api](../sources/og-standards-api.md) — parent source page for the API inspection-trilogy ([api-510](../standards/api-510.md) / [api-570](../standards/api-570.md) / [api-653](../standards/api-653.md)) plus API RP 571 / RP 574 that frame the in-service workflow.
 
 ## Notes
 

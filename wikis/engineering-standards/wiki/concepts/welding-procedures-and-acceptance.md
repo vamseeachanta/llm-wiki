@@ -42,7 +42,7 @@ Variables in a WPS are categorised by the governing standard:
 | **Supplementary essential** | Affects notch toughness when toughness is in scope | New PQR if toughness testing is required |
 | **Nonessential** | Documentation / convenience parameters | WPS revision, no requalification |
 
-Each governing standard publishes its own **enumerated list** of which variable falls into which class — the lists differ between [[asme-bpvc-ix]], [[api-std-1104]], and [[aws-d1-1]], so a WPS qualified to one code is *not* automatically valid under another. Cross-code dual-qualification is common at facility-pipeline interfaces (compressor stations, pump stations) and is an explicit operator deliverable.
+Each governing standard publishes its own **enumerated list** of which variable falls into which class — the lists differ between [asme-bpvc-ix](../standards/asme-bpvc-ix.md), [api-std-1104](../standards/api-std-1104.md), and [aws-d1-1](../standards/aws-d1-1.md), so a WPS qualified to one code is *not* automatically valid under another. Cross-code dual-qualification is common at facility-pipeline interfaces (compressor stations, pump stations) and is an explicit operator deliverable.
 
 ## Three governing-standard families
 
@@ -50,23 +50,23 @@ Welding qualification in the western codes splits cleanly into three application
 
 | Application | Standard | Notes |
 |---|---|---|
-| Pressure vessels & process piping | [[asme-bpvc-ix]] (with B31.x construction codes) | Most exhaustive variable lists; PQR + WPQ explicit; toughness via supplementary-essential variables when required by construction code. |
-| Pipelines (cross-country transmission, gathering, distribution) | [[api-std-1104]] | Mechanical-test driven (tensile, nick-break, bend); less prescriptive on supplementary-essential variables; ECA route via Annex A. |
-| Structural (bridges, buildings, fixed offshore jackets) | [[aws-d1-1]] (carbon/low-alloy steel), AWS D1.2 (aluminium), AWS D1.5 (bridges) | **Pre-qualified WPS option** for many common joints — qualification by reference instead of by coupon test. |
+| Pressure vessels & process piping | [asme-bpvc-ix](../standards/asme-bpvc-ix.md) (with B31.x construction codes) | Most exhaustive variable lists; PQR + WPQ explicit; toughness via supplementary-essential variables when required by construction code. |
+| Pipelines (cross-country transmission, gathering, distribution) | [api-std-1104](../standards/api-std-1104.md) | Mechanical-test driven (tensile, nick-break, bend); less prescriptive on supplementary-essential variables; ECA route via Annex A. |
+| Structural (bridges, buildings, fixed offshore jackets) | [aws-d1-1](../standards/aws-d1-1.md) (carbon/low-alloy steel), AWS D1.2 (aluminium), AWS D1.5 (bridges) | **Pre-qualified WPS option** for many common joints — qualification by reference instead of by coupon test. |
 
-Filler-metal classification is itself a substantial subsystem and is summarised in [[aws-filler-metal-overview]]; the AWS A5.x specifications are referenced normatively from all three families above.
+Filler-metal classification is itself a substantial subsystem and is summarised in [aws-filler-metal-overview](../standards/aws-filler-metal-overview.md); the AWS A5.x specifications are referenced normatively from all three families above.
 
 ## Mechanical qualification tests
 
 Qualification coupons are destructively tested. The test menu and specimen geometry are typically called out in the welding code with the *test method* delegated to ASTM:
 
-- **Cross-weld tensile (transverse).** The coupon must break in the parent material, or in the weld at or above the parent material's specified minimum tensile strength. Specimen prep per [[astm-a370]].
+- **Cross-weld tensile (transverse).** The coupon must break in the parent material, or in the weld at or above the parent material's specified minimum tensile strength. Specimen prep per [astm-a370](../standards/astm-a370.md).
 - **Bend tests (face / root / side).** Guided-bend specimens are bent around a mandrel; acceptance is on the maximum allowable open-defect length on the convex face after bending. API 1104 sets a 1/8 in (3.2 mm) crack limit; ASME BPVC IX sets its own equivalent. Side-bend is used in lieu of face/root for thicker material.
 - **Nick-break.** A notched specimen broken open to expose the weld cross-section; acceptance on aggregate area of porosity, slag, and incomplete fusion visible on the fracture surface.
 - **Macro-etch.** A polished and etched cross-section examined for incomplete penetration, incomplete fusion, slag, and crack indications. Required for fillet welds and for some groove-weld configurations.
 - **Hardness survey.** Vickers HV<sub>10</sub> traverse across parent / HAZ / weld metal; acceptance limits depend on service. Sour service (see below) caps HAZ hardness at 250 HV (API 1104 Annex A / ISO 15156).
-- **Charpy V-notch (CVN) impact.** Notch-toughness screening at the lowest service temperature; subsize specimens (5 mm, 7.5 mm) are common for pipe wall thicknesses below the standard 10 mm. Method per [[astm-a370]] / ASTM E23.
-- **CTOD / J-integral.** Fracture-mechanics toughness inputs for engineering-critical-assessment work; required when ECA acceptance is invoked. Method per ASTM E1820, BS 7448, or ISO 12135. See [[fracture-toughness-measurement]].
+- **Charpy V-notch (CVN) impact.** Notch-toughness screening at the lowest service temperature; subsize specimens (5 mm, 7.5 mm) are common for pipe wall thicknesses below the standard 10 mm. Method per [astm-a370](../standards/astm-a370.md) / ASTM E23.
+- **CTOD / J-integral.** Fracture-mechanics toughness inputs for engineering-critical-assessment work; required when ECA acceptance is invoked. Method per ASTM E1820, BS 7448, or ISO 12135. See [fracture-toughness-measurement](fracture-toughness-measurement.md).
 
 Most welding codes call ASTM A370 / E8 / E23 by reference for *how* to make and test the specimens, while reserving the *acceptance limit* to the welding code itself.
 
@@ -92,51 +92,51 @@ When a flaw fails workmanship-based acceptance but is not actually structurally 
 The standard ECA workflow:
 
 1. **Flaw characterisation.** AUT or PAUT sizing of length, height, depth-from-surface, ligament, and orientation. Sizing tolerances are an explicit input to the assessment.
-2. **Fracture-toughness data.** CTOD or J-integral test results at the lowest service temperature, on weld metal and HAZ, from the qualified WPS. See [[fracture-toughness-measurement]].
+2. **Fracture-toughness data.** CTOD or J-integral test results at the lowest service temperature, on weld metal and HAZ, from the qualified WPS. See [fracture-toughness-measurement](fracture-toughness-measurement.md).
 3. **Stress analysis.** Primary stress (axial, bending, internal pressure), secondary stress (thermal, displacement-controlled), residual stress (as-welded or post-PWHT) — summed per the chosen code's residual-stress profile.
-4. **FAD assessment.** Plot the flaw on the Failure Assessment Diagram in K<sub>r</sub> – L<sub>r</sub> space; flaws inside the curve are acceptable, outside are not. Methodology shared with [[fitness-for-service]].
+4. **FAD assessment.** Plot the flaw on the Failure Assessment Diagram in K<sub>r</sub> – L<sub>r</sub> space; flaws inside the curve are acceptable, outside are not. Methodology shared with [fitness-for-service](fitness-for-service.md).
 5. **Run / repair decision.** Document acceptance with operator and certifying-authority sign-off; or repair and re-NDE.
 
 Code routes:
 
-- **Pipeline girth welds — [[api-std-1104]] Annex A.** The North American hook for ECA on new-construction and tie-in welds.
-- **General fabrication — [[bs-7910-flaw-assessment]].** The detailed methodology referenced from API 1104 Annex A and used directly in EU / UK / offshore fabrication.
-- **In-service flaws — [[api-std-579]] (API 579-1 / ASME FFS-1).** For flaws found *after* commissioning. See [[fitness-for-service]] for the in-service framing.
+- **Pipeline girth welds — [api-std-1104](../standards/api-std-1104.md) Annex A.** The North American hook for ECA on new-construction and tie-in welds.
+- **General fabrication — [bs-7910-flaw-assessment](../standards/bs-7910-flaw-assessment.md).** The detailed methodology referenced from API 1104 Annex A and used directly in EU / UK / offshore fabrication.
+- **In-service flaws — [api-std-579](../standards/api-std-579.md) (API 579-1 / ASME FFS-1).** For flaws found *after* commissioning. See [fitness-for-service](fitness-for-service.md) for the in-service framing.
 
 ECA is conditional on the upstream WPS having been qualified to produce welds with toughness compatible with the assessment — an ECA cannot rescue a procedure that did not test for CTOD in the first place.
 
 ## Sour-service welding
 
-Welds destined for wet H<sub>2</sub>S service (oil and gas with sulphide partial pressure above the [[iso-15156]] threshold) carry additional constraints aimed at preventing sulphide stress cracking (SSC) and hydrogen-induced cracking (HIC):
+Welds destined for wet H<sub>2</sub>S service (oil and gas with sulphide partial pressure above the [iso-15156](../standards/iso-15156.md) threshold) carry additional constraints aimed at preventing sulphide stress cracking (SSC) and hydrogen-induced cracking (HIC):
 
 - **Hardness control in the HAZ.** Cap typically **250 HV<sub>10</sub>** (API 1104 Annex A / ISO 15156-2) and as low as **275 HV<sub>10</sub>** for some carbon-steel families; higher hardness correlates with SSC susceptibility. Achieved by heat-input control, preheat, and PWHT.
 - **Post-weld heat treatment (PWHT).** Stress-relief at code-specified temperature and hold time, sized to wall thickness. PWHT reduces residual stress and tempers martensitic HAZ. Construction-code rules for PWHT live in ASME BPVC VIII / B31.3 / B31.4 / B31.8; the sour-service overlay tightens them.
-- **Filler-metal selection.** Low-residual-element grades (low S, P, low diffusible hydrogen E-Hx low classifications); for severe sour service, Cr-Mo grades or duplex / nickel-alloy fillers. See [[aws-filler-metal-overview]] and AWS A5.5 / A5.10 specifications.
+- **Filler-metal selection.** Low-residual-element grades (low S, P, low diffusible hydrogen E-Hx low classifications); for severe sour service, Cr-Mo grades or duplex / nickel-alloy fillers. See [aws-filler-metal-overview](../standards/aws-filler-metal-overview.md) and AWS A5.5 / A5.10 specifications.
 - **Qualification-coupon testing.** Sour-service qualification adds NACE TM0177 SSC testing on the qualification coupon for the target H<sub>2</sub>S partial pressure, alongside the standard mechanical tests.
 
-The governing materials standard is **[[iso-15156]]** (NACE MR0175 / ISO 15156); welding-procedure-specific overlays appear in API 1104 Annex A, ASME B31.4 / B31.8, and operator specifications.
+The governing materials standard is **[iso-15156](../standards/iso-15156.md)** (NACE MR0175 / ISO 15156); welding-procedure-specific overlays appear in API 1104 Annex A, ASME B31.4 / B31.8, and operator specifications.
 
 ## Standards
 
 Bidirectional links — each of the standards pages below references this concept page in turn:
 
-- [[api-std-1104]] — pipeline welding, mechanical-test-driven qualification, ECA via Annex A.
-- [[asme-bpvc-ix]] — generalised welding / brazing / fusing qualification, exhaustive essential / supplementary-essential / nonessential variable lists.
-- [[aws-d1-1]] — structural welding code (steel); pre-qualified WPS option.
-- [[aws-filler-metal-overview]] — AWS A5.x consumable classification and selection.
-- [[bs-7910-flaw-assessment]] — ECA methodology (FAD, residual-stress profiles, partial safety factors).
-- [[astm-a370]] — mechanical-test methods called by reference from all three welding-code families.
-- [[iso-15156]] — sour-service materials envelope; constrains welding-procedure hardness and PWHT.
-- [[api-std-579]] — in-service ECA counterpart; applied when flaws are detected post-commissioning.
+- [api-std-1104](../standards/api-std-1104.md) — pipeline welding, mechanical-test-driven qualification, ECA via Annex A.
+- [asme-bpvc-ix](../standards/asme-bpvc-ix.md) — generalised welding / brazing / fusing qualification, exhaustive essential / supplementary-essential / nonessential variable lists.
+- [aws-d1-1](../standards/aws-d1-1.md) — structural welding code (steel); pre-qualified WPS option.
+- [aws-filler-metal-overview](../standards/aws-filler-metal-overview.md) — AWS A5.x consumable classification and selection.
+- [bs-7910-flaw-assessment](../standards/bs-7910-flaw-assessment.md) — ECA methodology (FAD, residual-stress profiles, partial safety factors).
+- [astm-a370](../standards/astm-a370.md) — mechanical-test methods called by reference from all three welding-code families.
+- [iso-15156](../standards/iso-15156.md) — sour-service materials envelope; constrains welding-procedure hardness and PWHT.
+- [api-std-579](../standards/api-std-579.md) — in-service ECA counterpart; applied when flaws are detected post-commissioning.
 
 ## Related concepts
 
 Wikilinks below point to concept pages that may not yet exist — leave as wikilinks for future creation per the spinout's link-and-fill convention.
 
-- [[fitness-for-service]] — the in-service ECA framing; this concept page is the new-build / construction-time counterpart, and the two share the FAD methodology.
-- [[fracture-toughness-measurement]] — K<sub>Ic</sub>, J<sub>Ic</sub>, CTOD, T<sub>0</sub>; the test methods that produce the toughness inputs feeding ECA.
-- [[sour-service-materials]] — H<sub>2</sub>S service envelope per ISO 15156; constrains PWHT and HAZ hardness for welds in scope.
-- [[fatigue-design-and-assessment]] — weld-detail S-N classification (BS 7608, DNV-RP-C203), fatigue crack-growth integration; downstream of weld-procedure-set residual stress and toughness.
+- [fitness-for-service](fitness-for-service.md) — the in-service ECA framing; this concept page is the new-build / construction-time counterpart, and the two share the FAD methodology.
+- [fracture-toughness-measurement](fracture-toughness-measurement.md) — K<sub>Ic</sub>, J<sub>Ic</sub>, CTOD, T<sub>0</sub>; the test methods that produce the toughness inputs feeding ECA.
+- [sour-service-materials](sour-service-materials.md) — H<sub>2</sub>S service envelope per ISO 15156; constrains PWHT and HAZ hardness for welds in scope.
+- [fatigue-design-and-assessment](fatigue-design-and-assessment.md) — weld-detail S-N classification (BS 7608, DNV-RP-C203), fatigue crack-growth integration; downstream of weld-procedure-set residual stress and toughness.
 
 ## Source materials
 

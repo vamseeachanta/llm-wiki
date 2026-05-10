@@ -27,7 +27,7 @@ raw_copy_allowed: false
 
 ## Scope
 
-ASTM G102 is the **calc-bridge standard** that converts a corrosion-current density `i_corr` (μA/cm²), measured by a [[astm-g3]]-conformant electrochemical method, into an engineering-grade **corrosion rate** in penetration units (mm/yr, mils/yr) or mass-loss units (mg/dm²/day, g/m²/day). It does not specify how to obtain `i_corr` — that responsibility lives upstream in [[astm-g5]] (potentiodynamic Tafel extrapolation), [[astm-g59]] (linear polarization resistance, LPR), or [[astm-g106]] (electrochemical impedance spectroscopy, EIS). G102 is the terminal step that turns those measurements into a number a piping/vessel/CRA-selection engineer can act on.
+ASTM G102 is the **calc-bridge standard** that converts a corrosion-current density `i_corr` (μA/cm²), measured by a [astm-g3](astm-g3.md)-conformant electrochemical method, into an engineering-grade **corrosion rate** in penetration units (mm/yr, mils/yr) or mass-loss units (mg/dm²/day, g/m²/day). It does not specify how to obtain `i_corr` — that responsibility lives upstream in [[astm-g5]] (potentiodynamic Tafel extrapolation), [astm-g59](astm-g59.md) (linear polarization resistance, LPR), or [astm-g106](astm-g106.md) (electrochemical impedance spectroscopy, EIS). G102 is the terminal step that turns those measurements into a number a piping/vessel/CRA-selection engineer can act on.
 
 The practice covers four substrate areas:
 
@@ -47,7 +47,7 @@ The local O&G-Standards catalog at `/mnt/ace/O&G-Standards/ASTM/G-Series/` holds
 | G102-89(R99) | `G_102_-_89_R99_RZEWMG_.pdf` | 1 file | 1989 revision, reapproved 1999 |
 | G102 (current) | not on disk | — | The publisher-current ASTM G102 edition is later than the 1999 reapproval (additional reapprovals have been issued in the post-2000 cycle); calc-callers needing the current edition must obtain it from the ASTM catalog |
 
-The publisher catalog year-token sweep done for the [[og-standards-astm-g-series]] source page recorded G102 with **1 edition** in the local catalog, matching the file row above.
+The publisher catalog year-token sweep done for the [og-standards-astm-g-series](../sources/og-standards-astm-g-series.md) source page recorded G102 with **1 edition** in the local catalog, matching the file row above.
 
 ## Key equations
 
@@ -59,13 +59,13 @@ All equations below use SI-consistent units except where the standard's empirica
 
   where `K1 = 3.27 × 10⁻³` (mm·g/μA·cm·yr), `i_corr` in μA/cm², `EW` is dimensionless (g/equivalent), and `ρ` is in g/cm³. A parallel `K3 = 0.129` constant gives mils/yr (mpy) when used with the same `i_corr`/EW/ρ inputs.
 
-- **Faraday mass-loss rate** (alternate output for coupon-rate cross-validation per [[astm-g1]]):
+- **Faraday mass-loss rate** (alternate output for coupon-rate cross-validation per [astm-g1](astm-g1.md)):
 
   $$\mathrm{MR}\ (\mathrm{mg/dm^2/day}) = K_2 \cdot i_{\mathrm{corr}} \cdot \mathrm{EW}$$
 
   where `K2 = 0.0894` (mg·cm²/μA·dm²·day), `i_corr` in μA/cm². The mass-loss form is independent of density and is the form used to compare an in-situ electrochemical sensor reading against a parallel weight-loss coupon.
 
-- **Stern-Geary equation** (the bridge from LPR per [[astm-g59]] to `i_corr`):
+- **Stern-Geary equation** (the bridge from LPR per [astm-g59](astm-g59.md) to `i_corr`):
 
   $$i_{\mathrm{corr}}\ (\mu\mathrm{A/cm^2}) = \frac{B}{R_p}$$
 
@@ -114,19 +114,19 @@ Use the alloy-specific EW from G102 Annex 1 whenever possible. For a non-listed 
 
 Stern-Geary `i_corr = B / R_p` is **valid only when corrosion is activation-controlled (Wagner-Traud regime)** — i.e., the overall rate is limited by the charge-transfer kinetics at the metal/electrolyte interface, both Tafel branches are observable, and the polarization resistance reflects the linear small-overpotential portion of the polarization curve. Outside this regime the G102 calc breaks down:
 
-- **Diffusion-controlled corrosion** (mass-transport-limited oxygen reduction, low-velocity flow, or high-temperature scale-forming systems) does not give a meaningful `b_c`; the cathodic branch is a current plateau rather than a Tafel line. Use [[astm-g106]] EIS with Cole-Cole / equivalent-circuit analysis to extract a charge-transfer resistance separately from the diffusion impedance, and report the `i_corr` decomposition explicitly.
+- **Diffusion-controlled corrosion** (mass-transport-limited oxygen reduction, low-velocity flow, or high-temperature scale-forming systems) does not give a meaningful `b_c`; the cathodic branch is a current plateau rather than a Tafel line. Use [astm-g106](astm-g106.md) EIS with Cole-Cole / equivalent-circuit analysis to extract a charge-transfer resistance separately from the diffusion impedance, and report the `i_corr` decomposition explicitly.
 - **Mixed-control or passivation transitions** (e.g., stainless steels traversing the active-passive transition) violate the constant-`B` assumption; report `B` as a function of potential or fall back to direct Tafel extrapolation per [[astm-g5]].
 - **Localized corrosion** (pitting, crevice) produces a uniform-rate-equivalent `i_corr` that does not represent the local penetration; G102 output is a lower bound on remaining-life impact.
 - **Coupling area mismatch.** `i_corr` is a current-per-unit-area measurement on the working-electrode area; for galvanic couples (per G71) the calc must be applied to the anode area, not the wetted-coupon area.
-- **Cross-validation expectation.** G102 explicitly recommends periodic cross-validation against [[astm-g1]] mass-loss coupon data — disagreement >2× is a flag that the activation-controlled assumption is failing.
+- **Cross-validation expectation.** G102 explicitly recommends periodic cross-validation against [astm-g1](astm-g1.md) mass-loss coupon data — disagreement >2× is a flag that the activation-controlled assumption is failing.
 
 ## Cross-references
 
-- [[astm-g3]] — *Standard Practice for Conventions Applicable to Electrochemical Measurements in Corrosion Testing.* Sign conventions, reference-electrode reporting, and Tafel-slope extraction conventions that G102's inputs (`i_corr`, `b_a`, `b_c`) must obey to be auditable.
-- [[astm-g59]] — *Standard Test Method for Conducting Potentiodynamic Polarization Resistance Measurements.* Primary `R_p` source for the Stern-Geary route into G102 (`i_corr = B / R_p`).
+- [astm-g3](astm-g3.md) — *Standard Practice for Conventions Applicable to Electrochemical Measurements in Corrosion Testing.* Sign conventions, reference-electrode reporting, and Tafel-slope extraction conventions that G102's inputs (`i_corr`, `b_a`, `b_c`) must obey to be auditable.
+- [astm-g59](astm-g59.md) — *Standard Test Method for Conducting Potentiodynamic Polarization Resistance Measurements.* Primary `R_p` source for the Stern-Geary route into G102 (`i_corr = B / R_p`).
 - [[astm-g5]] — *Standard Reference Test Method for Making Potentiodynamic Anodic Polarization Measurements.* Primary `i_corr` source via Tafel extrapolation, and the canonical procedure for measuring `b_a`, `b_c` that determine `B`.
-- [[astm-g106]] — *Standard Practice for Verification of Algorithm and Equipment for Electrochemical Impedance Measurements.* EIS-based alternative to LPR for `R_p` extraction; required when diffusion-controlled or mixed-control conditions invalidate the simple Stern-Geary form.
-- [[astm-g1]] — *Standard Practice for Preparing, Cleaning, and Evaluating Corrosion Test Specimens.* Mass-loss baseline for cross-validating G102 electrochemical-derived rates.
+- [astm-g106](astm-g106.md) — *Standard Practice for Verification of Algorithm and Equipment for Electrochemical Impedance Measurements.* EIS-based alternative to LPR for `R_p` extraction; required when diffusion-controlled or mixed-control conditions invalidate the simple Stern-Geary form.
+- [astm-g1](astm-g1.md) — *Standard Practice for Preparing, Cleaning, and Evaluating Corrosion Test Specimens.* Mass-loss baseline for cross-validating G102 electrochemical-derived rates.
 - [[astm-g46]] — *Standard Guide for Examination and Evaluation of Pitting Corrosion.* Pit-depth morphology data that must be reported alongside G102 uniform-rate output whenever localized attack is suspected.
 - [API RP 571](https://www.api.org/) — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* Damage-mechanism rate context (CO2/H2S/sulfidation/acid corrosion regimes) into which G102 numerical outputs are placed for fitness-for-service work.
 - [NACE SP0775](https://www.ampp.org/) (now AMPP SP0775) — *Preparation, Installation, Analysis, and Interpretation of Corrosion Coupons in Oilfield Operations.* Online corrosion-monitoring corrosion-rate reporting that consumes G102-formatted output from in-line probes.
@@ -135,7 +135,7 @@ Stern-Geary `i_corr = B / R_p` is **valid only when corrosion is activation-cont
 
 ## Sources
 
-- [[og-standards-astm-g-series]] — parent source page for the ASTM G-Series slice of the local catalog; records the single-edition G102 presence, the catalog file path, and the metadata-only extraction policy that scopes this standards page.
+- [og-standards-astm-g-series](../sources/og-standards-astm-g-series.md) — parent source page for the ASTM G-Series slice of the local catalog; records the single-edition G102 presence, the catalog file path, and the metadata-only extraction policy that scopes this standards page.
 - Publisher catalog (current edition for purchase, registration required): https://www.astm.org/g0102-89r15e01.html (or the latest reapproval listing on `astm.org`).
 - On-disk raw PDFs (vendor-derivative, do not copy into git per spinout 2026-05-05 governance):
   - `/mnt/ace/O&G-Standards/ASTM/G-Series/G_102_-_89_R99_RZEWMG_.pdf`

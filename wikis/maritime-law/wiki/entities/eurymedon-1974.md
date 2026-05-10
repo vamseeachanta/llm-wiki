@@ -7,9 +7,9 @@ added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
 cross_links:
-  - ../../concepts/hague-visby-rules.md
-  - ../../concepts/charterparties.md
-  - ../../standards/hague-visby-rules.md
+  - ../concepts/hague-visby-rules.md
+  - ../concepts/charterparties.md
+  - ../standards/hague-visby-rules.md
 ---
 
 # New Zealand Shipping Co Ltd v A M Satterthwaite & Co Ltd ('The Eurymedon') [1975] AC 154

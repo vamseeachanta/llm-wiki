@@ -26,7 +26,7 @@ dissipate energy through crack-tip plasticity. The crack extends
 incrementally as the applied load (or `J` / CTOD) rises — each new
 increment of crack extension `Δa` requires a new increment of driving
 force. This is fundamentally different from the unstable cleavage of
-[[brittle-fracture]]: tearing is not a single catastrophic event but a
+[brittle-fracture](brittle-fracture.md): tearing is not a single catastrophic event but a
 load-history-dependent process that the structure can be operated
 into, paused, inspected, and (within limits) operated through.
 
@@ -43,17 +43,17 @@ line-pipe, ASTM A707 / A350 forgings, P91 power-plant steel, and
 modern ferritic-pearlitic plate — operate **above the brittle-ductile
 transition** for the bulk of service life. Their fracture-toughness
 budget is governed by ductile tearing, not by linear-elastic
-plane-strain `K_Ic` ([[astm-e399]] regime). Consequently:
+plane-strain `K_Ic` ([astm-e399](../standards/astm-e399.md) regime). Consequently:
 
 - FFS Level-2 and Level-3 assessments under
   [API 579-1 / ASME FFS-1](../standards/api-std-579.md) Part 9 and
   [BS 7910 Annex B](../standards/bs-7910-flaw-assessment.md) need
   **`J–R` or CTOD-R curves**, not single-valued `K_Ic`.
-- Pipeline girth-weld [[engineering-critical-assessment]] (ECA)
+- Pipeline girth-weld [engineering-critical-assessment](engineering-critical-assessment.md) (ECA)
   workflows license tolerable flaw sizes by sliding the applied
   driving force up the resistance curve until tearing instability or
   a critical `Δa` is reached.
-- [[leak-before-break]] arguments rely on stable tearing through the
+- [leak-before-break](leak-before-break.md) arguments rely on stable tearing through the
   remaining ligament rather than abrupt cleavage; the LBB margin
   collapses if the operating temperature drops below transition.
 
@@ -70,7 +70,7 @@ plane-strain `K_Ic` ([[astm-e399]] regime). Consequently:
 
 The CTOD-R curve and the `J–R` curve are duals — the same specimen
 yields both. Choice between them is operational: CTOD has a longer
-weldment-ECA tradition (BS 7448 / [[weld-toughness]]); `J` is the
+weldment-ECA tradition (BS 7448 / [weld-toughness](weld-toughness.md)); `J` is the
 modern unified currency in [ASTM E1820](../standards/astm-e1820.md).
 
 ## Tearing instability
@@ -107,7 +107,7 @@ apply ductile-tearing analysis up to a critical `Δa` or a critical
 - `J_applied` versus `J_R(Δa)` *and* the tearing-modulus stability
   check of the previous section.
 
-The FAD construction in [[fitness-for-service]] is the geometric
+The FAD construction in [fitness-for-service](fitness-for-service.md) is the geometric
 union of these checks, with the `K_r` axis built from `J_applied` /
 `J_mat` and the `L_r` axis built from collapse load.
 
@@ -174,35 +174,35 @@ input are non-overlapping.
 
 ## Standards
 
-- [[astm-e1820]] — primary J-R and CTOD-R measurement method; defines
+- [astm-e1820](../standards/astm-e1820.md) — primary J-R and CTOD-R measurement method; defines
   the SSY size requirement, single-specimen compliance procedure, and
   pop-in qualification rules. See
   [`standards/astm-e1820.md`](../standards/astm-e1820.md).
-- [[astm-e399]] — LEFM plane-strain `K_Ic` regime; predecessor /
+- [astm-e399](../standards/astm-e399.md) — LEFM plane-strain `K_Ic` regime; predecessor /
   sub-method that ductile-tearing analysis supersedes once SSY is
   exceeded. See
   [`standards/astm-e399.md`](../standards/astm-e399.md).
-- [[api-std-579]] — Fitness-for-Service consumer; Part 9 crack-like
+- [api-std-579](../standards/api-std-579.md) — Fitness-for-Service consumer; Part 9 crack-like
   flaw assessment ingests the J-R curve as material resistance and
   applies the tearing-modulus stability check. See
   [`standards/api-std-579.md`](../standards/api-std-579.md).
-- [[bs-7910-flaw-assessment]] — UK / international parallel; Annex B
+- [bs-7910-flaw-assessment](../standards/bs-7910-flaw-assessment.md) — UK / international parallel; Annex B
   is the explicit ductile-tearing-analysis route built on R-curve
   inputs. See
   [`standards/bs-7910-flaw-assessment.md`](../standards/bs-7910-flaw-assessment.md).
 
 ## Related concepts
 
-- [[fracture-toughness-measurement]] — parent topic; the parameter
+- [fracture-toughness-measurement](fracture-toughness-measurement.md) — parent topic; the parameter
   families (`K_Ic`, `J_Ic`, CTOD, master curve) of which J-R and
   CTOD-R are the elastic-plastic resistance-curve members.
-- [[brittle-fracture]] — the negative-criterion sibling: cleavage
+- [brittle-fracture](brittle-fracture.md) — the negative-criterion sibling: cleavage
   regime where ductile-tearing analysis does **not** apply.
-- [[fitness-for-service]] — downstream FFS consumer of `J–R` data
+- [fitness-for-service](fitness-for-service.md) — downstream FFS consumer of `J–R` data
   through API 579-1 / BS 7910.
-- [[engineering-critical-assessment]] — pipeline / weldment ECA
+- [engineering-critical-assessment](engineering-critical-assessment.md) — pipeline / weldment ECA
   workflow that licenses tolerable flaw sizes via tearing analysis.
-- [[leak-before-break]] — stability argument that depends on stable
+- [leak-before-break](leak-before-break.md) — stability argument that depends on stable
   tearing through the remaining ligament before through-wall
   penetration triggers loss of containment.
 

@@ -23,16 +23,16 @@ sources:
 > governs materials selection in refinery hydroprocessing, catalytic
 > reforming, and any service exposing ferritic steel to elevated
 > temperature plus hydrogen partial pressure. Bidirectional with
-> [[api-rp-941]] (Nelson curves — primary), [[api-rp-571]] (damage-
-> mechanism catalogue), [[api-rp-581]] (RBI HTHA damage factor),
-> [[hydrogen-embrittlement]] (low-temperature sibling), and
-> [[brittle-fracture]] (the failure mode HTHA produces).
+> [api-rp-941](../standards/api-rp-941.md) (Nelson curves — primary), [api-rp-571](../standards/api-rp-571.md) (damage-
+> mechanism catalogue), [api-rp-581](../standards/api-rp-581.md) (RBI HTHA damage factor),
+> [hydrogen-embrittlement](hydrogen-embrittlement.md) (low-temperature sibling), and
+> [brittle-fracture](brittle-fracture.md) (the failure mode HTHA produces).
 
 ## What is HTHA?
 
 **High-temperature hydrogen attack (HTHA)** is a high-temperature
 hydrogen damage mechanism that is **distinct** from the low-temperature
-hydrogen-embrittlement family ([[hydrogen-embrittlement]] — HE, HISC,
+hydrogen-embrittlement family ([hydrogen-embrittlement](hydrogen-embrittlement.md) — HE, HISC,
 HIC, SOHIC, SSC). HTHA operates above roughly **200 degC (390 degF)**
 and at hydrogen partial pressures above roughly **50 psia (0.34 MPa)**;
 below this regime, the same alloy systems are governed instead by the
@@ -92,7 +92,7 @@ Nelson-curve threshold.
 
 The **Nelson curves** are the family of design curves first published
 by G.A. Nelson (Shell Development) in the 1949 API research framework
-and codified in [[api-rp-941]]. The curves are plotted on a chart of:
+and codified in [api-rp-941](../standards/api-rp-941.md). The curves are plotted on a chart of:
 
 - **x-axis:** operating temperature (degC or degF).
 - **y-axis:** hydrogen partial pressure (psia or MPa absolute).
@@ -114,12 +114,12 @@ requires either:
 
 The curves are an **explicit design surface**, not a probabilistic
 input — a piece of equipment whose duty plots above its alloy's curve
-is **non-conforming** under [[api-rp-941]] and triggers materials-
+is **non-conforming** under [api-rp-941](../standards/api-rp-941.md) and triggers materials-
 upgrade or derating obligations.
 
 ## Alloy ladder
 
-Indicative HTHA limits from the Nelson-curve family in [[api-rp-941]].
+Indicative HTHA limits from the Nelson-curve family in [api-rp-941](../standards/api-rp-941.md).
 **These approximations are illustrative and must not be used for
 design** — for any HTHA screening, plot the actual operating duty
 against the publisher-edition curves directly.
@@ -141,7 +141,7 @@ stabilises the carbide phase against hydrogen attack, shifting the
 curve up and to the right. The choice of alloy is therefore a direct
 function of the (T, pH2) duty envelope — **specify the alloy whose
 curve safely contains the operating point with margin**, then verify
-the selection against the [[api-rp-571]] sulfidation, creep, and PWHT
+the selection against the [api-rp-571](../standards/api-rp-571.md) sulfidation, creep, and PWHT
 constraints that may dominate the choice in adjacent regimes.
 
 ## CSB Tesoro Anacortes 2010
@@ -158,7 +158,7 @@ during welding and PWHT had already degraded the carbide content**,
 leaving a microstructure that could not retain its intergranular
 cohesion against methane-void growth at the operating duty. The duty
 plotted **on or near** the C-0.5Mo Nelson curve in the then-current
-edition of [[api-rp-941]], and the material had been credited with a
+edition of [api-rp-941](../standards/api-rp-941.md), and the material had been credited with a
 margin that the post-incident reassessment found was not robust to
 weld decarburization.
 
@@ -202,7 +202,7 @@ order of reliability:
    audit-and-replace obligation that is now mostly closed, but residual
    C-0.5Mo equipment in older plants remains a tier-1 inspection target.
 5. **RBI-driven inspection prioritisation with HTHA-specific damage
-   factor** — [[api-rp-581]] Part 2 carries a dedicated **HTHA damage
+   factor** — [api-rp-581](../standards/api-rp-581.md) Part 2 carries a dedicated **HTHA damage
    factor (DF\_HTHA)** that combines pH2, T, alloy, and exposure time
    into a quantitative POF input. The HTHA-DF is the principal RBI
    knob for prioritising AUT inspection budget across a refinery's
@@ -217,23 +217,23 @@ load-bearing first line and the inspection chain as backstop.
 Bidirectional links to the standards-page resolvers (each carries
 `code_id`, `publisher`, `revision` frontmatter per the wiki schema):
 
-- [[api-rp-941]] — *Steels for Hydrogen Service at Elevated
+- [api-rp-941](../standards/api-rp-941.md) — *Steels for Hydrogen Service at Elevated
   Temperatures and Pressures in Petroleum Refineries and Petrochemical
   Plants.* **Primary** — holds the Nelson curves themselves and the
   alloy-by-alloy operating-envelope guidance. The 8th-ed (2016)
   disqualification of C-0.5Mo is the post-Tesoro reference point.
-- [[api-rp-571]] — *Damage Mechanisms Affecting Fixed Equipment in the
+- [api-rp-571](../standards/api-rp-571.md) — *Damage Mechanisms Affecting Fixed Equipment in the
   Refining Industry.* The HTHA section catalogues the mechanism,
   affected materials, critical factors, appearance / morphology of
   damage, prevention / mitigation, and inspection / monitoring across
   the refinery damage-mechanism portfolio. Cross-axis with sulfidation,
   creep, and PASCC for the high-temperature regime.
-- [[api-rp-581]] — *Risk-Based Inspection Methodology.* Part 2 carries
+- [api-rp-581](../standards/api-rp-581.md) — *Risk-Based Inspection Methodology.* Part 2 carries
   the HTHA damage factor used as POF input in tier-1 RBI studies.
-- [[api-510]] — *Pressure Vessel Inspection Code.* In-service
+- [api-510](../standards/api-510.md) — *Pressure Vessel Inspection Code.* In-service
   inspection, repair, alteration, and re-rating of refinery pressure
   vessels, including those in HTHA-credible service.
-- [[api-std-579]] — *Fitness-for-Service.* Parts 4 and 5 (general and
+- [api-std-579](../standards/api-std-579.md) — *Fitness-for-Service.* Parts 4 and 5 (general and
   local metal-loss assessment) and Part 10 (creep + high-temperature
   operation, which includes HTHA) are the FFS routes for HTHA-affected
   equipment.

@@ -33,7 +33,7 @@ inspection-programme design needed to manage external degradation of
 insulated piping, pressure vessels, and structural fireproofed members.
 
 It is the **CUI/CUF-specific companion** to the in-service inspection
-codes [[api-510]] (pressure vessels), [[api-std-570]] (piping), and
+codes [api-510](api-510.md) (pressure vessels), [[api-std-570]] (piping), and
 [[api-std-653]] (atmospheric storage tanks). Where those codes define
 **what to inspect and on what interval** (item classification, table-
 based intervals, half-remaining-life rule, RBI alternative), RP 583 fills
@@ -50,14 +50,14 @@ inspection-programme design and risk-factor screening.
 RP 583 is **not** a code — it cannot be invoked as a stand-alone
 compliance authority. It is invoked **through** API 510 / 570 / 653 (or
 the owner-user's written CUI programme) and is the technical-content
-anchor that the [[corrosion-under-insulation]] concept page forward-
+anchor that the [corrosion-under-insulation](../concepts/corrosion-under-insulation.md) concept page forward-
 references.
 
 ## Edition history
 
 | Edition | Year | Catalog status | Notes |
 |---------|------|----------------|-------|
-| 1st ed | 2014 | **not-on-disk** | Inaugural edition; codified the CUI/CUF-screening risk-factor list (operating temperature, climate, insulation type, jacketing condition, age, contaminants), aligned with the API 581 (2nd ed, 2008) CUI damage factor and the [[api-rp-571]] §4 CUI mechanism entry. |
+| 1st ed | 2014 | **not-on-disk** | Inaugural edition; codified the CUI/CUF-screening risk-factor list (operating temperature, climate, insulation type, jacketing condition, age, contaminants), aligned with the API 581 (2nd ed, 2008) CUI damage factor and the [api-rp-571](api-rp-571.md) §4 CUI mechanism entry. |
 | 2nd ed | 2024 | **not-on-disk** | Current published edition. Material updates: expanded through-insulation NDE coverage (PEC, GWUT, RTR, profile RT) reflecting field-deployed maturity since 2014; expanded CISCC-CUI guidance on austenitic stainless steel (the chloride-stress-corrosion cracking mode); re-aligned with API 581 3rd ed (2016) CUI damage factor; expanded fireproofing-specific sub-programme content. |
 
 > **Edition selection.** Both editions are absent from
@@ -176,9 +176,9 @@ metadata-only governance.
   edition expanded this sub-programme content.
 
 - **RBI integration via the API 581 CUI damage factor.** RP 583's
-  risk-factor screening output is the input that the [[api-rp-581]]
+  risk-factor screening output is the input that the [api-rp-581](api-rp-581.md)
   CUI damage-factor module consumes — the screening score, inspection-
-  effectiveness category (A–E from [[api-rp-574]]), and inspection-
+  effectiveness category (A–E from [api-rp-574](api-rp-574.md)), and inspection-
   history coverage combine to drive probability-of-failure and the
   RBI inspection interval. The CUI damage factor is one of the
   longest-running modules in API 581 and has a particularly strong
@@ -186,37 +186,37 @@ metadata-only governance.
 
 ## Cross-references
 
-- **[[api-rp-571]]** — *Damage Mechanisms Affecting Fixed Equipment in
+- **[api-rp-571](api-rp-571.md)** — *Damage Mechanisms Affecting Fixed Equipment in
   the Refining Industry*. CUI sits in §4 (loss-of-thickness mechanisms)
   with CISCC-CUI cross-referenced from §5 (environmentally-assisted
   cracking). RP 583 is the **programme-level practice** that operationalises
   the §4 mechanism description into a screening-and-inspection workflow.
-- **[[api-rp-581]]** — *Risk-Based Inspection Methodology* (quantitative).
+- **[api-rp-581](api-rp-581.md)** — *Risk-Based Inspection Methodology* (quantitative).
   Consumes RP 583's screening-score and risk-factor inputs through the
-  CUI damage factor; combines with [[api-rp-574]] inspection-effectiveness
+  CUI damage factor; combines with [api-rp-574](api-rp-574.md) inspection-effectiveness
   factors A–E to produce the RBI POF and interval.
-- **[[api-510]]** — *Pressure Vessel Inspection Code*. Parent in-service
+- **[api-510](api-510.md)** — *Pressure Vessel Inspection Code*. Parent in-service
   inspection code; defines vessel inspection intervals and item
   classification. RP 583 supplies the CUI-specific methods and risk
   factors that API 510's external-inspection clauses reference.
 - **[[api-std-570]]** — *Piping Inspection Code*. Parent in-service
   inspection code for process piping. Same relationship as API 510:
   RP 583 supplies the CUI-specific methods that API 570 invokes.
-- **[[api-rp-574]]** — *Inspection Practices for Piping System Components*.
+- **[api-rp-574](api-rp-574.md)** — *Inspection Practices for Piping System Components*.
   Sibling inspection-RP that supplies the broader piping-component NDE
   framework (CML selection, UT spot vs. scan, off-stream vs. on-stream).
   RP 583 is the **CUI-specialisation** of that framework — the
   inspection-effectiveness factors A–E from RP 574 apply to RP 583's
   through-insulation methods and gate the API 581 RBI POF.
-- **[[api-rp-577]]** — *Welding Inspection and Metallurgy*. Complementary
+- **[api-rp-577](api-rp-577.md)** — *Welding Inspection and Metallurgy*. Complementary
   NDE-method reference; the surface-NDE techniques (MT, PT, PAUT) used
   on RP 583's insulation-removal-plus-direct-inspection windows are
   documented in RP 577 from the welding-inspection perspective and
   apply equally to repair-weld inspection during CUI repairs.
-- **[[corrosion-under-insulation]]** — concept-page consumer; bidirectional
+- **[corrosion-under-insulation](../concepts/corrosion-under-insulation.md)** — concept-page consumer; bidirectional
   link target. The concept page forward-references RP 583 in its
   *Standards* section; this page is the standards-side anchor.
-- **[[risk-based-inspection]]** — concept-page consumer; RP 583's
+- **[risk-based-inspection](../concepts/risk-based-inspection.md)** — concept-page consumer; RP 583's
   screening output is one of the named damage-factor inputs to the
   RBI workflow.
 - **NACE / AMPP SP0198** — *Control of Corrosion Under Thermal Insulation
@@ -244,7 +244,7 @@ facts (`code_id`, `publisher`, `revision`) so fail-closed citation
 resolution can ground CUI/CUF programme outputs (CUI screening scores,
 extent-of-condition envelopes, through-insulation NDE method selection,
 CUI damage-factor inputs to RBI) against this practice. It also closes
-the bidirectional link from the [[corrosion-under-insulation]] concept
+the bidirectional link from the [corrosion-under-insulation](../concepts/corrosion-under-insulation.md) concept
 page, which has previously listed RP 583 as a *future-promotion
 candidate*. **Metadata-only** per spinout 2026-05-05 governance: no
 clause text, screening-threshold tables, NDE acceptance tables, or
@@ -263,7 +263,7 @@ coating-class-vs-temperature tabulations are reproduced here.
 
 ## Sources
 
-- Source page: [[og-standards-api]](../sources/og-standards-api.md) —
+- Source page: [og-standards-api](../sources/og-standards-api.md) —
   the API source page lists the inspection-RP cluster (510, 570, 572,
   574, 576, 578, 580, 581, 582) but does **not** currently enumerate
   RP 583. This page is the standards-side entry that should drive a

@@ -31,7 +31,7 @@ ASTM G36 is a **screening practice** for ranking the susceptibility of metallic 
 
 Because the acceleration is so severe, **G36 is explicitly a pass/fail / ranking screen, not a service-life predictor**. The output is binary (cracking observed / not observed at a fixed exposure time) and a comparative time-to-cracking against reference materials, **not** a kinetic constant that can be extrapolated to service. For service-life-relevant kinetics under prescribed strain rate, ASTM G129 (slow-strain-rate, SSRT) is the companion practice; for milder Cl-SCC ranking closer to atmospheric service, ASTM G44 (alternate immersion in 3.5% NaCl) is the milder-environment counterpart.
 
-The practice is **not** a sour-service qualification: H2S-bearing environments require [[ampp-tm-0177]] (NACE TM0177) for SSC and the acceptance framework of [[ampp-mr-0175-pt3]] (ISO 15156-3 / NACE MR0175-3) for CRAs. G36 likewise does not qualify duplex stainless steels for hydrogen-induced stress cracking under cathodic protection — that envelope is governed by [[dnv-rp-f112]] protocols.
+The practice is **not** a sour-service qualification: H2S-bearing environments require [ampp-tm-0177](ampp-tm-0177.md) (NACE TM0177) for SSC and the acceptance framework of [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) (ISO 15156-3 / NACE MR0175-3) for CRAs. G36 likewise does not qualify duplex stainless steels for hydrogen-induced stress cracking under cathodic protection — that envelope is governed by [dnv-rp-f112](dnv-rp-f112.md) protocols.
 
 ## Edition history
 
@@ -40,7 +40,7 @@ The local O&G-Standards catalog at `/mnt/ace/O&G-Standards/ASTM/G-Series/` conta
 | Edition | Filename (catalog) | Catalog presence | Notes |
 |---------|-------------------|------------------|-------|
 | G36-94 (R2000) | `G_36_-_94_R00_RZM2.pdf` | 1 file | 1994 revision, reapproved 2000 (the `R00` token in the filename denotes the reapproval year) |
-| G36 (current) | not on disk | — | The publisher catalog publishes the current G36 reapproval at `astm.org`; the post-R(2000) reapproval cycle continues without substantive technical revision based on the parent source-page year-token survey ([[og-standards-astm-g-series]]) |
+| G36 (current) | not on disk | — | The publisher catalog publishes the current G36 reapproval at `astm.org`; the post-R(2000) reapproval cycle continues without substantive technical revision based on the parent source-page year-token survey ([og-standards-astm-g-series](../sources/og-standards-astm-g-series.md)) |
 
 The parent ASTM G-Series source page recorded G36 with **1 edition** in the local catalog, matching the single row above. G36 has had relatively few technical revisions since 1994 — the practice description is mature and the reagent-grade reference solution (42% MgCl2) has not changed.
 
@@ -74,11 +74,11 @@ The boiling-MgCl2 environment is intentionally severe: nearly all standard 18Cr-
 ## When G36 does NOT apply
 
 - **Service-life prediction.** G36 is a screening / ranking practice. The 10²–10³× acceleration of boiling 42% MgCl2 vs. service environments is non-linear in stress, temperature, and chloride activity, so time-to-cracking in G36 cannot be back-calculated to a service crack-initiation time. Use **slow-strain-rate testing per [[astm-g129]]** for service-life-relevant kinetics.
-- **Sour-service CRA qualification.** Materials destined for H2S-bearing service must be qualified per [[ampp-tm-0177]] (Method A tensile, B beam, C C-ring, D DCB) and accepted under [[ampp-mr-0175-pt3]] / ISO 15156-3. G36 cracking results do not translate into MR0175 acceptability and are not accepted as substitute evidence.
-- **Hydrogen-induced cracking (HIC) and stepwise cracking in carbon and low-alloy steels.** Use [[ampp-tm-0284]] (NACE TM0284) for HIC; G36 does not exercise the H-charging and stepwise-cracking failure mode.
-- **Hydrogen-induced stress cracking (HISC) of duplex stainless steels under cathodic protection.** The HISC envelope is governed by [[dnv-rp-f112]] design protocols and slow-strain-rate qualification under cathodic polarization, not by boiling MgCl2.
+- **Sour-service CRA qualification.** Materials destined for H2S-bearing service must be qualified per [ampp-tm-0177](ampp-tm-0177.md) (Method A tensile, B beam, C C-ring, D DCB) and accepted under [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) / ISO 15156-3. G36 cracking results do not translate into MR0175 acceptability and are not accepted as substitute evidence.
+- **Hydrogen-induced cracking (HIC) and stepwise cracking in carbon and low-alloy steels.** Use [ampp-tm-0284](ampp-tm-0284.md) (NACE TM0284) for HIC; G36 does not exercise the H-charging and stepwise-cracking failure mode.
+- **Hydrogen-induced stress cracking (HISC) of duplex stainless steels under cathodic protection.** The HISC envelope is governed by [dnv-rp-f112](dnv-rp-f112.md) design protocols and slow-strain-rate qualification under cathodic polarization, not by boiling MgCl2.
 - **Atmospheric / outdoor Cl-SCC ranking under near-service conditions.** For the milder environment closer to coastal-atmospheric exposure, use **alternate-immersion in 3.5% NaCl per ASTM G44**.
-- **Pitting and crevice corrosion ranking.** G36 produces some pitting in the most susceptible grades but is not designed to discriminate pitting/crevice resistance — use [[astm-g48]] in ferric chloride for that envelope.
+- **Pitting and crevice corrosion ranking.** G36 produces some pitting in the most susceptible grades but is not designed to discriminate pitting/crevice resistance — use [astm-g48](astm-g48.md) in ferric chloride for that envelope.
 
 ## Cross-references
 
@@ -90,16 +90,16 @@ The boiling-MgCl2 environment is intentionally severe: nearly all standard 18Cr-
 - [[astm-g64]] — *Standard Classification of Resistance to Stress-Corrosion Cracking of Heat-Treatable Aluminum Alloys.* Companion classification standard to G47 for Al-alloy SCC ranking.
 - [[astm-g123]] — *Standard Test Method for Evaluating Stress-Corrosion Cracking of Stainless Alloys with Different Nickel Content in Boiling Acidified Sodium Chloride Solution.* The **boiling-NaCl alternative chemistry** for ranking SCC in higher-nickel austenitic and Ni-base alloys (G36's MgCl2 is so severe it saturates discrimination among high-Ni alloys; G123 was developed to spread the response in that regime).
 - [[astm-g129]] — *Standard Practice for Slow Strain Rate Testing to Evaluate the Susceptibility of Metallic Materials to Environmentally Assisted Cracking.* The **service-life-relevant** kinetic counterpart; used when G36 ranking must be supplemented by strain-rate-resolved data.
-- [[ampp-mr-0175-pt3]] (alias [[iso-15156-3]] / NACE MR0175-3) — sour-service CRA qualification framework. **Complementary, non-overlapping** with G36: sour-service requires H2S-bearing test environments (TM0177), not boiling MgCl2.
-- [[ampp-tm-0177]] — *Laboratory Testing of Metals for Resistance to Sulfide Stress Cracking and Stress Corrosion Cracking in H2S Environments.* The sour-service SCC test method; G36 does not substitute.
-- [[dnv-rp-f112]] — *Design of Duplex Stainless Steel Subsea Equipment Exposed to Cathodic Protection.* HISC-under-CP design envelope; G36 does not address this failure mode.
+- [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) (alias [[iso-15156-3]] / NACE MR0175-3) — sour-service CRA qualification framework. **Complementary, non-overlapping** with G36: sour-service requires H2S-bearing test environments (TM0177), not boiling MgCl2.
+- [ampp-tm-0177](ampp-tm-0177.md) — *Laboratory Testing of Metals for Resistance to Sulfide Stress Cracking and Stress Corrosion Cracking in H2S Environments.* The sour-service SCC test method; G36 does not substitute.
+- [dnv-rp-f112](dnv-rp-f112.md) — *Design of Duplex Stainless Steel Subsea Equipment Exposed to Cathodic Protection.* HISC-under-CP design envelope; G36 does not address this failure mode.
 - Concept anchor: [stress-corrosion-cracking](../concepts/stress-corrosion-cracking.md) — landing page for the SCC test-method cluster (G36, G38, G39, G44, G47, G64, G123, G129); G36 is the **primary Cl-SCC screening test** referenced from this concept page.
 - Concept anchor: [sour-service-materials](../concepts/sour-service-materials.md) — explicit non-applicability boundary for G36; sour-service CRA selection cites MR0175-3, not G36.
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G36-derived ranking, reference time-to-cracking, or pass/fail acceptance temperature.
 
 ## Sources
 
-- [[og-standards-astm-g-series]] — parent source page for the ASTM G-Series slice of the local catalog; records the single-edition G36 presence, the catalog file path, and the metadata-only extraction policy that scopes this standards page.
+- [og-standards-astm-g-series](../sources/og-standards-astm-g-series.md) — parent source page for the ASTM G-Series slice of the local catalog; records the single-edition G36 presence, the catalog file path, and the metadata-only extraction policy that scopes this standards page.
 - Publisher catalog (current edition for purchase, registration required): `https://www.astm.org/g0036-94r18.html` (or the latest reapproval listing on `astm.org`).
 - On-disk raw PDF (vendor-derivative, **not copied into this repo** per llm-wiki spinout 2026-05-05 governance):
   - `/mnt/ace/O&G-Standards/ASTM/G-Series/G_36_-_94_R00_RZM2.pdf`

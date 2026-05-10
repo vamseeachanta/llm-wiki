@@ -19,7 +19,7 @@ sources:
 
 # Damage-Mechanism Screening
 
-> Concept anchor for the analytical step that identifies which damage mechanisms credibly apply to a piece of equipment. Sits upstream of [[risk-based-inspection]] (POF input), [[fitness-for-service]] (which Part / Annex governs the assessment), and [[corrosion-rate-measurement]] (which rate model interprets a measured number). Routes into the API RP 571 catalogue page (forthcoming, iter-18 primary).
+> Concept anchor for the analytical step that identifies which damage mechanisms credibly apply to a piece of equipment. Sits upstream of [risk-based-inspection](risk-based-inspection.md) (POF input), [fitness-for-service](fitness-for-service.md) (which Part / Annex governs the assessment), and [corrosion-rate-measurement](corrosion-rate-measurement.md) (which rate model interprets a measured number). Routes into the API RP 571 catalogue page (forthcoming, iter-18 primary).
 
 ## What is damage-mechanism screening?
 
@@ -73,8 +73,8 @@ Damage-mechanism screening is the **central organising decision** in a refining-
 
 - **API RP 580** §6.2 *Damage Mechanisms and Failure Modes* requires the RBI team to identify credible damage mechanisms as a programme-element step — but routes the catalogue itself out to API RP 571.
 - **API RP 581** Part II *Probability of Failure Methodology* organises its damage-factor calculations (thinning, SCC, HTHA, external, brittle fracture, mechanical fatigue) by mechanism family — and presupposes that the screening step has already populated the per-asset mechanism list.
-- [[api-510]] §6.5.x and [[api-570]] §5 require corrosion-loop / circuit definitions that group equipment by common service and metallurgy, which is in practice the screening exercise applied at the loop level.
-- [[api-std-579]] FFS Parts 4 / 5 / 6 / 7 / 9 / 10 each apply to a specific damage-mechanism family, so the FFS practitioner must screen the mechanism before selecting which Part governs the assessment.
+- [api-510](../standards/api-510.md) §6.5.x and [api-570](../standards/api-570.md) §5 require corrosion-loop / circuit definitions that group equipment by common service and metallurgy, which is in practice the screening exercise applied at the loop level.
+- [api-std-579](../standards/api-std-579.md) FFS Parts 4 / 5 / 6 / 7 / 9 / 10 each apply to a specific damage-mechanism family, so the FFS practitioner must screen the mechanism before selecting which Part governs the assessment.
 
 Because the screening step lives across the boundary between the catalogue (RP 571), the methodology (RP 580 / 581), the inspection codes (510 / 570 / 653), and the FFS code (579-1), no single standard is its natural home. A concept page is the right surface — it lets each standards page link in to a shared definition rather than duplicating screening guidance per standard.
 
@@ -83,23 +83,23 @@ Because the screening step lives across the boundary between the catalogue (RP 5
 Bidirectional cross-references — each standards page below should cross-link back to this concept page once the convention propagates.
 
 - **API RP 571** — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* Primary mechanism catalogue and trigger-criteria reference. Standards page forthcoming (iter-18 primary).
-- [[api-rp-580]] — *Risk-Based Inspection.* §6.2 names damage-mechanism identification as a required RBI programme element; this concept page is the qualitative-screening anchor that satisfies the requirement.
-- [[api-rp-581]] — *Risk-Based Inspection Methodology.* Quantitative consumer; Part II damage-factor families are populated from the screening output.
-- [[api-510]] — *Pressure Vessel Inspection Code.* In-service inspection consumer; corrosion-loop / vessel-circuit screening drives CML placement and inspection-technique selection.
-- [[api-570]] — *Piping Inspection Code.* In-service inspection consumer; piping-circuit screening drives CML density and the corrosion-rate-tracking workflow.
-- [[api-653]] — *Atmospheric Storage Tank Inspection Code.* In-service inspection consumer; tank-specific screening (soil-side MIC, settlement fatigue, atmospheric corrosion, internal water-bottoms corrosion) drives the external / internal / bottom inspection-interval logic.
-- [[api-std-579]] — *Fitness-for-Service.* FFS consumer; the screening output determines which Part / Annex (general thinning Pt 4, local thinning Pt 5, pitting Pt 6, blisters / HIC / SOHIC Pt 7, distortion Pt 8, crack-like Pt 9, creep Pt 10, fire Pt 11, dents Pt 12) governs the assessment of a found flaw.
+- [api-rp-580](../standards/api-rp-580.md) — *Risk-Based Inspection.* §6.2 names damage-mechanism identification as a required RBI programme element; this concept page is the qualitative-screening anchor that satisfies the requirement.
+- [api-rp-581](../standards/api-rp-581.md) — *Risk-Based Inspection Methodology.* Quantitative consumer; Part II damage-factor families are populated from the screening output.
+- [api-510](../standards/api-510.md) — *Pressure Vessel Inspection Code.* In-service inspection consumer; corrosion-loop / vessel-circuit screening drives CML placement and inspection-technique selection.
+- [api-570](../standards/api-570.md) — *Piping Inspection Code.* In-service inspection consumer; piping-circuit screening drives CML density and the corrosion-rate-tracking workflow.
+- [api-653](../standards/api-653.md) — *Atmospheric Storage Tank Inspection Code.* In-service inspection consumer; tank-specific screening (soil-side MIC, settlement fatigue, atmospheric corrosion, internal water-bottoms corrosion) drives the external / internal / bottom inspection-interval logic.
+- [api-std-579](../standards/api-std-579.md) — *Fitness-for-Service.* FFS consumer; the screening output determines which Part / Annex (general thinning Pt 4, local thinning Pt 5, pitting Pt 6, blisters / HIC / SOHIC Pt 7, distortion Pt 8, crack-like Pt 9, creep Pt 10, fire Pt 11, dents Pt 12) governs the assessment of a found flaw.
 - **API RP 941** — *Steels for Hydrogen Service at Elevated Temperatures and Pressures in Petroleum Refineries and Petrochemical Plants.* Holds the **Nelson curves** that govern HTHA screening across hydroprocessing and reformer units. Future first-class standards page candidate.
 
 ## Related concepts
 
 Wikilinks below point to concept pages that may not yet exist — leave as wikilinks for future creation per the spinout's link-and-fill convention.
 
-- [[risk-based-inspection]] — downstream consumer; screening populates the credible-mechanism shortlist that becomes the RBI study's POF input.
-- [[fitness-for-service]] — downstream consumer; screening selects which FFS Part / Annex governs the assessment of a found flaw.
-- [[corrosion-rate-measurement]] — paired metric; rate inputs are interpreted **per mechanism** (a measured 500 μm/yr means very different things if it is sulfidation, naphthenic-acid corrosion, or MIC).
-- [[sour-service-materials]] — subset of screening for H2S environments; ISO 15156 / NACE MR0175 material-selection rules apply once SSC / HIC / SOHIC are flagged credible.
-- [[pitting-and-crevice-corrosion]] — subset of localised-corrosion screening; depth-driven not rate-driven, with its own CPT / CCT screening framework.
+- [risk-based-inspection](risk-based-inspection.md) — downstream consumer; screening populates the credible-mechanism shortlist that becomes the RBI study's POF input.
+- [fitness-for-service](fitness-for-service.md) — downstream consumer; screening selects which FFS Part / Annex governs the assessment of a found flaw.
+- [corrosion-rate-measurement](corrosion-rate-measurement.md) — paired metric; rate inputs are interpreted **per mechanism** (a measured 500 μm/yr means very different things if it is sulfidation, naphthenic-acid corrosion, or MIC).
+- [sour-service-materials](sour-service-materials.md) — subset of screening for H2S environments; ISO 15156 / NACE MR0175 material-selection rules apply once SSC / HIC / SOHIC are flagged credible.
+- [pitting-and-crevice-corrosion](pitting-and-crevice-corrosion.md) — subset of localised-corrosion screening; depth-driven not rate-driven, with its own CPT / CCT screening framework.
 
 ## Source materials
 

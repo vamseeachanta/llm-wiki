@@ -7,8 +7,8 @@ added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
 cross_links:
-  - ../../concepts/hague-visby-rules.md
-  - ../../standards/hague-visby-rules.md
+  - ../concepts/hague-visby-rules.md
+  - ../standards/hague-visby-rules.md
   - ./volcafe-2018.md
 ---
 

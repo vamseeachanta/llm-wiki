@@ -28,7 +28,7 @@ raw_copy_allowed: false
 
 ## Scope
 
-API RP 574 is the **inspector-grade practice companion** to [[api-570]] (the
+API RP 574 is the **inspector-grade practice companion** to [api-570](api-570.md) (the
 piping inspection code). It documents recommended practices for the
 **inspection methods and frequencies** applied to the components that make up
 process piping systems — straight pipe, valves, flanges, fittings, bolting,
@@ -145,7 +145,7 @@ reproduced** per metadata-only governance.
 - **Interval-setting.** Two routes are sanctioned:
   - **Table-based intervals** per API 570 piping-classification ceilings
     and the half-remaining-life rule, or
-  - **Risk-based intervals** per [[api-rp-580]] / [[api-rp-581]].
+  - **Risk-based intervals** per [api-rp-580](api-rp-580.md) / [api-rp-581](api-rp-581.md).
   RP 574 supplies the inspection-method effectiveness inputs that the
   RBI study consumes — see *Inspection-effectiveness factors* below.
 
@@ -190,35 +190,35 @@ guidance used by inspectors when planning a circuit walk-down.
 
 ## Cross-references
 
-- **[[api-570]]** — *Piping Inspection Code* (parent code). RP 574 is
+- **[api-570](api-570.md)** — *Piping Inspection Code* (parent code). RP 574 is
   the inspector-grade practice guide invoked by API 570 to execute the
   inspection programme that API 570 mandates.
-- **[[api-rp-580]]** — *Risk-Based Inspection*. Methodology framework
+- **[api-rp-580](api-rp-580.md)** — *Risk-Based Inspection*. Methodology framework
   for the RBI alternative to table-based intervals; consumes RP 574's
   inspection-effectiveness factors A–E.
-- **[[api-rp-581]]** — *Risk-Based Inspection Methodology*. Quantitative
+- **[api-rp-581](api-rp-581.md)** — *Risk-Based Inspection Methodology*. Quantitative
   RBI calculation that grounds probability-of-failure on RP 574 method
   effectiveness and CML coverage inputs.
-- **[[api-rp-571]]** — *Damage Mechanisms Affecting Fixed Equipment in
+- **[api-rp-571](api-rp-571.md)** — *Damage Mechanisms Affecting Fixed Equipment in
   the Refining Industry*. The damage-mechanism catalogue that RP 574's
   CML and method-selection guidance maps against (which mechanism is
   expected → which NDE method finds it).
-- **[[api-510]]** — *Pressure Vessel Inspection Code*. Sibling code;
+- **[api-510](api-510.md)** — *Pressure Vessel Inspection Code*. Sibling code;
   RP 572 is the analogous practice guide for vessels (pressure-vessel
   inspection), with the same RP 574 ↔ API 570 relationship.
-- **[[api-653]]** — *Tank Inspection, Repair, Alteration, and
+- **[api-653](api-653.md)** — *Tank Inspection, Repair, Alteration, and
   Reconstruction*. Sibling inspection code for atmospheric storage
   tanks.
-- **[[api-std-579]]** — *API 579-1 / ASME FFS-1, Fitness-for-Service*.
+- **[api-std-579](api-std-579.md)** — *API 579-1 / ASME FFS-1, Fitness-for-Service*.
   Invoked when RP 574 thickness measurements show `T_min` excursion
   on a CML that API 570 categorises as out-of-code; the FFS standard
   produces the quantitative remaining-life and re-inspection
   determination.
-- **[[corrosion-rate-measurement]]** — concept-page consumer; RP 574
+- **[corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md)** — concept-page consumer; RP 574
   specifies the CML thickness-measurement methods (UT spot vs. scan,
   RT profile, frequency, statistical sampling) that feed long-term
   and short-term corrosion-rate calculations.
-- **[[risk-based-inspection]]** — concept-page consumer; RP 574
+- **[risk-based-inspection](../concepts/risk-based-inspection.md)** — concept-page consumer; RP 574
   supplies the inspection-effectiveness factor inputs (A–E) that the
   RBI methodology under API 580/581 turns into probability-of-failure
   reductions.
@@ -245,7 +245,7 @@ reproduced here.
 
 ## Sources
 
-- Source page: [[og-standards-api]](../sources/og-standards-api.md) — catalog
+- Source page: [og-standards-api](../sources/og-standards-api.md) — catalog
   row `RP 574 | Inspection Practices for Piping System Components | (2 editions)`
   per the inspection-RP cluster (`510, 570, 572, 574, 576, 578, 580, 581, 582`).
 - Catalog provenance: `/mnt/ace/O&G-Standards/_catalog.json` — entries

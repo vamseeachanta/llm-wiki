@@ -32,13 +32,13 @@ guide** for construction and maintenance welding in the petroleum and
 petrochemical industry. It provides the welding-process descriptions,
 in-process and post-weld inspection guidance, post-weld heat-treatment
 (PWHT) verification protocols, and weldment-metallurgy primer that the
-in-service inspection codes [[api-510]] (pressure vessels),
-[[api-570]] (process piping), and [[api-653]] (atmospheric storage
+in-service inspection codes [api-510](api-510.md) (pressure vessels),
+[api-570](api-570.md) (process piping), and [api-653](api-653.md) (atmospheric storage
 tanks) invoke when an inspection programme touches a weld — repair
 welding, fitness-for-service repair, alteration, re-rating, or
 new-construction acceptance carried over into the in-service file.
 
-Where [[api-std-1104]] is the **construction code** for pipeline
+Where [api-std-1104](api-std-1104.md) is the **construction code** for pipeline
 girth welding (procedure / welder qualification with prescriptive
 acceptance), and ASME BPVC Section IX is the **construction code**
 for pressure-equipment welding qualification, RP 577 is the
@@ -69,7 +69,7 @@ parent-metal dilution, and residual-stress development.
 |---------|------|----------------|-------|
 | 1st ed | 2004 | **catalog copy** (`API_577_Welding_Inspection_and_Metallurgy.pdf`, PDF metadata `CreationDate 2004-10-07`) | Inaugural edition; established the welding-process-description + NDE-method + metallurgy-primer structure that subsequent editions retained. |
 | 2nd ed | 2013 | not in catalog | Expanded NDE coverage (PAUT, TOFD), updated PWHT guidance, refreshed sour-service hardness cross-references against the then-current NACE MR0175 / ISO 15156 wording. |
-| 3rd ed | 2020 | not in catalog | Current published edition; further alignment with the [[api-rp-571]] 3rd-edition damage-mechanism descriptions (post-Tesoro-Anacortes HTHA reassessment) and with the API 581 3rd-edition RBI methodology for welding-inspection effectiveness inputs. |
+| 3rd ed | 2020 | not in catalog | Current published edition; further alignment with the [api-rp-571](api-rp-571.md) 3rd-edition damage-mechanism descriptions (post-Tesoro-Anacortes HTHA reassessment) and with the API 581 3rd-edition RBI methodology for welding-inspection effectiveness inputs. |
 
 > **Edition selection.** The frontmatter `revision` field reflects the
 > catalog-latest copy (1st ed, 2004) per the spinout's metadata-only
@@ -189,7 +189,7 @@ Modern campaigns commonly run **AUT (PAUT + TOFD combined)** in place
 of conventional RT for girth-weld production inspection — RP 577 (2nd
 ed onward) carries the practice-level guidance for the AUT
 substitution and is the inspection-side counterpart to the
-construction-code allowance for AUT under [[api-std-1104]] Annex /
+construction-code allowance for AUT under [api-std-1104](api-std-1104.md) Annex /
 Appendix B and ASME B31.3.
 
 ## Sour-service welding overlay
@@ -197,7 +197,7 @@ Appendix B and ASME B31.3.
 RP 577 provides the welding-inspection overlay for sour-service
 materials — the additional verifications that ride on top of the
 base-code inspection programme when the weld will see wet-H<sub>2</sub>S
-service per [[iso-15156]] / NACE MR0175:
+service per [iso-15156](iso-15156.md) / NACE MR0175:
 
 - **PWHT verification.** PWHT is mandatory for most carbon-steel
   sour-service welds to relax residual stress and to temper HAZ
@@ -216,37 +216,37 @@ service per [[iso-15156]] / NACE MR0175:
   element limits that govern HAZ susceptibility — in particular **low-
   Ni** residual-element control on sour-service line-pipe HAZ, where
   Ni residuals raise HAZ hardenability and complicate hardness
-  acceptance — see [[api-spec-5l]] PSL 2 sour-service annex and
-  [[iso-15156]] Part 2.
+  acceptance — see [api-spec-5l](api-spec-5l.md) PSL 2 sour-service annex and
+  [iso-15156](iso-15156.md) Part 2.
 - **AMPP / NACE MR0175 hardness limits in HAZ.** The HAZ hardness
-  ceiling is set by [[iso-15156]] / [[ampp-mr-0175-pt2]] (carbon and
+  ceiling is set by [iso-15156](iso-15156.md) / [ampp-mr-0175-pt2](ampp-mr-0175-pt2.md) (carbon and
   low-alloy steels) and is the load-bearing acceptance variable for
   sour-service weld inspection.
 
 ## Cross-references
 
-- **[[api-510]]** — *Pressure Vessel Inspection Code*. Consumer
+- **[api-510](api-510.md)** — *Pressure Vessel Inspection Code*. Consumer
   inspection code; invokes RP 577 as the welding-inspection practice
   guide for repair, alteration, and re-rating welds on in-service
   pressure vessels.
-- **[[api-570]]** — *Piping Inspection Code*. Consumer inspection
+- **[api-570](api-570.md)** — *Piping Inspection Code*. Consumer inspection
   code; invokes RP 577 for repair welds on in-service piping (with
-  [[api-rp-574]] as the broader piping-component inspection-method
-  guide and [[api-std-1104]] / ASME B31.3 governing the actual
+  [api-rp-574](api-rp-574.md) as the broader piping-component inspection-method
+  guide and [api-std-1104](api-std-1104.md) / ASME B31.3 governing the actual
   weld-construction acceptance).
-- **[[api-653]]** — *Tank Inspection, Repair, Alteration, and
+- **[api-653](api-653.md)** — *Tank Inspection, Repair, Alteration, and
   Reconstruction*. Consumer inspection code; invokes RP 577 for
   shell-course and bottom repair welds on atmospheric storage
   tanks.
-- **[[api-std-1104]]** — *Welding of Pipelines and Related Facilities*.
+- **[api-std-1104](api-std-1104.md)** — *Welding of Pipelines and Related Facilities*.
   Companion construction code for pipeline girth welding; RP 577 is
   the inspection-side practice guide that complements API 1104's
   procedure-and-welder-qualification framework.
-- **[[api-rp-571]]** — *Damage Mechanisms Affecting Fixed Equipment
+- **[api-rp-571](api-rp-571.md)** — *Damage Mechanisms Affecting Fixed Equipment
   in the Refining Industry*. Damage-mechanism context for the
   weldment-metallurgy primer (HAZ damage modes, dissimilar-metal-
   weld cracking, reheat cracking, hydrogen-induced cracking).
-- **[[api-rp-580]]** / **[[api-rp-581]]** — *Risk-Based Inspection*
+- **[api-rp-580](api-rp-580.md)** / **[api-rp-581](api-rp-581.md)** — *Risk-Based Inspection*
   (qualitative) / *Risk-Based Inspection Methodology* (quantitative).
   Consume RP 577 inspection-effectiveness inputs (NDE method
   selection, coverage fraction) to grade weld-inspection
@@ -265,15 +265,15 @@ service per [[iso-15156]] / NACE MR0175:
   personnel-certification scheme RP 577 cross-references for
   inspector qualifications (alongside SNT-TC-1A and ASNT CP-189
   in North American practice).
-- **[[iso-15156]]** — *Petroleum and natural gas industries — Materials
+- **[iso-15156](iso-15156.md)** — *Petroleum and natural gas industries — Materials
   for use in H2S-containing environments in oil and gas production*
   (NACE MR0175). Sour-service materials standard; governs the HAZ
   hardness ceiling and PWHT requirement that RP 577 verifies.
-- **[[welding-procedures-and-acceptance]]** — concept-page consumer.
+- **[welding-procedures-and-acceptance](../concepts/welding-procedures-and-acceptance.md)** — concept-page consumer.
   RP 577 supplies the inspection-side counterpart to the construction-
   code procedure-and-acceptance framework summarised on the concept
   page.
-- **[[weld-toughness]]** — concept-page consumer. RP 577's Charpy and
+- **[weld-toughness](../concepts/weld-toughness.md)** — concept-page consumer. RP 577's Charpy and
   hardness-traverse protocols are the inspection-side anchors for the
   weld-toughness verification flow described on the concept page.
 
@@ -304,7 +304,7 @@ are reproduced here.
 
 ## Sources
 
-- Source page: [[og-standards-api]](../sources/og-standards-api.md) —
+- Source page: [og-standards-api](../sources/og-standards-api.md) —
   catalog row for `API 577 Welding Inspection and Metallurgy` in the
   RP-grade inspection cluster (`510, 570, 572, 574, 576, 577, 578,
   580, 581, 582`).

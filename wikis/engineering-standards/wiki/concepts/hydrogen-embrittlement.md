@@ -24,8 +24,8 @@ sources:
 > cathodic-protection over-protection of CRAs (HISC), wet-H2S exposure of
 > carbon and low-alloy steels (HIC, SOHIC, SSC), and high-strength-steel
 > service in marine + CP environments. Bidirectional with
-> [[cathodic-protection]], [[sour-service-materials]], and the
-> [[pitting-and-crevice-corrosion]] qualification chain.
+> [cathodic-protection](cathodic-protection.md), [sour-service-materials](sour-service-materials.md), and the
+> [pitting-and-crevice-corrosion](pitting-and-crevice-corrosion.md) qualification chain.
 
 ## What is hydrogen embrittlement?
 
@@ -46,11 +46,11 @@ oil-and-gas materials standards:
 - **HISC (hydrogen-induced stress cracking)** — hydrogen-assisted cracking
   of corrosion-resistant alloys (CRAs), classically the ferrite phase of
   22Cr/25Cr duplex stainless steel under cathodic protection. Governed
-  offshore by [[dnv-rp-f112]].
+  offshore by [dnv-rp-f112](../standards/dnv-rp-f112.md).
 - **HIC (hydrogen-induced cracking)** — internal stepwise blister-and-crack
   networks in carbon-steel plate driven by hydrogen accumulation at MnS
   inclusions and segregation bands; stress-independent (occurs in
-  unstressed plate). Qualified by [[ampp-tm-0284]].
+  unstressed plate). Qualified by [ampp-tm-0284](../standards/ampp-tm-0284.md).
 
 The mechanisms differ in detail (decohesion at trapping interfaces,
 hydrogen-enhanced localized plasticity, internal-pressure blistering at
@@ -88,7 +88,7 @@ crack, producing the characteristic step-and-arrest fracture surface
 seen in HISC failures.
 
 The offshore governance for DSS subsea hardware exposed to CP is
-[[dnv-rp-f112]]. The standard's headline design moves are: PREN >= 40
+[dnv-rp-f112](../standards/dnv-rp-f112.md). The standard's headline design moves are: PREN >= 40
 (super-duplex preferred) with controlled ferrite content and absence of
 sigma-phase; CP protection-potential bounded less negative than
 approximately -1050 mV vs. Ag/AgCl/seawater; reduced design-stress
@@ -110,8 +110,8 @@ stress, HIC occurs in unstressed plate — a common surprise during
 fabrication of pressure-vessel shells from non-HIC-qualified plate.
 
 Qualification of plate, pipe, and forgings for HIC resistance is
-governed by [[iso-15156]] / [[ampp-mr-0175-pt2]] (materials selection
-under H2S) using the [[ampp-tm-0284]] laboratory test method: plate
+governed by [iso-15156](../standards/iso-15156.md) / [ampp-mr-0175-pt2](../standards/ampp-mr-0175-pt2.md) (materials selection
+under H2S) using the [ampp-tm-0284](../standards/ampp-tm-0284.md) laboratory test method: plate
 coupons are immersed in H2S-saturated test solution (Solution A standard
 or Solution B harsher) for 96 hours, sectioned, and examined
 metallographically against acceptance limits expressed as crack length
@@ -127,11 +127,11 @@ in the same wet-H2S environment but on stressed components. Atomic H
 absorbed at the surface embrittles the steel under sustained tensile
 stress; failure is brittle, time-dependent, and concentrated at high-
 hardness regions (heat-affected zones, cold-worked zones, high-strength
-fasteners). Qualification is by [[ampp-tm-0177]] in four standardized
+fasteners). Qualification is by [ampp-tm-0177](../standards/ampp-tm-0177.md) in four standardized
 geometries: Method A uniaxial tension, Method B bent beam, Method C
 C-ring, Method D double-cantilever beam (DCB, fracture-mechanics
 `K_ISSC`). Hardness control in carbon and low-alloy steels is the
-primary mitigation lever and is codified in [[ampp-mr-0175-pt2]].
+primary mitigation lever and is codified in [ampp-mr-0175-pt2](../standards/ampp-mr-0175-pt2.md).
 
 **SOHIC (stress-oriented hydrogen-induced cracking)** is the worst-of-
 both-worlds mode: stacked HIC blisters at mid-thickness link
@@ -139,7 +139,7 @@ through-thickness via SSC ligaments under applied or residual tensile
 stress. Heat-affected zones of welded carbon-steel pressure vessels in
 sour service are the canonical SOHIC concern. Qualification combines
 TM-0284 (HIC nucleation) and TM-0177 (SSC propagation) evidence;
-acceptance is governed by [[ampp-mr-0175-pt2]] in the severe-sour
+acceptance is governed by [ampp-mr-0175-pt2](../standards/ampp-mr-0175-pt2.md) in the severe-sour
 (Region 3) classification.
 
 ## High-strength-steel HE in marine + CP service
@@ -150,7 +150,7 @@ connectors, subsea bolting, drill-string components, and high-strength
 fasteners — are intrinsically susceptible to hydrogen embrittlement
 when exposed to seawater under cathodic protection. The mechanism does
 not require H2S; CP-evolved hydrogen alone is sufficient at this
-strength level. [[api-spec-6a]] and [[api-spec-17d]] restrict the use
+strength level. [api-spec-6a](../standards/api-spec-6a.md) and [api-spec-17d](../standards/api-spec-17d.md) restrict the use
 of high-strength steels in subsea wellhead and tree service for this
 reason and impose hardness, heat-treatment, and surface-finish controls
 on permitted grades.
@@ -168,8 +168,8 @@ hydrogen-stress-microstructure interaction:
 
 - **Material selection** — low-strength, low-hardness, controlled-
   microstructure alloys (PREN >=40 for DSS subsea; hardness caps per
-  [[ampp-mr-0175-pt2]] for sour carbon-steel; SMYS limits per
-  [[api-spec-6a]] for subsea bolting). The most reliable mitigation is
+  [ampp-mr-0175-pt2](../standards/ampp-mr-0175-pt2.md) for sour carbon-steel; SMYS limits per
+  [api-spec-6a](../standards/api-spec-6a.md) for subsea bolting). The most reliable mitigation is
   to keep the susceptibility envelope outside the service envelope.
 - **Hydrogen baking after plating** — diffusible hydrogen introduced by
   electroplating (zinc, cadmium, chromium) is removed by a controlled
@@ -179,13 +179,13 @@ hydrogen-stress-microstructure interaction:
   consumables, controlled storage and re-baking of electrodes, preheat
   and interpass temperature control, post-weld heat treatment to
   redistribute trapped H and to reduce HAZ hardness; jointly governed by
-  [[asme-bpvc-ix]] and the relevant materials-and-construction codes.
+  [asme-bpvc-ix](../standards/asme-bpvc-ix.md) and the relevant materials-and-construction codes.
 - **Design-stress limits** — reduced allowables in CP-exposed CRA zones
-  per [[dnv-rp-f112]]; hardness-and-stress envelopes per
-  [[ampp-mr-0175-pt2]] and [[ampp-mr-0175-pt3]].
+  per [dnv-rp-f112](../standards/dnv-rp-f112.md); hardness-and-stress envelopes per
+  [ampp-mr-0175-pt2](../standards/ampp-mr-0175-pt2.md) and [ampp-mr-0175-pt3](../standards/ampp-mr-0175-pt3.md).
 - **CP protection-potential limits** — bound the most-negative potential
   the susceptible material will see; coordinate CP design under
-  [[dnv-rp-b401]] with HISC governance under [[dnv-rp-f112]].
+  [dnv-rp-b401](../standards/dnv-rp-b401.md) with HISC governance under [dnv-rp-f112](../standards/dnv-rp-f112.md).
 - **Coating barriers and dielectric isolation** — paint, FBE, and
   three-layer-PE/PP coatings reduce direct CP current to susceptible
   surfaces; dielectric isolation (insulating washers, isolation joints)
@@ -200,25 +200,25 @@ documented track record of HISC and SSC service failures.
 Bidirectional links to the standards-page resolvers (each carries
 `code_id`, `publisher`, `revision` frontmatter per the wiki schema):
 
-- [[dnv-rp-f112]] — *Design of Duplex SS Subsea Equipment Exposed to
+- [dnv-rp-f112](../standards/dnv-rp-f112.md) — *Design of Duplex SS Subsea Equipment Exposed to
   Cathodic Protection.* Governing offshore reference for HISC of
   duplex/super-duplex subsea hardware under CP. Material, CP-potential,
   design-stress, residual-stress, surface-finish, and inspection
   controls.
-- [[iso-15156]] — *Materials for Use in H2S-Containing Environments in
+- [iso-15156](../standards/iso-15156.md) — *Materials for Use in H2S-Containing Environments in
   Oil and Gas Production.* Three-part joint publication
   (ISO 15156-1/-2/-3 = NACE MR0175 = AMPP MR0175); the master
   sour-service materials code.
-- [[ampp-mr-0175-pt2]] — *Carbon and Low-Alloy Steels and the Use of
+- [ampp-mr-0175-pt2](../standards/ampp-mr-0175-pt2.md) — *Carbon and Low-Alloy Steels and the Use of
   Cast Iron.* Hardness, heat-treatment, and welding controls for
   carbon-steel SSC, HIC, and SOHIC qualification; severity-zone
   classification (Regions 0–3) on the pH2S-vs-pH diagram.
-- [[ampp-mr-0175-pt3]] — *Cracking-Resistant CRAs and Other Alloys.*
+- [ampp-mr-0175-pt3](../standards/ampp-mr-0175-pt3.md) — *Cracking-Resistant CRAs and Other Alloys.*
   Per-alloy temperature/chloride/pH2S envelopes for 13Cr martensitic,
   duplex, super-duplex, austenitic, and Ni-base alloys in sour service.
-- [[ampp-tm-0284]] — *HIC Test Method.* 96-hour H2S-saturated immersion;
+- [ampp-tm-0284](../standards/ampp-tm-0284.md) — *HIC Test Method.* 96-hour H2S-saturated immersion;
   CLR/CTR/CSR metallographic acceptance.
-- [[ampp-tm-0177]] — *SSC Laboratory Test Methods.* Methods A
+- [ampp-tm-0177](../standards/ampp-tm-0177.md) — *SSC Laboratory Test Methods.* Methods A
   (uniaxial), B (bent beam), C (C-ring), D (DCB / `K_ISSC`).
 
 ## Related concepts

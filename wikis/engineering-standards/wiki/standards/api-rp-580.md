@@ -35,14 +35,14 @@ methodology and framework document: it specifies *what an RBI programme must
 contain* (team, scope, data, screening, POF/COF estimation, risk ranking,
 inspection planning, re-evaluation) without prescribing the numerical
 algorithms used to compute probability and consequence. The companion
-document [[api-rp-581]] supplies the **quantitative** implementation —
+document [api-rp-581](api-rp-581.md) supplies the **quantitative** implementation —
 specific damage-mechanism probability models, COF release-and-impact
 calculations, and risk-matrix scoring tables — that satisfies the RP 580
 framework for owner-users who choose a quantitative route.
 
 API RP 580 is the **methodology gate** that authorises in-service inspection
 codes to substitute risk-derived intervals for table-based intervals: it is
-explicitly named as the alternative-interval route in [[api-510]] (pressure
+explicitly named as the alternative-interval route in [api-510](api-510.md) (pressure
 vessels), [[api-std-570]] (piping), and [[api-std-653]] (storage tanks).
 A risk-based interval that does not flow from an RP 580-conformant programme
 is not a sanctioned interval under those codes. RP 580 does not itself
@@ -51,9 +51,9 @@ upstream methodology constraint on the host code's RBI route.
 
 RP 580 is **methodology-only** and does not address: design-by-rule
 construction (ASME BPVC), fitness-for-service disposition of as-found
-findings (which is delegated to [[api-std-579]] when RBI surfaces flaws),
+findings (which is delegated to [api-std-579](api-std-579.md) when RBI surfaces flaws),
 or damage-mechanism technical content (which is referenced out to
-[[api-rp-571]]).
+[api-rp-571](api-rp-571.md)).
 
 ## Edition history
 
@@ -89,7 +89,7 @@ to be conformant. The list is commonly summarised as twelve elements:
 4. Data and information collection (design, operating, inspection,
    maintenance, process, damage history).
 5. Damage-mechanism identification and screening (referencing
-   [[api-rp-571]]).
+   [api-rp-571](api-rp-571.md)).
 6. Probability-of-failure (POF) estimation per damage mechanism.
 7. Consequence-of-failure (COF) estimation across release scenarios and
    impact categories.
@@ -120,7 +120,7 @@ in the practice are:
 - **RBI facilitator / analyst** — methodology custodian, data integrator,
   analysis owner.
 - **Risk-analyst / engineer (for quantitative routes)** — POF and COF
-  modelling per [[api-rp-581]] when the quantitative route is selected.
+  modelling per [api-rp-581](api-rp-581.md) when the quantitative route is selected.
 
 The team requirement is structural: a single-discipline RBI exercise (a
 corrosion engineer running RBI without inspection or operations input) is
@@ -142,7 +142,7 @@ so they can be reviewed and revisited in re-assessment cycles.
 ### Damage-mechanism identification and screening
 
 RP 580 directs the team to screen the equipment population against the
-catalogue of damage mechanisms in [[api-rp-571]] (*Damage Mechanisms
+catalogue of damage mechanisms in [api-rp-571](api-rp-571.md) (*Damage Mechanisms
 Affecting Fixed Equipment in the Refining Industry*). Each item is
 evaluated for credible mechanisms as a function of materials, process,
 environment, and operating history. The output is a per-item **active
@@ -243,10 +243,10 @@ distinguishes RBI from a one-time risk study.
   sibling: provides damage-factor models, generic-failure-frequency tables,
   release-and-consequence calculations, and a risk-matrix scoring engine
   that satisfies the RP 580 framework. RP 580 = framework / qualitative;
-  RP 581 = numerical implementation. See [[api-rp-581]].
+  RP 581 = numerical implementation. See [api-rp-581](api-rp-581.md).
 - **API 510 — Pressure Vessel Inspection Code.** Authorises RBI per
   RP 580 / RP 581 as the alternative to table-based intervals for
-  pressure vessels. See [[api-510]].
+  pressure vessels. See [api-510](api-510.md).
 - **API 570 — Piping Inspection Code.** Authorises RBI per RP 580 /
   RP 581 as the alternative to table-based intervals for process piping.
   See [[api-std-570]].
@@ -258,11 +258,11 @@ distinguishes RBI from a one-time risk study.
   inspection plan surfaces an out-of-tolerance flaw (metal loss below
   `t_min`, crack-like flaw, distortion). RBI sets the *when and how* of
   inspection; FFS sets the *what to do with the finding*. See
-  [[api-std-579]].
+  [api-std-579](api-std-579.md).
 - **API RP 571 — Damage Mechanisms Affecting Fixed Equipment in the
   Refining Industry.** The damage-mechanism catalogue that anchors
   RP 580's screening and POF estimation. RP 580 §damage-mechanism
-  identification calls RP 571 directly. See [[api-rp-571]].
+  identification calls RP 571 directly. See [api-rp-571](api-rp-571.md).
 - **ASME PCC-3 — Inspection Planning Using Risk-Based Methods.** Parallel-
   scope industry standard from ASME on RBI inspection-planning programmes
   for pressure equipment. PCC-3 and RP 580 are mutually recognised
@@ -276,7 +276,7 @@ distinguishes RBI from a one-time risk study.
   from DNV; conceptually parallel to RP 580 with adaptations for
   offshore process equipment, weight-cost, and helideck-occupancy COF
   considerations. See [[dnv-rp-g101]].
-- **Risk-Based Inspection (concept).** [[risk-based-inspection]] —
+- **Risk-Based Inspection (concept).** [risk-based-inspection](../concepts/risk-based-inspection.md) —
   the concept page that names RP 580 as the qualitative methodology
   document and RP 581 as the quantitative implementation.
 
@@ -310,9 +310,9 @@ Resolver target for digitalmodel `Citation` instances per
 facts (`code_id`, `publisher`, `revision`) so fail-closed citation
 resolution can ground RBI-derived inspection-interval and risk-ranking
 outputs against this practice. It also serves as the upstream-methodology
-anchor for [[api-510]], [[api-std-570]], and [[api-std-653]] when those
+anchor for [api-510](api-510.md), [[api-std-570]], and [[api-std-653]] when those
 codes invoke their RBI alternative-interval route, and as the link
-target from the [[risk-based-inspection]] concept page.
+target from the [risk-based-inspection](../concepts/risk-based-inspection.md) concept page.
 **Metadata-only** per spinout 2026-05-05 governance: no clause text,
 methodology tables, risk-matrix templates, POF / COF formulas, or
 inspection-effectiveness checklists are reproduced here.
@@ -329,7 +329,7 @@ inspection-effectiveness checklists are reproduced here.
 
 ## Sources
 
-- Source page: [[og-standards-api]](../sources/og-standards-api.md) —
+- Source page: [og-standards-api](../sources/og-standards-api.md) —
   catalog rows matching `API RP 580` (1st ed 2002, 2nd ed 2009).
 - Catalog provenance: `/mnt/ace/O&G-Standards/_catalog.json` (entries
   matching `RP 580` / `RP_580`); on-disk copies enumerated in the

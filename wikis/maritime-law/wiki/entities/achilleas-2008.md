@@ -7,8 +7,8 @@ added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
 cross_links:
-  - ../../concepts/charterparties.md
-  - ../../standards/hague-visby-rules.md
+  - ../concepts/charterparties.md
+  - ../standards/hague-visby-rules.md
 ---
 
 # Transfield Shipping Inc v Mercator Shipping Inc ('The Achilleas') [2008] UKHL 48

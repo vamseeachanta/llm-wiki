@@ -43,21 +43,21 @@ how to compute risk, or how to set inspection intervals. Instead it is
 the **technical-content anchor** that downstream programme documents
 reference:
 
-- [[api-rp-580]] (qualitative RBI) names RP 571 in its damage-mechanism
+- [api-rp-580](api-rp-580.md) (qualitative RBI) names RP 571 in its damage-mechanism
   identification step.
-- [[api-rp-581]] (quantitative RBI) builds its damage-factor models on
+- [api-rp-581](api-rp-581.md) (quantitative RBI) builds its damage-factor models on
   the mechanisms catalogued here.
-- [[api-std-579]] / ASME FFS-1 cross-references RP 571 mechanism
+- [api-std-579](api-std-579.md) / ASME FFS-1 cross-references RP 571 mechanism
   descriptions when characterising the flaw type that drives a
   fitness-for-service assessment.
-- The in-service inspection codes [[api-510]] (pressure vessels),
+- The in-service inspection codes [api-510](api-510.md) (pressure vessels),
   [[api-std-570]] (piping), and [[api-std-653]] (storage tanks) cite
   RP 571 as the technical reference behind their damage-mechanism
   awareness requirements.
 
-RP 571 is also the substantive input that supports the [[risk-based-inspection]]
+RP 571 is also the substantive input that supports the [risk-based-inspection](../concepts/risk-based-inspection.md)
 concept page (mechanism catalogue feeding screening) and
-[[corrosion-rate-measurement]] (typical rate ranges and morphology
+[corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) (typical rate ranges and morphology
 guidance per mechanism).
 
 ## Edition history
@@ -89,7 +89,7 @@ expands edition-over-edition.
 | **Mechanical / metallurgical** | Brittle fracture, mechanical fatigue, thermal fatigue, creep and stress rupture, dissimilar-metal weld (DMW) cracking, refractory damage, temper embrittlement, 885 °F (475 °C) embrittlement, sigma-phase embrittlement, spheroidisation, graphitisation. |
 | **Uniform / localised metal loss** | Galvanic corrosion, erosion and erosion-corrosion, oxidation, **sulfidation** (high-temperature S attack, with and without H2), **high-temperature hydrogen attack (HTHA)** governed by the Nelson curves, **corrosion-under-insulation (CUI)**, microbiologically-influenced corrosion (MIC), soil-side corrosion. |
 | **High-temperature corrosion** | Naphthenic-acid corrosion (NAC), fuel-ash corrosion, metal dusting, decarburisation, carburisation, nitriding. |
-| **Environmentally-assisted cracking** | Chloride stress-corrosion cracking (Cl-SCC) of austenitic stainless steel, caustic SCC, amine SCC, polythionic-acid SCC (PASCC), carbonate SCC, ammonia SCC, sulfide SCC, hydrogen blistering, hydrogen-induced cracking (HIC) and stress-oriented HIC (SOHIC) — the latter overlapping with sour-service damage covered by [[ampp-mr-0175-pt1]]. |
+| **Environmentally-assisted cracking** | Chloride stress-corrosion cracking (Cl-SCC) of austenitic stainless steel, caustic SCC, amine SCC, polythionic-acid SCC (PASCC), carbonate SCC, ammonia SCC, sulfide SCC, hydrogen blistering, hydrogen-induced cracking (HIC) and stress-oriented HIC (SOHIC) — the latter overlapping with sour-service damage covered by [ampp-mr-0175-pt1](ampp-mr-0175-pt1.md). |
 | **Aqueous corrosion** | CO2 (sweet) corrosion, H2S sour-service aqueous corrosion, dew-point corrosion (acid-dewpoint, water-dewpoint), atmospheric corrosion, cooling-water corrosion. |
 
 The catalogue is the substrate that downstream programmes screen against:
@@ -139,15 +139,15 @@ each time.
 - **API RP 580 — Risk-Based Inspection (qualitative).** Names RP 571 as
   the damage-mechanism reference invoked during RBI screening and POF
   estimation. RP 580 is the methodology, RP 571 is the technical content.
-  See [[api-rp-580]].
+  See [api-rp-580](api-rp-580.md).
 - **API RP 581 — Risk-Based Inspection Methodology (quantitative).**
   Builds its damage-factor models (thinning DF, SCC DF, HTHA DF, brittle-
   fracture DF, fatigue DF, etc.) on the mechanism descriptions in
-  RP 571. See [[api-rp-581]].
+  RP 571. See [api-rp-581](api-rp-581.md).
 - **API 510 — Pressure Vessel Inspection Code.** In-service inspection
   code for pressure vessels; cites RP 571 as the technical reference for
   damage-mechanism identification underlying inspection planning. See
-  [[api-510]].
+  [api-510](api-510.md).
 - **API 570 — Piping Inspection Code.** In-service inspection code for
   process piping; cites RP 571 as the technical reference for damage-
   mechanism identification. See [[api-std-570]].
@@ -163,22 +163,22 @@ each time.
   flaws — Cl-SCC, caustic SCC, amine SCC, PASCC, sulfide SCC),
   Part 10 (creep and high-temperature operation, including HTHA),
   Part 11 (fire damage), Part 12 (dent / gouge / dent-gouge),
-  Part 13 (laminations), Part 14 (fatigue). See [[api-std-579]].
+  Part 13 (laminations), Part 14 (fatigue). See [api-std-579](api-std-579.md).
 - **AMPP/NACE MR0175 — Sour-service materials.** Overlaps with the RP 571
   sour-service damage entries (sulfide SCC, HIC, SOHIC) on the materials-
-  selection side. See [[ampp-mr-0175-pt1]] / [[ampp-mr-0175-pt2]] /
-  [[ampp-mr-0175-pt3]].
+  selection side. See [ampp-mr-0175-pt1](ampp-mr-0175-pt1.md) / [ampp-mr-0175-pt2](ampp-mr-0175-pt2.md) /
+  [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md).
 - **Risk-Based Inspection (concept).** RP 571 is the named damage-
   mechanism catalogue input behind the qualitative-and-quantitative RBI
-  workflow. See [[risk-based-inspection]].
+  workflow. See [risk-based-inspection](../concepts/risk-based-inspection.md).
 - **Corrosion-rate measurement (concept).** RP 571 surfaces typical
   rate ranges, governing factors, and morphology guidance per mechanism;
   these are the inputs against which CML thinning trends are interpreted.
-  See [[corrosion-rate-measurement]].
+  See [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md).
 - **Pitting and crevice corrosion (concept).** Several RP 571 entries
   (Cl-SCC pit-initiation, MIC, under-deposit attack) are the source
   material for the morphology and susceptibility content on
-  [[pitting-and-crevice-corrosion]].
+  [pitting-and-crevice-corrosion](../concepts/pitting-and-crevice-corrosion.md).
 
 ## Cross-wiki bridges
 
@@ -239,10 +239,10 @@ Resolver target for digitalmodel `Citation` instances per
 facts (`code_id`, `publisher`, `revision`) so fail-closed citation
 resolution can ground refining-damage-mechanism-derived screening,
 materials-selection, and rate-band outputs against this practice. It
-also serves as the technical-content anchor for [[api-rp-580]] /
-[[api-rp-581]] RBI screening, the FFS-Part-selection cross-reference
-for [[api-std-579]], and the link target from the [[risk-based-inspection]]
-and [[corrosion-rate-measurement]] concept pages.
+also serves as the technical-content anchor for [api-rp-580](api-rp-580.md) /
+[api-rp-581](api-rp-581.md) RBI screening, the FFS-Part-selection cross-reference
+for [api-std-579](api-std-579.md), and the link target from the [risk-based-inspection](../concepts/risk-based-inspection.md)
+and [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) concept pages.
 **Metadata-only** per spinout 2026-05-05 governance: no clause text,
 mechanism descriptions, susceptible-materials lists, critical-factor
 tables, morphology images, prevention/mitigation prescriptions,
@@ -258,7 +258,7 @@ inspection-technique recipes, or rate-range tables are reproduced here.
 
 ## Sources
 
-- Source page: [[og-standards-api]](../sources/og-standards-api.md) —
+- Source page: [og-standards-api](../sources/og-standards-api.md) —
   catalog rows matching `API RP 571` (1st ed 2003).
 - Catalog provenance: `/mnt/ace/O&G-Standards/_catalog.json` (entry
   `id: 27199`, `organization: API`, `doc_type: RP`, `doc_number: 571`);

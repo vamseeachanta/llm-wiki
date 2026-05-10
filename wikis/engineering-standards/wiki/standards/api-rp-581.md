@@ -31,8 +31,8 @@ raw_copy_allowed: false
 API RP 581 is the **quantitative** Risk-Based Inspection (RBI) methodology
 for refining and petrochemical pressurised assets — vessels, piping
 circuits, tankage, exchangers, and pressure-relieving devices — operated
-under the in-service inspection codes [[api-510]], [[api-std-570]], and
-[[api-std-653]]. It is the engineered sibling of [[api-rp-580]]: where
+under the in-service inspection codes [api-510](api-510.md), [[api-std-570]], and
+[[api-std-653]]. It is the engineered sibling of [api-rp-580](api-rp-580.md): where
 RP 580 sets the **programme requirements** (governance, team competence,
 documentation, re-evaluation triggers) that any RBI study must satisfy,
 RP 581 supplies the **calibrated equations, look-up tables, damage-factor
@@ -61,7 +61,7 @@ calibrations layer on top.
 | 1st ed (Base Resource Document, BRD) | 2000 | not in catalog | Original "Base Resource Document" issued under the API RBI joint-industry project; introduced the POF × COF + damage-factor + inspection-effectiveness framework. |
 | 2nd ed | 2008 | **catalog copy** (per `og-standards-api.md`, row "RP 581 \| Risk-Based Inspection Technology \| 2008") | Re-issued as a Recommended Practice (re-titled *Risk-Based Inspection Technology*); expanded damage-factor catalogue, refined COF models, added internal CUI / SCC mechanisms. |
 | 3rd ed | 2016 | not in catalog | Significant overhaul of the COF Level 1 / Level 2 split; expanded fluid-property tables; revised brittle-fracture and HTHA modules; aligned with the 2014 edition of API RP 571 damage-mechanisms catalogue and the 2016 edition of API RP 941 (Nelson curves). |
-| 4th ed | 2025 (current) | not in catalog | Current published edition; updates to damage-factor calibrations and COF models reflecting field-experience data accumulated through the 2010s, and re-aligned with the latest editions of [[api-rp-571]] and [[api-std-579]]. |
+| 4th ed | 2025 (current) | not in catalog | Current published edition; updates to damage-factor calibrations and COF models reflecting field-experience data accumulated through the 2010s, and re-aligned with the latest editions of [api-rp-571](api-rp-571.md) and [api-std-579](api-std-579.md). |
 
 > **Edition selection.** The frontmatter `revision` field reflects the
 > catalog-latest copy (2nd ed, 2008) per the spinout's metadata-only
@@ -76,11 +76,11 @@ RP 581's structure is stable across editions, organised in three parts.
 
 - **Part I — Inspection Planning Methodology.** The workflow: asset
   registration, fluid and operating-condition data capture, damage-
-  mechanism screening (delegating to [[api-rp-571]] for mechanism
+  mechanism screening (delegating to [api-rp-571](api-rp-571.md) for mechanism
   identification), POF computation per Part II, COF computation per
   Part III, risk ranking, and inspection-plan optimisation against the
   operator's risk-acceptance threshold. This part defines the
-  interfaces with [[api-510]] (vessels), [[api-std-570]] (piping), and
+  interfaces with [api-510](api-510.md) (vessels), [[api-std-570]] (piping), and
   [[api-std-653]] (tanks) — RP 581 does not replace those codes, it
   feeds the alternative interval-setting route they each permit.
 - **Part II — Determination of Damage Factors.** Per-mechanism POF
@@ -134,7 +134,7 @@ model, and inspection-effectiveness modifier.
   stainless during shutdowns / start-ups.
 - **High-Temperature Hydrogen Attack (HTHA).** Methane-driven
   decarburisation and fissuring of carbon and low-alloy steels in
-  hot hydrogen service; screened against [[api-rp-941]] Nelson-curve
+  hot hydrogen service; screened against [api-rp-941](api-rp-941.md) Nelson-curve
   operating envelopes.
 - **Brittle Fracture.** Low-toughness failure mode; screened against
   minimum-pressurisation-temperature (MPT) curves and Charpy data;
@@ -168,7 +168,7 @@ are introduced edition-by-edition.
 
 POF is reduced as effective inspections accumulate evidence that the
 asset's damage state is bounded. RP 581 inherits the
-inspection-effectiveness category definitions from [[api-rp-580]]:
+inspection-effectiveness category definitions from [api-rp-580](api-rp-580.md):
 
 | Category | Effectiveness | Typical example |
 |----------|--------------|-----------------|
@@ -192,31 +192,31 @@ the damage factor unchanged.
 
 ## Cross-references
 
-- **[[api-rp-580]]** — *Risk-Based Inspection* (qualitative /
+- **[api-rp-580](api-rp-580.md)** — *Risk-Based Inspection* (qualitative /
   programme-requirements sibling). RP 580 defines the governance,
   team competence, documentation, and re-evaluation requirements that
   every RBI study must satisfy. RP 581 supplies the quantitative
   engine; RP 580 supplies the programme. An RP 581 calculation
   without an RP 580-conformant programme around it is not a
   sanctioned RBI deliverable.
-- **[[api-510]] / [[api-std-570]] / [[api-std-653]]** — In-service
+- **[api-510](api-510.md) / [[api-std-570]] / [[api-std-653]]** — In-service
   inspection codes that **permit** RBI as the alternative
   interval-setting route to their table-based / half-life intervals.
   RP 581 is the methodology those codes invoke when an owner-user
   elects the RBI route.
-- **[[api-std-579]]** — *Fitness-for-Service* / ASME FFS-1. Called
+- **[api-std-579](api-std-579.md)** — *Fitness-for-Service* / ASME FFS-1. Called
   when RP 581's POF computation surfaces a flaw exceeding the
   inspection-code acceptance threshold; the FFS verdict
   (run / repair / replace / re-rate / re-inspect) feeds back into
   the next RBI cycle's POF and inspection plan, closing the
-  RBI ↔ FFS loop documented in [[fitness-for-service]] and
-  [[risk-based-inspection]].
-- **[[api-rp-571]]** — *Damage Mechanisms Affecting Fixed Equipment
+  RBI ↔ FFS loop documented in [fitness-for-service](../concepts/fitness-for-service.md) and
+  [risk-based-inspection](../concepts/risk-based-inspection.md).
+- **[api-rp-571](api-rp-571.md)** — *Damage Mechanisms Affecting Fixed Equipment
   in the Refining Industry*. The catalogue of damage-mechanism
   metallurgical and chemical descriptions that RP 581's Part II
   damage factors quantify. RP 581 expects mechanism identification
   per RP 571 as the upstream screening step.
-- **[[api-rp-941]]** — *Steels for Hydrogen Service at Elevated
+- **[api-rp-941](api-rp-941.md)** — *Steels for Hydrogen Service at Elevated
   Temperatures and Pressures in Petroleum Refineries and
   Petrochemical Plants*. The Nelson curves; the screening reference
   for RP 581's HTHA damage factor.
@@ -229,7 +229,7 @@ the damage factor unchanged.
   parallel methodology with offshore-specific consequence and
   inspection-access calibrations. Several flag-state regimes
   reference DNV-RP-G101 in lieu of API RP 581 for offshore topsides.
-- **[[risk-based-inspection]]** — Concept page; describes the
+- **[risk-based-inspection](../concepts/risk-based-inspection.md)** — Concept page; describes the
   RBI methodology generically and routes into RP 581 as the
   quantitative implementation.
 
@@ -240,8 +240,8 @@ Resolver target for digitalmodel `Citation` instances per
 facts (`code_id`, `publisher`, `revision`) so fail-closed citation
 resolution can ground RBI quantitative outputs (POF, COF, damage
 factors, inspection-effectiveness multipliers) against this code. It
-is also the forward-reference target from [[risk-based-inspection]]
-for the quantitative methodology and from [[api-510]] / [[api-std-570]]
+is also the forward-reference target from [risk-based-inspection](../concepts/risk-based-inspection.md)
+for the quantitative methodology and from [api-510](api-510.md) / [[api-std-570]]
 / [[api-std-653]] for the alternative interval-setting route. **Metadata-
 only** per spinout 2026-05-05 governance: no clause text, damage-factor
 formulas, COF coefficients, hole-size frequency tables, fluid-property
@@ -251,11 +251,11 @@ look-ups, or inspection-effectiveness multipliers are reproduced here.
 
 - API publisher catalog: <https://www.api.org/products-and-services/standards>
 - Catalog index for the on-disk vendor PDFs is enumerated in
-  [[og-standards-api]](../sources/og-standards-api.md); per spinout
+  [og-standards-api](../sources/og-standards-api.md); per spinout
   2026-05-05 governance, vendor PDFs live on the private vendor mount
   and are not committed to this repo.
 
 ## Sources
 
-- Source page: [[og-standards-api]](../sources/og-standards-api.md) —
+- Source page: [og-standards-api](../sources/og-standards-api.md) —
   catalog row `RP 581 | Risk-Based Inspection Technology | 2008`.

@@ -32,7 +32,7 @@ ASTM G106 is the **verification practice** for **Electrochemical Impedance Spect
 EIS itself applies a **small-amplitude AC perturbation** (typically 5–10 mV rms about the open-circuit potential, OCP) over a **broad frequency range** — conventionally **100 kHz down to 10 mHz**, six decades — and records the complex impedance `Z(ω) = Z'(ω) + j·Z''(ω)` at each frequency. Fitting `Z(ω)` to a physically motivated equivalent circuit yields:
 
 - **Solution resistance** `R_s` (the high-frequency real-axis intercept).
-- **Polarization resistance** `R_p` (the low-frequency real-axis intercept minus `R_s`), feeding Stern-Geary `i_corr` per [[astm-g3]] and [[astm-g102]].
+- **Polarization resistance** `R_p` (the low-frequency real-axis intercept minus `R_s`), feeding Stern-Geary `i_corr` per [astm-g3](astm-g3.md) and [astm-g102](astm-g102.md).
 - **Double-layer capacitance** `C_dl` (or constant-phase element `Q`, `α`), reporting electrode-surface area and adsorbed-film coverage.
 - **Diffusion impedance** (Warburg branch `Z_W = σ·ω⁻¹/²·(1−j)`) for mass-transport-limited reactions.
 - **Coating layers** — pore resistance `R_pore` and coating capacitance `C_c` — for painted, anodized, or 3LPE-coated specimens.
@@ -48,13 +48,13 @@ The local O&G-Standards catalog at `/mnt/ace/O&G-Standards/ASTM/G-Series/` holds
 | G106-89(R99) | `G_106_-_89_R99_RZEWNG_.pdf` | 1 file | 1989 revision, reapproved 1999 |
 | G106 (current) | not on disk | — | The publisher-current ASTM G106 edition is later than the 1999 reapproval; calc-callers needing the current edition must obtain it from the ASTM catalog |
 
-The publisher catalog year-token sweep done for the [[og-standards-astm-g-series]] source page recorded G106 with **1 edition** in the local catalog, matching the file row above.
+The publisher catalog year-token sweep done for the [og-standards-astm-g-series](../sources/og-standards-astm-g-series.md) source page recorded G106 with **1 edition** in the local catalog, matching the file row above.
 
 ## Key sections
 
 - **Apparatus verification with a passive RC dummy cell.** The verification specimen is a known-value resistor-capacitor network (typically a parallel `R_p ‖ C_dl` placed in series with `R_s`) — not a corroding electrode. The dummy cell's components are measured independently with a calibrated LCR meter; the EIS instrument is required to reproduce the impedance spectrum within a tolerance band (commonly ±1% on |Z| and ±1° on phase across the working frequency range). Drift outside this band indicates potentiostat amplitude error, FRA phase error, or a stale calibration.
 - **Test conditions for live specimens.** Rest the working electrode at OCP until `dE/dt` drops below ~1 mV/min before starting the sweep — drift during the low-frequency decade is the dominant source of EIS noise. The conventional sweep covers **at least six frequency decades** (100 kHz to 10 mHz); fewer decades truncate either the `R_s` extraction (high-frequency limit) or the `R_p` extraction (low-frequency limit). Perturbation amplitude is kept small (5–10 mV rms) to stay within the linear regime where `Z(ω)` is independent of amplitude.
-- **Data presentation.** Two canonical plot families, both anchored on the [[astm-g3]] convention substrate:
+- **Data presentation.** Two canonical plot families, both anchored on the [astm-g3](astm-g3.md) convention substrate:
   - **Nyquist plot** — `−Z''(ω)` on the Y axis vs `Z'(ω)` on the X axis (both linear, equal scale on both axes so semicircles render as circles). Each frequency is one point on the curve; the high-frequency end sits on the left near `R_s` and the low-frequency end sits on the right near `R_s + R_p`.
   - **Bode plot** — `log|Z(ω)|` and `phase angle θ(ω)` plotted separately against `log(f)`. Bode magnitude is read for `R_s` (high-f plateau) and `R_p` (low-f plateau); Bode phase peaks reveal the number of distinct time constants in the system.
 - **Kramers-Kronig (KKT) consistency check.** Real and imaginary parts of `Z(ω)` are mathematically constrained by causality: each can be reconstructed from the other via the Kramers-Kronig integral transforms. G106 requires a KKT residual check on every measured spectrum — residuals exceeding ~1% indicate non-stationary behavior (drift), non-linear response (perturbation amplitude too large), or instrument artifacts; such spectra fail the practice and cannot be reported.
@@ -90,21 +90,21 @@ The practical consequence: LPR is the **online-monitoring** tool (NACE SP0775 pr
 
 ## Cross-references
 
-- [[astm-g3]] — *Conventions for Electrochemical Measurements in Corrosion Testing.* G106 cites G3 for impedance-plot conventions (Nyquist sign convention `−Z''` upward; Bode log-frequency axis) and OCP reporting.
-- [[astm-g59]] — *Linear Polarization Resistance (LPR) Measurements.* DC sibling to G106; both deliver `R_p` for Stern-Geary `i_corr`. EIS supersedes LPR when `R_s`, diffusion, or coating layers are non-negligible.
+- [astm-g3](astm-g3.md) — *Conventions for Electrochemical Measurements in Corrosion Testing.* G106 cites G3 for impedance-plot conventions (Nyquist sign convention `−Z''` upward; Bode log-frequency axis) and OCP reporting.
+- [astm-g59](astm-g59.md) — *Linear Polarization Resistance (LPR) Measurements.* DC sibling to G106; both deliver `R_p` for Stern-Geary `i_corr`. EIS supersedes LPR when `R_s`, diffusion, or coating layers are non-negligible.
 - [[astm-g5]] — *Potentiodynamic Anodic Polarization Measurements.* Tafel scan on a Type 430 reference electrode; G106 is the AC complement to G5's DC measurement.
-- [[astm-g102]] — *Calculation of Corrosion Rates from Electrochemical Measurements.* Converts G106-derived `i_corr` into engineering penetration rate (mm/yr or mpy) via Faraday's law with an equivalent-weight argument.
-- [[astm-g1]] — *Preparing, Cleaning, and Evaluating Corrosion Test Specimens.* Mass-loss baseline that every G106-derived `i_corr` should be calibrated against before being trusted as an in-situ rate sensor.
-- [[astm-g31]] — *Laboratory Immersion Corrosion Testing of Metals.* Long-exposure mass-loss substrate that calibrates electrochemical-derived rates including EIS.
-- [[ampp-mr-0175-pt1]] / [[ampp-mr-0175-pt2]] / [[ampp-mr-0175-pt3]] — sour-service material-qualification framework; EIS is increasingly used to characterize CRA passive films under H2S/CO2 partial pressures within MR0175 envelopes.
+- [astm-g102](astm-g102.md) — *Calculation of Corrosion Rates from Electrochemical Measurements.* Converts G106-derived `i_corr` into engineering penetration rate (mm/yr or mpy) via Faraday's law with an equivalent-weight argument.
+- [astm-g1](astm-g1.md) — *Preparing, Cleaning, and Evaluating Corrosion Test Specimens.* Mass-loss baseline that every G106-derived `i_corr` should be calibrated against before being trusted as an in-situ rate sensor.
+- [astm-g31](astm-g31.md) — *Laboratory Immersion Corrosion Testing of Metals.* Long-exposure mass-loss substrate that calibrates electrochemical-derived rates including EIS.
+- [ampp-mr-0175-pt1](ampp-mr-0175-pt1.md) / [ampp-mr-0175-pt2](ampp-mr-0175-pt2.md) / [ampp-mr-0175-pt3](ampp-mr-0175-pt3.md) — sour-service material-qualification framework; EIS is increasingly used to characterize CRA passive films under H2S/CO2 partial pressures within MR0175 envelopes.
 - NACE SP0775 — *Preparation, Installation, Analysis, and Interpretation of Corrosion Coupons in Oilfield Operations.* Online-monitoring practice in which EIS-based probes are increasingly deployed alongside coupons and LPR probes; G106 is the equipment-verification anchor for those EIS probes.
-- [[api-rp-571]] — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* Damage-mechanism context for the corrosion modes (CUI, MIC, sour cracking, naphthenic-acid attack) that EIS is deployed to characterize in the field.
+- [api-rp-571](api-rp-571.md) — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* Damage-mechanism context for the corrosion modes (CUI, MIC, sour cracking, naphthenic-acid attack) that EIS is deployed to characterize in the field.
 - Concept anchor: [corrosion-rate-measurement](../concepts/corrosion-rate-measurement.md) — landing page that cites G106 as the EIS primary, alongside G5/G59/G102 in the electrochemical-measurement column.
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes an EIS-derived `R_p`, `C_dl`, or coating `R_pore` value with G106 provenance.
 
 ## Sources
 
-- [[og-standards-astm-g-series]] — parent source page for the ASTM G-Series slice of the local catalog; records the single-edition G106 presence, the catalog file path, and the metadata-only extraction policy that scopes this standards page.
+- [og-standards-astm-g-series](../sources/og-standards-astm-g-series.md) — parent source page for the ASTM G-Series slice of the local catalog; records the single-edition G106 presence, the catalog file path, and the metadata-only extraction policy that scopes this standards page.
 - Publisher catalog (current edition for purchase, registration required): https://www.astm.org/g0106-89r15.html (or the latest reapproval listing on `astm.org`).
 - On-disk raw PDFs (vendor-derivative, do not copy into git per spinout 2026-05-05 governance):
   - `/mnt/ace/O&G-Standards/ASTM/G-Series/G_106_-_89_R99_RZEWNG_.pdf`

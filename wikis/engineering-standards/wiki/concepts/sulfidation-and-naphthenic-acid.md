@@ -19,7 +19,7 @@ sources:
 
 # Sulfidation and Naphthenic-Acid Corrosion
 
-> Concept anchor for the two dominant high-temperature wall-loss mechanisms on refinery hot-circuit equipment — crude distillation, vacuum distillation, FCC slurry, and hydroprocessing inlet/outlet piping. Sits downstream of [[damage-mechanism-screening]] (which flags credible mechanisms) and feeds [[corrosion-rate-measurement]] (which interprets the measured wall-loss number per mechanism). Bidirectional with [[risk-based-inspection]] (POF input via API RP 581 thinning damage factor) and [[fitness-for-service]] (FFS Part 4 / Part 5 thinning assessment when wall loss exceeds T_min).
+> Concept anchor for the two dominant high-temperature wall-loss mechanisms on refinery hot-circuit equipment — crude distillation, vacuum distillation, FCC slurry, and hydroprocessing inlet/outlet piping. Sits downstream of [damage-mechanism-screening](damage-mechanism-screening.md) (which flags credible mechanisms) and feeds [corrosion-rate-measurement](corrosion-rate-measurement.md) (which interprets the measured wall-loss number per mechanism). Bidirectional with [risk-based-inspection](risk-based-inspection.md) (POF input via API RP 581 thinning damage factor) and [fitness-for-service](fitness-for-service.md) (FFS Part 4 / Part 5 thinning assessment when wall loss exceeds T_min).
 
 ## What is sulfidation?
 
@@ -65,7 +65,7 @@ The curves are published per **alloy class** — the alloy ladder used across al
 | 18-13-3 / Ti or Nb stabilised | 321 SS, 347 SS | Equivalent sulfidation behaviour to 304/316 with PASCC mitigation |
 | 25Cr–20Ni | 310 SS | Highest-Cr austenitic; strongest sulfidation resistance in the wrought-stainless ladder |
 
-For normative rate prediction, cite the publisher edition of [[api-rp-571]] (mechanism description and alloy guidance) or [[api-rp-581]] (quantitative thinning damage factor with the modified Couper–Gorman embedding) directly. The curves themselves — coordinates, coefficients, and rate-band tables — are not reproduced here per the spinout's metadata-only policy on vendor-derivative content.
+For normative rate prediction, cite the publisher edition of [api-rp-571](../standards/api-rp-571.md) (mechanism description and alloy guidance) or [api-rp-581](../standards/api-rp-581.md) (quantitative thinning damage factor with the modified Couper–Gorman embedding) directly. The curves themselves — coordinates, coefficients, and rate-band tables — are not reproduced here per the spinout's metadata-only policy on vendor-derivative content.
 
 ## What is naphthenic-acid corrosion (NAC)?
 
@@ -105,27 +105,27 @@ Sulfidation and NAC occur in the **same refinery domain** — high-temperature h
 
 Type 316 / 317 SS and the 18-13-3 stabilised stainless steels (Type 321, 347) sit at the intersection — adequate Cr for sulfidation and adequate Mo for moderate NAC. Above TAN ≈ 3 with elevated velocity, the alloy choice is driven by NAC alone (Mo dominates) and the sulfidation margin comes for free with the higher Cr content of the candidate CRA. Below TAN ≈ 0.5, sulfidation dominates and the alloy ladder collapses to the McConomy / Couper–Gorman curves.
 
-The corollary for inspection planning: a CML (Condition Monitoring Location) on a hot-circuit elbow may be tracking the **sum** of the two rate contributions, and a sudden acceleration in STCR (short-term corrosion rate per [[corrosion-rate-measurement]]) can indicate a TAN excursion in the crude slate even if the bulk sulfur content has not changed. Diagnostic separation typically requires a feed-stream TAN trend, a sulfur trend, and the metallurgy of the affected component.
+The corollary for inspection planning: a CML (Condition Monitoring Location) on a hot-circuit elbow may be tracking the **sum** of the two rate contributions, and a sudden acceleration in STCR (short-term corrosion rate per [corrosion-rate-measurement](corrosion-rate-measurement.md)) can indicate a TAN excursion in the crude slate even if the bulk sulfur content has not changed. Diagnostic separation typically requires a feed-stream TAN trend, a sulfur trend, and the metallurgy of the affected component.
 
 ## Inspection
 
 The inspection programme for sulfidation + NAC service is built on three layers:
 
-1. **UT thickness at high-velocity zones** — manual UT or AUT on elbows downstream of injection points, vacuum-tower transfer-line elbows, FCC slurry tees, and crude-column flash-zone internals. CML density per [[api-510]] / [[api-570]] is biased toward locations where shear rate is highest, since NAC rate scales with velocity.
+1. **UT thickness at high-velocity zones** — manual UT or AUT on elbows downstream of injection points, vacuum-tower transfer-line elbows, FCC slurry tees, and crude-column flash-zone internals. CML density per [api-510](../standards/api-510.md) / [api-570](../standards/api-570.md) is biased toward locations where shear rate is highest, since NAC rate scales with velocity.
 2. **Velocity surveys** — computational (CFD) and ultrasonic-tracer surveys to map shear-rate distribution along high-risk circuits, particularly after a feedstock change or a debottlenecking project that increases throughput. NAC risk shifts with shear-rate distribution; CML placement based only on the original-design flow regime can miss damage that has migrated.
-3. **Feed-stream and intermediate-stream chemistry monitoring** — sulfur content (wt%) and TAN (mg KOH/g) trended on every feed and key intermediate stream (atmospheric-residue, vacuum-residue, VGO side draws, FCC slurry). Step-changes in either trend prompt re-screening of the affected circuit, reassessment of the metallurgy adequacy, and adjustment of inspection-interval if STCR/LTCR (per [[corrosion-rate-measurement]]) has accelerated.
+3. **Feed-stream and intermediate-stream chemistry monitoring** — sulfur content (wt%) and TAN (mg KOH/g) trended on every feed and key intermediate stream (atmospheric-residue, vacuum-residue, VGO side draws, FCC slurry). Step-changes in either trend prompt re-screening of the affected circuit, reassessment of the metallurgy adequacy, and adjustment of inspection-interval if STCR/LTCR (per [corrosion-rate-measurement](corrosion-rate-measurement.md)) has accelerated.
 
-Damage-mechanism screening and CML placement for combined sulfidation + NAC service is a recurring theme in [[damage-mechanism-screening]]; consult that page for the broader unit-by-unit screening framework that situates this concept page in the integrity-management workflow.
+Damage-mechanism screening and CML placement for combined sulfidation + NAC service is a recurring theme in [damage-mechanism-screening](damage-mechanism-screening.md); consult that page for the broader unit-by-unit screening framework that situates this concept page in the integrity-management workflow.
 
 ## Standards
 
 Bidirectional cross-references — each standards page below should cross-link back to this concept page once the convention propagates.
 
-- [[api-rp-571]] — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* Mechanism catalogue; sulfidation and NAC are entries in the high-temperature corrosion family (RP 571 §5). Primary technical-content anchor.
-- [[api-rp-581]] — *Risk-Based Inspection Methodology.* Quantitative RBI; embeds the modified Couper–Gorman correlation in the **thinning damage-factor** computation and provides the per-asset rate-prediction model for both sulfidation (with and without H2) and NAC.
-- [[api-510]] — *Pressure Vessel Inspection Code.* In-service inspection consumer for vessel circuits subject to sulfidation + NAC; CML placement on hot-circuit pressure vessels (vacuum-tower, atmospheric-tower) follows the high-velocity-zone bias described above.
-- [[api-570]] — *Piping Inspection Code.* In-service inspection consumer for hot-piping circuits subject to sulfidation + NAC; CML density on transfer lines, side draws, and slurry circuits is the principal piping-integrity surface for these two mechanisms.
-- [[api-std-579]] — *Fitness-for-Service.* FFS consumer; Part 4 (general thinning) and Part 5 (local thinning) govern the assessment when measured wall loss exceeds the code-minimum thickness T_min for an asset subject to sulfidation, NAC, or both.
+- [api-rp-571](../standards/api-rp-571.md) — *Damage Mechanisms Affecting Fixed Equipment in the Refining Industry.* Mechanism catalogue; sulfidation and NAC are entries in the high-temperature corrosion family (RP 571 §5). Primary technical-content anchor.
+- [api-rp-581](../standards/api-rp-581.md) — *Risk-Based Inspection Methodology.* Quantitative RBI; embeds the modified Couper–Gorman correlation in the **thinning damage-factor** computation and provides the per-asset rate-prediction model for both sulfidation (with and without H2) and NAC.
+- [api-510](../standards/api-510.md) — *Pressure Vessel Inspection Code.* In-service inspection consumer for vessel circuits subject to sulfidation + NAC; CML placement on hot-circuit pressure vessels (vacuum-tower, atmospheric-tower) follows the high-velocity-zone bias described above.
+- [api-570](../standards/api-570.md) — *Piping Inspection Code.* In-service inspection consumer for hot-piping circuits subject to sulfidation + NAC; CML density on transfer lines, side draws, and slurry circuits is the principal piping-integrity surface for these two mechanisms.
+- [api-std-579](../standards/api-std-579.md) — *Fitness-for-Service.* FFS consumer; Part 4 (general thinning) and Part 5 (local thinning) govern the assessment when measured wall loss exceeds the code-minimum thickness T_min for an asset subject to sulfidation, NAC, or both.
 - **NACE Publication 34103** — *Refinery Crude Unit Practical Damage Mechanisms.* Companion field guide to API RP 571 with crude-unit-specific NAC + sulfidation case material; future first-class standards page candidate (promotion when the AMPP/NACE source slice lands in the catalog).
 
 ## Related concepts
@@ -166,6 +166,6 @@ Bidirectional cross-references — each standards page below should cross-link b
 
 ## Notes
 
-- This is a concept page, not a standards page. No clause text, McConomy / Couper–Gorman / modified-Couper–Gorman curve coordinates, alloy-specific rate-band tables, NAC-inhibitor formulation guidance, or RP 581 thinning damage-factor coefficients are reproduced here. For normative use, cite the publisher edition of [[api-rp-571]] / [[api-rp-581]] directly.
+- This is a concept page, not a standards page. No clause text, McConomy / Couper–Gorman / modified-Couper–Gorman curve coordinates, alloy-specific rate-band tables, NAC-inhibitor formulation guidance, or RP 581 thinning damage-factor coefficients are reproduced here. For normative use, cite the publisher edition of [api-rp-571](../standards/api-rp-571.md) / [api-rp-581](../standards/api-rp-581.md) directly.
 - The TAN thresholds and velocity-bin alloy-ladder above reflect typical refining experience and are illustrative, not normative. Asset-specific alloy selection must consider the operator's feedstock slate, blending strategy, hot-circuit velocity profile, simultaneous sulfidation overlay, prior-incident history, and any active inhibitor-injection programme.
 - The boundary between the H2-free McConomy regime and the H2/H2S modified-Couper–Gorman regime is the key screening question for hydroprocessing-unit hot-circuit metallurgy. A unit that operates close to the H2-partial-pressure boundary may shift between regimes with feedstock changes; the screening is regime-dependent, not a single-correlation calculation.

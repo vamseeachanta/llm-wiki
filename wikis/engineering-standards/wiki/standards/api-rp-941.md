@@ -48,23 +48,23 @@ conditions.
 RP 941 is the **operating-window source** that downstream programme
 documents reference:
 
-- [[api-rp-571]] catalogues HTHA as a damage mechanism and points to
+- [api-rp-571](api-rp-571.md) catalogues HTHA as a damage mechanism and points to
   RP 941 as the deep-dive reference for the Nelson-curve envelopes,
   alloy-by-alloy susceptibility, and detection guidance.
-- [[api-rp-581]] runs a dedicated HTHA damage-factor module (the
+- [api-rp-581](api-rp-581.md) runs a dedicated HTHA damage-factor module (the
   POF input for RBI on hot-hydrogen circuits); RP 941's Nelson curves
   supply the safe-vs-attack boundary that the damage-factor algorithm
   evaluates at the equipment item's actual T and pH₂.
-- [[api-510]] (pressure vessels) and [[api-std-570]] (piping) cite
+- [api-510](api-510.md) (pressure vessels) and [[api-std-570]] (piping) cite
   RP 941 as the technical reference behind in-service inspection of
   HTHA-exposed equipment, particularly for legacy 0.5Mo items.
-- [[api-std-579]] / ASME FFS-1 Part 4 / Part 5 / Part 10 LMTD assessments
+- [api-std-579](api-std-579.md) / ASME FFS-1 Part 4 / Part 5 / Part 10 LMTD assessments
   invoke RP 941 when HTHA is the suspected mechanism for an in-service
   flaw.
 
 RP 941 is also the substantive input behind the
-[[damage-mechanism-screening]] concept page (HTHA primary reference)
-and [[risk-based-inspection]] (Nelson-curve-based POF input for the
+[damage-mechanism-screening](../concepts/damage-mechanism-screening.md) concept page (HTHA primary reference)
+and [risk-based-inspection](../concepts/risk-based-inspection.md) (Nelson-curve-based POF input for the
 RP 581 HTHA damage factor).
 
 ## Edition history
@@ -165,19 +165,19 @@ RP 581 HTHA damage factor).
   Refining Industry.** Catalogues HTHA as a damage mechanism within
   the uniform / localised metal-loss family and points to RP 941 as
   the deep-dive technical reference. RP 571 is the catalogue;
-  RP 941 is the operating-window source. See [[api-rp-571]].
+  RP 941 is the operating-window source. See [api-rp-571](api-rp-571.md).
 - **API RP 581 — Risk-Based Inspection Methodology (quantitative).**
   Operates a dedicated HTHA damage-factor module; RP 941's Nelson
   curves supply the safe-vs-attack envelope that the damage-factor
   algorithm consults at each equipment item's operating T and pH₂.
   RP 941 is the POF input; RP 581 is the RBI computation. See
-  [[api-rp-581]].
+  [api-rp-581](api-rp-581.md).
 - **API 510 — Pressure Vessel Inspection Code.** In-service
   inspection code for pressure vessels; cites RP 941 as the
   technical reference behind HTHA-aware inspection planning for
   hot-hydrogen pressure vessels (hydroprocessor reactors,
   hydrotreater feed-effluent exchangers, recycle compressors'
-  associated drums). See [[api-510]].
+  associated drums). See [api-510](api-510.md).
 - **API 570 — Piping Inspection Code.** In-service inspection code
   for process piping; cites RP 941 as the technical reference for
   HTHA-aware piping inspection in hydroprocessing circuits
@@ -189,7 +189,7 @@ RP 581 HTHA damage factor).
   loss) and Part 5 (local metal loss) for thickness-based assessment
   of HTHA-thinned components; Part 10 (creep and high-temperature
   operation) for the long-term-mean-temperature and damage-driven
-  remaining-life arguments most relevant to HTHA. See [[api-std-579]].
+  remaining-life arguments most relevant to HTHA. See [api-std-579](api-std-579.md).
 - **ASME BPVC Section II Part D — Materials Properties (allowable
   stresses).** Provides the design allowable-stress tables that
   pressure-vessel and piping codes consume. RP 941's hot-hydrogen
@@ -205,10 +205,10 @@ RP 581 HTHA damage factor).
   current, industry-maintained, edition-versioned successor.
 - **Damage-mechanism screening (concept).** RP 941 is the named
   primary reference for the HTHA mechanism in the screening
-  workflow. See [[damage-mechanism-screening]].
+  workflow. See [damage-mechanism-screening](../concepts/damage-mechanism-screening.md).
 - **Risk-Based Inspection (concept).** RP 941 is the operating-window
   source whose Nelson curves the RP 581 HTHA damage factor consults
-  during quantitative POF estimation. See [[risk-based-inspection]].
+  during quantitative POF estimation. See [risk-based-inspection](../concepts/risk-based-inspection.md).
 
 ## Why this page exists
 
@@ -218,10 +218,10 @@ facts (`code_id`, `publisher`, `revision`) so fail-closed citation
 resolution can ground hot-hydrogen-service materials-selection,
 HTHA-screening, and Nelson-curve-derived calc outputs against this
 practice. It also serves as the named link target from
-[[api-rp-571]] (damage-mechanism catalogue), [[api-rp-581]] (RBI HTHA
-damage factor), [[api-510]] / [[api-std-570]] (in-service inspection
-codes), [[api-std-579]] (FFS HTHA assessments), and the
-[[damage-mechanism-screening]] / [[risk-based-inspection]] concept
+[api-rp-571](api-rp-571.md) (damage-mechanism catalogue), [api-rp-581](api-rp-581.md) (RBI HTHA
+damage factor), [api-510](api-510.md) / [[api-std-570]] (in-service inspection
+codes), [api-std-579](api-std-579.md) (FFS HTHA assessments), and the
+[damage-mechanism-screening](../concepts/damage-mechanism-screening.md) / [risk-based-inspection](../concepts/risk-based-inspection.md) concept
 pages. **Metadata-only** per spinout 2026-05-05 governance: no Nelson
 curve data, alloy-by-alloy T–pH₂ envelope tables, susceptible-grade
 lists, inspection-procedure recipes, or post-incident-survey case
@@ -238,7 +238,7 @@ data are reproduced here.
 
 ## Sources
 
-- Source page: [[og-standards-api]](../sources/og-standards-api.md) —
+- Source page: [og-standards-api](../sources/og-standards-api.md) —
   catalog rows matching `API RP 941`.
 - Catalog provenance: on-disk copy at the path above under
   `/mnt/ace/O&G-Standards/API/Recommended-Practice/`. Filename does

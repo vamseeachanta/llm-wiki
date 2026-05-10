@@ -8,12 +8,12 @@ added: 2026-04-07
 last_updated: 2026-05-09
 domain: maritime-law
 cross_links:
-  - ../../concepts/bunkers-convention-2001.md
-  - ../../standards/bunkers-convention-2001.md
-  - ../../standards/nairobi-wrc-2007.md
-  - ../../concepts/marpol-73-78.md
-  - ../../concepts/mlc-2006.md
-  - ../../concepts/environmental-liability.md
+  - ../concepts/bunkers-convention-2001.md
+  - ../standards/bunkers-convention-2001.md
+  - ../standards/nairobi-wrc-2007.md
+  - ../concepts/marpol-73-78.md
+  - ../concepts/mlc-2006.md
+  - ../concepts/environmental-liability.md
 ---
 
 # MV WAKASHIO (2020)

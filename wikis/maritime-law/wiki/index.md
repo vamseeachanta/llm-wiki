@@ -2,7 +2,7 @@
 domain: maritime-law
 created: 2026-04-07 02:40 UTC
 last_updated: 2026-05-09
-page_count: 73
+page_count: 76
 source_count: 2
 ---
 
@@ -14,8 +14,11 @@ source_count: 2
 
 | Page | Year | Location | Key Legal Issue |
 |------|------|----------|-----------------|
+| [[Hadley v Baxendale]](entities/hadley-v-baxendale-1854.md) | 1854 | English Court of Exchequer | Foundational two-limb rule for contract-damages remoteness (objective natural-consequence + subjective contemplated loss); bedrock for all maritime and commercial damages-claim analysis |
 | [[The Glendarroch]](entities/glendarroch-1894.md) | 1894 | English Court of Appeal | Bailee's burden of proof when invoking excepted-perils defence; foundational common-law presumption restored by *Volcafe* (2018) |
+| [[The Wagon Mound (No 1)]](entities/wagon-mound-1961.md) | 1961 | UK Privy Council (Australia appeal) | Reasonable-foreseeability test for tort remoteness; replaced *Re Polemis* direct-consequence rule; foundation for maritime-tort liability and pre-CLC pollution claims |
 | [[The Torrey Canyon]](entities/torrey-canyon-1967.md) | 1967 | Cornwall, UK | Founding casualty of CLC 1969 / IOPC Fund 1971 / MARPOL 73/78 / INTERVENTION 1969 |
+| [[The Heron II (Koufos v Czarnikow)]](entities/heron-ii-1969.md) | 1969 | UK House of Lords | Contract-damages foreseeability "not unlikely" / "serious possibility" standard; refined *Hadley v Baxendale* first limb; preserved contract-tort divergence on remoteness |
 | [[The Eurymedon]](entities/eurymedon-1974.md) | 1974 | UK Privy Council (NZ appeal) | Himalaya clause enforcement; carrier exemption-and-limitation extends to stevedores via collateral contract; bridge from *Adler v Dickson* (1955) |
 | [[The Amoco Cadiz]](entities/amoco-cadiz-1978.md) | 1978 | Brittany, France | Corporate veil-piercing in US-venue litigation; founding driver of Paris MoU 1982 and Salvage Convention 1989 Art. 14 |
 | [[The Sea Empress]](entities/sea-empress-1996.md) | 1996 | Wales, UK | Port-authority strict liability under WRA 1991 s.85 (*R v MHPA* [2000]); CLC 1992 / IOPC Fund 1992 application |

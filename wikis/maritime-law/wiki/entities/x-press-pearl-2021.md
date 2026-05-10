@@ -7,14 +7,14 @@ added: 2026-05-09
 last_updated: 2026-05-09
 domain: maritime-law
 cross_links:
-  - ../../concepts/hague-visby-rules.md
-  - ../../standards/hague-visby-rules.md
-  - ../../concepts/charterparties.md
-  - ../../concepts/environmental-liability.md
-  - ../../concepts/salvage-convention-1989.md
-  - ../../standards/salvage-convention-1989.md
-  - ../../standards/nairobi-wrc-2007.md
-  - ../../concepts/bunkers-convention-2001.md
+  - ../concepts/hague-visby-rules.md
+  - ../standards/hague-visby-rules.md
+  - ../concepts/charterparties.md
+  - ../concepts/environmental-liability.md
+  - ../concepts/salvage-convention-1989.md
+  - ../standards/salvage-convention-1989.md
+  - ../standards/nairobi-wrc-2007.md
+  - ../concepts/bunkers-convention-2001.md
 ---
 
 # X-Press Pearl (2021)

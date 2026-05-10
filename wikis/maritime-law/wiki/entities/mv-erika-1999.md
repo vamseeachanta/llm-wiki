@@ -7,10 +7,10 @@ added: 2026-04-07
 last_updated: 2026-05-09
 domain: maritime-law
 cross_links:
-  - ../../concepts/clc-1992.md
-  - ../../concepts/environmental-liability.md
-  - ../../concepts/paris-mou.md
-  - ../../concepts/marpol-73-78.md
+  - ../concepts/clc-1992.md
+  - ../concepts/environmental-liability.md
+  - ../concepts/paris-mou.md
+  - ../concepts/marpol-73-78.md
 ---
 
 # MV Erika (1999)
