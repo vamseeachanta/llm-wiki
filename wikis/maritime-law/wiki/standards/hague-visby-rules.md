@@ -20,6 +20,8 @@ sources:
   - https://www.cmi-international.org/
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://comitemaritime.org/work/rules-of-law/
+publisher_catalog_url: https://comitemaritime.org/publications-documents/
 ---
 
 # Hague-Visby Rules — Bills of Lading Liability Convention
@@ -125,4 +127,4 @@ The Rotterdam Rules 2008, signed by the US in 2009, was the international harmon
 - CMI portal: <https://www.cmi-international.org/> — drafting body, holds the historical Brussels diplomatic-conference records for Hague 1924, Visby 1968, and SDR 1979.
 - UK Carriage of Goods by Sea Act 1971: <https://www.legislation.gov.uk/ukpga/1971/19> — UK implementation; the schedule reproduces the Hague-Visby Rules as enacted.
 - US COGSA 1936 (re-codified at 46 U.S.C.): <https://uscode.house.gov/> — US Hague-only implementation reference.
-- [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md) — when a downstream calc cites a specific Hague-Visby Article (e.g., a cargo-claim valuation tool resolving the Article IV(5) package-limit), the `Citation` instance should resolve `code_id: hague-visby-rules` against this page.
+- `Calc citation contract` (calc-citation contract) — when a downstream calc cites a specific Hague-Visby Article (e.g., a cargo-claim valuation tool resolving the Article IV(5) package-limit), the `Citation` instance should resolve `code_id: hague-visby-rules` against this page.

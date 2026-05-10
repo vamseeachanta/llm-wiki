@@ -167,7 +167,7 @@ here MUST get a return link in its own Cross-references section.>_
 - _<e.g. UK: Merchant Shipping Act 1995, Part VI>_
 
 **maritime-law concepts** _(populate as concepts/* pages land)_
-- _<e.g. [liability-channeling](../concepts/liability-channeling.md)>_
+- _<e.g. `../concepts/liability-channeling.md`>_
 - _<e.g. [port-state-control](../concepts/port-state-control.md)>_
 - _<e.g. [flag-state-jurisdiction](../concepts/flag-state-jurisdiction.md)>_
 

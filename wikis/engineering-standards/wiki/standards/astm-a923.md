@@ -57,7 +57,7 @@ A923 addresses the principal duplex-stainless concern: improper heat-treatment, 
 ## Practitioner application
 
 - **Duplex-stainless plate qualification** — mill-product release tests confirm absence of detrimental phases from solution-anneal-and-quench heat treatment.
-- **Welded-joint qualification** — Method A or A+B applied to weld and HAZ in WPS qualification per [api-rp-582](api-rp-582.md), [norsok-m-601](norsok-m-601.md), and project-specific welding specifications; ensures weld procedure produced acceptable duplex microstructure without sigma precipitation.
+- **Welded-joint qualification** — Method A or A+B applied to weld and HAZ in WPS qualification per API RP 582, NORSOK M-601, and project-specific welding specifications; ensures weld procedure produced acceptable duplex microstructure without sigma precipitation.
 - **PWHT / stress-relief gate** — duplex stainless steels generally cannot tolerate PWHT in the sigma window; A923 testing of PWHT mockups confirms whether a planned heat treatment compromises the duplex microstructure.
 - **Heat exchanger duplex tube qualification** — Method A or A+C applied to tube-form duplex products and tube-to-tubesheet weldments for sour-service or chloride-process heat exchangers.
 - **Service-failure forensics** — A923 testing of failed duplex components retroactively confirms whether intermetallic-phase precipitation contributed to the failure mechanism.

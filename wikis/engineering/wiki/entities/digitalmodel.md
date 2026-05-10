@@ -42,4 +42,4 @@ The core engineering Python repository. A separate git repo (submodule of worksp
 
 - **Related entity**: [Solver Queue](../entities/solver-queue.md)
 - **Related concept**: [[test-driven-development]]
-- **Domain wiki**: [Marine Engineering](../../../../marine-engineering/wiki/index.md)
+- **Domain wiki**: [Marine Engineering](../../../marine-engineering/wiki/index.md)

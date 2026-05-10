@@ -218,7 +218,7 @@ page lands.
 
 - [HTHA & Nelson curves](../concepts/htha-nelson-curves.md) — atomic-H attack on C / low-alloy steels above Nelson threshold; post-Tesoro-Anacortes reassessment.
 - [Hydrogen embrittlement](../concepts/hydrogen-embrittlement.md) — ambient-T H-induced ductility loss; co-mechanism with HIC / SOHIC / sulfide SCC.
-- [Sulfidation & naphthenic-acid corrosion](../concepts/sulfidation-naphthenic-acid.md) — high-T S attack and high-TAN NAC on hot hydrocarbon equipment.
+- [Sulfidation & naphthenic-acid corrosion](../concepts/sulfidation-and-naphthenic-acid.md) — high-T S attack and high-TAN NAC on hot hydrocarbon equipment.
 - [Stress-corrosion cracking](../concepts/stress-corrosion-cracking.md) — umbrella for Cl-SCC, caustic, amine, PASCC, carbonate, sulfide SCC.
 - [Brittle fracture](../concepts/brittle-fracture.md) — low-T cleavage; reference-T framing feeding Part-3 FFS.
 - [Fatigue crack growth](../concepts/fatigue-crack-growth.md) — mechanical + thermal fatigue, da/dN-vs-ΔK, Part-14 FFS feed.

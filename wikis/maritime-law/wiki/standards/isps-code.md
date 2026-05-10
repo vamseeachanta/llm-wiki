@@ -20,6 +20,8 @@ sources:
   - https://www.imo.org/en/OurWork/Security/Pages/SOLAS-XI-2%20ISPS%20Code.aspx
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://www.imo.org/en/OurWork/Security/Pages/SOLAS-XI-2%20ISPS%20Code.aspx
+publisher_catalog_url: https://www.imo.org/en/publications/Pages/Default.aspx
 ---
 
 # ISPS Code — International Ship and Port Facility Security Code
@@ -102,4 +104,4 @@ The **NIST Cybersecurity Framework v1.1** has been widely adopted as the de-fact
 - IMO MSC-FAL.1/Circ.3/Rev.2 — *Guidelines on Maritime Cyber Risk Management*.
 - [solas-1974](./solas-1974.md) — parent standards page.
 - [ism-code](../concepts/ism-code.md) — sibling concept page (safety-management regime).
-- [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md) — downstream calcs citing a specific ISPS Part or Section should resolve `code_id: isps-code` against this page.
+- `Calc citation contract` (calc-citation contract) — downstream calcs citing a specific ISPS Part or Section should resolve `code_id: isps-code` against this page.

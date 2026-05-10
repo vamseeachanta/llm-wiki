@@ -19,6 +19,8 @@ sources:
   - https://comitemaritime.org/
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://comitemaritime.org/work/york-antwerp/
+publisher_catalog_url: https://comitemaritime.org/publications-documents/
 ---
 
 # York-Antwerp Rules — General Average Private Codification

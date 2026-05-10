@@ -19,6 +19,8 @@ sources:
   - https://www.imo.org/en/About/Conventions/Pages/International-Convention-on-Liability-and-Compensation-for-Damage-in-Connection-with-the-Carriage-of-Hazardous-and-Noxious-Substances-by-Sea-(HNS).aspx
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://www.imo.org/en/About/Conventions/Pages/International-Convention-on-Liability-and-Compensation-for-Damage-in-Connection-with-the-Carriage-of-Hazardous-and-Noxious-Substances-by-Sea-(HNS).aspx
+publisher_catalog_url: https://www.imo.org/en/publications/Pages/Default.aspx
 ---
 
 # HNS Convention 2010 — Hazardous and Noxious Substances Liability Convention

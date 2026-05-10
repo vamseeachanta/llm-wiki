@@ -130,4 +130,4 @@ Values are indicative magnitudes from public industry surveys (Oxford Institute 
 - [LNG Process Safety](./lng-process-safety.md) — exclusion-zone interaction with shape selection.
 - [LNG Regulatory Framework](./lng-regulatory-framework.md) — authority-stack differences between onshore and floating archetypes.
 - [Source — Doris 62092 SESA FLNG Terminal corpus](../sources/elements-doris-62092-sesa.md) — staged Elements/Doris project corpus for the SESA FLNG terminal; an FLNG-archetype anchor under the floating archetypes section above and the Sabine-Pass-context companion for the parallel-train liquefaction discussion.
-- **Cross-wiki (marine-engineering)**: [Mooring Systems](../../../marine-engineering/wiki/concepts/mooring-systems.md) — FLNG and FSRU mooring-system selection (turret, tower yoke, spread mooring) is a marine-engineering interface.
+- **Cross-wiki (marine-engineering)**: [Spread Mooring](../../../marine-engineering/wiki/concepts/spread-mooring.md) — FLNG and FSRU mooring-system selection (turret, tower yoke, spread mooring) is a marine-engineering interface.

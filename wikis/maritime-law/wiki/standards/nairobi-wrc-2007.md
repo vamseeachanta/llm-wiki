@@ -19,6 +19,8 @@ sources:
   - https://www.imo.org/en/About/Conventions/Pages/Nairobi-International-Convention-on-the-Removal-of-Wrecks.aspx
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://www.imo.org/en/About/Conventions/Pages/Nairobi-International-Convention-on-the-Removal-of-Wrecks.aspx
+publisher_catalog_url: https://www.imo.org/en/publications/Pages/Default.aspx
 ---
 
 # Nairobi WRC 2007 — International Convention on the Removal of Wrecks
@@ -116,4 +118,4 @@ WRC applies on a layered geographical and ship-classification basis:
 - Diplomatic Conference record: IMO **LEG/CONF.16/19** (publisher catalog reference; not reproduced here per `extraction_policy: metadata-and-doctrinal-synthesis`).
 - Sibling-instrument cap interface: [llmc-1996](./llmc-1996.md) — WRC Article 11 routes the wreck-removal cap through LLMC where applicable.
 - US-domestic comparator: **Wreck Act of 1899** (33 USC §§ 401–415) and **33 CFR Part 64** (publisher: US Congress / US Coast Guard).
-- [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md) — when a downstream calc cites the Nairobi WRC (e.g., a wreck-removal-exposure model for a coastal-state EEZ casualty), the `Citation` instance should resolve `code_id: nairobi-wrc-2007` against this page.
+- `Calc citation contract` (calc-citation contract) — when a downstream calc cites the Nairobi WRC (e.g., a wreck-removal-exposure model for a coastal-state EEZ casualty), the `Citation` instance should resolve `code_id: nairobi-wrc-2007` against this page.

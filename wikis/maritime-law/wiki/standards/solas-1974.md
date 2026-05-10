@@ -20,6 +20,8 @@ sources:
   - https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Safety-of-Life-at-Sea-(SOLAS),-1974.aspx
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Safety-of-Life-at-Sea-(SOLAS),-1974.aspx
+publisher_catalog_url: https://www.imo.org/en/publications/Pages/Default.aspx
 ---
 
 # SOLAS 1974 — International Convention for the Safety of Life at Sea
@@ -142,7 +144,7 @@ SOLAS evolves substantially through a casualty-then-amendment loop. The conventi
 
 ### Subdivision and stability drivers (Ch. II-1)
 
-- **SS Andrea Doria 1956** — Italian passenger liner collided with the *Stockholm* off Nantucket; sank the following morning with 46 fatalities. The *Andrea Doria* loss was a lighthouse case for **damage stability under collision flooding** — the ship had nominally compliant SOLAS 1948 subdivision but the post-collision heel exceeded the lifeboat-launch limit on one side, halving effective survival-craft capacity. The IMO probabilistic-damage-stability framework (now Ch. II-1 Part B-1, indices `A` ≥ `R`) is the doctrinal descendant; the case also drove early radar-collision-avoidance work that fed into [`COLREGs 1972`](../concepts/colregs-1972.md) (future-promotion candidate).
+- **SS Andrea Doria 1956** — Italian passenger liner collided with the *Stockholm* off Nantucket; sank the following morning with 46 fatalities. The *Andrea Doria* loss was a lighthouse case for **damage stability under collision flooding** — the ship had nominally compliant SOLAS 1948 subdivision but the post-collision heel exceeded the lifeboat-launch limit on one side, halving effective survival-craft capacity. The IMO probabilistic-damage-stability framework (now Ch. II-1 Part B-1, indices `A` ≥ `R`) is the doctrinal descendant; the case also drove early radar-collision-avoidance work that fed into `COLREGs 1972` (future-promotion candidate).
 - **MS Estonia 1994** — Roll-on/roll-off passenger (ro-pax) ferry sinking in the Baltic Sea with 852 fatalities after bow-visor failure and water on the open vehicle deck. Drove SOLAS Ch. II-1 damage-stability amendments and Ch. III life-saving-appliance amendments for ro-pax vessels (the "Stockholm Agreement" regional baseline preceded the global IMO uptake).
 - **MV Sewol 2014** — Republic of Korea ferry capsize with 304 fatalities (mostly schoolchildren) after illegal modification, cargo overload, and inadequate ballast. Drove regional and cross-flag domestic amendments and reinforced ISM-Code (Ch. IX) audit scrutiny on stability-data accuracy, cargo-securing manuals (Ch. VI), and crew training. *Sewol* is the canonical study case for **stability data integrity under sequential modification**.
 
@@ -218,10 +220,10 @@ SOLAS compliance is a multi-stakeholder system. The page-level architecture maps
 - [port-state-control](../concepts/port-state-control.md) — Ch. I survey-and-certificate regime as the baseline that PSC verifies against; the verification-side enforcement instrument.
 - [flag-state-jurisdiction](../concepts/flag-state-jurisdiction.md) — flag-state issue of SOLAS certificates via Recognized Organizations; the issuance-side authority instrument.
 - [environmental-liability](../concepts/environmental-liability.md) — SOLAS safety regime as the substrate that MARPOL/CLC overlay sits on.
-- [classification-societies](../concepts/classification-societies.md) — IACS member societies acting as Recognized Organizations under the RO Code (Ch. XI-1) (future-promotion candidate).
-- [recognized-organizations-code](../concepts/recognized-organizations-code.md) — RO Code as adopted under MSC.349(92), governing the flag-state-to-class delegation (future-promotion candidate).
-- [colregs-1972](../concepts/colregs-1972.md) — Convention on the International Regulations for Preventing Collisions at Sea, sibling navigational-safety regime referenced from SOLAS Ch. V (future-promotion candidate).
-- [load-lines-1966](../concepts/load-lines-1966.md) — International Convention on Load Lines, sibling safety treaty harmonized under HSSC (future-promotion candidate).
+- classification-societies — IACS member societies acting as Recognized Organizations under the RO Code (Ch. XI-1) (future-promotion candidate).
+- recognized-organizations-code — RO Code as adopted under MSC.349(92), governing the flag-state-to-class delegation (future-promotion candidate).
+- colregs-1972 — Convention on the International Regulations for Preventing Collisions at Sea, sibling navigational-safety regime referenced from SOLAS Ch. V (future-promotion candidate).
+- load-lines-1966 — International Convention on Load Lines, sibling safety treaty harmonized under HSSC (future-promotion candidate).
 - [stcw-1978](../concepts/stcw-1978.md) — Standards of Training, Certification and Watchkeeping for Seafarers; SOLAS sibling on the crew-competence side (future-promotion candidate).
 
 **Sibling IMO/ILO conventions** *(parallel instruments — most-amended IMO treaties)*
@@ -234,14 +236,14 @@ SOLAS compliance is a multi-stakeholder system. The page-level architecture maps
 
 **Worked-example incident pages** *(SOLAS is preventive-not-incident-anchored; these pages cite SOLAS by relevance)*
 
-- [titanic-1912](../entities/titanic-1912.md) — foundational driver for the entire SOLAS regime (future-promotion candidate).
-- [andrea-doria-1956](../entities/andrea-doria-1956.md) — subdivision-and-stability driver for Ch. II-1 probabilistic methods (future-promotion candidate).
+- titanic-1912 — foundational driver for the entire SOLAS regime (future-promotion candidate).
+- andrea-doria-1956 — subdivision-and-stability driver for Ch. II-1 probabilistic methods (future-promotion candidate).
 - [costa-concordia-2012](../entities/costa-concordia-2012.md) — SMS + stability + master-pilot interface (Ch. II-1 + Ch. III + Ch. V + Ch. IX) (future-promotion candidate).
-- [sewol-2014](../entities/sewol-2014.md) — RoRo stability data integrity (future-promotion candidate).
-- [mol-comfort-2013](../entities/mol-comfort-2013.md) — hull-girder failure driver for IACS UR S11A and CSR (future-promotion candidate).
-- [maersk-honam-2018](../entities/maersk-honam-2018.md) — cargo-fire driver for SOLAS Ch. II-2 amendments (future-promotion candidate).
-- [herald-of-free-enterprise-1987](../entities/herald-of-free-enterprise-1987.md) — SMS-mandate driver for Ch. IX ISM Code adoption (future-promotion candidate).
-- [estonia-1994](../entities/estonia-1994.md) — RoRo damage-stability driver for Ch. II-1 + Stockholm Agreement (future-promotion candidate).
+- sewol-2014 — RoRo stability data integrity (future-promotion candidate).
+- mol-comfort-2013 — hull-girder failure driver for IACS UR S11A and CSR (future-promotion candidate).
+- maersk-honam-2018 — cargo-fire driver for SOLAS Ch. II-2 amendments (future-promotion candidate).
+- herald-of-free-enterprise-1987 — SMS-mandate driver for Ch. IX ISM Code adoption (future-promotion candidate).
+- estonia-1994 — RoRo damage-stability driver for Ch. II-1 + Stockholm Agreement (future-promotion candidate).
 
 **Implementing-regulation national codes**
 
@@ -278,7 +280,7 @@ A downstream calc that imports a SOLAS-derived constant or methodology should re
 | Subordinate-code constant (IGC, IBC, ISM, ISPS) | The dedicated code page | "Cargo-tank insulation requirement per [`igc-code`](../../../lng-projects/wiki/standards/igc-code.md)." |
 | Incident-driven amendment context | Worked-example incident page (when published) | "Stability-data integrity under post-*Sewol* SOLAS Ch. II-1 amendments." |
 
-This matches the calc-citation-contract policy [recorded at `.claude/rules/calc-citation-contract.md`](../../../../.claude/rules/calc-citation-contract.md) — citations point at the most-specific resolver for the constant, not at the highest-level jurisdictional umbrella.
+This matches the calc-citation-contract policy `recorded at `.claude/rules/calc-citation-contract.md`` (calc-citation contract) — citations point at the most-specific resolver for the constant, not at the highest-level jurisdictional umbrella.
 
 ## Page-level provenance and editorial notes
 
@@ -294,4 +296,4 @@ This matches the calc-citation-contract policy [recorded at `.claude/rules/calc-
 - Consolidated edition record: *SOLAS Consolidated Edition 2022* (IMO publication IMO-110E).
 - Latest amendment resolutions: MSC.521(106) (2022) on e-navigation and GMDSS modernization; MSC.532(108) (2024) on cybersecurity.
 - [[concepts/solas-1974]](../concepts/solas-1974.md) — doctrinal companion in this wiki.
-- [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md) — when a downstream calc cites a specific SOLAS Chapter or Regulation, the `Citation` instance should resolve `code_id: solas-1974` against this page.
+- `Calc citation contract` (calc-citation contract) — when a downstream calc cites a specific SOLAS Chapter or Regulation, the `Citation` instance should resolve `code_id: solas-1974` against this page.

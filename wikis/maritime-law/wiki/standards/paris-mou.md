@@ -19,6 +19,8 @@ sources:
   - https://parismou.org/
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://parismou.org/
+publisher_catalog_url: https://parismou.org/publications-resources
 ---
 
 # Paris MoU — Memorandum of Understanding on Port State Control

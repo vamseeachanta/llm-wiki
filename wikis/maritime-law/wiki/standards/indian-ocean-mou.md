@@ -19,6 +19,8 @@ sources:
   - https://www.iomou.org/
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://www.iomou.org/
+publisher_catalog_url: https://www.iomou.org/publications
 ---
 
 # Indian Ocean MoU — Indian Ocean Memorandum of Understanding on Port State Control

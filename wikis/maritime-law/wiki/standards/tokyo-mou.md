@@ -19,6 +19,8 @@ sources:
   - https://www.tokyo-mou.org/
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://www.tokyo-mou.org/
+publisher_catalog_url: https://www.tokyo-mou.org/publications/publications.php
 ---
 
 # Tokyo MoU — Asia-Pacific Memorandum of Understanding on Port State Control

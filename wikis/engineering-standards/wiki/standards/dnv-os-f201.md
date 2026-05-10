@@ -89,8 +89,8 @@ This page is a citation resolver for downstream calc modules under the calc-cita
 - [dnv-os-e301](dnv-os-e301.md) — position mooring of the floating unit driving riser top motions
 - [dnv-rp-c203](dnv-rp-c203.md) — fatigue methodology applied to riser girth welds
 - [dnv-rp-c205](dnv-rp-c205.md) — environmental loads input
-- [dnv-os-f101](dnv-os-f101.md) — submarine pipeline systems companion offshore standard
-- [api-rp-2rd](api-rp-2rd.md) — API peer riser standard, frequently co-cited
+- DNV-OS-F101 — submarine pipeline systems companion offshore standard (resolver-page TBD)
+- API RP 2RD — API peer riser standard, frequently co-cited (resolver-page TBD)
 - [api-17j](api-17j.md) — flexible (unbonded) riser companion (W179 / W183 bridge)
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 

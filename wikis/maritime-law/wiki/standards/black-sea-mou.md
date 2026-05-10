@@ -19,6 +19,8 @@ sources:
   - http://www.bsmou.org/
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: http://www.bsmou.org/
+publisher_catalog_url: http://www.bsmou.org/publications/
 ---
 
 # Black Sea MoU on Port State Control

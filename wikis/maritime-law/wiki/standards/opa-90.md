@@ -20,6 +20,8 @@ sources:
   - https://www.bsee.gov/
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://www.law.cornell.edu/uscode/text/33/chapter-40
+publisher_catalog_url: https://www.law.cornell.edu/uscode/text/33
 ---
 
 # OPA 90 — US Oil Pollution Act of 1990

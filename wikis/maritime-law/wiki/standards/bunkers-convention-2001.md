@@ -19,6 +19,8 @@ sources:
   - https://www.imo.org/en/About/Conventions/Pages/International-Convention-on-Civil-Liability-for-Bunker-Oil-Pollution-Damage-(BUNKER).aspx
 extraction_policy: metadata-only
 raw_copy_allowed: false
+public_url: https://www.imo.org/en/About/Conventions/Pages/International-Convention-on-Civil-Liability-for-Bunker-Oil-Pollution-Damage-(BUNKER).aspx
+publisher_catalog_url: https://www.imo.org/en/publications/Pages/Default.aspx
 ---
 
 # Bunkers Convention 2001 — Civil Liability for Bunker Oil Pollution
@@ -94,4 +96,4 @@ This page is the metadata-only resolver for `code_id: bunkers-convention-2001`. 
 
 - IMO Bunkers Convention portal: <https://www.imo.org/en/About/Conventions/Pages/International-Convention-on-Civil-Liability-for-Bunker-Oil-Pollution-Damage-(BUNKER).aspx>
 - Diplomatic Conference record: IMO LEG/CONF.12/19 (publisher catalog reference, not reproduced here per `extraction_policy: metadata-only`).
-- [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md) — when a downstream calc cites the Bunkers Convention (e.g., a fuel-oil-spill liability-exposure model), the `Citation` instance should resolve `code_id: bunkers-convention-2001` against this page.
+- `Calc citation contract` (calc-citation contract) — when a downstream calc cites the Bunkers Convention (e.g., a fuel-oil-spill liability-exposure model), the `Citation` instance should resolve `code_id: bunkers-convention-2001` against this page.

@@ -19,6 +19,8 @@ sources:
   - https://www.imo.org/en/About/Conventions/Pages/Athens-Convention-relating-to-the-Carriage-of-Passengers-and-their-Luggage-by-Sea-(PAL).aspx
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://www.imo.org/en/About/Conventions/Pages/Athens-Convention-relating-to-the-Carriage-of-Passengers-and-their-Luggage-by-Sea-(PAL).aspx
+publisher_catalog_url: https://www.imo.org/en/publications/Pages/Default.aspx
 ---
 
 # Athens Convention 2002 — Carriage of Passengers and Their Luggage by Sea

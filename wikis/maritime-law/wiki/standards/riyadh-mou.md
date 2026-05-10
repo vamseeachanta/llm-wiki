@@ -19,6 +19,8 @@ sources:
   - https://www.riyadhmou.org/
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://www.riyadhmou.org/
+publisher_catalog_url: https://www.riyadhmou.org/publications.html
 ---
 
 # Riyadh MoU — GCC Riyadh Memorandum of Understanding on Port State Control

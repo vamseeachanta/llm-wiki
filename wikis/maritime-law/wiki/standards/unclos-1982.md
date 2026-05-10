@@ -20,6 +20,8 @@ sources:
   - https://www.un.org/depts/los/
 extraction_policy: metadata-only
 raw_copy_allowed: false
+public_url: https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf
+publisher_catalog_url: https://www.un.org/depts/los/
 ---
 
 # UNCLOS 1982 — UN Convention on the Law of the Sea
@@ -117,4 +119,4 @@ Section *titles only* — full text lives at the publisher catalog (link below).
 - UN DOALOS portal: <https://www.un.org/depts/los/>
 - Consolidated convention text (publisher PDF): <https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf>
 - [maritime-liability-conventions](../sources/maritime-liability-conventions.md) — sibling sources/ catalog page covering the implementing-treaty layer that rests on UNCLOS.
-- [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md) — when a downstream calc cites a specific UNCLOS Article, the `Citation` instance should resolve `code_id: unclos-1982` against this page.
+- `Calc citation contract` (calc-citation contract) — when a downstream calc cites a specific UNCLOS Article, the `Citation` instance should resolve `code_id: unclos-1982` against this page.

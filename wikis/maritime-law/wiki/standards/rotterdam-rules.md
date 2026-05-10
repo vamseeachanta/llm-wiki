@@ -20,6 +20,8 @@ sources:
   - https://uncitral.un.org/en/texts/transportgoods/conventions/rotterdam_rules
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://uncitral.un.org/en/texts/transportgoods/conventions/rotterdam_rules
+publisher_catalog_url: https://uncitral.un.org/
 ---
 
 # Rotterdam Rules — UN Convention on Carriage of Goods Wholly or Partly by Sea

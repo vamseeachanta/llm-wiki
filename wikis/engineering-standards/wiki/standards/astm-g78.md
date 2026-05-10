@@ -45,7 +45,7 @@ G78 is a **guide**, not a test method — it offers methodology recommendations 
 
 - **Crevice former designs** — multiple-crevice-assembly (MCA) washers, segmented PTFE blocks, and cylindrical-on-flat geometries; tightening-torque guidance for reproducible crevice gaps.
 - **Specimen preparation** — surface finish, cleaning, edge protection, and identification per [astm-g1](astm-g1.md) conventions.
-- **Test environment** — natural seawater (with site-of-collection documentation), filtered seawater, synthetic seawater per [astm-d1141](astm-d1141.md), or chloride-bearing process waters; environment characterization (chloride, sulfate, dissolved oxygen, temperature, pH) recorded at exposure start, mid-point, and end.
+- **Test environment** — natural seawater (with site-of-collection documentation), filtered seawater, synthetic seawater per ASTM D1141, or chloride-bearing process waters; environment characterization (chloride, sulfate, dissolved oxygen, temperature, pH) recorded at exposure start, mid-point, and end.
 - **Exposure duration** — typical 30/60/90 day intervals; longer durations (180+ days, 1 year) for ranking high-resistance Ni-base alloys.
 - **Crevice-initiation criteria** — visual evidence of attack within the crevice footprint, weight-loss indicators, or [astm-g46](astm-g46.md)-style examination of post-test specimens.
 - **Reporting** — crevice-former configuration, environment chemistry, exposure duration, fraction of crevice sites that initiated attack, and depth/area of attack at initiated sites.
@@ -78,7 +78,7 @@ ASTM catalog (registration required for purchase): `https://www.astm.org/g0078-2
 - [astm-g1](astm-g1.md) — *Preparing, Cleaning, and Evaluating Corrosion Test Specimens.* Cleaning and mass-loss conventions applied to G78 specimens.
 - [astm-g31](astm-g31.md) — *Laboratory Immersion Corrosion Testing of Metals.* Immersion-test foundation; G78 is the crevice-specific guide built on the same exposure platform.
 - [astm-g123](astm-g123.md) — *SCC of Stainless Alloys in Boiling Acidified NaCl.* Sister chloride-environment SCC test method for stainless alloys.
-- [astm-d1141](astm-d1141.md) — *Substitute Ocean Water Standard.* Synthetic-seawater formulation that G78 may invoke when natural seawater is unavailable.
+- ASTM D1141 — *Substitute Ocean Water Standard.* Synthetic-seawater formulation that G78 may invoke when natural seawater is unavailable.
 - [pitting-and-crevice-corrosion](../concepts/pitting-and-crevice-corrosion.md) — concept anchor; G78 is the service-relevant crevice-corrosion test guide for chloride environments.
 - [galvanic-corrosion](../concepts/galvanic-corrosion.md) — concept anchor; crevice-corrosion phenomenology overlaps galvanic deaeration cells in occluded geometries.
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md) — emit a `Citation(...)` whenever a calc module hard-codes a G78 environment parameter, exposure duration, or crevice-initiation criterion.

@@ -88,7 +88,7 @@ The 2021-09 edition's section structure is the working surface for most calc mod
 ## Cross-references
 
 - [dnv-rp-c203](dnv-rp-c203.md) — DNV deterministic fatigue-design RP; supplies the S-N curves, hot-spot stress methodology, and SCF catalogue that DNV-RP-C210 wraps in a reliability framework.
-- [dnv-os-c401](dnv-os-c401.md) — DNV offshore-structures fabrication-and-testing standard; the inspection-method specification and acceptance criteria DNV-RP-C210 plans against during construction.
+- DNV-OS-C401 — DNV offshore-structures fabrication-and-testing standard (resolver-page TBD); the inspection-method specification and acceptance criteria DNV-RP-C210 plans against during construction.
 - [api-rp-2a-wsd](api-rp-2a-wsd.md) — API fixed-platform planning/design code; DNV-RP-C210 is the RBI complement on API-RP-2A-designed platforms.
 - [api-rp-580](api-rp-580.md) / [api-rp-581](api-rp-581.md) — API process-equipment RBI codes; complementary scope (process equipment vs. structural-fatigue).
 - [bs-7910](bs-7910.md) — UK fitness-for-service code; Annex N is the parallel UK reliability-based FAD route.

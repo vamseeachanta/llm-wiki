@@ -87,7 +87,7 @@ ASME publications subscription required; ANSI catalog also lists the document. V
 - [asme-b31-12](asme-b31-12.md) — Hydrogen Piping and Pipelines; consumes B31J SIF/FF.
 - [asme-b16-5](asme-b16-5.md) — Pipe Flanges and Flanged Fittings NPS 1/2–24; component family with B31J SIF/FF data.
 - [asme-b16-47](asme-b16-47.md) — Large-diameter flanges (NPS 26 and larger) Series A / Series B.
-- [Pipe Stress Analysis](../concepts/pipe-stress-analysis.md) — concept page on B31 elastic-stress methodology.
+- Pipe Stress Analysis (concept page TBD) — B31 elastic-stress methodology.
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Notes

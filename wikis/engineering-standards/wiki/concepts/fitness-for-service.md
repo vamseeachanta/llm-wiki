@@ -112,7 +112,7 @@ The following case sketches illustrate the FFS workflow on representative indust
 A 1980-vintage 2.5 m-diameter, 25 mm-wall carbon-steel reactor in a sour-water-stripper service shows external general thinning to a grid-average 19 mm with isolated local minima of 16 mm over a 200 mm × 200 mm patch. Original design pressure 18 barg; design [asme-bpvc-viii-1](../standards/asme-bpvc-viii-1.md). Inspection invoked by API 510 finds the average below 80 % nominal — escalates to FFS.
 
 - **Level 1 (Part 4 general metal loss):** average thickness above the Part 4 screening curve for the operating pressure → general-loss screen passes.
-- **Level 2 (Part 4 + Part 5):** the 200 mm × 200 mm local minimum is treated as an LTA; Folias-corrected RSF computed against the design [hoop-stress](./hoop-stress.md) condition. RSF = 0.93 — above the 0.90 acceptance threshold, but inside the 0.05 escalation margin.
+- **Level 2 (Part 4 + Part 5):** the 200 mm × 200 mm local minimum is treated as an LTA; Folias-corrected RSF computed against the design hoop-stress condition. RSF = 0.93 — above the 0.90 acceptance threshold, but inside the 0.05 escalation margin.
 - **Verdict:** continue service at design MAOP, re-inspect in two years, install corrosion monitoring per [corrosion-rate-measurement](./corrosion-rate-measurement.md). RBI risk rank steps up one band.
 
 ### Case B — HTHA-affected hydrogen-service reactor (Part 4 + Part 8)
@@ -131,7 +131,7 @@ A Cr–Mo high-temperature header in a refinery reformer, 35 years in service at
 - **Level 1:** Larson–Miller life-fraction estimate from operating history — life-fraction exceeds 0.7, screen fails.
 - **Level 2 (Part 10):** Omega-method strain-rate analysis with measured fissure depth; remaining-life estimated as 4 years at current conditions.
 - **Level 3:** creep-crack-growth integration per Annex F (CC-similar to BS 7910 Annex J); confirms fissure growth dominates over uniform creep accumulation.
-- **Verdict:** replace section at next turnaround (18 months); install thermocouples on the suspect spool to confirm metal temperature; reduce header dwell-temperature 10 °C as interim mitigation. Cross-references [creep-rupture](./creep-rupture.md) and [larson-miller-parameter](./larson-miller-parameter.md).
+- **Verdict:** replace section at next turnaround (18 months); install thermocouples on the suspect spool to confirm metal temperature; reduce header dwell-temperature 10 °C as interim mitigation. Cross-references [creep-and-stress-rupture](./creep-and-stress-rupture.md) and Larson-Miller parameter methodology.
 
 ### Case D — Welded-joint flaw assessment (Part 9)
 

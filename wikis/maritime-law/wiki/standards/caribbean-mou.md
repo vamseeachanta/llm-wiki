@@ -19,6 +19,8 @@ sources:
   - https://www.caribbeanmou.org/
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://www.caribbeanmou.org/
+publisher_catalog_url: https://www.caribbeanmou.org/publications
 ---
 
 # Caribbean MoU — Caribbean Memorandum of Understanding on Port State Control

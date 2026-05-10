@@ -20,6 +20,8 @@ sources:
   - https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Prevention-of-Pollution-from-Ships-(MARPOL).aspx
 extraction_policy: metadata-only
 raw_copy_allowed: false
+public_url: https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Prevention-of-Pollution-from-Ships-(MARPOL).aspx
+publisher_catalog_url: https://www.imo.org/en/publications/Pages/Default.aspx
 ---
 
 # MARPOL 73/78 — International Convention for the Prevention of Pollution from Ships
@@ -100,7 +102,7 @@ The MARPOL regime evolves predominantly through **post-casualty amendment cycles
 | **Wakashio** | 2020 | Annex VI VLSFO compliance + Annex I | First post-2020 sulfur-cap-era major bunker-spill casualty; demonstrated the 0.50% VLSFO category as a new pollutant class with distinctive shoreline-impact signature; reinforced Mauritius EEZ enforcement under UNCLOS Part XII |
 | **X-Press Pearl** | 2021 | Annex III + Annex V | Container fire + plastic-pellet (nurdle) discharge; reinforced IMDG-Code packaging review; ongoing IOPC Fund / national-court litigation |
 
-Each casualty is a candidate entity-page anchor: [torrey-canyon-1967](../entities/torrey-canyon-1967.md) · [amoco-cadiz-1978](../entities/amoco-cadiz-1978.md) · [exxon-valdez-1989](../entities/exxon-valdez-1989.md) · [mv-erika-1999](../entities/mv-erika-1999.md) · [prestige-2002](../entities/prestige-2002.md) · [hebei-spirit-2007](../entities/hebei-spirit-2007.md) · [sanchi-2018](../entities/sanchi-2018.md) · [mv-wakashio-2020](../entities/mv-wakashio-2020.md) · [x-press-pearl-2021](../entities/x-press-pearl-2021.md).
+Each casualty is a candidate entity-page anchor: [torrey-canyon-1967](../entities/torrey-canyon-1967.md) · [amoco-cadiz-1978](../entities/amoco-cadiz-1978.md) · [exxon-valdez-1989](../entities/exxon-valdez-1989.md) · [mv-erika-1999](../entities/mv-erika-1999.md) · [prestige-2002](../entities/mv-prestige-2002.md) · [hebei-spirit-2007](../entities/hebei-spirit-2007.md) · [sanchi-2018](../entities/sanchi-2018.md) · [mv-wakashio-2020](../entities/mv-wakashio-2020.md) · [x-press-pearl-2021](../entities/x-press-pearl-2021.md).
 
 ## Regime-distinction multi-criteria comparison — MARPOL vs. CLC vs. Bunkers vs. HNS
 
@@ -169,9 +171,9 @@ MARPOL is implemented globally but enforced through a layered architecture of **
 - [bunkers-convention-2001](../concepts/bunkers-convention-2001.md) — fuel-oil-pollution liability sibling.
 - [hns-convention-2010](../concepts/hns-convention-2010.md) — hazardous and noxious substances liability sibling.
 - [ism-code](../concepts/ism-code.md) — safety-management overlay implementing pollution-prevention shipboard procedures.
-- [coastal-state-jurisdiction](../concepts/coastal-state-jurisdiction.md) — UNCLOS Art. 220 enforcement authority within EEZ.
-- [iopc-funds](../concepts/iopc-funds.md) — supplementary compensation tier above CLC shipowner cap.
-- [tacit-amendment-procedure](../concepts/tacit-amendment-procedure.md) — IMO amendment mechanism under which MARPOL evolves.
+- coastal-state-jurisdiction — UNCLOS Art. 220 enforcement authority within EEZ.
+- iopc-funds — supplementary compensation tier above CLC shipowner cap.
+- tacit-amendment-procedure — IMO amendment mechanism under which MARPOL evolves.
 
 **maritime-law entities** *(casualty digests cited in worked-example table above)*
 
@@ -179,7 +181,7 @@ MARPOL is implemented globally but enforced through a layered architecture of **
 - [amoco-cadiz-1978](../entities/amoco-cadiz-1978.md) — driver for 1978 Protocol absorption + Annex II deferral.
 - [exxon-valdez-1989](../entities/exxon-valdez-1989.md) — driver for Annex I Reg. 13F single-hull phase-out trajectory.
 - [mv-erika-1999](../entities/mv-erika-1999.md) — driver for MEPC.117(52) single-hull acceleration + EU Erika packages.
-- [prestige-2002](../entities/prestige-2002.md) — reinforced MEPC.117(52); driver for EU Directive 2005/35/EC.
+- [prestige-2002](../entities/mv-prestige-2002.md) — reinforced MEPC.117(52); driver for EU Directive 2005/35/EC.
 - [hebei-spirit-2007](../entities/hebei-spirit-2007.md) — Annex I + CLC + IOPC + national-criminal-prosecution interaction case study.
 - [sanchi-2018](../entities/sanchi-2018.md) — condensate/light-crude Annex I edge-case.
 - [mv-wakashio-2020](../entities/mv-wakashio-2020.md) — first post-2020 sulphur-cap-era VLSFO casualty; UNCLOS Art. 220 EEZ enforcement.
@@ -227,4 +229,4 @@ MARPOL is implemented globally but enforced through a layered architecture of **
 - Tokyo MoU annual report + CIC themes: <https://www.tokyo-mou.org/>
 - EU Erika III package text: <https://eur-lex.europa.eu/> (Directives 2009/16/EC, 2009/17/EC, 2009/18/EC; Regulations 391/2009 + 392/2009)
 - EU Directive 2005/35/EC: <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32005L0035>
-- [Calc citation contract](../../../../.claude/rules/calc-citation-contract.md) — when a downstream calc cites a specific MARPOL Annex/Regulation, the `Citation` instance should resolve `code_id: marpol-73-78` against this page (for doctrinal references) or against the engineering-standards mirror page (for numeric constants).
+- `Calc citation contract` (calc-citation contract) — when a downstream calc cites a specific MARPOL Annex/Regulation, the `Citation` instance should resolve `code_id: marpol-73-78` against this page (for doctrinal references) or against the engineering-standards mirror page (for numeric constants).

@@ -19,6 +19,8 @@ sources:
   - https://www.medmou.org/
 extraction_policy: metadata-and-doctrinal-synthesis
 raw_copy_allowed: false
+public_url: https://www.medmou.org/
+publisher_catalog_url: https://www.medmou.org/publications
 ---
 
 # Mediterranean MoU — Mediterranean Memorandum of Understanding on Port State Control
