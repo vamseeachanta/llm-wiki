@@ -9,14 +9,14 @@ added: 2026-04-07
 last_updated: 2026-05-09
 domain: maritime-law
 cross_links:
-  - ../../standards/clc-1992.md
-  - ../../standards/bunkers-convention-2001.md
-  - ../../standards/hns-convention-2010.md
-  - ../../standards/opa-90.md
-  - ../../standards/marpol-73-78.md
-  - ../../standards/salvage-convention-1989.md
-  - ../../standards/nairobi-wrc-2007.md
-  - ../../standards/llmc-1996.md
+  - ../standards/clc-1992.md
+  - ../standards/bunkers-convention-2001.md
+  - ../standards/hns-convention-2010.md
+  - ../standards/opa-90.md
+  - ../standards/marpol-73-78.md
+  - ../standards/salvage-convention-1989.md
+  - ../standards/nairobi-wrc-2007.md
+  - ../standards/llmc-1996.md
   - ./opa-90.md
   - ./llmc-1996.md
   - ./salvage-convention-1989.md
@@ -107,14 +107,14 @@ The structural divide is the practitioner's first analytical fork in any polluti
 ## Cross-references
 
 **Standards-tier companions (metadata resolvers)**
-- [[standards/clc-1992]](../../standards/clc-1992.md) — tanker oil-pollution Tier-1 strict liability and compulsory insurance
-- [[standards/bunkers-convention-2001]](../../standards/bunkers-convention-2001.md) — non-tanker bunker-fuel spill liability (LLMC-defer mechanic)
-- [[standards/hns-convention-2010]](../../standards/hns-convention-2010.md) — hazardous and noxious substances (not yet in force)
-- [[standards/opa-90]](../../standards/opa-90.md) — US-domestic unlimited-liability regime; §2704(c) cap-loss
-- [[standards/marpol-73-78]](../../standards/marpol-73-78.md) — operational-discharge layer across all six annexes
-- [[standards/salvage-convention-1989]](../../standards/salvage-convention-1989.md) — Article 14 special-compensation environmental-protection innovation
-- [[standards/nairobi-wrc-2007]](../../standards/nairobi-wrc-2007.md) — wreck-removal cost-allocation closing the IMO compensation-stack gap
-- [[standards/llmc-1996]](../../standards/llmc-1996.md) — umbrella per-incident cap; aggregate ceiling for residual claims
+- [[standards/clc-1992]](../standards/clc-1992.md) — tanker oil-pollution Tier-1 strict liability and compulsory insurance
+- [[standards/bunkers-convention-2001]](../standards/bunkers-convention-2001.md) — non-tanker bunker-fuel spill liability (LLMC-defer mechanic)
+- [[standards/hns-convention-2010]](../standards/hns-convention-2010.md) — hazardous and noxious substances (not yet in force)
+- [[standards/opa-90]](../standards/opa-90.md) — US-domestic unlimited-liability regime; §2704(c) cap-loss
+- [[standards/marpol-73-78]](../standards/marpol-73-78.md) — operational-discharge layer across all six annexes
+- [[standards/salvage-convention-1989]](../standards/salvage-convention-1989.md) — Article 14 special-compensation environmental-protection innovation
+- [[standards/nairobi-wrc-2007]](../standards/nairobi-wrc-2007.md) — wreck-removal cost-allocation closing the IMO compensation-stack gap
+- [[standards/llmc-1996]](../standards/llmc-1996.md) — umbrella per-incident cap; aggregate ceiling for residual claims
 
 **Sibling concept pages (doctrinal synthesis)**
 - [[concepts/opa-90]](./opa-90.md) — US-domestic synthesis; Era-3 carve-out and Era-6 reference case

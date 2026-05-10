@@ -68,3 +68,15 @@ ASCE documents in this catalog grouped by code/series:
 1. **Catalog re-classification**: file an issue against the catalog generator to re-bucket ASCE-authored files out of `Unknown/`, `OnePetro/`, and `ISO/` parents into a proper `ASCE/` parent root and to add ASCE to `statistics.by_organization`. Without this, ASCE coverage is invisible to any `organization`-filtered consumer.
 2. **Per-code standards/ pages**: ASCE 7 is the only ASCE code with standards content present. A `wiki/standards/asce-7.md` page anchored on 7-05 (the most useful catalogued edition) with a revision-history note for 7-98 → 7-02 → 7-05 → (gap to 7-22) would consolidate the wind-load / minimum-design-loads thread. Cross-link into concepts/ for wind-loads and seismic-design.
 3. **Working-group archive**: the 28 COPRI MRE committee artifacts (2011-12 → 2015-08) are not standards but **are** a coherent governance archive of one phase of the MRE Guide drafting. They should either be moved to a separate `wiki/governance-archives/copri-mre-2011-2015.md` page or excluded from standards-page indexing entirely. Do not surface them as standards content.
+
+## Cross-references
+
+ASCE 7 (the only ASCE-published standard in this slice) is a wind-loads / minimum-design-loads anchor that intersects offshore-topsides design with the underlying API and DNV environmental-load codes. No ASCE-specific standards page exists in this wiki yet; the cross-references below name the related publishers' pages already promoted in `wiki/standards/`:
+
+- [`standards/api-rp-2met`](../standards/api-rp-2met.md) — API Recommended Practice for derivation of metocean design conditions; ASCE 7 wind-load methods inform topsides metocean envelopes.
+- [`standards/api-rp-2a-wsd`](../standards/api-rp-2a-wsd.md) — API offshore-platform code; cites ASCE 7 wind provisions for topsides.
+- [`standards/dnv-rp-c205`](../standards/dnv-rp-c205.md) — DNV environmental-conditions / environmental-loads recommended practice; the offshore counterpart to ASCE 7 minimum-design-loads philosophy.
+- [`standards/iso-19901-1`](../standards/iso-19901-1.md) — ISO offshore metocean conditions, the international companion to API RP 2MET and ASCE 7 onshore practice.
+- [`standards/iso-19902`](../standards/iso-19902.md) — ISO fixed-steel-offshore-structures; cites ASCE-style wind/seismic load factors for the topsides envelope.
+
+The COPRI MRE committee artifacts (28 of 32 entries in this slice) are governance-process material and do not warrant standards-page or concept-page cross-references; see follow-up #3 above for the recommended quarantine path.

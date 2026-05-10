@@ -7,14 +7,14 @@ sources:
   - concept-synthesis
 domain: maritime-law
 cross_links:
-  - ../../standards/hague-visby-rules.md
-  - ../../standards/rotterdam-rules.md
+  - ../standards/hague-visby-rules.md
+  - ../standards/rotterdam-rules.md
   - ./charterparties.md
 ---
 
 # Hague-Visby Rules — Doctrinal Synthesis
 
-> Practitioner-facing companion to the standards-tier metadata resolver at [`standards/hague-visby-rules.md`](../../standards/hague-visby-rules.md). This page synthesizes what the Hague-Visby regime means in operational practice for shippers, carriers, freight forwarders, NVOCCs, and P&I underwriters — what changed between Hague 1924 and Visby 1968, why the US sat out the Visby Protocol, and how the regime sits in relation to Hamburg and the still-pending Rotterdam Rules. No convention text is reproduced.
+> Practitioner-facing companion to the standards-tier metadata resolver at [`standards/hague-visby-rules.md`](../standards/hague-visby-rules.md). This page synthesizes what the Hague-Visby regime means in operational practice for shippers, carriers, freight forwarders, NVOCCs, and P&I underwriters — what changed between Hague 1924 and Visby 1968, why the US sat out the Visby Protocol, and how the regime sits in relation to Hamburg and the still-pending Rotterdam Rules. No convention text is reproduced.
 
 ## Why Hague-Visby matters
 
@@ -107,7 +107,7 @@ The navigational-fault defense is the most commercially significant and the most
 
 **Standards-tier companion (metadata resolver)**
 
-- [`standards/hague-visby-rules.md`](../../standards/hague-visby-rules.md) — bidirectional companion; consolidated edition (Hague 1924 + Visby 1968 + SDR 1979), code-id citation target, key-articles inventory, US-COGSA carve-out, jurisdiction list.
+- [`standards/hague-visby-rules.md`](../standards/hague-visby-rules.md) — bidirectional companion; consolidated edition (Hague 1924 + Visby 1968 + SDR 1979), code-id citation target, key-articles inventory, US-COGSA carve-out, jurisdiction list.
 
 **Sibling private-law instruments**
 
@@ -115,7 +115,7 @@ The navigational-fault defense is the most commercially significant and the most
 
 **Successor regimes**
 
-- [`standards/rotterdam-rules.md`](../../standards/rotterdam-rules.md) — successor regime; door-to-door scope, raised limits, navigational-fault abolition; signed but not in force.
+- [`standards/rotterdam-rules.md`](../standards/rotterdam-rules.md) — successor regime; door-to-door scope, raised limits, navigational-fault abolition; signed but not in force.
 
 **Case-law application**
 
@@ -128,4 +128,4 @@ The navigational-fault defense is the most commercially significant and the most
 ## Citation source
 
 - CMI portal: <https://www.cmi-international.org/> — drafting body; holds the historical Brussels diplomatic-conference records for Hague 1924, Visby 1968, and SDR 1979.
-- This is a doctrinal-synthesis page; no convention text is reproduced. The metadata-resolver companion at [`standards/hague-visby-rules.md`](../../standards/hague-visby-rules.md) is the citation target for `code_id: hague-visby-rules`.
+- This is a doctrinal-synthesis page; no convention text is reproduced. The metadata-resolver companion at [`standards/hague-visby-rules.md`](../standards/hague-visby-rules.md) is the citation target for `code_id: hague-visby-rules`.

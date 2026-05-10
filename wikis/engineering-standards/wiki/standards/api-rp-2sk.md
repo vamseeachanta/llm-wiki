@@ -10,6 +10,7 @@ revision: "3e-2005-r2008"
 revision_source: /mnt/ace/O&G-Standards/API/Recommended-Practice/
 verified_on: 2026-05-02
 public_url: https://www.api.org/products-and-services/standards
+publisher_catalog_url: https://www.api.org/products-and-services/api-publications
 sources:
   - /mnt/ace/O&G-Standards/API/Recommended-Practice/API_RP_2SK_3rd_Ed_(2005).pdf
   - /mnt/ace/O&G-Standards/API/Recommended-Practice/API_RP_2SK_Addendum_1_(2007).pdf

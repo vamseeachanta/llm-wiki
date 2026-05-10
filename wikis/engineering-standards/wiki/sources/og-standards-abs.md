@@ -65,3 +65,17 @@ ABS documents in this catalog by document ID (as derived from filename), with ed
 1. **Catalog re-classification**: file an issue against the catalog generator to re-bucket ABS-authored files out of `API/` and `BSI/` parents into a proper `ABS/` parent root and to add ABS to `statistics.by_organization`. The current state silently hides ABS coverage from any consumer that filters on `organization`.
 2. **Per-code standards/ pages**: GUI 115 (Fatigue Assessment of Offshore Structures, 2003 → 2010) is the strongest candidate for a `wiki/standards/abs-gui-115.md` page consolidating the two editions; it complements DNV-RP-C203 in the fatigue-design landscape. GUI 002 (FPSO classification, 1994) warrants a standalone page given the persistent industry use of ABS FPSO class.
 3. **Coverage gap**: the modern ABS Rules for Building and Classing Floating Production Installations (2014, 2018, 2020 revisions), Rules for Mobile Offshore Drilling Units (MODU), and Guide for Building and Classing Subsea Pipeline Systems are **absent** from this catalog. If those become available outside the vendor-PDF firewall (e.g., publisher datasheets, regulatory submissions), they would be the highest-value gap-fills for offshore-class coverage.
+
+## Cross-references
+
+Standards pages already promoted from this ABS slice (cite this source page from their provenance):
+
+- [`standards/abs-gui-002-fpso`](../standards/abs-gui-002-fpso.md) — Guide for Building and Classing Floating Production Storage Systems (FPSO), 1994; the catalog entry GUI 002 underpins this page.
+- [`standards/abs-gui-115-fatigue-offshore`](../standards/abs-gui-115-fatigue-offshore.md) — Fatigue Assessment of Offshore Structures, 2003 + 2010 editions.
+- [`standards/abs-gn-239-cathodic-protection-offshore`](../standards/abs-gn-239-cathodic-protection-offshore.md) — companion ABS guidance note for offshore cathodic protection.
+- [`standards/abs-rules-offshore-installations`](../standards/abs-rules-offshore-installations.md) — ABS rules for the broader offshore-installation class envelope.
+- [`standards/abs-gui-101-fpso-dla`](../standards/abs-gui-101-fpso-dla.md) — FPSO Direct Load Analysis guidance (Pub 101 in the FAOS series).
+
+Concept pages that should cite this source when invoking ABS-published methods:
+
+- [`concepts/fatigue-design-and-assessment`](../concepts/fatigue-design-and-assessment.md) — ABS GUI 115 is one of the offshore-fatigue anchors alongside DNV-RP-C203 and BS 7608.

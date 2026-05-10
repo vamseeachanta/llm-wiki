@@ -195,3 +195,20 @@ Top E-codes to promote to `wiki/standards/<code-id>.md` pages, prioritized by O&
 - `wiki/concepts/master-curve-t0.md` — dedicated concept page for E1921 reference-temperature methodology.
 
 **Catalog-hygiene follow-up:** sweep `ASTM/E-Series/` for misfiled non-E documents (observed: `(C###)` concrete-test PDFs at directory root). Either reclassify into a future `ASTM/C-Series/` bucket or note as known-impurities in the catalog.
+
+## Cross-references
+
+Standards pages already promoted from this E-Series slice (each should cite this source page for catalog provenance):
+
+- [`standards/astm-e399`](../standards/astm-e399.md) — Plane-strain fracture toughness K_IC of metallic materials.
+- [`standards/astm-e1820`](../standards/astm-e1820.md) — J-integral / unified fracture toughness (J-R curve).
+- [`standards/astm-e1921`](../standards/astm-e1921.md) — Reference temperature T₀ for ferritic steels (Master Curve).
+- [`standards/astm-e647`](../standards/astm-e647.md) — Measurement of fatigue crack growth rates (da/dN vs ΔK).
+
+Concept pages that should cite this source when invoking E-Series-published methods:
+
+- [`concepts/fracture-toughness-measurement`](../concepts/fracture-toughness-measurement.md) — E399 / E1820 / E1290 / E1921 are the laboratory backbone for fracture-toughness acceptance.
+- [`concepts/mechanical-fatigue`](../concepts/mechanical-fatigue.md) — E647 (da/dN), E466 (force-controlled fatigue), E739 (S-N statistical analysis).
+- [`concepts/engineering-critical-assessment`](../concepts/engineering-critical-assessment.md) — E1820 J-integral and E1921 Master Curve toughness inputs feed BS 7910 / API 579 ECA workflow.
+- [`concepts/brittle-fracture`](../concepts/brittle-fracture.md) — E1921 Master Curve T₀ is the reference-temperature method for ferritic-steel brittle-fracture transition.
+- [`concepts/welding-procedures-and-acceptance`](../concepts/welding-procedures-and-acceptance.md) — E94 (RT), E709 / E1444 (MT), E165 / E1417 (PT), and E45 / E112 (metallography) are NDE and metallurgical-acceptance methods cited by ASME BPVC V and API in-service codes.

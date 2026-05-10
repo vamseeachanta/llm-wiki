@@ -7,14 +7,14 @@ sources:
   - concept-synthesis
 domain: maritime-law
 cross_links:
-  - ../../standards/stcw-convention.md
-  - ../../standards/mlc-2006.md
-  - ../../standards/solas-1974.md
+  - ../standards/stcw-convention.md
+  - ../standards/mlc-2006.md
+  - ../standards/solas-1974.md
 ---
 
 # STCW Convention — Doctrinal Synthesis
 
-This page is the practitioner-impact companion to the [standards-tier metadata resolver](../../standards/stcw-convention.md). It synthesizes what STCW means for shipowners, masters, training providers, port-state-control officers, and flag-state administrations — without reproducing convention text.
+This page is the practitioner-impact companion to the [standards-tier metadata resolver](../standards/stcw-convention.md). It synthesizes what STCW means for shipowners, masters, training providers, port-state-control officers, and flag-state administrations — without reproducing convention text.
 
 ## Why STCW matters
 
@@ -80,8 +80,8 @@ The key shared field is **hours of rest**: STCW Reg. VIII/1 and MLC A2.3 carry s
 
 ## Cross-references
 
-- **Standards-tier companion (metadata resolver):** [standards/stcw-convention](../../standards/stcw-convention.md) — convention metadata, Code Part A/B structure, amendment chain, IMO Whitelist field.
-- **Sibling pillars:** [standards/mlc-2006](../../standards/mlc-2006.md), [standards/solas-1974](../../standards/solas-1974.md), [concepts/mlc-2006](./mlc-2006.md), [concepts/marpol-73-78](./marpol-73-78.md), [concepts/solas-1974](./solas-1974.md).
+- **Standards-tier companion (metadata resolver):** [standards/stcw-convention](../standards/stcw-convention.md) — convention metadata, Code Part A/B structure, amendment chain, IMO Whitelist field.
+- **Sibling pillars:** [standards/mlc-2006](../standards/mlc-2006.md), [standards/solas-1974](../standards/solas-1974.md), [concepts/mlc-2006](./mlc-2006.md), [concepts/marpol-73-78](./marpol-73-78.md), [concepts/solas-1974](./solas-1974.md).
 - **Embedded / interface regimes:** [concepts/ism-code](./ism-code.md) — SOLAS Ch. IX SMS that operationalizes STCW competency on board.
 - **Enforcement surface:** [concepts/port-state-control](./port-state-control.md) — PSC inspection of STCW certificates and watchkeeping arrangements under Paris/Tokyo MoU CICs.
 - **Constitutional basis:** [concepts/flag-state-jurisdiction](./flag-state-jurisdiction.md) — UNCLOS Article 94 flag-state duty under which STCW CoC issuance sits.

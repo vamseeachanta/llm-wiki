@@ -7,15 +7,15 @@ sources:
   - concept-synthesis
 domain: maritime-law
 cross_links:
-  - ../../standards/paris-mou.md
-  - ../../standards/tokyo-mou.md
-  - ../../standards/caribbean-mou.md
+  - ../standards/paris-mou.md
+  - ../standards/tokyo-mou.md
+  - ../standards/caribbean-mou.md
   - ./port-state-control.md
 ---
 
 # Paris MoU — Doctrinal Synthesis
 
-> Practitioner doctrinal companion to the standards-tier metadata resolver at [`standards/paris-mou.md`](../../standards/paris-mou.md). This page synthesizes what the Paris Memorandum of Understanding on Port State Control means in operational practice for shipowners, classification societies, port-state authorities, and the insurance market — without reproducing MoU text. The cross-cutting concept-level treatment of port-state control as a regime sits in [`concepts/port-state-control.md`](./port-state-control.md); this page is the Paris-MoU-specific doctrinal layer beneath it.
+> Practitioner doctrinal companion to the standards-tier metadata resolver at [`standards/paris-mou.md`](../standards/paris-mou.md). This page synthesizes what the Paris Memorandum of Understanding on Port State Control means in operational practice for shipowners, classification societies, port-state authorities, and the insurance market — without reproducing MoU text. The cross-cutting concept-level treatment of port-state control as a regime sits in [`concepts/port-state-control.md`](./port-state-control.md); this page is the Paris-MoU-specific doctrinal layer beneath it.
 
 ## Why Paris MoU matters
 
@@ -51,7 +51,7 @@ The NIR replaces the older single-axis (flag-list) targeting with a multi-factor
 - **Flag performance** (White / Grey / Black list tier — see below).
 - **Recognized Organization** (the classification society acting on behalf of the flag-state administration). IACS members are weighted differently from non-IACS ROs; an RO's recent performance in MoU detention statistics adjusts the weighting year-over-year.
 - **Company performance.** The ISM Document of Compliance holder's deficiency-and-detention record across its operated fleet, rolled into the company's HSR / MSR / LSR ranking and surfaced in the Paris MoU public database.
-- **Ship type.** Bulk carriers, oil tankers, gas tankers, chemical tankers, passenger vessels, and ro-ro passenger ferries carry an enhanced-inspection weighting independent of other factors (see [`standards/paris-mou.md`](../../standards/paris-mou.md) for the enumerated ship-type list).
+- **Ship type.** Bulk carriers, oil tankers, gas tankers, chemical tankers, passenger vessels, and ro-ro passenger ferries carry an enhanced-inspection weighting independent of other factors (see [`standards/paris-mou.md`](../standards/paris-mou.md) for the enumerated ship-type list).
 - **Ship age.** Older tonnage carries a higher base risk weighting.
 - **Days-since-last-inspection** within the MoU region.
 
@@ -106,9 +106,9 @@ The **United States operates outside** the regional MoU framework. US Coast Guar
 
 ## Cross-references
 
-- **Standards-tier companion (metadata resolver):** [`standards/paris-mou.md`](../../standards/paris-mou.md) — instrument metadata, adoption + signatory-state list, inspection-regime structure, ship-type targeting, code-id citation target.
-- **Sibling regional-MoU standards pages:** [`standards/tokyo-mou.md`](../../standards/tokyo-mou.md), [`standards/caribbean-mou.md`](../../standards/caribbean-mou.md).
+- **Standards-tier companion (metadata resolver):** [`standards/paris-mou.md`](../standards/paris-mou.md) — instrument metadata, adoption + signatory-state list, inspection-regime structure, ship-type targeting, code-id citation target.
+- **Sibling regional-MoU standards pages:** [`standards/tokyo-mou.md`](../standards/tokyo-mou.md), [`standards/caribbean-mou.md`](../standards/caribbean-mou.md).
 - **Cross-cutting parent concept:** [`concepts/port-state-control.md`](./port-state-control.md) — the regime-level treatment of PSC across all MoUs and the US Qualship 21 program.
 - **Founding-driver case:** [`entities/amoco-cadiz-1978.md`](../entities/amoco-cadiz-1978.md) — the trans-boundary pollution event that precipitated the 1978 Hague Memorandum and the 1982 Paris MoU.
 - **Major policy-revision-driver cases:** [`entities/mv-erika-1999.md`](../entities/mv-erika-1999.md), [`entities/mv-prestige-2002.md`](../entities/mv-prestige-2002.md).
-- **UNCLOS source authority:** [`standards/unclos-1982.md`](../../standards/unclos-1982.md) — UNCLOS Articles 217–220 source authority for port-state jurisdiction over discharge violations and unseaworthy vessels.
+- **UNCLOS source authority:** [`standards/unclos-1982.md`](../standards/unclos-1982.md) — UNCLOS Articles 217–220 source authority for port-state jurisdiction over discharge violations and unseaworthy vessels.

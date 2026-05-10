@@ -163,3 +163,19 @@ Top promotion candidates for `wiki/standards/<code-id>.md` pages, ranked by (mul
 - **steel terminology** (cross-link A941) — controlled vocabulary used across the A-series.
 
 **Catalog-hygiene actions** (out-of-scope for this page; for the ingest-loop owner): (a) move the **190 mis-filed B/C/D/E/F/G-series PDFs** out of `ASTM/A-Series/` into their correct sibling directories; (b) populate `doc_type` for the 2,094 uncoded entries via filename parsing (the regex `^A[\s_-]?\d{1,4}M?` recovers ~91% on a single pass); (c) split the ASTM OCR bucket by sub-committee letter so A-Series OCR coverage can be tracked independently.
+
+## Cross-references
+
+Standards pages already promoted from this A-Series slice (each should cite this source page for catalog provenance):
+
+- [`standards/astm-a370`](../standards/astm-a370.md) — Mechanical testing of steel products; the highest cross-reference fan-in in the A-Series.
+- [`standards/astm-a335`](../standards/astm-a335.md) — Seamless ferritic alloy-steel pipe for high-temperature service.
+- [`standards/astm-a553`](../standards/astm-a553.md) — Pressure-vessel plates, alloy-steel, quenched and tempered, 8% / 9% nickel for low-temperature service.
+
+Concept pages that should cite this source when invoking A-Series-published material specs:
+
+- [`concepts/sour-service-materials`](../concepts/sour-service-materials.md) — A-Series duplex (A790, A815, A923) and bolting (A193) specs are the procurement anchors for NACE MR0175 / ISO 15156 qualification.
+- [`concepts/welding-procedures-and-acceptance`](../concepts/welding-procedures-and-acceptance.md) — A370 mechanical testing underpins ASME BPVC IX welder-qualification mechanical-test acceptance.
+- [`concepts/fracture-toughness-measurement`](../concepts/fracture-toughness-measurement.md) — A370 Charpy + A553 8/9 Ni-steel feed low-temperature pressure-vessel toughness.
+- [`concepts/hydrogen-embrittlement`](../concepts/hydrogen-embrittlement.md) — A193 high-strength bolting and A540 quench-and-temper materials are HE-susceptible specs.
+- [`concepts/atmospheric-corrosion`](../concepts/atmospheric-corrosion.md) — A123 / A153 / A653 / A792 / A875 zinc and Galvalume coatings for atmospheric-exposure protection.

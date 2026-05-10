@@ -101,3 +101,18 @@ BSI codes referenced by document ID, with edition coverage in this catalog:
 2. **Topical concept pages**: cross-link this source into existing concepts/ for fatigue assessment (BS 7608), flaw acceptance / engineering critical assessment (BS 7910), fracture-mechanics testing (BS 7448), subsea flexible pipe (BS 13628 Pt 2), umbilicals (BS 13628 Pt 5), wellhead/Christmas-tree equipment (BS 10423), and HSE risk assessment (BSI 17776 — the British re-publication of ISO 17776).
 3. **Catalog hygiene**: the 4 ABS Guide PDFs should move to a future `/mnt/ace/O&G-Standards/ABS/` slice (ABS already has an ABS folder at the top level — verify and rehome). The FAOS-series files are ABS / Joint Industry publications that belong with that slice as well. The 7 generic `Corrigenda.pdf` filenames need reverse-lookup against `content_hash` to identify which standard each amends.
 4. **BS-vs-ISO equivalence index**: the BS 13xxx / 14xxx / 15xxx / 16xxx / 17xxx range is largely the British re-publication of the ISO 13xxx oil-and-gas equipment series. A comparison table cross-linking each BS document to its ISO equivalent would close the redundancy gap and clarify which is the citation-of-record for given audiences.
+
+## Cross-references
+
+Standards pages already promoted from this BSI slice (each should cite this source page for catalog provenance):
+
+- [`standards/bs-7608-fatigue-design`](../standards/bs-7608-fatigue-design.md) — Code of practice for fatigue design and assessment of steel structures (1993 / 2014 editions).
+- [`standards/bs-7910-flaw-assessment`](../standards/bs-7910-flaw-assessment.md) — Guide to methods for assessing acceptability of flaws in metallic structures.
+- [`standards/bs-13533-drill-through-equipment`](../standards/bs-13533-drill-through-equipment.md), [`standards/bs-13625-marine-drilling-riser-couplings`](../standards/bs-13625-marine-drilling-riser-couplings.md), [`standards/bs-13626-drilling-well-servicing-structures`](../standards/bs-13626-drilling-well-servicing-structures.md), [`standards/bs-13628-2-flexible-pipe-subsea`](../standards/bs-13628-2-flexible-pipe-subsea.md), [`standards/bs-13628-3-tfl-systems`](../standards/bs-13628-3-tfl-systems.md), [`standards/bs-13628-5-subsea-umbilicals`](../standards/bs-13628-5-subsea-umbilicals.md), [`standards/bs-13628-8-rov-interfaces`](../standards/bs-13628-8-rov-interfaces.md) — BS 13xxx subsea-equipment family.
+- [`standards/bs-13703-offshore-platform-piping`](../standards/bs-13703-offshore-platform-piping.md) — Design and installation of piping systems on offshore production platforms.
+
+Concept pages that should cite this source when invoking BSI-published methods:
+
+- [`concepts/fatigue-design-and-assessment`](../concepts/fatigue-design-and-assessment.md) — BS 7608 is one of the offshore-fatigue anchors alongside DNV-RP-C203 and ABS GUI 115.
+- [`concepts/engineering-critical-assessment`](../concepts/engineering-critical-assessment.md) — BS 7910 is the canonical ECA / flaw-assessment methodology referenced from API 579 and DNV-OS-F101.
+- [`concepts/fracture-toughness-measurement`](../concepts/fracture-toughness-measurement.md) — BS 7448 Pts 1 + 4 (KIc, CTOD, J, R-curves) define the laboratory toughness-test substrate for BS 7910 inputs.

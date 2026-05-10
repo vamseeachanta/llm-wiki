@@ -20,6 +20,7 @@ sources:
   - https://www.api.org/products-and-services/standards
 domain: lng-projects
 extraction_policy: metadata-only
+raw_copy_allowed: false
 cross_links: []
 ---
 

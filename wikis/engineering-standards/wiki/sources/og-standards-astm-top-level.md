@@ -167,3 +167,17 @@ After applying the multi-pattern extractor (`B 327 - 01 _Q…`, `B_327_-_01_Q…
    - **F-Series**: F436 (hardened steel washers), F1554 (anchor rods — structural & O&G foundations), F468 / F467 (non-ferrous fasteners), F876 (PEX tubing)
 5. **Topical concept cross-links** — link this source into existing concepts/ for fasteners (F436, F1554, F468), concrete & cement (C39, C150), copper-alloy valve trim (B16, B62), aluminum heat-exchanger tube (B234), and titanium heat-exchanger tube (B338).
 6. **Index update** — add this page to `wiki/index.md` under Sources, and append an ingest entry to `wiki/log.md` under `[2026-05-09] ingest | ASTM top-level loose catalog`.
+
+## Cross-references
+
+Sibling source pages (companion ASTM-letter slices already promoted):
+
+- [`sources/og-standards-astm-a-series`](og-standards-astm-a-series.md) — A-Series Iron & Steel; A-stragglers identified here should reroute back to the A-Series slice.
+- [`sources/og-standards-astm-d-series`](og-standards-astm-d-series.md) — D-Series Petroleum / Plastics / Soils; 685 D-Series stragglers in this top-level bucket belong there.
+- [`sources/og-standards-astm-e-series`](og-standards-astm-e-series.md) — E-Series test methods, NDE, fracture; 521 E-Series stragglers belong there.
+- [`sources/og-standards-astm-g-series`](og-standards-astm-g-series.md) — G-Series corrosion; companion bucket already split out.
+
+Concept pages that should cite this source when invoking B/C/F-committee material specs:
+
+- [`concepts/atmospheric-corrosion`](../concepts/atmospheric-corrosion.md) — F1554 anchor-rod hot-dip coatings and B-committee non-ferrous tube/sheet (B209, B221, B234) for marine atmospheric exposure.
+- [`concepts/galvanic-corrosion`](../concepts/galvanic-corrosion.md) — B-committee non-ferrous metals (copper alloys B16/B62/B584; aluminum B209/B221; titanium B338) define the dissimilar-metal partners in offshore galvanic-couple analyses.

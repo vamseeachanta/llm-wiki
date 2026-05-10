@@ -7,14 +7,14 @@ sources:
   - concept-synthesis
 domain: maritime-law
 cross_links:
-  - ../../standards/york-antwerp-rules.md
+  - ../standards/york-antwerp-rules.md
   - ./general-average.md
   - ./charterparties.md
 ---
 
 # York-Antwerp Rules — Doctrinal Synthesis
 
-This page is the practitioner-impact companion to the [standards-tier metadata resolver](../../standards/york-antwerp-rules.md). It is **instrument-specific** — focused on the York-Antwerp Rules (YAR) as a CMI-maintained private codification with a distinctive version-evolution dynamic — and is the narrower sibling of the cross-cutting [general-average doctrine page](./general-average.md), which covers the underlying loss-sharing institution. Where that page treats the doctrine, this page treats the rule-set: who maintains it, how it has evolved, why one edition rather than another ends up controlling a given adjustment, and how the version-selection question shows up in charter-party paramount clauses and average-adjuster practice.
+This page is the practitioner-impact companion to the [standards-tier metadata resolver](../standards/york-antwerp-rules.md). It is **instrument-specific** — focused on the York-Antwerp Rules (YAR) as a CMI-maintained private codification with a distinctive version-evolution dynamic — and is the narrower sibling of the cross-cutting [general-average doctrine page](./general-average.md), which covers the underlying loss-sharing institution. Where that page treats the doctrine, this page treats the rule-set: who maintains it, how it has evolved, why one edition rather than another ends up controlling a given adjustment, and how the version-selection question shows up in charter-party paramount clauses and average-adjuster practice.
 
 ## Why York-Antwerp Rules matter
 
@@ -101,7 +101,7 @@ How **salvage** is allocated through the GA framework has been the most conteste
 ## Cross-references
 
 **Standards-tier companion (metadata resolver)**
-- [standards/york-antwerp-rules](../../standards/york-antwerp-rules.md) — instrument metadata, CMI publishing body, version table (1864 / 1877 / 1890 / 1924 / 1950 / 1974 / 1994 / 2004 / 2016), and consolidated-edition pinning.
+- [standards/york-antwerp-rules](../standards/york-antwerp-rules.md) — instrument metadata, CMI publishing body, version table (1864 / 1877 / 1890 / 1924 / 1950 / 1974 / 1994 / 2004 / 2016), and consolidated-edition pinning.
 
 **Cross-cutting concept companion**
 - [concepts/general-average](./general-average.md) — broader doctrinal entry on the underlying loss-sharing institution; this YAR page is the rule-set-specific synthesis nested below it.
@@ -110,7 +110,7 @@ How **salvage** is allocated through the GA framework has been the most conteste
 - [concepts/charterparties](./charterparties.md) — the paramount-clause incorporation pathway by which YAR binds; voyage and time charters typically specify the YAR edition that will govern any adjustment.
 
 **Sibling rescue / loss-sharing institution**
-- [standards/salvage-convention-1989](../../standards/salvage-convention-1989.md) — interface with Rule X (port-of-refuge expenses), Rule XIV (temporary repairs), and Rule XVII (contribution values); the 2004→2016 reversion is principally about how Salvage-Convention rewards interact with the GA computation.
+- [standards/salvage-convention-1989](../standards/salvage-convention-1989.md) — interface with Rule X (port-of-refuge expenses), Rule XIV (temporary repairs), and Rule XVII (contribution values); the 2004→2016 reversion is principally about how Salvage-Convention rewards interact with the GA computation.
 - [concepts/salvage](./salvage.md) — salvor-claim doctrine; sibling concept page on the rescue-reward side of the same casualty fact pattern.
 
 **Liability-cap interaction**

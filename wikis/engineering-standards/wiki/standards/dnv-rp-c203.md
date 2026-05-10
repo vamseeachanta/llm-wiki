@@ -10,6 +10,7 @@ revision: "2024-10"
 revision_source: "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures/"
 verified_on: 2026-05-02
 public_url: https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures/
+publisher_catalog_url: https://www.dnv.com/energy/standards-guidelines/
 sources:
   - /mnt/ace/O&G-Standards/DNV/DNV_RP_C203_(2011)_Fatigue_Design_of_Offshore_Steel_Structure.pdf
 extraction_policy: metadata-only

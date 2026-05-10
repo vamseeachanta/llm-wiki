@@ -1,6 +1,8 @@
 ---
 title: "10 Landmark Maritime Law Cases (1967-2021)"
 source_file: "maritime-law-cases.yaml"
+sources:
+  - knowledge/seeds/maritime-law-cases.yaml
 added: 2026-04-07
 last_updated: 2026-05-09
 tags: [maritime-law, cases, oil-spill, liability, precedent, source-page]

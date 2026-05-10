@@ -1,7 +1,8 @@
 ---
 title: "Bunkers Convention 2001 — Bunker Fuel Spill Liability"
 tags: [maritime-law, convention, liability, compensation]
-source: maritime-liabilities.yaml
+sources:
+  - ../sources/maritime-liability-conventions.md
 added: 2026-04-07
 last_updated: 2026-05-09
 ---

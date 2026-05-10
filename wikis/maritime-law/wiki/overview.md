@@ -2,8 +2,8 @@
 title: "Maritime Law — Domain Overview"
 type: overview
 domain: maritime-law
-created: 2026-04-07 02:40 UTC
-last_updated: 2026-04-07 02:50 UTC
+created: 2026-04-07
+last_updated: 2026-04-07
 ---
 
 # Maritime Law — Domain Overview

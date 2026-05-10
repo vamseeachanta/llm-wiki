@@ -78,12 +78,31 @@ Bidirectional: each of those standards pages should cross-link back to this conc
 
 ## Related concepts
 
-Wikilinks below point to concept pages that may not yet exist — leave as wikilinks for future creation per the spinout's link-and-fill convention.
-
-- [[fracture-toughness-measurement]] — K<sub>Ic</sub>, J<sub>Ic</sub>, CTOD, T<sub>0</sub> (Master Curve); the test methods (ASTM E399 / E1820 / E1921, BS 7448) that produce the toughness inputs feeding FFS Level 2/3 crack assessments.
-- [[fatigue-design]] — S-N (BS 7608, DNV-RP-C203), Paris-law crack-growth integration, mean-stress and environmental modifiers; FFS fatigue assessments integrate forward in time from a known initial flaw.
-- [[weld-acceptance]] — workmanship acceptance criteria (AWS D1.1, API 1104, ISO 5817) versus fitness-for-purpose (ECA via BS 7910 Annex A or API 1104 Annex A); FFS is the escalation path when a flaw fails workmanship but may pass fitness-for-purpose.
-- [[ductile-tearing]] — J-R curve behaviour, tearing instability, constraint effects; basis for FFS Level 3 advanced assessments and the ductile-fracture branch of the FAD.
+- [fracture-toughness-measurement](./fracture-toughness-measurement.md) —
+  K<sub>Ic</sub>, J<sub>Ic</sub>, CTOD, T<sub>0</sub> (Master Curve); the
+  test methods (ASTM E399 / E1820 / E1921, BS 7448) that produce the
+  toughness inputs feeding FFS Level 2/3 crack assessments.
+- [fatigue-design-and-assessment](./fatigue-design-and-assessment.md) —
+  S-N (BS 7608, DNV-RP-C203), Paris-law crack-growth integration,
+  mean-stress and environmental modifiers; FFS fatigue assessments
+  integrate forward in time from a known initial flaw.
+- [welding-procedures-and-acceptance](./welding-procedures-and-acceptance.md) —
+  workmanship acceptance criteria (AWS D1.1, API 1104, ISO 5817) versus
+  fitness-for-purpose (ECA via BS 7910 Annex A or API 1104 Annex A); FFS
+  is the escalation path when a flaw fails workmanship but may pass
+  fitness-for-purpose.
+- [ductile-tearing](./ductile-tearing.md) — J-R curve behaviour, tearing
+  instability, constraint effects; basis for FFS Level 3 advanced
+  assessments and the ductile-fracture branch of the FAD.
+- [risk-based-inspection](./risk-based-inspection.md) — upstream
+  programme that schedules the inspection finding which invokes FFS;
+  the FFS verdict feeds back into the next RBI cycle's POF.
+- [engineering-critical-assessment](./engineering-critical-assessment.md) —
+  ECA is the pre-service / fabrication-acceptance analogue of FFS using
+  the same BS 7910 / API 579 FAD machinery; FFS is its in-service twin.
+- [brittle-fracture](./brittle-fracture.md) — failure mode addressed by
+  [api-std-579](../standards/api-std-579.md) Part 3 (low-temperature
+  service) and the FAD-K<sub>r</sub> ordinate.
 
 ## Source materials
 

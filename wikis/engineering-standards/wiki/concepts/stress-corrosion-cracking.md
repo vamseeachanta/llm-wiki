@@ -183,30 +183,41 @@ Bidirectional links to the standards-page resolvers (each carries
 
 ## Related concepts
 
-- [[hydrogen-embrittlement]] — the hydrogen-driven branch of the SCC
-  family (SSC, HIC, SOHIC, HISC, HE of high-strength steel); shares the
-  upstream hydrogen-source taxonomy and the trapping-site / lattice-
-  embrittlement mechanism.
-- [[sour-service-materials]] — SSC + HIC + SOHIC subset of SCC; the
-  H2S-specific qualification chain via TM-0177, TM-0284, and the
-  Region 0–3 severity zoning of [[ampp-mr-0175-pt2]].
-- [[damage-mechanism-screening]] — RBI / inspection-program entry
-  point that consumes the API RP 571 SCC catalogue and routes each
-  unit's SCC-susceptibility evidence into [[risk-based-inspection]] /
-  [[api-rp-581]].
-- [[pitting-and-crevice-corrosion]] — pits frequently nucleate the
-  SCC initiation site (chloride pit → Cl-SCC of austenitic SS;
-  sulfide pit → SSC at pit root); CPT/CCT envelopes set the chloride-
-  temperature operating window upstream of the SCC susceptibility
-  analysis.
-- [[corrosion-rate-measurement]] — uniform-corrosion-rate techniques
-  (LPR, ER probes, mass-loss coupons) measure a fundamentally
-  different damage form. SCC is **depth-driven not rate-driven**: a
-  zero-uniform-rate environment can still harbour an SCC failure if
-  the susceptibility triangle (material + stress + corrodent) closes.
-  Inspection programs must instrument for SCC separately
-  (e.g., wet-fluorescent MT, eddy-current array, phased-array UT) and
-  not infer absence-of-SCC from low corrosion-rate readings.
+- [hydrogen-embrittlement](./hydrogen-embrittlement.md) — the
+  hydrogen-driven branch of the SCC family (SSC, HIC, SOHIC, HISC, HE of
+  high-strength steel); shares the upstream hydrogen-source taxonomy and
+  the trapping-site / lattice-embrittlement mechanism.
+- [sour-service-materials](./sour-service-materials.md) — SSC + HIC +
+  SOHIC subset of SCC; the H2S-specific qualification chain via
+  TM-0177, TM-0284, and the Region 0–3 severity zoning of
+  [ampp-mr-0175-pt2](../standards/ampp-mr-0175-pt2.md).
+- [damage-mechanism-screening](./damage-mechanism-screening.md) — RBI /
+  inspection-program entry point that consumes the API RP 571 SCC
+  catalogue and routes each unit's SCC-susceptibility evidence into
+  [risk-based-inspection](./risk-based-inspection.md) /
+  [api-rp-581](../standards/api-rp-581.md).
+- [pitting-and-crevice-corrosion](./pitting-and-crevice-corrosion.md) —
+  pits frequently nucleate the SCC initiation site (chloride pit →
+  Cl-SCC of austenitic SS; sulfide pit → SSC at pit root); CPT/CCT
+  envelopes set the chloride-temperature operating window upstream of
+  the SCC susceptibility analysis.
+- [corrosion-rate-measurement](./corrosion-rate-measurement.md) —
+  uniform-corrosion-rate techniques (LPR, ER probes, mass-loss coupons)
+  measure a fundamentally different damage form. SCC is **depth-driven
+  not rate-driven**: a zero-uniform-rate environment can still harbour
+  an SCC failure if the susceptibility triangle (material + stress +
+  corrodent) closes. Inspection programs must instrument for SCC
+  separately (e.g., wet-fluorescent MT, eddy-current array, phased-array
+  UT) and not infer absence-of-SCC from low corrosion-rate readings.
+- [brittle-fracture](./brittle-fracture.md) — SCC produces a brittle
+  fracture-surface morphology (transgranular cleavage or intergranular
+  separation) once a crack has propagated through the susceptible
+  microstructure; SCC is a primary nucleation route for the brittle
+  failure mode catalogued there.
+- [fitness-for-service](./fitness-for-service.md) — SCC-affected
+  equipment is assessed via [api-std-579](../standards/api-std-579.md)
+  Part 9 (crack-like-flaw assessment) on the in-service residual-life
+  side of the inspection chain.
 
 ## Source materials
 

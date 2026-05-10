@@ -179,3 +179,17 @@ A random sample of 10 residual filenames (seed=2026) gives a flavour of what is 
    - **Norsok N-004** — feeds offshore-steel-structures concept page alongside DNV OS-C101 and ISO 19902.
    - **HSE OTH 92390** — feeds the fatigue-guidance lineage (DNV RP-C203, API 2A-WSD fatigue commentary).
 5. **Edition-history index** — Norsok N-001 (4th→7th), N-004 (1st→2nd), and M-501 (4th→5th) all show edition coverage worth a small comparison table once a per-publisher Norsok page is split out.
+
+## Cross-references
+
+Standards pages already promoted from this minor-publisher roll-up (each should cite this source page for catalog provenance):
+
+- [`standards/aws-d1-1`](../standards/aws-d1-1.md), [`standards/aws-d1-2`](../standards/aws-d1-2.md), [`standards/aws-a2-4`](../standards/aws-a2-4.md), [`standards/aws-a5-5`](../standards/aws-a5-5.md), [`standards/aws-a5-10`](../standards/aws-a5-10.md), [`standards/aws-filler-metal-overview`](../standards/aws-filler-metal-overview.md) — AWS welding-code and filler-metal slice.
+- [`standards/ampp-mr-0175-1995`](../standards/ampp-mr-0175-1995.md), [`standards/ampp-mr-0175-pt1`](../standards/ampp-mr-0175-pt1.md), [`standards/ampp-mr-0175-pt2`](../standards/ampp-mr-0175-pt2.md), [`standards/ampp-mr-0175-pt3`](../standards/ampp-mr-0175-pt3.md), [`standards/ampp-tm-0177`](../standards/ampp-tm-0177.md), [`standards/ampp-tm-0284`](../standards/ampp-tm-0284.md), [`standards/ampp-sp0775`](../standards/ampp-sp0775.md) — NACE/AMPP sour-service and laboratory-test slice.
+- [`standards/norsok-n-001`](../standards/norsok-n-001.md), [`standards/norsok-n-004`](../standards/norsok-n-004.md), [`standards/norsok-m-001`](../standards/norsok-m-001.md), [`standards/norsok-m-501`](../standards/norsok-m-501.md), [`standards/norsok-m-710`](../standards/norsok-m-710.md), [`standards/norsok-d-sr-022`](../standards/norsok-d-sr-022.md) — Norwegian petroleum-industry slice.
+
+Concept pages that should cite this source when invoking minor-publisher methods:
+
+- [`concepts/welding-procedures-and-acceptance`](../concepts/welding-procedures-and-acceptance.md) — AWS D1.1 (structural welding) and AWS A5 filler-metal specs are referenced from ASME BPVC IX qualifications.
+- [`concepts/sour-service-materials`](../concepts/sour-service-materials.md) — NACE MR0175 (now AMPP MR0175) is the canonical sour-service qualification, twin-coded with ISO 15156.
+- [`concepts/coating-systems`](../concepts/coating-systems.md) — Norsok M-501 is a leading offshore-coating standard alongside SSPC, ISO 12944, and NACE SP0188.

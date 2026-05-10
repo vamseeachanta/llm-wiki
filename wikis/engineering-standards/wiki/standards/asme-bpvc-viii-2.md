@@ -12,6 +12,7 @@ publisher_current_edition: "2023"
 methodology_status: "unknown"
 verified_on: 2026-05-02
 public_url: https://www.asme.org/codes-standards/bpvc-standards
+publisher_catalog_url: https://www.asme.org/codes-standards/find-codes-standards
 sources:
   - /mnt/ace/O&G-Standards/ASME/ASME VIII/ASME VIII DIV 2 with Addenda (2010) Rules for Construction of High Pressure Vessels.pdf
 extraction_policy: metadata-only

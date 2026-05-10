@@ -99,3 +99,19 @@ Notes:
 3. **Catalog repair**: file an issue against the O&G-Standards consolidation script to enumerate the ASME folder in the next pass so `statistics.by_organization.ASME` is populated and `relative_path` rewriting is consistent with the API/DNV slices.
 4. **Reclassify `BS/` subfolder**: 47 ASME B16 and B31 files are nested under `ASME/BS/` (ambiguous folder name shared with the British Standards prefix); rename to `ASME/B16-collection/` or split into per-series folders to match the rest of the tree.
 5. **Reference-book pruning**: three non-standard items in `BS/` (MSS SP-97 valve standard, McGraw-Hill simplified-piping book, McGraw-Hill pressure-relief-devices book) should move to a `references/` sibling so the ASME slice contains only ASME publications.
+
+## Cross-references
+
+Standards pages already promoted from this ASME slice (each should cite this source page for catalog provenance):
+
+- [`standards/asme-bpvc-viii-1`](../standards/asme-bpvc-viii-1.md), [`standards/asme-bpvc-viii-2`](../standards/asme-bpvc-viii-2.md), [`standards/asme-bpvc-ii-d`](../standards/asme-bpvc-ii-d.md), [`standards/asme-bpvc-ix`](../standards/asme-bpvc-ix.md) — pressure-vessel construction (Div 1/2), allowable-stress materials (II-D), welding qualification (IX).
+- [`standards/asme-b31-1`](../standards/asme-b31-1.md), [`standards/asme-b31-3`](../standards/asme-b31-3.md), [`standards/asme-b31-4`](../standards/asme-b31-4.md), [`standards/asme-b31-8`](../standards/asme-b31-8.md), [`standards/asme-b31-12`](../standards/asme-b31-12.md) — pressure-piping family (power, process, liquid pipelines, gas transmission, hydrogen).
+- [`standards/asme-b16-5`](../standards/asme-b16-5.md), [`standards/asme-b16-34`](../standards/asme-b16-34.md) — pipe flanges and valves (most cross-referenced B16 entries).
+- [`standards/asme-pcc-1`](../standards/asme-pcc-1.md) — bolted-flange-joint assembly post-construction guideline.
+
+Concept pages that should cite this source when invoking ASME-published methods:
+
+- [`concepts/fitness-for-service`](../concepts/fitness-for-service.md) — ASME FFS-1 (joint with API 579-1) is the in-service integrity-assessment anchor.
+- [`concepts/welding-procedures-and-acceptance`](../concepts/welding-procedures-and-acceptance.md) — ASME BPVC Section IX is the qualification-test substrate for procedure-spec writing.
+- [`concepts/brittle-fracture`](../concepts/brittle-fracture.md) — BPVC VIII Div 2 Annex 3.D + the ASME Stress Analysis of Cracks Handbook are referenced for low-temperature toughness assessment.
+- [`concepts/corrosion-rate-measurement`](../concepts/corrosion-rate-measurement.md) — B31.G "Manual for Determining the Remaining Strength of Corroded Pipelines" is the canonical Level 1/2 corroded-pipe assessment.

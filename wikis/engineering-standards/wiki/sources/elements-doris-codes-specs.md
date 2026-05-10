@@ -43,3 +43,18 @@ Doris Codes and Specs corpus from Elements; large standards/specifications set r
 | content_kinds | image: 15722, pdf: 14101, other: 2831, document: 1003, text: 713, tabular: 559, cad: 125, presentation: 92, archive: 50, engineering-data: 1 |
 | extension_sample | .pdf: 14101, .jpg: 12279, .png: 3276, [no-ext]: 851, .dwf: 547, .docx: 521, .doc: 478, .xls: 335, .txt: 324, .db: 242, .htm: 225, .xlsx: 206 |
 | verification | missing=0; size_mismatch=0; not_hardlinked=0 |
+
+## Cross-references
+
+Sibling DORIS metadata pointer pages (each scopes one sub-bucket of this corpus):
+
+- [`sources/doris-codes-specs-faceted-index`](doris-codes-specs-faceted-index.md) — faceted family histogram for the same `/mnt/ace/doris/codes` root.
+- [`sources/doris-company-specs`](doris-company-specs.md) — confidential client-spec subfolder (CRITICAL posture).
+- [`sources/doris-deepstar`](doris-deepstar.md) — DeepStar JIP deliverables subfolder (HIGH posture).
+- [`sources/doris-techstreet-drop`](doris-techstreet-drop.md) — licensed-aggregator subfolder (CRITICAL posture).
+
+Companion publisher-catalog source pages that overlap this DORIS corpus by publisher signal (API ~7,516 mentions, ASME ~5,221 mentions, DNV ~149 docs in the metadata sample):
+
+- [`sources/og-standards-api`](og-standards-api.md) — public API catalog; canonical citation-of-record for any API-derived content the DORIS corpus references.
+- [`sources/og-standards-asme`](og-standards-asme.md) — public ASME catalog; canonical citation-of-record for ASME-derived content.
+- [`sources/og-standards-dnv`](og-standards-dnv.md) — public DNV catalog; canonical citation-of-record for DNV-derived content.

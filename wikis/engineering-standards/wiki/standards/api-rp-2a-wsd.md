@@ -10,6 +10,7 @@ revision: "22e-2014-r2025"
 revision_source: https://store.accuristech.com/standards/api-rp-2a-wsd-r2025
 verified_on: 2026-05-02
 public_url: https://www.api.org/products-and-services/standards
+publisher_catalog_url: https://www.api.org/products-and-services/api-publications
 sources:
   - /mnt/ace/O&G-Standards/API/Recommended-Practice/API_RP_2A-WSD_22nd_Edition_Nov_2014.pdf
 extraction_policy: metadata-only

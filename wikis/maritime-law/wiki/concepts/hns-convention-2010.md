@@ -1,7 +1,8 @@
 ---
 title: "HNS Convention 2010 — Hazardous and Noxious Substances"
 tags: [maritime-law, convention, liability, compensation]
-source: maritime-liabilities.yaml
+sources:
+  - ../sources/maritime-liability-conventions.md
 added: 2026-04-07
 last_updated: 2026-05-09
 ---

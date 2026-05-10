@@ -155,3 +155,19 @@ ISO codes referenced by document ID, grouped by series. Edition coverage shown w
 3. **Cross-references into existing concepts/**: subsea umbilicals (13628 Pt 5), drilling risers (13624, 13625, TR 13624-2), completion/workover risers (13628 Pt 7), pipeline limit-state reliability (16708), thermal-spray coatings (14xxx series), tensile/Charpy/bend testing (148, 6892, 7438), SCC slow-strain-rate testing (7539-7).
 4. **Edition-history index for ISO 13628 and 19905-1**: the catalog holds both DRAFT and 1st-Ed copies for several Pts of 13628, plus a 19905-1 2012-vs-FDIS-2015 comparison artefact — a comparison table would close the version-tracking gap and is unusual provenance worth surfacing.
 5. **API ↔ ISO twin-coding map**: many ISO 19xxx and 13xxx codes are twinned with API standards (e.g. ISO 13628 Pt 4 ↔ API 17D, ISO 13628 Pt 5 ↔ API 17E, ISO 19901-7 ↔ API 2SK). A `comparisons/api-iso-twin-codes.md` page would make these crosswalks explicit and is a high-leverage reader-facing artefact.
+
+## Cross-references
+
+Standards pages already promoted from this ISO slice (each should cite this source page for catalog provenance):
+
+- [`standards/iso-19900`](../standards/iso-19900.md) — General requirements for offshore structures (master document for the 19xxx series).
+- [`standards/iso-19901-1`](../standards/iso-19901-1.md), [`standards/iso-19901-2`](../standards/iso-19901-2.md), [`standards/iso-19901-4`](../standards/iso-19901-4.md), [`standards/iso-19901-7`](../standards/iso-19901-7.md) — metocean / seismic / topsides / stationkeeping parts.
+- [`standards/iso-19902`](../standards/iso-19902.md), [`standards/iso-19903`](../standards/iso-19903.md), [`standards/iso-19904-1`](../standards/iso-19904-1.md) — fixed steel; fixed concrete; floating offshore.
+- [`standards/iso-15156`](../standards/iso-15156.md) — Petroleum / natural-gas — materials for use in H₂S-containing environments (Pts 1, 2, 3); twin-coded with NACE MR0175.
+
+Concept pages that should cite this source when invoking ISO-published methods:
+
+- [`concepts/sour-service-materials`](../concepts/sour-service-materials.md) — ISO 15156 / NACE MR0175 is the canonical sour-service materials qualification.
+- [`concepts/fatigue-design-and-assessment`](../concepts/fatigue-design-and-assessment.md) — ISO 19902 fixed-steel-offshore code cites S-N-curve methods aligned with DNV-RP-C203 and BS 7608.
+- [`concepts/coating-systems`](../concepts/coating-systems.md) — ISO 14xxx thermal-spray series (14231/14232/14916/14917/14918/14919/14920/14921/14922) is the test-method substrate for sprayed-coating qualification.
+- [`concepts/stress-corrosion-cracking`](../concepts/stress-corrosion-cracking.md) — ISO 7539-7 slow-strain-rate-test method is one of the laboratory SCC qualification routes.

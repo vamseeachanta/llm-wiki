@@ -44,3 +44,13 @@ Counts are approximate planning metadata regenerated from `.planning/intel/eleme
 `Codes and Regulations` / `acma-codes` is not represented here. OCIMF and CSA promotion remains tracked by #2227/#2471, not this DORIS codes/specs corpus.
 
 BV publisher stub deferred: public revision metadata was not independently verified during this metadata-only pass.
+
+## Cross-references
+
+Companion publisher-catalog source pages that overlap this DORIS corpus by publisher signal (API ~7,516 mentions, ASME ~5,221 mentions, DNV ~149 docs in the metadata sample). Cite the publisher-public catalog instead of DORIS for any external-facing reference:
+
+- [`sources/og-standards-api`](og-standards-api.md) — public API catalog; canonical citation-of-record for API-derived content.
+- [`sources/og-standards-asme`](og-standards-asme.md) — public ASME catalog; canonical citation-of-record for ASME-derived content.
+- [`sources/og-standards-dnv`](og-standards-dnv.md) — public DNV catalog; canonical citation-of-record for DNV-derived content.
+
+Sibling DORIS pointer pages already cross-linked above remain the in-corpus navigation set.

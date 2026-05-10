@@ -97,3 +97,19 @@ DNV codes referenced by document ID, with edition coverage in this catalog:
 1. **Per-code standards/ pages**: codes with multi-edition coverage (OS-F101, RP-C203, RP-B401, RP-F101, RP-F204) warrant a `wiki/standards/dnv-<code-id>.md` page consolidating revision history. OS-E301 already has prior treatment via #2590.
 2. **Topical concept pages**: cross-link this source into existing concepts/ for fatigue (RP-C203), environmental loads (RP-C205), pipeline integrity (RP-F101/F116), riser analysis (RP-F204/F205), and cathodic protection (RP-B401/F103).
 3. **Edition-history index**: a comparison table showing which DNV codes have been superseded by DNV-GL or DNV (post-rebrand) revisions would close the version-tracking gap.
+
+## Cross-references
+
+Standards pages already promoted from this DNV slice (each should cite this source page for catalog provenance):
+
+- [`standards/dnv-os-e301`](../standards/dnv-os-e301.md), [`standards/dnv-st-f101`](../standards/dnv-st-f101.md), [`standards/dnv-os-f201`](../standards/dnv-os-f201.md) — position mooring; submarine pipelines (post-rebrand DNV-ST-F101); dynamic risers.
+- [`standards/dnv-rp-b401`](../standards/dnv-rp-b401.md), [`standards/dnv-rp-f103`](../standards/dnv-rp-f103.md) — cathodic-protection design; CP of submarine pipelines (galvanic anodes).
+- [`standards/dnv-rp-c203`](../standards/dnv-rp-c203.md), [`standards/dnv-rp-c205`](../standards/dnv-rp-c205.md) — fatigue design of offshore steel structures; environmental conditions and environmental loads.
+- [`standards/dnv-rp-f101`](../standards/dnv-rp-f101.md), [`standards/dnv-rp-f105`](../standards/dnv-rp-f105.md), [`standards/dnv-rp-f109`](../standards/dnv-rp-f109.md), [`standards/dnv-rp-f112`](../standards/dnv-rp-f112.md), [`standards/dnv-rp-h103`](../standards/dnv-rp-h103.md) — corroded pipelines; free-spanning pipelines; on-bottom stability; stainless steel under cathodic protection; modelling and analysis of marine operations.
+
+Concept pages that should cite this source when invoking DNV-published methods:
+
+- [`concepts/cathodic-protection`](../concepts/cathodic-protection.md) — DNV-RP-B401 (sacrificial-anode design) and DNV-RP-F103 (submarine-pipeline CP) are the offshore CP anchors.
+- [`concepts/fatigue-design-and-assessment`](../concepts/fatigue-design-and-assessment.md) — DNV-RP-C203 is the canonical S-N-curve fatigue method for offshore steel structures.
+- [`concepts/corrosion-rate-measurement`](../concepts/corrosion-rate-measurement.md) — DNV-RP-F101 is the canonical Level 1/2 corroded-pipeline assessment alongside ASME B31.G.
+- [`concepts/sour-service-materials`](../concepts/sour-service-materials.md) — DNV-RP-F112 stainless-steel under CP intersects sour-service material qualification.

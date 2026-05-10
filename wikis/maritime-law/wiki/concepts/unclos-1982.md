@@ -7,15 +7,15 @@ sources:
   - concept-synthesis
 domain: maritime-law
 cross_links:
-  - ../../standards/unclos-1982.md
-  - ../../standards/marpol-73-78.md
-  - ../../standards/solas-1974.md
-  - ../../standards/salvage-convention-1989.md
+  - ../standards/unclos-1982.md
+  - ../standards/marpol-73-78.md
+  - ../standards/solas-1974.md
+  - ../standards/salvage-convention-1989.md
 ---
 
 # UNCLOS 1982 — Doctrinal Synthesis
 
-> **Companion page.** This page is the practitioner-facing doctrinal synthesis. The metadata-resolver companion is [standards/unclos-1982](../../standards/unclos-1982.md), which carries the `code_id`, publisher, consolidated edition, and amendment-status fields used by downstream calc citations.
+> **Companion page.** This page is the practitioner-facing doctrinal synthesis. The metadata-resolver companion is [standards/unclos-1982](../standards/unclos-1982.md), which carries the `code_id`, publisher, consolidated edition, and amendment-status fields used by downstream calc citations.
 
 ## Why UNCLOS matters
 
@@ -105,14 +105,14 @@ This is what "constitution of the oceans" means in practice: every operational m
 
 **maritime-law standards (metadata-resolver companions)**
 
-- [[unclos-1982 standards page]](../../standards/unclos-1982.md) — bidirectional companion; consolidated edition, amendment chain, dispute-settlement metadata.
-- [[marpol-73-78]](../../standards/marpol-73-78.md) — pollution-prevention authority under UNCLOS Articles 207–212.
-- [[solas-1974]](../../standards/solas-1974.md) — flag-state safety duties under UNCLOS Article 94.
-- [[mlc-2006]](../../standards/mlc-2006.md) — flag-state labour duties under UNCLOS Articles 91–94.
-- [[salvage-convention-1989]](../../standards/salvage-convention-1989.md) — operationalizes UNCLOS Articles 98–99 duty to render assistance.
-- [[clc-1992]](../../standards/clc-1992.md) — civil liability under UNCLOS Article 235.
-- [[bunkers-convention-2001]](../../standards/bunkers-convention-2001.md) — bunker-oil liability under UNCLOS Article 235.
-- [[llmc-1996]](../../standards/llmc-1996.md) — limitation regime layered above UNCLOS-anchored liability instruments.
+- [[unclos-1982 standards page]](../standards/unclos-1982.md) — bidirectional companion; consolidated edition, amendment chain, dispute-settlement metadata.
+- [[marpol-73-78]](../standards/marpol-73-78.md) — pollution-prevention authority under UNCLOS Articles 207–212.
+- [[solas-1974]](../standards/solas-1974.md) — flag-state safety duties under UNCLOS Article 94.
+- [[mlc-2006]](../standards/mlc-2006.md) — flag-state labour duties under UNCLOS Articles 91–94.
+- [[salvage-convention-1989]](../standards/salvage-convention-1989.md) — operationalizes UNCLOS Articles 98–99 duty to render assistance.
+- [[clc-1992]](../standards/clc-1992.md) — civil liability under UNCLOS Article 235.
+- [[bunkers-convention-2001]](../standards/bunkers-convention-2001.md) — bunker-oil liability under UNCLOS Article 235.
+- [[llmc-1996]](../standards/llmc-1996.md) — limitation regime layered above UNCLOS-anchored liability instruments.
 
 **maritime-law concepts**
 
@@ -123,4 +123,4 @@ This is what "constitution of the oceans" means in practice: every operational m
 
 - UN DOALOS portal: <https://www.un.org/depts/los/>
 - Consolidated convention text (publisher PDF): <https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf>
-- This is a doctrinal-synthesis page; no convention text is reproduced. The metadata-resolver companion at [[standards/unclos-1982]](../../standards/unclos-1982.md) is the citation target for `code_id: unclos-1982`.
+- This is a doctrinal-synthesis page; no convention text is reproduced. The metadata-resolver companion at [[standards/unclos-1982]](../standards/unclos-1982.md) is the citation target for `code_id: unclos-1982`.

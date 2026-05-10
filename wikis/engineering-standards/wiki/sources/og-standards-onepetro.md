@@ -151,3 +151,18 @@ This special session is the densest single theme in the catalog. Working files i
 3. **Per-paper standards/ pages: NO**. OnePetro entries are conference papers, not standards — they belong on `concepts/` or `entities/` pages cited as references, not in `wiki/standards/`. The standards-page schema (code_id, publisher, revision) does not apply.
 4. **Submission-pipeline filtering**: when constructing reading lists from this catalog, filter out the ~26 administrative working files (Oasis confirmations, copyright forms, paper-information forms, author-contact spreadsheets, conference grids, special-session revisions). These are valuable provenance for the OTC-2015 MRE special session but not engineering content.
 5. **Cross-referenced standards relocation**: the AISC, ASME, AWS, ANSI/ASQ, SAE, DNV files filed under `OnePetro/` are misclassified — they belong under their own publisher folders. Flag for catalog-hygiene reclassification alongside the ISO top-level pollution issue.
+
+## Cross-references
+
+Sibling source pages that catalog the cross-referenced standards mis-filed under OnePetro/ (these pages are the citation-of-record once relocation completes):
+
+- [`sources/og-standards-asme`](og-standards-asme.md) — for ASME B16.48 in this slice.
+- [`sources/og-standards-minor-publishers`](og-standards-minor-publishers.md) — for AWS A5.10 (welding electrodes) and ANSI/ASQ Z1.9 (sampling).
+- [`sources/og-standards-dnv`](og-standards-dnv.md) — for DNV OS-J103 (floating wind turbines).
+
+Concept pages that the OnePetro paper themes feed into (these pages should cite the relevant OnePetro papers, with this source page as the catalog provenance):
+
+- [`concepts/fatigue-design-and-assessment`](../concepts/fatigue-design-and-assessment.md) — OTC2001-13109 (SCR Fatigue at Low KC) and the OTC-23161 ZIG WIV vortex-induced-vibration paper feed riser-fatigue design.
+- [`concepts/mechanical-fatigue`](../concepts/mechanical-fatigue.md) — OTC papers on dynamic-riser fatigue and the OTC-2015 MRE special-session foundations / mooring papers.
+
+The mooring-integrity OTC paper cluster (OTC-25134, OTC-25273, OTC-26035) does not yet have a dedicated concept page in this wiki; follow-up #2 above proposes a `concepts/mooring-integrity-management.md` candidate. Until that page lands, mooring-integrity citations from this OnePetro source remain a substrate gap.

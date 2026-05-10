@@ -130,12 +130,35 @@ Bidirectional cross-references — each standards page below should cross-link b
 
 ## Related concepts
 
-Wikilinks below point to concept pages that may not yet exist — leave as wikilinks for future creation per the spinout's link-and-fill convention.
-
-- [[damage-mechanism-screening]] — upstream concept; screens which mechanisms are credible for a given hot-circuit asset, with sulfidation and NAC as primary entries on the crude-unit / FCC / hydroprocessing screening lists.
-- [[corrosion-rate-measurement]] — paired metric; both mechanisms produce wall-loss that is tracked via UT-thickness CML programmes, with mass-loss coupons used in lab qualification of candidate alloys against representative crude slates.
-- [[risk-based-inspection]] — POF input; the modified-Couper–Gorman thinning damage factor in API RP 581 Part II is one of the primary POF terms for hot-circuit refining assets, and the NAC alloy-adequacy assessment is a principal RBI re-evaluation trigger when the feedstock TAN distribution shifts.
-- [[fitness-for-service]] — downstream consumer; FFS Part 4 / Part 5 thinning assessment governs the run/repair/replace decision when sulfidation + NAC wall loss has consumed the corrosion allowance.
+- [damage-mechanism-screening](./damage-mechanism-screening.md) —
+  upstream concept; screens which mechanisms are credible for a given
+  hot-circuit asset, with sulfidation and NAC as primary entries on the
+  crude-unit / FCC / hydroprocessing screening lists.
+- [corrosion-rate-measurement](./corrosion-rate-measurement.md) — paired
+  metric; both mechanisms produce wall-loss that is tracked via
+  UT-thickness CML programmes, with mass-loss coupons used in lab
+  qualification of candidate alloys against representative crude slates.
+- [risk-based-inspection](./risk-based-inspection.md) — POF input; the
+  modified-Couper–Gorman thinning damage factor in
+  [api-rp-581](../standards/api-rp-581.md) Part II is one of the primary
+  POF terms for hot-circuit refining assets, and the NAC alloy-adequacy
+  assessment is a principal RBI re-evaluation trigger when the feedstock
+  TAN distribution shifts.
+- [fitness-for-service](./fitness-for-service.md) — downstream consumer;
+  [api-std-579](../standards/api-std-579.md) Part 4 / Part 5 thinning
+  assessment governs the run/repair/replace decision when sulfidation +
+  NAC wall loss has consumed the corrosion allowance.
+- [erosion-and-fac](./erosion-and-fac.md) — high-velocity wall-thinning
+  sibling; FAC and NAC both intensify with velocity and can co-locate
+  on the same elbows, complicating diagnostic separation.
+- [htha-nelson-curves](./htha-nelson-curves.md) — co-resident
+  high-temperature damage mechanism on the hydroprocessing complex; the
+  alloy-ladder for sulfidation + NAC must also satisfy the Nelson-curve
+  envelope where pH2 is non-trivial.
+- [creep-and-stress-rupture](./creep-and-stress-rupture.md) —
+  high-temperature time-dependent damage class; creep, sulfidation, and
+  NAC all become active above ~370 degC and must be screened jointly on
+  vacuum-unit and FCC main-fractionator components.
 
 ## Source materials
 

@@ -7,14 +7,14 @@ sources:
   - concept-synthesis
 domain: maritime-law
 cross_links:
-  - ../../standards/isps-code.md
-  - ../../standards/solas-1974.md
-  - ../../concepts/ism-code.md
+  - ../standards/isps-code.md
+  - ../standards/solas-1974.md
+  - ism-code.md
 ---
 
 # ISPS Code — Doctrinal Synthesis
 
-> Practitioner doctrinal companion to the standards-tier metadata resolver at [`standards/isps-code.md`](../../standards/isps-code.md). This page synthesizes what the International Ship and Port Facility Security Code means in operational practice for shipowners, port operators, security officers, and Designated Authorities — what changed post-9/11, how the cybersecurity addendum reshaped scope, and where ISPS sits in relation to the parallel ISM safety-management regime.
+> Practitioner doctrinal companion to the standards-tier metadata resolver at [`standards/isps-code.md`](../standards/isps-code.md). This page synthesizes what the International Ship and Port Facility Security Code means in operational practice for shipowners, port operators, security officers, and Designated Authorities — what changed post-9/11, how the cybersecurity addendum reshaped scope, and where ISPS sits in relation to the parallel ISM safety-management regime.
 
 ## Why ISPS matters
 
@@ -87,7 +87,7 @@ SSP and PFSP approval; flag-state ISPS audit cycles; security-level setting and 
 
 ## Cross-references
 
-- [`standards/isps-code.md`](../../standards/isps-code.md) — standards-tier metadata resolver companion (adoption, MSC resolution numbers, parent SOLAS chapter, code-id citation target).
-- [`standards/solas-1974.md`](../../standards/solas-1974.md) — parent convention; SOLAS Chapter XI-2 is the binding-mandate hook for ISPS.
+- [`standards/isps-code.md`](../standards/isps-code.md) — standards-tier metadata resolver companion (adoption, MSC resolution numbers, parent SOLAS chapter, code-id citation target).
+- [`standards/solas-1974.md`](../standards/solas-1974.md) — parent convention; SOLAS Chapter XI-2 is the binding-mandate hook for ISPS.
 - [`concepts/ism-code.md`](../concepts/ism-code.md) — sibling concept page covering the safety-management regime under SOLAS Chapter IX. ISM and ISPS are deliberately adjacent and complementary: same audit cadence, distinct scope.
 - [`concepts/port-state-control.md`](../concepts/port-state-control.md) — the PSC regime verifies the ISSC and security-related operational requirements under SOLAS XI-2 Regulation 9.

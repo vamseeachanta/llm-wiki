@@ -7,15 +7,15 @@ sources:
   - concept-synthesis
 domain: maritime-law
 cross_links:
-  - ../../standards/salvage-convention-1989.md
+  - ../standards/salvage-convention-1989.md
   - ./salvage.md
-  - ../../standards/clc-1992.md
-  - ../../standards/llmc-1996.md
+  - ../standards/clc-1992.md
+  - ../standards/llmc-1996.md
 ---
 
 # Salvage Convention 1989 — Doctrinal Synthesis
 
-This page is the practitioner-impact companion to the [standards-tier metadata resolver](../../standards/salvage-convention-1989.md). It synthesizes what the **International Convention on Salvage 1989** means for salvors, shipowners, P&I clubs, and coastal-state regulators — without reproducing convention text. The broader cross-cutting salvor-claim doctrine (LOF, SCOPIC, "no cure, no pay" maxim, three classical elements) sits at [Salvage](./salvage.md); this page is the **Convention-specific synthesis** nested below it, scoped to the treaty itself and its Article 14 environmental innovation.
+This page is the practitioner-impact companion to the [standards-tier metadata resolver](../standards/salvage-convention-1989.md). It synthesizes what the **International Convention on Salvage 1989** means for salvors, shipowners, P&I clubs, and coastal-state regulators — without reproducing convention text. The broader cross-cutting salvor-claim doctrine (LOF, SCOPIC, "no cure, no pay" maxim, three classical elements) sits at [Salvage](./salvage.md); this page is the **Convention-specific synthesis** nested below it, scoped to the treaty itself and its Article 14 environmental innovation.
 
 ## Why Salvage Convention 1989 matters
 
@@ -100,16 +100,16 @@ Beyond Article 14, the convention sets out the broader operating framework for s
 ## Cross-references
 
 **Standards-tier companion (metadata resolver)**
-- [`standards/salvage-convention-1989`](../../standards/salvage-convention-1989.md) — convention metadata, adoption / entry-into-force timeline, Article 1 / 6 / 8 / 12 / 13 / 14 / 17 operative-provision summary, and SCOPIC 2000 contractual-replacement notes.
+- [`standards/salvage-convention-1989`](../standards/salvage-convention-1989.md) — convention metadata, adoption / entry-into-force timeline, Article 1 / 6 / 8 / 12 / 13 / 14 / 17 operative-provision summary, and SCOPIC 2000 contractual-replacement notes.
 
 **Cross-cutting concept**
 - [`concepts/salvage`](./salvage.md) — salvor-claim doctrine, three classical elements ("real maritime peril, voluntary service, success in whole or part"), and the LOF / SCOPIC / Salvage Convention triad. The Convention is one regime within that doctrine; **this page is the Convention-specific synthesis** nested below it.
 
 **Sibling subject-matter regimes (parallel and interfacing)**
-- [`standards/llmc-1996`](../../standards/llmc-1996.md) — limitation of liability for maritime claims; **excludes** salvors' claims for special compensation under Article 14 (LLMC 1996 Article 3(b)). The LLMC cap does not apply to Article 14 / SCOPIC compensation — a deliberate carve-out preserving the Convention's environmental-protection incentive.
-- [`standards/clc-1992`](../../standards/clc-1992.md) — tanker oil-pollution liability; CLC and the Salvage Convention overlap on environmental-incident handling. CLC governs the owner's strict liability to third-party claimants for spilled oil; the Salvage Convention governs the salvor's claim against the owner for the rescue operation. Both can run simultaneously after a tanker casualty.
-- [`standards/nairobi-wrc-2007`](../../standards/nairobi-wrc-2007.md) — wreck removal liability. The interface between ongoing-salvage (Salvage Convention) and post-incident wreck-removal (Nairobi WRC) is operationally fluid; *The Solomon Trader* is a recent illustration.
-- [`standards/marpol-73-78`](../../standards/marpol-73-78.md) — environmental-protection regulatory authority. MARPOL provides the regulatory floor for what "damage to the environment" means in operational practice; Article 14 piggybacks on MARPOL's substantive environmental-harm standards.
+- [`standards/llmc-1996`](../standards/llmc-1996.md) — limitation of liability for maritime claims; **excludes** salvors' claims for special compensation under Article 14 (LLMC 1996 Article 3(b)). The LLMC cap does not apply to Article 14 / SCOPIC compensation — a deliberate carve-out preserving the Convention's environmental-protection incentive.
+- [`standards/clc-1992`](../standards/clc-1992.md) — tanker oil-pollution liability; CLC and the Salvage Convention overlap on environmental-incident handling. CLC governs the owner's strict liability to third-party claimants for spilled oil; the Salvage Convention governs the salvor's claim against the owner for the rescue operation. Both can run simultaneously after a tanker casualty.
+- [`standards/nairobi-wrc-2007`](../standards/nairobi-wrc-2007.md) — wreck removal liability. The interface between ongoing-salvage (Salvage Convention) and post-incident wreck-removal (Nairobi WRC) is operationally fluid; *The Solomon Trader* is a recent illustration.
+- [`standards/marpol-73-78`](../standards/marpol-73-78.md) — environmental-protection regulatory authority. MARPOL provides the regulatory floor for what "damage to the environment" means in operational practice; Article 14 piggybacks on MARPOL's substantive environmental-harm standards.
 
 **Related concept pages**
 - [`concepts/llmc-1996`](./llmc-1996.md) — limitation of maritime claims; LLMC Article 3(b) salvor-claim carve-out.

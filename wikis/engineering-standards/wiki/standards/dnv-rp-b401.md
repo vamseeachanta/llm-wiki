@@ -10,6 +10,7 @@ revision: "2011"
 revision_source: "/mnt/ace/O&G-Standards/DNV/DNV_RP_B401_(2011)_Cathodic_Protection_Design.pdf"
 verified_on: 2026-05-02
 public_url: https://standards.dnv.com/explorer/
+publisher_catalog_url: https://www.dnv.com/energy/standards-guidelines/
 sources:
   - /mnt/ace/O&G-Standards/DNV/DNV_RP_B401_(2011)_Cathodic_Protection_Design.pdf
 extraction_policy: metadata-only

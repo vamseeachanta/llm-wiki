@@ -7,15 +7,15 @@ sources:
   - concept-synthesis
 domain: maritime-law
 cross_links:
-  - ../../standards/rotterdam-rules.md
-  - ../../standards/hague-visby-rules.md
+  - ../standards/rotterdam-rules.md
+  - ../standards/hague-visby-rules.md
   - ./hague-visby-rules.md
   - ./charterparties.md
 ---
 
 # Rotterdam Rules — Doctrinal Synthesis
 
-> Practitioner doctrinal companion to the standards-tier metadata resolver at [`standards/rotterdam-rules.md`](../../standards/rotterdam-rules.md). This page synthesizes what the UN Convention on Contracts for the International Carriage of Goods Wholly or Partly by Sea (2009) would mean for carriers, shippers, freight forwarders, and P&I clubs if it entered force — and why, after fifteen years on the table, it has not. The page does not reproduce convention text.
+> Practitioner doctrinal companion to the standards-tier metadata resolver at [`standards/rotterdam-rules.md`](../standards/rotterdam-rules.md). This page synthesizes what the UN Convention on Contracts for the International Carriage of Goods Wholly or Partly by Sea (2009) would mean for carriers, shippers, freight forwarders, and P&I clubs if it entered force — and why, after fifteen years on the table, it has not. The page does not reproduce convention text.
 
 ## Why Rotterdam Rules matter (despite not being in force)
 
@@ -89,8 +89,8 @@ Re-underwriting required across the liner book and across owner's-side mutual en
 
 ## Cross-references
 
-- **Standards-tier companion (metadata resolver):** [`standards/rotterdam-rules.md`](../../standards/rotterdam-rules.md) — convention metadata, adoption history, signature/ratification register, electronic transport-record framework.
-- **Predecessor regime — standards tier:** [`standards/hague-visby-rules.md`](../../standards/hague-visby-rules.md) — the incumbent bill-of-lading liability regime that Rotterdam was drafted to supersede.
+- **Standards-tier companion (metadata resolver):** [`standards/rotterdam-rules.md`](../standards/rotterdam-rules.md) — convention metadata, adoption history, signature/ratification register, electronic transport-record framework.
+- **Predecessor regime — standards tier:** [`standards/hague-visby-rules.md`](../standards/hague-visby-rules.md) — the incumbent bill-of-lading liability regime that Rotterdam was drafted to supersede.
 - **Predecessor regime — concept tier:** [`concepts/hague-visby-rules.md`](./hague-visby-rules.md) — practitioner-impact synthesis of the Hague-Visby regime (future-promotion stub; pending).
 - **Sibling private-law instrument:** [`concepts/charterparties.md`](./charterparties.md) — voyage / time / bareboat charters routinely incorporate Hague-Visby (and would, between contracting parties, incorporate Rotterdam) by paramount-clause reference; volume-contract derogation under Article 80 interacts with charterparty allocation.
 - **Package-limit interface:** [`concepts/limitation-of-liability.md`](./limitation-of-liability.md) — the Article 59 per-package / per-kg ceilings sit underneath the global tonnage-limitation regime under LLMC 1976/1996, which limits the carrier's overall exposure across all claims arising from the same incident.

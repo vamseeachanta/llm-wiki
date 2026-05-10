@@ -7,20 +7,20 @@ sources:
   - concept-synthesis
 domain: maritime-law
 cross_links:
-  - ../../standards/paris-mou.md
-  - ../../standards/tokyo-mou.md
-  - ../../standards/caribbean-mou.md
-  - ../../standards/indian-ocean-mou.md
-  - ../../standards/mediterranean-mou.md
-  - ../../standards/black-sea-mou.md
-  - ../../standards/riyadh-mou.md
+  - ../standards/paris-mou.md
+  - ../standards/tokyo-mou.md
+  - ../standards/caribbean-mou.md
+  - ../standards/indian-ocean-mou.md
+  - ../standards/mediterranean-mou.md
+  - ../standards/black-sea-mou.md
+  - ../standards/riyadh-mou.md
   - ./port-state-control.md
   - ./paris-mou.md
 ---
 
 # Regional Port-State-Control MoUs — Comparative Synthesis
 
-> Cross-cutting comparative companion to the per-MoU standards-tier metadata resolvers under [`standards/`](../../standards/) and to the Paris-specific doctrinal page at [`concepts/paris-mou.md`](./paris-mou.md). This page is the **navigation hub** for comparative analysis across all nine regional PSC MoUs — the structural-template, NIR-adoption, joint-CIC, dual-membership, and geographic-specialization patterns that the per-MoU pages would otherwise duplicate. The cross-cutting concept-level treatment of port-state control as a regime sits in [`concepts/port-state-control.md`](./port-state-control.md).
+> Cross-cutting comparative companion to the per-MoU standards-tier metadata resolvers under [`standards/`](../standards/) and to the Paris-specific doctrinal page at [`concepts/paris-mou.md`](./paris-mou.md). This page is the **navigation hub** for comparative analysis across all nine regional PSC MoUs — the structural-template, NIR-adoption, joint-CIC, dual-membership, and geographic-specialization patterns that the per-MoU pages would otherwise duplicate. The cross-cutting concept-level treatment of port-state control as a regime sits in [`concepts/port-state-control.md`](./port-state-control.md).
 
 ## Why a comparative synthesis matters
 
@@ -32,15 +32,15 @@ cross_links:
 
 | MoU | Founded | Members | NIR? | Joint-CIC | Specialization |
 |-----|---------|---------|------|-----------|---------------|
-| [Paris](../../standards/paris-mou.md) | 1982 | 27 | 2011 | Yes (since 1996) | Original; commercial cargo, EU-coastal |
-| [Tokyo](../../standards/tokyo-mou.md) | 1993 | 21 | 2017 | Yes (since 1996) | Asia-Pacific |
+| [Paris](../standards/paris-mou.md) | 1982 | 27 | 2011 | Yes (since 1996) | Original; commercial cargo, EU-coastal |
+| [Tokyo](../standards/tokyo-mou.md) | 1993 | 21 | 2017 | Yes (since 1996) | Asia-Pacific |
 | Viña del Mar (Acuerdo de) | 1992 | 14 | Pending | Yes | Latin America |
-| [Caribbean](../../standards/caribbean-mou.md) | 1996 | 22 | Pending | Yes (since 2009) | Cruise-ship density |
-| [Mediterranean](../../standards/mediterranean-mou.md) | 1997 | 12 | 2014 | Yes | Cruise + ferry density |
-| [Indian Ocean](../../standards/indian-ocean-mou.md) | 1998 | 20 | 2014 | Yes (since 2010) | Tanker; Persian Gulf entry |
+| [Caribbean](../standards/caribbean-mou.md) | 1996 | 22 | Pending | Yes (since 2009) | Cruise-ship density |
+| [Mediterranean](../standards/mediterranean-mou.md) | 1997 | 12 | 2014 | Yes | Cruise + ferry density |
+| [Indian Ocean](../standards/indian-ocean-mou.md) | 1998 | 20 | 2014 | Yes (since 2010) | Tanker; Persian Gulf entry |
 | Abuja MoU | 1999 | 22 | Pending | Yes | West and Central Africa |
-| [Black Sea](../../standards/black-sea-mou.md) | 2000 | 6 | Pending | Yes | Bosphorus chokepoint |
-| [Riyadh](../../standards/riyadh-mou.md) | 2004 | 6 | Pending | Yes | GCC; Strait of Hormuz |
+| [Black Sea](../standards/black-sea-mou.md) | 2000 | 6 | Pending | Yes | Bosphorus chokepoint |
+| [Riyadh](../standards/riyadh-mou.md) | 2004 | 6 | Pending | Yes | GCC; Strait of Hormuz |
 
 > **Two MoUs without standards-tier pages.** The Acuerdo de Viña del Mar (Latin America, 1992) and the Abuja MoU (West and Central Africa, 1999) are not yet covered by dedicated `standards/` metadata resolvers in this wiki. They are noted comparatively here pending future codification.
 
@@ -102,8 +102,8 @@ cross_links:
 
 ## Cross-references
 
-- **Per-MoU standards-tier companions (metadata resolvers):** [`standards/paris-mou.md`](../../standards/paris-mou.md), [`standards/tokyo-mou.md`](../../standards/tokyo-mou.md), [`standards/caribbean-mou.md`](../../standards/caribbean-mou.md), [`standards/indian-ocean-mou.md`](../../standards/indian-ocean-mou.md), [`standards/mediterranean-mou.md`](../../standards/mediterranean-mou.md), [`standards/black-sea-mou.md`](../../standards/black-sea-mou.md), [`standards/riyadh-mou.md`](../../standards/riyadh-mou.md).
+- **Per-MoU standards-tier companions (metadata resolvers):** [`standards/paris-mou.md`](../standards/paris-mou.md), [`standards/tokyo-mou.md`](../standards/tokyo-mou.md), [`standards/caribbean-mou.md`](../standards/caribbean-mou.md), [`standards/indian-ocean-mou.md`](../standards/indian-ocean-mou.md), [`standards/mediterranean-mou.md`](../standards/mediterranean-mou.md), [`standards/black-sea-mou.md`](../standards/black-sea-mou.md), [`standards/riyadh-mou.md`](../standards/riyadh-mou.md).
 - **Paris-specific doctrinal companion:** [`concepts/paris-mou.md`](./paris-mou.md) — this page extends the Paris-MoU treatment comparatively across the other eight regional MoUs rather than duplicating Paris-specific NIR mechanics.
 - **Cross-cutting parent concept:** [`concepts/port-state-control.md`](./port-state-control.md) — regime-level treatment of PSC across all MoUs and the US Qualship 21 program (which operates outside the regional MoU framework).
 - **Case-law drivers of MoU evolution:** [`entities/amoco-cadiz-1978.md`](../entities/amoco-cadiz-1978.md) (founding-driver for Paris MoU), [`entities/mv-erika-1999.md`](../entities/mv-erika-1999.md) and [`entities/mv-prestige-2002.md`](../entities/mv-prestige-2002.md) (Erika I/II/III packages and 2011 NIR adoption), [`entities/costa-concordia-2012.md`](../entities/costa-concordia-2012.md) (Mediterranean MoU cruise-ship inspection emphasis).
-- **UNCLOS source authority:** [`standards/unclos-1982.md`](../../standards/unclos-1982.md) — UNCLOS Articles 217–220 source authority for port-state jurisdiction over discharge violations and unseaworthy vessels, which underpins all nine regional MoU regimes.
+- **UNCLOS source authority:** [`standards/unclos-1982.md`](../standards/unclos-1982.md) — UNCLOS Articles 217–220 source authority for port-state jurisdiction over discharge violations and unseaworthy vessels, which underpins all nine regional MoU regimes.

@@ -10,6 +10,7 @@ revision: "2010"
 revision_source: "/mnt/ace/O&G-Standards/DNV/DNV_OS_E301_(2010)_Position_Mooring.pdf"
 verified_on: 2026-05-02
 public_url: https://standards.dnv.com/explorer/
+publisher_catalog_url: https://www.dnv.com/energy/standards-guidelines/
 sources:
   - /mnt/ace/O&G-Standards/DNV/DNV_OS_E301_(2010)_Position_Mooring.pdf
 extraction_policy: metadata-only

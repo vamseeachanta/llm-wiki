@@ -240,21 +240,31 @@ Bidirectional links to the standards-page resolvers (each carries
 
 ## Related concepts
 
-- [[damage-mechanism-screening]] — HTHA appears in the high-temperature
-  mechanism row of the screening matrix and in the hydroprocessing /
-  catalytic-reformer unit-by-unit shortlist; screening is the upstream
-  step that flags HTHA as a credible mechanism for a given asset.
-- [[hydrogen-embrittlement]] — low-temperature sibling family (HE,
-  HISC, HIC, SOHIC, SSC) covering the **T < ~200 degC** regime.
-  Mechanistically distinct from HTHA: trapping-and-embrittlement vs.
-  carbide-consumption-and-methane-voids, and reversible-by-baking vs.
-  irreversible.
-- [[brittle-fracture]] — the **failure mode** HTHA produces. Once
-  intergranular fissures have networked through a carbide-depleted
-  HAZ, the rupture event is a sudden brittle fracture indistinguishable
-  on the failure surface from a low-temperature DBTT-driven rupture.
-- [[risk-based-inspection]] — HTHA-DF is a first-class POF input in
-  tier-1 RBI studies under [[api-rp-580]] / [[api-rp-581]].
+- [damage-mechanism-screening](./damage-mechanism-screening.md) — HTHA
+  appears in the high-temperature mechanism row of the screening matrix
+  and in the hydroprocessing / catalytic-reformer unit-by-unit shortlist;
+  screening is the upstream step that flags HTHA as a credible mechanism
+  for a given asset.
+- [hydrogen-embrittlement](./hydrogen-embrittlement.md) — low-temperature
+  sibling family (HE, HISC, HIC, SOHIC, SSC) covering the
+  **T < ~200 degC** regime. Mechanistically distinct from HTHA:
+  trapping-and-embrittlement vs. carbide-consumption-and-methane-voids,
+  and reversible-by-baking vs. irreversible.
+- [brittle-fracture](./brittle-fracture.md) — the **failure mode** HTHA
+  produces. Once intergranular fissures have networked through a
+  carbide-depleted HAZ, the rupture event is a sudden brittle fracture
+  indistinguishable on the failure surface from a low-temperature
+  DBTT-driven rupture.
+- [risk-based-inspection](./risk-based-inspection.md) — HTHA-DF is a
+  first-class POF input in tier-1 RBI studies under
+  [api-rp-580](../standards/api-rp-580.md) /
+  [api-rp-581](../standards/api-rp-581.md).
+- [fitness-for-service](./fitness-for-service.md) — assessment route
+  for HTHA-affected equipment via [api-std-579](../standards/api-std-579.md)
+  Parts 4, 5, and 10.
+- [creep-and-stress-rupture](./creep-and-stress-rupture.md) —
+  high-temperature damage-mechanism sibling that often coexists with
+  HTHA in hydroprocessing reactor service.
 
 ## Source materials
 

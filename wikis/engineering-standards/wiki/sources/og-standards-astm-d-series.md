@@ -145,3 +145,18 @@ The following 12–15 D-codes are the highest-priority promotions to per-code `w
 3. **Subcommittee tagging**: emit an `astm_subcommittee` field per D-code (D02 / D18 / D20 / etc.) to enable downstream consumers to filter the slice by relevance without enumerating every code.
 4. **OCR backlog prioritisation**: enqueue D02 + D18 high-priority codes (the 15 listed above) ahead of bulk plastics/rubber/paper OCR in `#2536`. Current OCR coverage is <1% for the D-Series.
 5. **Edition-history reconciliation**: D86, D975, D2700, D2699, D4101 each show 8–10+ filename hits — a content-hash dedup against `_inventory.db` should distinguish true revision diversity from `_R<year>_` reapproval-only variants and `RDEW...TUKVE` vs base-tag pairs before any per-code page lists "editions present."
+
+## Cross-references
+
+Standards pages already promoted from this D-Series slice (each should cite this source page for catalog provenance):
+
+- [`standards/astm-d86`](../standards/astm-d86.md) — Distillation of petroleum products at atmospheric pressure.
+- [`standards/astm-d396`](../standards/astm-d396.md) — Standard Specification for Fuel Oils.
+- [`standards/astm-d445`](../standards/astm-d445.md) — Kinematic viscosity of transparent and opaque liquids.
+- [`standards/astm-d975`](../standards/astm-d975.md) — Standard Specification for Diesel Fuel Oils.
+- [`standards/astm-d1655`](../standards/astm-d1655.md) — Standard Specification for Aviation Turbine Fuels.
+- [`standards/astm-d4814`](../standards/astm-d4814.md) — Standard Specification for Automotive Spark-Ignition Engine Fuel.
+
+Concept pages that should cite this source when invoking D-Series-published methods:
+
+- [`concepts/fuel-quality-and-specification`](../concepts/fuel-quality-and-specification.md) — D-Series D02 subcommittee (D86, D396, D445, D975, D1655, D2622, D2699, D2700, D4294, D4814, D6584) is the test-method substrate for fuel-quality acceptance.

@@ -7,15 +7,15 @@ sources:
   - concept-synthesis
 domain: maritime-law
 cross_links:
-  - ../../standards/opa-90.md
-  - ../../standards/clc-1992.md
-  - ../../standards/bunkers-convention-2001.md
+  - ../standards/opa-90.md
+  - ../standards/clc-1992.md
+  - ../standards/bunkers-convention-2001.md
   - ./environmental-liability.md
 ---
 
 # OPA 90 — Doctrinal Synthesis
 
-> Practitioner doctrinal companion to the standards-tier metadata resolver at [`standards/opa-90.md`](../../standards/opa-90.md). This page synthesizes what the **Oil Pollution Act of 1990 (OPA 90, 33 U.S.C. §§ 2701–2762)** means in operational practice for tanker operators, oil majors, P&I clubs, coastal-state regulators, and federal trustees — what changed after Exxon Valdez, why the United States built a domestic regime in parallel to (and stricter than) the international CLC/Bunkers framework, and how the *cap-loss* mechanic for negligence and regulatory violations has shaped litigation exposure since Deepwater Horizon.
+> Practitioner doctrinal companion to the standards-tier metadata resolver at [`standards/opa-90.md`](../standards/opa-90.md). This page synthesizes what the **Oil Pollution Act of 1990 (OPA 90, 33 U.S.C. §§ 2701–2762)** means in operational practice for tanker operators, oil majors, P&I clubs, coastal-state regulators, and federal trustees — what changed after Exxon Valdez, why the United States built a domestic regime in parallel to (and stricter than) the international CLC/Bunkers framework, and how the *cap-loss* mechanic for negligence and regulatory violations has shaped litigation exposure since Deepwater Horizon.
 
 ## Why OPA 90 matters
 
@@ -108,8 +108,8 @@ NOAA, Department of the Interior (DOI), the affected states, and federally-recog
 
 ## Cross-references
 
-- [`standards/opa-90.md`](../../standards/opa-90.md) — standards-tier metadata resolver companion (US Public Law and US Code citations, CFR implementation map, Coast Guard inflation-adjustment Final Rule history).
-- [`standards/clc-1992.md`](../../standards/clc-1992.md) — international parallel for tanker oil-spill liability; the regime the US chose *not* to join.
-- [`standards/bunkers-convention-2001.md`](../../standards/bunkers-convention-2001.md) — international parallel for non-tanker bunker-fuel spill liability; OPA 90 covers the same scope domestically without the LLMC-defer mechanic.
+- [`standards/opa-90.md`](../standards/opa-90.md) — standards-tier metadata resolver companion (US Public Law and US Code citations, CFR implementation map, Coast Guard inflation-adjustment Final Rule history).
+- [`standards/clc-1992.md`](../standards/clc-1992.md) — international parallel for tanker oil-spill liability; the regime the US chose *not* to join.
+- [`standards/bunkers-convention-2001.md`](../standards/bunkers-convention-2001.md) — international parallel for non-tanker bunker-fuel spill liability; OPA 90 covers the same scope domestically without the LLMC-defer mechanic.
 - [`concepts/environmental-liability.md`](./environmental-liability.md) — six-era evolution of maritime environmental liability; OPA 90 is the US-domestic component of the post-Exxon-Valdez era.
 - [`entities/deepwater-horizon-2010.md`](../entities/deepwater-horizon-2010.md) — the modern OPA 90 cap-loss case study.

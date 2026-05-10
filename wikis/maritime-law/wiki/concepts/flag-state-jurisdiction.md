@@ -21,7 +21,7 @@ cross_links:
 
 # Flag-State Jurisdiction — Doctrinal Synthesis
 
-> Practitioner doctrinal companion to the standards-tier metadata resolver at [`standards/unclos-1982.md`](../../standards/unclos-1982.md). This page synthesizes flag-state jurisdiction as the **primary regulatory layer** of the international maritime safety, environmental-protection, and labour regime — what UNCLOS Articles 91, 92, 94, and 217–220 actually require of flag states, why the **genuine link** doctrine is more rhetorically potent than legally enforceable, how **open registries** (Panama, Liberia, Marshall Islands) came to dominate world tonnage, and how the **IMO Member State Audit Scheme (IMSAS, in force 2016)** is reshaping flag-state accountability without disturbing the underlying open-registry economic model.
+> Practitioner doctrinal companion to the standards-tier metadata resolver at [`standards/unclos-1982.md`](../standards/unclos-1982.md). This page synthesizes flag-state jurisdiction as the **primary regulatory layer** of the international maritime safety, environmental-protection, and labour regime — what UNCLOS Articles 91, 92, 94, and 217–220 actually require of flag states, why the **genuine link** doctrine is more rhetorically potent than legally enforceable, how **open registries** (Panama, Liberia, Marshall Islands) came to dominate world tonnage, and how the **IMO Member State Audit Scheme (IMSAS, in force 2016)** is reshaping flag-state accountability without disturbing the underlying open-registry economic model.
 
 ## Why flag-state jurisdiction matters
 
@@ -81,7 +81,7 @@ cross_links:
 
 ## Cross-references
 
-- [`standards/unclos-1982.md`](../../standards/unclos-1982.md) — standards-tier metadata resolver companion (UNCLOS Articles 91, 92, 94, 217–220 are the treaty anchor for flag-state nationality, exclusive high-seas jurisdiction, flag-state duties, and flag/port/coastal-state enforcement allocation).
+- [`standards/unclos-1982.md`](../standards/unclos-1982.md) — standards-tier metadata resolver companion (UNCLOS Articles 91, 92, 94, 217–220 are the treaty anchor for flag-state nationality, exclusive high-seas jurisdiction, flag-state duties, and flag/port/coastal-state enforcement allocation).
 - [`concepts/port-state-control.md`](./port-state-control.md) — sibling enforcement layer; PSC is the verification mechanism that operates on flag-state regulatory output.
 - [`concepts/paris-mou.md`](./paris-mou.md) — the regional PSC implementation that produces public flag-state-performance scoring (white/grey/black list) feeding into market vetting.
 - [`concepts/solas-1974.md`](./solas-1974.md), [`concepts/marpol-73-78.md`](./marpol-73-78.md), [`concepts/mlc-2006.md`](./mlc-2006.md), [`concepts/ism-code.md`](./ism-code.md) — the substantive instruments whose flag-state implementation IMSAS audits.

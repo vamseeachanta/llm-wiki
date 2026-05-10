@@ -12,6 +12,7 @@ publisher_current_edition: "2024/2026 cycle"
 methodology_status: "stale-as-of-publisher-cycle"
 verified_on: 2026-05-02
 public_url: https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping
+publisher_catalog_url: https://www.asme.org/codes-standards/find-codes-standards
 sources:
   - /mnt/ace/O&G-Standards/ASME/ASME B31.3 - Process Piping/ASME B31.3 2012 - Processing Piping.pdf
 extraction_policy: metadata-only

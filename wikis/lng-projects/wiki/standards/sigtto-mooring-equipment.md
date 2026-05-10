@@ -12,6 +12,7 @@ sources:
   - https://www.sigtto.org/publications/
 domain: lng-projects
 extraction_policy: metadata-only
+raw_copy_allowed: false
 cross_links: []
 ---
 

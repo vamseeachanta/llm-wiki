@@ -188,3 +188,20 @@ Representative API codes detected in the catalog, with edition coverage parsed f
    - **Errata stitching**: 6 separate `6A_e20_Errata_*.pdf` files belong together; emit a per-edition manifest (e.g., `Spec 6A 20th ed = Base + Addenda 1–3 + Errata 1–6`) for retrieval-side join.
    - **OCR backlog**: 224/517 PDFs OCR-coverage = ~43%. Top RP/Spec gaps should be enqueued in #2536 ahead of bulk-fragment OCR.
 5. **Citation-contract pilot extension.** The mooring-design pilot at `digitalmodel/src/digitalmodel/orcaflex/mooring_design.py` cites DNV-OS-E301; extending the same pattern to API-anchored modules (e.g., RP 14E erosional-velocity, Spec 5L hydrostatic-test, Spec 6A pressure-test) would be the natural next step once the per-code standards/ pages above are populated with #2471-shape frontmatter.
+
+## Cross-references
+
+Standards pages already promoted from this API slice (each should cite this source page for its catalog provenance):
+
+- [`standards/api-rp-2a-wsd`](../standards/api-rp-2a-wsd.md), [`standards/api-rp-2geo`](../standards/api-rp-2geo.md), [`standards/api-rp-2met`](../standards/api-rp-2met.md), [`standards/api-rp-2sk`](../standards/api-rp-2sk.md) — fixed-platform / metocean / stationkeeping cluster.
+- [`standards/api-rp-1111`](../standards/api-rp-1111.md), [`standards/api-rp-14e`](../standards/api-rp-14e.md), [`standards/api-rp-16q`](../standards/api-rp-16q.md), [`standards/api-rp-17b`](../standards/api-rp-17b.md) — pipelines, production piping, drilling-riser, flexible-pipe practice.
+- [`standards/api-spec-5l`](../standards/api-spec-5l.md), [`standards/api-spec-6a`](../standards/api-spec-6a.md), [`standards/api-spec-6d`](../standards/api-spec-6d.md), [`standards/api-spec-17d`](../standards/api-spec-17d.md), [`standards/api-spec-17j`](../standards/api-spec-17j.md), [`standards/api-17e`](../standards/api-17e.md), [`standards/api-17j`](../standards/api-17j.md) — hardware specifications.
+- [`standards/api-510`](../standards/api-510.md), [`standards/api-570`](../standards/api-570.md), [`standards/api-653`](../standards/api-653.md), [`standards/api-rp-571`](../standards/api-rp-571.md), [`standards/api-rp-574`](../standards/api-rp-574.md), [`standards/api-rp-577`](../standards/api-rp-577.md), [`standards/api-rp-580`](../standards/api-rp-580.md), [`standards/api-rp-581`](../standards/api-rp-581.md), [`standards/api-rp-583`](../standards/api-rp-583.md), [`standards/api-rp-941`](../standards/api-rp-941.md), [`standards/api-std-579`](../standards/api-std-579.md), [`standards/api-std-1104`](../standards/api-std-1104.md), [`standards/api-std-2rd`](../standards/api-std-2rd.md) — inspection, RBI, FFS, pipeline welding, dynamic-riser standards.
+
+Concept pages that should cite this source when invoking API-published practice:
+
+- [`concepts/fatigue-design-and-assessment`](../concepts/fatigue-design-and-assessment.md) — API RP 2A-WSD fatigue commentary, RP 2RD/2SK riser/mooring fatigue.
+- [`concepts/risk-based-inspection`](../concepts/risk-based-inspection.md) — RP 580 / RP 581 are the canonical RBI methodology.
+- [`concepts/fitness-for-service`](../concepts/fitness-for-service.md) — API 579-1 / ASME FFS-1 joint code.
+- [`concepts/welding-procedures-and-acceptance`](../concepts/welding-procedures-and-acceptance.md) — API Std 1104 pipeline welding; RP 577 inspection of welding.
+- [`concepts/damage-mechanism-screening`](../concepts/damage-mechanism-screening.md) — API RP 571 damage-mechanism affecting fixed equipment in the refining industry.

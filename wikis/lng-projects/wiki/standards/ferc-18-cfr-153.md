@@ -12,6 +12,7 @@ sources:
   - https://www.ecfr.gov/current/title-18/chapter-I/subchapter-E/part-153
 domain: lng-projects
 extraction_policy: metadata-only
+raw_copy_allowed: false
 cross_links: []
 ---
 

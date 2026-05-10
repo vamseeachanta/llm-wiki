@@ -1,7 +1,8 @@
 ---
 title: "Athens Convention 2002 — Passenger Death and Injury"
 tags: [maritime-law, convention, liability, compensation]
-source: maritime-liabilities.yaml
+sources:
+  - ../sources/maritime-liability-conventions.md
 added: 2026-04-07
 last_updated: 2026-05-09
 ---

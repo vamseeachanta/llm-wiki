@@ -7,7 +7,7 @@ sources:
   - concept-synthesis
 domain: maritime-law
 cross_links:
-  - ../../standards/nairobi-wrc-2007.md
+  - ../standards/nairobi-wrc-2007.md
   - ./limitation-of-liability.md
   - ./salvage.md
   - ./environmental-liability.md

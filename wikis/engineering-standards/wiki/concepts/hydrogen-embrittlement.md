@@ -223,20 +223,31 @@ Bidirectional links to the standards-page resolvers (each carries
 
 ## Related concepts
 
-- [[cathodic-protection]] — over-protection is the primary HE driver on
-  CRAs and high-strength steels; the CP-design / HE-mitigation interface
-  is governed jointly by [[dnv-rp-b401]] (CP design) and [[dnv-rp-f112]]
-  (HISC mitigation).
-- [[sour-service-materials]] — H2S-driven hydrogen charging on carbon
-  and low-alloy steels (SSC, HIC, SOHIC) and on CRAs (HISC variants);
-  qualification chain via TM-0284, TM-0177, and ASTM G48.
-- [[pitting-and-crevice-corrosion]] — chloride-driven pit nucleation can
-  locally depress pH at pit roots and trigger SSC initiation; CPT/CCT
-  envelopes set the chloride-temperature operating window upstream of
-  the HE susceptibility analysis.
-- **brittle-fracture** — low-temperature service compounds HE
-  susceptibility (lower toughness baseline + lower H diffusivity to
-  desorb out); concept page flagged for future ingest.
+- [cathodic-protection](./cathodic-protection.md) — over-protection is
+  the primary HE driver on CRAs and high-strength steels; the
+  CP-design / HE-mitigation interface is governed jointly by
+  [dnv-rp-b401](../standards/dnv-rp-b401.md) (CP design) and
+  [dnv-rp-f112](../standards/dnv-rp-f112.md) (HISC mitigation).
+- [sour-service-materials](./sour-service-materials.md) — H2S-driven
+  hydrogen charging on carbon and low-alloy steels (SSC, HIC, SOHIC) and
+  on CRAs (HISC variants); qualification chain via TM-0284, TM-0177, and
+  ASTM G48.
+- [pitting-and-crevice-corrosion](./pitting-and-crevice-corrosion.md) —
+  chloride-driven pit nucleation can locally depress pH at pit roots and
+  trigger SSC initiation; CPT/CCT envelopes set the chloride-temperature
+  operating window upstream of the HE susceptibility analysis.
+- [brittle-fracture](./brittle-fracture.md) — low-temperature service
+  compounds HE susceptibility (lower toughness baseline + lower H
+  diffusivity to desorb out); HE-driven cracks propagate via the same
+  cleavage / quasi-cleavage transgranular mode catalogued there.
+- [stress-corrosion-cracking](./stress-corrosion-cracking.md) — SSC and
+  HISC are the H2S-charged and CP-charged sub-families of the broader
+  environmentally-assisted-cracking taxonomy; the SCC concept-page
+  catalogues the wider mechanism portfolio (chloride-SCC, caustic, PASCC).
+- [htha-nelson-curves](./htha-nelson-curves.md) — high-temperature
+  hydrogen-attack sibling above ~200 degC; mechanistically distinct
+  (carbide consumption and methane voids vs. trapping-and-embrittlement)
+  but shares the hydrogen-damage parent taxonomy.
 
 ## Source materials
 

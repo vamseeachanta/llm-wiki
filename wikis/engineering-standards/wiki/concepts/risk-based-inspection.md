@@ -96,13 +96,29 @@ Bidirectional cross-references — each standards page below should cross-link b
 
 ## Related concepts
 
-Wikilinks below point to concept pages that may not yet exist — leave as wikilinks for future creation per the spinout's link-and-fill convention.
-
-- [[fitness-for-service]] — downstream consumer of RBI inspection findings; the FFS verdict on a found flaw feeds back into the next RBI cycle's POF.
-- [[corrosion-rate-measurement]] — UT thickness surveys, ILI runs, and coupon data that produce the corrosion-rate trends feeding RBI's POF.
-- [[damage-mechanism-screening]] — the upstream analytical step (step 2 of the workflow) that identifies which damage mechanisms a given asset is credibly susceptible to; drives both POF construction and inspection-technique selection.
-- [[fatigue-design-and-assessment]] — fatigue-cycle accumulation as a POF input for cyclic-service equipment.
-- [[pitting-and-crevice-corrosion]] — localised damage mechanisms whose progression rate and detectability shape POF for stainless and CRA-clad equipment.
+- [fitness-for-service](./fitness-for-service.md) — downstream consumer
+  of RBI inspection findings; the FFS verdict on a found flaw feeds
+  back into the next RBI cycle's POF (see also
+  [api-std-579](../standards/api-std-579.md)).
+- [corrosion-rate-measurement](./corrosion-rate-measurement.md) — UT
+  thickness surveys, ILI runs, and coupon data that produce the
+  corrosion-rate trends feeding RBI's POF.
+- [damage-mechanism-screening](./damage-mechanism-screening.md) — the
+  upstream analytical step (step 2 of the workflow) that identifies
+  which damage mechanisms a given asset is credibly susceptible to;
+  drives both POF construction and inspection-technique selection.
+- [fatigue-design-and-assessment](./fatigue-design-and-assessment.md) —
+  fatigue-cycle accumulation as a POF input for cyclic-service equipment.
+- [pitting-and-crevice-corrosion](./pitting-and-crevice-corrosion.md) —
+  localised damage mechanisms whose progression rate and detectability
+  shape POF for stainless and CRA-clad equipment.
+- [htha-nelson-curves](./htha-nelson-curves.md) — high-temperature
+  hydrogen-attack damage factor is a first-class POF input under
+  [api-rp-581](../standards/api-rp-581.md) Part 2 for hydroprocessing
+  fleet RBI prioritisation.
+- [stress-corrosion-cracking](./stress-corrosion-cracking.md) — SCC
+  family (Cl-SCC, polythionic, caustic, carbonate, amine, sour-service)
+  is a major POF input for the cracking damage class in API RP 581.
 
 ## Source materials
 

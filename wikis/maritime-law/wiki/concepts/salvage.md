@@ -21,7 +21,7 @@ cross_links:
 
 # Salvage — Doctrinal Synthesis
 
-> Practitioner doctrinal companion to the standards-tier metadata resolver at [`standards/salvage-convention-1989.md`](../../standards/salvage-convention-1989.md). This page synthesizes salvage as a **cross-cutting doctrine** — voluntary rescue of property at peril for reward — across its statutory, contractual, and economic surfaces. It covers the salvor-claim doctrine (LOF, SCOPIC, "no cure no pay", Article 14 environmental compensation), the salvage-vs-wreck-removal boundary, and the modern economics of professional salvage. It is doctrinally distinct from [`concepts/salvage-convention-1989.md`](./salvage-convention-1989.md), which is an instrument-specific synthesis of the IMO 1989 convention.
+> Practitioner doctrinal companion to the standards-tier metadata resolver at [`standards/salvage-convention-1989.md`](../standards/salvage-convention-1989.md). This page synthesizes salvage as a **cross-cutting doctrine** — voluntary rescue of property at peril for reward — across its statutory, contractual, and economic surfaces. It covers the salvor-claim doctrine (LOF, SCOPIC, "no cure no pay", Article 14 environmental compensation), the salvage-vs-wreck-removal boundary, and the modern economics of professional salvage. It is doctrinally distinct from [`concepts/salvage-convention-1989.md`](./salvage-convention-1989.md), which is an instrument-specific synthesis of the IMO 1989 convention.
 
 ## Why salvage matters
 
@@ -95,7 +95,7 @@ See [`concepts/nairobi-wrc-2007.md`](./nairobi-wrc-2007.md) for the wreck-remova
 
 ## Cross-references
 
-- [`standards/salvage-convention-1989.md`](../../standards/salvage-convention-1989.md) — standards-tier metadata resolver companion (adoption, entry-into-force, Article 13 reward criteria, Article 14 special-compensation gateway, LOF/SCOPIC contractual surface).
+- [`standards/salvage-convention-1989.md`](../standards/salvage-convention-1989.md) — standards-tier metadata resolver companion (adoption, entry-into-force, Article 13 reward criteria, Article 14 special-compensation gateway, LOF/SCOPIC contractual surface).
 - [`concepts/nairobi-wrc-2007.md`](./nairobi-wrc-2007.md) — wreck-removal liability companion; the regime that takes over when the salvage attempt converts to wreck removal.
 - [`concepts/general-average.md`](./general-average.md) — sibling loss-allocation doctrine; general average and salvage frequently run in parallel after a major casualty.
 - [`concepts/llmc-1996.md`](./llmc-1996.md) — global limitation regime; salvor claims are **excluded** from LLMC under Article 3(b).
