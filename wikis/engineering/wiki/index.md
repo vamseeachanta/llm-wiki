@@ -121,6 +121,15 @@ source_count: 24
 | [Nightly Research Outputs](sources/research-outputs.md) | Standards tracking from nightly researcher system | research-outputs | 2026-04-09 |
 | [HN CadQuery Discussion](sources/2026-04-17-hn-cadquery.md) | 180-point HN thread — CadQuery Python parametric CAD, B-rep vs mesh, LLM codegen signals | hn-discussion | 2026-04-17 |
 | [Elements QGIS Flowline/DEM Deep Extraction](sources/elements-qgis-flowline-dem-deep-extraction.md) | First-pass extraction of Elements QGIS flowline alignment, UTM Zone 15N projection, DEM grid stats, and DXF entity counts | elements-deep-extraction | 2026-04-28 |
+| [Elements ingest catalog — digitalmodel-qgis](sources/elements-digitalmodel-qgis.md) | QGIS reusable engineering workflow/tooling data from the Elements drive | elements-ingest-catalog | 2026-04-28 |
+| [Elements ingest catalog — doris-university](sources/elements-doris-university.md) | Doris University training corpus from the Elements drive; metadata-first training/source catalog | elements-ingest-catalog | 2026-04-28 |
+| [Doris University Module 1.00 — Subsea Production Systems Overview](sources/doris-university-module-1-00-subsea-production-systems-overview.md) | Rows 1; metadata-first overview of SPS curriculum context | doris-training-source | 2026-04-29 |
+| [Doris University Module 1.01 — Production Control Systems](sources/doris-university-module-1-01-production-control-systems.md) | Rows 2-3; metadata-first pointer to control-system curriculum materials | doris-training-source | 2026-04-29 |
+| [Doris University Module 1.02 — Umbilical Systems](sources/doris-university-module-1-02-umbilical-systems.md) | Rows 4-6; metadata-first pointer to umbilical systems training materials | doris-training-source | 2026-04-29 |
+| [Doris University Module 1.03 — Installation/Workover Control](sources/doris-university-module-1-03-installation-workover-control.md) | Rows 7-8; metadata-first pointer to IWOCS training materials | doris-training-source | 2026-04-29 |
+| [Doris University Lunch and Learn — Control Systems](sources/doris-university-lunch-and-learn-control-systems.md) | Rows 13-14; metadata-first pointer to Doris-authored lunch-and-learn content | doris-training-source | 2026-04-29 |
+| [Doris University Lunch and Learn — Umbilical Systems](sources/doris-university-lunch-and-learn-umbilical-systems.md) | Rows 15-17; metadata-first pointer to umbilical lunch-and-learn content | doris-training-source | 2026-04-29 |
+| [Doris University syllabus snapshot](sources/doris-university-syllabus-snapshot.md) | Row 18; syllabus/taxonomy validation pointer | doris-training-source | 2026-04-29 |
 | [Claude for Financial Services — managed-agent reference patterns](sources/2026-05-09-anthropics-financial-services.md) | Anthropic FSI reference repo — managed-agent cookbooks, callable_agents preview, handoff_request control plane, dual Cowork+API deployment surface | external-repo | 2026-05-09 |
 
 ## Standards (8 pages)
@@ -150,16 +159,6 @@ source_count: 24
 
 _No query outputs filed yet._
 
-| [[Elements ingest catalog — digitalmodel-qgis]](sources/elements-digitalmodel-qgis.md) | QGIS reusable engineering workflow/tooling data from the Elements drive. | 2026-04-28 |
-| [[Elements ingest catalog — doris-university]](sources/elements-doris-university.md) | Doris University training corpus from the Elements drive; metadata-first training/source catalog. | 2026-04-28 |
-
-| [Doris University Module 1.00 — Subsea Production Systems Overview](sources/doris-university-module-1-00-subsea-production-systems-overview.md) | Rows 1; metadata-first overview of SPS curriculum context. | 2026-04-29 |
-| [Doris University Module 1.01 — Production Control Systems](sources/doris-university-module-1-01-production-control-systems.md) | Rows 2-3; metadata-first pointer to control-system curriculum materials. | 2026-04-29 |
-| [Doris University Module 1.02 — Umbilical Systems](sources/doris-university-module-1-02-umbilical-systems.md) | Rows 4-6; metadata-first pointer to umbilical systems training materials. | 2026-04-29 |
-| [Doris University Module 1.03 — Installation/Workover Control](sources/doris-university-module-1-03-installation-workover-control.md) | Rows 7-8; metadata-first pointer to IWOCS training materials. | 2026-04-29 |
-| [Doris University Lunch and Learn — Control Systems](sources/doris-university-lunch-and-learn-control-systems.md) | Rows 13-14; metadata-first pointer to Doris-authored lunch-and-learn content. | 2026-04-29 |
-| [Doris University Lunch and Learn — Umbilical Systems](sources/doris-university-lunch-and-learn-umbilical-systems.md) | Rows 15-17; metadata-first pointer to umbilical lunch-and-learn content. | 2026-04-29 |
-| [Doris University syllabus snapshot](sources/doris-university-syllabus-snapshot.md) | Row 18; syllabus/taxonomy validation pointer. | 2026-04-29 |
 | [Subsea production system overview](concepts/subsea-production-system-overview.md) | Connects Doris University SPS overview material to reusable subsea production system concepts. | 2026-04-29 |
 | [Subsea production control system](concepts/subsea-production-control-system.md) | Metadata-first synthesis hook for production control system curriculum. | 2026-04-29 |
 | [Subsea umbilical system](concepts/subsea-umbilical-system.md) | Metadata-first synthesis hook for umbilical system curriculum. | 2026-04-29 |
