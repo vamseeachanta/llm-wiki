@@ -2,7 +2,7 @@
 domain: maritime-law
 created: 2026-04-07 02:40 UTC
 last_updated: 2026-05-10
-page_count: 80
+page_count: 84
 source_count: 2
 ---
 
@@ -22,11 +22,14 @@ source_count: 2
 | [[The Eurymedon]](entities/eurymedon-1974.md) | 1974 | UK Privy Council (NZ appeal) | Himalaya clause enforcement; carrier exemption-and-limitation extends to stevedores via collateral contract; bridge from *Adler v Dickson* (1955) |
 | [[The Amoco Cadiz]](entities/amoco-cadiz-1978.md) | 1978 | Brittany, France | Corporate veil-piercing in US-venue litigation; founding driver of Paris MoU 1982 and Salvage Convention 1989 Art. 14 |
 | [[The Aegean Sea]](entities/aegean-sea-1992.md) | 1992 | La Coruña, Spain | Greek-flag single-hull tanker breakup (~74,000 t Brent crude); pre-Erika coastal-state-prosecution precedent; CLC 1969/1971 cap-shortfall driver of CLC 1992 / Fund 1992 entry into force |
+| [[Exxon Valdez]](entities/exxon-valdez-1989.md) | 1989 | Prince William Sound, Alaska | Legislative trigger for OPA 90; *Exxon Shipping Co. v. Baker* (2008) 1:1 maritime punitive-damages ratio; pre-OPA-90 single-hull tanker spill (~11M US gal); driver of MARPOL Annex I single-hull phase-out |
 | [[The Sea Empress]](entities/sea-empress-1996.md) | 1996 | Wales, UK | Port-authority strict liability under WRA 1991 s.85 (*R v MHPA* [2000]); CLC 1992 / IOPC Fund 1992 application |
 | [[M/V Saiga (No 1 and No 2)]](entities/m-v-saiga-cases-1997-1999.md) | 1997-1999 | ITLOS (Hamburg) — St Vincent v Guinea | Founding ITLOS jurisprudence; UNCLOS Article 292 prompt release (No 1, 1997) + Article 91 genuine link / Article 111 hot pursuit / EEZ enforcement limits (No 2, 1999) |
 | [[The Eurasian Dream]](entities/eurasian-dream-2002.md) | 2002 | UK LMAA / Comm Ct | Hague-Visby Article III seaworthiness extends to crew training on specialised tonnage; carrier identity in multi-tier charter chains |
 | [[MV Erika]](entities/mv-erika-1999.md) | 1999 | France (Cass. crim. 2012) | Charterer criminal liability for sub-standard vessel; recognition of *préjudice écologique*; driver of EU Erika III package and Paris MoU NIR |
 | [[MV Prestige]](entities/mv-prestige-2002.md) | 2002 | Spain (TS STS 865/2016) | Master criminal conviction; first major engagement of the Supplementary Fund 2003; place-of-refuge doctrine; UNCLOS Art. 91 genuine-link concerns |
+| [[Hebei Spirit]](entities/hebei-spirit-2007.md) | 2007 | South Korea (Daesan / Taean) | Hong Kong-flag VLCC anchored, struck by Samsung crane barge; ~10,800 t crude release; first major Supplementary Fund 2003 application; Korean Supreme Court master/officer non-criminal-responsibility ruling |
+| [[Costa Concordia]](entities/costa-concordia-2012.md) | 2012 | Isola del Giglio, Italy | Italian-flag cruise-ship grounding (32 deaths); master Schettino 16-year conviction; 2013 parbuckling (largest salvage operation by displacement); ISM/SMS-failure cascade benchmark; STCW 2010 Manila BTM reinforcement |
 | [[MSC Flaminia]](entities/msc-flaminia-2012.md) | 2012 | US SDNY / 2nd Cir. | Hague-Visby Article IV.6 strict shipper liability for misdeclared DVB; canonical post-2010 US authority paired with *Giannis NK* |
 | [[Deepwater Horizon]](entities/deepwater-horizon-2010.md) | 2010 | US GOM (E.D. La. MDL 2179) | OPA 90 §2704(c) cap-loss for gross negligence; first major post-*Exxon Valdez* application; ~$65B aggregate cost |
 | [[The Achilleas]](entities/achilleas-2008.md) | 2008 | UK House of Lords | Late-redelivery time-charter; *Hadley v Baxendale* second-limb consequential damages narrowed via assumption-of-responsibility filter (Lord Hoffmann) |
@@ -114,6 +117,7 @@ source_count: 2
 | [[Salvage Convention 1989 — Doctrinal Synthesis]](concepts/salvage-convention-1989.md) | IMO modernization of 1910 Brussels Salvage Convention; Article 14 "Special Compensation" environmental-protection innovation (post–Amoco Cadiz driver); LOF + SCOPIC industry framework; *The Nagasaki Spirit* (1997 UK HL) drove the SCOPIC 2000 contractual alternative; Article 14 fallback for non-SCOPIC engagements | 2026-05-09 |
 | [[York-Antwerp Rules — Doctrinal Synthesis]](concepts/york-antwerp-rules.md) | CMI-maintained private codification of general average; version-evolution 1890 / 1924 / 1950 / 1974 / 1994 / 2004 / 2016; charter-paramount-clause incorporation; salvage-treatment reversion 2004→2016; average-adjuster practice and contribution-bond mechanism | 2026-05-09 |
 | [[Nairobi WRC 2007 — Doctrinal Synthesis]](concepts/nairobi-wrc-2007.md) | Closes the IMO compensation-stack gap for post-incident wreck-removal cost-allocation; default EEZ scope (Article 1) with territorial-sea opt-in (Article 3(2)); compulsory insurance + Wreck Removal Certificate for ≥300 GT (Article 12); strict liability + LLMC interaction (Articles 10, 11); Costa Concordia ratification driver, Wakashio first major application | 2026-05-09 |
+| [[STCW 1978 (paired-slug resolver)]](concepts/stcw-1978.md) | Founding-year-slug paired-resolver pointing to canonical [[STCW Convention]](standards/stcw-convention.md); IMO seafarer training/certification/watchkeeping convention; substrate-fill (W251/V15 P1 iter-58). | 2026-05-10 |
 
 ## Sources
 

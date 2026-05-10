@@ -14,6 +14,9 @@ sources:
 domain: lng-projects
 extraction_policy: metadata-only
 raw_copy_allowed: false
+instrument_type: code
+public_url: https://www.imo.org/en/OurWork/Safety/Pages/IBC-Code.aspx
+publisher_catalog_url: https://www.imo.org/en/Publications/
 cross_links: []
 ---
 

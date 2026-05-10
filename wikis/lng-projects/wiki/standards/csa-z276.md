@@ -26,6 +26,8 @@ sources:
   - https://www.csagroup.org/store/product/CSA%20Z276:23/
 extraction_policy: metadata-only
 raw_copy_allowed: false
+instrument_type: specification
+publisher_catalog_url: https://www.csagroup.org/store/
 cross_links: []
 ---
 

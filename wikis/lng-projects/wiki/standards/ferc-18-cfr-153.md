@@ -13,6 +13,9 @@ sources:
 domain: lng-projects
 extraction_policy: metadata-only
 raw_copy_allowed: false
+instrument_type: regulation
+public_url: https://www.ecfr.gov/current/title-18/chapter-I/subchapter-E/part-153
+publisher_catalog_url: https://www.ecfr.gov/
 cross_links: []
 ---
 

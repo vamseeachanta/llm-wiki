@@ -26,6 +26,8 @@ sources:
   - https://www.nfpa.org/codes-and-standards/all-codes-and-standards/list-of-codes-and-standards/detail?code=59A
 extraction_policy: metadata-only
 raw_copy_allowed: false
+instrument_type: specification
+publisher_catalog_url: https://www.nfpa.org/codes-and-standards/all-codes-and-standards/list-of-codes-and-standards/
 cross_links: []
 ---
 

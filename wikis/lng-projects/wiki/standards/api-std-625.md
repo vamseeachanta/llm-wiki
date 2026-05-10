@@ -21,6 +21,8 @@ sources:
 domain: lng-projects
 extraction_policy: metadata-only
 raw_copy_allowed: false
+instrument_type: specification
+publisher_catalog_url: https://www.api.org/products-and-services/standards
 cross_links: []
 ---
 

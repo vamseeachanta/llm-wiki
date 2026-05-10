@@ -13,6 +13,8 @@ sources:
 domain: lng-projects
 extraction_policy: metadata-only
 raw_copy_allowed: false
+instrument_type: recommended-practice
+publisher_catalog_url: https://www.sigtto.org/publications/
 cross_links: []
 ---
 

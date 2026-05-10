@@ -2,7 +2,7 @@
 domain: engineering-standards
 created: 2026-04-28 19:24 UTC
 last_updated: 2026-05-10
-page_count: 215
+page_count: 216
 source_count: 19
 ---
 
@@ -235,6 +235,7 @@ _No query outputs filed yet._
 | [[ASTM G64]](standards/astm-g64.md) | Classification of Resistance to SCC of Heat-Treatable Aluminum Alloys — A/B/C/D ratings consuming G47 results; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
 | [[ASTM G78]](standards/astm-g78.md) | Crevice Corrosion of Iron- and Nickel-Base Stainless Alloys in Seawater — service-relevant complement to G48 FeCl3 screening; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
 | [[ASTM G85]](standards/astm-g85.md) | Modified Salt Spray (Fog) Testing — A1/A2/A3/A4/A5 annex family for accelerated chloride-fog coating qualification; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
+| [[ISO 9223]](standards/iso-9223.md) | Corrosivity of Atmospheres — C1/C2/C3/C4/C5/CX classification using TOW + Cl⁻ + SO2 deposition; anchor for ISO 12944 paint-system selection; substrate-fill resolver (W251/V15 P1 iter-58). | 2026-05-10 |
 | [[ASTM G123]](standards/astm-g123.md) | SCC of Stainless Alloys in Boiling Acidified NaCl — Ni-content-resistance ranking method; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
 | [[ASTM A923]](standards/astm-a923.md) | Detecting Detrimental Intermetallic Phase in Duplex Austenitic/Ferritic Stainless Steels — Method A NaOH etch + Method B Charpy + Method C FeCl3; substrate-fill resolver (W215 iter-46). | 2026-05-10 |
 | [[BS 7910]](standards/bs-7910.md) | Guide to Methods for Assessing the Acceptability of Flaws in Metallic Structures — canonical short-slug resolver paired with legacy_slug=bs-7910-flaw-assessment; 13-reference wikilink-residual fill (W221 iter-48). | 2026-05-10 |

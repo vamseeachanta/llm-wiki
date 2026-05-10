@@ -18,6 +18,8 @@ sources:
   - https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-193
 extraction_policy: metadata-only
 raw_copy_allowed: false
+instrument_type: regulation
+publisher_catalog_url: https://www.ecfr.gov/
 cross_links: []
 ---
 
