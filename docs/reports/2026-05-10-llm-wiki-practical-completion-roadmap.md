@@ -67,6 +67,18 @@ See the refreshed scorecard: [`docs/reports/llm-wiki-strengthening-scorecard.md`
 
 Excluded from public completion work: admin/tax/personal/recruiting/credential folders, client-sensitive project deliverables, raw HSE rows, private vendor PDFs, path-rich manifests, copied standards clauses/tables/formulas, and any workspace-hub private memory or strategy notes.
 
+## Data, Software, Results, and Issue Linkage
+
+The practical completion model is a four-layer map rather than a bulk ingest:
+
+| Layer | `/mnt/ace` representation | Public `llm-wiki` representation | Completion rule |
+|---|---|---|---|
+| Raw-data / Data-bank | `data`, `achantas-data`, `worldenergydata`, `kaggle-rogii-2026`, repo data fixtures | Dataset/source-family manifests, public dataset links, and reproducible summaries | Aggregate and cite; do not copy private dumps or row-level sensitive data. |
+| Software | `digitalmodel`, `assetutilities`, `worldenergydata`, `aceengineercode`, OSS tool folders such as `gmsh`, `MoorDyn`, `MoorPy`, `HAMS`, `WEC-Sim`, `openfast`, `opm-common` | Concept pages that link public repos, public docs, modules, and examples | Link implementation to concepts/results; avoid private project source drops. |
+| Results | `Results`-style outputs embedded across engineering/project/repo folders | Public-safe report links, generated dashboards, validation summaries, and scorecards | Promote only synthesized results that are reproducible, license-safe, and non-client-specific. |
+| GitHub issues | `github-issues` as live `gh issue` history, not copied raw notes | Roadmap, execution lanes, blocker/approval state, and evidence links | Historic issue work is the control plane; do not create duplicate umbrellas. |
+| Tier-1 repos | workspace-hub, digitalmodel, assetutilities, worldenergydata, llm-wiki, assethold, aceengineer-website, aceengineer-strategy | Cross-repo links from wiki domains to authoritative code/data/result artifacts | Use public URLs when possible; keep private GTM/prospect material out. |
+
 ## Historic Issue Portfolio Synthesis
 
 | Issue set | Link | Completion interpretation |
