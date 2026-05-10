@@ -42,7 +42,7 @@ The recommended practice covers reliability formulation of the fatigue-crack lim
 
 ## Comparison with API RP 580/581 and BS 7910 Annex N
 
-DNV-RP-C210 is the offshore-fatigue specialisation in a wider RBI ecosystem alongside the API process-equipment RBI codes [api-rp-580](api-rp-580.md) / [api-rp-581](api-rp-581.md) and the [[bs-7910]] Annex N probabilistic FAD route:
+DNV-RP-C210 is the offshore-fatigue specialisation in a wider RBI ecosystem alongside the API process-equipment RBI codes [api-rp-580](api-rp-580.md) / [api-rp-581](api-rp-581.md) and the [bs-7910](bs-7910.md) Annex N probabilistic FAD route:
 
 | Dimension | DNV-RP-C210 | API RP 580/581 | BS 7910 Annex N |
 |---|---|---|---|
@@ -53,7 +53,7 @@ DNV-RP-C210 is the offshore-fatigue specialisation in a wider RBI ecosystem alon
 | NDT calibration | Subsea-environment-aware (water-clarity, vessel access) | Onshore + topside refinery context | Generic |
 | Output | Risk-ranked inspection schedule per detail | Risk-ranked inspection schedule per equipment item | POF estimate per flaw |
 
-DNV-RP-C210 is purpose-built for fatigue-crack inspection planning on welded offshore steel structural details, which is a different scope from the multi-mechanism process-equipment RBI of API 580/581 and the generic flaw-assessment scope of BS 7910 Annex N. Practitioners running an integrated offshore platform integrity-management programme typically use DNV-RP-C210 for jacket/topside-structural-fatigue inspection planning, [api-rp-580](api-rp-580.md) / [api-rp-581](api-rp-581.md) for topside process-equipment inspection planning, and [[bs-7910]] for any specific FFS findings flagged during inspection.
+DNV-RP-C210 is purpose-built for fatigue-crack inspection planning on welded offshore steel structural details, which is a different scope from the multi-mechanism process-equipment RBI of API 580/581 and the generic flaw-assessment scope of BS 7910 Annex N. Practitioners running an integrated offshore platform integrity-management programme typically use DNV-RP-C210 for jacket/topside-structural-fatigue inspection planning, [api-rp-580](api-rp-580.md) / [api-rp-581](api-rp-581.md) for topside process-equipment inspection planning, and [bs-7910](bs-7910.md) for any specific FFS findings flagged during inspection.
 
 ## Edition history
 
@@ -91,12 +91,12 @@ The 2021-09 edition's section structure is the working surface for most calc mod
 - [dnv-os-c401](dnv-os-c401.md) — DNV offshore-structures fabrication-and-testing standard; the inspection-method specification and acceptance criteria DNV-RP-C210 plans against during construction.
 - [api-rp-2a-wsd](api-rp-2a-wsd.md) — API fixed-platform planning/design code; DNV-RP-C210 is the RBI complement on API-RP-2A-designed platforms.
 - [api-rp-580](api-rp-580.md) / [api-rp-581](api-rp-581.md) — API process-equipment RBI codes; complementary scope (process equipment vs. structural-fatigue).
-- [[bs-7910]] — UK fitness-for-service code; Annex N is the parallel UK reliability-based FAD route.
+- [bs-7910](bs-7910.md) — UK fitness-for-service code; Annex N is the parallel UK reliability-based FAD route.
 - [bs-7608](bs-7608.md) — UK fatigue-design code; complementary deterministic-fatigue substrate when offshore-onshore mixed projects span both jurisdictions.
 - [dnv-os-e301](dnv-os-e301.md) — DNV position-mooring code; mooring-line fatigue inspection planning per DNV-RP-C210 reliability framework.
 - [Fatigue Design and Assessment](../concepts/fatigue-design-and-assessment.md) — concept page on deterministic-fatigue substrate underlying DNV-RP-C210.
 - [Risk-Based Inspection (RBI)](../concepts/risk-based-inspection.md) — concept page on RBI methodology; DNV-RP-C210 is the offshore-fatigue specialisation.
-- [Fitness-for-Service (FFS)](../concepts/fitness-for-service.md) — concept page on FFS; DNV-RP-C210 inspection findings feed FFS evaluation per [[bs-7910]] / [api-579-1-asme-ffs-1](api-579-1-asme-ffs-1.md).
+- [Fitness-for-Service (FFS)](../concepts/fitness-for-service.md) — concept page on FFS; DNV-RP-C210 inspection findings feed FFS evaluation per [bs-7910](bs-7910.md) / [api-579-1-asme-ffs-1](api-579-1-asme-ffs-1.md).
 - [Calc citation contract](../../../../../.claude/rules/calc-citation-contract.md)
 
 ## Where to find the full text

@@ -275,7 +275,7 @@ distinguishes RBI from a one-time risk study.
   Mechanical Equipment.** Offshore-topsides RBI recommended practice
   from DNV; conceptually parallel to RP 580 with adaptations for
   offshore process equipment, weight-cost, and helideck-occupancy COF
-  considerations. See [[dnv-rp-g101]].
+  considerations. See [dnv-rp-g101](dnv-rp-g101.md).
 - **Risk-Based Inspection (concept).** [risk-based-inspection](../concepts/risk-based-inspection.md) —
   the concept page that names RP 580 as the qualitative methodology
   document and RP 581 as the quantitative implementation.

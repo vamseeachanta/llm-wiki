@@ -224,7 +224,7 @@ the damage factor unchanged.
   Parallel RBI methodology with broader equipment-class scope; an
   alternative to RP 581 in some operator and regulator regimes.
   Future first-class standards page candidate.
-- **[[dnv-rp-g101]]** — *Risk-Based Inspection of Offshore Topsides
+- **[dnv-rp-g101](dnv-rp-g101.md)** — *Risk-Based Inspection of Offshore Topsides
   Static Mechanical Equipment*. The offshore-topsides analogue;
   parallel methodology with offshore-specific consequence and
   inspection-access calibrations. Several flag-state regimes

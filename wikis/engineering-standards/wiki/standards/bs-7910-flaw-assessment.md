@@ -103,7 +103,7 @@ The 2013 edition's normative annex set is the working surface for most calc modu
 - [bs-7448](bs-7448.md) — UK companion fracture-mechanics toughness test methods (K<sub>Ic</sub>, CTOD, J, R-curves) feeding BS 7910 input data.
 - [bs-7608](bs-7608.md) — UK fatigue design and assessment of steel structures; BS 7910 Annex M references BS 7608 for S-N approaches and is cross-cited for fatigue endurance.
 - [dnv-rp-c210](dnv-rp-c210.md) — DNV recommended practice for probabilistic fatigue, complements BS 7910 Annex N for offshore structural reliability.
-- [[api-1104]] — pipeline girth-weld code; **Annex A** (Alternative Acceptance Standards for Girth Welds) is the ECA route for pipeline construction welds and is methodologically aligned with BS 7910 Level 2.
+- [api-1104](api-1104.md) — pipeline girth-weld code; **Annex A** (Alternative Acceptance Standards for Girth Welds) is the ECA route for pipeline construction welds and is methodologically aligned with BS 7910 Level 2.
 - **R6** — the UK nuclear-industry sibling code (EDF Energy / formerly British Energy / CEGB). BS 7910 and R6 share the FAD framework; R6 retains additional nuclear-specific provisions (constraint-modified FAD, secondary-stress treatment for thermal transients) and is typically cited in parallel for nuclear safety cases.
 
 ## Sources
