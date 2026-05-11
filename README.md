@@ -2,7 +2,7 @@
 
 Engineering knowledge wikis spun out from [`vamseeachanta/workspace-hub`](https://github.com/vamseeachanta/workspace-hub) on 2026-05-05.
 
-This repository is the **content storehouse** for the llm-wiki program — a multi-domain corpus extracted from public engineering standards, industry reports, and methodology references. The corpus extraction pipeline that feeds this repository remains in `workspace-hub` (orchestration tooling stays there; this repo holds the artifacts the pipeline produces).
+This repository is the **content storehouse** for the llm-wiki program — a multi-domain corpus extracted from publicly referenceable engineering sources, industry reports, and methodology references. The corpus extraction pipeline that feeds this repository remains in `workspace-hub` (orchestration tooling stays there; this repo holds the artifacts the pipeline produces).
 
 ## Layout
 
@@ -34,10 +34,10 @@ This repository uses **dual licensing**:
 
 | What | License | File |
 |------|---------|------|
-| Code/tooling (currently none — pipeline lives in workspace-hub) | MIT | [`LICENSE`](LICENSE) |
+| Repo-local scripts/tests/validators (supporting tooling; primary extraction pipeline remains in workspace-hub) | MIT | [`LICENSE`](LICENSE) |
 | Wiki content under `wikis/**/*.md` | CC-BY-4.0 | [`LICENSE-CONTENT`](LICENSE-CONTENT) |
 
-Wiki pages quote and synthesize publicly available engineering standards. Vendor-derivative PDFs (DNV, API, ABS, etc.) are explicitly **not** in this repository — they live in private `/mnt/ace` archives per the workspace-hub vendor-derivative deny-list (see `.claude/rules/calc-citation-contract.md` upstream).
+Wiki pages contain citation-safe metadata, brief summaries, and authored synthesis of publicly referenceable engineering standards and methodology sources. Vendor-derivative PDFs, copied clauses, copied tables, copied figures, and other standards text (DNV, API, ABS, etc.) are explicitly **not** in this repository — restricted source material lives in private `/mnt/ace` archives per the workspace-hub vendor-derivative deny-list (see `.claude/rules/calc-citation-contract.md` upstream).
 
 ## Provenance
 
@@ -50,4 +50,4 @@ Wiki pages quote and synthesize publicly available engineering standards. Vendor
 
 Wiki content additions follow the workspace-hub promotion contract (see `docs/governance/` once populated). Standards-derived constants must carry `code_id` frontmatter per the `#2471` schema.
 
-For now, the canonical authoring surface remains workspace-hub; long-term governance for direct contributions to this repo will be added in a follow-up.
+The canonical high-volume authoring and extraction surface remains workspace-hub. This repo now also contains public-safe supporting scripts, tests, scorecards, and governance validators for repo-local verification and completion tracking.
