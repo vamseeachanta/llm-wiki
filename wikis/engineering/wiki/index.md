@@ -167,3 +167,7 @@ _No query outputs filed yet._
 | [Umbilical tube sizing and API 17E citation boundary](concepts/umbilical-tube-sizing-api-17e.md) | Calculation concept placeholder linked to API 17E public metadata stub. | 2026-04-29 |
 | [Hydrostatic pressure with depth](concepts/hydrostatic-pressure-depth.md) | Calculation concept placeholder; no formula extraction in tranche 1. | 2026-04-29 |
 | [Subsea accumulator sizing](concepts/subsea-accumulator-sizing.md) | Calculation concept placeholder; API 17G/API 16D resolution deferred until public metadata verified. | 2026-04-29 |
+
+## Public data and software linkage
+
+- [Public Data and Software Links](public-data-software-links.md) — public provenance and utility-code anchors for engineering pages.

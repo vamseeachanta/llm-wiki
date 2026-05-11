@@ -67,3 +67,7 @@ _No entity pages yet._
 ## Comparisons
 
 _No query outputs filed yet._
+
+## Software and method linkage
+
+- [Software and Method Links](software-and-method-links.md) — public-safe asset lifecycle, risk, and method implementation anchors.

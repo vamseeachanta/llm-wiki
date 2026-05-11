@@ -14,7 +14,7 @@
 ## [2026-04-28] deep-extraction | Elements QGIS flowline/DEM corpus (#2536)
 - Pages created: `sources/elements-qgis-flowline-dem-deep-extraction.md`, `workflows/qgis-flowline-dem-preprocessing.md`.
 - Extraction artifacts: `.planning/intel/elements-deep-extraction/gis/dem-stats.json`, `gis/dxf-entity-summary.json`, `gis/qgis-files.json`.
-- Notes: Raw GIS/CAD files remain link-only in `/mnt/ace/digitalmodel/tools/qgis`; `.tif` suffix was found to contain ASCII-grid style DEM content.
+- Notes: Raw GIS/CAD files remain link-only under the private raw source root label; `.tif` suffix was found to contain ASCII-grid style DEM content.
 
 ## [2026-04-26] add | Canonical Spec Semantic Equivalence Contract + Fixture Expansion Cookbook (#2476)
 - Pages created:
@@ -101,7 +101,7 @@
 ## [2026-04-29] ingest | Doris University metadata-first tranche 1 (#2542)
 - Pages created: 7 source pointers and 8 curated concept shells.
 - Standards resolver: `engineering-standards/wiki/standards/api-17e.md` public-metadata-only stub.
-- Source of record: `/mnt/ace/doris/training`; no raw training decks, figures, full text, OCR output, or standards excerpts copied.
+- Source of record: private raw training corpus root label; no raw training decks, figures, full text, OCR output, or standards excerpts copied.
 ## [2026-05-06] ingest | Classification society entity backfill (#16)
 - Pages created: entities/dnv.md, entities/abs.md, entities/lr.md, entities/bv.md.
 - Pages updated: index.md.
@@ -113,3 +113,7 @@
 - Pages created: 1 — sources/2026-05-09-anthropics-financial-services.md
 - Pages updated: 2 — index.md (page_count 107→108, source_count 16→24 reconciled to ground-truth, last_updated 2026-05-06→2026-05-09, header pluralization 13→24, sources table row appended), log.md (this entry)
 - Notes: Source-only ingest. No raw PDFs, private paths, vendor standards text, project specifications, clauses, tables, formulas, or source archive content copied. Index counter drift (deflated phantoms at plan-draft time: frontmatter source_count 16, header "13 pages", actual 23 files) reconciled to write-time ground-truth as part of this edit. Concept page on managed-agent orchestration deferred per YAGNI.
+
+## [2026-05-11] update | Public data and software linkage
+- Pages updated: index.md, public-data-software-links.md
+- Notes: Added public-safe worldenergydata and assetutilities anchors for engineering pages; no raw/local datasets copied.

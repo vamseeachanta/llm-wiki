@@ -10,3 +10,7 @@
 - Titles (sample): Elements ingest catalog — assethold-casa
 - Pages created: wiki/sources/<slug>.md for each record
 - Index updated: wiki/index.md
+
+## [2026-05-11] update | Software and method linkage
+- Pages updated: index.md, software-and-method-links.md
+- Notes: Added public-safe assethold/worldenergydata/website method anchors; private holdings, account, and finance data remain excluded.

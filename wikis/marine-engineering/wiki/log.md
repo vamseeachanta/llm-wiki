@@ -16,13 +16,13 @@
 - Pages created: `concepts/stress-tendency-analysis.md`
 - Pages updated: `index.md` (concepts count 20→21).
 - Sources: primary literature — Morris et al. 1996 (Geology), Ferrill & Morris 2003 (J. Struct. Geol.), Anderson 1951 (Oliver & Boyd), Sibson 1985 (J. Struct. Geol.). No vendor-derivative content.
-- Provenance: promoted from `/mnt/ace/llm-wiki/docs/external-intel.md` (GeoSlipPro LinkedIn intel, 2026-05-07). First end-to-end exercise of the off-repo intel → published concept page promotion workflow per `project_llm_wiki_strategic_role` memory.
+- Provenance: promoted from private llm-wiki external-intel source material (GeoSlipPro LinkedIn intel, 2026-05-07). First end-to-end exercise of the off-repo intel → published concept page promotion workflow per `project_llm_wiki_strategic_role` memory.
 - Notes: Concept page covers slip tendency Tₛ=τ/σ_n, dilation tendency Tₐ=(σ₁-σ_n)/(σ₁-σ₃), Andersonian regime classification, and Sibson's frictional reactivation criterion. Citations are author+year+journal; no asserted page numbers (deferred to verified source-stub pages). Source-stub at `sources/deepwater-geomechanics-model.md` flagged as legacy seam.
 
 ## [2026-04-28] deep-extraction | Elements suction pile and riser toolbox corpora (#2536)
 - Pages created: `sources/elements-suction-pile-sizing-deep-extraction.md`, `concepts/suction-pile-preliminary-sizing-api-py-tz.md`, `sources/elements-riser-toolbox-deep-extraction.md`, `concepts/riser-extreme-statistics-orcaflex-workbooks.md`.
 - Extraction artifacts: `.planning/intel/elements-deep-extraction/extracted-text/`, `workbook-summary.json`, and `workbooks/*.json`.
-- Notes: Raw Elements files remain link-only in `/mnt/ace`; large Riser Toolbox workbooks were deferred to a separately scoped code-port/extraction pass.
+- Notes: Raw Elements files remain link-only under the private raw source root label; large Riser Toolbox workbooks were deferred to a separately scoped code-port/extraction pass.
 
 ## [2026-04-26] query | Offshore wind and O&G cross-section taxonomy
 - Processed: offshore wind array/export cable guide pages, Prysmian 66 kV cable PDF, SUT umbilicals PDF, Prysmian power/optical umbilical PDF, DNV-ST-F101 page, Vallourec coating page, Octal concrete weight coating page.
@@ -2305,3 +2305,7 @@
 - Pages created: wiki/sources/rotzer-2026-wave-shoaling-depth-dependent.md, wiki/concepts/wave-shoaling-and-depth-dependent-loading.md.
 - Pages updated: wiki/index.md (concepts header 19 -> 20 pages, new concept row, new sources row, page_count 19209 -> 19210, source_count 19166 -> 19167).
 - Notes: Public-synthesis/navigation backfill from a public LinkedIn post. Cross-links to existing engineering-standards/dnv-rp-c205, api-rp-2met, iso-19901-1 pages and engineering/wave-theory-offshore concept; cross-links inside marine-engineering to long-period-swell-resonance, lng-berth-operability, stability-in-waves. Concept page grounded with public references: USACE Coastal Engineering Manual EM 1110-2-1100 (US Army Corps, public domain); Wienke & Oumeraci 2005, Coastal Engineering 52(5):435-462, DOI 10.1016/j.coastaleng.2004.12.008; Dean & Dalrymple 1991, Water Wave Mechanics for Engineers and Scientists, World Scientific; Goda 2010, Random Seas and Design of Maritime Structures 3e, World Scientific; Battjes & Janssen 1978, Proc. 16th ICCE Hamburg. No raw PDFs, private paths, vendor standards text, project specifications, clauses, tables, formulas, or source archive content copied.
+
+## [2026-05-11] update | Code and results linkage
+- Pages updated: index.md, code-results-links.md
+- Notes: Added public-safe tier-1 implementation/result anchors for marine/offshore methods; no raw solver models or client results copied.

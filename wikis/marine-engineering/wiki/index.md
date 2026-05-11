@@ -21648,3 +21648,7 @@ source_count: 19167
 | [[SIGTTO Mooring at Single Point Moorings]](sources/sigtto-mooring-single-point-moorings.md) | SIGTTO guidance on mooring operations at single point moorings (SPMs) for gas carriers. Covers appro... | 2026-04-16 |
 | [[Elements ingest catalog — digitalmodel-suction-pile-sizing]](sources/elements-digitalmodel-suction-pile-sizing.md) | Suction pile sizing reference corpus from the Elements drive; small, high-value offshore foundation... | 2026-04-28 |
 | [[Elements ingest catalog — digitalmodel-riser-toolbox]](sources/elements-digitalmodel-riser-toolbox.md) | Riser Toolbox reference corpus from the Elements drive; small, high-value riser/offshore methodology... | 2026-04-28 |
+
+## Code and results linkage
+
+- [Code and Results Links](code-results-links.md) — public-safe tier-1 implementation and result anchors for marine/offshore methods.
