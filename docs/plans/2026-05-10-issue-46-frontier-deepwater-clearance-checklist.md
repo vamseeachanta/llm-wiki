@@ -3,7 +3,7 @@ title: "Issue #46 Plan — Frontier Deepwater clearance checklist"
 created: 2026-05-10
 last_updated: 2026-05-10
 issue: 46
-status: plan-review
+status: plan-approved
 public_safety: source-family metadata only; no raw private/vendor/client data
 ---
 
@@ -11,7 +11,7 @@ public_safety: source-family metadata only; no raw private/vendor/client data
 
 ## Decision
 
-Route this issue as a **planning/governance prerequisite**, not as raw extraction or wiki-promotion execution. The deliverable is a checked-in public-safe checklist/input-restoration plan plus parent-issue linkage. Implementation work remains blocked until explicit user approval moves the issue to `status:plan-approved`.
+Route this issue as a **planning/governance prerequisite**, not as raw extraction or wiki-promotion execution. The deliverable is a checked-in public-safe checklist/input-restoration plan plus parent-issue linkage. Implementation is approved by live GitHub `status:plan-approved` label verified on 2026-05-11; this issue may proceed only within the approved governance-artifact scope.
 
 ## Owned paths
 
