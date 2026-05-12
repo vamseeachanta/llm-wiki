@@ -1,9 +1,9 @@
 ---
 domain: naval-architecture
 created: 2026-04-07 10:35 UTC
-last_updated: 2026-05-07
-page_count: 72
-source_count: 44
+last_updated: 2026-05-12
+page_count: 74
+source_count: 45
 ---
 
 # Knowledge Index: Naval Architecture
@@ -15,6 +15,7 @@ source_count: 44
 | Page | Summary | Last Updated |
 |------|---------|-------------|
 | [Damage Stability](concepts/damage-stability.md) | SOLAS subdivision and probabilistic damage-stability concepts. | 2026-05-02 |
+| [Froude Number](concepts/froude-number.md) | Length / volumetric / depth Froude variants, displacement–planing regimes, and the Froude/Reynolds model-scale dilemma. | 2026-05-12 |
 | [Hull-Form Geometry](concepts/hull-form-geometry.md) | Lines plan, sectional-area curve, and hull-form coefficients. | 2026-05-02 |
 | [Intact Stability Criteria](concepts/intact-stability-criteria.md) | IMO IS Code criteria categories named without thresholds. | 2026-05-02 |
 | [Marine Propulsors](concepts/marine-propulsors.md) | FPP, CPP, podded, azimuth, waterjet, and other propulsor types. | 2026-05-02 |
@@ -54,6 +55,7 @@ source_count: 44
 | [Jane's Fighting Ships 2009–2010](sources/jane's-fighting-ships-2009–2010.md) | textbook | 198 MB | 2026-04-07 |
 | [Lloyd's Register Foundation Heritage & Education Centre](sources/lloyd's-register-foundation-heritage-&-education-centre.md) | online_portal | 0 MB | 2026-04-07 |
 | [Marine Hydrodynamics](sources/marine-hydrodynamics.md) | hydrostatics | 11 MB | 2026-04-07 |
+| [Miah (2026) — Froude Number Overview (LinkedIn)](sources/miah-2026-froude-number.md) | article | — | 2026-05-12 |
 | [National Archives — Ship Plans](sources/national-archives-—-ship-plans.md) | online_portal | 0 MB | 2026-04-07 |
 | [Offshore Hydromechanics](sources/offshore-hydromechanics.md) | hydrostatics | 12 MB | 2026-04-07 |
 | [PNA — GZ Curves](sources/pna-—-gz-curves.md) | hydrostatics | 1.8 MB | 2026-04-07 |
