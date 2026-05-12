@@ -1,9 +1,9 @@
 ---
 domain: marine-engineering
 created: 2026-04-07 02:15 UTC
-last_updated: 2026-05-07
-page_count: 19210
-source_count: 19167
+last_updated: 2026-05-12
+page_count: 19212
+source_count: 19168
 ---
 
 # Knowledge Index: Marine Engineering
@@ -40,7 +40,7 @@ source_count: 19167
 | [[Spar]](entities/spar.md) | Deep-draft floating offshore platform for deepwater production, risers, and station-keeping-sensitive operations | 2026-05-06 |
 | [[Tension-Leg Platform]](entities/tlp.md) | Floating offshore platform restrained by vertical tendons, with coupled tendon, hull, foundation, and riser response | 2026-05-06 |
 
-## Concepts (21 pages)
+## Concepts (22 pages)
 
 | Page | Summary | Last Updated |
 |------|---------|-------------|
@@ -65,6 +65,7 @@ source_count: 19167
 | [[Suction Pile Preliminary Sizing with API p-y/t-z Curves]](concepts/suction-pile-preliminary-sizing-api-py-tz.md) | Preliminary suction pile sizing pattern using API p-y/t-z curves, rigid-body rotation, and Newton iteration | 2026-04-28 |
 | [[Riser Extreme Statistics from OrcaFlex Workbooks]](concepts/riser-extreme-statistics-orcaflex-workbooks.md) | Legacy OrcaFlex workbook pattern for stress/tension envelope extraction and Weibull/Gumbel-style extreme statistics | 2026-04-28 |
 | [[Wave Shoaling and Depth-Dependent Loading]](concepts/wave-shoaling-and-depth-dependent-loading.md) | Shoaling kinematics, breaking-wave threshold, post-break impact-load regime change, and the Hs-threshold-not-transferable caveat for shallow water | 2026-05-07 |
+| [[Tug Working-End Fendering]](concepts/tug-working-end-fendering.md) | Working-end definition by tug type, freeboard-matching design driver across the assisted-vessel mix, hull-geometry effects, and the tug-stability cap on fender height | 2026-05-12 |
 
 ## Sources
 
@@ -78,6 +79,7 @@ source_count: 19167
 | [[Subsea Cable, Umbilical, and Pipeline Cross-Section Reconnaissance]](sources/offshore-cable-umbilical-cross-section-recon-2026-04-26.md) | First-pass external source synthesis for offshore wind cables, O&G umbilicals, rigid pipelines, and cross-section modeling gaps | Web/PDF recon | Web | 2026-04-26 |
 | [[Elements Suction Pile Sizing Deep Extraction]](sources/elements-suction-pile-sizing-deep-extraction.md) | First-pass extraction of Doris suction pile sizing PDF/workbooks and API p-y/t-z methodology | Elements deep extraction | Link-only | 2026-04-28 |
 | [[Elements Riser Toolbox Deep Extraction]](sources/elements-riser-toolbox-deep-extraction.md) | First-pass extraction of OrcaFlex riser statistics workbooks for stress/tension envelopes and extreme fitting | Elements deep extraction | Link-only | 2026-04-28 |
+| [[Lloyd's Maritime Institute (2026) — Tug Working-End Fender Height]](sources/lloyds-maritime-institute-2026-tug-fender-height-discussion.md) | LinkedIn training-derived discussion prompt on ideal fender height for a tug's working end across vessel-type mixes | LinkedIn post | Web | 2026-05-12 |
 | [[RB122]](sources/rb122-float-equipment.md) | Float Equipment (Halliburton) | Product Catalog | 691 KB | 2026-04-07 |
 | [[Rötzer (2026) — Wave Shoaling and 3 m Threshold Caveat]](sources/rotzer-2026-wave-shoaling-depth-dependent.md) | Practitioner essay on why a single Hs operational threshold doesn't transfer across water depths — shoaling, breaking, depth-dependent loading | LinkedIn article | Web | 2026-05-07 |
 | [[Morris, Ferrill, Henderson (1996) — Slip-Tendency Analysis]](sources/morris-ferrill-henderson-1996-slip-tendency.md) | Foundational paper introducing slip tendency Tₛ = τ/σ_n as a quantitative fault-reactivation indicator (Geology 24:3) | Journal article | Web (DOI) | 2026-05-07 |
