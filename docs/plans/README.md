@@ -10,6 +10,8 @@ Public-safety default: plans may reference source-family names and aggregate met
 
 | Issue | Plan | Status | Deliverable |
 | --- | --- | --- | --- |
+| [`#28`](https://github.com/vamseeachanta/llm-wiki/issues/28) | [`2026-05-11-issue-28-marine-index-chunking.md`](2026-05-11-issue-28-marine-index-chunking.md) | `plan-review` | Marine-engineering canonical index chunking/pagination plan |
+| [`#29`](https://github.com/vamseeachanta/llm-wiki/issues/29) | [`2026-05-11-issue-29-source-title-aliasing.md`](2026-05-11-issue-29-source-title-aliasing.md) | `plan-review` | Canonical source-title aliasing plan for marine source pages |
 | [`#43`](https://github.com/vamseeachanta/llm-wiki/issues/43) | [`2026-05-10-issue-43-sesa-extraction-clearance-checklist.md`](2026-05-10-issue-43-sesa-extraction-clearance-checklist.md) | `plan-approved` | SESA extraction clearance checklist governance artifact |
 | [`#44`](https://github.com/vamseeachanta/llm-wiki/issues/44) | [`2026-05-10-issue-44-bsee-source-family-clearance-checklist.md`](2026-05-10-issue-44-bsee-source-family-clearance-checklist.md) | `plan-approved` | BSEE source-family clearance checklist governance artifact |
 | [`#45`](https://github.com/vamseeachanta/llm-wiki/issues/45) | [`2026-05-10-issue-45-hse-dataset-clearance-checklist.md`](2026-05-10-issue-45-hse-dataset-clearance-checklist.md) | `plan-approved` | HSE dataset source-family clearance checklist governance artifact |
@@ -19,6 +21,8 @@ Public-safety default: plans may reference source-family names and aggregate met
 
 ## Review evidence
 
+- [`docs/reports/codex/2026-05-11-issue-28-index-chunking-intel.md`](../reports/codex/2026-05-11-issue-28-index-chunking-intel.md) — Codex resource-intelligence scout for issue #28; identified actual paths, parser/counting risks, and TDD surface.
+- [`docs/reports/codex/2026-05-11-issue-29-source-title-aliasing-intel.md`](../reports/codex/2026-05-11-issue-29-source-title-aliasing-intel.md) — Codex resource-intelligence scout for issue #29; identified deterministic metadata limits, ambiguity policy, and safety risks.
 - [`scripts/review/results/2026-05-10-plan-issues-43-48-codex-round1.md`](../../scripts/review/results/2026-05-10-plan-issues-43-48-codex-round1.md) — MAJOR; initial blocker findings.
 - [`scripts/review/results/2026-05-10-plan-issues-43-48-codex-round2.md`](../../scripts/review/results/2026-05-10-plan-issues-43-48-codex-round2.md) — MAJOR; validation-command refinement needed.
 - [`scripts/review/results/2026-05-10-plan-issues-43-48-codex-round3.md`](../../scripts/review/results/2026-05-10-plan-issues-43-48-codex-round3.md) — MAJOR; exact touched-path placeholders remained.
