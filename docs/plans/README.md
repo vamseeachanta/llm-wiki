@@ -10,8 +10,8 @@ Public-safety default: plans may reference source-family names and aggregate met
 
 | Issue | Plan | Status | Deliverable |
 | --- | --- | --- | --- |
-| [`#28`](https://github.com/vamseeachanta/llm-wiki/issues/28) | [`2026-05-11-issue-28-marine-index-chunking.md`](2026-05-11-issue-28-marine-index-chunking.md) | `plan-review` | Marine-engineering canonical index chunking/pagination plan |
-| [`#29`](https://github.com/vamseeachanta/llm-wiki/issues/29) | [`2026-05-11-issue-29-source-title-aliasing.md`](2026-05-11-issue-29-source-title-aliasing.md) | `plan-review` | Canonical source-title aliasing plan for marine source pages |
+| [`#28`](https://github.com/vamseeachanta/llm-wiki/issues/28) | [`2026-05-11-issue-28-marine-index-chunking.md`](2026-05-11-issue-28-marine-index-chunking.md) | `plan-approved` | Marine-engineering canonical index chunking/pagination plan |
+| [`#29`](https://github.com/vamseeachanta/llm-wiki/issues/29) | [`2026-05-11-issue-29-source-title-aliasing.md`](2026-05-11-issue-29-source-title-aliasing.md) | `plan-approved` | Canonical source-title aliasing plan for marine source pages |
 | [`#43`](https://github.com/vamseeachanta/llm-wiki/issues/43) | [`2026-05-10-issue-43-sesa-extraction-clearance-checklist.md`](2026-05-10-issue-43-sesa-extraction-clearance-checklist.md) | `plan-approved` | SESA extraction clearance checklist governance artifact |
 | [`#44`](https://github.com/vamseeachanta/llm-wiki/issues/44) | [`2026-05-10-issue-44-bsee-source-family-clearance-checklist.md`](2026-05-10-issue-44-bsee-source-family-clearance-checklist.md) | `plan-approved` | BSEE source-family clearance checklist governance artifact |
 | [`#45`](https://github.com/vamseeachanta/llm-wiki/issues/45) | [`2026-05-10-issue-45-hse-dataset-clearance-checklist.md`](2026-05-10-issue-45-hse-dataset-clearance-checklist.md) | `plan-approved` | HSE dataset source-family clearance checklist governance artifact |

@@ -1,7 +1,7 @@
 ---
 title: "Issue #28 plan — Marine engineering canonical index chunking"
 issue: 28
-status: plan-review
+status: plan-approved
 created: 2026-05-11
 last_updated: 2026-05-11
 public_safety: repo-local generated navigation only; no raw archive ingestion
@@ -12,8 +12,8 @@ public_safety: repo-local generated navigation only; no raw archive ingestion
 ## Gate status
 
 - GitHub issue: [vamseeachanta/llm-wiki#28](https://github.com/vamseeachanta/llm-wiki/issues/28)
-- Current local plan state: `status:plan-review`
-- Implementation status: **blocked until explicit user approval and `status:plan-approved`**
+- Current local plan state: `status:plan-approved`
+- Implementation status: **approved for future implementation; not implemented in this exit-closeout pass**
 - Scope class: repo-local markdown/script/test work; no raw private-archive ingestion or private content promotion.
 
 ## Resource intelligence

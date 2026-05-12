@@ -1,7 +1,7 @@
 ---
 title: "Issue #29 plan — Canonical source-title aliasing for wiki source pages"
 issue: 29
-status: plan-review
+status: plan-approved
 created: 2026-05-11
 last_updated: 2026-05-11
 public_safety: committed-source-page metadata only; no raw archive extraction
@@ -12,8 +12,8 @@ public_safety: committed-source-page metadata only; no raw archive extraction
 ## Gate status
 
 - GitHub issue: [vamseeachanta/llm-wiki#29](https://github.com/vamseeachanta/llm-wiki/issues/29)
-- Current local plan state: `status:plan-review`
-- Implementation status: **blocked until explicit user approval and `status:plan-approved`**
+- Current local plan state: `status:plan-approved`
+- Implementation status: **approved for future implementation; not implemented in this exit-closeout pass**
 - Scope class: metadata normalization/searchability work over already committed wiki source pages.
 
 ## Resource intelligence
