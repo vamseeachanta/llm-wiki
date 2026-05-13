@@ -1,9 +1,9 @@
 ---
 domain: naval-architecture
 created: 2026-04-07 10:35 UTC
-last_updated: 2026-05-12
-page_count: 74
-source_count: 45
+last_updated: 2026-05-13
+page_count: 75
+source_count: 46
 ---
 
 # Knowledge Index: Naval Architecture
@@ -57,6 +57,7 @@ source_count: 45
 | [Marine Hydrodynamics](sources/marine-hydrodynamics.md) | hydrostatics | 11 MB | 2026-04-07 |
 | [Miah (2026) — Froude Number Overview (LinkedIn)](sources/miah-2026-froude-number.md) | article | — | 2026-05-12 |
 | [National Archives — Ship Plans](sources/national-archives-—-ship-plans.md) | online_portal | 0 MB | 2026-04-07 |
+| [Observer Voice (2026) — Stability Beneath the Surface (LinkedIn)](sources/observer-voice-2026-stability-beneath-surface.md) | article | — | 2026-05-13 |
 | [Offshore Hydromechanics](sources/offshore-hydromechanics.md) | hydrostatics | 12 MB | 2026-04-07 |
 | [PNA — GZ Curves](sources/pna-—-gz-curves.md) | hydrostatics | 1.8 MB | 2026-04-07 |
 | [Practical Ship Hydrodynamics](sources/practical-ship-hydrodynamics.md) | hydrostatics | 2.2 MB | 2026-04-07 |
