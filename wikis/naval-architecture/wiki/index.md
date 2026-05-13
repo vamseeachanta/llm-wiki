@@ -2,8 +2,8 @@
 domain: naval-architecture
 created: 2026-04-07 10:35 UTC
 last_updated: 2026-05-13
-page_count: 75
-source_count: 46
+page_count: 77
+source_count: 47
 ---
 
 # Knowledge Index: Naval Architecture
@@ -14,6 +14,7 @@ source_count: 46
 
 | Page | Summary | Last Updated |
 |------|---------|-------------|
+| [Controllable-Pitch Propellers](concepts/controllable-pitch-propellers.md) | CPP hub mechanism, hub-sealing failure modes, combinator vs constant-RPM control philosophy. | 2026-05-13 |
 | [Damage Stability](concepts/damage-stability.md) | SOLAS subdivision and probabilistic damage-stability concepts. | 2026-05-02 |
 | [Froude Number](concepts/froude-number.md) | Length / volumetric / depth Froude variants, displacement–planing regimes, and the Froude/Reynolds model-scale dilemma. | 2026-05-12 |
 | [Hull-Form Geometry](concepts/hull-form-geometry.md) | Lines plan, sectional-area curve, and hull-form coefficients. | 2026-05-02 |
@@ -53,6 +54,7 @@ source_count: 46
 | [Internet Archive — Naval Architecture Collection](sources/internet-archive-—-naval-architecture-collection.md) | online_portal | 0 MB | 2026-04-07 |
 | [Introduction to Naval Architecture](sources/introduction-to-naval-architecture.md) | textbook | 5.7 MB | 2026-04-07 |
 | [Jane's Fighting Ships 2009–2010](sources/jane's-fighting-ships-2009–2010.md) | textbook | 198 MB | 2026-04-07 |
+| [Lloyd's Maritime Institute (2026) — CPP and Hub Sealing (LinkedIn)](sources/lloyds-maritime-institute-2026-cpp-hub-sealing.md) | article | — | 2026-05-13 |
 | [Lloyd's Register Foundation Heritage & Education Centre](sources/lloyd's-register-foundation-heritage-&-education-centre.md) | online_portal | 0 MB | 2026-04-07 |
 | [Marine Hydrodynamics](sources/marine-hydrodynamics.md) | hydrostatics | 11 MB | 2026-04-07 |
 | [Miah (2026) — Froude Number Overview (LinkedIn)](sources/miah-2026-froude-number.md) | article | — | 2026-05-12 |

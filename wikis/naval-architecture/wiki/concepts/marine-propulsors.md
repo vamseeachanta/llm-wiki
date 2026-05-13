@@ -37,4 +37,5 @@ This page catalogues the principal propulsor types installed on commercial and n
 ## Cross-References
 
 - [Propeller Theory](propeller-theory.md) — open-water performance of an isolated propeller.
+- [Controllable-Pitch Propellers](controllable-pitch-propellers.md) — CPP hub mechanism, hub-sealing failure modes, combinator vs constant-RPM control philosophy.
 - [Ship Resistance and Propulsion](resistance-propulsion.md) — parent router page.
