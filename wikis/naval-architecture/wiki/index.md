@@ -2,8 +2,8 @@
 domain: naval-architecture
 created: 2026-04-07 10:35 UTC
 last_updated: 2026-05-13
-page_count: 77
-source_count: 47
+page_count: 78
+source_count: 48
 ---
 
 # Knowledge Index: Naval Architecture
@@ -48,6 +48,7 @@ source_count: 47
 | [DNV-RP-C205 Environmental Conditions and Environmental Loads](sources/dnv-rp-c205-environmental-conditions-and-environmental-loads.md) | additional_resource | 2.9 MB | 2026-04-07 |
 | [DNV-RP-H103 Modelling and Analysis of Marine Operations](sources/dnv-rp-h103-modelling-and-analysis-of-marine-operations.md) | additional_resource | 2.4 MB | 2026-04-07 |
 | [Engineering Mathematics for Ship Design](sources/engineering-mathematics-for-ship-design.md) | textbook | 20 MB | 2026-04-07 |
+| [Fink (2026) — Cruise-Ship Stability Myths (LinkedIn)](sources/fink-2026-cruise-ship-stability-myths.md) | article | — | 2026-05-13 |
 | [Fluid-Dynamic Drag](sources/fluid-dynamic-drag.md) | hydrostatics | 22 MB | 2026-04-07 |
 | [Handbook of Offshore Engineering](sources/handbook-of-offshore-engineering.md) | hydrostatics | 36 MB | 2026-04-07 |
 | [Hybrid Ship Hulls — Engineering Design](sources/hybrid-ship-hulls-—-engineering-design.md) | textbook | 6.7 MB | 2026-04-07 |
