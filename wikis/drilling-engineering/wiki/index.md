@@ -2,7 +2,7 @@
 domain: drilling-engineering
 created: 2026-05-13
 last_updated: 2026-05-13
-page_count: 1
+page_count: 7
 source_count: 1
 ---
 
@@ -23,17 +23,19 @@ This wiki covers **drilling engineering and well construction** — rig technica
 
 ## Concepts
 
-*No entries yet. Planned: rig-class concept pages (jackup, semi, drillship, platform rig, land rig), well plan, AFE, offset-well analysis, tender evaluation methodology, IADC DDR format, BHA, casing program design.*
-
 | Page | Summary | Last Updated |
 |------|---------|-------------|
+| [Casing Grades and PSL](concepts/casing-grades-and-psl.md) | API grade families (H40 through Q125) and Product Specification Level framework. | 2026-05-13 |
+| [Casing Program Design](concepts/casing-program-design.md) | Four design loads (collapse, burst, tension, triaxial), Lubinski biaxial reduction, design-factor framework, string-selection workflow. | 2026-05-13 |
+| [Casing Shoe Track](concepts/casing-shoe-track.md) | Shoe, float collar, centralizers, FIT/LOT at new shoe to establish next-section formation strength. | 2026-05-13 |
 
 ## Standards
 
-*No entries yet. Planned: API Spec 4F (drilling structures), API Spec 7K (drilling equipment), API Spec 8C (hoisting equipment), IADC Drilling Manual.*
-
 | Page | Summary | Last Updated |
 |------|---------|-------------|
+| [API RP 5C1 — Care and Use of Casing and Tubing](standards/api-rp-5c1.md) | Field handling, transportation, storage, makeup, running-procedure practice. | 2026-05-13 |
+| [API RP 5C5 — Connection Evaluation](standards/api-rp-5c5.md) | Qualification-test program for tubular connections; Connection Application Levels (CAL I-IV). | 2026-05-13 |
+| [API Spec 5CT — Specification for Casing and Tubing](standards/api-spec-5ct.md) | Steel-pipe technical-delivery conditions; PSL-1/2/3 framework; identical adoption of ISO 11960. | 2026-05-13 |
 
 ## Sources
 
