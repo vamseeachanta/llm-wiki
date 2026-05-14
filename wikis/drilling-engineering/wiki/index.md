@@ -2,7 +2,7 @@
 domain: drilling-engineering
 created: 2026-05-13
 last_updated: 2026-05-13
-page_count: 74
+page_count: 82
 source_count: 1
 ---
 
@@ -37,6 +37,11 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Cement Evaluation](concepts/cement-evaluation.md) | CBL / VDL / segmented bond tools / ultrasonic cement scanners; pressure-test verification. | 2026-05-13 |
 | [Cement Job Execution](concepts/cement-job-execution.md) | Surface cementing-unit, batch vs continuous mixing, pumping schedule, bottom and top plugs. | 2026-05-13 |
 | [Cement Slurry Design](concepts/cement-slurry-design.md) | Density / thickening time / compressive strength / fluid loss / free water; retarders, accelerators, gas-migration additives. | 2026-05-13 |
+| [Coiled Tubing Overview](concepts/coiled-tubing-overview.md) | CT unit anatomy (reel, injector, stripper, CT BOP); applications; fatigue management. | 2026-05-13 |
+| [Formation Evaluation Basics](concepts/formation-evaluation-basics.md) | GR, resistivity, density, neutron, sonic, caliper; Archie equation; net-pay interpretation workflow. | 2026-05-13 |
+| [MWD / LWD Overview](concepts/mwd-lwd-overview.md) | Measurement / logging while drilling; mud-pulse telemetry; real-time vs memory; AI tender-evaluation downstream consumer. | 2026-05-13 |
+| [Well Intervention Methods](concepts/well-intervention-methods.md) | CT vs wireline vs snubbing vs hydraulic workover unit; selection matrix and bid-evaluation context. | 2026-05-13 |
+| [Wireline Overview](concepts/wireline-overview.md) | Slickline mechanical vs e-line electric; cased-hole vs open-hole; standard log inventory. | 2026-05-13 |
 | [API 11AX Pump Designation](concepts/api-11ax-pump-designation.md) | 12-character pump-designation code; insert vs tubing pump; worked examples. | 2026-05-13 |
 | [API 11L Design Charts](concepts/api-11l-design-charts.md) | Three nondimensional groups (Sp/S, Wrf/Skr, Fo/Skr) predicting plunger stroke, PPRL, MPRL, peak torque, surface HP. | 2026-05-13 |
 | [Artificial-Lift Method Selection](concepts/artificial-lift-method-selection.md) | Comparison across rod pump, ESP, gas lift, PCP, plunger lift; selection drivers and rate/depth envelope. | 2026-05-13 |
@@ -87,6 +92,8 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [API RP 13B-1 — Field Testing of Water-Based Drilling Fluids](standards/api-rp-13b-1.md) | Mud-weight, viscosity, rheometer, gel strengths, API filter press, pH for WBMs. | 2026-05-13 |
 | [API RP 13B-2 — Field Testing of Oil-Based Drilling Fluids](standards/api-rp-13b-2.md) | HTHP filtrate, electrical stability, water content, oil-water ratio for OBMs and SBMs. | 2026-05-13 |
 | [API RP 53 — BOP Equipment Systems](standards/api-rp-53.md) | Integrated BOP-system reference; stack arrangement, choke/kill geometry, testing and maintenance. | 2026-05-13 |
+| [API RP 5C7 — Coiled Tubing Operations](standards/api-rp-5c7.md) | CT deployment operational practice; injector head, BOP, stripper, fatigue management. | 2026-05-13 |
+| [API RP 7L — Drilling Equipment Inspection / Maintenance / Remanufacture](standards/api-rp-7l.md) | Operational-life management of Spec 7K / Spec 7-1 equipment plus wireline / slickline equipment inspection. | 2026-05-13 |
 | [API Spec 4F — Drilling and Well Servicing Structures](standards/api-spec-4f.md) | Derricks, masts, substructures, crown-block assemblies; SSL framework; AISC update; 5e+Add 1 (2023). | 2026-05-13 |
 | [API Spec 10A — Well Cements](standards/api-spec-10a.md) | Classes A through H + special-purpose blends; identical adoption of ISO 10426-1. | 2026-05-13 |
 | [API Spec 11AX — Subsurface Sucker Rod Pump Assemblies](standards/api-spec-11ax.md) | Insert and tubing pumps; 12-character pump-designation code; 13e May 2015 + Add 1 (2019) + Err 1 (2023). | 2026-05-13 |
@@ -96,6 +103,7 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [API Spec 16D — BOP Control Systems](standards/api-spec-16d.md) | Hydraulic control systems for BOP stacks; accumulator sizing; response-time requirements. | 2026-05-13 |
 | [API Spec 5CT — Specification for Casing and Tubing](standards/api-spec-5ct.md) | Steel-pipe technical-delivery conditions; PSL-1/2/3 framework; identical adoption of ISO 11960. | 2026-05-13 |
 | [API Spec 5DP — Specification for Drill Pipe](standards/api-spec-5dp.md) | Steel drill pipe; identical adoption of ISO 11961; 2e May 2020 + addenda through 2025. | 2026-05-13 |
+| [API Spec 5ST — Coiled Tubing](standards/api-spec-5st.md) | CT material specification; grades CT-70 through CT-130; companion to RP 5C7. | 2026-05-13 |
 | [API Spec 7-1 — Rotary Drill Stem Elements](standards/api-spec-7-1.md) | Drill collars, HWDP, kellys, subs, stabilizers, reamers, bit-shank connections. | 2026-05-13 |
 | [API Spec 7K — Drilling and Well Servicing Equipment](standards/api-spec-7k.md) | Mud pumps, swivels, rotary tables, top drives, tongs, elevators, slips, links. | 2026-05-13 |
 | [API Spec 8C — Drilling and Production Hoisting Equipment](standards/api-spec-8c.md) | Drawworks, crown blocks, traveling blocks, hooks, deadline anchors; PSL-1/2. | 2026-05-13 |
