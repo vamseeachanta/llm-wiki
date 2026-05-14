@@ -33,6 +33,10 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Casing Grades and PSL](concepts/casing-grades-and-psl.md) | API grade families (H40 through Q125) and Product Specification Level framework. | 2026-05-13 |
 | [Casing Program Design](concepts/casing-program-design.md) | Four design loads (collapse, burst, tension, triaxial), Lubinski biaxial reduction, design-factor framework, string-selection workflow. | 2026-05-13 |
 | [Casing Shoe Track](concepts/casing-shoe-track.md) | Shoe, float collar, centralizers, FIT/LOT at new shoe to establish next-section formation strength. | 2026-05-13 |
+| [Cement Classes](concepts/cement-classes.md) | API classes A through H + pozzolan / fly-ash / silica-flour blends; compressive-strength retrogression above 230 °F. | 2026-05-13 |
+| [Cement Evaluation](concepts/cement-evaluation.md) | CBL / VDL / segmented bond tools / ultrasonic cement scanners; pressure-test verification. | 2026-05-13 |
+| [Cement Job Execution](concepts/cement-job-execution.md) | Surface cementing-unit, batch vs continuous mixing, pumping schedule, bottom and top plugs. | 2026-05-13 |
+| [Cement Slurry Design](concepts/cement-slurry-design.md) | Density / thickening time / compressive strength / fluid loss / free water; retarders, accelerators, gas-migration additives. | 2026-05-13 |
 | [API 11AX Pump Designation](concepts/api-11ax-pump-designation.md) | 12-character pump-designation code; insert vs tubing pump; worked examples. | 2026-05-13 |
 | [API 11L Design Charts](concepts/api-11l-design-charts.md) | Three nondimensional groups (Sp/S, Wrf/Skr, Fo/Skr) predicting plunger stroke, PPRL, MPRL, peak torque, surface HP. | 2026-05-13 |
 | [Artificial-Lift Method Selection](concepts/artificial-lift-method-selection.md) | Comparison across rod pump, ESP, gas lift, PCP, plunger lift; selection drivers and rate/depth envelope. | 2026-05-13 |
