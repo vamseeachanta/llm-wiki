@@ -2,7 +2,7 @@
 domain: drilling-engineering
 created: 2026-05-13
 last_updated: 2026-05-13
-page_count: 40
+page_count: 49
 source_count: 1
 ---
 
@@ -33,6 +33,9 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Casing Grades and PSL](concepts/casing-grades-and-psl.md) | API grade families (H40 through Q125) and Product Specification Level framework. | 2026-05-13 |
 | [Casing Program Design](concepts/casing-program-design.md) | Four design loads (collapse, burst, tension, triaxial), Lubinski biaxial reduction, design-factor framework, string-selection workflow. | 2026-05-13 |
 | [Casing Shoe Track](concepts/casing-shoe-track.md) | Shoe, float collar, centralizers, FIT/LOT at new shoe to establish next-section formation strength. | 2026-05-13 |
+| [API 11AX Pump Designation](concepts/api-11ax-pump-designation.md) | 12-character pump-designation code; insert vs tubing pump; worked examples. | 2026-05-13 |
+| [API 11L Design Charts](concepts/api-11l-design-charts.md) | Three nondimensional groups (Sp/S, Wrf/Skr, Fo/Skr) predicting plunger stroke, PPRL, MPRL, peak torque, surface HP. | 2026-05-13 |
+| [Artificial-Lift Method Selection](concepts/artificial-lift-method-selection.md) | Comparison across rod pump, ESP, gas lift, PCP, plunger lift; selection drivers and rate/depth envelope. | 2026-05-13 |
 | [Bit Hydraulics](concepts/bit-hydraulics.md) | Jet velocity, HSI, nozzle sizing, pump-pressure constraint, optimization for cleaning and ROP. | 2026-05-13 |
 | [Bit Selection](concepts/bit-selection.md) | Offset-bit-record analysis, formation hardness, cost-per-foot, AI-tender-evaluation downstream consumer. | 2026-05-13 |
 | [Drill-Bit Types](concepts/drill-bit-types.md) | Roller-cone (tricone), PDC, natural-diamond, hybrid, bicenter; selection drivers. | 2026-05-13 |
@@ -47,8 +50,11 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Land Rig](concepts/land-rig.md) | Onshore truck / trailer / pad-mounted rigs; modern walking pad-rigs (FlexRig archetype) for unconventional drilling. | 2026-05-13 |
 | [MODU — Mobile Offshore Drilling Unit](concepts/modu.md) | Class-society and IMO umbrella for offshore-mobile drilling rigs (jackup, semi, drillship); excludes platform and land rigs. | 2026-05-13 |
 | [Platform Rig](concepts/platform-rig.md) | Drilling rig installed on a fixed offshore production platform (jacket, GBS, compliant tower, spar, TLP). | 2026-05-13 |
+| [Pump Cards and Dynamometer](concepts/pump-cards-and-dynamometer.md) | Surface vs downhole card; gas interference, fluid pound, gas lock, parted rods signatures. | 2026-05-13 |
 | [Rig Classes Overview](concepts/rig-classes-overview.md) | Taxonomy router across the 5 primary rig classes plus the MODU collective; selection-driver framework. | 2026-05-13 |
 | [Semi-Submersible Rig](concepts/semi-submersible-rig.md) | Column-stabilized floater; pontoon-and-column geometry; Gen 1-7+ build-year taxonomy; moored or DP station-keeping. | 2026-05-13 |
+| [Sucker-Rod Pumping Overview](concepts/sucker-rod-pumping-overview.md) | System anatomy (surface unit, polished rod, rod string, downhole pump); operating cycle; dominant US artificial-lift method. | 2026-05-13 |
+| [Sucker Rods and Tapered Strings](concepts/sucker-rods-and-tapered-strings.md) | API 11B rod grades (C, D, K, KD); tapered-string design rationale; standard taper combinations. | 2026-05-13 |
 | [Tool Joints](concepts/tool-joints.md) | NC / IF / FH / SH connection families; makeup torque; proprietary double-shoulder connections. | 2026-05-13 |
 
 ## Standards
@@ -59,7 +65,10 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [API RP 5C5 — Connection Evaluation](standards/api-rp-5c5.md) | Qualification-test program for tubular connections; Connection Application Levels (CAL I-IV). | 2026-05-13 |
 | [API RP 7G — Drill Stem Design and Operating Limits](standards/api-rp-7g.md) | Canonical drill-stem design-limits reference; makeup-torque tables; combined-load envelope. | 2026-05-13 |
 | [API RP 7G-2 — Used Drill Stem Inspection](standards/api-rp-7g-2.md) | Inspection procedure and wear-class assignment for used drill pipe. | 2026-05-13 |
+| [API RP 11L — Design Calculations for Sucker Rod Pumping Systems](standards/api-rp-11l.md) | Conventional-unit design charts; predicts plunger stroke, PPRL, MPRL, peak torque, surface HP. 4e 1988, reaffirmed. | 2026-05-13 |
 | [API Spec 4F — Drilling and Well Servicing Structures](standards/api-spec-4f.md) | Derricks, masts, substructures, crown-block assemblies; SSL framework; AISC update; 5e+Add 1 (2023). | 2026-05-13 |
+| [API Spec 11AX — Subsurface Sucker Rod Pump Assemblies](standards/api-spec-11ax.md) | Insert and tubing pumps; 12-character pump-designation code; 13e May 2015 + Add 1 (2019) + Err 1 (2023). | 2026-05-13 |
+| [API Spec 11B — Sucker Rods](standards/api-spec-11b.md) | Sucker-rod, polished-rod, coupling, sinker-bar specs; grades C / D / K / KD. | 2026-05-13 |
 | [API Spec 5CT — Specification for Casing and Tubing](standards/api-spec-5ct.md) | Steel-pipe technical-delivery conditions; PSL-1/2/3 framework; identical adoption of ISO 11960. | 2026-05-13 |
 | [API Spec 5DP — Specification for Drill Pipe](standards/api-spec-5dp.md) | Steel drill pipe; identical adoption of ISO 11961; 2e May 2020 + addenda through 2025. | 2026-05-13 |
 | [API Spec 7-1 — Rotary Drill Stem Elements](standards/api-spec-7-1.md) | Drill collars, HWDP, kellys, subs, stabilizers, reamers, bit-shank connections. | 2026-05-13 |
