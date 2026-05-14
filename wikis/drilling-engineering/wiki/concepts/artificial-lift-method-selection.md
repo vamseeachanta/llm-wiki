@@ -84,6 +84,15 @@ The selection process is iterative: an initial method picks based on rate-and-de
 
 - [Sucker-Rod Pumping Overview](sucker-rod-pumping-overview.md), [API 11AX Pump Designation](api-11ax-pump-designation.md), [API 11L Design Charts](api-11l-design-charts.md), [Pump Cards and Dynamometer](pump-cards-and-dynamometer.md), [Sucker Rods and Tapered Strings](sucker-rods-and-tapered-strings.md)
 
-## Scope-edge note
+## Scope-edge note — production-engineering domain founded 2026-05-13
 
-This page describes methods beyond rod pump (ESP, gas lift, PCP, plunger lift) that are strictly production-engineering / completions-engineering content. They live here to anchor the rod-pump method-selection context. If/when a future `production-engineering/` wiki domain is founded, this page should re-route there with rod-pump kept as the cross-link back to drilling-engineering.
+This page describes methods beyond rod pump (ESP, gas lift, PCP, plunger lift) that are strictly production-engineering / completions-engineering content. They live here to anchor the rod-pump method-selection context from drilling-engineering's framing.
+
+**The `production-engineering/` wiki domain was founded 2026-05-13 in commit [`7dc802d1`](https://github.com/vamseeachanta/llm-wiki/commit/7dc802d1).** Its founding concept anchor [Artificial Lift Overview](../../../production-engineering/wiki/concepts/artificial-lift-overview.md) is the production-engineering-side counterpart to this page; together they form the bidirectional cross-link this scope-edge note had been anticipating.
+
+**Scope split now operational:**
+
+- **Drilling-engineering (this page + the rod-pump cluster)** — completion-design-time framing of method selection, rod-pump deep coverage per the API "drilling and well servicing" umbrella
+- **Production-engineering** — production-design-time framing of method selection, deep coverage of the other 4 method families (ESP, gas lift, PCP, plunger lift) plus jet pump and hydraulic lift, lifecycle-aware re-selection (early-life vs late-life), field-mix optimization across multiple wells
+
+Rod-pump deep coverage **stays in drilling-engineering** — see [Sucker-Rod Pumping Overview](sucker-rod-pumping-overview.md) and the rest of the cluster.
