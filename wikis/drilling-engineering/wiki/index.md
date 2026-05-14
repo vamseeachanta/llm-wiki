@@ -2,7 +2,7 @@
 domain: drilling-engineering
 created: 2026-05-13
 last_updated: 2026-05-13
-page_count: 82
+page_count: 89
 source_count: 1
 ---
 
@@ -42,9 +42,11 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [MWD / LWD Overview](concepts/mwd-lwd-overview.md) | Measurement / logging while drilling; mud-pulse telemetry; real-time vs memory; AI tender-evaluation downstream consumer. | 2026-05-13 |
 | [Well Intervention Methods](concepts/well-intervention-methods.md) | CT vs wireline vs snubbing vs hydraulic workover unit; selection matrix and bid-evaluation context. | 2026-05-13 |
 | [Wireline Overview](concepts/wireline-overview.md) | Slickline mechanical vs e-line electric; cased-hole vs open-hole; standard log inventory. | 2026-05-13 |
+| [AFE — Authorization For Expenditure](concepts/afe-authorization-for-expenditure.md) | Cost-estimation document; dry-hole + completion + contingency; by-section breakdown; Papkov AI-agent consumer pack. | 2026-05-13 |
 | [API 11AX Pump Designation](concepts/api-11ax-pump-designation.md) | 12-character pump-designation code; insert vs tubing pump; worked examples. | 2026-05-13 |
 | [API 11L Design Charts](concepts/api-11l-design-charts.md) | Three nondimensional groups (Sp/S, Wrf/Skr, Fo/Skr) predicting plunger stroke, PPRL, MPRL, peak torque, surface HP. | 2026-05-13 |
 | [Artificial-Lift Method Selection](concepts/artificial-lift-method-selection.md) | Comparison across rod pump, ESP, gas lift, PCP, plunger lift; selection drivers and rate/depth envelope. | 2026-05-13 |
+| [BHA Design](concepts/bha-design.md) | Bottomhole assembly: bit, motor/RSS, MWD/LWD, stabilizers, drill collars, HWDP; pendulum/building/packed-hole configurations. | 2026-05-13 |
 | [BOP Control Systems](concepts/bop-control-systems.md) | Surface (koomey), subsea pilot-hydraulic, subsea MUX (multiplexed electrohydraulic); accumulator and response-time requirements. | 2026-05-13 |
 | [BOP Pressure Classes](concepts/bop-pressure-classes.md) | 2K/3K/5K/10K/15K/20K RWP classes; selection drivers; bid-evaluation flag for under-rated BOPs. | 2026-05-13 |
 | [BOP Stack Overview](concepts/bop-stack-overview.md) | Annular, VBR, pipe ram, shear ram, blind ram; surface vs subsea stack with LMRP. | 2026-05-13 |
@@ -55,9 +57,12 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Drill-Pipe Wear Classes](concepts/drill-pipe-wear-classes.md) | New / Premium / Class 2 / Class 3 wear classes; remaining-wall criteria; derating against new-pipe limits. | 2026-05-13 |
 | [Drill-Stem Design](concepts/drill-stem-design.md) | Four design loads (tension, torque, collapse, bending), neutral point, margin of overpull, combined-load envelope. | 2026-05-13 |
 | [Drilling-Fluid Types](concepts/drilling-fluid-types.md) | WBM, OBM, SBM, foam / mist / air; selection drivers by formation, environment, cost. | 2026-05-13 |
+| [Drilling Tender Evaluation](concepts/drilling-tender-evaluation.md) | Bid-evaluation framework: technical fit, contractor capability, day-rate vs total-well-cost, offset-record consistency. **Papkov AI-agent integration anchor.** | 2026-05-13 |
+| [Directional Drilling](concepts/directional-drilling.md) | Build-and-hold, S-profile, horizontal, multilateral; dogleg severity; anti-collision; MWD / gyro surveying. | 2026-05-13 |
 | [Drillship](concepts/drillship.md) | Ship-shape ultra-deepwater DP-station-kept floater; modern Gen 6+ to 12,000+ ft water depth. | 2026-05-13 |
 | [ECD and Pressure Management](concepts/ecd-and-pressure-management.md) | Equivalent circulating density; surge/swab; managing ECD inside the pore-pressure–fracture-pressure window. | 2026-05-13 |
 | [Hole Cleaning](concepts/hole-cleaning.md) | Three regimes by inclination; annular velocity, pipe rotation, cuttings-transport ratio. | 2026-05-13 |
+| [IADC DDR — Daily Drilling Report Format](concepts/iadc-ddr-format.md) | 24-hour reporting taxonomy: time breakdown by activity, NPT codes (N1-N5), mud data, BHA, casing/cementing operations. | 2026-05-13 |
 | [IADC Dull Grading](concepts/iadc-dull-grading.md) | 8-character used-bit code per SPE/IADC 23939; trip-out condition + reason-pulled tracking. | 2026-05-13 |
 | [IADC PDC (Fixed-Cutter) Bit Code](concepts/iadc-pdc-code.md) | 4-character code: body material (M/S/D), cutter density, cutter size, profile. | 2026-05-13 |
 | [IADC Roller-Cone Bit Code](concepts/iadc-roller-cone-code.md) | 4-character code per SPE-23937: formation series, sub-class, bearing/gauge, special features. | 2026-05-13 |
@@ -67,6 +72,7 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [MODU — Mobile Offshore Drilling Unit](concepts/modu.md) | Class-society and IMO umbrella for offshore-mobile drilling rigs (jackup, semi, drillship); excludes platform and land rigs. | 2026-05-13 |
 | [Mud Properties](concepts/mud-properties.md) | Density, rheology (Bingham / power-law / Herschel-Bulkley), fluid loss, gel strengths, pH. | 2026-05-13 |
 | [Mud System Equipment](concepts/mud-system-equipment.md) | Shale shakers, desander, desilter, mud cleaner, centrifuge, degasser; surface solids-control train. | 2026-05-13 |
+| [Offset Well Analysis](concepts/offset-well-analysis.md) | Mining historical-well data for bit performance, ROP, NPT, formation tops, mud-weight log; AI tender-evaluation input. | 2026-05-13 |
 | [Platform Rig](concepts/platform-rig.md) | Drilling rig installed on a fixed offshore production platform (jacket, GBS, compliant tower, spar, TLP). | 2026-05-13 |
 | [Primary Cementing](concepts/primary-cementing.md) | Spacer + lead + tail cement displacement sequence; mud-removal mechanisms; failure signatures. | 2026-05-13 |
 | [Pump Cards and Dynamometer](concepts/pump-cards-and-dynamometer.md) | Surface vs downhole card; gas interference, fluid pound, gas lock, parted rods signatures. | 2026-05-13 |
@@ -77,6 +83,7 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Sucker Rods and Tapered Strings](concepts/sucker-rods-and-tapered-strings.md) | API 11B rod grades (C, D, K, KD); tapered-string design rationale; standard taper combinations. | 2026-05-13 |
 | [Tool Joints](concepts/tool-joints.md) | NC / IF / FH / SH connection families; makeup torque; proprietary double-shoulder connections. | 2026-05-13 |
 | [Well-Control Methods](concepts/well-control-methods.md) | Driller's method, wait-and-weight, concurrent — kick-killing procedure with kill-weight calculation. | 2026-05-13 |
+| [Well Plan](concepts/well-plan.md) | Engineering well plan: targets, trajectory, casing/mud/BHA/cement programs, AFE, risk register, schedule. | 2026-05-13 |
 
 ## Standards
 
