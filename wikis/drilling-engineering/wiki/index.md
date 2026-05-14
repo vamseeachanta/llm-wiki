@@ -2,7 +2,7 @@
 domain: drilling-engineering
 created: 2026-05-13
 last_updated: 2026-05-13
-page_count: 66
+page_count: 74
 source_count: 1
 ---
 
@@ -59,6 +59,7 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Mud Properties](concepts/mud-properties.md) | Density, rheology (Bingham / power-law / Herschel-Bulkley), fluid loss, gel strengths, pH. | 2026-05-13 |
 | [Mud System Equipment](concepts/mud-system-equipment.md) | Shale shakers, desander, desilter, mud cleaner, centrifuge, degasser; surface solids-control train. | 2026-05-13 |
 | [Platform Rig](concepts/platform-rig.md) | Drilling rig installed on a fixed offshore production platform (jacket, GBS, compliant tower, spar, TLP). | 2026-05-13 |
+| [Primary Cementing](concepts/primary-cementing.md) | Spacer + lead + tail cement displacement sequence; mud-removal mechanisms; failure signatures. | 2026-05-13 |
 | [Pump Cards and Dynamometer](concepts/pump-cards-and-dynamometer.md) | Surface vs downhole card; gas interference, fluid pound, gas lock, parted rods signatures. | 2026-05-13 |
 | [Rig Classes Overview](concepts/rig-classes-overview.md) | Taxonomy router across the 5 primary rig classes plus the MODU collective; selection-driver framework. | 2026-05-13 |
 | [Semi-Submersible Rig](concepts/semi-submersible-rig.md) | Column-stabilized floater; pontoon-and-column geometry; Gen 1-7+ build-year taxonomy; moored or DP station-keeping. | 2026-05-13 |
@@ -76,11 +77,14 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [API RP 5C5 — Connection Evaluation](standards/api-rp-5c5.md) | Qualification-test program for tubular connections; Connection Application Levels (CAL I-IV). | 2026-05-13 |
 | [API RP 7G — Drill Stem Design and Operating Limits](standards/api-rp-7g.md) | Canonical drill-stem design-limits reference; makeup-torque tables; combined-load envelope. | 2026-05-13 |
 | [API RP 7G-2 — Used Drill Stem Inspection](standards/api-rp-7g-2.md) | Inspection procedure and wear-class assignment for used drill pipe. | 2026-05-13 |
+| [API RP 10B-2 — Testing of Well Cements](standards/api-rp-10b-2.md) | Thickening time, rheology, compressive strength (UCA), free water, HTHP fluid loss laboratory testing. | 2026-05-13 |
+| [API RP 10B-4 — Testing of Foamed Cement](standards/api-rp-10b-4.md) | Foam-quality measurement, stability, compressive-strength derating for nitrogen-foamed slurries. | 2026-05-13 |
 | [API RP 11L — Design Calculations for Sucker Rod Pumping Systems](standards/api-rp-11l.md) | Conventional-unit design charts; predicts plunger stroke, PPRL, MPRL, peak torque, surface HP. 4e 1988, reaffirmed. | 2026-05-13 |
 | [API RP 13B-1 — Field Testing of Water-Based Drilling Fluids](standards/api-rp-13b-1.md) | Mud-weight, viscosity, rheometer, gel strengths, API filter press, pH for WBMs. | 2026-05-13 |
 | [API RP 13B-2 — Field Testing of Oil-Based Drilling Fluids](standards/api-rp-13b-2.md) | HTHP filtrate, electrical stability, water content, oil-water ratio for OBMs and SBMs. | 2026-05-13 |
 | [API RP 53 — BOP Equipment Systems](standards/api-rp-53.md) | Integrated BOP-system reference; stack arrangement, choke/kill geometry, testing and maintenance. | 2026-05-13 |
 | [API Spec 4F — Drilling and Well Servicing Structures](standards/api-spec-4f.md) | Derricks, masts, substructures, crown-block assemblies; SSL framework; AISC update; 5e+Add 1 (2023). | 2026-05-13 |
+| [API Spec 10A — Well Cements](standards/api-spec-10a.md) | Classes A through H + special-purpose blends; identical adoption of ISO 10426-1. | 2026-05-13 |
 | [API Spec 11AX — Subsurface Sucker Rod Pump Assemblies](standards/api-spec-11ax.md) | Insert and tubing pumps; 12-character pump-designation code; 13e May 2015 + Add 1 (2019) + Err 1 (2023). | 2026-05-13 |
 | [API Spec 11B — Sucker Rods](standards/api-spec-11b.md) | Sucker-rod, polished-rod, coupling, sinker-bar specs; grades C / D / K / KD. | 2026-05-13 |
 | [API Spec 13A — Drilling Fluid Materials](standards/api-spec-13a.md) | Barite, bentonite, attapulgite, hematite, mud-additive material specifications. | 2026-05-13 |
