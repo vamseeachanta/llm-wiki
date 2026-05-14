@@ -2,7 +2,7 @@
 domain: drilling-engineering
 created: 2026-05-13
 last_updated: 2026-05-13
-page_count: 33
+page_count: 40
 source_count: 1
 ---
 
@@ -33,10 +33,16 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Casing Grades and PSL](concepts/casing-grades-and-psl.md) | API grade families (H40 through Q125) and Product Specification Level framework. | 2026-05-13 |
 | [Casing Program Design](concepts/casing-program-design.md) | Four design loads (collapse, burst, tension, triaxial), Lubinski biaxial reduction, design-factor framework, string-selection workflow. | 2026-05-13 |
 | [Casing Shoe Track](concepts/casing-shoe-track.md) | Shoe, float collar, centralizers, FIT/LOT at new shoe to establish next-section formation strength. | 2026-05-13 |
+| [Bit Hydraulics](concepts/bit-hydraulics.md) | Jet velocity, HSI, nozzle sizing, pump-pressure constraint, optimization for cleaning and ROP. | 2026-05-13 |
+| [Bit Selection](concepts/bit-selection.md) | Offset-bit-record analysis, formation hardness, cost-per-foot, AI-tender-evaluation downstream consumer. | 2026-05-13 |
+| [Drill-Bit Types](concepts/drill-bit-types.md) | Roller-cone (tricone), PDC, natural-diamond, hybrid, bicenter; selection drivers. | 2026-05-13 |
 | [Drill Pipe](concepts/drill-pipe.md) | Nominal sizes, API grades (E-75 through V-150), length ranges, drift diameter. | 2026-05-13 |
 | [Drill-Pipe Wear Classes](concepts/drill-pipe-wear-classes.md) | New / Premium / Class 2 / Class 3 wear classes; remaining-wall criteria; derating against new-pipe limits. | 2026-05-13 |
 | [Drill-Stem Design](concepts/drill-stem-design.md) | Four design loads (tension, torque, collapse, bending), neutral point, margin of overpull, combined-load envelope. | 2026-05-13 |
 | [Drillship](concepts/drillship.md) | Ship-shape ultra-deepwater DP-station-kept floater; modern Gen 6+ to 12,000+ ft water depth. | 2026-05-13 |
+| [IADC Dull Grading](concepts/iadc-dull-grading.md) | 8-character used-bit code per SPE/IADC 23939; trip-out condition + reason-pulled tracking. | 2026-05-13 |
+| [IADC PDC (Fixed-Cutter) Bit Code](concepts/iadc-pdc-code.md) | 4-character code: body material (M/S/D), cutter density, cutter size, profile. | 2026-05-13 |
+| [IADC Roller-Cone Bit Code](concepts/iadc-roller-cone-code.md) | 4-character code per SPE-23937: formation series, sub-class, bearing/gauge, special features. | 2026-05-13 |
 | [Jackup Rig](concepts/jackup-rig.md) | Bottom-supported rig with three jackable legs; spudcan preload procedure; HE class for harsh-environment. | 2026-05-13 |
 | [Land Rig](concepts/land-rig.md) | Onshore truck / trailer / pad-mounted rigs; modern walking pad-rigs (FlexRig archetype) for unconventional drilling. | 2026-05-13 |
 | [MODU — Mobile Offshore Drilling Unit](concepts/modu.md) | Class-society and IMO umbrella for offshore-mobile drilling rigs (jackup, semi, drillship); excludes platform and land rigs. | 2026-05-13 |
@@ -59,6 +65,7 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [API Spec 7-1 — Rotary Drill Stem Elements](standards/api-spec-7-1.md) | Drill collars, HWDP, kellys, subs, stabilizers, reamers, bit-shank connections. | 2026-05-13 |
 | [API Spec 7K — Drilling and Well Servicing Equipment](standards/api-spec-7k.md) | Mud pumps, swivels, rotary tables, top drives, tongs, elevators, slips, links. | 2026-05-13 |
 | [API Spec 8C — Drilling and Production Hoisting Equipment](standards/api-spec-8c.md) | Drawworks, crown blocks, traveling blocks, hooks, deadline anchors; PSL-1/2. | 2026-05-13 |
+| [IADC Bit Classification System](standards/iadc-bit-classification.md) | Roller-cone + PDC bit-classification codes + 8-character dull-grading; SPE-23937 + SPE/IADC 23939 + IADC Manual. | 2026-05-13 |
 | [IADC Drilling Manual](standards/iadc-drilling-manual.md) | Industry-canonical practitioner reference; multi-volume drilling-operations compendium; 12e 2014. | 2026-05-13 |
 
 ## Sources
