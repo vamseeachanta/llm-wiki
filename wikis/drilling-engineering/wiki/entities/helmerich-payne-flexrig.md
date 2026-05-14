@@ -34,6 +34,16 @@ H&P fleet status and FlexRig family specifications published on the corporate si
 - [Land Rig](../concepts/land-rig.md)
 - [Rig Classes Overview](../concepts/rig-classes-overview.md)
 
+## Data
+
+Structured rig-fleet data lives in [vamseeachanta/worldenergydata](https://github.com/vamseeachanta/worldenergydata) — but with **scope-edge caveats** for H&P:
+
+- **Curated CSV** — [`data/modules/vessel_fleet/curated/drilling_rigs.csv`](https://github.com/vamseeachanta/worldenergydata/blob/main/data/modules/vessel_fleet/curated/drilling_rigs.csv). 2,211 rig rows; BSEE-WAR-based (US offshore only). H&P is dominantly a US **land-rig** contractor (~203 US rigs, 131 international) — the offshore-WAR-anchored curated CSV captures only the small offshore subset, not the land-rig majority.
+- **Validation provenance** — [`docs/data/rig-fleet-website-validation.md`](https://github.com/vamseeachanta/worldenergydata/blob/main/docs/data/rig-fleet-website-validation.md). H&P validated 2026-02-13: `hpinc.com/rig-fleet/flexrig-fleet` is a tabbed FlexRig **model**-specification page (3 model classes) — individual unit-level rig names are **not** published online (typical for land-rig contractors with hundreds of near-identical units). 1 fact sheet PDF.
+- **Filter for H&P rigs** — `OWNER LIKE '%Helmerich%'` or `OWNER LIKE '%H&P%'` in the curated CSV; expect sparse offshore coverage. Land-rig coverage needs a state-railroad-commission ingest path (Texas RRC, NDIC, COGCC) — exactly the scope of [worldenergydata#127 WRK-1204](https://github.com/vamseeachanta/worldenergydata/issues/127).
+
+The FlexRig **class** content (the archetype description above) is the load-bearing content of this stub; per-unit detail for H&P specifically is data-gap-by-vendor-design and will be sparse until the state-RRC ingest lands.
+
 ## Note
 
-Existence-proof entity stub describing the FlexRig product family as an archetype. Specific rig-number-level detail filed when ingested.
+This is a **class-archetype entity** rather than a contractor-fleet entity in the offshore sense — H&P's value to the corpus is the FlexRig product family as the canonical pad-drilling rig design, not per-unit specifications.

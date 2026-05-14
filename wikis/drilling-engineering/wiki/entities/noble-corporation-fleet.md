@@ -27,6 +27,17 @@ Noble publishes a fleet specifications and contract status report. Cite the oper
 
 - [Jackup Rig](../concepts/jackup-rig.md), [Drillship](../concepts/drillship.md)
 
+## Data
+
+Structured fleet data lives in [vamseeachanta/worldenergydata](https://github.com/vamseeachanta/worldenergydata):
+
+- **Curated CSV** — [`data/modules/vessel_fleet/curated/drilling_rigs.csv`](https://github.com/vamseeachanta/worldenergydata/blob/main/data/modules/vessel_fleet/curated/drilling_rigs.csv). 2,211 rig rows from BSEE WARs; full rig-spec schema. Last refresh 2026-05-05.
+- **Vendor scrape** — [`data/modules/vessel_fleet/raw/contractor_scrape/noble.json`](https://github.com/vamseeachanta/worldenergydata/blob/main/data/modules/vessel_fleet/raw/contractor_scrape/noble.json). 31 Noble rigs scraped 2026-02-13 via Puppeteer from `noblecorp.com/our-fleet` (Pass 1 HTTP 403, Pass 2 successful). Card-based grid with water depth, design, location, availability per rig; 28 individual spec PDFs at `s201.q4cdn.com`. Includes post-2022-Maersk-merger drillship fleet (BlackHawk, BlackHornet, BlackLion, BlackRhino, Bob Douglas, Don Taylor, Sam Croft, Tom Madden class) plus Faye Kozack, Stanley Lafosse (Samsung 96K), and the HE jackup line.
+- **Validation provenance** — [`docs/data/rig-fleet-website-validation.md`](https://github.com/vamseeachanta/worldenergydata/blob/main/docs/data/rig-fleet-website-validation.md). Noble: 31 rigs named, 28 spec PDFs, per-rig detail pages at `noblecorp.com/our-fleet/fleet/fleet-details/2024/{name}/default.aspx`, FSR page at `noblecorp.com/investors/reports-and-filings/fleet-status-report/default.aspx`.
+- **Filter for Noble rigs** — `OWNER LIKE '%Noble%'` plus post-merger former-Diamond fleet (`OWNER LIKE '%Diamond%'` pre-2024-Q3); vendor→curated merge tracked at [worldenergydata#127](https://github.com/vamseeachanta/worldenergydata/issues/127).
+
+This stub is the knowledge-layer anchor for Noble; structured data lives in worldenergydata.
+
 ## Note
 
-Existence-proof entity stub.
+Specific named rigs filed as separate entity pages when ingested.

@@ -28,6 +28,17 @@ Transocean publishes a fleet status page listing each rig with rated water depth
 - [Semi-Submersible Rig](../concepts/semi-submersible-rig.md), [Drillship](../concepts/drillship.md)
 - [MODU](../concepts/modu.md)
 
+## Data
+
+Structured fleet data lives in [vamseeachanta/worldenergydata](https://github.com/vamseeachanta/worldenergydata), the workspace-hub ecosystem's data corpus:
+
+- **Curated CSV** — [`data/modules/vessel_fleet/curated/drilling_rigs.csv`](https://github.com/vamseeachanta/worldenergydata/blob/main/data/modules/vessel_fleet/curated/drilling_rigs.csv). 2,211 rig rows; schema: RIG_NAME, RIG_TYPE, OWNER, OPERATOR, IMO_NUMBER, FLAG_STATE, WATER_DEPTH_RATING_FT, DRILLING_DEPTH_RATING_FT, YEAR_BUILT, DP_CLASS, plus BSEE-WAR-linked activity columns. Base source: BSEE Well Activity Reports (US OCS). Last refresh 2026-05-05.
+- **Validation provenance** — [`docs/data/rig-fleet-website-validation.md`](https://github.com/vamseeachanta/worldenergydata/blob/main/docs/data/rig-fleet-website-validation.md). 2026-02-13 site-by-site accessibility audit. Transocean validated at `deepwater.com/our-fleet/our-rigs` as Pass-1-scrapable (static HTML table, 26 rigs named, 26 image-based PDF spec sheets at `/documents/RigSpecs/{name}.pdf`).
+- **Vendor scrape** — Transocean raw-scrape JSON pending capture; the scrape-target structure is documented in the validation doc.
+- **Filter for Transocean rigs** — `OWNER LIKE '%Transocean%' OR OPERATOR LIKE '%Transocean%'` once vendor→curated merge lands (tracked at [worldenergydata#127](https://github.com/vamseeachanta/worldenergydata/issues/127)).
+
+This stub is the **knowledge-layer anchor** for Transocean in llm-wiki — concept context (rig classes, MODU framework, harsh-environment scope) sits here. The **structured-data corpus is in worldenergydata** per the off-repo intel routing convention. Do not duplicate operator-fleet data into this CC-BY-4.0 wiki.
+
 ## Note
 
-This is an existence-proof entity stub. Specific named rigs from the Transocean fleet should be filed as separate entity pages when ingested with citation to the operator's public fleet status as the source. Do not reproduce vendor brochures, technical fact-sheets, or specifications verbatim.
+This entity stub deliberately does not list specific named rigs. Named-rig entity pages with citation to the operator's public fleet status are written as separate pages when ingested; do not reproduce vendor brochures, technical fact-sheets, or specifications verbatim into the wiki.

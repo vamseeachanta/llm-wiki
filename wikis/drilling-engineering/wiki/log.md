@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-05-13] cross-reference | worldenergydata structured-fleet-data pointers added to 6 fleet stubs + overview
+- Processed: cross-referencing the existing rig-fleet data corpus in [vamseeachanta/worldenergydata](https://github.com/vamseeachanta/worldenergydata) (2,211-rig curated CSV from BSEE WARs refreshed 2026-05-05; Noble + Seadrill vendor-scrape JSON captured 2026-02-13) from the llm-wiki Phase 1 fleet entity stubs. No data duplicated into the wiki; pointers + filter-expressions + provenance only.
+- Pages updated: wiki/overview.md (new "Structured rig-fleet data — pointer to worldenergydata" section before Seed Roadmap), entities/transocean-fleet.md, entities/valaris-fleet.md, entities/noble-corporation-fleet.md, entities/diamond-offshore-fleet.md, entities/seadrill-fleet.md, entities/helmerich-payne-flexrig.md (each gained a "## Data" section before the Note section).
+- Notes: respects off-repo intel routing convention — vendor-marketing and structured-data content does not enter this CC-BY-4.0 wiki; pointers only. Each Data section is customized: Transocean (scrapable but not yet captured), Valaris (sub-pages need scrape; FSR PDF available), Noble (full vendor JSON exists), Diamond (pre-merger historical; post-merger under Noble), Seadrill (full vendor JSON exists), H&P FlexRig (scope-edge — class-archetype rather than fleet entity; land-rig data needs state-RRC ingest path via worldenergydata#127). All cross-references use full GitHub URLs since worldenergydata is public. Vendor→curated merge work parked at [worldenergydata#127 WRK-1204](https://github.com/vamseeachanta/worldenergydata/issues/127); no worldenergydata changes in this commit.
+
 ## [2026-05-13] domain-founding | drilling-engineering wiki founded with Papkov (2026) as first source
 - Processed: LinkedIn post by Alex Papkov (practitioner account, 618 followers) framing a drilling-tender AI-agent prototype — generates technically-rigorous RFPs from well plans and AFEs, evaluates bids against verifiable offset data, flags inconsistencies in bidder submissions, produces structured award recommendations with quantified uncertainty.
 - Pages created: CLAUDE.md (schema), wiki/overview.md, wiki/index.md, wiki/log.md, sources/papkov-2026-drilling-tender-ai-agent.md.

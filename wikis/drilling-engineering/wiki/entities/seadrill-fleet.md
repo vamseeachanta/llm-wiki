@@ -27,6 +27,17 @@ Seadrill publishes a fleet status report covering current contracts, rated water
 
 - [Jackup Rig](../concepts/jackup-rig.md), [Semi-Submersible Rig](../concepts/semi-submersible-rig.md), [Drillship](../concepts/drillship.md)
 
+## Data
+
+Structured fleet data lives in [vamseeachanta/worldenergydata](https://github.com/vamseeachanta/worldenergydata):
+
+- **Curated CSV** — [`data/modules/vessel_fleet/curated/drilling_rigs.csv`](https://github.com/vamseeachanta/worldenergydata/blob/main/data/modules/vessel_fleet/curated/drilling_rigs.csv). 2,211 rig rows from BSEE WARs; full rig-spec schema. Last refresh 2026-05-05.
+- **Vendor scrape** — [`data/modules/vessel_fleet/raw/contractor_scrape/seadrill.json`](https://github.com/vamseeachanta/worldenergydata/blob/main/data/modules/vessel_fleet/raw/contractor_scrape/seadrill.json). 17 Seadrill rigs scraped 2026-02-13 via Puppeteer from `seadrill.com/fleet/` (Divi WordPress JS-rendered theme, requires headless Chrome). Card layout with explicit type labels (13 drillships including West Auriga / Capella / Carina / Gemini / Jupiter / Neptune / Polaris / Saturn / Tellus / Vela plus Sonangol Libongos and Quenguela JV; 3 semisubmersibles Sevan Louisiana + West Aquarius/Eclipse + West Phoenix; 1 jackup West Elara). 17 tech-sheet PDFs at `seadrill.com/wp-content/uploads/`. FSR PDF: `Seadrill-Fleet-Status-Report-August-6-2025-vF.pdf`.
+- **Validation provenance** — [`docs/data/rig-fleet-website-validation.md`](https://github.com/vamseeachanta/worldenergydata/blob/main/docs/data/rig-fleet-website-validation.md).
+- **Filter for Seadrill rigs** — `OWNER LIKE '%Seadrill%' OR OWNER LIKE '%Sonadrill%'` (the JV); vendor→curated merge tracked at [worldenergydata#127](https://github.com/vamseeachanta/worldenergydata/issues/127).
+
+This stub is the knowledge-layer anchor for Seadrill; structured data lives in worldenergydata.
+
 ## Note
 
-Existence-proof entity stub.
+Specific named rigs filed as separate entity pages when ingested.

@@ -27,6 +27,17 @@ Valaris publishes a fleet status report listing each rig with rated water depth,
 
 - [Jackup Rig](../concepts/jackup-rig.md), [Semi-Submersible Rig](../concepts/semi-submersible-rig.md), [Drillship](../concepts/drillship.md)
 
+## Data
+
+Structured fleet data lives in [vamseeachanta/worldenergydata](https://github.com/vamseeachanta/worldenergydata):
+
+- **Curated CSV** — [`data/modules/vessel_fleet/curated/drilling_rigs.csv`](https://github.com/vamseeachanta/worldenergydata/blob/main/data/modules/vessel_fleet/curated/drilling_rigs.csv). 2,211 rig rows from BSEE WARs; full schema (RIG_NAME / RIG_TYPE / OWNER / OPERATOR / spec columns / activity columns). Last refresh 2026-05-05.
+- **Validation provenance** — [`docs/data/rig-fleet-website-validation.md`](https://github.com/vamseeachanta/worldenergydata/blob/main/docs/data/rig-fleet-website-validation.md). Valaris validated 2026-02-13: `valaris.com/our-fleet` is a category landing page only; sub-pages at `our-fleet/drillships`, `our-fleet/semisubmersibles`, `our-fleet/jackups` need separate scrape. FSR PDF at `s23.q4cdn.com/956522167/files/doc_downloads/2025/10/10232025-Fleet-Status-Report_FINAL.pdf` is the canonical bulk source.
+- **Vendor scrape** — Valaris sub-page scrape pending; FSR PDF parse is the alternative path.
+- **Filter for Valaris rigs** — `OWNER LIKE '%Valaris%' OR OWNER LIKE '%Ensco%' OR OWNER LIKE '%Rowan%'` (legacy pre-2019-merger names also appear in BSEE WARs); vendor→curated merge tracked at [worldenergydata#127](https://github.com/vamseeachanta/worldenergydata/issues/127).
+
+This stub is the knowledge-layer anchor for Valaris; structured data lives in worldenergydata per the off-repo intel routing convention.
+
 ## Note
 
-Existence-proof entity stub. Specific named rigs filed as separate entity pages when ingested.
+Specific named rigs filed as separate entity pages when ingested with citation to operator's public report.

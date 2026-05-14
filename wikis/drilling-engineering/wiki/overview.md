@@ -38,6 +38,18 @@ The founding source page — [Papkov (2026) — Drilling-Tender AI Agent](source
 - `engineering-standards/` — API drilling specs (4F structures, 7K equipment, 8C hoisting), IADC standards
 - `asset-management/` — drilling-rig integrity, safety-critical-element classification for rigs as offshore assets
 
+## Structured rig-fleet data — pointer to worldenergydata
+
+This wiki holds **knowledge and methodology** (rig classes, MODU framework, API/IADC standards, Papkov AI-agent consumer pack). The **structured rig-fleet data corpus** lives in a sibling repo:
+
+- **Repository**: [vamseeachanta/worldenergydata](https://github.com/vamseeachanta/worldenergydata) — public
+- **Curated CSV**: [`data/modules/vessel_fleet/curated/drilling_rigs.csv`](https://github.com/vamseeachanta/worldenergydata/blob/main/data/modules/vessel_fleet/curated/drilling_rigs.csv) (2,211 rigs, BSEE-WAR-anchored, refreshed 2026-05-05)
+- **Vendor-scrape raw JSON**: [`data/modules/vessel_fleet/raw/contractor_scrape/`](https://github.com/vamseeachanta/worldenergydata/tree/main/data/modules/vessel_fleet/raw/contractor_scrape) (Noble + Seadrill captured 2026-02-13; Transocean / Borr scrapable per validation doc but not yet captured)
+- **Site validation provenance**: [`docs/data/rig-fleet-website-validation.md`](https://github.com/vamseeachanta/worldenergydata/blob/main/docs/data/rig-fleet-website-validation.md) (2026-02-13 contractor-site accessibility audit)
+- **Tracker issue for vendor→curated merge**: [worldenergydata#127 WRK-1204](https://github.com/vamseeachanta/worldenergydata/issues/127)
+
+Per the off-repo intel routing convention, **vendor-marketing and structured-data content does not go into this CC-BY-4.0 wiki**. The 6 drilling-contractor fleet-entity stubs in this wiki (Transocean, Valaris, Noble, Diamond Offshore, Seadrill, H&P FlexRig) are knowledge-layer anchors pointing at worldenergydata as the data home.
+
 ## Seed roadmap (post-founding ingests)
 
 The following are anticipated near-term ingests, listed here as scope intent and not yet executed:
