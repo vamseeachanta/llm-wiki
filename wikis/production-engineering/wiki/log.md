@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-05-14] ingest | PE Phase 1 sub-issue #64 — PCP (API Spec 11W + progressing-cavity-pumps + elastomer chemistry + heavy-oil application)
+- Processed: API Spec 11W (PCP systems specification). Textbook synthesis from Brown 1980 *Technology of Artificial Lift Methods* Vol 2b, Lyons handbook artificial-lift section, SPE OnePetro PCP literature.
+- Pages created: standards/api-spec-11w.md, concepts/progressing-cavity-pumps.md, concepts/pcp-elastomer-chemistry.md, concepts/pcp-heavy-oil-application.md.
+- Pages updated: wiki/index.md (page_count 17 → 21; +3 Concepts rows, +1 Standards row).
+- Closes: vamseeachanta/llm-wiki#64 (PE Phase 1 sub-issue, parent epic #61).
+- Notes: Two configurations captured (surface-driven + ESPCP). Elastomer family framework (NBR / HNBR / FKM / EPDM) with fluid-compatibility logic + 4 failure-mode catalog (swelling / hardening / softening / chunking). Heavy-oil application chapter covers Western Canada, Venezuelan Faja, California (Kern River etc.), Colombia/Brazil. Cold-flow vs thermal (SAGD / CSI) distinguished. No vendor proprietary content transcribed.
+
 ## [2026-05-14] ingest | PE Phase 1 sub-issue #63 — gas lift (API RP 11V6 + RP 11V2 + Spec 11V1 + gas-lift concept cluster)
 - Processed: API RP 11V6 (design), RP 11V2 (valve performance testing), Spec 11V1 (valve specification). Textbook synthesis from Takacs 2005 *Gas Lift Manual* (ISBN 0-87814-805-1), Brown 1977 *Technology of Artificial Lift Methods* Vol 1.
 - Pages created: standards/api-rp-11v6.md, standards/api-rp-11v2.md, standards/api-spec-11v1.md, concepts/gas-lift-overview.md, concepts/gas-lift-valve-design.md, concepts/gas-lift-valve-spacing.md, concepts/gas-lift-troubleshooting.md.

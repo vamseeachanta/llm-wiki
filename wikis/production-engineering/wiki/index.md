@@ -2,7 +2,7 @@
 domain: production-engineering
 created: 2026-05-13
 last_updated: 2026-05-14
-page_count: 17
+page_count: 21
 source_count: 0
 ---
 
@@ -27,6 +27,9 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Gas Lift Troubleshooting](concepts/gas-lift-troubleshooting.md) | Multipointing, heading, valve-failure modes; surface-pressure instability; diagnostic instrumentation. | 2026-05-14 |
 | [Gas Lift Valve Design](concepts/gas-lift-valve-design.md) | IPO vs PPO actuation, bellows vs spring force source, dome pressure + spread, side-pocket vs tubing-retrievable mandrels. | 2026-05-14 |
 | [Gas Lift Valve Spacing](concepts/gas-lift-valve-spacing.md) | Brown-Camp graphical method + modern computational spacing; kickoff/unloading cascade from surface to operating-valve depth. | 2026-05-14 |
+| [PCP Elastomer Chemistry](concepts/pcp-elastomer-chemistry.md) | NBR / HNBR / FKM / EPDM elastomer families; fluid-compatibility framework; common failure modes (swelling / hardening / softening / chunking). | 2026-05-14 |
+| [PCP Heavy-Oil Application](concepts/pcp-heavy-oil-application.md) | PCP dominance in heavy-oil and bitumen production; sand-control by design; cold-flow vs thermal (SAGD/CSI) considerations. | 2026-05-14 |
+| [Progressing-Cavity Pumps (PCP)](concepts/progressing-cavity-pumps.md) | Helical rotor in elastomeric stator; surface-driven vs ESPCP variants; niche for high-viscosity + high-solids service. | 2026-05-14 |
 
 ## Standards
 
@@ -40,6 +43,7 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [API RP 11S4 — ESP Sizing and Selection](standards/api-rp-11s4.md) | Canonical sizing workflow: IPR → TDH → pump-stages → motor → cable → VFD. | 2026-05-14 |
 | [API RP 11S7 — ESP Seal Chamber Sections](standards/api-rp-11s7.md) | Seal-section ("protector") design + testing; load-bearing for ESP reliability. | 2026-05-14 |
 | [API Spec 11V1 — Gas Lift Valve Specification](standards/api-spec-11v1.md) | Manufacturing requirements for gas-lift valves: IPO/PPO, bellows/spring, side-pocket vs tubing-retrievable. | 2026-05-14 |
+| [API Spec 11W — Progressing-Cavity Pumping Systems](standards/api-spec-11w.md) | PCP design and testing; surface-driven and ESPCP variants; rotor/stator geometry + elastomer chemistry. | 2026-05-14 |
 
 ## Entities
 
