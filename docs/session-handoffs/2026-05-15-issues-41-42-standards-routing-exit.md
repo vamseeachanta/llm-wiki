@@ -99,6 +99,6 @@ External-action status: **No external send/action performed** beyond the two `gh
 
 ## Post-push verification
 
-Final live `HEAD == origin/main` proof captured in the closeout-loop section below after this handoff commit lands.
+Initial closeout commit (this doc, content-only) landed at [`a0741a85`](https://github.com/vamseeachanta/llm-wiki/commit/a0741a85). Post-push `git fetch origin main` confirmed `local HEAD == origin/main == a0741a85`, ahead/behind 0/0, working tree clean.
 
-<!-- closeout-loop-final-state -->
+This proof-section edit creates a follow-up commit; final live state is captured in the user-facing closeout response (per the exit-handoff-closeout skill's recursion-avoidance pattern — the proof-section commit by definition cannot embed its own SHA).
