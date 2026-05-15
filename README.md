@@ -25,8 +25,10 @@ tests/fixtures/          data fixtures for the workspace-hub pipeline's wiki-con
 
 ## How to consume
 
+- **AI-agent entrypoint:** start with [`llms.txt`](llms.txt), then route through the domain-level `llms.txt` files instead of recursively scanning `wikis/`.
 - **Read directly:** browse `wikis/` on GitHub; pages use frontmatter per the workspace-hub schema (e.g., `code_id`, `publisher`, `revision` for standards pages — see `docs/schemas/`).
 - **Programmatic access:** clone or `git submodule add https://github.com/vamseeachanta/llm-wiki` adjacent to your tooling; the workspace-hub pipeline expects `wikis/<domain>/...` paths.
+- **Weekly freshness cadence:** update the root and domain `llms.txt` manifests when new domains, high-value concepts, governance routes, or code/result bridges change; keep them bounded to curated entrypoints rather than source-summary inventories.
 
 ## Licenses
 

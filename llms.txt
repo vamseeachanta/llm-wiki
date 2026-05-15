@@ -1,0 +1,51 @@
+# llm-wiki AI Entrypoint Manifest
+
+## Purpose
+
+This file is the bounded AI-agent entrypoint for the public `llm-wiki` repository. Use it to route coding, research, and planning agents to curated wiki surfaces without scanning the full corpus first.
+
+## Safety Boundary
+
+Public/private boundary: this repository contains public-safe wiki pages, repo-local scripts, tests, scorecards, and governance documents. It must not contain vendor PDFs, copied standards clauses, private project documents, credentials, client data, or raw restricted archives. If a task needs restricted evidence, stop at metadata and route to the private archive owner; do not quote or reconstruct source text here.
+
+## Start Here
+
+- Repository overview: [README.md](README.md)
+- Marine/offshore largest-domain entrypoint: [wikis/marine-engineering/llms.txt](wikis/marine-engineering/llms.txt)
+- Engineering methodology entrypoint: [wikis/engineering/llms.txt](wikis/engineering/llms.txt)
+- Standards metadata entrypoint: [wikis/engineering-standards/llms.txt](wikis/engineering-standards/llms.txt)
+- Tier-1 repo/code/results routing: [wikis/cross-links-tier1.md](wikis/cross-links-tier1.md)
+- Public/private governance: [docs/governance/service-provider-data-routing.md](docs/governance/service-provider-data-routing.md)
+
+## Key Entry Paths
+
+- `wikis/<domain>/CLAUDE.md` — domain schema and maintainer conventions.
+- `wikis/<domain>/wiki/index.md` — catalog for a domain after choosing that domain.
+- `wikis/<domain>/wiki/overview.md` — high-level synthesis for a domain.
+- `wikis/<domain>/wiki/concepts/` — reusable engineering concepts.
+- `wikis/<domain>/wiki/workflows/` — implementation and operating workflows.
+- `wikis/<domain>/wiki/standards/` — metadata-first standards pages; never copied standards text.
+- `docs/governance/` — repo safety, routing, and service-provider boundaries.
+- `tests/` and `scripts/` — repo-local validators for public-safe artifacts.
+
+## How To Find X
+
+- Marine engineering: [wikis/marine-engineering/llms.txt](wikis/marine-engineering/llms.txt)
+- Engineering methods: [wikis/engineering/llms.txt](wikis/engineering/llms.txt)
+- Standards: [wikis/engineering-standards/llms.txt](wikis/engineering-standards/llms.txt)
+- Governance: [docs/governance/service-provider-data-routing.md](docs/governance/service-provider-data-routing.md)
+- Code and results links: [wikis/cross-links-tier1.md](wikis/cross-links-tier1.md)
+
+## Do Not Scan Blindly
+
+Do not start with recursive reads of `wikis/` or the large marine source-summary tree. Choose a domain manifest first, then inspect its index, overview, and only the specific concept/source pages needed for the task. For standards questions, prefer metadata pages and external public landing pages over raw documents.
+
+## Related Surfaces
+
+- Workspace orchestration and extraction pipelines live outside this repo; this repo is the public-safe content storehouse.
+- Domain manifests intentionally point to a small number of durable entrypoints, not every source summary.
+- Weekly freshness work should update manifests only when new domains, high-value concepts, or governance routes change.
+
+## Last Updated
+
+2026-05-15

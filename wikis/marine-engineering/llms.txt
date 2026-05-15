@@ -1,0 +1,47 @@
+# Marine Engineering AI Entrypoint Manifest
+
+## Purpose
+
+Use this bounded manifest to enter the marine/offshore corpus. This is the largest domain in the repository, with roughly 19k source-summary and wiki pages, so routing discipline matters for useful code-development context.
+
+## Safety Boundary
+
+This domain is public-safe synthesis and metadata. Do not quote copied standards clauses, vendor tables, proprietary project documents, or restricted archive content. Use standards pages and source summaries to identify citation-safe concepts, then route private evidence needs outside this repository.
+
+## Start Here
+
+- Domain schema and maintainer contract: [wikis/marine-engineering/CLAUDE.md](CLAUDE.md)
+- Domain portal: [wikis/marine-engineering/wiki/portal.md](wiki/portal.md)
+- Domain index: [wikis/marine-engineering/wiki/index.md](wiki/index.md)
+- Domain overview: [wikis/marine-engineering/wiki/overview.md](wiki/overview.md)
+- Code/results bridge: [wikis/marine-engineering/wiki/code-results-links.md](wiki/code-results-links.md)
+
+## Key Entry Paths
+
+- `wikis/marine-engineering/wiki/concepts/` — reusable concepts such as mooring, risers, fatigue, VIV, hydrodynamics, and installation.
+- `wikis/marine-engineering/wiki/entities/` — named assets, systems, fields, and organizations.
+- `wikis/marine-engineering/wiki/code-results-links.md` — code/result bridge for implementation-facing routing before source-summary reads.
+- `wikis/marine-engineering/wiki/standards/` — metadata-first standard pages.
+- `wikis/marine-engineering/wiki/sources/` — source summaries; inspect only after choosing a concept or evidence target.
+
+## How To Find X
+
+- Domain navigation: [wikis/marine-engineering/wiki/portal.md](wiki/portal.md)
+- Current catalog: [wikis/marine-engineering/wiki/index.md](wiki/index.md)
+- High-level synthesis: [wikis/marine-engineering/wiki/overview.md](wiki/overview.md)
+- Code-backed references: [wikis/marine-engineering/wiki/code-results-links.md](wiki/code-results-links.md)
+- Cross-repo routing: [wikis/cross-links-tier1.md](../cross-links-tier1.md)
+
+## Do Not Scan Blindly
+
+Do not scan blindly through `wikis/marine-engineering/wiki/sources/` or raw source summaries. Start from the portal/index/overview, identify the concept family, then inspect the smallest set of pages needed. For code work, use the code/results bridge before reading source summaries.
+
+## Related Surfaces
+
+- Engineering methodology routes live in [wikis/engineering/llms.txt](../engineering/llms.txt).
+- Standards metadata routes live in [wikis/engineering-standards/llms.txt](../engineering-standards/llms.txt).
+- Public/private data routing lives in [docs/governance/service-provider-data-routing.md](../../docs/governance/service-provider-data-routing.md).
+
+## Last Updated
+
+2026-05-15

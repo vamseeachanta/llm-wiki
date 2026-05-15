@@ -1,0 +1,47 @@
+# Engineering Methodology AI Entrypoint Manifest
+
+## Purpose
+
+Use this manifest for engineering methodology, workflow, validation, source-promotion, and code-development context. This domain connects wiki knowledge to practical repository execution.
+
+## Safety Boundary
+
+This domain is for public-safe methodology and authored synthesis. Do not add private project details, copied standards clauses, client data, credentials, or raw restricted evidence. Keep implementation guidance traceable to public-safe pages and repo-local validators.
+
+## Start Here
+
+- Domain schema and maintainer contract: [wikis/engineering/CLAUDE.md](CLAUDE.md)
+- Domain index: [wikis/engineering/wiki/index.md](wiki/index.md)
+- Domain overview: [wikis/engineering/wiki/overview.md](wiki/overview.md)
+- Public data/software routes: [wikis/engineering/wiki/public-data-software-links.md](wiki/public-data-software-links.md)
+- Tier-1 cross-links: [wikis/cross-links-tier1.md](../cross-links-tier1.md)
+
+## Key Entry Paths
+
+- `wikis/engineering/wiki/workflows/` — implementation-facing workflows and runbooks.
+- `wikis/engineering/wiki/concepts/` — methodology concepts that should inform code and issue planning.
+- `wikis/engineering/wiki/sources/` — curated source summaries for repo methodology and research signals.
+- `wikis/engineering/wiki/standards/` — engineering standards metadata duplicated only when useful for method routing.
+- `docs/governance/` — public/private boundary and repo operating contracts.
+
+## How To Find X
+
+- Engineering methods: [wikis/engineering/wiki/overview.md](wiki/overview.md)
+- Public software/data sources: [wikis/engineering/wiki/public-data-software-links.md](wiki/public-data-software-links.md)
+- Workflow recipes: [wikis/engineering/wiki/workflows/solver-debugging-protocol.md](wiki/workflows/solver-debugging-protocol.md)
+- OrcaWave/OrcaFlex pipeline context: [wikis/engineering/wiki/workflows/orcawave-to-orcaflex-pipeline.md](wiki/workflows/orcawave-to-orcaflex-pipeline.md)
+- Code and results links: [wikis/cross-links-tier1.md](../cross-links-tier1.md)
+
+## Do Not Scan Blindly
+
+Do not treat this domain as a generic dump of all methodology sources. Start from overview/index, pick the relevant workflow or concept, then inspect source summaries only when a claim needs provenance.
+
+## Related Surfaces
+
+- Marine/offshore domain context: [wikis/marine-engineering/llms.txt](../marine-engineering/llms.txt).
+- Standards metadata context: [wikis/engineering-standards/llms.txt](../engineering-standards/llms.txt).
+- Public/private governance: [docs/governance/service-provider-data-routing.md](../../docs/governance/service-provider-data-routing.md).
+
+## Last Updated
+
+2026-05-15

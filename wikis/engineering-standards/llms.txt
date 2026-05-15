@@ -1,0 +1,47 @@
+# Engineering Standards AI Entrypoint Manifest
+
+## Purpose
+
+Use this manifest for metadata-first standards navigation. It helps agents find which standard page exists, what publisher/revision metadata is captured, and where implementation-facing standards routes may connect to engineering code.
+
+## Safety Boundary
+
+This repository must not quote or reconstruct copied standards clauses, tables, figures, or vendor-derived source text. Standards pages are citation-safe metadata and authored summaries only. If a task needs exact clause text, stop at the code identifier and route to an authorized standards holder outside this repo.
+
+## Start Here
+
+- Domain schema and maintainer contract: [wikis/engineering-standards/CLAUDE.md](CLAUDE.md)
+- Standards index: [wikis/engineering-standards/wiki/index.md](wiki/index.md)
+- Standards overview: [wikis/engineering-standards/wiki/overview.md](wiki/overview.md)
+- Service-provider governance: [docs/governance/service-provider-data-routing.md](../../docs/governance/service-provider-data-routing.md)
+- Tier-1 cross-links: [wikis/cross-links-tier1.md](../cross-links-tier1.md)
+
+## Key Entry Paths
+
+- `wikis/engineering-standards/wiki/standards/` — metadata-first pages named by normalized code identifiers.
+- `wikis/engineering-standards/wiki/index.md` — catalog of available standards pages.
+- `wikis/engineering-standards/wiki/overview.md` — domain-level synthesis and routing summary.
+- `wikis/engineering/wiki/standards/` — methodology-linked standards pages when code-development context is needed.
+- `docs/governance/` — boundary rules for standards and service-provider data.
+
+## How To Find X
+
+- Standards catalog: [wikis/engineering-standards/wiki/index.md](wiki/index.md)
+- Standards overview: [wikis/engineering-standards/wiki/overview.md](wiki/overview.md)
+- DNV RP C205 metadata: [wikis/engineering-standards/wiki/standards/dnv-rp-c205.md](wiki/standards/dnv-rp-c205.md)
+- DNV OS E301 metadata: [wikis/engineering-standards/wiki/standards/dnv-os-e301.md](wiki/standards/dnv-os-e301.md)
+- API 579 metadata: [wikis/engineering/wiki/standards/api-579-ffs.md](../engineering/wiki/standards/api-579-ffs.md)
+
+## Do Not Scan Blindly
+
+Do not recursively scan standards pages or raw standards holdings. Use normalized code identifiers, index pages, and metadata fields first. Do not quote or reconstruct restricted standards language from memory, private files, or source summaries.
+
+## Related Surfaces
+
+- Engineering methods and implementation workflows: [wikis/engineering/llms.txt](../engineering/llms.txt).
+- Marine/offshore applied context: [wikis/marine-engineering/llms.txt](../marine-engineering/llms.txt).
+- Public/private data routing: [docs/governance/service-provider-data-routing.md](../../docs/governance/service-provider-data-routing.md).
+
+## Last Updated
+
+2026-05-15
