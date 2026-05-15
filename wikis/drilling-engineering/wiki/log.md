@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-05-14] ingest | DE Phase 3 sub-issue #71 — named-rig entity expansion (14 rigs across 4 contractors) [INDEX/LOG FIXUP for log]
+- Processed: 14 named-rig entity stubs against Phase 1 fleet stubs (Transocean / Noble / Seadrill / Valaris).
+- Pages created in commit `f1348249`: 14 entity pages (deepwater-atlas, deepwater-titan, deepwater-asgard, deepwater-poseidon, noble-lloyd-noble, noble-blackhawk, noble-globetrotter-i, noble-faye-kozack, west-polaris, west-capella, west-tellus, west-aquarius, valaris-ds-12, valaris-ds-15).
+- Pages updated in commit `f1348249`: wiki/index.md (page_count 113 → 127, +14 Entities rows). log.md was missed due to Edit-freshness window; this fixup adds the log entry.
+- Closes vamseeachanta/llm-wiki#71 (auto-closed by Closes #71 trailer in commit f1348249) — COMPLETES DE Phase 3.
+- Notes: Each entity cross-links parent fleet stub + concept page + worldenergydata curated-CSV filter expression. Noble + Seadrill rigs in current vendor-merge CSV (PR #409); Transocean + Valaris flagged as not-yet-captured pending future scrape. Specs paraphrased from operator public fleet status; no proprietary content transcribed.
+
 ## [2026-05-14] ingest | DE Phase 3 sub-issue #70 — plug and abandonment (API Bull E3 + IOGP 484 + NORSOK D-010 + P&A concept cluster)
 - Processed: API Bulletin E3 (US wellbore plugging), IOGP 484 (international industry consensus), NORSOK D-010 (NCS well integrity, Rev 4 2021). Textbook synthesis from SPE OnePetro P&A literature + King multi-well-pad-drilling P&A chapters + Oil & Gas UK Well Decommissioning Guidelines context.
 - Pages created: standards/api-bull-e3.md, standards/iogp-484.md, standards/norsok-d-010.md, concepts/plug-and-abandonment-overview.md, concepts/pa-barrier-philosophy.md, concepts/pa-cement-plug-design.md, concepts/pa-permanent-vs-temporary.md, concepts/pa-rigless-operations.md.
