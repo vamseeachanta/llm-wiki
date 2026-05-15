@@ -1,7 +1,7 @@
 ---
 title: "Issue #79 plan — weekly OSS engineering-tool watchlist and update candidates"
 issue: 79
-status: plan-review
+status: plan-approved
 created: 2026-05-15
 last_updated: 2026-05-15
 public_safety: public upstream metadata, repo-relative links, and summary-only update notes; no vendored code/docs, private paths, or secret-bearing automation

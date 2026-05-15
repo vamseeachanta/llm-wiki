@@ -1,7 +1,7 @@
 ---
 title: "Issue #76 plan — llms.txt entrypoints and curated domain manifests"
 issue: 76
-status: plan-review
+status: plan-approved
 created: 2026-05-15
 last_updated: 2026-05-15
 public_safety: public-safe navigation manifests only; no raw/private/vendor/client content or path-rich manifests
@@ -12,9 +12,9 @@ public_safety: public-safe navigation manifests only; no raw/private/vendor/clie
 ## Approval gate
 
 - GitHub issue: [vamseeachanta/llm-wiki#76](https://github.com/vamseeachanta/llm-wiki/issues/76)
-- Current local plan state: `plan-review`
-- Implementation status: **planning only; no code or content implementation in this pass**
-- Approval note: do not implement until the plan is reviewed and the main agent/user explicitly approves the write phase.
+- Current local plan state: `plan-approved`
+- Implementation status: **approved for implementation; implementation must follow TDD and closeout gates**
+- Approval note: user approved this plan on 2026-05-15; implementation may proceed under TDD, validation, cross-review, and transactional closeout gates.
 
 ## Summary
 

@@ -1,7 +1,7 @@
 ---
 title: "Issue #75 plan — weekly freshness control loop for concepts, coverage, and issue recommendations"
 issue: 75
-status: plan-review
+status: plan-approved
 created: 2026-05-15
 last_updated: 2026-05-15
 public_safety: metadata-only repo health + public OSS concept watchlist; no raw/vendor/client/private path leakage
