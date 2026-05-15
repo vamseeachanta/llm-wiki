@@ -1,8 +1,8 @@
 ---
 domain: drilling-engineering
 created: 2026-05-13
-last_updated: 2026-05-13
-page_count: 89
+last_updated: 2026-05-14
+page_count: 98
 source_count: 1
 ---
 
@@ -69,6 +69,8 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Jackup Rig](concepts/jackup-rig.md) | Bottom-supported rig with three jackable legs; spudcan preload procedure; HE class for harsh-environment. | 2026-05-13 |
 | [Kick Detection](concepts/kick-detection.md) | Pit gain, drilling break, flow check, mud-gas log; early-warning signatures of formation-fluid influx. | 2026-05-13 |
 | [Land Rig](concepts/land-rig.md) | Onshore truck / trailer / pad-mounted rigs; modern walking pad-rigs (FlexRig archetype) for unconventional drilling. | 2026-05-13 |
+| [Lower Marine Riser Package (LMRP)](concepts/lower-marine-riser-package.md) | Top of subsea BOP stack; upper annular + control pods + disconnect plane; emergency disconnect sequence (EDS). | 2026-05-14 |
+| [Marine Drilling Riser Overview](concepts/marine-drilling-riser-overview.md) | Structural-and-flow conduit between floater + subsea BOP; telescopic joint, tensioner, flex joints, auxiliary lines, LMRP. | 2026-05-14 |
 | [MODU — Mobile Offshore Drilling Unit](concepts/modu.md) | Class-society and IMO umbrella for offshore-mobile drilling rigs (jackup, semi, drillship); excludes platform and land rigs. | 2026-05-13 |
 | [Mud Properties](concepts/mud-properties.md) | Density, rheology (Bingham / power-law / Herschel-Bulkley), fluid loss, gel strengths, pH. | 2026-05-13 |
 | [Mud System Equipment](concepts/mud-system-equipment.md) | Shale shakers, desander, desilter, mud cleaner, centrifuge, degasser; surface solids-control train. | 2026-05-13 |
@@ -77,7 +79,10 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Primary Cementing](concepts/primary-cementing.md) | Spacer + lead + tail cement displacement sequence; mud-removal mechanisms; failure signatures. | 2026-05-13 |
 | [Pump Cards and Dynamometer](concepts/pump-cards-and-dynamometer.md) | Surface vs downhole card; gas interference, fluid pound, gas lock, parted rods signatures. | 2026-05-13 |
 | [Rig Classes Overview](concepts/rig-classes-overview.md) | Taxonomy router across the 5 primary rig classes plus the MODU collective; selection-driver framework. | 2026-05-13 |
+| [Riser Tensioning](concepts/riser-tensioning.md) | Cable-and-sheave vs direct-acting (DAT) ram tensioner systems; top-tension requirements; weak-point design. | 2026-05-14 |
 | [Semi-Submersible Rig](concepts/semi-submersible-rig.md) | Column-stabilized floater; pontoon-and-column geometry; Gen 1-7+ build-year taxonomy; moored or DP station-keeping. | 2026-05-13 |
+| [Subsea BOP Stack Architecture](concepts/subsea-bop-stack-architecture.md) | Full subsea-stack layout: lower stack + LMRP; choke/kill plumbing; ROV-intervention access points. | 2026-05-14 |
+| [Subsea Wellhead](concepts/subsea-wellhead.md) | 18-3/4" wellhead family; casing hangers; lockdown rings; drilling vs production lifecycle. | 2026-05-14 |
 | [Shut-In Procedures](concepts/shut-in-procedures.md) | Hard vs soft shut-in; SICP / SIDPP measurement; kill-weight computation prep. | 2026-05-13 |
 | [Sucker-Rod Pumping Overview](concepts/sucker-rod-pumping-overview.md) | System anatomy (surface unit, polished rod, rod string, downhole pump); operating cycle; dominant US artificial-lift method. | 2026-05-13 |
 | [Sucker Rods and Tapered Strings](concepts/sucker-rods-and-tapered-strings.md) | API 11B rod grades (C, D, K, KD); tapered-string design rationale; standard taper combinations. | 2026-05-13 |
@@ -98,6 +103,7 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [API RP 11L — Design Calculations for Sucker Rod Pumping Systems](standards/api-rp-11l.md) | Conventional-unit design charts; predicts plunger stroke, PPRL, MPRL, peak torque, surface HP. 4e 1988, reaffirmed. | 2026-05-13 |
 | [API RP 13B-1 — Field Testing of Water-Based Drilling Fluids](standards/api-rp-13b-1.md) | Mud-weight, viscosity, rheometer, gel strengths, API filter press, pH for WBMs. | 2026-05-13 |
 | [API RP 13B-2 — Field Testing of Oil-Based Drilling Fluids](standards/api-rp-13b-2.md) | HTHP filtrate, electrical stability, water content, oil-water ratio for OBMs and SBMs. | 2026-05-13 |
+| [API RP 16Q — Marine Drilling Riser System Design + Operation](standards/api-rp-16q.md) | Riser stack-up design, tensioner sizing, weak-point analysis, fatigue, emergency disconnect sequence (EDS). | 2026-05-14 |
 | [API RP 53 — BOP Equipment Systems](standards/api-rp-53.md) | Integrated BOP-system reference; stack arrangement, choke/kill geometry, testing and maintenance. | 2026-05-13 |
 | [API RP 5C7 — Coiled Tubing Operations](standards/api-rp-5c7.md) | CT deployment operational practice; injector head, BOP, stripper, fatigue management. | 2026-05-13 |
 | [API RP 7L — Drilling Equipment Inspection / Maintenance / Remanufacture](standards/api-rp-7l.md) | Operational-life management of Spec 7K / Spec 7-1 equipment plus wireline / slickline equipment inspection. | 2026-05-13 |
@@ -108,6 +114,9 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [API Spec 13A — Drilling Fluid Materials](standards/api-spec-13a.md) | Barite, bentonite, attapulgite, hematite, mud-additive material specifications. | 2026-05-13 |
 | [API Spec 16A — Drill-Through Equipment](standards/api-spec-16a.md) | RAM-type and annular preventers; RWP classes 2K/3K/5K/10K/15K/20K. | 2026-05-13 |
 | [API Spec 16D — BOP Control Systems](standards/api-spec-16d.md) | Hydraulic control systems for BOP stacks; accumulator sizing; response-time requirements. | 2026-05-13 |
+| [API Spec 16F — Marine Drilling Riser Equipment](standards/api-spec-16f.md) | Riser joints, tensioner systems, telescopic / flex / ball joints, choke/kill/booster auxiliary lines, LMRP interface. | 2026-05-14 |
+| [API Spec 16R — Marine Drilling Riser Couplings](standards/api-spec-16r.md) | Riser-joint connection families: bolted flange, dog-style, breech-block, hydraulic-actuated. | 2026-05-14 |
+| [API Spec 17D — Subsea Wellhead and Christmas Tree Equipment](standards/api-spec-17d.md) | Subsea wellhead family (18-3/4"), casing hangers, lockdown rings, tubing hangers; RWP class 5K-20K. | 2026-05-14 |
 | [API Spec 5CT — Specification for Casing and Tubing](standards/api-spec-5ct.md) | Steel-pipe technical-delivery conditions; PSL-1/2/3 framework; identical adoption of ISO 11960. | 2026-05-13 |
 | [API Spec 5DP — Specification for Drill Pipe](standards/api-spec-5dp.md) | Steel drill pipe; identical adoption of ISO 11961; 2e May 2020 + addenda through 2025. | 2026-05-13 |
 | [API Spec 5ST — Coiled Tubing](standards/api-spec-5st.md) | CT material specification; grades CT-70 through CT-130; companion to RP 5C7. | 2026-05-13 |

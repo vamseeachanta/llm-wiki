@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-05-14] ingest | DE Phase 3 sub-issue #69 — subsea wellhead + drilling riser systems (API Spec 16F/16R + RP 16Q + Spec 17D + concept cluster)
+- Processed: API Spec 16F (marine drilling riser equipment), API Spec 16R (riser couplings), API RP 16Q (design + operation), API Spec 17D (subsea wellhead + Christmas tree). Textbook synthesis from Sparks 2007 *Fundamentals of Marine Riser Mechanics* (ISBN 978-1-59370-070-2), Bourgoyne Ch. 1.
+- Pages created: standards/api-spec-16f.md, standards/api-spec-16r.md, standards/api-rp-16q.md, standards/api-spec-17d.md, concepts/marine-drilling-riser-overview.md, concepts/riser-tensioning.md, concepts/lower-marine-riser-package.md, concepts/subsea-wellhead.md, concepts/subsea-bop-stack-architecture.md.
+- Pages updated: wiki/index.md (page_count 89 → 98; +5 Concepts rows, +4 Standards rows).
+- Closes: vamseeachanta/llm-wiki#69 (DE Phase 3 sub-issue, parent epic #67).
+- Notes: Closes the Phase 1 drillship/MODU concept-page riser-content-gap. Riser anatomy (top-to-bottom: diverter → telescopic joint → tensioner → flex joints → standard joints → LMRP) captured. Emergency disconnect sequence (EDS) 5-step procedure documented on LMRP page. 18-3/4" subsea wellhead family with casing-hanger + lockdown-ring architecture. Subsea BOP stack architecture distinguishes lower stack from LMRP with disconnect plane. ROV-intervention access points named. Cross-domain link: marine-engineering for riser dynamic-response under vessel motion (this wiki anchors drilling-side; marine-engineering anchors vessel-side). No proprietary vendor content (Cameron / FMC / NOV Drilquip / GE Aker Solutions) transcribed.
+
 ## [2026-05-13] cross-reference | worldenergydata structured-fleet-data pointers added to 6 fleet stubs + overview
 - Processed: cross-referencing the existing rig-fleet data corpus in [vamseeachanta/worldenergydata](https://github.com/vamseeachanta/worldenergydata) (2,211-rig curated CSV from BSEE WARs refreshed 2026-05-05; Noble + Seadrill vendor-scrape JSON captured 2026-02-13) from the llm-wiki Phase 1 fleet entity stubs. No data duplicated into the wiki; pointers + filter-expressions + provenance only.
 - Pages updated: wiki/overview.md (new "Structured rig-fleet data — pointer to worldenergydata" section before Seed Roadmap), entities/transocean-fleet.md, entities/valaris-fleet.md, entities/noble-corporation-fleet.md, entities/diamond-offshore-fleet.md, entities/seadrill-fleet.md, entities/helmerich-payne-flexrig.md (each gained a "## Data" section before the Note section).
