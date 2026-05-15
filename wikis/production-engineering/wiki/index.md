@@ -2,7 +2,7 @@
 domain: production-engineering
 created: 2026-05-13
 last_updated: 2026-05-14
-page_count: 10
+page_count: 17
 source_count: 0
 ---
 
@@ -23,16 +23,23 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [ESP Failure Modes](concepts/esp-failure-modes.md) | Cable failures (~30-40% of pulls), motor / pump / seal-section failures; VFD-telemetry operational signatures. | 2026-05-14 |
 | [ESP Sizing](concepts/esp-sizing.md) | IPR → TDH → pump-stages → motor → cable → VFD iterative sizing workflow per API RP 11S4. | 2026-05-14 |
 | [ESP Vendor Archetypes](concepts/esp-vendor-archetypes.md) | Schlumberger REDA, Baker Hughes Centrilift (including post-2017 Wood Group ESP merger), Borets; component-compatibility constraints. | 2026-05-14 |
+| [Gas Lift Overview](concepts/gas-lift-overview.md) | High-pressure gas down annulus → enters tubing via valves → aerates column → reservoir-pressure-driven lift. No moving downhole parts; continuous and intermittent modes. | 2026-05-14 |
+| [Gas Lift Troubleshooting](concepts/gas-lift-troubleshooting.md) | Multipointing, heading, valve-failure modes; surface-pressure instability; diagnostic instrumentation. | 2026-05-14 |
+| [Gas Lift Valve Design](concepts/gas-lift-valve-design.md) | IPO vs PPO actuation, bellows vs spring force source, dome pressure + spread, side-pocket vs tubing-retrievable mandrels. | 2026-05-14 |
+| [Gas Lift Valve Spacing](concepts/gas-lift-valve-spacing.md) | Brown-Camp graphical method + modern computational spacing; kickoff/unloading cascade from surface to operating-valve depth. | 2026-05-14 |
 
 ## Standards
 
 | Page | Summary | Last Updated |
 |------|---------|-------------|
 | [API RP 11S — ESP Operation, Maintenance, Troubleshooting](standards/api-rp-11s.md) | Practitioner-canonical field-operations + failure-diagnostic reference. | 2026-05-14 |
+| [API RP 11V2 — Gas Lift Valve Performance Testing](standards/api-rp-11v2.md) | Laboratory test methodology for gas-lift valves; opening/closing pressure, flow coefficient, temperature correction. | 2026-05-14 |
+| [API RP 11V6 — Gas Lift Design and Technology](standards/api-rp-11v6.md) | Canonical gas-lift design reference: valve selection, depth spacing, surface-pressure budget, kickoff procedure. | 2026-05-14 |
 | [API RP 11S1 — ESP Teardown Reports](standards/api-rp-11s1.md) | Post-pull teardown protocol for failure-attribution; component-by-component inspection. | 2026-05-14 |
 | [API RP 11S2 — ESP Testing](standards/api-rp-11s2.md) | Laboratory + shop-floor performance-curve testing for pump-stage assemblies. | 2026-05-14 |
 | [API RP 11S4 — ESP Sizing and Selection](standards/api-rp-11s4.md) | Canonical sizing workflow: IPR → TDH → pump-stages → motor → cable → VFD. | 2026-05-14 |
 | [API RP 11S7 — ESP Seal Chamber Sections](standards/api-rp-11s7.md) | Seal-section ("protector") design + testing; load-bearing for ESP reliability. | 2026-05-14 |
+| [API Spec 11V1 — Gas Lift Valve Specification](standards/api-spec-11v1.md) | Manufacturing requirements for gas-lift valves: IPO/PPO, bellows/spring, side-pocket vs tubing-retrievable. | 2026-05-14 |
 
 ## Entities
 

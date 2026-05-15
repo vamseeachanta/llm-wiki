@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-05-14] ingest | PE Phase 1 sub-issue #63 — gas lift (API RP 11V6 + RP 11V2 + Spec 11V1 + gas-lift concept cluster)
+- Processed: API RP 11V6 (design), RP 11V2 (valve performance testing), Spec 11V1 (valve specification). Textbook synthesis from Takacs 2005 *Gas Lift Manual* (ISBN 0-87814-805-1), Brown 1977 *Technology of Artificial Lift Methods* Vol 1.
+- Pages created: standards/api-rp-11v6.md, standards/api-rp-11v2.md, standards/api-spec-11v1.md, concepts/gas-lift-overview.md, concepts/gas-lift-valve-design.md, concepts/gas-lift-valve-spacing.md, concepts/gas-lift-troubleshooting.md.
+- Pages updated: wiki/index.md (page_count 10 → 17; +4 Concepts rows, +3 Standards rows).
+- Closes: vamseeachanta/llm-wiki#63 (PE Phase 1 sub-issue, parent epic #61).
+- Notes: Continuous-flow vs intermittent modes captured. IPO vs PPO valve actuation + bellows vs spring force source distinguished. Brown-Camp graphical valve-spacing method named + modern computational methods (ValCalc / PerformLink / WellCare). Troubleshooting catalog: multipointing, heading, valve failures (stuck-open / stuck-closed / seat-leak), surface-pressure instability. No vendor/proprietary content transcribed.
+
 ## [2026-05-13] domain-founding | production-engineering wiki founded with artificial-lift-overview as founding concept anchor
 - Processed: structural founding of 10th llm-wiki domain. Trigger event: scope-edge note on drilling-engineering's `artificial-lift-method-selection.md` explicitly anticipated this domain founding ("if/when a future production-engineering wiki domain is founded, this page should re-route there with rod-pump kept as the cross-link back to drilling-engineering"). User signal: "continue with next session candidates" in conversation following Phase 2 close-out 2026-05-13.
 - Pages created: CLAUDE.md (schema), wiki/overview.md, wiki/index.md, wiki/log.md, concepts/artificial-lift-overview.md.
