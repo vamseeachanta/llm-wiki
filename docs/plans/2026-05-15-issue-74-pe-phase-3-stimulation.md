@@ -87,7 +87,7 @@ Phase 3 corpus expansion adding 3 sub-issues each landing concept page(s) + ≥1
 **Pages to create:**
 
 - `concepts/hydraulic-fracturing.md` — frac fluid systems (slickwater, linear gel, crosslinked, energized, foamed, cleanup characteristics), proppants (sand, resin-coated sand, ceramic, ultra-light), frac design (PKN, KGD, pseudo-3D, 3D — when each applies), pump schedule (pad, slurry, flush), microseismic monitoring, refrac vs new-well decisioning at the design phase.
-- Calc-citation entries for PKN width formula, KGD width formula, proppant-pack permeability.
+- Calc-citation entries for PKN width formula, KGD width formula, proppant-pack permeability. Primary reference: **SPE Monograph 17** (Reservoir Stimulation, 3rd Ed., Economides & Nolte) — license-clear authoritative reference for frac-design formulas. API RP 39 cited only for its narrow scope (frac-fluid viscosity testing); API RP 42 for surfactant testing.
 
 **Cross-links:**
 
@@ -99,7 +99,9 @@ Phase 3 corpus expansion adding 3 sub-issues each landing concept page(s) + ≥1
 
 **Pages to create:**
 
-- `concepts/refrac.md` — refrac vs new well economics, candidate selection (Diagnostic Fracture Injection Test [DFIT], production-history decline analysis, stress-shadow effects), recompletion architectures (cement-and-perf, mechanical isolation, expandable liner).
+- `concepts/refrac.md` — refrac vs new-well economics, candidate selection, recompletion architectures (cement-and-perf, mechanical isolation, expandable liner).
+- `concepts/diagnostic-fracture-injection-test.md` — **Diagnostic Fracture Injection Test (DFIT)** methodology: pre-frac mini-frac procedure to measure closure pressure, instantaneous shut-in pressure, leak-off coefficient. Reference: SPE Monograph 17 (Reservoir Stimulation, Economides & Nolte) for theory; SPE 167165 + SPE 124292 for field-practice procedures.
+- `concepts/production-history-decline-analysis.md` — Arps decline curves, type-curve matching, b-factor estimation for refrac candidate selection. Cross-link to future reservoir-engineering domain.
 
 **Cross-links:**
 
@@ -126,7 +128,7 @@ No runtime calc to reproduce. **Reproduction proofs: N/A — content-authoring s
 ## Acceptance criteria
 
 - [ ] 3 sub-issues created under this epic with `research+ingest(production-engineering):` prefix
-- [ ] ≥3 concept pages landed (matrix-acid, hydraulic-fracturing, refrac)
+- [ ] ≥5 concept pages landed (matrix-acid, hydraulic-fracturing, refrac, DFIT-methodology, production-history-decline-analysis) — scope expanded per Claude r1 MINOR-3
 - [ ] ≥1 standards page per sub-issue (or cross-link to `engineering-standards/`)
 - [ ] `wiki/index.md` page_count reflects new pages (post-Phase-2 target ≥35 → post-Phase-3 target ≥45)
 - [ ] `wiki/log.md` carries one entry per ingest (3 minimum)

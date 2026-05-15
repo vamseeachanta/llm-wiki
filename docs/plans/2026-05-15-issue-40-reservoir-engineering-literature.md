@@ -51,7 +51,13 @@ Sources consulted:
 
 ## Deliverable
 
-A founded `wikis/reservoir-engineering/` wiki domain populated with ≥5 concept pages + ≥2 methodology pages, plus a corpus manifest at `docs/research/reservoir-engineering-corpus.md` listing ≥50 triaged candidate sources, ready for downstream consumption by the Kaggle ROGII competition modeling work.
+**Scope decision (resolved 2026-05-15 by user direction):** This plan delivers a **formation-evaluation foundation** scoped to the [Kaggle ROGII competition](https://github.com/vamseeachanta/kaggle-rogii-2026/issues/5) modeling driver — NOT a full reservoir-engineering domain founding. Core reservoir-engineering topics (relative perm, capillary pressure, recovery factor, material balance, decline-curve analysis, well-test interpretation, PVT) are explicitly **deferred** to a future plan that may emerge from the [#2667 Domain Knowledge Sweep](https://github.com/vamseeachanta/workspace-hub/issues/2667). This boundary keeps the plan execution-bounded (1-2 weeks) and avoids duplicating effort with the parallel domain-sweep initiative.
+
+A founded `wikis/reservoir-engineering/` wiki domain (formation-eval-only initial scope) populated with ≥5 concept pages + ≥2 methodology pages, plus a corpus manifest at `docs/research/reservoir-engineering-corpus.md` listing ≥30 high-quality OR ≥50 mixed-quality triaged candidate sources, ready for downstream consumption by the Kaggle ROGII competition.
+
+### Coordination with #2667 Domain Knowledge Sweep
+
+The [Domain Knowledge Sweep parent issue](https://github.com/vamseeachanta/workspace-hub/issues/2667) launched Domain 1 (Hydrodynamics, #2668) on 2026-05-12. Reservoir engineering is a likely future domain in that sweep. This plan's scope and #2667's reservoir-eng-domain scope SHOULD NOT overlap: this plan covers formation-eval (logging, dip/azimuth, formation tops) driven by Kaggle ROGII; #2667 (when it reaches reservoir-eng) would cover the core reservoir-engineering substrate (recovery factor, EOR, simulation). Implementation Step 1 verifies #2667 hasn't separately scheduled reservoir-eng work before starting this issue.
 
 ## Artifact map
 
@@ -95,7 +101,10 @@ No runtime calc to reproduce per Step 1.5 — this is a corpus-build issue, not 
 
 ## Acceptance criteria
 
-- [ ] Corpus inventory at `docs/research/reservoir-engineering-corpus.md` lists ≥50 triaged sources with `(filepath/URL, classification ingest/skip/defer, license note)` per row
+- [ ] Corpus inventory at `docs/research/reservoir-engineering-corpus.md` lists ≥30 high-quality (textbook-tier or peer-reviewed paper) sources OR ≥50 mixed-quality sources (including OCW lecture notes) with `(filepath/URL, classification ingest/skip/defer, license note)` per row
+- [ ] Pre-execution check: verify [#2667](https://github.com/vamseeachanta/workspace-hub/issues/2667) has not scheduled reservoir-eng-domain work — coordinate boundary if it has
+- [ ] Corpus manifest's `license_note` column has zero blank entries (governance test enforced via `tests/test_governance_artifacts.py` extension)
+- [ ] Cross-link resolver test confirms all new wiki cross-links resolve (no broken-link transients)
 - [ ] ≥5 concept pages drafted under `wikis/reservoir-engineering/concepts/` covering core fundamentals (porosity, permeability, gamma-ray log interpretation, dip/azimuth, formation tops)
 - [ ] ≥2 methodology pages under `wikis/reservoir-engineering/methodology/` covering geosteering workflow + log correlation
 - [ ] `wikis/reservoir-engineering/wiki/index.md` lists the founding state with page_count + last_updated

@@ -32,7 +32,7 @@ Sources consulted:
 - No `wikis/production-engineering/wiki/concepts/sand-control.md` exists.
 - No `wikis/production-engineering/wiki/concepts/multi-zone-completions.md` exists.
 - No `wikis/production-engineering/wiki/concepts/smart-completions.md` exists.
-- API RP 19B + RP 19SC + RP 19WC standards-pages — existence in `engineering-standards/` TBD; verify before Phase 2 execution.
+- API RP 19B standards-page (verified-real). RP 19SC and RP 19WC are **not** published standalone API standards per Claude r1 review; revised slate uses API RP 90 (sand-control-adjacent), SPE Monograph 9 (sand control), ISO 14998 (smart completion cite-only), SPE 35545 (Gao 1996 smart-completion historical). Existence in `engineering-standards/` TBD for each; verify before Phase 2 execution.
 
 ## Public-safety boundary
 
@@ -65,6 +65,7 @@ Phase 2 corpus expansion adding 3 sub-issues each landing concept page(s) + ≥1
 | Standards pages (as needed) | `wikis/production-engineering/wiki/standards/{api-rp-19b,api-rp-19sc,api-rp-19wc}.md` OR cross-link to `engineering-standards/` if pre-existing |
 | Wiki index update | `wikis/production-engineering/wiki/index.md` (page_count bump, last_updated, table rows for new pages) |
 | Wiki log entries | `wikis/production-engineering/wiki/log.md` (one entry per sub-issue) |
+| Phase 1 reverse cross-links | `wikis/production-engineering/wiki/concepts/{electric-submersible-pumps,gas-lift-overview,progressing-cavity-pumps}.md` — add Phase 2 forward-references at appropriate sections (Claude r1 review MINOR-4 fix: reverse links must be explicit Files-to-Change, not implicit) |
 | Plan review — Claude | `scripts/review/results/2026-05-15-plan-73-claude.md` |
 | Plan review — Codex | `scripts/review/results/2026-05-15-plan-73-codex.md` |
 
@@ -90,7 +91,7 @@ Phase 2 corpus expansion adding 3 sub-issues each landing concept page(s) + ≥1
 **Pages to create:**
 
 - `concepts/sand-control.md` — gravel pack (cased-hole, open-hole, high-rate water-pack), frac pack, expandable screens (Halliburton/Weatherford archetypes — concept-only, no proprietary detail), prepacked screens.
-- `standards/api-rp-19sc.md` if applicable, OR reference SPE Monograph on sand control.
+- `standards/api-rp-90.md` (annular casing pressure — adjacent control) AND/OR reference to **SPE Monograph 9** (Sand Control, license-clear authoritative reference) cited at the concept-page level. **Note (Claude r1 review):** API RP 19SC is NOT a published standalone API standard; sand-control standards are scattered. Plan execution must use these alternatives.
 
 **Cross-links:**
 
@@ -104,7 +105,7 @@ Phase 2 corpus expansion adding 3 sub-issues each landing concept page(s) + ≥1
 **Pages to create:**
 
 - `concepts/multi-zone-completions.md` — selective production strategies, dual-string completions, sliding-sleeve technology, isolation packers.
-- `concepts/smart-completions.md` — intelligent-well technology, downhole flow control, surface-controlled subsurface safety valves (SCSSVs) as part of integrated smart-completion package, downhole fiber-optic monitoring.
+- `concepts/smart-completions.md` — intelligent-well technology, downhole flow control, surface-controlled subsurface safety valves (SCSSVs) as part of integrated smart-completion package, downhole fiber-optic monitoring. **Reference: ISO 14998** (intelligent-well completion architecture, cite-only) and **SPE 35545** (Gao 1996 historical smart-completion ref). **Note (Claude r1 review):** API RP 19WC is NOT a published API standard; ISO 14998 is the closest licensable standard surface.
 
 **Cross-links:**
 
