@@ -2,7 +2,7 @@
 domain: drilling-engineering
 created: 2026-05-13
 last_updated: 2026-05-14
-page_count: 113
+page_count: 127
 source_count: 1
 ---
 
@@ -25,6 +25,20 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Seadrill Fleet](entities/seadrill-fleet.md) | High-spec drillship and harsh-environment semi-submersible fleet; multiple Chapter 11 reorganizations 2017 and 2021. | 2026-05-13 |
 | [Transocean Fleet](entities/transocean-fleet.md) | Largest offshore drilling contractor by combined fleet capability; ultra-deepwater drillship and harsh-environment semi emphasis. | 2026-05-13 |
 | [Valaris Fleet](entities/valaris-fleet.md) | Globally diversified jackup + semi + drillship fleet; formed 2019 Ensco/Rowan merger; Chapter 11 emerged 2021. | 2026-05-13 |
+| [Deepwater Asgard](entities/deepwater-asgard.md) | Transocean harsh-environment semi-submersible; DP-classified; North Sea / Norwegian Sea typical. | 2026-05-14 |
+| [Deepwater Atlas](entities/deepwater-atlas.md) | Transocean Gen 7+ ultra-deepwater drillship; 20K-psi HPHT capable; 12,000+ ft water depth. | 2026-05-14 |
+| [Deepwater Poseidon](entities/deepwater-poseidon.md) | Transocean Gen 6 ultra-deepwater drillship; dual-derrick. | 2026-05-14 |
+| [Deepwater Titan](entities/deepwater-titan.md) | Transocean Gen 7+ ultra-deepwater drillship; 20K-psi HPHT capable; sister to Deepwater Atlas. | 2026-05-14 |
+| [Noble BlackHawk](entities/noble-blackhawk.md) | Noble Corp ultra-deepwater drillship; Gusto P10000 design; post-Maersk-merger (2022). | 2026-05-14 |
+| [Noble Faye Kozack](entities/noble-faye-kozack.md) | Noble Corp drillship; Samsung 96K class; post-Maersk-merger. | 2026-05-14 |
+| [Noble Globetrotter I](entities/noble-globetrotter-i.md) | Noble Corp DP-classed semi-submersible. | 2026-05-14 |
+| [Noble Lloyd Noble](entities/noble-lloyd-noble.md) | Noble Corp flagship harsh-environment jackup; North Sea HE service. | 2026-05-14 |
+| [Valaris DS-12](entities/valaris-ds-12.md) | Valaris 7th-generation drillship; dual-derrick + dual-BOP. | 2026-05-14 |
+| [Valaris DS-15](entities/valaris-ds-15.md) | Valaris 7th-generation drillship; dual-derrick + dual-BOP. | 2026-05-14 |
+| [West Aquarius](entities/west-aquarius.md) | Seadrill harsh-environment semi-submersible. | 2026-05-14 |
+| [West Capella](entities/west-capella.md) | Seadrill drillship, West-* series. | 2026-05-14 |
+| [West Polaris](entities/west-polaris.md) | Seadrill drillship, West-* series. | 2026-05-14 |
+| [West Tellus](entities/west-tellus.md) | Seadrill drillship, West-* series. | 2026-05-14 |
 
 ## Concepts
 
