@@ -45,7 +45,7 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | Page | Summary | Last Updated |
 |------|---------|-------------|
 | [Casing Grades and PSL](concepts/casing-grades-and-psl.md) | API grade families (H40 through Q125) and Product Specification Level framework. | 2026-05-13 |
-| [Casing Program Design](concepts/casing-program-design.md) | Four design loads (collapse, burst, tension, triaxial), Lubinski biaxial reduction, design-factor framework, string-selection workflow. | 2026-05-13 |
+| [Casing Program Design](concepts/casing-program-design.md) | Four design loads (collapse, burst, tension, triaxial), Lubinski biaxial reduction, design-factor framework, string-selection workflow. Cross-links to production-engineering perforation policy / gun-detonation-pulse burst interaction. | 2026-05-15 |
 | [Casing Shoe Track](concepts/casing-shoe-track.md) | Shoe, float collar, centralizers, FIT/LOT at new shoe to establish next-section formation strength. | 2026-05-13 |
 | [Cement Classes](concepts/cement-classes.md) | API classes A through H + pozzolan / fly-ash / silica-flour blends; compressive-strength retrogression above 230 °F. | 2026-05-13 |
 | [Cement Evaluation](concepts/cement-evaluation.md) | CBL / VDL / segmented bond tools / ultrasonic cement scanners; pressure-test verification. | 2026-05-13 |

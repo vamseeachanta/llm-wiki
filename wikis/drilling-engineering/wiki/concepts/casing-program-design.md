@@ -6,7 +6,7 @@ sources:
   - api-rp-5c5
   - api-rp-5c1
 added: 2026-05-13
-last_updated: 2026-05-13
+last_updated: 2026-05-15
 ---
 
 # Casing Program Design
@@ -51,6 +51,18 @@ Typical operator design factors (not API-mandated thresholds; operator-specified
 4. **Connection selection** — API for routine, premium for high-pressure or gas-tight requirements.
 5. **PSL specification** — PSL-2 or PSL-3 for sour service, HPHT, or critical wells.
 
+## Perforation policy — burst-rating interaction
+
+Casing burst design carries a load-case from a domain that drilling-engineering does not own: **perforation policy**. Detonation of a downhole shaped-charge gun creates a transient overpressure pulse in the wellbore (thousands of psi for milliseconds for a typical large-OD TCP gun), which adds to the static wellbore pressure to define a **transient burst load** at the perforating depth.
+
+Practical interactions:
+
+- Heavy / high-shot-density gun strings are checked against the production-casing burst envelope before being scheduled into completion design.
+- For HPHT wells with marginal production-casing burst headroom, the completion engineer may be forced to reduce shot density or select lower-energy charges — derating the well's IPR floor to preserve casing integrity.
+- The production-casing design factor margin selected during well construction effectively budgets for the perforation-job load case. Operators with stable completion designs can use a tighter casing factor; operators with uncertain or evolving completion designs need more margin.
+
+The perforation-strategy framework lives in the production-engineering wiki: see [Perforating](../../../production-engineering/wiki/concepts/perforating.md) for the system-level synthesis and [Perforating Gun Systems](../../../production-engineering/wiki/concepts/perforating-gun-systems.md) for the gun-detonation-pulse considerations that interact with the burst-design margin established here.
+
 ## Public references
 
 - **Bourgoyne, Chenevert, Millheim, Young** — *Applied Drilling Engineering*, SPE Textbook Series Vol. 2, 1986 (ISBN 1-55563-001-4). Chapter 7 casing design.
@@ -63,5 +75,6 @@ Typical operator design factors (not API-mandated thresholds; operator-specified
 - [Casing Grades and PSL](casing-grades-and-psl.md) — grade families and PSL framework
 - [Casing Shoe Track](casing-shoe-track.md) — shoe / float-collar geometry and cement-bond design boundary
 - [API Spec 5CT](../standards/api-spec-5ct.md), [API RP 5C5](../standards/api-rp-5c5.md), [API RP 5C1](../standards/api-rp-5c1.md)
+- Production-engineering: [Perforating](../../../production-engineering/wiki/concepts/perforating.md), [Perforating Gun Systems](../../../production-engineering/wiki/concepts/perforating-gun-systems.md) — perforation policy / gun-detonation-pulse interaction with burst design
 - Downstream consumer: [vamseeachanta/workspace-hub#1958](https://github.com/vamseeachanta/workspace-hub/issues/1958) — slim-hole well-engineering calc module (casing-program comparison + economics) — this concept page is the design-rationale anchor that module's outputs should cite
 - Founding source: [Papkov (2026)](../sources/papkov-2026-drilling-tender-ai-agent.md) — AI-tender-evaluation downstream consumer

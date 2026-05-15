@@ -6,7 +6,7 @@ sources:
   - api-rp-11s2
   - api-rp-11s4
 added: 2026-05-14
-last_updated: 2026-05-14
+last_updated: 2026-05-15
 ---
 
 # Electric Submersible Pumps (ESP)
@@ -48,6 +48,15 @@ VFD adjusts motor frequency → motor RPM → pump RPM (essentially linear). Pum
 - **High-water-cut** → motor-cooling improves, but corrosion / scale considerations grow
 - **HPHT** → motor temperature rating + insulation system + seal-section rating need upgrading
 
+## Perforation density and phasing — IPR coupling
+
+The IPR curve that ESP sizing is built on is sensitive to **perforation skin**. The standard Karakas–Tariq decomposition makes shot density and phasing first-order inputs to the productivity index that flows directly into ESP head, stage count, and motor selection. Two operationally-relevant interactions:
+
+- **Gas-separation at the pump intake** is degraded when perforations are too closely spaced above the intake (free gas does not have enough vertical distance to coalesce before entering the pump). Setting intake well below the lowest active perforation is the standard mitigation, but perforation policy upstream of completion influences how far below.
+- **Re-perforation campaigns** are a common ESP-well intervention when IPR has decayed (skin growth, near-wellbore damage) — the ESP itself may be healthy, but the inflow has collapsed. Modelling the post-re-perforation IPR is the planning gate.
+
+See [Perforation Strategy](perforation-strategy.md) for the shot-density / phasing / EHL framework that sets the IPR floor.
+
 ## Public references
 
 - **API RP 11S family** — [api-rp-11s.md](../standards/api-rp-11s.md), [api-rp-11s1.md](../standards/api-rp-11s1.md), [api-rp-11s2.md](../standards/api-rp-11s2.md), [api-rp-11s4.md](../standards/api-rp-11s4.md), [api-rp-11s7.md](../standards/api-rp-11s7.md)
@@ -60,4 +69,5 @@ VFD adjusts motor frequency → motor RPM → pump RPM (essentially linear). Pum
 
 - [Artificial Lift Overview](artificial-lift-overview.md) — production-engineering-side method-selection router
 - [ESP Sizing](esp-sizing.md), [ESP Failure Modes](esp-failure-modes.md), [ESP Vendor Archetypes](esp-vendor-archetypes.md)
+- [Perforation Strategy](perforation-strategy.md) — perforation density / phasing / EHL sets the IPR floor that ESP sizing depends on
 - Drilling-engineering rod-pump cluster (cross-link for method-selection context): [Sucker-Rod Pumping Overview](../../../drilling-engineering/wiki/concepts/sucker-rod-pumping-overview.md), [Artificial-Lift Method Selection](../../../drilling-engineering/wiki/concepts/artificial-lift-method-selection.md)

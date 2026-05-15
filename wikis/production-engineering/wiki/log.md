@@ -4,6 +4,14 @@
 
 ---
 
+## [2026-05-15] ingest | PE Phase 2 sub-issue #81 — perforating (API RP 19B + 4 concept pages + 3 reverse cross-links)
+- Processed: API RP 19B (paraphrased structural intent; paywalled standard, no verbatim transcription). Textbook synthesis from Bell & Behrmann *Perforating Applications* (SPE Reprint Series), Walters & Zukas *Fundamentals of Shaped Charges* (Wiley 1989), Lyons handbook perforating chapter, SPE OnePetro perforating literature. Foundational papers: Karakas–Tariq 1991 (SPE Production Engineering 6(1)), McLeod 1983 (JPT 35(1)), Locke 1981 (JPT 33(12)), Birkhoff–MacDougall–Pugh–Taylor 1948 (J. Appl. Phys. 19(6)).
+- Pages created: standards/api-rp-19b.md, concepts/perforating.md, concepts/perforating-shaped-charges.md, concepts/perforation-strategy.md, concepts/perforating-gun-systems.md.
+- Pages updated (reverse cross-links per epic plan MINOR-4): concepts/electric-submersible-pumps.md (Perforation density / phasing IPR coupling section), concepts/gas-lift-overview.md (IPR coupling section), drilling-engineering/concepts/casing-program-design.md (Perforation policy — burst-rating interaction section + production-engineering cross-references).
+- Pages updated (index/log): wiki/index.md (page_count 27 → 32; +4 Concepts rows, +1 Standards row; ESP and gas-lift rows last_updated bumped). drilling-engineering/wiki/index.md (casing-program-design row last_updated bumped, summary noting cross-link).
+- Closes: vamseeachanta/llm-wiki#81 (PE Phase 2 epic #73 sub-issue 1).
+- Notes: All four perforating-design dimensions captured (shot density, phasing, charge type, pressure differential). Karakas–Tariq perforation-skin decomposition (s_h + s_v + s_wb) explicitly framed. Underbalanced / overbalanced / extreme-overbalanced selection logic captured. Conveyance families (TCP / wireline / CT-conveyed / through-tubing) and stand-off / casing-burst interaction documented. Vendor archetype framing only (Halliburton / Schlumberger / Baker Hughes / Owen Oil Tools / GEODynamics / DynaEnergetics / Hunting Titan) — no proprietary charge-design or firing-head details transcribed. API RP 19B section-numbering structural intent paraphrased; no verbatim transcription per paywalled-standard discipline. Phase 2 sub-issues 2 (sand control) and 3 (multi-zone & smart completions) remain out of scope for this session — Phase 2 epic #73 progress comment notes sub-issue 1 complete, sub-issues 2-3 ready for fresh sessions.
+
 ## [2026-05-14] ingest | PE Phase 1 sub-issue #66 — jet pump + hydraulic lift (3 concept pages, no standards)
 - Processed: textbook synthesis from Brown 1980 *Technology of Artificial Lift Methods* Vol 2b (jet-pump + hydraulic-piston-pump + power-fluid chapters), Lyons handbook artificial-lift section, SPE OnePetro literature.
 - Pages created: concepts/jet-pump.md, concepts/hydraulic-piston-pump.md, concepts/power-fluid-systems.md.

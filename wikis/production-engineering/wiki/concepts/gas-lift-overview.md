@@ -5,7 +5,7 @@ sources:
   - api-rp-11v6
   - api-spec-11v1
 added: 2026-05-14
-last_updated: 2026-05-14
+last_updated: 2026-05-15
 ---
 
 # Gas Lift Overview
@@ -46,10 +46,21 @@ Gas lift uses high-pressure gas injected down the annulus, entering production t
 | Long mean-time-to-failure | Multipointing / heading instabilities require diagnosis |
 | Depth effectively unlimited (subject to gas-pressure budget) | Operationally more sensitive than rod-pump for unstable wells |
 
+## IPR coupling — perforation strategy interaction
+
+Gas-lift design depends on the **IPR curve** (inflow-performance relationship) of the producing interval — kickoff procedure, operating-valve depth, and gas-injection rate are all set against the IPR shape. When IPR is dominated by **perforation skin**, gas-lift design is effectively sized to the perforation policy upstream of completion:
+
+- A well with high perforation skin (low shot density, OBP without acid cleanup, short EHL relative to damage radius) presents a stiff IPR — gas lift has to fight a steep pressure drawdown for low rate gain.
+- Re-perforation as a workover intervention can transform an under-performing gas-lift well's economics; modelling the post-re-perforation IPR drives the workover business case.
+- Re-orienting an existing gas-lift design after a re-perforation campaign typically means re-spacing valves to take advantage of the new IPR — Brown-Camp re-design from the new operating envelope.
+
+See [Perforation Strategy](perforation-strategy.md) for the shot-density / phasing / EHL framework that sets the IPR floor.
+
 ## Cross-references
 
 - [Gas Lift Valve Design](gas-lift-valve-design.md), [Gas Lift Valve Spacing](gas-lift-valve-spacing.md), [Gas Lift Troubleshooting](gas-lift-troubleshooting.md)
 - [Artificial Lift Overview](artificial-lift-overview.md)
+- [Perforation Strategy](perforation-strategy.md) — IPR coupling
 - [API RP 11V6](../standards/api-rp-11v6.md), [API RP 11V2](../standards/api-rp-11v2.md), [API Spec 11V1](../standards/api-spec-11v1.md)
 - Drilling-engineering cross-link: [Artificial-Lift Method Selection](../../../drilling-engineering/wiki/concepts/artificial-lift-method-selection.md)
 
