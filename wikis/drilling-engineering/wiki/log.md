@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-05-14] ingest | DE Phase 3 sub-issue #70 — plug and abandonment (API Bull E3 + IOGP 484 + NORSOK D-010 + P&A concept cluster)
+- Processed: API Bulletin E3 (US wellbore plugging), IOGP 484 (international industry consensus), NORSOK D-010 (NCS well integrity, Rev 4 2021). Textbook synthesis from SPE OnePetro P&A literature + King multi-well-pad-drilling P&A chapters + Oil & Gas UK Well Decommissioning Guidelines context.
+- Pages created: standards/api-bull-e3.md, standards/iogp-484.md, standards/norsok-d-010.md, concepts/plug-and-abandonment-overview.md, concepts/pa-barrier-philosophy.md, concepts/pa-cement-plug-design.md, concepts/pa-permanent-vs-temporary.md, concepts/pa-rigless-operations.md.
+- Pages updated: wiki/index.md (page_count 105 → 113; +5 Concepts rows, +3 Standards rows).
+- Closes: vamseeachanta/llm-wiki#70 (DE Phase 3 sub-issue, parent epic #67).
+- Notes: Two-barrier principle captured as the load-bearing P&A safety framework. Regulatory landscape table (US BSEE / UK OGUK / Norway PSA / international IOGP) + NORSOK D-010 100m primary + 50m secondary plug spec. Permanent vs TA distinction. Rigless P&A cost economics (40-70% savings vs rig-mobilized). Cross-refs to Phase 2 cementing cluster (slurry-design + classes + evaluation + primary-cementing) + Phase 2 well-services-and-downhole-tools (CT + wireline + intervention-methods).
+
 ## [2026-05-14] ingest | DE Phase 3 sub-issue #68 — MPD / UBD / dual-gradient drilling (API RP 92M + RP 92U + specialty-mode concepts)
 - Processed: API RP 92M (MPD), API RP 92U (UBD). Textbook synthesis from Rehm et al. *Managed Pressure Drilling* Gulf Publishing 2008 (ISBN 978-1-933762-24-1), IADC UBO/MPD Committee publications, SPE/IADC MPD Conference proceedings, Bourgoyne Ch. 4 adjacent context.
 - Pages created: standards/api-rp-92m.md, standards/api-rp-92u.md, concepts/managed-pressure-drilling.md, concepts/underbalanced-drilling.md, concepts/dual-gradient-drilling.md, concepts/mpd-equipment.md, concepts/ubd-fluid-types.md.

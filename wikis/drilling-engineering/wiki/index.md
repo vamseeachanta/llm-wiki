@@ -2,7 +2,7 @@
 domain: drilling-engineering
 created: 2026-05-13
 last_updated: 2026-05-14
-page_count: 105
+page_count: 113
 source_count: 1
 ---
 
@@ -78,6 +78,11 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Mud Properties](concepts/mud-properties.md) | Density, rheology (Bingham / power-law / Herschel-Bulkley), fluid loss, gel strengths, pH. | 2026-05-13 |
 | [Mud System Equipment](concepts/mud-system-equipment.md) | Shale shakers, desander, desilter, mud cleaner, centrifuge, degasser; surface solids-control train. | 2026-05-13 |
 | [Offset Well Analysis](concepts/offset-well-analysis.md) | Mining historical-well data for bit performance, ROP, NPT, formation tops, mud-weight log; AI tender-evaluation input. | 2026-05-13 |
+| [P&A Barrier Philosophy](concepts/pa-barrier-philosophy.md) | Two-barrier principle codified by IOGP 484 + NORSOK D-010; independent barrier elements; verification (tag + positive + negative pressure tests). | 2026-05-14 |
+| [P&A Cement Plug Design](concepts/pa-cement-plug-design.md) | NORSOK D-010 baseline (100 m primary + 50 m secondary); balance-plug + squeeze + balanced-mud-cap methods; formation-behind-plug requirement. | 2026-05-14 |
+| [P&A Permanent vs Temporary](concepts/pa-permanent-vs-temporary.md) | Permanent abandonment (full barriers, wellhead removed) vs temporary suspension (TA, future-re-entry possible). | 2026-05-14 |
+| [P&A Rigless Operations](concepts/pa-rigless-operations.md) | P&A using well-services equipment (CT / wireline / snubbing / HWU) without rig mobilization; 40-70% cost reduction. | 2026-05-14 |
+| [Plug and Abandonment Overview](concepts/plug-and-abandonment-overview.md) | Lifecycle-terminal operation; permanent isolation + cap-rock restoration; regulatory drivers (BSEE / OGUK / PSA / IOGP); $1-10M+ offshore cost typical. | 2026-05-14 |
 | [Platform Rig](concepts/platform-rig.md) | Drilling rig installed on a fixed offshore production platform (jacket, GBS, compliant tower, spar, TLP). | 2026-05-13 |
 | [Primary Cementing](concepts/primary-cementing.md) | Spacer + lead + tail cement displacement sequence; mud-removal mechanisms; failure signatures. | 2026-05-13 |
 | [Pump Cards and Dynamometer](concepts/pump-cards-and-dynamometer.md) | Surface vs downhole card; gas interference, fluid pound, gas lock, parted rods signatures. | 2026-05-13 |
@@ -114,6 +119,9 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [API RP 7L — Drilling Equipment Inspection / Maintenance / Remanufacture](standards/api-rp-7l.md) | Operational-life management of Spec 7K / Spec 7-1 equipment plus wireline / slickline equipment inspection. | 2026-05-13 |
 | [API RP 92M — Managed Pressure Drilling Operations](standards/api-rp-92m.md) | MPD canonical reference; IADC 4-category classification (CBHP, PMCD, Dual-Gradient, Returns-Flow-Control). | 2026-05-14 |
 | [API RP 92U — Underbalanced Drilling Operations](standards/api-rp-92u.md) | UBD fluid types (air / mist / foam / gasified-mud / aerated-mud), reservoir-protection framework, surface separation. | 2026-05-14 |
+| [API Bulletin E3 — Wellbore Plugging](standards/api-bull-e3.md) | US-anchored practitioner guidance for cement-plug operations during P&A or temporary suspension. | 2026-05-14 |
+| [IOGP 484 — Wellbore Plug and Abandonment Guidelines](standards/iogp-484.md) | International-industry-consensus P&A guidance; codifies two-barrier principle + abandonment classes. | 2026-05-14 |
+| [NORSOK D-010 — Well Integrity in Drilling and Well Operations](standards/norsok-d-010.md) | NCS well-integrity standard, widely referenced internationally; Rev 4 (2021); two-barrier institutionalized + lifecycle coverage. | 2026-05-14 |
 | [API Spec 4F — Drilling and Well Servicing Structures](standards/api-spec-4f.md) | Derricks, masts, substructures, crown-block assemblies; SSL framework; AISC update; 5e+Add 1 (2023). | 2026-05-13 |
 | [API Spec 10A — Well Cements](standards/api-spec-10a.md) | Classes A through H + special-purpose blends; identical adoption of ISO 10426-1. | 2026-05-13 |
 | [API Spec 11AX — Subsurface Sucker Rod Pump Assemblies](standards/api-spec-11ax.md) | Insert and tubing pumps; 12-character pump-designation code; 13e May 2015 + Add 1 (2019) + Err 1 (2023). | 2026-05-13 |
