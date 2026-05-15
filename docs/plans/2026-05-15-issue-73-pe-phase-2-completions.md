@@ -1,7 +1,7 @@
 ---
 title: "Issue #73 plan — Production Engineering Phase 2 corpus build-out (completions)"
 issue: 73
-status: draft
+status: plan-review
 created: 2026-05-15
 last_updated: 2026-05-15
 public_safety: API/SPE standards anchors + original concept authoring; NO vendor-confidential completion/frac manuals
@@ -153,9 +153,11 @@ No runtime calc to reproduce — content-authoring scope. **Reproduction proofs:
 
 ## Adversarial review summary
 
-PENDING — fill in after Step 4 completes.
+**Round 1 — 2026-05-15** (single-author Claude fallback per [[feedback_permission_gate_blocks_cross_review]])
 
 | Provider | Verdict | Key findings |
 |---|---|---|
-| Claude | — | — |
-| Codex | — | — |
+| Claude | MINOR | (1) API RP 19SC and RP 19WC likely don't exist as standalone API standards — replace with API RP 90 / SPE Monograph 9 (sand control) and ISO 14998 / SPE 35545 (smart completion). (2) Sub-issue 1 (perforating) scope is large (5 topic clusters); accept ~500-line concept page or split. (3) Cross-link plan assumes Phase 1 page names — verify by `ls wikis/production-engineering/wiki/concepts/` before installing. (4) Phase 1 reverse-cross-link edits not in Files-to-Change — add them explicitly. |
+| Codex | — | not run this round (T2 scope warrants Codex; deferred to user direction) |
+
+**Overall result:** approval-ready after API standards verification (high-priority MINOR-1) and Phase 1 reverse-cross-link Files-to-Change addition (MINOR-4). Review artifact: [scripts/review/results/2026-05-15-plan-73-claude.md](../../../scripts/review/results/2026-05-15-plan-73-claude.md).

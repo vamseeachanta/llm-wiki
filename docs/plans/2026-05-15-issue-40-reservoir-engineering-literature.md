@@ -1,7 +1,7 @@
 ---
 title: "Issue #40 plan — reservoir engineering literature corpus build-out"
 issue: 40
-status: draft
+status: plan-review
 created: 2026-05-15
 last_updated: 2026-05-15
 public_safety: local-corpus triage + concept-page authoring; NO ingestion of paywalled/proprietary content; license-filter required
@@ -117,9 +117,12 @@ No runtime calc to reproduce per Step 1.5 — this is a corpus-build issue, not 
 
 ## Adversarial review summary
 
-PENDING — fill in after Step 4 completes.
+**Round 1 — 2026-05-15** (single-author Claude fallback per [[feedback_permission_gate_blocks_cross_review]]; Codex/Gemini deferred to user-approval decision)
 
 | Provider | Verdict | Key findings |
 |---|---|---|
-| Claude | — | — |
-| Codex | — | — |
+| Claude | MINOR | (1) "≥50 sources" target is arbitrary — recommend "≥30 high-quality OR ≥50 mixed" with Kaggle-driven justification. (2) Coordination gap with [#2667 Domain Knowledge Sweep](https://github.com/vamseeachanta/workspace-hub/issues/2667) not addressed — clarify whether independent / child / parallel. (3) Concept-page slate (porosity, permeability, GR log, dip-azimuth, formation tops) is formation-eval, not core reservoir-engineering — decide scope: "formation-eval foundation for Kaggle" (rename target) or "RE domain founding" (add ≥3 core RE concepts). (4) Add governance tests: license-note no-blank + cross-link resolver. |
+| Codex | — | not run this round (T3 scope warrants Codex; deferred to user direction) |
+| Gemini | — | not run this round (T3 scope warrants Gemini; deferred to user direction) |
+
+**Overall result:** approval-ready conditional on scope-clarification answer from user (formation-eval vs RE-domain). Review artifact: [scripts/review/results/2026-05-15-plan-40-claude.md](../../../scripts/review/results/2026-05-15-plan-40-claude.md).

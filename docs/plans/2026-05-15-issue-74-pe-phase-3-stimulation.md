@@ -1,7 +1,7 @@
 ---
 title: "Issue #74 plan — Production Engineering Phase 3 corpus build-out (stimulation)"
 issue: 74
-status: draft
+status: plan-review
 created: 2026-05-15
 last_updated: 2026-05-15
 public_safety: API/SPE standards anchors + original concept authoring; NO vendor-confidential frac-design or stimulation-chemistry manuals
@@ -149,9 +149,11 @@ No runtime calc to reproduce. **Reproduction proofs: N/A — content-authoring s
 
 ## Adversarial review summary
 
-PENDING — fill in after Step 4 completes.
+**Round 1 — 2026-05-15** (single-author Claude fallback per [[feedback_permission_gate_blocks_cross_review]])
 
 | Provider | Verdict | Key findings |
 |---|---|---|
-| Claude | — | — |
-| Codex | — | — |
+| Claude | MINOR | (1) API RP 39 has narrow scope (frac-fluid viscosity testing only) — supplement with SPE Monograph 17 (Reservoir Stimulation, Economides & Nolte) as broader frac reference; API RP 42 for surfactant testing. (2) DFIT acronym needs first-use expansion (Diagnostic Fracture Injection Test) in plan body and concept page. (3) Refrac sub-issue scope is thin (1 page); either fold into hydraulic-fracturing OR expand to also cover DFIT methodology + production-history-analysis decisioning. (4) "≤300 line" page bound is not enforceable — drop or replace with `tests/test_page_length.py` enforcing ≤500. (5) Phase 2 sand-control page name aligned; implementation should verify before cross-linking. |
+| Codex | — | not run this round (T2 scope warrants Codex; deferred to user direction) |
+
+**Overall result:** approval-ready after standards-reference correction (MINOR-1) and refrac sub-issue scope decision (MINOR-3). Review artifact: [scripts/review/results/2026-05-15-plan-74-claude.md](../../../scripts/review/results/2026-05-15-plan-74-claude.md).
