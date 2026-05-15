@@ -219,6 +219,18 @@ Phasing is **isotropic (60° / 90°)** for sand-control completions, in contrast
 
 See [Sand Control](sand-control.md) for the architecture catalogue, [Gravel Packing](gravel-packing.md) for the Saucier-criterion gravel-sizing logic, and [Frac Packing](frac-packing.md) for the tip-screen-out hybrid completion design.
 
+## Selective-production phasing for multi-zone completions
+
+In multi-zone selective completions (see [Multi-Zone Completions](multi-zone-completions.md) and [Selective Production](selective-production.md)), perforation strategy is set **per zone** rather than uniformly across the wellbore. The four-dimension framework above applies independently in each zone, with these additional couplings:
+
+- **Phasing alignment with zonal-isolation hardware** — perforations must fall within the tubing interval bounded by the upper and lower isolation packers for each zone. Perforating across a packer location creates an annular communication path that collapses the selective architecture.
+- **Density tuning to zone-specific reservoir-management role** — a zone designated for primary depletion in a sequenced-production strategy may justify higher shot density than a zone held in reserve for late-life production.
+- **Charge-type per zone** — zones with different reservoir conditions may require different charge families within the same completion (e.g., deep-penetrating in a damaged zone, big-hole in a high-rate sand-control zone).
+- **UBP feasibility per zone** — selective completions allow UBP to be applied zone-by-zone, with sliding-sleeve or ICV control isolating each zone's surge-flow event. This is operationally cleaner than commingled-completion UBP, which exposes the entire wellbore to simultaneous surge from all open zones.
+- **Smart-completion-aware perforation policy** — when ICVs (see [Downhole Flow Control](downhole-flow-control.md)) are installed, per-zone perforation policy can be designed against the specific drawdown-control range the ICV provides; over-perforating beyond what the ICV can throttle wastes the perforation effort.
+
+Cross-link: see [Multi-Zone Completions](multi-zone-completions.md) for the architectural overview and [Intelligent-Well Completions](intelligent-well-completions.md) for the smart-completion control system that operates ICVs.
+
 ## Common operator mistakes
 
 1. **Conflating RP 19B Section I (surface flat-target) with Section II (stressed Berea) penetration numbers.** Section I numbers are 30-50% larger than Section II for the same charge. Using the surface-test number inflates field-performance expectations.

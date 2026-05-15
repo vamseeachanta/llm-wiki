@@ -74,9 +74,26 @@ See [Perforation Strategy](perforation-strategy.md) for the shot-density / phasi
 - **Lyons (ed.)** — *Standard Handbook of Petroleum and Natural Gas Engineering*, Elsevier (ISBN 978-0-7506-7785-1)
 - **SPE OnePetro ESP literature** — gas-handling, sand-tolerance, HPHT-ESP applications
 
+## Multi-stage-ESP / multi-zone interactions — independent intake placement constraints
+
+ESP installations in multi-zone completions (see [Multi-Zone Completions](multi-zone-completions.md)) face distinct intake-placement constraints relative to single-zone completions:
+
+- **Single-ESP, multi-zone commingled** — the ESP services the aggregated flow from all zones. Intake placement must accommodate the gas-separation needs of the highest-GOR zone and the solids-handling needs of the highest-sand-cut zone simultaneously. Operating-point design uses the aggregate IPR.
+- **Single-ESP, multi-zone selective** — the ESP services flow only from currently-active zones (per ICV or sliding-sleeve state). Operating point shifts as zone-status changes; VFD-driven rate adjustment is the principal coping mechanism.
+- **Multi-stage-ESP / tandem ESP configurations** — some deep, multi-zone completions deploy two ESP units in series (lower-stage ESP feeding upper-stage ESP). Each unit must be sized for its operating envelope; control-system integration must coordinate the two units.
+- **Smart-completion overlay** — when ICVs and downhole monitoring are installed (see [Intelligent-Well Completions](intelligent-well-completions.md)), per-zone production data supports active ESP-operating-point management; the operator can adjust ICV positions and VFD frequency together to optimize across zone status, ESP loading, and surface facility constraints.
+
+Operational discipline:
+
+- Free-gas at intake is influenced by perforation density above the intake AND by which zones are open; the gas-separation challenge varies with selective-completion state.
+- Multi-zone ESP wells benefit disproportionately from downhole monitoring because the ESP-loading problem cannot be diagnosed from surface VFD telemetry alone when zone-state can change downhole.
+
+Cross-link: see [Multi-Zone Completions](multi-zone-completions.md) for the architectural overview and [Downhole Flow Control](downhole-flow-control.md) for the ICV / ICD / AICD families that pair with ESP in smart-completion architectures.
+
 ## Cross-references
 
 - [Artificial Lift Overview](artificial-lift-overview.md) — production-engineering-side method-selection router
 - [ESP Sizing](esp-sizing.md), [ESP Failure Modes](esp-failure-modes.md), [ESP Vendor Archetypes](esp-vendor-archetypes.md)
 - [Perforation Strategy](perforation-strategy.md) — perforation density / phasing / EHL sets the IPR floor that ESP sizing depends on
+- [Multi-Zone Completions](multi-zone-completions.md), [Downhole Flow Control](downhole-flow-control.md), [Intelligent-Well Completions](intelligent-well-completions.md) — multi-zone ESP coupling
 - Drilling-engineering rod-pump cluster (cross-link for method-selection context): [Sucker-Rod Pumping Overview](../../../drilling-engineering/wiki/concepts/sucker-rod-pumping-overview.md), [Artificial-Lift Method Selection](../../../drilling-engineering/wiki/concepts/artificial-lift-method-selection.md)

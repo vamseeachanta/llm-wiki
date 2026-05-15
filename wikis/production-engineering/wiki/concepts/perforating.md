@@ -173,6 +173,18 @@ Perforating into an unconsolidated sand interval that will be completed with a s
 
 The sand-control framework lives in a dedicated cluster: see [Sand Control](sand-control.md) for the architecture catalogue and decision framework, [Gravel Packing](gravel-packing.md) for the Saucier-criterion gravel-sizing logic and pack-placement methodology, and [Frac Packing](frac-packing.md) for the tip-screen-out hybrid completion design.
 
+## Multi-zone completion coupling — selective-production perforation strategy
+
+In multi-zone selective completions (see [Multi-Zone Completions](multi-zone-completions.md)), perforation policy must be tuned **per zone**, not averaged across the wellbore. Distinct considerations:
+
+- **Per-zone charge selection** — each zone's reservoir conditions (permeability, damage profile, fluid type) drive its own deep-penetrating vs big-hole choice; a single completion may carry deep-penetrating charges in one zone and big-hole charges in another.
+- **Per-zone density and phasing** — shot density and phasing should be matched to each zone's anisotropy and intended flow path, not set uniformly.
+- **Underbalanced perforating discipline** — selective completions complicate UBP planning because the surge-flow comes from the perforated zone only; surface-equipment sizing must account for which zone(s) are isolated open at the time of detonation.
+- **Zonal-isolation hardware coupling** — the perforation interval must align with the zone defined by the upper and lower isolation packers; perforating across a packer location creates communication paths that defeat the selective architecture.
+- **Smart-completion overlay** — when ICVs are installed (see [Intelligent-Well Completions](intelligent-well-completions.md)), per-zone perforation policy can be designed for the specific reservoir-management strategies the ICVs will support.
+
+Cross-link: see [Multi-Zone Completions](multi-zone-completions.md) for the architectural overview and [Selective Production](selective-production.md) for the zonal-isolation hardware framework.
+
 ## Standards anchor
 
 - [API RP 19B — Evaluation of Well Perforators](../standards/api-rp-19b.md) — the practitioner-canonical test methodology

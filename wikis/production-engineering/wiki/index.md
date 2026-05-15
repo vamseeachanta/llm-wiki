@@ -2,7 +2,7 @@
 domain: production-engineering
 created: 2026-05-13
 last_updated: 2026-05-15
-page_count: 37
+page_count: 42
 source_count: 0
 ---
 
@@ -19,6 +19,7 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | Page | Summary | Last Updated |
 |------|---------|-------------|
 | [Artificial Lift Overview](concepts/artificial-lift-overview.md) | Six artificial-lift method families with detailed coverage of ESP / gas lift / PCP / plunger lift / jet pump / hydraulic lift; rod-pump cross-link to drilling-engineering. | 2026-05-13 |
+| [Downhole Flow Control](concepts/downhole-flow-control.md) | Inflow-control hardware spectrum: ICDs (passive), AICDs (autonomous, fluid-responsive), ICVs (active, remotely actuated). Reservoir-management strategy enablement. | 2026-05-15 |
 | [Electric Submersible Pumps (ESP)](concepts/electric-submersible-pumps.md) | Downhole multi-stage centrifugal pump driven by surface-VFD-powered motor; 500-30,000+ bbl/d; system anatomy + operating principle + strengths/weaknesses. Perforation density / phasing IPR coupling. | 2026-05-15 |
 | [ESP Failure Modes](concepts/esp-failure-modes.md) | Cable failures (~30-40% of pulls), motor / pump / seal-section failures; VFD-telemetry operational signatures. | 2026-05-14 |
 | [ESP Sizing](concepts/esp-sizing.md) | IPR → TDH → pump-stages → motor → cable → VFD iterative sizing workflow per API RP 11S4. | 2026-05-14 |
@@ -30,7 +31,9 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Gas Lift Valve Spacing](concepts/gas-lift-valve-spacing.md) | Brown-Camp graphical method + modern computational spacing; kickoff/unloading cascade from surface to operating-valve depth. | 2026-05-14 |
 | [Gravel Packing](concepts/gravel-packing.md) | OHGP and CHGP architectures, Saucier-criterion gravel-sizing (D₅₀ ratio 5-6×), pack-placement methodology (alpha-beta wave, HRWP, slurry pack); common operator mistakes. | 2026-05-15 |
 | [Hydraulic Piston Pump](concepts/hydraulic-piston-pump.md) | Downhole reciprocating piston pump driven by power fluid; open vs closed-loop configurations; deep-well alternative to ESP. | 2026-05-14 |
+| [Intelligent-Well Completions](concepts/intelligent-well-completions.md) | Smart-completion architecture: remotely-actuated flow control + downhole monitoring (PT gauges / DTS / DAS) + control-line bundle + surface SCADA. Concept-level only; vendor-IP firewall posture. | 2026-05-15 |
 | [Jet Pump](concepts/jet-pump.md) | No-moving-parts Venturi mixer driven by power fluid; throat-to-nozzle ratio sets pressure-rise vs rate; cavitation envelope. | 2026-05-14 |
+| [Multi-Zone Completions](concepts/multi-zone-completions.md) | Router for stacked-pay completion architectures: selective vs commingled, zonal-isolation hardware, downhole flow control overlay, smart-completion integration. SSSV envelope per API Spec 14A. | 2026-05-15 |
 | [PCP Elastomer Chemistry](concepts/pcp-elastomer-chemistry.md) | NBR / HNBR / FKM / EPDM elastomer families; fluid-compatibility framework; common failure modes (swelling / hardening / softening / chunking). | 2026-05-14 |
 | [PCP Heavy-Oil Application](concepts/pcp-heavy-oil-application.md) | PCP dominance in heavy-oil and bitumen production; sand-control by design; cold-flow vs thermal (SAGD/CSI) considerations. | 2026-05-14 |
 | [Perforating](concepts/perforating.md) | Router page for perforating coverage: physics summary, shot-density / phasing / charge-type / differential framework, IPR coupling to artificial lift, casing-burst interaction. | 2026-05-15 |
@@ -44,6 +47,7 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Progressing-Cavity Pumps (PCP)](concepts/progressing-cavity-pumps.md) | Helical rotor in elastomeric stator; surface-driven vs ESPCP variants; niche for high-viscosity + high-solids service. | 2026-05-14 |
 | [Sand Control](concepts/sand-control.md) | Router page for sand-control coverage: failure modes, completion-architecture catalogue (selective perf / chemical / standalone-screen / prepacked / OHGP / CHGP / frac-pack / expandable), decision framework, perforation-strategy coupling. | 2026-05-15 |
 | [Sand Control Screens](concepts/sand-control-screens.md) | Standalone (wire-wrap / slotted-liner), prepacked, expandable, premium-mesh screen families; PSD-driven selection logic; ISO 17824 qualification framework. | 2026-05-15 |
+| [Selective Production](concepts/selective-production.md) | Zonal-isolation hardware: production packers, sliding sleeves, polished-bore receptacles, single-trip multi-zone (STMZ) systems. Failure modes and operational discipline. | 2026-05-15 |
 
 ## Standards
 
@@ -60,6 +64,7 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [API Spec 11V1 — Gas Lift Valve Specification](standards/api-spec-11v1.md) | Manufacturing requirements for gas-lift valves: IPO/PPO, bellows/spring, side-pocket vs tubing-retrievable. | 2026-05-14 |
 | [API Spec 11W — Progressing-Cavity Pumping Systems](standards/api-spec-11w.md) | PCP design and testing; surface-driven and ESPCP variants; rotor/stator geometry + elastomer chemistry. | 2026-05-14 |
 | [ISO 17824 — Sand Control Screens (Open-Hole Gravel Pack)](standards/iso-17824.md) | International qualification standard for downhole sand-control screens used in open-hole gravel-pack service; pairs with ISO 17825 (cased-hole). | 2026-05-15 |
+| [API Spec 14A — Subsurface Safety Valve Equipment](standards/api-spec-14a.md) | Specification for SSSV equipment in production tubing; the safety-barrier envelope that all multi-zone and smart-completion control-line bundles must respect. | 2026-05-15 |
 
 ## Entities
 

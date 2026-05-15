@@ -46,6 +46,36 @@ Gas lift uses high-pressure gas injected down the annulus, entering production t
 | Long mean-time-to-failure | Multipointing / heading instabilities require diagnosis |
 | Depth effectively unlimited (subject to gas-pressure budget) | Operationally more sensitive than rod-pump for unstable wells |
 
+## Multi-zone gas-lift — independent zonal injection vs commingled lift-gas distribution
+
+When a gas-lifted well has a multi-zone or selective completion architecture (see [Multi-Zone Completions](multi-zone-completions.md)), the gas-lift design must be tuned to the zonal-isolation arrangement. Two structurally distinct architectures emerge:
+
+### Commingled lift-gas distribution
+
+In a commingled multi-zone completion, all zones produce into a common production stream and the gas-lift system services the aggregate flow. The operating-valve depth is set against the IPR of the aggregated multi-zone inflow; per-zone gas-lift tuning is not possible. Strengths: lowest first cost, simplest operation. Weaknesses: when one zone develops different fluid properties (water cut, GOR, gradient) the gas-lift design optimized for the original aggregate IPR may become poorly tuned.
+
+### Independent zonal gas-lift injection
+
+In selective completions with downhole flow control (see [Downhole Flow Control](downhole-flow-control.md)), each zone may have its own gas-lift mandrel and operating valve, allowing gas-injection rate and depth to be tuned per zone. This is most common in:
+
+- **Stacked-pay reservoirs** with distinct fluid types per zone, where shared gas-lift design would be a poor compromise.
+- **Smart-completion architectures** ([Intelligent-Well Completions](intelligent-well-completions.md)) where remotely-actuated ICVs can be combined with zone-by-zone gas-lift tuning to enable closed-loop reservoir management.
+
+Operational discipline:
+
+- Per-zone unloading sequences are more complex than single-zone unloading; the order of valve openings across zones must be planned to avoid surface-equipment overload.
+- Crossflow risk on shut-in is elevated (gas can flow from a higher-pressure zone's annulus to a lower-pressure zone's tubing); shut-in procedures must include zone-isolation steps.
+- Multi-zone gas-lift wells benefit disproportionately from downhole monitoring (per-zone PT gauges) because surface measurement alone cannot resolve per-zone gas-lift performance.
+
+| Aspect | Commingled lift-gas | Independent zonal injection |
+|---|---|---|
+| First cost | Lowest | Higher (per-zone valves, mandrels, control hardware) |
+| Reservoir-management granularity | Aggregate only | Per-zone |
+| Surveillance requirement | Surface-only sufficient | Downhole monitoring strongly recommended |
+| Best fit | Compatible-zone stacked completions | Heterogeneous-zone or smart completions |
+
+See [Multi-Zone Completions](multi-zone-completions.md) for the full architectural overview.
+
 ## IPR coupling — perforation strategy interaction
 
 Gas-lift design depends on the **IPR curve** (inflow-performance relationship) of the producing interval — kickoff procedure, operating-valve depth, and gas-injection rate are all set against the IPR shape. When IPR is dominated by **perforation skin**, gas-lift design is effectively sized to the perforation policy upstream of completion:
@@ -61,6 +91,7 @@ See [Perforation Strategy](perforation-strategy.md) for the shot-density / phasi
 - [Gas Lift Valve Design](gas-lift-valve-design.md), [Gas Lift Valve Spacing](gas-lift-valve-spacing.md), [Gas Lift Troubleshooting](gas-lift-troubleshooting.md)
 - [Artificial Lift Overview](artificial-lift-overview.md)
 - [Perforation Strategy](perforation-strategy.md) — IPR coupling
+- [Multi-Zone Completions](multi-zone-completions.md), [Downhole Flow Control](downhole-flow-control.md), [Intelligent-Well Completions](intelligent-well-completions.md) — multi-zone gas-lift coupling
 - [API RP 11V6](../standards/api-rp-11v6.md), [API RP 11V2](../standards/api-rp-11v2.md), [API Spec 11V1](../standards/api-spec-11v1.md)
 - Drilling-engineering cross-link: [Artificial-Lift Method Selection](../../../drilling-engineering/wiki/concepts/artificial-lift-method-selection.md)
 
