@@ -1,9 +1,9 @@
 ---
 domain: asset-management
 created: 2026-04-28 19:24 UTC
-last_updated: 2026-05-03
-page_count: 23
-source_count: 1
+last_updated: 2026-05-14
+page_count: 24
+source_count: 2
 ---
 
 # Knowledge Index: asset-management
@@ -62,6 +62,7 @@ _No entity pages yet._
 
 | Page | Summary | Last Updated |
 |------|---------|-------------|
+| [[BSEE (2024) — Deepwater Dynamic Pipeline Riser Life Extension Perspectives and Process]](sources/bsee-2024-deepwater-dynamic-pipeline-riser-life-extension.md) | BSEE Pipeline-Section conference presentation on US OCS regulatory framework for dynamic-pipeline-riser life extension under 30 CFR 250.910 / 250.916; CVA process; 8-step life-extension procedure; max 20-yr initial + 10-yr extension. Public-record per row 5 of the service-provider data routing matrix. | 2026-05-14 |
 | [[Elements ingest catalog — assethold-casa-grande-77017]](sources/elements-assethold-casa-grande-77017.md) | Casa Grande assethold corpus from the Elements drive; **out of scope** for engineering integrity asset management — see scope boundary above. | 2026-04-28 |
 
 ## Comparisons

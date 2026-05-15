@@ -14,3 +14,13 @@
 ## [2026-05-11] update | Software and method linkage
 - Pages updated: index.md, software-and-method-links.md
 - Notes: Added public-safe assethold/worldenergydata/website method anchors; private holdings, account, and finance data remain excluded.
+
+## [2026-05-14] ingest | BSEE (2024) — Deepwater Dynamic Pipeline Riser Life Extension Perspectives and Process
+- Processed: BSEE Pipeline-Section conference presentation at DNV Technology Week 2024-10-22 by Angie D. Gobert; 12-slide PDF retrieved from bsee.gov via direct download; text extracted via pdftotext (PDF has embedded selectable text despite slide-deck rendering).
+- Pages created: wiki/sources/bsee-2024-deepwater-dynamic-pipeline-riser-life-extension.md.
+- Pages updated: wiki/index.md (page_count 23 -> 24; source_count 1 -> 2; +1 Sources row).
+- Cross-links recorded (no edits to other wikis in this ingest): asset-management concepts/life-extension, concepts/integrity-management-cycle, concepts/fitness-for-service, concepts/risk-based-inspection, standards/dnv-rp-g101; marine-engineering concepts/riser-extreme-statistics-orcaflex-workbooks.
+- Governance: routed per llm-wiki/docs/governance/service-provider-data-routing.md row 5 (public regulator publication under 17 U.S.C. § 105). No raw PDF deposit in this repo; PDF lives off-repo at standard cache locations and was processed transiently.
+- Deviation from approved spec: the original design doc (workspace-hub docs/governance/2026-05-14-service-provider-data-routing-and-bsee-ingest-design.md, D2) targeted drilling-engineering as the home wiki, based on URL keyword inference. Re-routed to asset-management after content-grade pdftotext read confirmed the document covers production-pipeline dynamic risers (SCR/SLWR/flexible/FSHR) under BSEE Pipeline Section regulation 30 CFR 250 — not drilling marine risers. Documented in the design doc's deviation log.
+- Out of scope (deferred): concept page deepwater-dynamic-riser-life-extension-process.md (needs API RP 17G + DNV-OS-F201 multi-source grounding per workspace-hub feedback_llm_wiki_concept_pages_need_public_references); standards pages api-rp-1160 / api-rp-2rim / 30-cfr-250-subpart-i; CVA concept page.
+- No raw PDFs, BSEE staff-roster data, slide-deck figures, or vendor-derivative content transcribed verbatim.
