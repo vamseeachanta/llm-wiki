@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-05-14] ingest | PE Phase 1 sub-issue #66 — jet pump + hydraulic lift (3 concept pages, no standards)
+- Processed: textbook synthesis from Brown 1980 *Technology of Artificial Lift Methods* Vol 2b (jet-pump + hydraulic-piston-pump + power-fluid chapters), Lyons handbook artificial-lift section, SPE OnePetro literature.
+- Pages created: concepts/jet-pump.md, concepts/hydraulic-piston-pump.md, concepts/power-fluid-systems.md.
+- Pages updated: wiki/index.md (page_count 24 → 27; +3 Concepts rows).
+- Closes: vamseeachanta/llm-wiki#66 (PE Phase 1 sub-issue, parent epic #61) — completes PE Phase 1.
+- Notes: Jet pump = no moving parts (Venturi); hydraulic piston pump = moving parts but hydraulic-driven (distinguished). Throat-to-nozzle ratio + cavitation envelope captured for jet pump. Open/commingled vs closed-loop variants for hydraulic-piston. Power-fluid quality requirements (< 5 ppm solids, < 1-5% BS&W). Cross-link to drilling-engineering coiled-tubing-overview.md (jet pumps sometimes CT-deployed for intervention). API RP 11AR named as potential future standards anchor.
+
 ## [2026-05-14] ingest | PE Phase 1 sub-issue #65 — plunger lift (3 concept pages, no standards)
 - Processed: textbook synthesis from Brown 1977 *Technology of Artificial Lift Methods* Vol 1, Foss & Gaul (1965) classic plunger-lift design paper from *Drilling and Production Practice* (API), SPE OnePetro plunger-lift literature, Lyons handbook.
 - Pages created: concepts/plunger-lift.md, concepts/plunger-lift-cycle-optimization.md, concepts/plunger-lift-equipment.md.

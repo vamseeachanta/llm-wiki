@@ -2,7 +2,7 @@
 domain: production-engineering
 created: 2026-05-13
 last_updated: 2026-05-14
-page_count: 24
+page_count: 27
 source_count: 0
 ---
 
@@ -27,11 +27,14 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Gas Lift Troubleshooting](concepts/gas-lift-troubleshooting.md) | Multipointing, heading, valve-failure modes; surface-pressure instability; diagnostic instrumentation. | 2026-05-14 |
 | [Gas Lift Valve Design](concepts/gas-lift-valve-design.md) | IPO vs PPO actuation, bellows vs spring force source, dome pressure + spread, side-pocket vs tubing-retrievable mandrels. | 2026-05-14 |
 | [Gas Lift Valve Spacing](concepts/gas-lift-valve-spacing.md) | Brown-Camp graphical method + modern computational spacing; kickoff/unloading cascade from surface to operating-valve depth. | 2026-05-14 |
+| [Hydraulic Piston Pump](concepts/hydraulic-piston-pump.md) | Downhole reciprocating piston pump driven by power fluid; open vs closed-loop configurations; deep-well alternative to ESP. | 2026-05-14 |
+| [Jet Pump](concepts/jet-pump.md) | No-moving-parts Venturi mixer driven by power fluid; throat-to-nozzle ratio sets pressure-rise vs rate; cavitation envelope. | 2026-05-14 |
 | [PCP Elastomer Chemistry](concepts/pcp-elastomer-chemistry.md) | NBR / HNBR / FKM / EPDM elastomer families; fluid-compatibility framework; common failure modes (swelling / hardening / softening / chunking). | 2026-05-14 |
 | [PCP Heavy-Oil Application](concepts/pcp-heavy-oil-application.md) | PCP dominance in heavy-oil and bitumen production; sand-control by design; cold-flow vs thermal (SAGD/CSI) considerations. | 2026-05-14 |
 | [Plunger Lift](concepts/plunger-lift.md) | Free-piston cycling between bottomhole and surface; energy from reservoir gas; 4-phase cycle anatomy (afterflow / shut-in / arrival / return). | 2026-05-14 |
 | [Plunger Lift Cycle Optimization](concepts/plunger-lift-cycle-optimization.md) | Foss-Gaul method + modern surface-controller cycle tuning; shut-in vs afterflow trade-off. | 2026-05-14 |
 | [Plunger Lift Equipment](concepts/plunger-lift-equipment.md) | Wellhead lubricator + catcher + motor valve + surface controller; plunger types (turbulent/brush/pad/bypass); bumper spring. | 2026-05-14 |
+| [Power Fluid Systems](concepts/power-fluid-systems.md) | Surface power-fluid handling for jet-pump + hydraulic-piston-pump systems; produced-fluid loop vs supplied; quality requirements. | 2026-05-14 |
 | [Progressing-Cavity Pumps (PCP)](concepts/progressing-cavity-pumps.md) | Helical rotor in elastomeric stator; surface-driven vs ESPCP variants; niche for high-viscosity + high-solids service. | 2026-05-14 |
 
 ## Standards
