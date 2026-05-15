@@ -43,10 +43,10 @@ The founding source page — [Papkov (2026) — Drilling-Tender AI Agent](source
 This wiki holds **knowledge and methodology** (rig classes, MODU framework, API/IADC standards, Papkov AI-agent consumer pack). The **structured rig-fleet data corpus** lives in a sibling repo:
 
 - **Repository**: [vamseeachanta/worldenergydata](https://github.com/vamseeachanta/worldenergydata) — public
-- **Curated CSV**: [`data/modules/vessel_fleet/curated/drilling_rigs.csv`](https://github.com/vamseeachanta/worldenergydata/blob/main/data/modules/vessel_fleet/curated/drilling_rigs.csv) (2,211 rigs, BSEE-WAR-anchored, refreshed 2026-05-05)
-- **Vendor-scrape raw JSON**: [`data/modules/vessel_fleet/raw/contractor_scrape/`](https://github.com/vamseeachanta/worldenergydata/tree/main/data/modules/vessel_fleet/raw/contractor_scrape) (Noble + Seadrill captured 2026-02-13; Transocean / Borr scrapable per validation doc but not yet captured)
+- **Curated CSV**: [`data/modules/vessel_fleet/curated/drilling_rigs.csv`](https://github.com/vamseeachanta/worldenergydata/blob/main/data/modules/vessel_fleet/curated/drilling_rigs.csv) — **48 rigs, vendor-only, fully populated** (refreshed 2026-05-14 via [worldenergydata#409](https://github.com/vamseeachanta/worldenergydata/pull/409), replacing the prior 2,211-row BSEE-WAR baseline snapshot)
+- **Vendor-scrape raw + spec_details parquet**: [`data/modules/vessel_fleet/raw/`](https://github.com/vamseeachanta/worldenergydata/tree/main/data/modules/vessel_fleet/raw) — Noble (31 records) + Seadrill (17 records) captured + parsed; Transocean / Borr scrapable per validation doc but not yet captured
 - **Site validation provenance**: [`docs/data/rig-fleet-website-validation.md`](https://github.com/vamseeachanta/worldenergydata/blob/main/docs/data/rig-fleet-website-validation.md) (2026-02-13 contractor-site accessibility audit)
-- **Tracker issue for vendor→curated merge**: [worldenergydata#127 WRK-1204](https://github.com/vamseeachanta/worldenergydata/issues/127)
+- **Tracker issues**: [worldenergydata#127 WRK-1204](https://github.com/vamseeachanta/worldenergydata/issues/127) (ingest tracker), [worldenergydata#407](https://github.com/vamseeachanta/worldenergydata/issues/407) (planning + BSEE-bridge future work to enable non-destructive merges combining BSEE WAR baseline with vendor data)
 
 Per the off-repo intel routing convention, **vendor-marketing and structured-data content does not go into this CC-BY-4.0 wiki**. The 6 drilling-contractor fleet-entity stubs in this wiki (Transocean, Valaris, Noble, Diamond Offshore, Seadrill, H&P FlexRig) are knowledge-layer anchors pointing at worldenergydata as the data home.
 
