@@ -48,6 +48,15 @@ VFD adjusts motor frequency → motor RPM → pump RPM (essentially linear). Pum
 - **High-water-cut** → motor-cooling improves, but corrosion / scale considerations grow
 - **HPHT** → motor temperature rating + insulation system + seal-section rating need upgrading
 
+## Sand-handling — abrasive-sensitivity and screen-pump compatibility
+
+ESPs are among the **most sand-intolerant** artificial-lift methods. Centrifugal-pump impellers and diffusers wear progressively against any abrasive (sand, scale, paraffin solids), and the failure mode is gradual head-degradation followed by mechanical seizure. Two operational considerations:
+
+- **Sand-control completion type sets the ESP envelope.** Wells completed with frac-pack or gravel-pack architectures present near-zero produced-sand to the ESP intake under normal operation and are excellent ESP candidates. Wells completed with standalone screens present low-but-nonzero produced sand and require either a sand-tolerant ESP variant (abrasion-resistant stages, tungsten-carbide bearings) or a sand-tolerant lift method (PCP) instead. Wells with no sand control should not be completed with conventional ESP.
+- **Sand-control completion failure is an ESP killer.** A breached gravel-pack or screen leaks formation sand at rates well above the ESP's design tolerance; impeller erosion accelerates and the pump fails within weeks-to-months. Operators monitoring ESP head-degradation curves should treat any sustained acceleration as a potential sand-control-completion-integrity signal.
+
+The sand-control framework lives in a dedicated cluster: see [Sand Control](sand-control.md) for the architecture catalogue and decision framework, [Sand Control Screens](sand-control-screens.md) for the screen-family selection logic, and [Gravel Packing](gravel-packing.md) for gravel-pack completions that pair best with ESP.
+
 ## Perforation density and phasing — IPR coupling
 
 The IPR curve that ESP sizing is built on is sensitive to **perforation skin**. The standard Karakas–Tariq decomposition makes shot density and phasing first-order inputs to the productivity index that flows directly into ESP head, stage count, and motor selection. Two operationally-relevant interactions:

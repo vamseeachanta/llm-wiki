@@ -162,6 +162,17 @@ Other notable independents: **GEODynamics**, **DynaEnergetics**, **Hunting Titan
 - **Casing burst rating** — Perforation policy interacts with the burst-design margin of the production casing; see [Casing Program Design](../../../drilling-engineering/wiki/concepts/casing-program-design.md).
 - **Frac initiation** — Perforation phasing controls fracture-initiation azimuth in cased-hole frac jobs. Oriented (180° / 0°) phasing is standard for stimulation; isotropic phasing is standard for natural completion.
 
+## Sand-control coupling — big-hole charge selection and shot-density floor for gravel-pack completions
+
+Perforating into an unconsolidated sand interval that will be completed with a sand-control architecture imposes hard requirements on the perforating job that are different from natural-completion perforating:
+
+- **Big-hole (BH) charges are mandatory** for cased-hole gravel-pack and frac-pack completions because the casing-wall area is the throttle for both gravel placement (during pack execution) and high-rate proppant slurry (during frac-pack pumping). Deep-penetrating charges that are correct for natural completion are wrong for these sand-control completions.
+- **Shot-density floors are dictated by sand-control type** — gravel-pack completions require 12-18+ spf to give the gravel a uniform pack-and-flow geometry; frac-pack completions require 6-12 spf because the frac dominates near-wellbore flow but the gravel must still distribute around the wellbore; standalone screens are commonly fed by 8-12 spf perforations.
+- **Phasing is isotropic (60° / 90°)** for sand-control completions because the gravel pack must distribute uniformly around the wellbore. Oriented (0° / 180°) phasing is reserved for cased-hole frac-only completions and is wrong for any sand-control architecture.
+- **Underbalanced perforating yields cleaner tunnels** for subsequent gravel-pack execution because crushed-zone debris is flushed *out* of the tunnels rather than packed *in*. UBP is preferred where surface equipment supports it, since the post-perforation gravel-pack execution then has clean tunnels to fill.
+
+The sand-control framework lives in a dedicated cluster: see [Sand Control](sand-control.md) for the architecture catalogue and decision framework, [Gravel Packing](gravel-packing.md) for the Saucier-criterion gravel-sizing logic and pack-placement methodology, and [Frac Packing](frac-packing.md) for the tip-screen-out hybrid completion design.
+
 ## Standards anchor
 
 - [API RP 19B — Evaluation of Well Perforators](../standards/api-rp-19b.md) — the practitioner-canonical test methodology

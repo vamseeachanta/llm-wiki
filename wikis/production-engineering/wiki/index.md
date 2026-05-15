@@ -2,7 +2,7 @@
 domain: production-engineering
 created: 2026-05-13
 last_updated: 2026-05-15
-page_count: 32
+page_count: 37
 source_count: 0
 ---
 
@@ -23,10 +23,12 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [ESP Failure Modes](concepts/esp-failure-modes.md) | Cable failures (~30-40% of pulls), motor / pump / seal-section failures; VFD-telemetry operational signatures. | 2026-05-14 |
 | [ESP Sizing](concepts/esp-sizing.md) | IPR → TDH → pump-stages → motor → cable → VFD iterative sizing workflow per API RP 11S4. | 2026-05-14 |
 | [ESP Vendor Archetypes](concepts/esp-vendor-archetypes.md) | Schlumberger REDA, Baker Hughes Centrilift (including post-2017 Wood Group ESP merger), Borets; component-compatibility constraints. | 2026-05-14 |
+| [Frac Packing](concepts/frac-packing.md) | Tip-screen-out (TSO) frac-pack design, high-rate water pack (HRWP) hybrid, frac-pack vs gravel-pack operating envelope; Smith-Hannah TSO design framework. | 2026-05-15 |
 | [Gas Lift Overview](concepts/gas-lift-overview.md) | High-pressure gas down annulus → enters tubing via valves → aerates column → reservoir-pressure-driven lift. No moving downhole parts; continuous and intermittent modes. Perforation-strategy IPR coupling. | 2026-05-15 |
 | [Gas Lift Troubleshooting](concepts/gas-lift-troubleshooting.md) | Multipointing, heading, valve-failure modes; surface-pressure instability; diagnostic instrumentation. | 2026-05-14 |
 | [Gas Lift Valve Design](concepts/gas-lift-valve-design.md) | IPO vs PPO actuation, bellows vs spring force source, dome pressure + spread, side-pocket vs tubing-retrievable mandrels. | 2026-05-14 |
 | [Gas Lift Valve Spacing](concepts/gas-lift-valve-spacing.md) | Brown-Camp graphical method + modern computational spacing; kickoff/unloading cascade from surface to operating-valve depth. | 2026-05-14 |
+| [Gravel Packing](concepts/gravel-packing.md) | OHGP and CHGP architectures, Saucier-criterion gravel-sizing (D₅₀ ratio 5-6×), pack-placement methodology (alpha-beta wave, HRWP, slurry pack); common operator mistakes. | 2026-05-15 |
 | [Hydraulic Piston Pump](concepts/hydraulic-piston-pump.md) | Downhole reciprocating piston pump driven by power fluid; open vs closed-loop configurations; deep-well alternative to ESP. | 2026-05-14 |
 | [Jet Pump](concepts/jet-pump.md) | No-moving-parts Venturi mixer driven by power fluid; throat-to-nozzle ratio sets pressure-rise vs rate; cavitation envelope. | 2026-05-14 |
 | [PCP Elastomer Chemistry](concepts/pcp-elastomer-chemistry.md) | NBR / HNBR / FKM / EPDM elastomer families; fluid-compatibility framework; common failure modes (swelling / hardening / softening / chunking). | 2026-05-14 |
@@ -40,6 +42,8 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Plunger Lift Equipment](concepts/plunger-lift-equipment.md) | Wellhead lubricator + catcher + motor valve + surface controller; plunger types (turbulent/brush/pad/bypass); bumper spring. | 2026-05-14 |
 | [Power Fluid Systems](concepts/power-fluid-systems.md) | Surface power-fluid handling for jet-pump + hydraulic-piston-pump systems; produced-fluid loop vs supplied; quality requirements. | 2026-05-14 |
 | [Progressing-Cavity Pumps (PCP)](concepts/progressing-cavity-pumps.md) | Helical rotor in elastomeric stator; surface-driven vs ESPCP variants; niche for high-viscosity + high-solids service. | 2026-05-14 |
+| [Sand Control](concepts/sand-control.md) | Router page for sand-control coverage: failure modes, completion-architecture catalogue (selective perf / chemical / standalone-screen / prepacked / OHGP / CHGP / frac-pack / expandable), decision framework, perforation-strategy coupling. | 2026-05-15 |
+| [Sand Control Screens](concepts/sand-control-screens.md) | Standalone (wire-wrap / slotted-liner), prepacked, expandable, premium-mesh screen families; PSD-driven selection logic; ISO 17824 qualification framework. | 2026-05-15 |
 
 ## Standards
 
@@ -55,6 +59,7 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [API RP 19B — Evaluation of Well Perforators](standards/api-rp-19b.md) | Practitioner-canonical test methodology for well-perforator charge evaluation; surface flat-target + stressed Berea sandstone + casing-and-cement test sections. | 2026-05-15 |
 | [API Spec 11V1 — Gas Lift Valve Specification](standards/api-spec-11v1.md) | Manufacturing requirements for gas-lift valves: IPO/PPO, bellows/spring, side-pocket vs tubing-retrievable. | 2026-05-14 |
 | [API Spec 11W — Progressing-Cavity Pumping Systems](standards/api-spec-11w.md) | PCP design and testing; surface-driven and ESPCP variants; rotor/stator geometry + elastomer chemistry. | 2026-05-14 |
+| [ISO 17824 — Sand Control Screens (Open-Hole Gravel Pack)](standards/iso-17824.md) | International qualification standard for downhole sand-control screens used in open-hole gravel-pack service; pairs with ISO 17825 (cased-hole). | 2026-05-15 |
 
 ## Entities
 

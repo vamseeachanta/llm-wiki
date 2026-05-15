@@ -63,6 +63,19 @@ Practical interactions:
 
 The perforation-strategy framework lives in the production-engineering wiki: see [Perforating](../../../production-engineering/wiki/concepts/perforating.md) for the system-level synthesis and [Perforating Gun Systems](../../../production-engineering/wiki/concepts/perforating-gun-systems.md) for the gun-detonation-pulse considerations that interact with the burst-design margin established here.
 
+## Sand-control completion impact on production-casing ID requirements
+
+A second production-engineering load class enters the casing-program design through the **sand-control completion type**: the production-casing ID must accommodate the sand-control assembly OD plus running clearance, plus any service-tool clearance required for execution of the placement job (gravel-pack, frac-pack) inside the same casing. This requirement is set in the production-engineering wiki and propagates back to the casing-program design here.
+
+Practical interactions:
+
+- **Standalone screens** add modest OD over a bare production tubing string; production casing sized for the tubing string typically accommodates standalone-screen completions with no design change.
+- **Cased-hole gravel-pack assemblies** add a screen-and-blank assembly inside the casing plus a gravel-pack packer plus crossover service tools during placement. The production-casing ID must accommodate the largest of these tool ODs, with running clearance, during the placement job. Operators planning gravel-pack completions should confirm production-casing ID adequacy at the casing-program-design phase rather than discover the gap during completion-job planning.
+- **Frac-pack assemblies** carry the same production-casing ID requirements as cased-hole gravel-packs, plus a higher transient-treating-pressure load on the production casing during the frac portion of the pumping job. Marginal-burst-headroom production casing may force the operator to derate the frac-pack treatment pressure, which in turn caps the deliverability gain available from the frac-pack — a coupling that should be surfaced and resolved during well design, not during completion execution.
+- **Expandable screens** are designed precisely to fit through tight production-casing IDs; they relax the gravel-pack-style ID floor at the cost of expansion-execution complexity downhole.
+
+The sand-control framework lives in the production-engineering wiki: see [Sand Control](../../../production-engineering/wiki/concepts/sand-control.md) for the architecture catalogue and decision framework, [Gravel Packing](../../../production-engineering/wiki/concepts/gravel-packing.md) for the cased-hole-vs-open-hole pack architecture and assembly OD considerations, and [Frac Packing](../../../production-engineering/wiki/concepts/frac-packing.md) for the production-casing-burst-margin coupling specific to frac-pack treatments.
+
 ## Public references
 
 - **Bourgoyne, Chenevert, Millheim, Young** — *Applied Drilling Engineering*, SPE Textbook Series Vol. 2, 1986 (ISBN 1-55563-001-4). Chapter 7 casing design.
@@ -76,5 +89,6 @@ The perforation-strategy framework lives in the production-engineering wiki: see
 - [Casing Shoe Track](casing-shoe-track.md) — shoe / float-collar geometry and cement-bond design boundary
 - [API Spec 5CT](../standards/api-spec-5ct.md), [API RP 5C5](../standards/api-rp-5c5.md), [API RP 5C1](../standards/api-rp-5c1.md)
 - Production-engineering: [Perforating](../../../production-engineering/wiki/concepts/perforating.md), [Perforating Gun Systems](../../../production-engineering/wiki/concepts/perforating-gun-systems.md) — perforation policy / gun-detonation-pulse interaction with burst design
+- Production-engineering: [Sand Control](../../../production-engineering/wiki/concepts/sand-control.md), [Gravel Packing](../../../production-engineering/wiki/concepts/gravel-packing.md), [Frac Packing](../../../production-engineering/wiki/concepts/frac-packing.md) — sand-control completion architectures impose production-casing ID floor requirements (and frac-pack imposes a transient burst-pressure load)
 - Downstream consumer: [vamseeachanta/workspace-hub#1958](https://github.com/vamseeachanta/workspace-hub/issues/1958) — slim-hole well-engineering calc module (casing-program comparison + economics) — this concept page is the design-rationale anchor that module's outputs should cite
 - Founding source: [Papkov (2026)](../sources/papkov-2026-drilling-tender-ai-agent.md) — AI-tender-evaluation downstream consumer

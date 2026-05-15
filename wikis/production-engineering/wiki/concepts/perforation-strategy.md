@@ -202,6 +202,23 @@ In bedded rock with k_h / k_v >> 1, perforations aligned along the bedding plane
 - **Horizontal well in horizontal bedding**: the well is aligned with bedding; phasing should distribute perforations along the wellbore length, not around its axis. A 0° phasing (all on top or all on bottom) intersects only one or two bedding planes; 180° phasing helps; oriented phasing tuned to the bedding plane wins.
 - **Highly-anisotropic bedded shale gas**: the high stress contrast typically forces oriented (0° / 180°) phasing for cased-hole frac, regardless of bedding direction, because the frac plane is determined by stress, not bedding.
 
+## Sand-control completion-type-driven shot-density floors
+
+Sand-control completion architecture sets a **floor** on perforation shot density that the perforation engineer must meet, regardless of what the natural-completion IPR optimisation would suggest. The floor is set by the placement physics of the sand-control job:
+
+| Sand-control completion | Shot-density floor | Why |
+|---|---|---|
+| Standalone screen | 8-12 spf | Distribute production around the wellbore so no single perforation tunnel becomes a sand-influx hot spot |
+| Cased-hole gravel-pack | 12-18+ spf | Tunnels must be packed in addition to the casing-screen annulus; only at high density does statistical tunnel-packing succeed |
+| Frac-pack | 6-12 spf | Frac dominates near-wellbore flow, but the gravel still must distribute uniformly; below 6 spf the annular pack is patchy |
+| Open-hole gravel-pack | (no perforations — open hole) | Floor is replaced by screen-and-blank assembly placement methodology |
+
+Charge family is also locked: **big-hole (BH) charges are mandatory** for cased-hole gravel-pack and frac-pack because the casing-wall area is the throttle for gravel and proppant placement. Deep-penetrating charges optimal for natural completion are wrong for these sand-control jobs.
+
+Phasing is **isotropic (60° / 90°)** for sand-control completions, in contrast to oriented (0° / 180°) phasing used for cased-hole frac-only completions. The gravel pack must distribute uniformly around the wellbore, so the perforations must too.
+
+See [Sand Control](sand-control.md) for the architecture catalogue, [Gravel Packing](gravel-packing.md) for the Saucier-criterion gravel-sizing logic, and [Frac Packing](frac-packing.md) for the tip-screen-out hybrid completion design.
+
 ## Common operator mistakes
 
 1. **Conflating RP 19B Section I (surface flat-target) with Section II (stressed Berea) penetration numbers.** Section I numbers are 30-50% larger than Section II for the same charge. Using the surface-test number inflates field-performance expectations.
