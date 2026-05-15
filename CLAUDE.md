@@ -7,5 +7,5 @@ This repo is nested inside workspace-hub for navigation but is independently lic
 - Treat all output as bound by MIT (code) or CC-BY-4.0 (content).
 - Local `.claude/` is gitignored — its presence scopes the agent memory namespace away from workspace-hub.
 
-## Vendor PDFs
-Per spinout 2026-05-05 governance: vendor-derivative PDFs live at `<private-vendor-mount>`, never in this repo.
+## Service-provider data routing
+Per spinout 2026-05-05 + 2026-05-14 governance: 6-row routing matrix covers vendor brochures (off-repo), SEC filings (public entity pages), conference papers (public source pages, DOI), vendor marketing pages (URL ref + off-repo snapshot), regulator/class records (public), user notes (off-repo). Full matrix + worked examples + anti-patterns: `docs/governance/service-provider-data-routing.md`. Vendor-derivative content NEVER lands in this repo.
