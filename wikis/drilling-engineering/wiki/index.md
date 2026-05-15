@@ -2,7 +2,7 @@
 domain: drilling-engineering
 created: 2026-05-13
 last_updated: 2026-05-14
-page_count: 98
+page_count: 105
 source_count: 1
 ---
 
@@ -59,6 +59,7 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Drilling-Fluid Types](concepts/drilling-fluid-types.md) | WBM, OBM, SBM, foam / mist / air; selection drivers by formation, environment, cost. | 2026-05-13 |
 | [Drilling Tender Evaluation](concepts/drilling-tender-evaluation.md) | Bid-evaluation framework: technical fit, contractor capability, day-rate vs total-well-cost, offset-record consistency. **Papkov AI-agent integration anchor.** | 2026-05-13 |
 | [Directional Drilling](concepts/directional-drilling.md) | Build-and-hold, S-profile, horizontal, multilateral; dogleg severity; anti-collision; MWD / gyro surveying. | 2026-05-13 |
+| [Dual-Gradient Drilling](concepts/dual-gradient-drilling.md) | Two distinct fluid gradients (heavy mud below seafloor, light fluid in riser); seabed-mud-pump systems; ultra-narrow-window deepwater. | 2026-05-14 |
 | [Drillship](concepts/drillship.md) | Ship-shape ultra-deepwater DP-station-kept floater; modern Gen 6+ to 12,000+ ft water depth. | 2026-05-13 |
 | [ECD and Pressure Management](concepts/ecd-and-pressure-management.md) | Equivalent circulating density; surge/swab; managing ECD inside the pore-pressure–fracture-pressure window. | 2026-05-13 |
 | [Hole Cleaning](concepts/hole-cleaning.md) | Three regimes by inclination; annular velocity, pipe rotation, cuttings-transport ratio. | 2026-05-13 |
@@ -70,6 +71,8 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Kick Detection](concepts/kick-detection.md) | Pit gain, drilling break, flow check, mud-gas log; early-warning signatures of formation-fluid influx. | 2026-05-13 |
 | [Land Rig](concepts/land-rig.md) | Onshore truck / trailer / pad-mounted rigs; modern walking pad-rigs (FlexRig archetype) for unconventional drilling. | 2026-05-13 |
 | [Lower Marine Riser Package (LMRP)](concepts/lower-marine-riser-package.md) | Top of subsea BOP stack; upper annular + control pods + disconnect plane; emergency disconnect sequence (EDS). | 2026-05-14 |
+| [MPD Equipment](concepts/mpd-equipment.md) | RCD + choke manifold + back-pressure pump + control system; vendors named (Weatherford, Halliburton, Schlumberger). | 2026-05-14 |
+| [Managed Pressure Drilling (MPD)](concepts/managed-pressure-drilling.md) | Adaptive closed-loop drilling for narrow-window wells; IADC 4-category classification (CBHP / PMCD / Dual-Gradient / Returns-Flow-Control). | 2026-05-14 |
 | [Marine Drilling Riser Overview](concepts/marine-drilling-riser-overview.md) | Structural-and-flow conduit between floater + subsea BOP; telescopic joint, tensioner, flex joints, auxiliary lines, LMRP. | 2026-05-14 |
 | [MODU — Mobile Offshore Drilling Unit](concepts/modu.md) | Class-society and IMO umbrella for offshore-mobile drilling rigs (jackup, semi, drillship); excludes platform and land rigs. | 2026-05-13 |
 | [Mud Properties](concepts/mud-properties.md) | Density, rheology (Bingham / power-law / Herschel-Bulkley), fluid loss, gel strengths, pH. | 2026-05-13 |
@@ -87,6 +90,8 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [Sucker-Rod Pumping Overview](concepts/sucker-rod-pumping-overview.md) | System anatomy (surface unit, polished rod, rod string, downhole pump); operating cycle; dominant US artificial-lift method. | 2026-05-13 |
 | [Sucker Rods and Tapered Strings](concepts/sucker-rods-and-tapered-strings.md) | API 11B rod grades (C, D, K, KD); tapered-string design rationale; standard taper combinations. | 2026-05-13 |
 | [Tool Joints](concepts/tool-joints.md) | NC / IF / FH / SH connection families; makeup torque; proprietary double-shoulder connections. | 2026-05-13 |
+| [UBD Fluid Types](concepts/ubd-fluid-types.md) | 5 fluid types from air through aerated mud; bottomhole-pressure target vs operational practicality trade-off. | 2026-05-14 |
+| [Underbalanced Drilling (UBD)](concepts/underbalanced-drilling.md) | BHP deliberately below pore pressure; reservoir protection; productivity-testing while drilling; depleted-reservoir + carbonate applications. | 2026-05-14 |
 | [Well-Control Methods](concepts/well-control-methods.md) | Driller's method, wait-and-weight, concurrent — kick-killing procedure with kill-weight calculation. | 2026-05-13 |
 | [Well Plan](concepts/well-plan.md) | Engineering well plan: targets, trajectory, casing/mud/BHA/cement programs, AFE, risk register, schedule. | 2026-05-13 |
 
@@ -107,6 +112,8 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | [API RP 53 — BOP Equipment Systems](standards/api-rp-53.md) | Integrated BOP-system reference; stack arrangement, choke/kill geometry, testing and maintenance. | 2026-05-13 |
 | [API RP 5C7 — Coiled Tubing Operations](standards/api-rp-5c7.md) | CT deployment operational practice; injector head, BOP, stripper, fatigue management. | 2026-05-13 |
 | [API RP 7L — Drilling Equipment Inspection / Maintenance / Remanufacture](standards/api-rp-7l.md) | Operational-life management of Spec 7K / Spec 7-1 equipment plus wireline / slickline equipment inspection. | 2026-05-13 |
+| [API RP 92M — Managed Pressure Drilling Operations](standards/api-rp-92m.md) | MPD canonical reference; IADC 4-category classification (CBHP, PMCD, Dual-Gradient, Returns-Flow-Control). | 2026-05-14 |
+| [API RP 92U — Underbalanced Drilling Operations](standards/api-rp-92u.md) | UBD fluid types (air / mist / foam / gasified-mud / aerated-mud), reservoir-protection framework, surface separation. | 2026-05-14 |
 | [API Spec 4F — Drilling and Well Servicing Structures](standards/api-spec-4f.md) | Derricks, masts, substructures, crown-block assemblies; SSL framework; AISC update; 5e+Add 1 (2023). | 2026-05-13 |
 | [API Spec 10A — Well Cements](standards/api-spec-10a.md) | Classes A through H + special-purpose blends; identical adoption of ISO 10426-1. | 2026-05-13 |
 | [API Spec 11AX — Subsurface Sucker Rod Pump Assemblies](standards/api-spec-11ax.md) | Insert and tubing pumps; 12-character pump-designation code; 13e May 2015 + Add 1 (2019) + Err 1 (2023). | 2026-05-13 |

@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-05-14] ingest | DE Phase 3 sub-issue #68 — MPD / UBD / dual-gradient drilling (API RP 92M + RP 92U + specialty-mode concepts)
+- Processed: API RP 92M (MPD), API RP 92U (UBD). Textbook synthesis from Rehm et al. *Managed Pressure Drilling* Gulf Publishing 2008 (ISBN 978-1-933762-24-1), IADC UBO/MPD Committee publications, SPE/IADC MPD Conference proceedings, Bourgoyne Ch. 4 adjacent context.
+- Pages created: standards/api-rp-92m.md, standards/api-rp-92u.md, concepts/managed-pressure-drilling.md, concepts/underbalanced-drilling.md, concepts/dual-gradient-drilling.md, concepts/mpd-equipment.md, concepts/ubd-fluid-types.md.
+- Pages updated: wiki/index.md (page_count 98 → 105; +5 Concepts rows, +2 Standards rows).
+- Closes: vamseeachanta/llm-wiki#68 (DE Phase 3 sub-issue, parent epic #67).
+- Notes: IADC 4-category MPD classification (CBHP / PMCD / Dual-Gradient / Returns-Flow-Control) captured with worked descriptions. UBD 5-fluid spectrum (air / mist / foam / gasified-mud / aerated-mud) with selection drivers. Dual-gradient operational status as of mid-2020s: technically demonstrated, commercially limited. MPD equipment package: RCD + choke manifold + back-pressure pump + control system. Vendors named (Weatherford Secure Drilling, Halliburton GeoBalance, Schlumberger DRILTRONICS, Beyond Energy) without proprietary content. Cross-refs to Phase 2 well-control + Phase 2 ECD-and-pressure-management + Phase 3 LMRP + subsea-BOP-stack-architecture.
+
 ## [2026-05-14] ingest | DE Phase 3 sub-issue #69 — subsea wellhead + drilling riser systems (API Spec 16F/16R + RP 16Q + Spec 17D + concept cluster)
 - Processed: API Spec 16F (marine drilling riser equipment), API Spec 16R (riser couplings), API RP 16Q (design + operation), API Spec 17D (subsea wellhead + Christmas tree). Textbook synthesis from Sparks 2007 *Fundamentals of Marine Riser Mechanics* (ISBN 978-1-59370-070-2), Bourgoyne Ch. 1.
 - Pages created: standards/api-spec-16f.md, standards/api-spec-16r.md, standards/api-rp-16q.md, standards/api-spec-17d.md, concepts/marine-drilling-riser-overview.md, concepts/riser-tensioning.md, concepts/lower-marine-riser-package.md, concepts/subsea-wellhead.md, concepts/subsea-bop-stack-architecture.md.
