@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-05-14] ingest | PE Phase 1 sub-issue #65 — plunger lift (3 concept pages, no standards)
+- Processed: textbook synthesis from Brown 1977 *Technology of Artificial Lift Methods* Vol 1, Foss & Gaul (1965) classic plunger-lift design paper from *Drilling and Production Practice* (API), SPE OnePetro plunger-lift literature, Lyons handbook.
+- Pages created: concepts/plunger-lift.md, concepts/plunger-lift-cycle-optimization.md, concepts/plunger-lift-equipment.md.
+- Pages updated: wiki/index.md (page_count 21 → 24; +3 Concepts rows).
+- Closes: vamseeachanta/llm-wiki#65 (PE Phase 1 sub-issue, parent epic #61).
+- Notes: No API spec anticipated (industry-paper-driven methodology). 4-phase cycle (afterflow → shut-in → arrival/production → return). Foss-Gaul (1965) minimum-GLR-vs-depth curve captured as design framework. 4 plunger types (turbulent / brush / pad / bypass-two-piece). Rate envelope < 200 bbl/d liquid; depth < 12,000 ft; for liquid-loaded gas wells specifically.
+
 ## [2026-05-14] ingest | PE Phase 1 sub-issue #64 — PCP (API Spec 11W + progressing-cavity-pumps + elastomer chemistry + heavy-oil application)
 - Processed: API Spec 11W (PCP systems specification). Textbook synthesis from Brown 1980 *Technology of Artificial Lift Methods* Vol 2b, Lyons handbook artificial-lift section, SPE OnePetro PCP literature.
 - Pages created: standards/api-spec-11w.md, concepts/progressing-cavity-pumps.md, concepts/pcp-elastomer-chemistry.md, concepts/pcp-heavy-oil-application.md.
