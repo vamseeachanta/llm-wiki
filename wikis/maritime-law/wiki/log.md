@@ -4,6 +4,12 @@
 
 ---
 
+## [2026-05-15] standards-completion | iter 27 — close last named-candidate routing gap (ISM Code) → #41 resolved
+- Pages created: standards/ism-code.md (treaty-flavored schema mirror; code_id=ism-code, publisher=IMO, instrument_type=code, consolidated_edition=2018 IMO IB117E, effective_date=1998-07-01 phase-1, parent_instrument=SOLAS 1974 Ch. IX via MSC.99(73))
+- Pages modified: index.md (page_count 84→85; last_updated 2026-05-10→2026-05-15; standards table row inserted between ISPS Code and STCW Convention — both ISPS+ISM are mandatory IMO codes under SOLAS, sister grouping preserved)
+- Notes: closes the last named-candidate gap from #41 acceptance criteria (SOLAS + MARPOL + MLC + ISM Code). Prior 25-file bootstrap batch (iter 25-26, 2026-05-09) had covered the other three candidates; ISM appears to have been skipped because it rides on SOLAS Ch. IX rather than standing as a freestanding convention — but it still meets the metadata-resolver criterion (own `code_id`, own IMO publication catalog entry, own effective-date schedule). Concept page concepts/ism-code.md already exists (16KB, last touched iter 58 W260 cascade) and is forward-linked from the new standards page; concept-page back-edit deferred since iter 26 log records the bidirectional return-link sweep already touched it. Stale prose at index.md L58 ("out of scope per project memory") is now superseded by iter 25 bootstrap but left untouched to avoid scope-creep beyond #41.
+- Issue: closes #41 (status:plan-approved → resolved); plan source: #15 standards-routing decision; out-of-scope filters per #41 body honored (no convention text copying, no raw PDFs, no vendor/paywalled excerpts, no broad schema rewrite).
+
 ## [2026-05-10 06:00 UTC] quality-completion | iter 58 — audit V16 + 3 entities + 2 resolvers + frontmatter standardization (4-of-4 closure approached)
 - Pages modified: maritime-law index.md (page_count 80→83); lng-projects 9 standards (W262 — 21 frontmatter additions: 9× instrument_type + 3× public_url + 9× publisher_catalog_url; lng-projects standards now 100% on instrument_type + publisher_catalog_url, 78% on public_url)
 - Pages created: _audit/iter-58-W259-cross-wiki-audit-v16.md (241L); maritime-law entities/{costa-concordia-2012,exxon-valdez-1989,hebei-spirit-2007}.md (W260 — 73L+73L+72L Volcafe-pattern); eng-stds standards/iso-9223.md (W261 — 87L atmospheric-corrosivity); maritime-law concepts/stcw-1978.md (W261 — 67L paired-slug resolver to stcw-convention)
