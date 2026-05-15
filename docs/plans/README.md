@@ -18,6 +18,9 @@ Public-safety default: plans may reference source-family names and aggregate met
 | [`#46`](https://github.com/vamseeachanta/llm-wiki/issues/46) | [`2026-05-10-issue-46-frontier-deepwater-clearance-checklist.md`](2026-05-10-issue-46-frontier-deepwater-clearance-checklist.md) | `plan-approved` | Frontier Deepwater source-family clearance checklist governance artifact |
 | [`#47`](https://github.com/vamseeachanta/llm-wiki/issues/47) | [`2026-05-10-issue-47-batch-pack-1-approved-inputs.md`](2026-05-10-issue-47-batch-pack-1-approved-inputs.md) | `plan-approved` | Batch Pack 1 approved-input readiness governance artifact |
 | [`#48`](https://github.com/vamseeachanta/llm-wiki/issues/48) | [`2026-05-10-issue-48-batch-pack-4-approved-inputs.md`](2026-05-10-issue-48-batch-pack-4-approved-inputs.md) | `plan-approved` | Batch Pack 4 approved-input readiness governance artifact |
+| [`#40`](https://github.com/vamseeachanta/llm-wiki/issues/40) | [`2026-05-15-issue-40-reservoir-engineering-literature.md`](2026-05-15-issue-40-reservoir-engineering-literature.md) | `draft` | Reservoir-engineering wiki founding + corpus build (issue was `status:plan-approved` without canonical plan — this plan is governance-drift remediation) |
+| [`#73`](https://github.com/vamseeachanta/llm-wiki/issues/73) | [`2026-05-15-issue-73-pe-phase-2-completions.md`](2026-05-15-issue-73-pe-phase-2-completions.md) | `draft` | PE Phase 2 corpus build-out (completions — perforating, sand control, multi-zone, smart) |
+| [`#74`](https://github.com/vamseeachanta/llm-wiki/issues/74) | [`2026-05-15-issue-74-pe-phase-3-stimulation.md`](2026-05-15-issue-74-pe-phase-3-stimulation.md) | `draft` | PE Phase 3 corpus build-out (stimulation — matrix acid, hydraulic fracturing, refrac) |
 
 ## Review evidence
 
