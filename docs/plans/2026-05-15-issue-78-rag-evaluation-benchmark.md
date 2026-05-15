@@ -378,6 +378,27 @@ The Markdown scorecard should include:
 | A local command produces a markdown/JSON scorecard | Phase 3 and validation commands specify a local `uv run` benchmark runner that emits both Markdown and JSON outputs |
 | CI/local tests verify benchmark fixtures load and unsafe/private references are absent | Phase 4 adds validator/tests for fixture loading, deterministic scoring, and forbidden private-path/secret-pattern rejection |
 
+## Adversarial review synthesis and accepted hardening
+
+Three independent plan reviews completed on 2026-05-15. Consensus verdict: **MAJOR until methodology is frozen; revised plan is approval-candidate with Medium residual risk**. The following changes are binding and narrow the implementation.
+
+### Accepted changes from review
+- **Benchmark-first, backend-second:** #78 owns dataset/schema/validator/scorer. Baseline retrieval is a minimal adapter for proving the benchmark, not a broad retrieval product.
+- **Backend adapter interface:** define a stable interface with input `question` and output `ranked_context[]`, optional `answer`, and `citations[]`. Future #77/#80 integrations must plug into this contract without changing benchmark semantics.
+- **Retrieval unit frozen for v1:** use deterministic file-level or section-level chunk IDs; implementation must choose and document one before coding. Each run records the corpus surface and corpus manifest hash/date.
+- **JSON fixtures preferred:** replace `questions.yaml` with `questions.json` for v1 unless a dependency manifest is added. The repo remains stdlib/dependency-light by default.
+- **Fixture versioning:** every fixture set includes `benchmark_version`, `fixture_version`, `corpus_surface`, and a changelog policy.
+- **Safety-sensitive question classes required:** include positive retrieval, no-answer/safe-refusal, ambiguity/disambiguation, and blocked-by-clearance/public-safe substitute cases.
+- **Citation rigor:** expected citations should be chunk/anchor/path-level where feasible, not only broad repo paths.
+- **Metrics thresholds:** define pass/fail thresholds and regression behavior for hit@k/path accuracy/citation accuracy/refusal accuracy before approval-to-execute handoff.
+- **Offline default:** no external model, judge, network, or API dependency is required for default tests.
+
+### Revised artifact contract
+Expected v1 fixture path is `tests/fixtures/rag-benchmark/questions.json`. Expected run output includes `artifacts/retrieval/rag-benchmark/latest-scorecard.json` with benchmark/corpus versions and deterministic metrics.
+
+### Residual risk
+Medium. The main remaining risk is benchmark brittleness. It is controlled by explicit retrieval unit, versioned corpus surface, refusal cases, and deterministic baseline adapter.
+
 ## Dependencies and sequencing
 
 ### Hard dependencies

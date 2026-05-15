@@ -279,6 +279,29 @@ Validator requirements should explicitly scan for the same classes of leakage al
 | Validator fails on missing manifest targets or unsafe local/private path patterns. | Add `scripts/validate_llms_manifests.py` with target-existence checks and safety regex checks. | Validator unit tests and direct script run. |
 | README documents how humans and agents should use the manifests. | Add an “AI agent entrypoints” section in `README.md`. | README review plus test/validator if README coverage is added. |
 
+## Adversarial review synthesis and accepted hardening
+
+Three independent plan reviews completed on 2026-05-15. Consensus verdict: **MINOR**. The plan is approval-candidate quality with the following binding clarifications.
+
+### Accepted changes from review
+- **Authorship mode:** v1 is **hybrid but deterministic**: manifests are hand-curated in repo text files and validated/generated checks are script-enforced. No live crawler or automatic corpus dump is part of v1.
+- **Strict manifest shape:** every `llms*.txt` manifest must use this ordered section contract:
+  1. `Purpose`
+  2. `Safety Boundary`
+  3. `Start Here`
+  4. `Key Entry Paths`
+  5. `How To Find X`
+  6. `Do Not Scan Blindly`
+  7. `Related Surfaces`
+  8. `Last Updated`
+- **Size/curation caps:** root and domain manifests must enforce bounded sections. Implementation must define max lines/links per curated section; marine `llms-full.txt` is optional and not required for v1 unless bounded chunk/index prerequisites are ready.
+- **Root coverage rule:** root `llms.txt` briefly routes all major public domains, but only the initial target domains receive deeper domain manifests in v1.
+- **Routing smoke tests:** add fixture-backed tests that ask canonical “where do I find X?” intents and verify the expected manifest/entrypoint path is returned.
+- **Scorecard note corrected:** because existing scorecard logic walks Markdown, `llms*.txt` should not affect current content counts unless implementation changes scan surfaces.
+
+### Residual risk
+Low. Main risk is over-expanding manifests into exhaustive indexes; validators and caps are the control.
+
 ## Dependencies
 
 ### Hard or near-hard dependencies

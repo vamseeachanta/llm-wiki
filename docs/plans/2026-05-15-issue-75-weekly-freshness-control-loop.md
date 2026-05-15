@@ -235,6 +235,35 @@ Where practical, #75 implementation should preserve compatibility with existing 
 - **No immediate new follow-up issue is required at planning time.**
 - If implementation reveals a clearly separate concern, the only justified split would be a narrow validator/CI issue for scheduled publication plumbing; that should be created only if the local-first implementation becomes too large or if scheduling concerns threaten to blur #75’s reporting scope.
 
+## Adversarial review synthesis and accepted hardening
+
+Three independent plan reviews completed on 2026-05-15. Consensus verdict: **MINOR**. The plan is approval-candidate quality only with the following clarifications treated as binding implementation contract.
+
+### Accepted changes from review
+- **Machine-readable companion required:** every weekly run must emit both:
+  - `docs/reports/<run-date>-llm-wiki-weekly-freshness-report.md`
+  - `artifacts/freshness/<run-date>-weekly-freshness-summary.json`
+- **Baseline source is fixed:** first run is absolute baseline; later runs compare only against the previous JSON artifact with the same schema version. Do not mix prior Markdown parsing with scorecard snapshots for week-over-week deltas.
+- **Repo-local default:** v1 does not fetch network data. The concept-watch section uses a checked-in curated config/summary and public URLs only; live concept/tool monitoring remains #79 scope.
+- **Issue-routing source is checked in:** deduplication uses a versioned mapping file such as `data/issue_routing_map.json`; live GitHub issue reads are optional enrichment only and must not be required for tests.
+- **Bounded output:** stale pages, broken links, and recommendations must support top-N caps and deterministic sorting to prevent marine-scale report explosions.
+- **Confidence/reason codes:** recommendation rows must include a stable reason code and confidence tier, not only prose.
+
+### Revised data contract
+Minimum JSON fields:
+- `schema_version`
+- `run_date`
+- `baseline_run_date`
+- `repo_totals`
+- `domain_freshness[]`
+- `stale_pages[]`
+- `broken_links[]`
+- `recommendations[]` with `issue_route`, `reason_code`, `confidence`, and `public_safe_summary`
+- `validation` command/evidence fields
+
+### Residual risk
+Low. Remaining risk is implementation discipline: keep #75 as a control/reporting loop and do not absorb #76-#80 feature work.
+
 ## Approval-gate note
 This plan is review-ready for the standard `plan-review` gate only. It is **not** implementation approval. Before execution:
 1. complete adversarial review,

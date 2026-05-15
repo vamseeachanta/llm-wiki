@@ -356,5 +356,26 @@ This plan is review-ready for the standard `plan-review` gate only. It is **not*
 6. add validator coverage;
 7. document the command in `README.md`.
 
+## Adversarial review synthesis and accepted hardening
+
+Three independent plan reviews completed on 2026-05-15. Normalized verdict: **MAJOR until state/network contracts are frozen; revised plan is approval-candidate with Medium residual risk**. The following changes are binding.
+
+### Accepted changes from review
+- **Static config separate from mutable state:** v1 uses separate artifacts, e.g.:
+  - `data/oss_tool_watchlist.json` for canonical tool definitions;
+  - `artifacts/watchlist/latest-state.json` for observed upstream metadata;
+  - `docs/reports/<run-date>-oss-engineering-tool-watchlist.md` for human summary.
+- **JSON over YAML for v1:** use JSON unless a dependency manifest is explicitly added.
+- **Live mode vs fixture mode:** tests run fixture-only with no network. Live network scanning is optional, explicitly enabled, bounded by timeout/retry/rate-limit policy, and non-blocking for validation.
+- **Scan/render split:** one step normalizes upstream signals into state JSON; another renders the report from state/config.
+- **Per-tool signal strategy:** each watchlist entry must define `signal_strategy`, `source_type`, `source_url`, `affected_paths`, `update_relevance_rule`, and confidence/noise handling.
+- **Evidence normalization:** report rows include `signal_type`, `observed_value`, `previous_value`, `observed_at`, `source_url`, `confidence`, and `why_it_matters`.
+- **No-action path:** a detected upstream change may produce `no_action` with rationale to suppress churn.
+- **Issue routing source:** dedup uses a checked-in issue map such as `data/oss_tool_issue_map.json`; live GitHub reads are optional enrichment only.
+- **Auth/failure policy:** anonymous/public endpoints or already-authenticated `gh` may be used only in live mode; artifacts must never include tokens, headers, cookies, or raw API payloads.
+
+### Residual risk
+Medium. Network-facing weekly scans are inherently noisy; fixture mode, state separation, confidence fields, and no-action decisions control the risk.
+
 ## Complexity
 **T2** — moderate repo-local automation/reporting task with external metadata inputs, deterministic test surface, and meaningful overlap boundaries, but no broad ingestion, no deployment, and no private-data access.

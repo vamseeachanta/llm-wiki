@@ -417,6 +417,28 @@ No new follow-up issue should be opened during #77 planning itself unless the ma
 
 **T2** — moderate repo-local tooling work with meaningful schema and safety design, but bounded to committed markdown analysis and deterministic artifact generation. This is more substantial than a pure docs issue, but far smaller than a new domain-founding corpus build.
 
+## Adversarial review synthesis and accepted hardening
+
+Three independent plan reviews completed on 2026-05-15. Normalized verdict: **MAJOR until these revisions are applied; revised plan is approval-candidate with Medium residual risk**. The following changes narrow v1 and resolve the approval blockers.
+
+### Accepted changes from review
+- **Two-layer graph contract:** v1 separates:
+  - **core graph:** repo-local pages and explicit repo-local relationships only;
+  - **external reference layer:** URL-backed references or edge annotations for public repos/results/docs. External targets are not silently treated as repo-relative pages.
+- **Narrow v1 inputs:** default extraction is `wikis/**/*.md` plus an explicit checked-in allowlist for approved link-map/governance pages. General `docs/reports/**` parsing is deferred unless a file is listed in the allowlist.
+- **Relation derivation table required:** each relation must declare source pattern/field, allowed target kind, whether inference is allowed, and fallback when ambiguous. High-risk relations (`implements`, `validates`, `public-result`, `blocked-by-clearance`) require explicit evidence only.
+- **Blocker edges gated:** `blocked-by-clearance` is excluded from v1 unless blocker nodes and approved source docs are fully defined in the schema allowlist.
+- **Versioned schema doc required:** add a durable schema contract such as `docs/schemas/public-graph-v1.md` plus `schema_version` in every artifact.
+- **Provenance strengthened:** every typed edge must include `evidence_path`, `evidence_locator` (frontmatter key, heading anchor, or link label/source section), and `derivation_rule`.
+- **Quality gates added:** validator must report unresolved-target rate, duplicate-edge rate, extraction warning counts, and fixture precision for typed edges including negative mention-only cases.
+- **Temp output supported:** generator must support `--output-dir` so tests do not mutate canonical artifacts.
+
+### Revised v1 relation stance
+Start with low-risk relations such as `links-to`, `cites`, `supersedes`, `mentions-standard`, and explicit curated `related-to`. Add `implements` / `validates` only from curated allowlisted link maps with explicit labels; otherwise emit warnings, not inferred edges.
+
+### Residual risk
+Medium. The graph is a substrate for #78/#80, so schema drift and over-inference remain the primary risks. These are controlled by schema versioning, allowlisted inputs, provenance locators, and precision/negative tests.
+
 ## Approval recommendation
 
 **Approval-ready for implementation after review**, with two cautions to preserve scope discipline:

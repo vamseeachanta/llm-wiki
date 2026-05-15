@@ -464,6 +464,28 @@ Anything outside the allowlist should be ignored by default.
 | Tests cover no unsafe path leakage and stable JSON responses. | Dedicated validator plus TDD checklist explicitly requires path/secret rejection and deterministic JSON contracts. |
 | README or docs page explains intended agent use. | `docs/query-surface.md` plus `README.md` update are called out in the proposed file map and implementation phases. |
 
+## Adversarial review synthesis and accepted hardening
+
+Three independent plan reviews completed on 2026-05-15. Consensus verdict: **MAJOR until v1 is narrowed and dependency gating is explicit; revised plan is approval-candidate with Medium residual risk**. The following changes are binding.
+
+### Accepted changes from review
+- **CLI-only v1:** MCP is phase 2 / follow-on after the CLI contract is stable. MCP work is not part of v1 done criteria.
+- **Narrow v1 command surface:** v1 should ship only deterministic artifact/entrypoint inspection commands, such as:
+  - `domains list`
+  - `pages get`
+  - `links get`
+  - `manifests inspect`
+  Optional `pages search`, `standards get`, `blockers explain`, and `benchmark context` are gated until the required #76/#77/#78 artifacts exist and have tests.
+- **Query-source registry required:** add a checked-in registry such as `data/query_sources.json` listing approved artifacts, exposed fields, schema versions, and public-safety notes.
+- **Fallback parser bounded:** any pre-#76/#77 fallback parser must name exact input files, exact extractable fields, and an explicit deprecation path once structured artifacts land.
+- **Command availability matrix:** docs/tests must declare which commands are available now, gated on #76, gated on #77, gated on #78, or gated on #79. Gated commands return structured `not_available` responses rather than ad hoc behavior.
+- **Response envelope strengthened:** JSON responses include `schema_version`, `surface_used`, `artifact_versions`, `match_type`, `result_confidence` or deterministic score, `ambiguity`, `warnings`, and `result_count`.
+- **No synthesized summaries in v1:** `pages get` may extract authored frontmatter/title/lead/abstract text only; no LLM-generated summary or free-form synthesis.
+- **Benchmark tie-in:** selected CLI command outputs should become fixtures for #78 once benchmark artifacts exist.
+
+### Residual risk
+Medium. The query surface is user-facing and downstream of #76/#77/#78. Risk is controlled by narrowing v1 to deterministic structured lookup and deferring MCP/open search until contracts stabilize.
+
 ## Dependencies
 
 ### Hard dependencies
