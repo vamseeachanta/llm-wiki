@@ -28,7 +28,7 @@ tests/fixtures/          data fixtures for the workspace-hub pipeline's wiki-con
 - **AI-agent entrypoint:** start with [`llms.txt`](llms.txt), then route through the domain-level `llms.txt` files instead of recursively scanning `wikis/`.
 - **Read directly:** browse `wikis/` on GitHub; pages use frontmatter per the workspace-hub schema (e.g., `code_id`, `publisher`, `revision` for standards pages — see `docs/schemas/`).
 - **Programmatic access:** clone or `git submodule add https://github.com/vamseeachanta/llm-wiki` adjacent to your tooling; the workspace-hub pipeline expects `wikis/<domain>/...` paths.
-- **Weekly freshness cadence:** update the root and domain `llms.txt` manifests when new domains, high-value concepts, governance routes, or code/result bridges change; keep them bounded to curated entrypoints rather than source-summary inventories.
+- **Weekly freshness cadence:** generate the public-safe freshness report with `uv run python scripts/llm_wiki_weekly_freshness.py --date YYYY-MM-DD --write`, then validate it with `uv run python scripts/validate_weekly_freshness_report.py docs/reports/YYYY-MM-DD-llm-wiki-weekly-freshness-report.md`. The run reads committed `wikis/` content, `data/concept_watchlist.json`, and `data/issue_routing_map.json`, writes `docs/reports/<date>-llm-wiki-weekly-freshness-report.md` plus `artifacts/freshness/<date>-weekly-freshness-summary.json`, and routes recommendations to existing issues instead of auto-opening duplicates.
 
 ## Licenses
 

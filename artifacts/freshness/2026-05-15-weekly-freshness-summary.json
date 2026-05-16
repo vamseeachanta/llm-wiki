@@ -1,0 +1,544 @@
+{
+  "baseline_run_date": "2026-05-15",
+  "broken_links": [
+    {
+      "domain": "drilling-engineering",
+      "reason": "missing-md-target",
+      "source": "wikis/drilling-engineering/wiki/concepts/jackup-rig.md",
+      "target": "../entities/maersk-drilling-fleet.md"
+    }
+  ],
+  "concept_watchlist": [
+    {
+      "concept": "llms.txt",
+      "confidence": "high",
+      "public_reference": "https://llmstxt.org/",
+      "route_key": "llms-entrypoints",
+      "why": "Agent-friendly repo/site entrypoints and curated markdown manifests."
+    },
+    {
+      "concept": "Model Context Protocol (MCP)",
+      "public_reference": "https://modelcontextprotocol.io/",
+      "why": "Standard tool/context protocol for agent query surfaces and future llm-wiki integrations."
+    },
+    {
+      "concept": "GraphRAG / LightRAG",
+      "confidence": "medium",
+      "public_reference": "https://github.com/microsoft/graphrag",
+      "route_key": "oss-watchlist",
+      "why": "Graph-backed retrieval patterns for entity, community, and citation-aware knowledge navigation."
+    },
+    {
+      "concept": "RAG evaluation",
+      "confidence": "medium",
+      "public_reference": "https://docs.ragas.io/",
+      "route_key": "oss-watchlist",
+      "why": "Faithfulness, context precision/recall, and answer-correctness checks for downstream code-assistant usefulness."
+    }
+  ],
+  "domain_freshness": [
+    {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "acma-projects",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 0,
+      "stale_pages_delta": 0,
+      "total_pages": 4,
+      "total_pages_delta": 0
+    },
+    {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "asset-management",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 0,
+      "stale_pages_delta": 0,
+      "total_pages": 25,
+      "total_pages_delta": 0
+    },
+    {
+      "broken_links": 1,
+      "broken_links_delta": 0,
+      "domain": "drilling-engineering",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 0,
+      "stale_pages_delta": 0,
+      "total_pages": 128,
+      "total_pages_delta": 0
+    },
+    {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "engineering",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 74,
+      "stale_pages_delta": 0,
+      "total_pages": 128,
+      "total_pages_delta": 0
+    },
+    {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "engineering-standards",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 0,
+      "stale_pages_delta": 0,
+      "total_pages": 216,
+      "total_pages_delta": 0
+    },
+    {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "lng-projects",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 0,
+      "stale_pages_delta": 0,
+      "total_pages": 29,
+      "total_pages_delta": 0
+    },
+    {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "marine-engineering",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 19165,
+      "stale_pages_delta": 0,
+      "total_pages": 19222,
+      "total_pages_delta": 0
+    },
+    {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "maritime-law",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 0,
+      "stale_pages_delta": 0,
+      "total_pages": 82,
+      "total_pages_delta": 0
+    },
+    {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "naval-architecture",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 36,
+      "stale_pages_delta": 0,
+      "total_pages": 76,
+      "total_pages_delta": 0
+    },
+    {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "production-engineering",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 0,
+      "stale_pages_delta": 0,
+      "total_pages": 42,
+      "total_pages_delta": 0
+    }
+  ],
+  "domains": {
+    "acma-projects": {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "acma-projects",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 0,
+      "stale_pages_delta": 0,
+      "total_pages": 4,
+      "total_pages_delta": 0
+    },
+    "asset-management": {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "asset-management",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 0,
+      "stale_pages_delta": 0,
+      "total_pages": 25,
+      "total_pages_delta": 0
+    },
+    "drilling-engineering": {
+      "broken_links": 1,
+      "broken_links_delta": 0,
+      "domain": "drilling-engineering",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 0,
+      "stale_pages_delta": 0,
+      "total_pages": 128,
+      "total_pages_delta": 0
+    },
+    "engineering": {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "engineering",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 74,
+      "stale_pages_delta": 0,
+      "total_pages": 128,
+      "total_pages_delta": 0
+    },
+    "engineering-standards": {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "engineering-standards",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 0,
+      "stale_pages_delta": 0,
+      "total_pages": 216,
+      "total_pages_delta": 0
+    },
+    "lng-projects": {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "lng-projects",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 0,
+      "stale_pages_delta": 0,
+      "total_pages": 29,
+      "total_pages_delta": 0
+    },
+    "marine-engineering": {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "marine-engineering",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 19165,
+      "stale_pages_delta": 0,
+      "total_pages": 19222,
+      "total_pages_delta": 0
+    },
+    "maritime-law": {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "maritime-law",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 0,
+      "stale_pages_delta": 0,
+      "total_pages": 82,
+      "total_pages_delta": 0
+    },
+    "naval-architecture": {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "naval-architecture",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 36,
+      "stale_pages_delta": 0,
+      "total_pages": 76,
+      "total_pages_delta": 0
+    },
+    "production-engineering": {
+      "broken_links": 0,
+      "broken_links_delta": 0,
+      "domain": "production-engineering",
+      "missing_frontmatter": 0,
+      "missing_frontmatter_delta": 0,
+      "missing_last_updated": 0,
+      "missing_last_updated_delta": 0,
+      "stale_pages": 0,
+      "stale_pages_delta": 0,
+      "total_pages": 42,
+      "total_pages_delta": 0
+    }
+  },
+  "public_safety_note": "public-safe metadata-only report; no raw/private/vendor/client content.",
+  "recommendations": [
+    {
+      "action": "comment-on-roadmap",
+      "confidence": "high",
+      "issue": 13,
+      "issue_route": "portfolio-roadmap",
+      "public_safe_summary": "Post weekly freshness summary and domain deltas to the roadmap anchor instead of opening a duplicate umbrella. Route stale metadata, missing frontmatter, and broken-link deltas through the existing roadmap queue for prioritization.",
+      "rationale": "Post weekly freshness summary and domain deltas to the roadmap anchor instead of opening a duplicate umbrella. Route stale metadata, missing frontmatter, and broken-link deltas through the existing roadmap queue for prioritization.",
+      "reason_code": "portfolio-weekly-summary",
+      "title": "Roadmap anchor update"
+    },
+    {
+      "action": "update-existing-issue",
+      "confidence": "high",
+      "issue": 76,
+      "issue_route": "llms-entrypoints",
+      "public_safe_summary": "Track curated public concept `llms.txt` through `llms-entrypoints`; #75 reports the signal but does not implement adjacent feature scope.",
+      "rationale": "Track curated public concept `llms.txt` through `llms-entrypoints`; #75 reports the signal but does not implement adjacent feature scope.",
+      "reason_code": "concept-llms-entrypoints",
+      "title": "llms.txt entrypoints"
+    },
+    {
+      "action": "update-existing-issue",
+      "confidence": "medium",
+      "issue": 79,
+      "issue_route": "oss-watchlist",
+      "public_safe_summary": "Track curated public concept `RAG evaluation` through `oss-watchlist`; #75 reports the signal but does not implement adjacent feature scope.",
+      "rationale": "Track curated public concept `RAG evaluation` through `oss-watchlist`; #75 reports the signal but does not implement adjacent feature scope.",
+      "reason_code": "concept-oss-watchlist",
+      "title": "Weekly OSS engineering-tool watchlist"
+    }
+  ],
+  "repo_totals": {
+    "broken_links": 1,
+    "broken_links_delta": 0,
+    "missing_frontmatter": 0,
+    "missing_frontmatter_delta": 0,
+    "missing_last_updated": 0,
+    "missing_last_updated_delta": 0,
+    "stale_pages": 19275,
+    "stale_pages_delta": 0,
+    "total_pages": 19952,
+    "total_pages_delta": 0
+  },
+  "run_date": "2026-05-15",
+  "schema_version": "weekly-freshness/v1",
+  "stale_pages": [
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/concepts/cathodic-protection-system.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/concepts/coating-breakdown.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/concepts/corrosion-control.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/concepts/long-period-swell-resonance.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/concepts/mooring-line-failure.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/concepts/process-safety.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/concepts/sour-service.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/entities/anode.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/entities/compressor.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/entities/flange.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/entities/float-collar.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/entities/float-shoe.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/entities/gasket.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/entities/lng-carrier-mooring.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/entities/separator.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/sources/001.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/sources/001gs.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/sources/002on.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/sources/003.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/sources/004.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/sources/004a.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/sources/004b.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/sources/005.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/sources/005es.md",
+      "reason": "last_updated older than 30 days"
+    },
+    {
+      "age_days": 38,
+      "domain": "marine-engineering",
+      "last_updated": "2026-04-07",
+      "path": "wikis/marine-engineering/wiki/sources/006a.md",
+      "reason": "last_updated older than 30 days"
+    }
+  ],
+  "totals": {
+    "broken_links": 1,
+    "broken_links_delta": 0,
+    "missing_frontmatter": 0,
+    "missing_frontmatter_delta": 0,
+    "missing_last_updated": 0,
+    "missing_last_updated_delta": 0,
+    "stale_pages": 19275,
+    "stale_pages_delta": 0,
+    "total_pages": 19952,
+    "total_pages_delta": 0
+  },
+  "validation": {
+    "generate": "uv run python scripts/llm_wiki_weekly_freshness.py --date 2026-05-15 --write",
+    "tests": "uv run pytest tests/test_llm_wiki_weekly_freshness.py tests/test_weekly_freshness_artifacts.py -q",
+    "validator": "uv run python scripts/validate_weekly_freshness_report.py docs/reports/2026-05-15-llm-wiki-weekly-freshness-report.md"
+  }
+}

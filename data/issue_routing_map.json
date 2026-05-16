@@ -1,0 +1,19 @@
+{
+  "routes": {
+    "portfolio-roadmap": {
+      "issue": 13,
+      "title": "Roadmap anchor update",
+      "action": "comment-on-roadmap"
+    },
+    "llms-entrypoints": {
+      "issue": 76,
+      "title": "llms.txt entrypoints",
+      "action": "update-existing-issue"
+    },
+    "oss-watchlist": {
+      "issue": 79,
+      "title": "Weekly OSS engineering-tool watchlist",
+      "action": "update-existing-issue"
+    }
+  }
+}

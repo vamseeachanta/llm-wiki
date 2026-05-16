@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "concept": "llms.txt",
+      "why": "Agent-friendly repo/site entrypoints and curated markdown manifests.",
+      "public_reference": "https://llmstxt.org/",
+      "route_key": "llms-entrypoints",
+      "confidence": "high"
+    },
+    {
+      "concept": "Model Context Protocol (MCP)",
+      "why": "Standard tool/context protocol for agent query surfaces and future llm-wiki integrations.",
+      "public_reference": "https://modelcontextprotocol.io/"
+    },
+    {
+      "concept": "GraphRAG / LightRAG",
+      "why": "Graph-backed retrieval patterns for entity, community, and citation-aware knowledge navigation.",
+      "public_reference": "https://github.com/microsoft/graphrag",
+      "route_key": "oss-watchlist",
+      "confidence": "medium"
+    },
+    {
+      "concept": "RAG evaluation",
+      "why": "Faithfulness, context precision/recall, and answer-correctness checks for downstream code-assistant usefulness.",
+      "public_reference": "https://docs.ragas.io/",
+      "route_key": "oss-watchlist",
+      "confidence": "medium"
+    }
+  ]
+}
