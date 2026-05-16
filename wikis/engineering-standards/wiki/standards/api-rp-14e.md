@@ -12,7 +12,7 @@ tags:
   - ve-formula
   - slug-flow
 added: 2026-05-09
-last_updated: 2026-05-09
+last_updated: 2026-05-16
 domain: engineering-standards
 sources:
   - /mnt/ace/O&G-Standards/API/Recommended-Practice/API_RP_14E_1991_Design_and_Installation_of_Offshore_Production_Platform_Piping_Systems.pdf
@@ -159,6 +159,13 @@ defensible offshore-piping design:
 - **Erosion / FAC concept page.** The concept-page consumer for the
   V_e formula and for the modern Salama / Shirazi / EPRI-CHECWORKS
   lineage. See [erosion-and-fac](../concepts/erosion-and-fac.md).
+- **Production-engineering V_e operational framing.** The PE-side
+  concept page covers the operational application of the V_e screen
+  to production-tubing rate ceilings, choke bean-up authorisation,
+  re-perforation rate-uplift assessment, and sand-laden-service
+  detection, alongside the API RP 14E 7th-edition reframing of V_e
+  as a screening tool. See
+  [erosional-velocity](../../../production-engineering/wiki/concepts/erosional-velocity.md).
 - **Sour-service materials.** When the produced fluid is sour (H2S
   partial pressure above the [ampp-mr-0175-pt1](ampp-mr-0175-pt1.md) / [iso-15156](iso-15156.md)
   threshold), RP 14E material-selection points the designer at the

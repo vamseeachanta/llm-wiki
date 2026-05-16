@@ -2,7 +2,7 @@
 domain: production-engineering
 created: 2026-05-13
 last_updated: 2026-05-16
-page_count: 54
+page_count: 64
 source_count: 0
 ---
 
@@ -19,13 +19,17 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | Page | Summary | Last Updated |
 |------|---------|-------------|
 | [Artificial Lift Overview](concepts/artificial-lift-overview.md) | Six artificial-lift method families with detailed coverage of ESP / gas lift / PCP / plunger lift / jet pump / hydraulic lift; rod-pump cross-link to drilling-engineering. | 2026-05-13 |
+| [Asphaltene Precipitation](concepts/asphaltene-precipitation.md) | Asphaltene SARA characterisation, onset-pressure prediction (de Boer plot, modified Hirschberg framework), inhibition (stabilisers / dispersants / mutual-solvent chemistry families cite-by-class), monitoring, aromatic-solvent remediation. | 2026-05-16 |
 | [Carbonate Acidizing](concepts/carbonate-acidizing.md) | HCl chemistry, Daccord 1987 wormhole regimes (face / conical / dominant / ramified), retarded acids (gelled / emulsified / organic / chelating) for HPHT and chrome-tubular envelopes. | 2026-05-16 |
 | [Diagnostic Fracture Injection Test (DFIT)](concepts/diagnostic-fracture-injection-test.md) | Pre-frac mini-frac test methodology: closure pressure, ISIP, leak-off coefficient, after-closure-analysis reservoir pressure / permeability. Pressure-derivative interpretation per Barree corpus; mandatory refrac diagnostic. | 2026-05-16 |
 | [Downhole Flow Control](concepts/downhole-flow-control.md) | Inflow-control hardware spectrum: ICDs (passive), AICDs (autonomous, fluid-responsive), ICVs (active, remotely actuated). Reservoir-management strategy enablement. | 2026-05-15 |
-| [Electric Submersible Pumps (ESP)](concepts/electric-submersible-pumps.md) | Downhole multi-stage centrifugal pump driven by surface-VFD-powered motor; 500-30,000+ bbl/d; system anatomy + operating principle + strengths/weaknesses. Perforation density / phasing IPR coupling. | 2026-05-15 |
+| [Electric Submersible Pumps (ESP)](concepts/electric-submersible-pumps.md) | Downhole multi-stage centrifugal pump driven by surface-VFD-powered motor; 500-30,000+ bbl/d; system anatomy + operating principle + strengths/weaknesses. Perforation density / phasing IPR coupling. | 2026-05-16 |
+| [Erosional Velocity](concepts/erosional-velocity.md) | API RP 14E V_e screen, C-factor controversy across decades of operator use, Salama 1993 / DNV RP O501 / E/CRC McLaury-Shirazi alternative quantitative-erosion models. Operational application to PE rate ceilings and sand-laden-service detection. | 2026-05-16 |
 | [ESP Failure Modes](concepts/esp-failure-modes.md) | Cable failures (~30-40% of pulls), motor / pump / seal-section failures; VFD-telemetry operational signatures. | 2026-05-14 |
 | [ESP Sizing](concepts/esp-sizing.md) | IPR → TDH → pump-stages → motor → cable → VFD iterative sizing workflow per API RP 11S4. | 2026-05-14 |
 | [ESP Vendor Archetypes](concepts/esp-vendor-archetypes.md) | Schlumberger REDA, Baker Hughes Centrilift (including post-2017 Wood Group ESP merger), Borets; component-compatibility constraints. | 2026-05-14 |
+| [Flow Assurance](concepts/flow-assurance.md) | Router for flow-assurance coverage: thermal-hydraulic-chemical operating envelope, four deposition families (paraffin / asphaltene / scale / hydrate), life-of-well planning vs operational-response framing. | 2026-05-16 |
+| [Flow Regime Maps](concepts/flow-regime-maps.md) | Mandhane 1974 empirical horizontal map, Taitel-Dukler 1976 semi-mechanistic horizontal framework, Taitel-Bornea-Dukler 1980 vertical framework, regime-identification instrumentation in producing wells. | 2026-05-16 |
 | [Frac Design](concepts/frac-design.md) | Frac-design model hierarchy (PKN / KGD / pseudo-3D / 3D), dimensionless-fracture-conductivity (F_CD) optimisation, pump-schedule architecture (pad / slurry-stage ramp / flush), pre- and post-frac diagnostics. | 2026-05-16 |
 | [Frac Fluids](concepts/frac-fluids.md) | Five frac-fluid families (slickwater / linear gel / crosslinked gel / energized CO2-N2 / foamed) with rheology, proppant-transport mechanism, cleanup penalty, and operator-selection framework. | 2026-05-16 |
 | [Frac Packing](concepts/frac-packing.md) | Tip-screen-out (TSO) frac-pack design, high-rate water pack (HRWP) hybrid, frac-pack vs gravel-pack operating envelope; Smith-Hannah TSO design framework. | 2026-05-16 |
@@ -34,13 +38,18 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Gas Lift Valve Design](concepts/gas-lift-valve-design.md) | IPO vs PPO actuation, bellows vs spring force source, dome pressure + spread, side-pocket vs tubing-retrievable mandrels. | 2026-05-14 |
 | [Gas Lift Valve Spacing](concepts/gas-lift-valve-spacing.md) | Brown-Camp graphical method + modern computational spacing; kickoff/unloading cascade from surface to operating-valve depth. | 2026-05-14 |
 | [Gravel Packing](concepts/gravel-packing.md) | OHGP and CHGP architectures, Saucier-criterion gravel-sizing (D₅₀ ratio 5-6×), pack-placement methodology (alpha-beta wave, HRWP, slurry pack); common operator mistakes. | 2026-05-15 |
+| [Horizontal and Inclined Flow](concepts/horizontal-inclined-flow.md) | Beggs-Brill 1973 (SPE 4007) correlation framework for inclined and horizontal two-phase flow; inclination correction; modifications and extensions (Mukherjee-Brill 1985); horizontal-flow-assurance interaction. | 2026-05-16 |
+| [Hydrate Management](concepts/hydrate-management.md) | Natural-gas hydrate structures + stability (van der Waals-Platteeuw 1959), THI thermodynamic inhibition (methanol, MEG), LDHI low-dosage inhibition (KHI vinyl-lactam polymer chemistry, anti-agglomerant cationic-surfactant chemistry), depressurisation remediation. | 2026-05-16 |
 | [Hydraulic Fracturing](concepts/hydraulic-fracturing.md) | Router for hydraulic-fracturing coverage: frac-mechanics framework, four-model hierarchy (PKN / KGD / pseudo-3D / 3D), fluid-and-proppant selection logic, pump-schedule architecture, microseismic monitoring, vendor archetypes. | 2026-05-16 |
 | [Hydraulic Piston Pump](concepts/hydraulic-piston-pump.md) | Downhole reciprocating piston pump driven by power fluid; open vs closed-loop configurations; deep-well alternative to ESP. | 2026-05-14 |
 | [Intelligent-Well Completions](concepts/intelligent-well-completions.md) | Smart-completion architecture: remotely-actuated flow control + downhole monitoring (PT gauges / DTS / DAS) + control-line bundle + surface SCADA. Concept-level only; vendor-IP firewall posture. | 2026-05-15 |
 | [Jet Pump](concepts/jet-pump.md) | No-moving-parts Venturi mixer driven by power fluid; throat-to-nozzle ratio sets pressure-rise vs rate; cavitation envelope. | 2026-05-14 |
 | [Matrix Acid Diversion](concepts/matrix-acid-diversion.md) | Diversion families: foam (chemical viscosity), ball sealers (perforation-blocking), fiber (bridging), VES (viscoelastic surfactant, hydrocarbon-break), mechanical isolation (positive-engagement). Selection logic and surface-pressure diagnostics. | 2026-05-16 |
 | [Matrix Acid Stimulation](concepts/matrix-acid-stimulation.md) | Router page for matrix-acid coverage: chemistry families (HCl / HF mud acid / retarded / chelating), lithology dispatch (sandstone vs carbonate), candidate selection, design framework. Damage-bypass stimulation below parting pressure. | 2026-05-16 |
+| [Mineral Scale](concepts/mineral-scale.md) | Scale-family taxonomy (CaCO3, sulphates, halite, FeS / FeCO3), Oddo-Tomson 1994 saturation-index framework, threshold-inhibitor chemistry families (phosphonate / polyacrylate cite-by-class), monitoring, scale-dissolver remediation. | 2026-05-16 |
 | [Multi-Zone Completions](concepts/multi-zone-completions.md) | Router for stacked-pay completion architectures: selective vs commingled, zonal-isolation hardware, downhole flow control overlay, smart-completion integration. SSSV envelope per API Spec 14A. | 2026-05-15 |
+| [Multiphase Flow in Wells](concepts/multiphase-flow-in-wells.md) | Router for multiphase-flow coverage: regime taxonomy (bubble / slug / churn / annular / mist), mechanistic-vs-empirical model choice, historical correlation lineage, system-level synthesis with PVT and heat-transfer coupling. | 2026-05-16 |
+| [Paraffin Deposition](concepts/paraffin-deposition.md) | Wax chemistry and WAT measurement (cross-polarised microscopy, DSC), molecular-diffusion deposition flux + shear-stripping limit, inhibition chemistry families (PPD EVA-copolymer / dispersant chemistry cite-by-class), monitoring, hot-oiling / pigging / solvent remediation. | 2026-05-16 |
 | [PCP Elastomer Chemistry](concepts/pcp-elastomer-chemistry.md) | NBR / HNBR / FKM / EPDM elastomer families; fluid-compatibility framework; common failure modes (swelling / hardening / softening / chunking). | 2026-05-14 |
 | [PCP Heavy-Oil Application](concepts/pcp-heavy-oil-application.md) | PCP dominance in heavy-oil and bitumen production; sand-control by design; cold-flow vs thermal (SAGD/CSI) considerations. | 2026-05-14 |
 | [Perforating](concepts/perforating.md) | Router page for perforating coverage: physics summary, shot-density / phasing / charge-type / differential framework, IPR coupling to artificial lift, casing-burst interaction. | 2026-05-15 |
@@ -59,6 +68,7 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Sand Control Screens](concepts/sand-control-screens.md) | Standalone (wire-wrap / slotted-liner), prepacked, expandable, premium-mesh screen families; PSD-driven selection logic; ISO 17824 qualification framework. | 2026-05-15 |
 | [Sandstone Acidizing](concepts/sandstone-acidizing.md) | Schechter-Gidley-Williams 3-stage framework (HCl preflush + HCl/HF mud-acid main + HCl/NH4Cl postflush); HF reaction kinetics with carbonates (CaF2 precipitation) and silicates (secondary fluorosilicates); common failure modes. | 2026-05-16 |
 | [Selective Production](concepts/selective-production.md) | Zonal-isolation hardware: production packers, sliding sleeves, polished-bore receptacles, single-trip multi-zone (STMZ) systems. Failure modes and operational discipline. | 2026-05-15 |
+| [Vertical Flow Correlations](concepts/vertical-flow-correlations.md) | Hagedorn-Brown 1965 (default vertical oil-well correlation), Duns-Ros 1963 (regime-aware vertical-flow framework), Gray 1974 (wet-gas / gas-condensate specific). Selection heuristics. | 2026-05-16 |
 
 ## Standards
 

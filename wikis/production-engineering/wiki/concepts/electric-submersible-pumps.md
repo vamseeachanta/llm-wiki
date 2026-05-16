@@ -6,7 +6,7 @@ sources:
   - api-rp-11s2
   - api-rp-11s4
 added: 2026-05-14
-last_updated: 2026-05-15
+last_updated: 2026-05-16
 ---
 
 # Electric Submersible Pumps (ESP)
@@ -90,10 +90,28 @@ Operational discipline:
 
 Cross-link: see [Multi-Zone Completions](multi-zone-completions.md) for the architectural overview and [Downhole Flow Control](downhole-flow-control.md) for the ICV / ICD / AICD families that pair with ESP in smart-completion architectures.
 
+## Flow-assurance operating envelope — hydrate / wax / scale impact on ESP
+
+ESP run-life and operating performance are sensitive to the four flow-assurance deposition families covered in [Flow Assurance](flow-assurance.md). The interactions are direct and operationally significant:
+
+- **Paraffin (wax) deposition** — wax layers on ESP pump stages and on the tubing immediately above the pump produce gradual head degradation; the ESP head-degradation telemetry is one of the surveillance signals for wax-build-up. See [Paraffin Deposition](paraffin-deposition.md).
+- **Asphaltene deposition** — asphaltene fouling of pump impellers and diffusers produces a head-degradation pattern similar to wax fouling; recovered-deposit composition analysis during pump pulls distinguishes the two and informs the inhibition response. See [Asphaltene Precipitation](asphaltene-precipitation.md).
+- **Mineral scale deposition** — scale fouling of pump internals can degrade pump performance and can mechanically wear impellers (CaCO3 scale is friable; sulphate scales are harder and more abrasive). Scale-inhibitor squeeze or continuous-injection programs are commonly carried on ESP wells in scaling-prone fields. See [Mineral Scale](mineral-scale.md).
+- **Hydrate formation** — hydrate is rarely an ESP-direct-pump problem (the pump is below the hydrate-formation envelope at most operating conditions because of reservoir-temperature warming), but hydrate formation in the tubing above the pump or in the surface flowline can stop production with downstream consequences for the ESP. See [Hydrate Management](hydrate-management.md).
+
+Operating-envelope coupling:
+
+- **Erosional-velocity ceiling** — for high-rate ESP wells the [Erosional Velocity](erosional-velocity.md) screen applied at the pump discharge and at the tubing-restriction points bounds the maximum sustainable operating rate; this couples with the ESP head-vs-rate curve to set the operating point.
+- **Inhibition-program design** — chemistries injected for paraffin / asphaltene / scale / hydrate management can interact with ESP component materials (elastomers, polymer parts in cable insulation); chemistry selection must respect the ESP material compatibility envelope alongside the flow-assurance performance objective.
+- **Multiphase-flow context** — the [Multiphase Flow in Wells](multiphase-flow-in-wells.md) correlation that sets the tubing-pressure-drop also sets the in-situ velocity that the V_e screen is compared against and the flow-regime that wax-deposition flux depends on; the ESP-design hydraulics calculation, the flow-assurance modelling, and the wellsite operational tuning all consume the same multiphase-flow foundation.
+
+Cross-link: see [Flow Assurance](flow-assurance.md) for the integrated thermal-hydraulic-chemical envelope and the individual deposition-family pages for prevention / inhibition / monitoring detail.
+
 ## Cross-references
 
 - [Artificial Lift Overview](artificial-lift-overview.md) — production-engineering-side method-selection router
 - [ESP Sizing](esp-sizing.md), [ESP Failure Modes](esp-failure-modes.md), [ESP Vendor Archetypes](esp-vendor-archetypes.md)
+- [Flow Assurance](flow-assurance.md), [Paraffin Deposition](paraffin-deposition.md), [Asphaltene Precipitation](asphaltene-precipitation.md), [Mineral Scale](mineral-scale.md), [Hydrate Management](hydrate-management.md), [Erosional Velocity](erosional-velocity.md) — flow-assurance operating-envelope coupling
 - [Perforation Strategy](perforation-strategy.md) — perforation density / phasing / EHL sets the IPR floor that ESP sizing depends on
 - [Multi-Zone Completions](multi-zone-completions.md), [Downhole Flow Control](downhole-flow-control.md), [Intelligent-Well Completions](intelligent-well-completions.md) — multi-zone ESP coupling
 - Drilling-engineering rod-pump cluster (cross-link for method-selection context): [Sucker-Rod Pumping Overview](../../../drilling-engineering/wiki/concepts/sucker-rod-pumping-overview.md), [Artificial-Lift Method Selection](../../../drilling-engineering/wiki/concepts/artificial-lift-method-selection.md)

@@ -5,7 +5,7 @@ sources:
   - api-rp-11v6
   - api-spec-11v1
 added: 2026-05-14
-last_updated: 2026-05-15
+last_updated: 2026-05-16
 ---
 
 # Gas Lift Overview
@@ -86,12 +86,24 @@ Gas-lift design depends on the **IPR curve** (inflow-performance relationship) o
 
 See [Perforation Strategy](perforation-strategy.md) for the shot-density / phasing / EHL framework that sets the IPR floor.
 
+## Hydrate formation in marginal injection-gas dehydration
+
+Gas-lift operations depend on a high-pressure injection-gas stream delivered down the annulus. When the injection-gas dehydration is **marginal** (the gas-export dehydration system is operating off-target, or the injection-gas slipstream is taken upstream of the dehydration train), residual water in the injection gas can drive hydrate formation in two operationally-distinct locations:
+
+- **Inside the gas-lift valves** — the valve body and orifice operate at a pressure-drop point that produces Joule-Thomson cooling of the injection gas as it expands from annulus pressure to tubing pressure. The combination of cooling at the orifice and any residual free water in the injection gas can produce hydrate at the valve, plugging the orifice and disabling the valve. The plug typically clears once injection is stopped and the well warms up, but the operational disruption is significant.
+- **In the tubing immediately above the gas-lift mandrel** — once injection gas mixes into the tubing column, cooler tubing temperature above the operating-valve depth can drive hydrate formation if free water is present in either the produced fluid or the injection gas.
+
+Mitigation strategies overlap with the broader hydrate-management toolkit (see [Hydrate Management](hydrate-management.md)): improve injection-gas dehydration (raise glycol-contactor or molecular-sieve performance to keep injection-gas water content below the no-hydrate threshold across the operating temperature range), or apply methanol or MEG injection at the injection-gas distribution point.
+
+Cross-link: see [Flow Assurance](flow-assurance.md) for the integrated thermal-hydraulic-chemical envelope and [Hydrate Management](hydrate-management.md) for the THI / LDHI prevention framework.
+
 ## Cross-references
 
 - [Gas Lift Valve Design](gas-lift-valve-design.md), [Gas Lift Valve Spacing](gas-lift-valve-spacing.md), [Gas Lift Troubleshooting](gas-lift-troubleshooting.md)
 - [Artificial Lift Overview](artificial-lift-overview.md)
 - [Perforation Strategy](perforation-strategy.md) — IPR coupling
 - [Multi-Zone Completions](multi-zone-completions.md), [Downhole Flow Control](downhole-flow-control.md), [Intelligent-Well Completions](intelligent-well-completions.md) — multi-zone gas-lift coupling
+- [Flow Assurance](flow-assurance.md), [Hydrate Management](hydrate-management.md) — injection-gas dehydration / hydrate-formation coupling
 - [API RP 11V6](../standards/api-rp-11v6.md), [API RP 11V2](../standards/api-rp-11v2.md), [API Spec 11V1](../standards/api-spec-11v1.md)
 - Drilling-engineering cross-link: [Artificial-Lift Method Selection](../../../drilling-engineering/wiki/concepts/artificial-lift-method-selection.md)
 
