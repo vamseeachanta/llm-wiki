@@ -4,7 +4,7 @@ tags: [sand-control, completions, gravel-pack, frac-pack, sand-screen, unconsoli
 sources:
   - iso-17824
 added: 2026-05-15
-last_updated: 2026-05-15
+last_updated: 2026-05-16
 ---
 
 # Sand Control
@@ -86,6 +86,19 @@ Sand-control architectures impose hard requirements on perforation strategy that
 - **Big-hole charges in unconsolidated sand are themselves a known sand-influx trigger** — the same big-hole geometry that makes the casing-wall area conducive to gravel placement also makes it conducive to formation sand entering uncontrolled if the gravel pack is poorly placed or breached. The sand-control completion is therefore not an optional addition to a perforated unconsolidated-sand interval — it is required by the perforation-policy choice.
 
 For the perforation-strategy framework that pairs with sand-control completions, see [Perforation Strategy](perforation-strategy.md). For the perforating physics that makes big-hole charges different from deep-penetrating charges, see [Perforating](perforating.md) and [Perforating — Shaped Charges](perforating-shaped-charges.md).
+
+## Frac-pack — Phase 2 / Phase 3 boundary technique
+
+Frac-packing sits on the boundary between Phase 2 sand control and Phase 3 stimulation in this wiki because the same job delivers both functions in a single execution. The Phase 2 framing on this page covers frac-packing as a sand-control architecture (one of the eight architectures in the catalogue above); the Phase 3 framing in [Hydraulic Fracturing](hydraulic-fracturing.md) covers the frac-mechanics of the same job as a stimulation.
+
+Key boundary points:
+
+- **Sand-control side** — the tip-screen-out (TSO) design intentionally screens out the frac at the tip, creating a short fat propped pack that fills the casing-screen annulus and retains formation sand at the perforations. See [Frac Packing](frac-packing.md) for the TSO design framework.
+- **Stimulation side** — the same propped pack also gives a near-wellbore conductivity uplift that restores or exceeds open-hole-equivalent productivity in moderate-permeability unconsolidated sands. See [Frac Design](frac-design.md) for the pump-schedule architecture that achieves both outcomes simultaneously.
+- **Fluid-and-proppant choices** — frac-packs typically use crosslinked-gel carrier fluid (for proppant-transport at high concentration) characterised under [API RP 39](../standards/api-rp-39.md), and intermediate-density ceramic or RCS proppant qualified under [ISO 13503](proppants.md). See [Frac Fluids](frac-fluids.md) and [Proppants](proppants.md) for the selection logic.
+- **Operating envelope** — frac-packs win against straight gravel-packs in moderate-permeability formations (10-1,000 mD) with fines-dominated PSDs and aggressive deliverability targets; straight gravel-packs win at higher permeability and where the cost of frac-pack execution is not justified.
+
+The cross-link is bidirectional — when reading [Hydraulic Fracturing](hydraulic-fracturing.md) from the Phase 3 side, the sand-control framing on this page is the inverse-direction context that explains why a frac-pack is a sand-control completion rather than purely a stimulation. The dedicated [Frac Packing](frac-packing.md) page sits at the boundary and synthesises both sides.
 
 ## Decision framework — selecting a sand-control architecture
 

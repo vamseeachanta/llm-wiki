@@ -6,7 +6,7 @@ sources:
   - api-rp-5c5
   - api-rp-5c1
 added: 2026-05-13
-last_updated: 2026-05-15
+last_updated: 2026-05-16
 ---
 
 # Casing Program Design
@@ -76,6 +76,20 @@ Practical interactions:
 
 The sand-control framework lives in the production-engineering wiki: see [Sand Control](../../../production-engineering/wiki/concepts/sand-control.md) for the architecture catalogue and decision framework, [Gravel Packing](../../../production-engineering/wiki/concepts/gravel-packing.md) for the cased-hole-vs-open-hole pack architecture and assembly OD considerations, and [Frac Packing](../../../production-engineering/wiki/concepts/frac-packing.md) for the production-casing-burst-margin coupling specific to frac-pack treatments.
 
+## Hydraulic fracturing — production casing must accommodate frac treating pressure + burst margin
+
+A third (and often largest) production-engineering load on the production casing comes from **hydraulic fracturing**. A frac job pumps high-pressure viscosified slurry through the production casing into the perforations, exposing the casing to a sustained treating pressure that can range from 5,000-15,000+ psi at the surface (with corresponding casing-pressure profiles at depth modified by hydrostatic head and friction). For modern unconventional-play multi-stage horizontal-well frac jobs, the frac treating pressure is frequently the single largest burst-design driver for the production-casing string.
+
+Practical interactions:
+
+- **Treating-pressure budget** — the production-casing burst rating at the worst-case depth, less the burst safety factor (typically 1.1-1.25 per the design-factor convention above), defines the maximum treating pressure that can be safely pumped. Operators planning frac jobs must confirm the casing budget *before* dispatching pumping equipment; an under-rated production casing forces a treating-pressure derate that may cap the frac geometry below the target half-length / conductivity.
+- **Friction-pressure budget** — high-viscosity frac fluid generates significant friction pressure in the tubing and casing string. Surface treating pressure equals downhole treating pressure plus friction; the friction-pressure budget eats into the available pumping margin, sometimes requiring the operator to switch to a lower-viscosity carrier fluid or to accept a lower pump rate.
+- **Repeated cycling** — multi-stage horizontal-well frac jobs cycle the production-casing pressure dozens of times over the course of a single completion sequence. Fatigue effects on the casing (and especially on the casing connections) are a known integrity concern; some operators specify premium connections precisely to handle the cyclic loading.
+- **Sour-service compatibility** — frac jobs in sour-service formations require sour-rated casing per NACE MR0175 / ISO 15156 because the frac-fluid pressure-cycling occurs in the presence of hydrogen-sulphide-bearing produced fluid in re-frac scenarios.
+- **Frac-design-vs-casing-design feedback** — well-planning teams should iterate the casing-program design and the planned frac-design together. A casing program optimised for drilling and run-in-place efficiency may be inadequate for the planned frac, and a frac-design optimised for productivity may exceed the casing budget. Surfacing this feedback during well design rather than during completion-job planning avoids costly late-stage redesigns.
+
+The hydraulic-fracturing framework lives in the production-engineering wiki: see [Hydraulic Fracturing](../../../production-engineering/wiki/concepts/hydraulic-fracturing.md) for the system-level synthesis, [Frac Design](../../../production-engineering/wiki/concepts/frac-design.md) for the pump-schedule architecture and pump-rate selection logic, [Frac Fluids](../../../production-engineering/wiki/concepts/frac-fluids.md) for the fluid-friction-pressure considerations, and [Proppants](../../../production-engineering/wiki/concepts/proppants.md) for the proppant-pack conductivity that the casing-pressure budget ultimately delivers.
+
 ## Public references
 
 - **Bourgoyne, Chenevert, Millheim, Young** — *Applied Drilling Engineering*, SPE Textbook Series Vol. 2, 1986 (ISBN 1-55563-001-4). Chapter 7 casing design.
@@ -90,5 +104,6 @@ The sand-control framework lives in the production-engineering wiki: see [Sand C
 - [API Spec 5CT](../standards/api-spec-5ct.md), [API RP 5C5](../standards/api-rp-5c5.md), [API RP 5C1](../standards/api-rp-5c1.md)
 - Production-engineering: [Perforating](../../../production-engineering/wiki/concepts/perforating.md), [Perforating Gun Systems](../../../production-engineering/wiki/concepts/perforating-gun-systems.md) — perforation policy / gun-detonation-pulse interaction with burst design
 - Production-engineering: [Sand Control](../../../production-engineering/wiki/concepts/sand-control.md), [Gravel Packing](../../../production-engineering/wiki/concepts/gravel-packing.md), [Frac Packing](../../../production-engineering/wiki/concepts/frac-packing.md) — sand-control completion architectures impose production-casing ID floor requirements (and frac-pack imposes a transient burst-pressure load)
+- Production-engineering: [Hydraulic Fracturing](../../../production-engineering/wiki/concepts/hydraulic-fracturing.md), [Frac Design](../../../production-engineering/wiki/concepts/frac-design.md), [Frac Fluids](../../../production-engineering/wiki/concepts/frac-fluids.md), [Proppants](../../../production-engineering/wiki/concepts/proppants.md) — hydraulic fracturing imposes the largest single burst-design load on the production-casing string in modern unconventional-play multi-stage horizontal-well frac jobs (treating-pressure budget, friction-pressure budget, cyclic-load fatigue)
 - Downstream consumer: [vamseeachanta/workspace-hub#1958](https://github.com/vamseeachanta/workspace-hub/issues/1958) — slim-hole well-engineering calc module (casing-program comparison + economics) — this concept page is the design-rationale anchor that module's outputs should cite
 - Founding source: [Papkov (2026)](../sources/papkov-2026-drilling-tender-ai-agent.md) — AI-tender-evaluation downstream consumer

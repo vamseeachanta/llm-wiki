@@ -4,7 +4,7 @@ tags: [frac-pack, sand-control, completions, tip-screenout, hydraulic-fracturing
 sources:
   - iso-17824
 added: 2026-05-15
-last_updated: 2026-05-15
+last_updated: 2026-05-16
 ---
 
 # Frac Packing
@@ -104,12 +104,26 @@ Mixed cases (e.g. moderate-perm formation with poor frac-barrier confidence) oft
 4. **Inadequate perforation density.** Like conventional gravel-pack, frac-pack requires distributed perforations to give the proppant placement uniform access; 6-12 spf is the typical floor. Below 6 spf the frac initiation azimuth becomes irregular and the annular pack is patchy.
 5. **Wrong charge selection.** Big-hole charges are correct for frac-pack (the casing-wall area is the throttle for high-rate proppant slurry); deep-penetrating charges leave perforation tunnels too narrow for high-rate proppant transport. See [Perforation Strategy](perforation-strategy.md).
 
+## Standalone-frac vs frac-pack — the Phase 3 stimulation distinction
+
+Frac-packs (the subject of this page) and standalone hydraulic fracs (the subject of [Hydraulic Fracturing](hydraulic-fracturing.md)) are mechanically related but operationally distinct:
+
+- **Standalone frac** — the goal is to maximise propped-frac half-length and conductivity in a competent, well-consolidated formation. No sand-control function. The pump schedule is designed to *avoid* tip-screen-out and to grow the frac out into the far-field reservoir. Typical of shale, tight-gas, tight-oil, and conventional moderate-permeability frac jobs in well-consolidated rock.
+- **Frac-pack** — the goal is to combine a short, fat, near-wellbore propped pack with a sand-control gravel-pack-style screen completion in an unconsolidated formation. The pump schedule is designed to *intentionally trigger* tip-screen-out and to fill the casing-screen annulus with the resulting proppant slurry.
+
+The key Phase 3 design tools — [Frac Design](frac-design.md) model classes (PKN / KGD / pseudo-3D / 3D), [Frac Fluids](frac-fluids.md) viscosity testing under [API RP 39](../standards/api-rp-39.md), [Proppants](proppants.md) qualification under ISO 13503 — apply to both standalone fracs and frac-packs. The difference is in the design intent: a TSO frac-pack design *exploits* the same fracture mechanics that a standalone-frac design *avoids* (the screen-out failure mode in a standalone job is the design goal in a frac-pack job).
+
+For Phase 3 stimulation context — frac-mechanics fundamentals, the four-model hierarchy, fluid-and-proppant selection across the full stimulation envelope, and the dimensionless-fracture-conductivity (F_CD) optimisation framework — see the [Hydraulic Fracturing](hydraulic-fracturing.md) router. The Phase 2 sand-control framing on this page is the inverse-direction context.
+
 ## Cross-references
 
 - [Sand Control](sand-control.md) — the production-engineering router
 - [Gravel Packing](gravel-packing.md) — the lower-rate / well-sorted-PSD alternative
 - [Sand Control Screens](sand-control-screens.md) — screen-family selection feeding into frac-pack assemblies
+- [Hydraulic Fracturing](hydraulic-fracturing.md) — Phase 3 stimulation router; standalone-frac vs frac-pack distinction
+- [Frac Design](frac-design.md), [Frac Fluids](frac-fluids.md), [Proppants](proppants.md) — Phase 3 design tools that apply (with different design intent) to frac-pack as well as standalone fracs
 - [ISO 17824](../standards/iso-17824.md) — sand-control screen qualification
+- [API RP 39](../standards/api-rp-39.md) — frac-fluid viscosity testing for the crosslinked-gel carriers used in TSO frac-pack designs
 - [Perforating](perforating.md), [Perforation Strategy](perforation-strategy.md) — big-hole-charge selection and shot-density floors for frac-pack
 - [Electric Submersible Pumps](electric-submersible-pumps.md) — IPR / artificial-lift coupling (frac-pack typically gives the highest sand-control IPR)
 - Drilling-engineering: [Casing Program Design](../../../drilling-engineering/wiki/concepts/casing-program-design.md) — production-casing burst margin must accommodate frac-pack treating pressures

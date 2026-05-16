@@ -158,6 +158,8 @@ Vendor catalogues separate DP and BH charges into distinct product families. Sel
 - Phasing: 0° / 180° **oriented** to maximum in-situ horizontal stress
 - Differential: OBP standard; the frac will dominate near-wellbore conductivity anyway
 
+The frac-design framework that consumes this perforation policy lives in the Phase 3 stimulation cluster: see [Hydraulic Fracturing](hydraulic-fracturing.md) for the system-level synthesis and [Frac Design](frac-design.md) for the pump-schedule architecture (pad volume, slurry-stage ramp, flush volume) that the oriented-phasing perforation policy enables. The fluid-and-proppant choices feeding the frac design are in [Frac Fluids](frac-fluids.md) and [Proppants](proppants.md).
+
 ### Gravel-pack completion
 
 - Charge: big-hole (BH)
@@ -243,6 +245,18 @@ Matrix-acid stimulation places hard requirements on perforation-policy choice th
 
 For the matrix-acid treatment-design framework that pairs with these perforation-policy choices, see [Matrix Acid Stimulation](matrix-acid-stimulation.md). The sandstone-and-carbonate-specific treatment design lives at [Sandstone Acidizing](sandstone-acidizing.md) and [Carbonate Acidizing](carbonate-acidizing.md). The diversion problem (which is amplified by low perforation density) is at [Matrix Acid Diversion](matrix-acid-diversion.md).
 
+## Hydraulic-fracturing — cluster-spacing and per-cluster initiation discipline
+
+Modern multi-stage horizontal-well frac jobs in unconventional plays initiate multiple frac clusters per stage; the perforation strategy must distribute initiation across the planned clusters rather than concentrating frac propagation in one or two dominant clusters. Distinct considerations:
+
+- **Cluster spacing within a stage** — typical 20-60 ft between adjacent clusters; tighter spacing increases the per-cluster frac density at the cost of greater stress-shadow interference between adjacent clusters during simultaneous propagation.
+- **Per-cluster perforation density** — typically 3-6 spf per cluster; higher per-cluster density helps drive uniform initiation across the cluster, suppressing the "one-cluster-dominates" failure mode.
+- **Limited-entry perforation design** — a deliberate friction-pressure budget across the perforations balances treating-pressure distribution between clusters, helping enforce per-cluster initiation. Practitioner literature on limited-entry design has been a major operator focus through the 2010s and 2020s.
+- **Plug-and-perf vs ball-drop sleeves** — competing multi-stage isolation hardware classes set different limits on what perforation-density / cluster-spacing combinations are achievable per stage. Both architectures are widely deployed in current operations.
+- **Stress-shadow modeling** — pseudo-3D and fully-3D frac-design simulators with stress-shadow modules can predict per-cluster width reduction from adjacent-cluster stress shadow, feeding back into perforation-design decisions about cluster spacing.
+
+Cross-link: see [Hydraulic Fracturing](hydraulic-fracturing.md) for the system-level frac framework, [Frac Design](frac-design.md) for the simulator-aided per-cluster design workflow, and [Frac Fluids](frac-fluids.md) / [Proppants](proppants.md) for the fluid-and-proppant choices that interact with the per-cluster perforation policy.
+
 ## Common operator mistakes
 
 1. **Conflating RP 19B Section I (surface flat-target) with Section II (stressed Berea) penetration numbers.** Section I numbers are 30-50% larger than Section II for the same charge. Using the surface-test number inflates field-performance expectations.
@@ -259,6 +273,7 @@ For the matrix-acid treatment-design framework that pairs with these perforation
 - [API RP 19B](../standards/api-rp-19b.md) — charge-performance evaluation
 - [Electric Submersible Pumps](electric-submersible-pumps.md) — IPR / artificial-lift coupling
 - [Gas Lift Overview](gas-lift-overview.md) — IPR / artificial-lift coupling
+- [Hydraulic Fracturing](hydraulic-fracturing.md), [Frac Design](frac-design.md), [Frac Fluids](frac-fluids.md), [Proppants](proppants.md) — Phase 3 stimulation cluster; consumes the oriented-phasing + per-cluster-density perforation policy framed here
 - Drilling-engineering: [Casing Program Design](../../../drilling-engineering/wiki/concepts/casing-program-design.md)
 
 ## Public references

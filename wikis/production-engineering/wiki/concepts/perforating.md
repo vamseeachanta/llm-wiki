@@ -196,6 +196,18 @@ Perforating policy and matrix-acid stimulation are tightly coupled because the a
 
 See [Matrix Acid Stimulation](matrix-acid-stimulation.md) for the chemistry-family framework and the candidate-selection logic. The sandstone-and-carbonate-specific treatment design lives at [Sandstone Acidizing](sandstone-acidizing.md) and [Carbonate Acidizing](carbonate-acidizing.md). The diversion problem — which is amplified by perforation-cluster geometry — is at [Matrix Acid Diversion](matrix-acid-diversion.md).
 
+## Hydraulic fracturing coupling — oriented perforating + cluster spacing
+
+Cased-hole hydraulic-fracturing completions impose perforation-policy requirements that are largely orthogonal to (and partly in tension with) the policies optimal for natural completion, sand-control, and multi-zone selective completions:
+
+- **Oriented phasing (0° / 180°) is standard for cased-hole frac initiation** — perforations must align with the maximum in-situ horizontal stress so that fractures initiate in a coherent plane. Isotropic phasing (60° / 90°) optimal for natural completion or sand-control produces tortuous near-wellbore frac geometry with high screen-out risk, treating-pressure spikes, and restricted near-wellbore conductivity. The Phase 3 [Hydraulic Fracturing](hydraulic-fracturing.md) router covers the frac-mechanics that drives this orientation requirement.
+- **Cluster spacing controls per-cluster fracture-initiation distribution in multi-stage horizontal wells** — modern unconventional-play multi-stage fracs initiate multiple clusters per stage; cluster spacing (typical 20-60 ft) and the within-cluster perforation density together control how uniformly the treating fluid initiates fractures across the stage. Stress-shadow effects between adjacent clusters can suppress some clusters from initiating at all if the design is wrong.
+- **Charge selection for frac initiation** — deep-penetrating (DP) charges are typical for low-permeability shale fracs (to bypass formation damage and reach the in-situ stress field cleanly); big-hole (BH) charges are used in some high-rate gas frac jobs where the casing-wall area becomes a flow-rate throttle during the slurry stages.
+- **Density floor for frac jobs** — 4-8 spf is typical for cased-hole frac jobs because the frac dominates near-wellbore productivity once initiated; per-cluster density in a multi-cluster stage may be higher to drive uniform initiation across the cluster.
+- **Frac-pack distinction** — frac-pack completions (see [Frac Packing](frac-packing.md)) require both isotropic phasing (for the gravel-pack distribution function) AND big-hole charges (for the proppant-slurry flow function), with 6-12 spf density. This is a distinct policy from standalone-frac initiation; the frac-pack policy is set by the sand-control function, not by the frac-initiation function.
+
+Cross-link: see [Hydraulic Fracturing](hydraulic-fracturing.md) for the Phase 3 stimulation router, [Frac Design](frac-design.md) for the pump-schedule architecture that the perforation-initiation policy enables, and [Perforation Strategy](perforation-strategy.md) for the operator-facing perforation-design framework.
+
 ## Standards anchor
 
 - [API RP 19B — Evaluation of Well Perforators](../standards/api-rp-19b.md) — the practitioner-canonical test methodology
