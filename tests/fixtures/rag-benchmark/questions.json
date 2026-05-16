@@ -1,0 +1,673 @@
+{
+  "benchmark_version": "rag-benchmark/v1",
+  "fixture_version": "2026-05-16",
+  "retrieval_unit": "file",
+  "corpus_surface": [
+    "wikis",
+    "docs/governance"
+  ],
+  "changelog_policy": "When questions or expected paths change, update fixture_version and regenerate scorecards.",
+  "questions": [
+    {
+      "question_id": "marine-001",
+      "question": "Which llm-wiki page links OrcaWave workflows to digitalmodel implementation docs?",
+      "intent_category": "implementation_locator",
+      "domain": "marine-offshore",
+      "expected_paths": [
+        "wikis/marine-engineering/wiki/code-results-links.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/marine-engineering/wiki/code-results-links.md"
+      ],
+      "required_facts": [
+        "OrcaWave workflows",
+        "digitalmodel",
+        "docs/domains/orcawave"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "marine-002",
+      "question": "Where should an agent look for OrcaFlex dynamic analysis and post-processing anchors?",
+      "intent_category": "implementation_locator",
+      "domain": "marine-offshore",
+      "expected_paths": [
+        "wikis/marine-engineering/wiki/code-results-links.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/marine-engineering/wiki/code-results-links.md"
+      ],
+      "required_facts": [
+        "OrcaFlex workflows",
+        "post-processing"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "marine-003",
+      "question": "Which page identifies public-safe freespan VIV demo result anchors?",
+      "intent_category": "public_result_validation",
+      "domain": "marine-offshore",
+      "expected_paths": [
+        "wikis/marine-engineering/wiki/code-results-links.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/marine-engineering/wiki/code-results-links.md"
+      ],
+      "required_facts": [
+        "Freespan/VIV",
+        "validated demo outputs"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "marine-004",
+      "question": "Where is shallow-water pipelay tied to public synthetic demo outputs?",
+      "intent_category": "public_result_validation",
+      "domain": "marine-offshore",
+      "expected_paths": [
+        "wikis/marine-engineering/wiki/code-results-links.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/marine-engineering/wiki/code-results-links.md"
+      ],
+      "required_facts": [
+        "Shallow-water pipelay",
+        "Public synthetic case"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "marine-005",
+      "question": "Which marine page says raw solver models and client simulations are deliberately avoided?",
+      "intent_category": "governance_boundary",
+      "domain": "marine-offshore",
+      "expected_paths": [
+        "wikis/marine-engineering/wiki/code-results-links.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/marine-engineering/wiki/code-results-links.md"
+      ],
+      "required_facts": [
+        "avoids raw solver models",
+        "client simulations"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "standards-001",
+      "question": "Which standards page applies NORSOK D-010 to two-barrier well integrity?",
+      "intent_category": "standards_applicability",
+      "domain": "standards",
+      "expected_paths": [
+        "wikis/drilling-engineering/wiki/standards/norsok-d-010.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/drilling-engineering/wiki/standards/norsok-d-010.md"
+      ],
+      "required_facts": [
+        "NORSOK D-010",
+        "two-barrier principle"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "standards-002",
+      "question": "Which NORSOK page cross-references API Bulletin E3 and IOGP 484?",
+      "intent_category": "standards_applicability",
+      "domain": "standards",
+      "expected_paths": [
+        "wikis/drilling-engineering/wiki/standards/norsok-d-010.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/drilling-engineering/wiki/standards/norsok-d-010.md"
+      ],
+      "required_facts": [
+        "API Bulletin E3",
+        "IOGP 484"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "standards-003",
+      "question": "Which engineering standards page should route environmental condition and load questions?",
+      "intent_category": "standards_applicability",
+      "domain": "standards",
+      "expected_paths": [
+        "wikis/engineering/wiki/standards/dnv-rp-c205.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/engineering/wiki/standards/dnv-rp-c205.md"
+      ],
+      "required_facts": [
+        "environmental",
+        "loads"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "standards-004",
+      "question": "Which engineering standards page should route DNV-RP-F105 pipeline free span vortex-induced vibration VIV questions?",
+      "intent_category": "standards_applicability",
+      "domain": "standards",
+      "expected_paths": [
+        "wikis/engineering/wiki/standards/dnv-rp-f105.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/engineering/wiki/standards/dnv-rp-f105.md"
+      ],
+      "required_facts": [
+        "DNV-RP-F105",
+        "free span",
+        "VIV"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "production-001",
+      "question": "Which production engineering page is the domain entrypoint for completions and production topics?",
+      "intent_category": "cross_domain_routing",
+      "domain": "production-engineering",
+      "expected_paths": [
+        "wikis/production-engineering/wiki/index.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/production-engineering/wiki/index.md"
+      ],
+      "required_facts": [
+        "production engineering",
+        "completions"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "production-002",
+      "question": "Which production concept page should support gas lift overview routing?",
+      "intent_category": "cross_domain_routing",
+      "domain": "production-engineering",
+      "expected_paths": [
+        "wikis/production-engineering/wiki/concepts/gas-lift-overview.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/production-engineering/wiki/concepts/gas-lift-overview.md"
+      ],
+      "required_facts": [
+        "gas lift"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "production-003",
+      "question": "Which production concept page should support ESP sizing questions?",
+      "intent_category": "implementation_locator",
+      "domain": "production-engineering",
+      "expected_paths": [
+        "wikis/production-engineering/wiki/concepts/esp-sizing.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/production-engineering/wiki/concepts/esp-sizing.md"
+      ],
+      "required_facts": [
+        "ESP",
+        "sizing"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "production-004",
+      "question": "Which production concept page should support production-history decline analysis questions?",
+      "intent_category": "implementation_locator",
+      "domain": "production-engineering",
+      "expected_paths": [
+        "wikis/production-engineering/wiki/concepts/production-history-decline-analysis.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/production-engineering/wiki/concepts/production-history-decline-analysis.md"
+      ],
+      "required_facts": [
+        "production history",
+        "decline analysis"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "code-results-001",
+      "question": "Which engineering page links energy module inventory to worldenergydata MODULE_INDEX.md?",
+      "intent_category": "implementation_locator",
+      "domain": "code-results",
+      "expected_paths": [
+        "wikis/engineering/wiki/public-data-software-links.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/engineering/wiki/public-data-software-links.md"
+      ],
+      "required_facts": [
+        "Energy module inventory",
+        "MODULE_INDEX.md"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "code-results-002",
+      "question": "Which engineering page links report generation to assetutilities implementation code?",
+      "intent_category": "implementation_locator",
+      "domain": "code-results",
+      "expected_paths": [
+        "wikis/engineering/wiki/public-data-software-links.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/engineering/wiki/public-data-software-links.md"
+      ],
+      "required_facts": [
+        "Report generation",
+        "assetutilities"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "code-results-003",
+      "question": "Where should agents route unit-handling implementation questions?",
+      "intent_category": "implementation_locator",
+      "domain": "code-results",
+      "expected_paths": [
+        "wikis/engineering/wiki/public-data-software-links.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/engineering/wiki/public-data-software-links.md"
+      ],
+      "required_facts": [
+        "Units",
+        "src/assetutilities/units"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "code-results-004",
+      "question": "Which page explains that raw local data stores are not copied into llm-wiki?",
+      "intent_category": "governance_boundary",
+      "domain": "code-results",
+      "expected_paths": [
+        "wikis/engineering/wiki/public-data-software-links.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/engineering/wiki/public-data-software-links.md"
+      ],
+      "required_facts": [
+        "raw/local stores",
+        "not copied into wiki"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "governance-001",
+      "question": "What governance page routes vendor brochure PDFs off repo instead of into public wiki?",
+      "intent_category": "governance_boundary",
+      "domain": "governance",
+      "expected_paths": [
+        "docs/governance/service-provider-data-routing.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "docs/governance/service-provider-data-routing.md"
+      ],
+      "required_facts": [
+        "Vendor brochure",
+        "Off-repo"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": true,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "governance-002",
+      "question": "Which governance page says SEC filings can be paraphrased into public wiki pages?",
+      "intent_category": "governance_boundary",
+      "domain": "governance",
+      "expected_paths": [
+        "docs/governance/service-provider-data-routing.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "docs/governance/service-provider-data-routing.md"
+      ],
+      "required_facts": [
+        "SEC filings",
+        "paraphrased"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "governance-003",
+      "question": "Which governance page forbids transcribing vendor tables or marketing copy into public wiki content?",
+      "intent_category": "governance_boundary",
+      "domain": "governance",
+      "expected_paths": [
+        "docs/governance/service-provider-data-routing.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "docs/governance/service-provider-data-routing.md"
+      ],
+      "required_facts": [
+        "Never transcribe vendor tables",
+        "marketing copy"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": true,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "routing-001",
+      "question": "Which page should answer whether to link BSEE knowledge-base provenance rather than embedding datasets?",
+      "intent_category": "cross_domain_routing",
+      "domain": "code-results",
+      "expected_paths": [
+        "wikis/engineering/wiki/public-data-software-links.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/engineering/wiki/public-data-software-links.md"
+      ],
+      "required_facts": [
+        "BSEE knowledge base",
+        "Provenance"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    },
+    {
+      "question_id": "routing-002",
+      "question": "Which drilling index should agents use to route drilling-rig technical specs corpus questions?",
+      "intent_category": "cross_domain_routing",
+      "domain": "production-engineering",
+      "expected_paths": [
+        "wikis/drilling-engineering/wiki/index.md"
+      ],
+      "secondary_paths": [],
+      "required_citations": [
+        "wikis/drilling-engineering/wiki/index.md"
+      ],
+      "required_facts": [
+        "drilling",
+        "technical specs"
+      ],
+      "forbidden_patterns": [
+        "PRIVATE_MOUNT",
+        "API_KEY",
+        "SECRET",
+        "TOKEN="
+      ],
+      "unacceptable_answer_criteria": [
+        "missing required citation",
+        "uses private path",
+        "claims unavailable private/raw material is public-safe"
+      ],
+      "expected_refusal": false,
+      "notes": "Repo-local public-safe benchmark item."
+    }
+  ]
+}
