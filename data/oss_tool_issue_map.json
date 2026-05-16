@@ -1,0 +1,29 @@
+{
+  "schema_version": "oss-tool-issue-map/v1",
+  "routes": {
+    "default": {
+      "action": "comment-on-roadmap",
+      "issue": 13,
+      "reason": "Weekly OSS watchlist findings are deduplicated through the roadmap anchor unless a specific open issue owns the tool lane.",
+      "title": "LLM wiki roadmap anchor"
+    },
+    "create_initial_seed_page": {
+      "action": "comment-on-roadmap",
+      "issue": 13,
+      "reason": "Initial seed-page candidates should be batched through the roadmap anchor before opening duplicate per-tool issues.",
+      "title": "LLM wiki roadmap anchor"
+    },
+    "docs_changed": {
+      "action": "comment-on-roadmap",
+      "issue": 13,
+      "reason": "Docs-change candidates should be reviewed in the weekly roadmap digest before creating/update issues.",
+      "title": "LLM wiki roadmap anchor"
+    },
+    "moordyn": {
+      "action": "reuse-existing-issue",
+      "issue": 79,
+      "reason": "Issue #79 owns the weekly OSS engineering-tool watchlist lane and should receive MoorDyn signal deltas until split into a dedicated child issue.",
+      "title": "Weekly OSS engineering-tool watchlist"
+    }
+  }
+}
