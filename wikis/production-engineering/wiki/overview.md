@@ -74,6 +74,12 @@ Anticipated near-term ingests, scope intent not yet executed:
 13. **Choke management** — separator-inlet pressure, well-deliverability matching
 14. **Well integrity during production** — corrosion / scale / paraffin monitoring and intervention
 
+### Phase 5 — Production accounting + regulatory + handover + data integration
+
+15. **Production accounting + measurement** — allocation factors, well-test reconciliation, GOR / water-cut tracking, custody-transfer overview, flow-measurement uncertainty
+16. **Regulatory reporting** — production-allowable rates, state production reporting (TX RRC W-1H/W-2/P-4), federal production reporting (BSEE 30 CFR 250), FracFocus chemical disclosure, gas-flaring rules
+17. **Surface-handover + data integration** — surface-handover boundary (wellhead → separator-inlet), manifold tie-in, choke skid + separator inlet, production SCADA architecture, production-data historian patterns; cybersecurity (IEC 62443) explicitly out-of-scope; surface-facility-engineering downstream of separator-inlet reserved for future wiki
+
 Phases are scope-intent, not committed work; each warrants its own GH-issue epic when execution starts.
 
 ## Founding-content anchor
