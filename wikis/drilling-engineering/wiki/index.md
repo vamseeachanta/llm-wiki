@@ -1,9 +1,9 @@
 ---
 domain: drilling-engineering
 created: 2026-05-13
-last_updated: 2026-05-14
-page_count: 127
-source_count: 1
+last_updated: 2026-05-15
+page_count: 128
+source_count: 2
 ---
 
 # Knowledge Index: Drilling Engineering
@@ -160,3 +160,4 @@ This wiki covers **drilling engineering and well construction** — rig technica
 | Page | Type | Size | Last Updated |
 |------|------|------|-------------|
 | [Papkov (2026) — Drilling-Tender AI Agent Prototype (LinkedIn)](sources/papkov-2026-drilling-tender-ai-agent.md) | article | — | 2026-05-13 |
+| [Lloyd's Maritime Institute (2026) — Offshore Drilling Sequence Animation (LinkedIn)](sources/lloyds-maritime-institute-2026-drilling-sequence-animation.md) | LinkedIn post + animation | Web | 2026-05-15 |
