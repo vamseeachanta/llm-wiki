@@ -2,8 +2,8 @@
 domain: marine-engineering
 created: 2026-04-07 02:15 UTC
 last_updated: 2026-05-15
-page_count: 19215
-source_count: 19170
+page_count: 19216
+source_count: 19171
 ---
 
 # Knowledge Index: Marine Engineering
@@ -89,6 +89,7 @@ source_count: 19170
 | [[Sibson (1985) — A Note on Fault Reactivation]](sources/sibson-1985-fault-reactivation.md) | Frictional reactivation criterion for cohesionless pre-existing faults under perturbed stress (J. Struct. Geol. 7:6) | Journal article | Web (DOI) | 2026-05-07 |
 | [[Anderson (1951) — The Dynamics of Faulting and Dyke Formation]](sources/anderson-1951-dynamics-of-faulting.md) | Canonical Andersonian classification of stress regimes and fault styles (Oliver & Boyd, Edinburgh, 2nd ed.) | Book | Pre-DOI | 2026-05-07 |
 | [[Kencana (2026) — MOSES Marine Installation Simulation]](sources/kencana-2026-moses-marine-installation-simulation.md) | Practitioner LinkedIn essay praising MOSES (Ultramarine / Bentley) for end-to-end marine-installation rehearsal; popular-explainer tone, no standards or projects named | LinkedIn post | Web | 2026-05-15 |
+| [[Tao (2026) — Chuang Li Deepwater Pipelay / Heavy-Lift Vessel Availability]](sources/tao-2026-chuang-li-deepwater-pipelay-vessel.md) | Vendor-marketing post announcing 2027 shipyard upgrade for the Chuang Li pipelay / heavy-lift vessel; row-4 URL-only bibliographic reference; flags deepwater-pipelay concept coverage gap | LinkedIn vendor-marketing post | Web | 2026-05-15 |
 
 ## Comparisons
 
