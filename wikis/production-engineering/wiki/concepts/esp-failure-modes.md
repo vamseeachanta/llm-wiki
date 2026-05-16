@@ -5,7 +5,7 @@ sources:
   - api-rp-11s
   - api-rp-11s1
 added: 2026-05-14
-last_updated: 2026-05-14
+last_updated: 2026-05-16
 ---
 
 # ESP Failure Modes
@@ -23,6 +23,7 @@ The dominant workover trigger. Subcategories:
 - **Cable splice failure** — at the motor pigtail-to-power-cable junction; thermal cycling + flexure
 - **Cable mechanical damage** — clamp galling against tubing; running-in damage; pulling damage
 - **Cable insulation breakdown** — high-temperature service degrades EPDM / Teflon insulation; eventually shorts to ground
+- **Corrosion-induced cable failure** — sustained chemical attack on EPDM / Teflon insulation from H2S, CO2-carbonic-acid, and produced-water-chemistry exposure can produce insulation degradation that resembles thermal breakdown but originates in chemistry rather than temperature. Distinguishable in [API RP 11S1](../standards/api-rp-11s1.md) post-pull teardown analysis; couples directly to operating-time corrosion-management programs (see [Corrosion Management](corrosion-management.md)) and to the [Well Integrity During Production](well-integrity-during-production.md) operating-time integrity framework. Inhibitor-program chemistry selection must respect ESP component material compatibility to avoid corrosion-control wins that produce ESP-cable losses.
 - **Cable connector failure** — wellhead penetrator electrical-feed-through degradation
 
 ### Motor failures
@@ -62,3 +63,4 @@ The dominant workover trigger. Subcategories:
 - [Electric Submersible Pumps](electric-submersible-pumps.md), [ESP Sizing](esp-sizing.md), [ESP Vendor Archetypes](esp-vendor-archetypes.md)
 - [API RP 11S](../standards/api-rp-11s.md), [API RP 11S1](../standards/api-rp-11s1.md), [API RP 11S7](../standards/api-rp-11s7.md)
 - [Artificial Lift Overview](artificial-lift-overview.md)
+- [Well Integrity During Production](well-integrity-during-production.md), [Corrosion Management](corrosion-management.md), [Integrity Monitoring](integrity-monitoring.md), [Intervention Triggers](intervention-triggers.md) — operating-time integrity coupling and corrosion-driven ESP-failure paths

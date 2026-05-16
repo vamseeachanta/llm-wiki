@@ -176,6 +176,23 @@ Refrac does **not** have a dedicated API recommended-practice anchor. The closes
 
 Refrac practice is therefore primarily anchored to **textbook and SPE-paper consensus** rather than to a standards-published procedure, similar in this regard to matrix-acid stimulation (see [Matrix Acid Stimulation](matrix-acid-stimulation.md)).
 
+## Refrac candidacy depends on cumulative integrity-state degradation
+
+Refrac candidate-selection workflows treat **wellbore-integrity inspection as leg 3** of the three-leg diagnostic process (alongside production-history decline analysis and DFIT, see above). The cumulative operating-time integrity-state of the candidate well determines both *whether* a refrac is feasible at all and *which* of the three recompletion architectures (cement-and-perf / mechanical isolation / expandable liner) is appropriate.
+
+The operating-time integrity-state that the refrac decisioning consumes comes directly from the well-integrity-during-production discipline:
+
+- **Production-tubing wall-thickness condition** — UT, ECT, and multi-finger-caliper survey data accumulated through the producing life characterises the tubing's ability to withstand refrac treating pressure plus burst margin. Heavily-corroded tubing requires either replacement (adding tubing-string-replacement cost to the refrac job scope) or cannot accept the refrac at all.
+- **Production-casing wall-thickness condition** — same diagnostic family for the casing; refrac treating pressure can exceed the original frac treating pressure when modern higher-rate frac designs are applied, and corroded casing may not have the burst-margin headroom to accept the modern refrac design.
+- **Cement-sheath condition** — periodic CBL / VDL / ultrasonic-imaging-tool re-survey through the producing life produces the operating-time cement-condition data that determines whether cement-and-perf is feasible (sound cement supports squeeze-cementing isolation) or whether the operator must escalate to mechanical isolation or expandable-liner architecture.
+- **Sustained casing pressure (SCP) history** — APB and SCP-monitoring history is a strong indicator of cement-sheath integrity; wells with SCP history typically require mechanical isolation or expandable liner rather than cement-and-perf.
+- **Sand-control-completion integrity** — wells with sand-control completions face additional refrac complexity because the refrac job must either accommodate the existing sand-control completion (which constrains refrac geometry and proppant placement) or include sand-control-completion replacement (which dramatically expands job scope).
+- **Cumulative corrosion-management-program performance** — the operating-time corrosion-monitoring record (coupon data, inhibitor-residual analysis, observed-rate trending) characterises the corrosion-control success of the well's operating history; wells with poor corrosion-management track records have higher uncertainty in their wellbore-integrity baseline and warrant tighter pre-refrac inspection.
+
+The wellbore-integrity inspection that initiates the refrac decisioning workflow (caliper / CBL / pressure-test / tubing-integrity logging, see Leg 3 above) is therefore a focused intensification of the operating-time integrity-monitoring program rather than a standalone diagnostic; the operating-time data accumulated through years of producing-life monitoring is part of the input to the refrac decisioning, and the focused pre-refrac inspection extends and confirms the cumulative picture.
+
+For the operating-time well-integrity discipline that feeds refrac candidate-selection, see [Well Integrity During Production](well-integrity-during-production.md), [Integrity Monitoring](integrity-monitoring.md), [Corrosion Management](corrosion-management.md), and [Intervention Triggers](intervention-triggers.md).
+
 ## Cross-references
 
 - [Diagnostic Fracture Injection Test](diagnostic-fracture-injection-test.md) — DFIT methodology, pre-frac procedure, closure-pressure / ISIP / leak-off interpretation

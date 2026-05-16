@@ -107,6 +107,17 @@ Operating-envelope coupling:
 
 Cross-link: see [Flow Assurance](flow-assurance.md) for the integrated thermal-hydraulic-chemical envelope and the individual deposition-family pages for prevention / inhibition / monitoring detail.
 
+## ESP failure interaction with corrosion-induced motor failures
+
+ESP run-life trending is sensitive to the operating-time corrosion environment in ways that go beyond the direct sand / scale / deposition fouling discussed above. Corrosion-induced ESP failures cluster around several specific failure paths:
+
+- **Cable insulation corrosion-driven breakdown** — power-cable insulation can degrade through chemical attack from H2S, CO2-carbonic-acid, and produced-water-chemistry exposure. EPDM and Teflon-class insulations have different chemical-compatibility envelopes; degraded insulation eventually shorts to ground and produces a cable failure that initiates an ESP pull. Corrosion-driven cable failures are part of the broader cable-failure category that dominates ESP workover triggers (see [ESP Failure Modes](esp-failure-modes.md)) but are distinguishable from mechanical and thermal cable failures by post-pull teardown analysis under [API RP 11S1](../standards/api-rp-11s1.md) methodology.
+- **Motor-housing external corrosion** — the motor housing is in continuous contact with produced fluids that pass it for motor cooling; sustained operation in CO2- or H2S-bearing service can produce external-surface corrosion that eventually breaches the housing seal and admits well fluid into the motor oil, causing electrical-short failure (see [ESP Failure Modes](esp-failure-modes.md) seal-section failure modes).
+- **Stage erosion-corrosion interaction** — abrasive-erosion of impellers and diffusers is accelerated when the pump-stage surface is also being chemically attacked; the combined mode produces wear rates higher than the linear superposition of pure-erosion and pure-corrosion contributions.
+- **Inhibitor-program interaction with ESP component materials** — chemical inhibitors deployed for tubular-corrosion management can interact with ESP component materials (elastomers in seal sections, polymer parts in cable insulation, motor-oil chemistry). Chemistry selection for inhibitor programs must respect the ESP material-compatibility envelope alongside the corrosion-control performance objective; mis-matched chemistry can produce a corrosion-control win and an ESP-failure loss simultaneously.
+
+Operating-time integrity monitoring (see [Integrity Monitoring](integrity-monitoring.md)) couples directly with ESP-run-life trending: corrosion-rate excursions detected by coupon analysis or wall-thickness surveys can precede ESP failure by months, providing early warning that supports proactive intervention scheduling. The [Well Integrity During Production](well-integrity-during-production.md) router covers the integrated framework that ESP-operating engineering consumes.
+
 ## Cross-references
 
 - [Artificial Lift Overview](artificial-lift-overview.md) — production-engineering-side method-selection router
@@ -114,4 +125,5 @@ Cross-link: see [Flow Assurance](flow-assurance.md) for the integrated thermal-h
 - [Flow Assurance](flow-assurance.md), [Paraffin Deposition](paraffin-deposition.md), [Asphaltene Precipitation](asphaltene-precipitation.md), [Mineral Scale](mineral-scale.md), [Hydrate Management](hydrate-management.md), [Erosional Velocity](erosional-velocity.md) — flow-assurance operating-envelope coupling
 - [Perforation Strategy](perforation-strategy.md) — perforation density / phasing / EHL sets the IPR floor that ESP sizing depends on
 - [Multi-Zone Completions](multi-zone-completions.md), [Downhole Flow Control](downhole-flow-control.md), [Intelligent-Well Completions](intelligent-well-completions.md) — multi-zone ESP coupling
+- [Well Integrity During Production](well-integrity-during-production.md), [Corrosion Management](corrosion-management.md), [Integrity Monitoring](integrity-monitoring.md) — operating-time integrity coupling and corrosion-induced ESP-failure paths
 - Drilling-engineering rod-pump cluster (cross-link for method-selection context): [Sucker-Rod Pumping Overview](../../../drilling-engineering/wiki/concepts/sucker-rod-pumping-overview.md), [Artificial-Lift Method Selection](../../../drilling-engineering/wiki/concepts/artificial-lift-method-selection.md)

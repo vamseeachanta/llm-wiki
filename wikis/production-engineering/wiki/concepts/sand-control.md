@@ -100,6 +100,26 @@ Key boundary points:
 
 The cross-link is bidirectional — when reading [Hydraulic Fracturing](hydraulic-fracturing.md) from the Phase 3 side, the sand-control framing on this page is the inverse-direction context that explains why a frac-pack is a sand-control completion rather than purely a stimulation. The dedicated [Frac Packing](frac-packing.md) page sits at the boundary and synthesises both sides.
 
+## Sand-control screen integrity as operating-time well-integrity scope
+
+The sand-control completion architecture is established at completion time, but the **operating-time integrity of the as-installed screen and pack** is a production-engineering well-integrity scope through the producing life of the well. The sand-control discipline does not end when the completion is run; the screen and pack must continue to perform their sand-retention function across the producing life, and their degradation is part of the operating-time well-integrity envelope.
+
+Degradation paths for sand-control completions in service:
+
+- **Screen erosion-and-corrosion** — produced fluids passing through the screen can erode or corrode the screen mesh, expanding apertures and compromising the sand-retention function. Sour service or aggressive-chemistry produced water accelerates the degradation.
+- **Pack disturbance** — gravel-pack and frac-pack packs can be disturbed by water-cut shifts, by aggressive drawdown cycling, by gas-coning events, or by mechanical loads from production-rate changes. Pack disturbance opens flow paths around the screen and allows formation-sand carryover.
+- **Screen-pack-formation gap evolution** — in standalone-screen completions and in some expandable-screen installations, the residual annular gap between screen and formation can evolve in service through sand-bridging-and-collapse cycles that change the effective sand-retention performance.
+- **Solids-deposit plugging** — fines, scale, and produced-fluid solids can accumulate on the screen exterior, gradually plugging the screen and increasing the screen-pressure-drop component of the inflow performance.
+
+Operating-time diagnostic indicators of sand-control-completion degradation:
+
+- **Produced-sand-count trending** — sustained increases in produced-sand counts above baseline are the most-direct indicator of sand-control degradation
+- **Choke-trim erosion-rate excursion** — accelerated choke-trim erosion can be the first indicator of upstream sand-control-completion breach
+- **Inflow-performance-degradation pattern** — screen plugging produces a characteristic pressure-drop signature that is distinguishable from reservoir-side IPR shifts
+- **ESP failure-rate cluster** — clustered ESP failures in wells sharing a sand-control-completion vintage can indicate a vintage-specific sand-control-degradation issue
+
+The integrity-monitoring discipline at [Integrity Monitoring](integrity-monitoring.md) consumes sand-control-completion data alongside other operating-time integrity-data sources; the intervention-decisioning at [Intervention Triggers](intervention-triggers.md) covers sand-control-completion-remediation interventions. The integrated framework for sand-control-completion integrity as part of the broader operating-time well-integrity envelope is at [Well Integrity During Production](well-integrity-during-production.md).
+
 ## Decision framework — selecting a sand-control architecture
 
 A simplified operator decision tree:

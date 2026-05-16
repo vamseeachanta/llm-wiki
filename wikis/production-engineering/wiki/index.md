@@ -2,7 +2,7 @@
 domain: production-engineering
 created: 2026-05-13
 last_updated: 2026-05-16
-page_count: 69
+page_count: 75
 source_count: 0
 ---
 
@@ -24,6 +24,7 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Choke Management](concepts/choke-management.md) | Router for choke-management coverage: choke families, bean-up/bean-down operations, ESD interlock context per API RP 14C, well-deliverability matching across IPR/TPR/facility constraints. Perforation-strategy bean-up coupling. | 2026-05-16 |
 | [Choke Sand Erosion](concepts/choke-sand-erosion.md) | Sand-erosion physics for choke trim selection; DNV RP O501 methodology coupling; API RP 14E V_e criterion; surface-vs-subsea replacement-frequency economics; sand-control completion coupling. | 2026-05-16 |
 | [Choke Types](concepts/choke-types.md) | Four choke-architecture families (fixed-bore positive, adjustable, cage, multistage) + trim-material families (WC / ceramic / stellite-class hardfacing / hardened alloy / specialty composites). Surface-vs-subsea service envelope. | 2026-05-16 |
+| [Corrosion Management](concepts/corrosion-management.md) | Operating-time corrosion mechanisms (CO2 / H2S / MIC / oxygen-ingress) and inhibition / mitigation framework. de Waard-Milliams + Norsok M-506 described qualitatively; chemistry-class inhibitor families only. PROSE-ONLY. | 2026-05-16 |
 | [Diagnostic Fracture Injection Test (DFIT)](concepts/diagnostic-fracture-injection-test.md) | Pre-frac mini-frac test methodology: closure pressure, ISIP, leak-off coefficient, after-closure-analysis reservoir pressure / permeability. Pressure-derivative interpretation per Barree corpus; mandatory refrac diagnostic. | 2026-05-16 |
 | [Downhole Flow Control](concepts/downhole-flow-control.md) | Inflow-control hardware spectrum: ICDs (passive), AICDs (autonomous, fluid-responsive), ICVs (active, remotely actuated). Reservoir-management strategy enablement. | 2026-05-15 |
 | [Electric Submersible Pumps (ESP)](concepts/electric-submersible-pumps.md) | Downhole multi-stage centrifugal pump driven by surface-VFD-powered motor; 500-30,000+ bbl/d; system anatomy + operating principle + strengths/weaknesses. Perforation density / phasing IPR coupling. | 2026-05-16 |
@@ -45,7 +46,9 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Hydrate Management](concepts/hydrate-management.md) | Natural-gas hydrate structures + stability (van der Waals-Platteeuw 1959), THI thermodynamic inhibition (methanol, MEG), LDHI low-dosage inhibition (KHI vinyl-lactam polymer chemistry, anti-agglomerant cationic-surfactant chemistry), depressurisation remediation. | 2026-05-16 |
 | [Hydraulic Fracturing](concepts/hydraulic-fracturing.md) | Router for hydraulic-fracturing coverage: frac-mechanics framework, four-model hierarchy (PKN / KGD / pseudo-3D / 3D), fluid-and-proppant selection logic, pump-schedule architecture, microseismic monitoring, vendor archetypes. | 2026-05-16 |
 | [Hydraulic Piston Pump](concepts/hydraulic-piston-pump.md) | Downhole reciprocating piston pump driven by power fluid; open vs closed-loop configurations; deep-well alternative to ESP. | 2026-05-14 |
+| [Integrity Monitoring](concepts/integrity-monitoring.md) | UT / eddy-current / MFL wall-thickness surveying, annular-pressure-buildup (APB / SCP) diagnostics, permanent-downhole-gauge trending, corrosion-coupon and inhibitor-residual analysis per AMPP SP0775. Risk-based-inspection integration per API RP 581. | 2026-05-16 |
 | [Intelligent-Well Completions](concepts/intelligent-well-completions.md) | Smart-completion architecture: remotely-actuated flow control + downhole monitoring (PT gauges / DTS / DAS) + control-line bundle + surface SCADA. Concept-level only; vendor-IP firewall posture. | 2026-05-15 |
+| [Intervention Triggers](concepts/intervention-triggers.md) | Risk-based-inspection (API RP 581) triggers from accumulated monitoring data and regulator-mandated triggers (BSEE NTLs, Texas RRC, HSE / Ptil safety-case regimes). Workover decisioning economic frame. | 2026-05-16 |
 | [Jet Pump](concepts/jet-pump.md) | No-moving-parts Venturi mixer driven by power fluid; throat-to-nozzle ratio sets pressure-rise vs rate; cavitation envelope. | 2026-05-14 |
 | [Matrix Acid Diversion](concepts/matrix-acid-diversion.md) | Diversion families: foam (chemical viscosity), ball sealers (perforation-blocking), fiber (bridging), VES (viscoelastic surfactant, hydrocarbon-break), mechanical isolation (positive-engagement). Selection logic and surface-pressure diagnostics. | 2026-05-16 |
 | [Matrix Acid Stimulation](concepts/matrix-acid-stimulation.md) | Router page for matrix-acid coverage: chemistry families (HCl / HF mud acid / retarded / chelating), lithology dispatch (sandstone vs carbonate), candidate selection, design framework. Damage-bypass stimulation below parting pressure. | 2026-05-16 |
@@ -73,6 +76,7 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Sandstone Acidizing](concepts/sandstone-acidizing.md) | Schechter-Gidley-Williams 3-stage framework (HCl preflush + HCl/HF mud-acid main + HCl/NH4Cl postflush); HF reaction kinetics with carbonates (CaF2 precipitation) and silicates (secondary fluorosilicates); common failure modes. | 2026-05-16 |
 | [Selective Production](concepts/selective-production.md) | Zonal-isolation hardware: production packers, sliding sleeves, polished-bore receptacles, single-trip multi-zone (STMZ) systems. Failure modes and operational discipline. | 2026-05-15 |
 | [Vertical Flow Correlations](concepts/vertical-flow-correlations.md) | Hagedorn-Brown 1965 (default vertical oil-well correlation), Duns-Ros 1963 (regime-aware vertical-flow framework), Gray 1974 (wet-gas / gas-condensate specific). Selection heuristics. | 2026-05-16 |
+| [Well Integrity During Production](concepts/well-integrity-during-production.md) | Router for production-time well-integrity coverage: PE-vs-DE scope boundary (PE = operating-time degradation; DE = barrier establishment), five operating-time degradation mechanisms, four operating-time integrity workflows. | 2026-05-16 |
 
 ## Standards
 
@@ -92,6 +96,8 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [ISO 17824 — Sand Control Screens (Open-Hole Gravel Pack)](standards/iso-17824.md) | International qualification standard for downhole sand-control screens used in open-hole gravel-pack service; pairs with ISO 17825 (cased-hole). | 2026-05-15 |
 | [API Spec 14A — Subsurface Safety Valve Equipment](standards/api-spec-14a.md) | Specification for SSSV equipment in production tubing; the safety-barrier envelope that all multi-zone and smart-completion control-line bundles must respect. | 2026-05-15 |
 | [API RP 14C — Safety Systems for Offshore Production Facilities](standards/api-rp-14c.md) | Practitioner-canonical safety-system methodology: SAT + SAFE chart; coordinated ESD logic; choke-and-SSV coverage; 30 CFR 250 incorporation by reference. Paywalled; structural intent paraphrased. 8th edition 2017 + Errata 1 2018. | 2026-05-16 |
+| [ISO 21457 — Materials Selection and Corrosion Control for Oil and Gas Production Systems](standards/iso-21457.md) | International system-level material-selection and corrosion-control philosophy; 1st edition 2010 reconfirmed by ISO/TC 67 in 2024. Bridges design-time material selection and operating-time integrity monitoring. Paywalled; structural intent paraphrased. | 2026-05-16 |
+| [NACE SP0106 — Control of Internal Corrosion in Steel Pipelines and Piping Systems](standards/nace-sp0106.md) | AMPP (formerly NACE) practitioner-canonical operating-time internal-corrosion management methodology; 2018 reaffirmed edition. Threat ID + monitoring + mitigation + program-adjustment framework. PHMSA-cited. Paywalled; structural intent paraphrased. | 2026-05-16 |
 
 ## Entities
 
