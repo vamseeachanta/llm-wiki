@@ -67,6 +67,26 @@ public_safety: API/SPE/NACE/ISO standards anchors + original concept authoring; 
 - Vendor production-chemistry datasheets (cite vendor + general class without proprietary performance curves)
 - Operator-confidential well-integrity intervention case-studies (cite SPE-paper anonymized field cases only)
 
+### Vendor-citation allowed / blocked examples (per Codex r2 MAJOR-5)
+
+The "cite vendor by name + general chemistry class only" policy creates a silent-failure path where implementers may cite vendor marketing pages and think they have complied. The following examples clarify the operational boundary:
+
+**ALLOWED** (cite-by-name + chemistry-class only):
+- "Champion-X markets paraffin inhibitors based on polyacrylate and EVA-copolymer chemistry"
+- "Halliburton MultiChem provides production-chemistry services for paraffin, scale, asphaltene, and hydrate management"
+- "LDHI families include kinetic hydrate inhibitors (KHI — typically vinyl-pyrrolidone or vinyl-caprolactam copolymer chemistry) and anti-agglomerants (AA — typically quaternary-ammonium chemistry)"
+- "Nalco Champion (Ecolab) is a major supplier of scale inhibitors using phosphonate and polyphosphate chemistry families"
+- "Industry-standard multiphase-flow simulators include OLGA, LedaFlow, PIPESIM, and K-Spice — proprietary algorithm internals are not reproduced in this wiki"
+
+**BLOCKED** (proprietary detail — would fail `test_production_chemistry_deny_list.py`):
+- "Champion-X XS-7000 achieves 12% wax-inhibition at 50 ppm per [vendor datasheet]"
+- "Nalco EC9012 dosage of 80-120 ppm for North Sea brine, performance curve at 80°F vs 120°F"
+- "Halliburton MC-1500 paraffin-inhibitor shows X% effectiveness in lab-screening matrix Y"
+- "Baker Hughes ProductionQuest-A100 KHI provides subcooling protection to ΔT = 10°C at 0.5 wt%"
+- Direct transcription of any vendor performance curve, dosage table, or lab-screening matrix
+
+The discrimination test: ALLOWED references describe the **class** of chemistry and the **vendor's market position**. BLOCKED references contain **quantitative performance claims** tied to **specific commercial products** that originate from vendor marketing or datasheets.
+
 ## Deliverable
 
 Phase 4 corpus expansion adding 3 sub-issues each landing concept-page cluster + ≥1 standards-page-or-cross-link, growing `wikis/production-engineering/wiki/` from post-Phase-3 state of 54 pages to target 64-67 pages. Cross-links established between Phase 4 operational scope and Phases 1/2/3 design/intervention scopes + cross-domain anchors to drilling-engineering (well-construction integrity hand-off) + engineering-standards (corrosion-family concepts already landed).
@@ -185,6 +205,7 @@ Phase 4 corpus expansion adding 3 sub-issues each landing concept-page cluster +
 | `tests/test_governance_artifacts.py` (existing) | no >30-word verbatim API/SPE/NACE/ISO chunks; no vendor proprietary content; no `sources/` deny-list citations |
 | `tests/test_scan_source_families_safe.py` (existing) | new pages don't reference vendor-confidential PDFs |
 | `tests/test_calc_citations.py` (existing, add cases) | new calc-citation entries (V_e, corrosion-rate, scale-SI, paraffin-WAT, hydrate-stability) match #2471 schema |
+| `tests/test_production_chemistry_deny_list.py` (NEW per Codex r2 MAJOR-1) | new pages do NOT contain commercial inhibitor product names (e.g. Champion-X XS-*, Nalco EC-*, Halliburton MC-*, Baker Hughes ProductionQuest-* SKUs), dosage-rate citations with units (`X ppm`, `X-Y ppm`), or performance-curve transcriptions (`achieves X% inhibition at Y conditions`). Enforces the vendor-IP guard testability gap that Phase 3 vendor-archetype framing did not catch for production chemistry. |
 | Validator scripts (direct invocation per [[feedback_local_venv_pytest_import_hang]]) | `python3 scripts/validate_completion_artifacts.py`, `python3 scripts/validate_governance_artifacts.py`, `python3 scripts/validate_llms_manifests.py` |
 
 No runtime calc to reproduce — content-authoring scope. **Reproduction proofs: N/A**.
@@ -200,6 +221,7 @@ No runtime calc to reproduce — content-authoring scope. **Reproduction proofs:
 - [ ] Scope-edge cross-link Phase 4 well-integrity ↔ drilling-engineering well-construction-integrity (pa-barrier-philosophy.md, cement-evaluation.md) — explicit hand-off on both sides
 - [ ] Calc-citation entries for V_e (API RP 14E) + corrosion-rate (de Waard-Milliams or Norsok M-506) + scale-SI (Oddo-Tomson) + paraffin-WAT + hydrate-stability — flagged in plan, instrumented as wiki-side `citations:` frontmatter even if no calc module currently consumes them (establishes downstream contract)
 - [ ] All tests pass post-build
+- [ ] **(Per Codex r2 MAJOR-1)** Each new concept + standards page passes `test_production_chemistry_deny_list.py` (enumerated vendor-IP deny-list for production chemistry — see TDD test list above)
 - [ ] Plan + adversarial review artifacts at `scripts/review/results/2026-05-16-plan-87-*.md`
 
 ## Risks and open questions
@@ -241,6 +263,14 @@ Adversarial-review depth: **T1 single-author Claude (this drafting session)** pe
 | Claude | MINOR-7 | (1) Brill-Mukherjee SPE Monograph number ambiguity — confirmed it IS Monograph 17 (1999), distinct from Economides-Nolte Reservoir Stimulation 3rd Ed (which is Wiley 2000, not an SPE Monograph). User-prompt-flagged ambiguity resolved; surface explicitly in plan body. (2) API RP 14C revision verification needed before drafting standards page (current edition is 8th 2017; verify availability before drafting). **RESOLVED 2026-05-16 via fact-verification subagent (HIGH confidence):** 8th edition (2017) + Errata 1 (2018); status Active; title is "Safety Systems for Offshore Production Facilities" not "Platforms" per 8th-ed nomenclature change. (3) ISO 21457 revision verification needed (2010 first ed; may have been revised). **RESOLVED 2026-05-16 via fact-verification subagent (HIGH confidence):** 1st edition (2010), reviewed and reconfirmed by ISO/TC 67 in 2024; status Active; no 2nd edition in progress. (4) `concepts/erosional-velocity.md` placement decision (PE vs engineering-standards) — recommend PE per operational-framing argument; surface as open question. (5) `concepts/scale-paraffin-asphaltene-monitoring.md` page risks redundancy with the three deposition-family individual pages — consider folding into `integrity-monitoring.md` OR keeping as integrated-operational-view page (different framing); flag as scope-decision for user. (6) Sub-issue 3 standards-page count is highest (2 new + 3 cross-links); consider whether to land ISO 21457 and NACE SP0106 in this epic or defer one to scope-control. (7) Multiphase-flow correlation page list (Beggs-Brill + Hagedorn-Brown + Duns-Ros + Gray) is intentionally broad — bound `multiphase-flow-in-wells.md` to ≤350 lines per Phase 3 page-length precedent OR split into sub-pages. |
 | Codex | — | not run this round (T1 floor; T2 escalation deferred to user direction per "scale depth not presence" — appropriate for plan-scope where vendor-IP discipline is the dominant risk and that's well-bounded by Phase 3 precedent) |
 
-**Overall result:** MINOR-2 (API RP 14C revision) + MINOR-3 (ISO 21457 revision) RESOLVED 2026-05-16 via fact-verification subagent (HIGH confidence, both standards verified Active with current revisions noted above). Approval-ready after user-decision on MINOR-1 (PE-vs-DE well-integrity boundary enforcement), MINOR-4 (`erosional-velocity.md` placement), MINOR-5 (monitoring page consolidation), MINOR-6 (sub-issue 3 standards-page scope-control), and MINOR-7 (multiphase-flow page decomposition). Review artifact: [`scripts/review/results/2026-05-16-plan-87-claude.md`](../../scripts/review/results/2026-05-16-plan-87-claude.md).
+**Overall result:** MINOR-2 (API RP 14C revision) + MINOR-3 (ISO 21457 revision) RESOLVED 2026-05-16 via fact-verification subagent (HIGH confidence, both standards verified Active with current revisions noted above). Approval-ready after user-decision on MINOR-1 (PE-vs-DE well-integrity boundary enforcement), MINOR-4 (`erosional-velocity.md` placement), MINOR-5 (monitoring page consolidation), MINOR-6 (sub-issue 3 standards-page scope-control), and MINOR-7 (multiphase-flow page decomposition).
+
+**Round 2 — 2026-05-16** (Codex r2 via direct `codex exec` CLI, session id `019e3171-4904-7e82-980f-aa4b09e8a2b6`)
+
+| Provider | Verdict | Key findings |
+|---|---|---|
+| Codex | MAJOR-5 | (1) Vendor-IP guard NOT testable for production chemistry. (2) Calc-citation contract half-activated. (3) Multiphase-flow scope risk is formula-transcription drift not page-length. (4) PE-vs-DE boundary needs enforceable test not prose. (5) Vendor citation policy silent-failure — needs allowed/blocked example table. |
+
+**Overall result r2 (consensus-vs-minority per [[feedback_codex_sustained_major_loop]]):** Codex r2 MAJOR-5 surfaced as user-judgment decision rather than auto-cycle. User chose path 2026-05-16: **partial patches — apply MAJOR-1 + MAJOR-5 only** (defer MAJOR-2/3/4 to sub-issue implementation time per Claude r1 MINOR-severity acceptance). Patches applied: (MAJOR-1) added `test_production_chemistry_deny_list.py` to TDD test list with enumerated commercial-product / dosage / performance-curve deny-list patterns + acceptance criterion; (MAJOR-5) added allowed/blocked vendor-citation example table to Public-safety boundary section. Plan-state post-patch: approval-ready pending user-decisions on MINOR-1, MINOR-4, MINOR-5, MINOR-6, MINOR-7. Full Codex r2 review at [`scripts/review/results/2026-05-16-plan-87-codex.md`](../../scripts/review/results/2026-05-16-plan-87-codex.md); disagreement summary at [`scripts/review/results/2026-05-16-plan-87-disagreement.md`](../../scripts/review/results/2026-05-16-plan-87-disagreement.md). Review artifact: [`scripts/review/results/2026-05-16-plan-87-claude.md`](../../scripts/review/results/2026-05-16-plan-87-claude.md).
 
 **NOT self-approved.** User-approval gate (`status:plan-approved` label) is load-bearing per [[feedback_never_offer_to_self_label_plan_approved]].
