@@ -146,9 +146,20 @@ Other notable independents serve the North American frac-pumping market at scale
 - ISO 13503 series — proppant qualification (pack permeability, conductivity, embedment); see [Proppants](proppants.md)
 - NACE MR0175 / ISO 15156 — sour-service material requirements for frac equipment (treating iron, treating-line connections, wellhead components)
 
+## Refrac — hydraulic fracturing applied to previously-stimulated wells
+
+Hydraulic fracturing applied to a well with a prior stimulation history is **refrac**, and it sits at the intersection of stimulation engineering and asset-management decisioning. The frac-mechanics framework on this page transfers directly to refrac jobs, with three adjustments that distinguish refrac as a topic:
+
+- **Depleted in-situ stress state** — the original frac and subsequent production deplete pore pressure in the contacted rock, which shifts the present-day minimum-horizontal-stress orientation and magnitude away from the original-completion values. A Diagnostic Fracture Injection Test ([DFIT](diagnostic-fracture-injection-test.md)) is treated as mandatory before any refrac job to characterise the present-day closure pressure, ISIP, and leak-off coefficient.
+- **Candidate-selection diagnostic layer** — refrac is fundamentally an asset-management decision, not a frac-design decision: not every previously-stimulated well is a refrac candidate. [Production History Decline Analysis](production-history-decline-analysis.md) (Arps b-factor diagnostic plus Fetkovich type-curve matching) and DFIT diagnostics together filter the candidate list before any refrac design work is commissioned.
+- **Recompletion architecture choice** — refrac requires that the new frac initiate at the operator's chosen depth and orientation, not at the legacy perforations. Three architecture families address this: cement-and-perf (squeeze the legacy perfs and shoot new perfs), mechanical isolation (bridge plugs or sliding-sleeve liner), or expandable liner (fresh casing surface inside the legacy casing). The architecture choice is driven by wellbore-integrity inspection results and per-architecture cost.
+
+Cross-link: see [Refrac](refrac.md) for the refrac decisioning router, [Diagnostic Fracture Injection Test](diagnostic-fracture-injection-test.md) for DFIT methodology, and [Production History Decline Analysis](production-history-decline-analysis.md) for the decline-analysis framework.
+
 ## Cross-references
 
 - [Frac Fluids](frac-fluids.md), [Proppants](proppants.md), [Frac Design](frac-design.md)
+- [Refrac](refrac.md), [Diagnostic Fracture Injection Test](diagnostic-fracture-injection-test.md), [Production History Decline Analysis](production-history-decline-analysis.md)
 - [API RP 39](../standards/api-rp-39.md)
 - [Perforating](perforating.md), [Perforation Strategy](perforation-strategy.md)
 - [Sand Control](sand-control.md), [Frac Packing](frac-packing.md)

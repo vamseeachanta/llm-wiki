@@ -4,7 +4,7 @@ tags: [perforating, completions, shaped-charge, gun-system, perforation-skin, ip
 sources:
   - api-rp-19b
 added: 2026-05-15
-last_updated: 2026-05-15
+last_updated: 2026-05-16
 ---
 
 # Perforating
@@ -207,6 +207,17 @@ Cased-hole hydraulic-fracturing completions impose perforation-policy requiremen
 - **Frac-pack distinction** — frac-pack completions (see [Frac Packing](frac-packing.md)) require both isotropic phasing (for the gravel-pack distribution function) AND big-hole charges (for the proppant-slurry flow function), with 6-12 spf density. This is a distinct policy from standalone-frac initiation; the frac-pack policy is set by the sand-control function, not by the frac-initiation function.
 
 Cross-link: see [Hydraulic Fracturing](hydraulic-fracturing.md) for the Phase 3 stimulation router, [Frac Design](frac-design.md) for the pump-schedule architecture that the perforation-initiation policy enables, and [Perforation Strategy](perforation-strategy.md) for the operator-facing perforation-design framework.
+
+## Re-perforation in refrac jobs
+
+Refrac jobs ([Refrac](refrac.md)) require new perforations placed independently of the legacy completion's perforation set, because the new fracture must initiate at depths and orientations chosen by the refrac designer rather than at the path-of-least-resistance defined by the legacy perforations and the legacy fracture network. Re-perforation policy for refrac differs from initial-completion perforation policy in several respects:
+
+- **Re-perforation depth and orientation are dictated by the recompletion architecture.** In a cement-and-perf refrac, the legacy perforations are squeeze-cemented closed and new perforations are shot at the refrac-designer's chosen depths and orientations in the squeeze cement. In a mechanical-isolation refrac, perforations are shot into the new isolated stages defined by bridge plugs or sliding-sleeve liner. In an expandable-liner refrac, perforations are shot through the new liner into the cement annulus and across into the formation.
+- **Charge selection accommodates the cement-and-casing flow path.** Cement-and-perf refrac jobs require charges that penetrate squeeze cement (typically several inches of fresh cement) plus the legacy cement sheath plus the casing wall before reaching formation; deep-penetrating (DP) charges are typical. Expandable-liner refrac jobs require charges that penetrate the new liner wall plus the annular cement plus the legacy cement plus the legacy casing wall plus the original cement plus the formation; charge sizing must account for the multiple barrier layers.
+- **Phasing must align with the present-day stress field.** Refrac DFIT diagnostics ([Diagnostic Fracture Injection Test](diagnostic-fracture-injection-test.md)) often reveal that depletion has re-oriented the in-situ minimum-horizontal-stress relative to the original-completion stress state. Re-perforation phasing must align with the present-day stress field, not the original-completion stress field; isotropic phasing (60° / 90°) is sometimes selected for refracs in highly re-oriented stress fields where the new initiation direction is uncertain.
+- **Cluster spacing reflects modern frac-design practice.** Many vintage refrac candidates (typically 2008-2014 horizontal-well multi-stage fracs) were originally completed with cluster spacing that is now understood to leave un-stimulated rock between clusters. Refrac re-perforation typically uses tighter cluster spacing than the original completion to access the un-contacted rock.
+
+Cross-link: see [Refrac](refrac.md) for the refrac decisioning router, [Diagnostic Fracture Injection Test](diagnostic-fracture-injection-test.md) for the DFIT diagnostic that drives refrac phasing decisions, and [Production History Decline Analysis](production-history-decline-analysis.md) for the candidate-selection methodology.
 
 ## Standards anchor
 

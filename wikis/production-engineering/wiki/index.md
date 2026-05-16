@@ -2,7 +2,7 @@
 domain: production-engineering
 created: 2026-05-13
 last_updated: 2026-05-16
-page_count: 51
+page_count: 54
 source_count: 0
 ---
 
@@ -20,6 +20,7 @@ Production engineering — post-completion well operations, artificial lift (ESP
 |------|---------|-------------|
 | [Artificial Lift Overview](concepts/artificial-lift-overview.md) | Six artificial-lift method families with detailed coverage of ESP / gas lift / PCP / plunger lift / jet pump / hydraulic lift; rod-pump cross-link to drilling-engineering. | 2026-05-13 |
 | [Carbonate Acidizing](concepts/carbonate-acidizing.md) | HCl chemistry, Daccord 1987 wormhole regimes (face / conical / dominant / ramified), retarded acids (gelled / emulsified / organic / chelating) for HPHT and chrome-tubular envelopes. | 2026-05-16 |
+| [Diagnostic Fracture Injection Test (DFIT)](concepts/diagnostic-fracture-injection-test.md) | Pre-frac mini-frac test methodology: closure pressure, ISIP, leak-off coefficient, after-closure-analysis reservoir pressure / permeability. Pressure-derivative interpretation per Barree corpus; mandatory refrac diagnostic. | 2026-05-16 |
 | [Downhole Flow Control](concepts/downhole-flow-control.md) | Inflow-control hardware spectrum: ICDs (passive), AICDs (autonomous, fluid-responsive), ICVs (active, remotely actuated). Reservoir-management strategy enablement. | 2026-05-15 |
 | [Electric Submersible Pumps (ESP)](concepts/electric-submersible-pumps.md) | Downhole multi-stage centrifugal pump driven by surface-VFD-powered motor; 500-30,000+ bbl/d; system anatomy + operating principle + strengths/weaknesses. Perforation density / phasing IPR coupling. | 2026-05-15 |
 | [ESP Failure Modes](concepts/esp-failure-modes.md) | Cable failures (~30-40% of pulls), motor / pump / seal-section failures; VFD-telemetry operational signatures. | 2026-05-14 |
@@ -50,8 +51,10 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Plunger Lift Cycle Optimization](concepts/plunger-lift-cycle-optimization.md) | Foss-Gaul method + modern surface-controller cycle tuning; shut-in vs afterflow trade-off. | 2026-05-14 |
 | [Plunger Lift Equipment](concepts/plunger-lift-equipment.md) | Wellhead lubricator + catcher + motor valve + surface controller; plunger types (turbulent/brush/pad/bypass); bumper spring. | 2026-05-14 |
 | [Power Fluid Systems](concepts/power-fluid-systems.md) | Surface power-fluid handling for jet-pump + hydraulic-piston-pump systems; produced-fluid loop vs supplied; quality requirements. | 2026-05-14 |
+| [Production History Decline Analysis](concepts/production-history-decline-analysis.md) | Arps three-form decline (exponential / hyperbolic / harmonic), Fetkovich type-curve matching, b-factor diagnostic for refrac candidate selection. Modern Duong / stretched-exponential extensions for unconventional plays. | 2026-05-16 |
 | [Progressing-Cavity Pumps (PCP)](concepts/progressing-cavity-pumps.md) | Helical rotor in elastomeric stator; surface-driven vs ESPCP variants; niche for high-viscosity + high-solids service. | 2026-05-14 |
 | [Proppants](concepts/proppants.md) | Four proppant families (sand / resin-coated sand / ceramic / ultra-light) with ISO 13503-series qualification framework, conductivity-vs-stress framework, and operator-selection logic. | 2026-05-16 |
+| [Refrac (Re-Fracturing)](concepts/refrac.md) | Router page for refrac decisioning: refrac-vs-new-well economics, candidate-selection methodology (decline analysis + DFIT + wellbore-integrity inspection), three recompletion architectures (cement-and-perf / mechanical isolation / expandable liner). | 2026-05-16 |
 | [Sand Control](concepts/sand-control.md) | Router page for sand-control coverage: failure modes, completion-architecture catalogue (selective perf / chemical / standalone-screen / prepacked / OHGP / CHGP / frac-pack / expandable), decision framework, perforation-strategy coupling. | 2026-05-15 |
 | [Sand Control Screens](concepts/sand-control-screens.md) | Standalone (wire-wrap / slotted-liner), prepacked, expandable, premium-mesh screen families; PSD-driven selection logic; ISO 17824 qualification framework. | 2026-05-15 |
 | [Sandstone Acidizing](concepts/sandstone-acidizing.md) | Schechter-Gidley-Williams 3-stage framework (HCl preflush + HCl/HF mud-acid main + HCl/NH4Cl postflush); HF reaction kinetics with carbonates (CaF2 precipitation) and silicates (secondary fluorosilicates); common failure modes. | 2026-05-16 |
