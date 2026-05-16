@@ -4,7 +4,7 @@ tags: [offshore-drilling, sequence-animation, training-content, popular-explaine
 sources:
   - linkedin-lloyds-maritime-institute-2026-drilling-sequence-animation
 added: 2026-05-15
-last_updated: 2026-05-15
+last_updated: 2026-05-16
 ---
 
 # Lloyd's Maritime Institute (2026) — Offshore Drilling Sequence Animation (LinkedIn post)
@@ -58,7 +58,24 @@ Refer those questions to the API / IADC standards cited on the existing concept 
 
 ## Downstream-consumer note (visual-format precedent)
 
-This source page was added at user direction with a stated downstream-consumer intent: the animation idiom — **stage-by-stage offshore-operation visualisation rendered as HTML** — is a format the user intends to apply to **drilling-riser-analysis result presentation for clients**. Solver outputs (OrcaFlex / VIVA / SHEAR7 / digitalmodel riser workbooks) would be rendered as stage-by-stage animated HTML deliverables instead of static PDF reports. This source page captures the trigger; the implementation work belongs in `digitalmodel` (or a sibling presentation-layer repo) and should be tracked as a separate issue, not in this wiki.
+This source page was added at user direction with a stated downstream-consumer intent: the animation idiom — **stage-by-stage offshore-operation visualisation rendered as HTML** — is a format the user intends to apply to **drilling-riser-analysis result presentation for clients**. Solver outputs (OrcaFlex / VIVA / SHEAR7 / digitalmodel riser workbooks) would be rendered as stage-by-stage animated HTML deliverables instead of static PDF reports. Tracked as [digitalmodel#615](https://github.com/vamseeachanta/digitalmodel/issues/615) per workspace-hub planning workflow; this source page captures the visual trigger only.
+
+## Off-repo storyboard for replication
+
+A stage-by-stage frame storyboard derived from a 2026-05-16 capture session lives off-repo at `/mnt/ace/vendor-pdfs/lloyds-maritime-institute/2026-05-15-drilling-sequence-animation/storyboard.md` per the [service-provider data routing matrix](../../../../docs/governance/service-provider-data-routing.md) row 4 (vendor marketing landing page — verbatim copy stays off-repo). The storyboard describes the animation's eight-stage arc:
+
+1. Surface platform deployment (with riser visible)
+2. Riser joint lowering (subsea closeup)
+3. BOP / Christmas-tree subsea assembly
+4. Re-establishment cut back to surface context
+5. Drilling through formation
+6. Oil-zone entry
+7. Perforating with shockwave fractures
+8. Production flow to surface Christmas tree
+
+It also proposes an explicit stage-by-stage mapping for riser-analysis HTML deliverables: vessel + topsides → riser cross-sections by elevation → lower-stack stress callouts → mudline solver result → fatigue accumulation → storm-impact transient → operating-condition envelope → operator-facing summary card. That mapping is the consumable replication brief for [digitalmodel#615](https://github.com/vamseeachanta/digitalmodel/issues/615).
+
+The storyboard intentionally does **not** include the raw video, screenshots, or any vendor-licensed artwork — only the structural description of the idiom (license-clean, replicable from any flat-illustration tooling). Screenshots from the 2026-05-15 capture session are visible in conversation history of that session as a non-redistributable visual record.
 
 ## Substance-gradient note
 
