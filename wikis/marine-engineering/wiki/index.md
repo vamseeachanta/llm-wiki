@@ -1,9 +1,9 @@
 ---
 domain: marine-engineering
 created: 2026-04-07 02:15 UTC
-last_updated: 2026-05-12
-page_count: 19214
-source_count: 19169
+last_updated: 2026-05-15
+page_count: 19215
+source_count: 19170
 ---
 
 # Knowledge Index: Marine Engineering
@@ -88,6 +88,7 @@ source_count: 19169
 | [[Ferrill & Morris (2003) — Dilational Normal Faults]](sources/ferrill-morris-2003-dilational-normal-faults.md) | Defines dilation tendency Tₐ and slip/dilation complementarity for fluid-pathway prediction (J. Struct. Geol. 25:2) | Journal article | Web (DOI) | 2026-05-07 |
 | [[Sibson (1985) — A Note on Fault Reactivation]](sources/sibson-1985-fault-reactivation.md) | Frictional reactivation criterion for cohesionless pre-existing faults under perturbed stress (J. Struct. Geol. 7:6) | Journal article | Web (DOI) | 2026-05-07 |
 | [[Anderson (1951) — The Dynamics of Faulting and Dyke Formation]](sources/anderson-1951-dynamics-of-faulting.md) | Canonical Andersonian classification of stress regimes and fault styles (Oliver & Boyd, Edinburgh, 2nd ed.) | Book | Pre-DOI | 2026-05-07 |
+| [[Kencana (2026) — MOSES Marine Installation Simulation]](sources/kencana-2026-moses-marine-installation-simulation.md) | Practitioner LinkedIn essay praising MOSES (Ultramarine / Bentley) for end-to-end marine-installation rehearsal; popular-explainer tone, no standards or projects named | LinkedIn post | Web | 2026-05-15 |
 
 ## Comparisons
 
