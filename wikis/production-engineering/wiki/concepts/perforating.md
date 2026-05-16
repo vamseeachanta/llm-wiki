@@ -219,6 +219,17 @@ Refrac jobs ([Refrac](refrac.md)) require new perforations placed independently 
 
 Cross-link: see [Refrac](refrac.md) for the refrac decisioning router, [Diagnostic Fracture Injection Test](diagnostic-fracture-injection-test.md) for the DFIT diagnostic that drives refrac phasing decisions, and [Production History Decline Analysis](production-history-decline-analysis.md) for the candidate-selection methodology.
 
+## Choke-management coupling — perforation strategy interacts with bean-up rates (flush-flow vs reservoir-deliverability-limited)
+
+Perforation strategy and choke-management bean-up procedure are operationally coupled because the cleanliness of the perforation tunnels left by the perforation programme constrains how aggressively the production choke can be opened during well startup. The coupling runs in both directions and breaks into two distinct operating regimes:
+
+- **Flush-flow regime (early-life cleanup)** — immediately post-perforation the wellbore contains crushed-zone debris, completion-fluid residue, and (for overbalanced-perforated wells) tunnel-packed solids. Early bean-up must be slow enough to flush this material through the choke and the separator without overloading either. The choke during flush-flow operates in a high-erosion-rate envelope (sand-laden flow at low rate); choke trim selection for cleanup-flow wells should consider this transient. See [Choke Sand Erosion](choke-sand-erosion.md) for the erosion physics, and [Choke Management](choke-management.md) for the bean-up trajectory framework.
+- **Reservoir-deliverability-limited regime (mid- to late-life steady-state)** — once flush-flow cleanup is complete the well's operating point is set by the IPR / TPR / choke / facility-constraint intersection; the choke is sized for the steady-state operating envelope and the bean-up sequence is no longer governed by tunnel cleanliness. Re-perforation campaigns (see Re-perforation in refrac jobs section above) re-introduce a flush-flow regime that must be managed in the same way as initial-completion cleanup.
+- **UBP vs OBP coupling to bean-up rate** — wells perforated underbalanced (UBP) have cleaner tunnels with less crushed-zone debris flushed into the wellbore during the post-detonation surge. UBP wells tolerate more aggressive bean-up than overbalanced-perforated (OBP) wells without acid cleanup. Operators planning bean-up procedures should pin the schedule to the perforation-strategy outcome rather than to a generic startup template.
+- **Sand-control coupling overlay** — perforation strategy for sand-control completions (see Sand-control coupling section above) sets up the well to produce with low residual sand carryover during steady-state operation; the choke trim selection for these wells can be biased toward erosion-budget-aware materials. Standalone-screen completions produce measurable residual sand; choke trim must be erosion-rated accordingly per [Choke Sand Erosion](choke-sand-erosion.md).
+
+Cross-link: see [Choke Management](choke-management.md) for the operational discipline router covering bean-up and bean-down trajectories, [Choke Types](choke-types.md) for the architecture-family framework, and [Choke Sand Erosion](choke-sand-erosion.md) for the erosion-physics framework that constrains trim selection for cleanup-flow service.
+
 ## Standards anchor
 
 - [API RP 19B — Evaluation of Well Perforators](../standards/api-rp-19b.md) — the practitioner-canonical test methodology

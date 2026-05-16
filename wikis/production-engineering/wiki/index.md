@@ -2,7 +2,7 @@
 domain: production-engineering
 created: 2026-05-13
 last_updated: 2026-05-16
-page_count: 64
+page_count: 69
 source_count: 0
 ---
 
@@ -21,6 +21,9 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Artificial Lift Overview](concepts/artificial-lift-overview.md) | Six artificial-lift method families with detailed coverage of ESP / gas lift / PCP / plunger lift / jet pump / hydraulic lift; rod-pump cross-link to drilling-engineering. | 2026-05-13 |
 | [Asphaltene Precipitation](concepts/asphaltene-precipitation.md) | Asphaltene SARA characterisation, onset-pressure prediction (de Boer plot, modified Hirschberg framework), inhibition (stabilisers / dispersants / mutual-solvent chemistry families cite-by-class), monitoring, aromatic-solvent remediation. | 2026-05-16 |
 | [Carbonate Acidizing](concepts/carbonate-acidizing.md) | HCl chemistry, Daccord 1987 wormhole regimes (face / conical / dominant / ramified), retarded acids (gelled / emulsified / organic / chelating) for HPHT and chrome-tubular envelopes. | 2026-05-16 |
+| [Choke Management](concepts/choke-management.md) | Router for choke-management coverage: choke families, bean-up/bean-down operations, ESD interlock context per API RP 14C, well-deliverability matching across IPR/TPR/facility constraints. Perforation-strategy bean-up coupling. | 2026-05-16 |
+| [Choke Sand Erosion](concepts/choke-sand-erosion.md) | Sand-erosion physics for choke trim selection; DNV RP O501 methodology coupling; API RP 14E V_e criterion; surface-vs-subsea replacement-frequency economics; sand-control completion coupling. | 2026-05-16 |
+| [Choke Types](concepts/choke-types.md) | Four choke-architecture families (fixed-bore positive, adjustable, cage, multistage) + trim-material families (WC / ceramic / stellite-class hardfacing / hardened alloy / specialty composites). Surface-vs-subsea service envelope. | 2026-05-16 |
 | [Diagnostic Fracture Injection Test (DFIT)](concepts/diagnostic-fracture-injection-test.md) | Pre-frac mini-frac test methodology: closure pressure, ISIP, leak-off coefficient, after-closure-analysis reservoir pressure / permeability. Pressure-derivative interpretation per Barree corpus; mandatory refrac diagnostic. | 2026-05-16 |
 | [Downhole Flow Control](concepts/downhole-flow-control.md) | Inflow-control hardware spectrum: ICDs (passive), AICDs (autonomous, fluid-responsive), ICVs (active, remotely actuated). Reservoir-management strategy enablement. | 2026-05-15 |
 | [Electric Submersible Pumps (ESP)](concepts/electric-submersible-pumps.md) | Downhole multi-stage centrifugal pump driven by surface-VFD-powered motor; 500-30,000+ bbl/d; system anatomy + operating principle + strengths/weaknesses. Perforation density / phasing IPR coupling. | 2026-05-16 |
@@ -48,6 +51,7 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Matrix Acid Stimulation](concepts/matrix-acid-stimulation.md) | Router page for matrix-acid coverage: chemistry families (HCl / HF mud acid / retarded / chelating), lithology dispatch (sandstone vs carbonate), candidate selection, design framework. Damage-bypass stimulation below parting pressure. | 2026-05-16 |
 | [Mineral Scale](concepts/mineral-scale.md) | Scale-family taxonomy (CaCO3, sulphates, halite, FeS / FeCO3), Oddo-Tomson 1994 saturation-index framework, threshold-inhibitor chemistry families (phosphonate / polyacrylate cite-by-class), monitoring, scale-dissolver remediation. | 2026-05-16 |
 | [Multi-Zone Completions](concepts/multi-zone-completions.md) | Router for stacked-pay completion architectures: selective vs commingled, zonal-isolation hardware, downhole flow control overlay, smart-completion integration. SSSV envelope per API Spec 14A. | 2026-05-15 |
+| [Multiphase Choke Modeling](concepts/multiphase-choke-modeling.md) | Four foundational multiphase-choke frameworks (Sachdeva 1986 critical-flow, Perkins 1993 subcritical-flow extension, Ashford-Pierce 1975 framework, BTP modern industry approach). PROSE-ONLY per calc-citation discipline. | 2026-05-16 |
 | [Multiphase Flow in Wells](concepts/multiphase-flow-in-wells.md) | Router for multiphase-flow coverage: regime taxonomy (bubble / slug / churn / annular / mist), mechanistic-vs-empirical model choice, historical correlation lineage, system-level synthesis with PVT and heat-transfer coupling. | 2026-05-16 |
 | [Paraffin Deposition](concepts/paraffin-deposition.md) | Wax chemistry and WAT measurement (cross-polarised microscopy, DSC), molecular-diffusion deposition flux + shear-stripping limit, inhibition chemistry families (PPD EVA-copolymer / dispersant chemistry cite-by-class), monitoring, hot-oiling / pigging / solvent remediation. | 2026-05-16 |
 | [PCP Elastomer Chemistry](concepts/pcp-elastomer-chemistry.md) | NBR / HNBR / FKM / EPDM elastomer families; fluid-compatibility framework; common failure modes (swelling / hardening / softening / chunking). | 2026-05-14 |
@@ -87,6 +91,7 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [API Spec 11W — Progressing-Cavity Pumping Systems](standards/api-spec-11w.md) | PCP design and testing; surface-driven and ESPCP variants; rotor/stator geometry + elastomer chemistry. | 2026-05-14 |
 | [ISO 17824 — Sand Control Screens (Open-Hole Gravel Pack)](standards/iso-17824.md) | International qualification standard for downhole sand-control screens used in open-hole gravel-pack service; pairs with ISO 17825 (cased-hole). | 2026-05-15 |
 | [API Spec 14A — Subsurface Safety Valve Equipment](standards/api-spec-14a.md) | Specification for SSSV equipment in production tubing; the safety-barrier envelope that all multi-zone and smart-completion control-line bundles must respect. | 2026-05-15 |
+| [API RP 14C — Safety Systems for Offshore Production Facilities](standards/api-rp-14c.md) | Practitioner-canonical safety-system methodology: SAT + SAFE chart; coordinated ESD logic; choke-and-SSV coverage; 30 CFR 250 incorporation by reference. Paywalled; structural intent paraphrased. 8th edition 2017 + Errata 1 2018. | 2026-05-16 |
 
 ## Entities
 

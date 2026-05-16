@@ -97,6 +97,17 @@ Mitigation strategies overlap with the broader hydrate-management toolkit (see [
 
 Cross-link: see [Flow Assurance](flow-assurance.md) for the integrated thermal-hydraulic-chemical envelope and [Hydrate Management](hydrate-management.md) for the THI / LDHI prevention framework.
 
+## Choke coordination on injection-gas side
+
+Gas-lifted wells operate two distinct choke surfaces simultaneously: the production choke on the wellhead (controlling produced-fluid rate to the separator per [Choke Management](choke-management.md)) and the gas-injection choke on the surface-compressor discharge line (controlling lift-gas injection rate to the casing-tubing annulus). The two chokes must be coordinated:
+
+- **Steady-state operating point** — gas-injection rate sets the operating valve depth's pressure-budget envelope; produced-fluid rate is then a function of the IPR / TPR / production-choke intersection. Both chokes are tuned together against the well's gas-lift performance curve.
+- **Bean-up coordination** — during well startup the gas-injection choke must be opened to establish unloading flow before the production choke is opened to send produced fluid through the separator. Coordinated bean-up sequencing avoids unloading-instability (heading) and avoids transient surface-equipment overload.
+- **ESD interlock** — on facility ESD per [API RP 14C](../standards/api-rp-14c.md), both the production choke and the gas-injection choke participate in the coordinated shutdown sequence. The gas-injection valve closes to stop lift-gas supply; the production choke biases toward closure; the SSV closes; tree valves close.
+- **Multi-zone gas-lift wells** — for independent zonal gas-lift injection (see the Multi-zone gas-lift section above), each zone's gas-injection choke must be coordinated with the production choke and with the other zones' injection chokes; multi-zone surface-control logic becomes a coordinated multi-axis control problem.
+
+See [Choke Management](choke-management.md) for the production-choke operational discipline router and [Choke Types](choke-types.md) for the architecture-family framework that informs gas-injection choke selection (typically severe-service cage chokes given the high differential pressure across the surface-compressor-to-annulus piping).
+
 ## Cross-references
 
 - [Gas Lift Valve Design](gas-lift-valve-design.md), [Gas Lift Valve Spacing](gas-lift-valve-spacing.md), [Gas Lift Troubleshooting](gas-lift-troubleshooting.md)
@@ -104,6 +115,7 @@ Cross-link: see [Flow Assurance](flow-assurance.md) for the integrated thermal-h
 - [Perforation Strategy](perforation-strategy.md) — IPR coupling
 - [Multi-Zone Completions](multi-zone-completions.md), [Downhole Flow Control](downhole-flow-control.md), [Intelligent-Well Completions](intelligent-well-completions.md) — multi-zone gas-lift coupling
 - [Flow Assurance](flow-assurance.md), [Hydrate Management](hydrate-management.md) — injection-gas dehydration / hydrate-formation coupling
+- [Choke Management](choke-management.md), [Choke Types](choke-types.md), [API RP 14C](../standards/api-rp-14c.md) — production-choke and injection-choke coordination, ESD interlocking
 - [API RP 11V6](../standards/api-rp-11v6.md), [API RP 11V2](../standards/api-rp-11v2.md), [API Spec 11V1](../standards/api-spec-11v1.md)
 - Drilling-engineering cross-link: [Artificial-Lift Method Selection](../../../drilling-engineering/wiki/concepts/artificial-lift-method-selection.md)
 
