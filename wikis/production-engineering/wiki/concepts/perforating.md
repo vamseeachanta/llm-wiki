@@ -185,6 +185,17 @@ In multi-zone selective completions (see [Multi-Zone Completions](multi-zone-com
 
 Cross-link: see [Multi-Zone Completions](multi-zone-completions.md) for the architectural overview and [Selective Production](selective-production.md) for the zonal-isolation hardware framework.
 
+## Matrix-acid stimulation coupling — perforation strategy affects acid placement and tunnel-bypass effectiveness
+
+Perforating policy and matrix-acid stimulation are tightly coupled because the acid must travel through the perforation tunnels to reach the formation matrix where damage-bypass dissolution takes place. The coupling runs in both directions:
+
+- **Perforation EHL controls the starting position of the acid front.** Deep-penetrating (DP) charges place the acid at the tunnel tip — already past most or all of the drilling-fluid invasion damage. Big-hole (BH) charges leave the acid front close to the casing wall and force the acid to chew through the damage zone before reaching fresh rock. For matrix-acid jobs targeting damage-bypass stimulation, DP charges are preferred whenever the completion type allows.
+- **Overbalanced perforating produces a crushed-zone damage ring** around each tunnel that contributes 5-30 elevated perforation-skin units. The standard cleanup for overbalanced-perforated wells is a matrix-acid job — sandstone-acid for sandstone formations (HCl preflush + HCl/HF mud-acid main treatment + postflush), or HCl for carbonate formations. The expected post-perforation matrix-acid cleanup is part of the perforation-strategy decision: when underbalanced perforating is infeasible, the operator plans the cleanup acid job as part of the completion program rather than treating it as a remedial intervention.
+- **Shot density and phasing affect acid placement uniformity.** Higher shot density and isotropic (60° / 90°) phasing distribute acid more uniformly around the wellbore, reducing the diversion burden for the matrix-acid job. Low shot density and oriented phasing (designed for cased-hole frac initiation rather than for matrix-acid placement) concentrate acid flow through a few perforations and increase diversion-failure risk.
+- **Perforation crushed-zone debris does not always need acid.** Underbalanced perforating (UBP) flushes crushed-zone debris out of the tunnels during the post-detonation surge, often producing tunnels clean enough that no matrix-acid cleanup is required. Operators planning UBP can sometimes defer or eliminate the post-completion matrix-acid stage entirely.
+
+See [Matrix Acid Stimulation](matrix-acid-stimulation.md) for the chemistry-family framework and the candidate-selection logic. The sandstone-and-carbonate-specific treatment design lives at [Sandstone Acidizing](sandstone-acidizing.md) and [Carbonate Acidizing](carbonate-acidizing.md). The diversion problem — which is amplified by perforation-cluster geometry — is at [Matrix Acid Diversion](matrix-acid-diversion.md).
+
 ## Standards anchor
 
 - [API RP 19B — Evaluation of Well Perforators](../standards/api-rp-19b.md) — the practitioner-canonical test methodology

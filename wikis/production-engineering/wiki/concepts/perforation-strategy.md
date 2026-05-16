@@ -231,6 +231,18 @@ In multi-zone selective completions (see [Multi-Zone Completions](multi-zone-com
 
 Cross-link: see [Multi-Zone Completions](multi-zone-completions.md) for the architectural overview and [Intelligent-Well Completions](intelligent-well-completions.md) for the smart-completion control system that operates ICVs.
 
+## Matrix-acid placement implications for shot density and EHL targets
+
+Matrix-acid stimulation places hard requirements on perforation-policy choice that the perforation engineer must accept when the well is planned for post-completion matrix-acid cleanup or for periodic field-life matrix-acid intervention:
+
+- **EHL target tied to expected damage radius.** Matrix-acid jobs are damage-bypass treatments; the acid must reach the un-damaged rock matrix for the treatment to produce useful uplift. If the perforation EHL is shorter than the measured drilling-fluid invasion depth, the acid spends in already-damaged rock and the treatment produces minimal stimulation. EHL should exceed measured invasion depth by 25-50% (same heuristic as the natural-completion damage-bypass design check), giving the acid a clean starting position.
+- **Deep-penetrating (DP) charges are the matrix-acid default.** DP charges place the acid at the tunnel tip — already past the perforation crushed zone and past most or all of the invasion damage. Big-hole (BH) charges leave the acid front close to the casing wall and force the acid to chew through the damage zone before reaching fresh rock; for matrix-acid candidate wells, BH is the wrong choice unless other constraints (sand control, frac pack) force it.
+- **Shot density floors for matrix-acid cleanup.** 6-12 spf is the operator-typical range for matrix-acid pre-stimulation completions. Density floor below 6 spf concentrates acid flow through too few entry points and increases the diversion burden; density above 12 spf yields diminishing returns in acid-placement uniformity and may not be supportable by the gun-system envelope.
+- **Isotropic phasing for matrix acid.** 60° or 90° phasing distributes acid uniformly around the wellbore. Oriented (0° / 180°) phasing — correct for cased-hole frac jobs — concentrates acid in two azimuths and is inferior for matrix-acid placement.
+- **Underbalanced perforating reduces or eliminates the post-completion cleanup acid job.** UBP flushes crushed-zone debris out of the tunnels during the post-detonation surge; the resulting tunnels are often clean enough that no post-completion matrix-acid is required. Overbalanced perforating mandates a planned post-perforation matrix-acid cleanup as part of the completion program.
+
+For the matrix-acid treatment-design framework that pairs with these perforation-policy choices, see [Matrix Acid Stimulation](matrix-acid-stimulation.md). The sandstone-and-carbonate-specific treatment design lives at [Sandstone Acidizing](sandstone-acidizing.md) and [Carbonate Acidizing](carbonate-acidizing.md). The diversion problem (which is amplified by low perforation density) is at [Matrix Acid Diversion](matrix-acid-diversion.md).
+
 ## Common operator mistakes
 
 1. **Conflating RP 19B Section I (surface flat-target) with Section II (stressed Berea) penetration numbers.** Section I numbers are 30-50% larger than Section II for the same charge. Using the surface-test number inflates field-performance expectations.

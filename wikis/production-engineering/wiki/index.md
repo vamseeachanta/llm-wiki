@@ -1,8 +1,8 @@
 ---
 domain: production-engineering
 created: 2026-05-13
-last_updated: 2026-05-15
-page_count: 42
+last_updated: 2026-05-16
+page_count: 46
 source_count: 0
 ---
 
@@ -19,6 +19,7 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | Page | Summary | Last Updated |
 |------|---------|-------------|
 | [Artificial Lift Overview](concepts/artificial-lift-overview.md) | Six artificial-lift method families with detailed coverage of ESP / gas lift / PCP / plunger lift / jet pump / hydraulic lift; rod-pump cross-link to drilling-engineering. | 2026-05-13 |
+| [Carbonate Acidizing](concepts/carbonate-acidizing.md) | HCl chemistry, Daccord 1987 wormhole regimes (face / conical / dominant / ramified), retarded acids (gelled / emulsified / organic / chelating) for HPHT and chrome-tubular envelopes. | 2026-05-16 |
 | [Downhole Flow Control](concepts/downhole-flow-control.md) | Inflow-control hardware spectrum: ICDs (passive), AICDs (autonomous, fluid-responsive), ICVs (active, remotely actuated). Reservoir-management strategy enablement. | 2026-05-15 |
 | [Electric Submersible Pumps (ESP)](concepts/electric-submersible-pumps.md) | Downhole multi-stage centrifugal pump driven by surface-VFD-powered motor; 500-30,000+ bbl/d; system anatomy + operating principle + strengths/weaknesses. Perforation density / phasing IPR coupling. | 2026-05-15 |
 | [ESP Failure Modes](concepts/esp-failure-modes.md) | Cable failures (~30-40% of pulls), motor / pump / seal-section failures; VFD-telemetry operational signatures. | 2026-05-14 |
@@ -33,6 +34,8 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Hydraulic Piston Pump](concepts/hydraulic-piston-pump.md) | Downhole reciprocating piston pump driven by power fluid; open vs closed-loop configurations; deep-well alternative to ESP. | 2026-05-14 |
 | [Intelligent-Well Completions](concepts/intelligent-well-completions.md) | Smart-completion architecture: remotely-actuated flow control + downhole monitoring (PT gauges / DTS / DAS) + control-line bundle + surface SCADA. Concept-level only; vendor-IP firewall posture. | 2026-05-15 |
 | [Jet Pump](concepts/jet-pump.md) | No-moving-parts Venturi mixer driven by power fluid; throat-to-nozzle ratio sets pressure-rise vs rate; cavitation envelope. | 2026-05-14 |
+| [Matrix Acid Diversion](concepts/matrix-acid-diversion.md) | Diversion families: foam (chemical viscosity), ball sealers (perforation-blocking), fiber (bridging), VES (viscoelastic surfactant, hydrocarbon-break), mechanical isolation (positive-engagement). Selection logic and surface-pressure diagnostics. | 2026-05-16 |
+| [Matrix Acid Stimulation](concepts/matrix-acid-stimulation.md) | Router page for matrix-acid coverage: chemistry families (HCl / HF mud acid / retarded / chelating), lithology dispatch (sandstone vs carbonate), candidate selection, design framework. Damage-bypass stimulation below parting pressure. | 2026-05-16 |
 | [Multi-Zone Completions](concepts/multi-zone-completions.md) | Router for stacked-pay completion architectures: selective vs commingled, zonal-isolation hardware, downhole flow control overlay, smart-completion integration. SSSV envelope per API Spec 14A. | 2026-05-15 |
 | [PCP Elastomer Chemistry](concepts/pcp-elastomer-chemistry.md) | NBR / HNBR / FKM / EPDM elastomer families; fluid-compatibility framework; common failure modes (swelling / hardening / softening / chunking). | 2026-05-14 |
 | [PCP Heavy-Oil Application](concepts/pcp-heavy-oil-application.md) | PCP dominance in heavy-oil and bitumen production; sand-control by design; cold-flow vs thermal (SAGD/CSI) considerations. | 2026-05-14 |
@@ -47,6 +50,7 @@ Production engineering — post-completion well operations, artificial lift (ESP
 | [Progressing-Cavity Pumps (PCP)](concepts/progressing-cavity-pumps.md) | Helical rotor in elastomeric stator; surface-driven vs ESPCP variants; niche for high-viscosity + high-solids service. | 2026-05-14 |
 | [Sand Control](concepts/sand-control.md) | Router page for sand-control coverage: failure modes, completion-architecture catalogue (selective perf / chemical / standalone-screen / prepacked / OHGP / CHGP / frac-pack / expandable), decision framework, perforation-strategy coupling. | 2026-05-15 |
 | [Sand Control Screens](concepts/sand-control-screens.md) | Standalone (wire-wrap / slotted-liner), prepacked, expandable, premium-mesh screen families; PSD-driven selection logic; ISO 17824 qualification framework. | 2026-05-15 |
+| [Sandstone Acidizing](concepts/sandstone-acidizing.md) | Schechter-Gidley-Williams 3-stage framework (HCl preflush + HCl/HF mud-acid main + HCl/NH4Cl postflush); HF reaction kinetics with carbonates (CaF2 precipitation) and silicates (secondary fluorosilicates); common failure modes. | 2026-05-16 |
 | [Selective Production](concepts/selective-production.md) | Zonal-isolation hardware: production packers, sliding sleeves, polished-bore receptacles, single-trip multi-zone (STMZ) systems. Failure modes and operational discipline. | 2026-05-15 |
 
 ## Standards
