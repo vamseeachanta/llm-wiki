@@ -6,14 +6,14 @@
       "action": "comment-on-roadmap"
     },
     "llms-entrypoints": {
-      "issue": 76,
+      "issue": 13,
       "title": "llms.txt entrypoints",
-      "action": "update-existing-issue"
+      "action": "comment-on-roadmap"
     },
     "oss-watchlist": {
-      "issue": 79,
+      "issue": 13,
       "title": "Weekly OSS engineering-tool watchlist",
-      "action": "update-existing-issue"
+      "action": "comment-on-roadmap"
     }
   }
 }

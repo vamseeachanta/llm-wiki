@@ -1,6 +1,6 @@
 {
   "schema_version": "oss-tool-watchlist/v1",
-  "generated_for_issue": "https://github.com/vamseeachanta/llm-wiki/issues/79",
+  "generated_for_issue": "https://github.com/vamseeachanta/llm-wiki/issues/13",
   "public_safety_note": "Metadata-only watchlist: public upstream URLs, public documentation URLs, repo-relative wiki targets, and tier-1 public repo links only.",
   "tools": [
     {

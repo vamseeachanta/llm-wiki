@@ -131,7 +131,7 @@ def test_scan_fixture_mode_renders_issue_deduplicated_report(tmp_path: Path) -> 
 
     assert report.totals["tools_checked"] == 2
     assert report.totals["new_release"] == 1
-    assert any(row.slug == "moordyn" and row.route_issue == 79 for row in report.rows)
+    assert any(row.slug == "moordyn" and row.route_issue == 13 and row.route_action == "comment-on-roadmap" for row in report.rows)
     assert not any(row.recommendation_action == "open-new-issue" for row in report.rows)
     assert "## Tools checked and signal sources" in rendered
     assert "## Duplicate/open-issue routing" in rendered
@@ -182,6 +182,34 @@ def test_signal_type_routes_apply_before_recommendation_action_fallback(tmp_path
     assert docs_row.recommendation_action == "update_existing_wiki_page"
     assert docs_row.route_issue == 88
     assert docs_row.route_action == "comment-on-docs-review"
+
+
+def test_oss_route_state_rejects_closed_reuse_existing_issue() -> None:
+    watchlist = _load_watchlist()
+    routes = {"moordyn": {"issue": 79, "action": "reuse-existing-issue", "title": "MoorDyn watchlist lane"}}
+
+    failures = watchlist.validate_issue_routes(routes, {79: "CLOSED"})
+
+    assert failures == ["moordyn targets closed issue #79 with active action reuse-existing-issue"]
+
+
+def test_oss_slug_specific_closed_route_is_normalized_before_render(tmp_path: Path) -> None:
+    watchlist = _load_watchlist()
+    repo = tmp_path
+    manifest = repo / "data" / "oss_tool_watchlist.json"
+    issue_map = repo / "data" / "oss_tool_issue_map.json"
+    fixture_dir = repo / "tests" / "fixtures" / "oss_tool_watchlist"
+    _write_json(manifest, _sample_watchlist())
+    _write_json(issue_map, {"schema_version": "oss-tool-issue-map/v1", "routes": {"moordyn": {"issue": 79, "action": "reuse-existing-issue", "title": "MoorDyn watchlist lane"}, "default": {"issue": 13, "action": "comment-on-roadmap", "title": "Roadmap anchor"}}})
+    _write_json(fixture_dir / "moordyn.json", {"observed_value": "v1.1.0", "observed_release_date": "2026-05-12", "signal_summary": "Release metadata changed."})
+
+    report = watchlist.scan_watchlist(repo, manifest, issue_map, fixture_dir, run_date="2026-05-15")
+    rendered = watchlist.render_report(report)
+
+    moordyn = next(row for row in report.rows if row.slug == "moordyn")
+    assert moordyn.route_issue == 13
+    assert moordyn.route_action == "comment-on-roadmap"
+    assert "reuse-existing-issue | [#79]" not in rendered
 
 
 def test_write_outputs_separates_static_config_state_and_report(tmp_path: Path) -> None:

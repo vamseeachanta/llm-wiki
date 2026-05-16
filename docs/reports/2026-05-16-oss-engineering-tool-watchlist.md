@@ -61,7 +61,7 @@
 ## Duplicate/open-issue routing
 | Tool | Route action | Issue | Route reason |
 |---|---|---|---|
-| MoorDyn | reuse-existing-issue | [#79](https://github.com/vamseeachanta/llm-wiki/issues/79) | Issue #79 owns the weekly OSS engineering-tool watchlist lane and should receive MoorDyn signal deltas until split into a dedicated child issue. |
+| MoorDyn | comment-on-roadmap | [#13](https://github.com/vamseeachanta/llm-wiki/issues/13) | MoorDyn signal deltas now route to the roadmap anchor until a new open child issue owns the tool lane. |
 | MoorPy | comment-on-roadmap | [#13](https://github.com/vamseeachanta/llm-wiki/issues/13) | Initial seed-page candidates should be batched through the roadmap anchor before opening duplicate per-tool issues. |
 | OpenFAST | comment-on-roadmap | [#13](https://github.com/vamseeachanta/llm-wiki/issues/13) | Initial seed-page candidates should be batched through the roadmap anchor before opening duplicate per-tool issues. |
 | Capytaine | comment-on-roadmap | [#13](https://github.com/vamseeachanta/llm-wiki/issues/13) | Initial seed-page candidates should be batched through the roadmap anchor before opening duplicate per-tool issues. |
@@ -81,7 +81,7 @@ No blocked or manual-review items.
 ## Validation evidence
 - `uv run pytest tests/test_oss_tool_watchlist.py tests/test_oss_tool_watchlist_artifacts.py -q`
 - `uv run python scripts/llm_wiki_oss_tool_watchlist.py --date 2026-05-16 --write`
-- `uv run python scripts/validate_oss_tool_watchlist.py data/oss_tool_watchlist.json docs/reports/2026-05-16-oss-engineering-tool-watchlist.md`
+- `uv run python scripts/validate_oss_tool_watchlist.py data/oss_tool_watchlist.json docs/reports/2026-05-16-oss-engineering-tool-watchlist.md && uv run python scripts/validate_issue_route_state.py data/oss_tool_issue_map.json`
 
 ## Public-safety guardrail
 This artifact is public-safe: it contains public URLs, repo-relative paths, normalized signal metadata, and GitHub issue links only. It does not copy upstream docs, source code, release-note bodies, unprocessed upstream response bodies, secrets, cookies, headers, or private paths.

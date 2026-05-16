@@ -20,10 +20,10 @@
       "title": "LLM wiki roadmap anchor"
     },
     "moordyn": {
-      "action": "reuse-existing-issue",
-      "issue": 79,
-      "reason": "Issue #79 owns the weekly OSS engineering-tool watchlist lane and should receive MoorDyn signal deltas until split into a dedicated child issue.",
-      "title": "Weekly OSS engineering-tool watchlist"
+      "action": "comment-on-roadmap",
+      "issue": 13,
+      "reason": "MoorDyn signal deltas now route to the roadmap anchor until a new open child issue owns the tool lane.",
+      "title": "LLM wiki roadmap anchor"
     }
   }
 }

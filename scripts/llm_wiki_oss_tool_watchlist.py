@@ -26,6 +26,14 @@ REPORT_DIR = Path("docs/reports")
 STATE_DIR = Path("artifacts/watchlist")
 ROADMAP_URL = "https://github.com/vamseeachanta/llm-wiki/issues/13"
 PUBLIC_SAFETY_NOTE = "public-safe metadata-only report; no raw/private/vendor/client content."
+ACTIVE_UPDATE_ACTIONS = {"update-existing-issue", "reuse-existing-issue"}
+KNOWN_CLOSED_ROUTE_ISSUES = {76, 79}
+ROADMAP_FALLBACK_ROUTE = {
+    "issue": 13,
+    "action": "comment-on-roadmap",
+    "title": "Roadmap anchor",
+    "reason": "Route target is a completed child issue; weekly watchlist updates fall back to the open roadmap anchor until a new open child issue owns the lane.",
+}
 
 REQUIRED_TOOL_FIELDS = (
     "name",
@@ -260,9 +268,28 @@ def normalize_signal(tool: dict[str, Any], observed: dict[str, Any] | None, prev
     )
 
 
+def validate_issue_routes(routes: dict[str, dict[str, Any]], issue_states: dict[int, str]) -> list[str]:
+    failures: list[str] = []
+    for key, route in routes.items():
+        action = str(route.get("action", "comment-on-roadmap"))
+        issue = int(route.get("issue", 13))
+        state = str(issue_states.get(issue, "UNKNOWN")).upper()
+        if action in ACTIVE_UPDATE_ACTIONS and state == "CLOSED":
+            failures.append(f"{key} targets closed issue #{issue} with active action {action}")
+    return failures
+
+
+def _safe_route(route: dict[str, Any]) -> dict[str, Any]:
+    issue = int(route.get("issue", 13))
+    action = str(route.get("action", "comment-on-roadmap"))
+    if action in ACTIVE_UPDATE_ACTIONS and issue in KNOWN_CLOSED_ROUTE_ISSUES:
+        return {**ROADMAP_FALLBACK_ROUTE, "title": str(route.get("title", ROADMAP_FALLBACK_ROUTE["title"]))}
+    return route
+
+
 def _apply_route(row: WatchlistRow, issue_map: dict[str, Any]) -> WatchlistRow:
     routes = issue_map.get("routes", {}) if isinstance(issue_map.get("routes", {}), dict) else {}
-    route = routes.get(row.slug) or routes.get(row.signal_type) or routes.get(row.recommendation_action) or routes.get("default") or {"issue": 13, "action": "comment-on-roadmap", "title": "Roadmap anchor"}
+    route = _safe_route(routes.get(row.slug) or routes.get(row.signal_type) or routes.get(row.recommendation_action) or routes.get("default") or ROADMAP_FALLBACK_ROUTE)
     route_reason = str(route.get("reason", "Watchlist recommendation is deduplicated through the checked-in issue map."))
     return WatchlistRow(**{**asdict(row), "route_action": str(route.get("action", "comment-on-roadmap")), "route_issue": int(route.get("issue", 13)), "route_title": str(route.get("title", "Roadmap anchor")), "route_reason": route_reason})
 
@@ -294,7 +321,7 @@ def scan_watchlist(repo_root: Path, watchlist_path: Path, issue_map_path: Path, 
     validation = {
         "tests": "uv run pytest tests/test_oss_tool_watchlist.py tests/test_oss_tool_watchlist_artifacts.py -q",
         "generate": f"uv run python scripts/llm_wiki_oss_tool_watchlist.py --date {run_date} --write",
-        "validator": f"uv run python scripts/validate_oss_tool_watchlist.py data/oss_tool_watchlist.json docs/reports/{run_date}-oss-engineering-tool-watchlist.md",
+        "validator": f"uv run python scripts/validate_oss_tool_watchlist.py data/oss_tool_watchlist.json docs/reports/{run_date}-oss-engineering-tool-watchlist.md && uv run python scripts/validate_issue_route_state.py data/oss_tool_issue_map.json",
     }
     return WatchlistReport(schema_version=SCHEMA_VERSION, run_date=run_date, totals=totals, rows=rows, validation=validation)
 

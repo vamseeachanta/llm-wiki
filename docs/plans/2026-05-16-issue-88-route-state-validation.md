@@ -1,6 +1,6 @@
 # Plan for #88: Prevent weekly route maps from targeting closed issues
 
-> **Status:** plan-review
+> **Status:** plan-approved
 > **Complexity:** T1
 > **Date:** 2026-05-16
 > **Issue:** https://github.com/vamseeachanta/llm-wiki/issues/88

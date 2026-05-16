@@ -24,7 +24,7 @@ Public-safety default: plans may reference source-family names and aggregate met
 | [`#75`](https://github.com/vamseeachanta/llm-wiki/issues/75) | [`2026-05-15-issue-75-weekly-freshness-control-loop.md`](2026-05-15-issue-75-weekly-freshness-control-loop.md) | `plan-approved` | Weekly freshness control loop with JSON baseline/report artifacts and recommendation routing. |
 | [`#76`](https://github.com/vamseeachanta/llm-wiki/issues/76) | [`2026-05-15-issue-76-llms-entrypoints-domain-manifests.md`](2026-05-15-issue-76-llms-entrypoints-domain-manifests.md) | `plan-approved` | Root/domain `llms.txt` manifests with validators and routing smoke tests. |
 | [`#79`](https://github.com/vamseeachanta/llm-wiki/issues/79) | [`2026-05-15-issue-79-weekly-oss-engineering-tool-watchlist.md`](2026-05-15-issue-79-weekly-oss-engineering-tool-watchlist.md) | `plan-approved` | Fixture-first weekly OSS tool/concept watchlist with scan/render split. |
-| [`#88`](https://github.com/vamseeachanta/llm-wiki/issues/88) | [`2026-05-16-issue-88-route-state-validation.md`](2026-05-16-issue-88-route-state-validation.md) | `plan-review` | Route-state validation so weekly cadence reports cannot target closed child issues by default. |
+| [`#88`](https://github.com/vamseeachanta/llm-wiki/issues/88) | [`2026-05-16-issue-88-route-state-validation.md`](2026-05-16-issue-88-route-state-validation.md) | `plan-approved` | Route-state validation so weekly cadence reports cannot target closed child issues by default. |
 
 ## Review evidence
 

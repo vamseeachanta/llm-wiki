@@ -2,6 +2,8 @@
 from __future__ import annotations
 
 import importlib.util
+import json
+import subprocess
 import sys
 from datetime import date
 from pathlib import Path
@@ -68,11 +70,88 @@ def test_issue_recommendations_are_deduplicated_to_existing_lanes(tmp_path: Path
     recommendations = weekly.build_recommendations(report)
 
     assert any(r.issue == 13 and r.action == "comment-on-roadmap" for r in recommendations)
-    assert any(r.issue == 76 and r.issue_route == "llms-entrypoints" for r in recommendations)
-    assert any(r.issue == 79 and r.issue_route == "oss-watchlist" for r in recommendations)
+    assert any(r.issue == 13 and r.issue_route == "llms-entrypoints" for r in recommendations)
+    assert any(r.issue == 13 and r.issue_route == "oss-watchlist" for r in recommendations)
     titles = [r.title for r in recommendations]
     assert len(titles) == len(set(titles))
     assert not any(r.action == "open-new-issue" for r in recommendations)
+
+
+def test_weekly_route_state_rejects_closed_active_update_issue() -> None:
+    weekly = _load_weekly()
+    routes = {
+        "oss-watchlist": {"issue": 79, "title": "Weekly OSS engineering-tool watchlist", "action": "update-existing-issue"},
+        "portfolio-roadmap": {"issue": 13, "title": "Roadmap anchor", "action": "comment-on-roadmap"},
+    }
+
+    failures = weekly.validate_issue_routes(routes, {79: "CLOSED", 13: "OPEN"})
+
+    assert failures == ["oss-watchlist targets closed issue #79 with active action update-existing-issue"]
+
+
+def test_weekly_route_state_allows_open_active_update_issue() -> None:
+    weekly = _load_weekly()
+    routes = {"active-plan": {"issue": 88, "title": "Active plan", "action": "update-existing-issue"}}
+
+    assert weekly.validate_issue_routes(routes, {88: "OPEN"}) == []
+
+
+def test_weekly_default_routes_do_not_target_closed_children_when_map_missing(tmp_path: Path) -> None:
+    weekly = _load_weekly()
+
+    routes = weekly.load_issue_routes(tmp_path)
+
+    assert routes["llms-entrypoints"]["issue"] == 13
+    assert routes["llms-entrypoints"]["action"] == "comment-on-roadmap"
+    assert routes["oss-watchlist"]["issue"] == 13
+    assert routes["oss-watchlist"]["action"] == "comment-on-roadmap"
+
+
+def test_weekly_generated_report_has_no_closed_active_update_targets(tmp_path: Path) -> None:
+    weekly = _load_weekly()
+    repo = tmp_path
+    _write(repo / "wikis" / "engineering" / "wiki" / "concepts" / "fresh.md", "---\ntitle: Fresh\nlast_updated: 2026-05-15\n---\n# Fresh\n")
+    _write(repo / "data" / "concept_watchlist.json", '{"items":[{"concept":"llms.txt","route_key":"llms-entrypoints"},{"concept":"GraphRAG","route_key":"oss-watchlist"}]}')
+
+    report = weekly.analyze_repo(repo, date(2026, 5, 15), stale_days=30, max_items=10)
+    rendered = weekly.render_report(report)
+
+    assert "update-existing-issue | [#76]" not in rendered
+    assert "update-existing-issue | [#79]" not in rendered
+
+
+def test_validate_issue_route_state_cli_reports_closed_targets(tmp_path: Path) -> None:
+    route_map = tmp_path / "route-map.json"
+    state_map = tmp_path / "states.json"
+    route_map.write_text(json.dumps({"routes": {"bad-route": {"issue": 79, "action": "update-existing-issue", "title": "Closed target"}}}), encoding="utf-8")
+    state_map.write_text(json.dumps({"79": "CLOSED"}), encoding="utf-8")
+
+    result = subprocess.run(
+        [sys.executable, str(ROOT / "scripts" / "validate_issue_route_state.py"), str(route_map), "--state-json", str(state_map)],
+        check=False,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+
+    assert result.returncode == 1
+    assert "bad-route targets closed issue #79" in result.stderr
+
+
+def test_validate_issue_route_state_cli_rejects_malformed_routes(tmp_path: Path) -> None:
+    route_map = tmp_path / "route-map.json"
+    route_map.write_text(json.dumps({"routes": {"bad-route": "not-an-object"}}), encoding="utf-8")
+
+    result = subprocess.run(
+        [sys.executable, str(ROOT / "scripts" / "validate_issue_route_state.py"), str(route_map)],
+        check=False,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+
+    assert result.returncode == 1
+    assert "bad-route route must be an object" in result.stderr
 
 
 def test_analyze_repo_uses_previous_json_artifact_as_baseline(tmp_path: Path) -> None:

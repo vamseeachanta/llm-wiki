@@ -32,6 +32,9 @@ MD_LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 WIKILINK_RE = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]")
 SKIP_PAGE_NAMES = {"index.md", "log.md", "overview.md", "portal.md", "_template.md", "template.md"}
 PUBLIC_SAFETY_NOTE = "public-safe metadata-only report; no raw/private/vendor/client content."
+ACTIVE_UPDATE_ACTIONS = {"update-existing-issue", "reuse-existing-issue"}
+KNOWN_CLOSED_ROUTE_ISSUES = {76, 79}
+ROADMAP_FALLBACK_ROUTE = {"issue": 13, "title": "Roadmap anchor update", "action": "comment-on-roadmap"}
 
 
 @dataclass(frozen=True)
@@ -336,11 +339,30 @@ def analyze_repo(repo_root: Path, run_date: date, stale_days: int = 30, max_item
         validation={
             "tests": "uv run pytest tests/test_llm_wiki_weekly_freshness.py tests/test_weekly_freshness_artifacts.py -q",
             "generate": f"uv run python scripts/llm_wiki_weekly_freshness.py --date {run_date.isoformat()} --write",
-            "validator": f"uv run python scripts/validate_weekly_freshness_report.py docs/reports/{run_date.isoformat()}-llm-wiki-weekly-freshness-report.md",
+            "validator": f"uv run python scripts/validate_weekly_freshness_report.py docs/reports/{run_date.isoformat()}-llm-wiki-weekly-freshness-report.md && uv run python scripts/validate_issue_route_state.py data/issue_routing_map.json data/oss_tool_issue_map.json",
         },
     )
     recommendations = build_recommendations(partial, repo_root=repo_root)
     return WeeklyReport(**{**asdict(partial), "totals": totals, "domains": domain_rows, "stale_pages": stale_sorted, "broken_links": broken_sorted, "recommendations": recommendations})
+
+
+def _safe_route(route: dict[str, str | int]) -> dict[str, str | int]:
+    issue = int(route.get("issue", 13))
+    action = str(route.get("action", "comment-on-roadmap"))
+    if action in ACTIVE_UPDATE_ACTIONS and issue in KNOWN_CLOSED_ROUTE_ISSUES:
+        return {**ROADMAP_FALLBACK_ROUTE, "title": str(route.get("title", ROADMAP_FALLBACK_ROUTE["title"]))}
+    return route
+
+
+def validate_issue_routes(routes: dict[str, dict[str, str | int]], issue_states: dict[int, str]) -> list[str]:
+    failures: list[str] = []
+    for key, route in routes.items():
+        action = str(route.get("action", "comment-on-roadmap"))
+        issue = int(route.get("issue", 13))
+        state = str(issue_states.get(issue, "UNKNOWN")).upper()
+        if action in ACTIVE_UPDATE_ACTIONS and state == "CLOSED":
+            failures.append(f"{key} targets closed issue #{issue} with active action {action}")
+    return failures
 
 
 def load_issue_routes(repo_root: Path | None = None) -> dict[str, dict[str, str | int]]:
@@ -348,13 +370,13 @@ def load_issue_routes(repo_root: Path | None = None) -> dict[str, dict[str, str 
     path = root / ISSUE_ROUTING_MAP
     if not path.exists():
         return {
-            "portfolio-roadmap": {"issue": 13, "title": "Roadmap anchor update", "action": "comment-on-roadmap"},
-            "llms-entrypoints": {"issue": 76, "title": "llms.txt entrypoints", "action": "update-existing-issue"},
-            "oss-watchlist": {"issue": 79, "title": "Weekly OSS engineering-tool watchlist", "action": "update-existing-issue"},
+            "portfolio-roadmap": dict(ROADMAP_FALLBACK_ROUTE),
+            "llms-entrypoints": {**ROADMAP_FALLBACK_ROUTE, "title": "llms.txt entrypoints"},
+            "oss-watchlist": {**ROADMAP_FALLBACK_ROUTE, "title": "Weekly OSS engineering-tool watchlist"},
         }
     data = json.loads(path.read_text(encoding="utf-8"))
     routes = data.get("routes", data)
-    return {str(key): value for key, value in routes.items()}
+    return {str(key): _safe_route(value) for key, value in routes.items()}
 
 
 def _recommendation(route: dict[str, str | int], rationale: str, reason_code: str, confidence: str = "high", issue_route: str = "portfolio-roadmap") -> Recommendation:
