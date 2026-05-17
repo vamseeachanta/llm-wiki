@@ -2,12 +2,13 @@
 title: "Reservoir Engineering Literature Corpus — formation-evaluation foundation scope"
 issue: 40
 created: 2026-05-16
-last_updated: 2026-05-16
+last_updated: 2026-05-17
 scope: formation-evaluation-foundation (per #40 user scope-narrow 2026-05-15)
 companion_issue: vamseeachanta/kaggle-rogii-2026#5
-total_candidates: 56
-classifications: {ingest: 24, defer: 10, skip: 22}
+total_candidates: 42
+classifications: {ingest: 24, defer: 10, skip: 8}
 license_fail_closed_posture: true
+phase_b_redacted: true  # see Local sources (Phase B) section; off-repo data-layer content not enumerated
 ---
 
 # Reservoir Engineering Literature Corpus
@@ -63,51 +64,26 @@ Per the plan body, this Wave 2 deliverable is scope-narrowed to **formation eval
 | A35 | SLB (Schlumberger) | Log Interpretation Charts (chartbook) | https://www.slb.com/resource-library/book/log-interpretation-charts | all rights reserved per copyright notice; Internet Archive availability does NOT confer redistribution rights | skip | All-rights-reserved corporate publication; Internet Archive copy exists but copyright notice explicitly restricts reproduction; fail-closed → skip |
 | A36 | spec2000.net | Crain's Petrophysical Handbook (Ross Crain) | https://spec2000.net/ | shareware (fee-based licence: single-user / corporate / academic / associate-instructor) | skip | Shareware fee required; not redistributable under any CC-compatible license; fail-closed → skip. (Free 100+ technical papers section on same site is per-paper license-check.) |
 
-## Local sources (Phase B) — /mnt/ace/rock-oil-field/
+## Local sources (Phase B) — redacted
 
-**Reconnaissance finding (load-bearing):** `/mnt/ace/rock-oil-field/` is the user's Subsea-7 (S7) marine/subsea offshore engineering working directory — NOT a reservoir-engineering or formation-evaluation literature library. Total inventory: 383 PDF/EPUB/DjVu files across `admin/` (timesheets, CV, expenses, training admin) and `s7/` (project work for Ballymore, Talos Venice, Shell Perdido South, BP MD2/FJR; subsea pipeline / riser / SCR / mooring / umbilical / OrcaFlex training reference). Keyword scan for `log|well|reservoir|formation|porosity|permeability|petrophysic|geosteer|gamma|dipmeter|petrolog|wireline|MWD|LWD|RFT|core|seismic|saturation|archie` matched only 2 files (a Subsea-7 *wellhead* presentation about subsea hardware — not log interpretation — and a pipeline-construction lecture matched on substring). Broader scan for `petroleum|drilling|geolog|geophys|subsurface|stratig|sedim|fluid|PVT|recovery|EOR|simulat|machine|deep|neural|classif` returned only one buoyancy-module pipeline document.
+A Phase B sweep was performed against the local candidate directory named in the plan body (`/mnt/ace/rock-oil-field/`). The directory was determined to be off-repo data infrastructure for the user's professional client work — operationally correctly-domain for its actual purpose, but not a reservoir-engineering or formation-evaluation literature corpus. No in-scope reservoir-engineering / formation-evaluation sources were identified by the sweep.
 
-The rows below are representative samples documenting the corpus mismatch transparently for downstream auditors (so a later reviewer does not re-walk these 383 files asking "why no formation-eval extracts?"). The dominant pattern: **subsea offshore engineering content is wrong-domain for this manifest** and should be re-routed to the existing `wikis/marine-engineering/` or future subsea-engineering domain if there is interest — not to `wikis/reservoir-engineering/`.
+Per the off-repo data-layer governance boundary that applies to client and employer materials in published repositories, no path-level / title-level / document-level enumeration of off-repo content is carried into this public manifest. The Phase B contribution to corpus inventory is therefore zero rows.
 
-| # | Filepath | Inferred title (from filename + dir context) | Size | License (inferred) | Classification | License note |
-|---|---|---|---|---|---|---|
-| B1 | /mnt/ace/rock-oil-field/admin/cv/gp/proj_docs/wellhead_data_analysis_0190-PRE-008-01 Phase 1 - Final Presentation.pdf | Subsea wellhead data analysis (S7 client work product — subsea hardware, NOT well-log interpretation) | 11.9 MB | client-confidential; user-personal CV proj-docs context | skip | Out of formation-eval-foundation scope; client-confidential work product, not licensed for redistribution. (Filename keyword "wellhead" misled keyword scan; content is structural-engineering, not formation-eval.) |
-| B2 | /mnt/ace/rock-oil-field/s7/analysis_general/train/Pipeline Design Workshop/class lectures, pipeline/Lecture 1_An Overview of Subsea Field Layout and Key Pipeline Themes_2012_01.pdf | Subsea pipeline design lecture (third-party training course material) | 21.9 MB | third-party copyrighted training material | skip | Out of scope (pipeline, not formation-eval); third-party training material, not licensed for redistribution |
-| B3 | /mnt/ace/rock-oil-field/s7/analysis_general/train/Pipeline Design Workshop/class lectures, pipeline/Lecture 3_Flow Assurance_2012_Rev02_01.pdf | Subsea flow-assurance lecture | 14.5 MB | third-party copyrighted training material | skip | Same as B2 |
-| B4 | /mnt/ace/rock-oil-field/s7/analysis_general/train/Pipeline Design Workshop/class lectures, pipeline/Lecture 4_Linepipe Material Selection_2012_01.pdf | Subsea linepipe material selection lecture | 21.8 MB | third-party copyrighted training material | skip | Same as B2; out of scope (materials, not formation-eval) |
-| B5 | /mnt/ace/rock-oil-field/s7/analysis_general/train/Pipeline Design Workshop/class lectures, pipeline/Lecture 7_Geotechnics and Pipe-Soil Interaction_2012_01.pdf | Geotechnics and pipe-soil interaction lecture | 7.0 MB | third-party copyrighted training material | skip | Out of scope; closest topical adjacency is geotech (relevant to seabed, not subsurface reservoir) |
-| B6 | /mnt/ace/rock-oil-field/s7/analysis_general/train/Pipeline Design Workshop/Ringbinder/DNV OS F101_Oct2013.pdf | DNV-OS-F101 Submarine Pipeline Systems (2013) | 6.1 MB | DNV standard — copyrighted, requires individual licence | skip | DNV standards are copyrighted; out of scope (pipeline, not formation-eval) |
-| B7 | /mnt/ace/rock-oil-field/s7/analysis_general/_ref/epic/Ref/DNVGL-ST-N001-Marine-Operations-and-Marine-Warranty-Complete-Document-06.09.2016.pdf | DNVGL-ST-N001 Marine Operations and Marine Warranty (2016) | 10.7 MB | DNV standard — copyrighted | skip | Out of scope (marine ops, not formation-eval); standard is copyrighted regardless |
-| B8 | /mnt/ace/rock-oil-field/s7/analysis_general/_ref/codes/DNV-RP-H103 (2011) Modelling and Analysis of Marine Operations.pdf | DNV-RP-H103 Modelling and Analysis of Marine Operations (2011) | size n/a | DNV standard — copyrighted | skip | Out of scope; standard copyrighted. |
-| B9 | /mnt/ace/rock-oil-field/s7/analysis_general/_ref/codes/DNV RP C205 (2010) Environmental Conditions and Environmental Loads.pdf | DNV-RP-C205 Environmental Conditions and Loads (2010) | size n/a | DNV standard — copyrighted | skip | Out of scope (offshore environmental loads, not formation-eval) |
-| B10 | /mnt/ace/rock-oil-field/s7/analysis_general/Orcaflex_Training_2007.pdf | OrcaFlex training material (Orcina, 2007) | size n/a | Orcina copyrighted training material | skip | Out of scope (dynamic-analysis software training, not formation-eval) |
-| B11 | /mnt/ace/rock-oil-field/s7/analysis_general/train/Reeling/Offshore pipeline construction volume one[1].pdf | "Offshore pipeline construction volume one" — appears purchased textbook | 30.2 MB | appears purchased textbook — likely Wiley / PennWell / Gulf or similar commercial publisher | skip | Purchased-textbook filename pattern → fail-closed skip per plan license-triage rule; out of scope regardless |
-| B12 | /mnt/ace/rock-oil-field/s7/analysis_general/train/Pipeline Design Workshop/advanced design of subsea pipelines.pdf_page_*.pdf | "Advanced design of subsea pipelines" (split into 6 page-range PDFs) | 6 files totalling ~166 MB | appears purchased textbook (commercial publisher), split-page artefact suggests post-purchase PDF processing | skip | Purchased-textbook fail-closed; out of scope. 6 fragment files counted as one logical row. |
-| B13 | /mnt/ace/rock-oil-field/s7/analysis_general/foundations/offshore_foundations.pdf | Offshore foundations (geotechnical reference) | size n/a | filename ambiguous; could be textbook excerpt or work product | skip | Filename ambiguous AND out of scope (offshore-structure geotech, not subsurface formation-eval); fail-closed skip |
-| B14 | /mnt/ace/rock-oil-field/s7/analysis_general/fully_subsea_production_system.pdf | Subsea production system overview | size n/a | unclear; likely vendor brochure or S7 internal | skip | Out of scope (subsea production hardware, not formation-eval) |
-| B15 | /mnt/ace/rock-oil-field/s7/analysis_general/train/SCR Design April 2015/SCR session 1 SCR presentation.pdf | Steel catenary riser (SCR) design training session | 4.7 MB | third-party copyrighted training | skip | Out of scope (riser design, not formation-eval) |
-| B16 | /mnt/ace/rock-oil-field/s7/analysis_general/Anchor_20K_Gulf of Mexico.pdf | 20K-class anchor reference (Gulf of Mexico) | 6.5 MB | unclear, likely vendor / project document | skip | Out of scope (mooring hardware, not formation-eval) |
-| B17 | /mnt/ace/rock-oil-field/s7/analysis_general/train/GED/3. March - GEDS 2018 Flexible and Umbilical.pdf | GEDS 2018 training — flexible / umbilical | 6.7 MB | third-party copyrighted training (Subsea-7 internal "Graduate Engineer Development Scheme") | skip | Out of scope (umbilical engineering) AND internal training |
-| B18 | /mnt/ace/rock-oil-field/admin/training/ethics_and_compliance.pdf | Subsea-7 internal ethics & compliance training | size n/a | employer-internal | skip | Out of scope; internal compliance |
-| B19 | /mnt/ace/rock-oil-field/admin/UK & GLOBAL IRM Org Chart - October 2023.pdf | Subsea-7 IRM organisation chart (October 2023) | size n/a | employer-internal | skip | Out of scope; internal admin |
-| B20 | /mnt/ace/rock-oil-field/s7/ballymore/weather/StormGeo_MV_Seven_Arctic_-_Chevron_Ballymore_-_MC-651_2023071210.pdf | StormGeo metocean weather report for Seven Arctic vessel, Ballymore project | size n/a | vendor (StormGeo) commercial report, client-confidential | skip | Out of scope (metocean weather forecast, not formation-eval) AND client-confidential |
-| B21 | /mnt/ace/rock-oil-field/s7/talos_venice/0000008062000_1_VeniceBoD_forIFC.pdf | Talos Venice — Basis of Design (Issue For Construction) | 5.3 MB | client (Talos Energy) confidential | skip | Out of scope AND client-confidential project document |
-| B22 | /mnt/ace/rock-oil-field/s7/shell_perdido_south/data/PER-500-MX-4018-9990073-001_002_1_publication.pdf | Shell Perdido South — manifold / hardware data sheet | 8.3 MB | client (Shell) confidential or vendor-controlled | skip | Out of scope AND client-confidential |
+**Implication for future plans:** plan bodies that name local-directory candidates by name should not assume name-based categorisation. If a future plan re-proposes walking `/mnt/ace/rock-oil-field/` for reservoir-engineering / formation-evaluation content, this Phase B finding pre-empts the work (zero in-scope content; off-repo data-layer boundary applies).
 
-**Phase B summary:** 22 representative samples × `skip` × all-out-of-scope-or-license-blocked. The remaining ~361 unsampled files in `/mnt/ace/rock-oil-field/` follow the same pattern (admin/ + s7/ subsea project + training). Sampling stopped at B22 once representative coverage of each subdirectory category was achieved; exhaustive enumeration would not change the dominant `skip` classification or surface any in-scope source. **Recommendation for downstream:** if any of the subsea / mooring / pipeline content is independently valuable, it belongs under `wikis/marine-engineering/` (already founded) or a future subsea-engineering domain — not in this `wikis/reservoir-engineering/` manifest.
+_Phase B per-row enumeration redacted 2026-05-17 per off-repo data-layer governance boundary (client/employer materials)._
 
 ## Summary
 
 | Classification | Online (Phase A) | Local (Phase B) | Total |
 |---|---|---|---|
-| ingest | 24 | 0 | 24 |
-| defer | 10 | 0 | 10 |
-| skip | 8 | 22 | 30 |
-| **Total** | **42** | **22** | **64** |
+| ingest | 24 | _(redacted)_ | 24 |
+| defer | 10 | _(redacted)_ | 10 |
+| skip | 8 | _(redacted)_ | 8 |
+| **Total** | **42** | **_(redacted)_** | **42** |
 
-Net inventory: **64 triaged rows** (within plan target — see below).
-
-**Note on counting:** B12 represents 6 page-fragment PDFs counted as one logical row (the underlying "advanced design of subsea pipelines" textbook). Including those fragments individually would push the total to 69; the logical-row count of 64 is what the schema captures.
+Net inventory: **42 triaged rows publicly enumerated** (Phase A only; Phase B per-row enumeration redacted per off-repo data-layer governance — see Phase B section above). The sweep's audit-trail finding is preserved (Phase B yielded zero in-scope sources); the row-level evidence is not carried into this public manifest.
 
 ### Plan acceptance check
 
@@ -117,9 +93,9 @@ Plan acceptance criterion (lines 104 + 56 of the approved plan): **≥30 high-qu
 |---|---|---|---|
 | High-quality (`ingest`) sources | ≥30 | 24 | Partial — short of 30 by 6 |
 | Mixed-quality (`ingest` + `defer`) sources | ≥50 | 34 | Partial — short of 50 by 16 |
-| All rows | (schema) | 64 with non-blank license notes on every row | **Met** |
+| All rows | (schema) | 42 publicly enumerated, every row with non-blank license note | **Met for enumerated rows** |
 
-**Gap analysis:** The 24 / 34 totals fall short of the strict acceptance targets primarily because (a) `/mnt/ace/rock-oil-field/` contributed zero in-scope local sources (vs. plan assumption that local would carry some of the volume), and (b) license-fail-closed posture moved several arXiv preprint candidates (A25, A26, A28) and the OAPEN Geology of Kuwait (A29) into `defer` pending per-document license verification rather than ingest-on-default. To close the gap, Wave 3-5 authors should:
+**Gap analysis:** The 24 / 34 totals fall short of the strict acceptance targets primarily because (a) the local candidate directory named in plan body contributed zero in-scope local sources — Phase B sweep confirmed it was off-repo data infrastructure (see Phase B section above), invalidating the plan's name-based assumption that local would carry some of the volume; and (b) license-fail-closed posture moved several arXiv preprint candidates (A25, A26, A28) and the OAPEN Geology of Kuwait (A29) into `defer` pending per-document license verification rather than ingest-on-default. To close the gap, Wave 3-5 authors should:
 
 1. Promote `defer` rows to `ingest` after per-document license verification (would lift `ingest` totals by up to 10 rows toward target 34).
 2. Add 10–15 more arXiv / OA-journal lithology-classification papers via targeted search of `physics.geo-ph`, `stat.ML`, and JGR Solid Earth.
@@ -129,7 +105,7 @@ Items 1+3 alone would bring `ingest` to ~30 (target) and mixed to ~44; item 2 cl
 
 ## Notes
 
-- **License-triage discipline:** defaulted to `skip` for paywalled-textbook filename patterns (Subsea-7 training PDFs from Wiley/PennWell/commercial publishers); defaulted to `skip` for shareware (Crain's, spec2000.net) and all-rights-reserved corporate publications (SLB chartbook). Defaulted to `ingest` only for clearly-CC-licensed wiki content (AAPG, SEG), federal public-domain works (USGS), or OCW with explicit CC-BY-NC-SA licence (MIT — flagged `ingest-ref-only` because NC is incompatible with llm-wiki CC-BY-4.0 derivative-reuse).
+- **License-triage discipline:** defaulted to `skip` for paywalled-textbook filename patterns; defaulted to `skip` for shareware (Crain's, spec2000.net) and all-rights-reserved corporate publications (SLB chartbook). Defaulted to `ingest` only for clearly-CC-licensed wiki content (AAPG, SEG), federal public-domain works (USGS), or OCW with explicit CC-BY-NC-SA licence (MIT — flagged `ingest-ref-only` because NC is incompatible with llm-wiki CC-BY-4.0 derivative-reuse).
 - **`defer` rows** require human review before Wave 3-5 ingestion. The 10 defers concentrate around (a) arXiv papers needing per-paper license check on the abs page, (b) Kansas Geological Survey OFR archive needing per-document verification, (c) the OAPEN entry needing CC variant confirmation, (d) the Stanford / Texas A&M / OnePetro pointer pages needing targeted entry-by-entry triage.
 - **No source content reproduced in this manifest** — paths, URLs, titles, sizes, and metadata only.
 - **Vendor-derivative deny-list** per [workspace-hub#2482](https://github.com/vamseeachanta/workspace-hub/issues/2482): no `wikis/*/wiki/sources/` paths appear here (correctly — none would by design under formation-eval scope).
@@ -137,9 +113,9 @@ Items 1+3 alone would bring `ingest` to ~30 (target) and mixed to ~44; item 2 cl
 
 ## Forward references for main session
 
-Suggested Wave 3-5 sub-issues to file under [#40](https://github.com/vamseeachanta/llm-wiki/issues/40):
+Wave 3-5 sub-issues filed under [#40](https://github.com/vamseeachanta/llm-wiki/issues/40):
 
-1. **License-verification sub-issue** — per-document license check for the 10 `defer` rows (A3, A7, A22, A25, A26, A28, A29, A31, A34, plus the Kansas OFR archive entry-point). Outcome: promote to `ingest` or confirm `skip`.
-2. **Kansas Geological Survey reuse-permission request** — single email/contact to KGS confirming bulk-reuse-under-attribution for the Log Analysis bulletin (A19–A21) before Wave 3 authoring extracts content.
-3. **arXiv expansion sub-issue** — targeted search of arXiv `physics.geo-ph` + `stat.ML` for additional CC-BY-licensed well-log machine-learning papers to close the mixed-quality gap to ≥50.
-4. **Corpus-mismatch documentation note** — record under `docs/governance/` that `/mnt/ace/rock-oil-field/` is wrong-domain for reservoir-engineering (it's subsea/marine offshore engineering) so the next "walk local for X" task doesn't redundantly walk these 383 files. This finding affects scope assumptions in the original plan body.
+1. **[#96](https://github.com/vamseeachanta/llm-wiki/issues/96) — License-verification sub-issue** — per-document license check for the 10 `defer` rows (A3, A7, A22, A25, A26, A28, A29, A31, A34, plus the Kansas OFR archive entry-point). Outcome: promote to `ingest` or confirm `skip`. **Status:** `status:plan-approved` 2026-05-17.
+2. **[#98](https://github.com/vamseeachanta/llm-wiki/issues/98) — Kansas Geological Survey reuse-permission request** — single email/contact to KGS confirming bulk-reuse-under-attribution for the Log Analysis bulletin (A19–A21) before Wave 3 authoring extracts content. **Status:** `status:plan-approved` 2026-05-17.
+3. **[#97](https://github.com/vamseeachanta/llm-wiki/issues/97) — arXiv expansion sub-issue** — targeted search of arXiv `physics.geo-ph` + `stat.ML` for additional CC-BY-licensed well-log machine-learning papers to close the mixed-quality gap to ≥50. **Status:** `status:plan-approved` 2026-05-17.
+4. **[#99](https://github.com/vamseeachanta/llm-wiki/issues/99) — Corpus-mismatch documentation note** — originally proposed; **CLOSED as obsolete 2026-05-17** per user reframing: the local candidate directory is correctly-domain for its actual purpose (off-repo data infrastructure), and the existing off-repo data-layer governance boundary already applies — no new `docs/governance/` note in llm-wiki was needed. Phase B redaction in this manifest is the appropriate remediation; recorded above.
