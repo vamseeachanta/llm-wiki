@@ -2,7 +2,7 @@
 title: "API MPMS Chapter 20 — Allocation Measurement"
 code_id: api-mpms-ch-20
 publisher: American Petroleum Institute
-revision: "verify-at-publish-time"
+revision: "Multi-part standard (API Chapter 20 Sections 1-5). Section 20.1 1st ed. 1993 (R2024, incl. Add. 1/2/3 + Errata 1 2022); Section 20.2 1st ed. 2016 (R2022); Section 20.3 2nd ed. 2013 (R2018) — 2024 ed. published, contractual pin varies; Section 20.4 1st ed.; Section 20.5 1st ed. 2017 (R2023 incl. Errata 1). Verified against API publications catalog (api.org) + Accuris / Globalspec aggregator metadata 2026-05-16. Confidence: MEDIUM (canonical api.org catalog PDF binary, verified via aggregator cross-confirmation)."
 jurisdiction: international
 tags: [standard, api, mpms, allocation-measurement, allocation-by-difference, allocation-by-proportion, uncertainty-allocation, production-accounting, custody-transfer-bridge]
 sources:

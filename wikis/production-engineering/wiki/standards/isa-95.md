@@ -2,7 +2,7 @@
 title: "ISA-95 — Enterprise-Control System Integration"
 code_id: isa-95
 publisher: "International Society of Automation (ISA) + IEC 62264 joint"
-revision: "verify-at-publish-time (multi-part standard with per-part revision dates; pin to specific part-and-revision before any defensible citation)"
+revision: "Multi-part standard. Part 1 ANSI/ISA-95.00.01-2025 (IEC 62264-1 Mod); Part 2 ANSI/ISA-95.00.02-2018; Part 3 ANSI/ISA-95.00.03-2013 (IEC 62264-3 Mod); Part 4 ANSI/ISA-95.00.04-2018; Part 5 ANSI/ISA-95.00.05-2018; Part 6 ANSI/ISA-95.00.06-2014; Part 7 ANSI/ISA-95.00.07-2017; Part 8 ANSI/ISA-95.00.08-2020. Verified against ISA standards catalog (isa.org) 2026-05-16. Confidence: HIGH. Operators should pin to specific part-and-revision in project specifications."
 jurisdiction: international
 tags: [isa-standard, iec-standard, enterprise-control, manufacturing-operations-management, level-hierarchy, scada-architecture, mes-integration]
 sources:
@@ -38,8 +38,10 @@ ISA-95 is organised into multiple parts, each addressing a specific aspect of en
 - **Part 4 — Object Models and Attributes for Manufacturing Operations Management Integration** — extends Part 2's data-model framework into the MES-integration scope
 - **Part 5 — Business-to-Manufacturing Transactions** — defines the transaction-level integration between enterprise (Level 4) and manufacturing (Level 3) systems
 - **Part 6 — Messaging Service Model** — addresses the messaging-infrastructure level of business-to-manufacturing integration
+- **Part 7 — Alias Service Model** (ANSI/ISA-95.00.07-2017) — defines an alias service for identifier mapping across the integration domains addressed by the standard
+- **Part 8 — Information Exchange Profiles** (ANSI/ISA-95.00.08-2020) — defines information-exchange profiles for the Level 3 / Level 4 transactions, building on Parts 2, 4, and 5
 
-Per-part revisions are independently published; operators citing ISA-95 in a specification document should pin to the specific part-and-revision applicable to the project. The `verify-at-publish-time` revision field on this page reflects that ISA-95's multi-part publication history makes "the current revision of ISA-95" ambiguous without part-and-date qualification.
+Per-part revisions are independently published; operators citing ISA-95 in a specification document should pin to the specific part-and-revision applicable to the project. Per-part revisions verified 2026-05-16 against isa.org standards catalog (see frontmatter `revision` field for current per-part publication metadata). The 2025 revision of Part 1 (ANSI/ISA-95.00.01-2025) is the most consequential recent change, addressing specific functions in the enterprise and tightening the boundary framing between enterprise and manufacturing-and-control domains; the structural Level 0-4 hierarchy and Personnel / Material / Equipment / Process-segment data-model entities described elsewhere on this page survive the 2025 revision unchanged.
 
 ## The Level 0-4 control hierarchy
 
@@ -109,7 +111,7 @@ The ISA-95 framework is the structural reference for the SCADA-architecture conc
 
 ## Notes
 
-- ISA-95 is a multi-part standard with per-part revision dates. The `revision` frontmatter field is set to `verify-at-publish-time` because there is no single "current ISA-95 revision" — the operator specifying ISA-95 in a project document should pin to the specific part and revision (e.g. "ANSI/ISA-95.00.01-2010" for Part 1, with similar specificity for other parts). Different parts have been revised on different schedules.
+- ISA-95 is a multi-part standard with per-part revision dates. The `revision` frontmatter field carries the verified per-part publication metadata as of 2026-05-16 — the operator specifying ISA-95 in a project document should pin to the specific part and revision (e.g. "ANSI/ISA-95.00.01-2025" for Part 1, with similar specificity for other parts). Different parts have been revised on different schedules; Part 1's 2025 revision is the most recent.
 - ISA-95 and IEC 62264 are **the same standard** with different publication numbers; ISA is the originating body, IEC publishes the same content as IEC 62264 for international adoption. Different operator and integrator communities use the two numbers interchangeably.
 - The Level 0-4 hierarchy descends from the Purdue Reference Model for CIM (Williams 1989); the ISA-95 framing is the modern operationalised version of the Purdue conceptual framework.
 - The standard is paywalled. This wiki paraphrases the structural intent and references the standard for operators who already have a licensed copy. No verbatim text reproduced.
